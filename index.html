@@ -13,9 +13,16 @@
   <link rel="stylesheet" href="styles.css">
   <script>
     (() => {
-      const theme = localStorage.getItem("theme");
-      if (theme === "dark" || (!theme && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-        document.documentElement.classList.add("dark-theme");
+      try {
+        const theme = localStorage.getItem("theme");
+        if (theme === "dark" || (!theme && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.documentElement.classList.add("dark-theme");
+        }
+      } catch (e) {
+        // Fallback to system preference if localStorage is blocked
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          document.documentElement.classList.add("dark-theme");
+        }
       }
     })();
   </script>

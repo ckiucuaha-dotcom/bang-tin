@@ -361,7 +361,11 @@
     if (!btn) return;
     btn.addEventListener("click", () => {
       const isDark = document.documentElement.classList.toggle("dark-theme");
-      localStorage.setItem("theme", isDark ? "dark" : "light");
+      try {
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+      } catch (e) {
+        console.warn("localStorage is blocked, theme preference will not persist:", e);
+      }
     });
   }
 
