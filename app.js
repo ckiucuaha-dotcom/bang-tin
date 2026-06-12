@@ -357,16 +357,7 @@
   // ---------- theme switcher ----------
 
   function initThemeToggle() {
-    const btn = $("#theme-toggle");
-    if (!btn) return;
-    btn.addEventListener("click", () => {
-      const isDark = document.documentElement.classList.toggle("dark-theme");
-      try {
-        localStorage.setItem("theme", isDark ? "dark" : "light");
-      } catch (e) {
-        console.warn("localStorage is blocked, theme preference will not persist:", e);
-      }
-    });
+    // Đã được xử lý bằng inline onclick trong index.html để đảm bảo hoạt động 100% độc lập
   }
 
   // ---------- boot ----------
