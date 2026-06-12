@@ -65,11 +65,22 @@
   function reveal(rootSel) {
     const root = $(rootSel);
     if (!root) return;
-    [...root.children].forEach((el, i) => {
+    const els = [...root.children];
+    els.forEach((el, i) => {
       el.classList.add("reveal");
       el.style.setProperty("--i", Math.min(i, 6));
       revealIO.observe(el);
     });
+    // Lưới an toàn: nếu observer không kích hoạt (vd nhảy thẳng anchor tới mục cuối,
+    // nội dung nạp sau khi trình duyệt đã scroll), ép hiện để không kẹt opacity:0.
+    setTimeout(() => {
+      els.forEach((el) => {
+        if (!el.classList.contains("in")) {
+          revealIO.unobserve(el);
+          el.classList.add("in");
+        }
+      });
+    }, 1200);
   }
 
   // ---------- staleness ----------
