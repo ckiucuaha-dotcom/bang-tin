@@ -1,88 +1,105 @@
 {
-  "updated_at": "2026-06-12T00:34:25Z",
-  "updated_at_vn": "07:34 12/06/2026",
-  "session_date": "2026-06-11",
-  "data_quality": "live",
+  "updated_at": "2026-06-12T09:00:00Z",
+  "updated_at_vn": "16:00 12/06/2026",
+  "session_date": "2026-06-12",
+  "data_quality": "fallback_web",
   "vnindex": {
-    "close": 1798.61,
-    "change": -5.1,
-    "change_pct": -0.28,
-    "note": "Phiên 11/6 giảm nhẹ do áp lực từ nhóm vốn hóa lớn; thanh khoản thấp nhất 4 năm (11.301 tỷ đồng), khối ngoại bán ròng hơn 512 tỷ."
+    "close": 1791.65,
+    "change": -6.96,
+    "change_pct": -0.39,
+    "note": "Phiên 12/6 đảo chiều giảm cuối phiên dù từng vượt 1.800 điểm, áp lực bán từ nhóm BĐS (VIC, VHM, VRE) kéo VN-Index mất mốc tâm lý; thanh khoản hồi phục mạnh +57% lên 16.409 tỷ, khối ngoại bán ròng 486 tỷ."
   },
   "holdings": [
     {
       "ticker": "FPT",
       "qty": 700,
       "avg_cost": 91470,
-      "price": 73100,
-      "change_pct": -1.48,
-      "value": 51170000,
-      "pnl": -12859000,
-      "pnl_pct": -20.08,
+      "price": 73200,
+      "change_pct": 0.14,
+      "value": 51240000,
+      "pnl": -12789000,
+      "pnl_pct": -19.97,
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
-      "comment": "Đang lỗ 20%, giá đã giảm 26% trong 1 năm nhưng vẫn cách vùng cắt lỗ 68.000 khoảng 7%. Tuần qua hồi nhẹ +4,5% - giữ và theo dõi kỷ luật mốc 71.400 (stoploss +5%)."
+      "comment": "Lỗ 19,97%; nhóm phần mềm tăng 0,51% phiên 12/6 nhưng khối ngoại và tự doanh bán ròng FPT liên tục trong tuần - không tăng thêm vị thế. Giá cách stoploss 68.000 khoảng 7,6%, theo dõi ngưỡng 71.400 (stoploss+5%)."
     },
     {
       "ticker": "SSB",
       "qty": 2892,
       "avg_cost": 13990,
       "price": 14500,
-      "change_pct": 0.69,
+      "change_pct": 0.0,
       "value": 41934000,
       "pnl": 1474920,
       "pnl_pct": 3.65,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Lãi nhẹ 3,65%, đi ngược thị trường phiên 11/6 (+0,69%). Còn cách target 18.000 khá xa - tiếp tục nắm giữ."
+      "comment": "Lãi 3,65%; nhóm ngân hàng tăng 0,17% phiên 12/6, SSB trong nhóm mã xanh. Tiếp tục nắm giữ, target 18.000 còn xa nhưng xu hướng ổn định."
     }
   ],
   "totals": {
     "cost": 104488080,
-    "value": 93104000,
-    "pnl": -11384080,
-    "pnl_pct": -10.9
+    "value": 93174000,
+    "pnl": -11314080,
+    "pnl_pct": -10.83
   },
   "watchlist": [
-    {"ticker": "ACB", "price": 26500, "change_pct": 0.0, "comment": "Đi ngang, chưa có tín hiệu vào tiền rõ ràng khi thanh khoản toàn thị trường yếu."},
-    {"ticker": "HPG", "price": 23300, "change_pct": -1.27, "comment": "Giảm theo thị trường; chờ vùng giá hấp dẫn hơn hoặc tín hiệu thanh khoản cải thiện."},
-    {"ticker": "MBB", "price": 24750, "change_pct": 0.2, "comment": "Giữ giá tốt trong phiên đỏ - đáng theo dõi nếu thị trường cân bằng trở lại."}
+    {
+      "ticker": "ACB",
+      "price": 26950,
+      "change_pct": 1.70,
+      "comment": "Thanh khoản bùng nổ gần 1.650 tỷ - cao nhất toàn thị trường, khối ngoại mua ròng 50 tỷ. Tín hiệu tích cực rõ, theo dõi đầu tuần 15/6 xem có xác nhận bứt phá."
+    },
+    {
+      "ticker": "HPG",
+      "price": 23300,
+      "change_pct": 0.0,
+      "comment": "Giữ giá tham chiếu trong phiên biến động; ngành thép chưa có catalyst rõ ràng, chưa có điểm vào hấp dẫn."
+    },
+    {
+      "ticker": "MBB",
+      "price": 25150,
+      "change_pct": 1.62,
+      "comment": "Tăng mạnh nhất nhóm ngân hàng (+1,62%), đóng góp tích cực +3,83 điểm cho VN-Index; khối ngoại bán ròng 59 tỷ nhưng giá vẫn tăng tốt - cung cầu nội địa mạnh."
+    }
   ],
   "gold": {
-    "sjc_buy": 133400000,
-    "sjc_sell": 138400000,
-    "note": "SJC sáng 12/6: 133,4-138,4 triệu/lượng, tăng 100.000đ so phiên trước dù vàng thế giới chịu áp lực vì lạm phát Mỹ nóng hơn dự báo."
+    "sjc_buy": 142400000,
+    "sjc_sell": 145400000,
+    "note": "SJC chiều 12/6 bật tăng mạnh sau chuỗi ngày giảm: tăng 9 triệu chiều mua lên 142,4 triệu và 7 triệu chiều bán lên 145,4 triệu/lượng; chênh lệch mua-bán thu hẹp còn 3 triệu."
   },
   "news_vn": [
     {
-      "title": "Chứng khoán 11/6: Áp lực từ vốn hóa lớn kéo VN-Index lùi bước",
-      "summary": "VN-Index giảm 5,1 điểm (-0,28%) còn 1.798,61; HNX-Index -0,35%. Toàn thị trường 147 mã tăng, 207 mã giảm.",
+      "title": "Chứng khoán ngày 12/6: Áp lực từ nhóm bất động sản khiến VN-Index giảm gần 7 điểm",
+      "summary": "VN-Index đảo chiều mất 6,96 điểm (-0,39%) còn 1.791,65 điểm vào cuối phiên dù từng vượt 1.800 điểm; nhóm BĐS (VIC, VHM, VRE) là nguyên nhân chính kéo thị trường đi xuống trong khi nhóm ngân hàng giữ sắc xanh.",
       "source": "Báo Nhân Dân",
-      "url": "https://nhandan.vn/infographic-chung-khoan-ngay-116-vn-index-giam-510-diem-khoi-luong-giao-dich-thap-post968672.html"
+      "url": "https://baomoi.com/chung-khoan-ngay-12-6-ap-luc-tu-nhom-bat-dong-san-khien-vn-index-giam-gan-7-diem-c55380544.epi"
     },
     {
-      "title": "Thanh khoản ngày 11/6 thấp nhất 4 năm",
-      "summary": "Tổng giá trị giao dịch 3 sàn chỉ đạt hơn 11.301 tỷ đồng - mức thấp nhất 4 năm, cho thấy dòng tiền đứng ngoài quan sát.",
-      "source": "Báo Mới",
-      "url": "https://baomoi.com/thanh-khoan-chung-khoan-ngay-11-6-thap-nhat-4-nam-c55371950.epi"
+      "title": "Thanh khoản cải thiện, nhưng VN-Index vẫn giảm trong phiên ngày 12/6",
+      "summary": "Thanh khoản phiên 12/6 tăng mạnh 57% lên 16.409 tỷ đồng, tín hiệu dòng tiền hồi phục rõ so phiên thấp nhất 4 năm hôm qua; tuy nhiên VN-Index không giữ được đà tăng trước áp lực bán cuối phiên từ nhóm vốn hóa lớn.",
+      "source": "Tin nhanh chứng khoán",
+      "url": "https://www.tinnhanhchungkhoan.vn/thanh-khoan-cai-thien-nhung-vn-index-van-giam-trong-phien-ngay-126-post392246.html"
     },
     {
-      "title": "VN-Index giảm nhẹ, rủi ro rung lắc tiếp diễn ngày 12/6",
-      "summary": "Các công ty chứng khoán nhận định rủi ro rung lắc còn tiếp diễn trong phiên 12/6; khối ngoại bán ròng hơn 512 tỷ tập trung NVL, VHM, VIC, TCB, VPB.",
-      "source": "VnEconomy",
-      "url": "https://vneconomy.vn/vn-index-giam-nhe-rui-ro-rung-lac-tiep-dien.htm"
+      "title": "Cổ phiếu ACB bùng nổ thanh khoản trong ngày VN-Index mất mốc 1.800 điểm",
+      "summary": "ACB đạt thanh khoản kỷ lục gần 1.650 tỷ đồng - cao nhất toàn thị trường; khối ngoại mua ròng ACB gần 50 tỷ trong khi MBB bị bán ròng 59 tỷ nhưng giá MBB vẫn tăng tốt nhờ cầu nội địa mạnh.",
+      "source": "Tuổi Trẻ",
+      "url": "https://tuoitre.vn/co-phieu-acb-bung-no-thanh-khoan-trong-ngay-vn-index-mat-moc-1-800-diem-20260612153654356.htm"
     }
   ],
   "advice": {
-    "summary": "Danh mục đang lỗ 10,9% (chủ yếu do FPT -20%). Thị trường đang ở trạng thái phòng thủ: thanh khoản thấp nhất 4 năm, khối ngoại bán ròng - không phải lúc bắt đáy hay giải ngân mạnh. Ưu tiên giữ kỷ luật ngưỡng cắt lỗ và quan sát.",
+    "summary": "Danh mục lỗ 10,83%, cải thiện nhẹ so phiên trước nhờ FPT tăng nhẹ 0,14%. Tuần 08-12/6 kết thúc trong điều chỉnh với nhận định chung 'nhịp điều chỉnh chưa dừng lại'; thanh khoản phiên 12/6 hồi phục +57% là tín hiệu dòng tiền quay lại nhưng cần xác nhận đầu tuần 15/6. Không hành động vội, ưu tiên quan sát và bảo vệ vị thế hiện tại.",
     "actions": [
-      "FPT: GIỮ nhưng đặt cảnh báo nghiêm tại 71.400đ (stoploss +5%) - nếu thủng, chuyển sang THEO DÕI SÁT và chuẩn bị kịch bản cắt lỗ 68.000đ đã đặt ra.",
-      "SSB: GIỮ, đang lãi 3,65% và khỏe hơn thị trường - chưa cần hành động, target 18.000đ.",
-      "Tiền mới: ĐỨNG NGOÀI khi thanh khoản chưa cải thiện; không bình quân giá xuống FPT lúc này.",
-      "Watchlist: MBB giữ giá tốt nhất trong phiên đỏ - theo dõi thêm 1-2 phiên; ACB/HPG chưa có điểm vào.",
-      "Vàng: đang ở vùng đỉnh lịch sử (138,4 triệu/lượng), chênh lệch mua-bán 5 triệu rất rộng - không phải điểm mua tích lũy đẹp."
+      "FPT: GIỮ nhưng đặt cảnh báo nghiêm tại 71.400 (stoploss+5%); khối ngoại và tự doanh đang bán ròng FPT liên tục trong tuần - không tăng thêm vị thế.",
+      "SSB: GIỮ, đang lãi 3,65%, nhóm ngân hàng xanh phiên 12/6 hỗ trợ; target 18.000 còn xa nhưng xu hướng ổn.",
+      "Tiền mới: Thanh khoản cải thiện rõ là tín hiệu tích cực; chờ đầu tuần 15/6 xác nhận trước khi giải ngân thêm.",
+      "ACB (watchlist): Bùng nổ thanh khoản kỷ lục và khối ngoại mua ròng - tín hiệu mạnh nhất tuần; xem xét vào một phần nhỏ nếu 15/6 tiếp tục xanh và giữ trên 26.500.",
+      "MBB (watchlist): Tăng tốt nhất nhóm ngân hàng (+1,62%), đóng góp +3,83 điểm cho chỉ số; xem xét vào thử nếu 15/6 xanh tiếp trên 25.000.",
+      "HPG (watchlist): Chưa có catalyst rõ ràng, đứng ngoài chờ thêm dữ liệu.",
+      "Vàng: SJC tăng sốc +9 triệu trong ngày lên 142,4-145,4 triệu/lượng; không phải điểm mua tích lũy khi chênh lệch còn 3 triệu và biến động cao."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
