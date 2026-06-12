@@ -1,0 +1,69 @@
+{
+  "project": "bang-tin",
+  "overall_status": "IN_PROGRESS",
+  "tests": [
+    {
+      "id": "T1",
+      "name": "JSON schema hợp lệ",
+      "cmd": "python3 -m json.tool data/news.json && python3 -m json.tool data/market.json + kiểm key bắt buộc",
+      "expect": "Đủ key bắt buộc, đúng kiểu, mảng đủ số lượng tối thiểu",
+      "status": "PASS"
+    },
+    {
+      "id": "T2",
+      "name": "UI render đủ 5 section",
+      "cmd": "python3 -m http.server + kiểm DOM render (node/curl)",
+      "expect": "5 section có nội dung, không section nào trống",
+      "status": "PASS"
+    },
+    {
+      "id": "T3",
+      "name": "Mobile 375px không tràn ngang",
+      "cmd": "Kiểm CSS: mobile-first 1 cột, grid collapse < 768px",
+      "expect": "Không tràn ngang, holdings dạng card đọc được",
+      "status": "PASS"
+    },
+    {
+      "id": "T4",
+      "name": "Staleness badge",
+      "cmd": "Giả lập updated_at lùi 3 ngày (bản copy tạm, không commit)",
+      "expect": "Badge 'Dữ liệu cũ' hiện",
+      "status": "PASS"
+    },
+    {
+      "id": "T5",
+      "name": "1 file data lỗi không sập trang",
+      "cmd": "Serve thiếu market.json, kiểm section khác vẫn render",
+      "expect": "Section lỗi báo lỗi, 4 section còn lại vẫn render",
+      "status": "PASS"
+    },
+    {
+      "id": "T6",
+      "name": "Số học PnL đúng",
+      "cmd": "Script kiểm value=qty*price, pnl=value-cost, totals=tổng dòng",
+      "expect": "Sai số 0",
+      "status": "PASS"
+    },
+    {
+      "id": "T7",
+      "name": "GitHub Pages live",
+      "cmd": "curl -s -o /dev/null -w '%{http_code}' https://ckiucuaha-dotcom.github.io/bang-tin/",
+      "expect": "200 + HTML chứa 'Bảng tin'",
+      "status": "PENDING"
+    },
+    {
+      "id": "T8",
+      "name": "Routine sáng end-to-end",
+      "cmd": "Run-now routine bang-tin-sang, chờ, git pull, kiểm commit mới + T1 trên news.json",
+      "expect": "Commit mới, JSON hợp lệ, tin có ngày gần đây",
+      "status": "PENDING"
+    },
+    {
+      "id": "T9",
+      "name": "Routine chiều end-to-end",
+      "cmd": "Run-now routine bang-tin-chieu, kiểm market.json: giá > 0, data_quality đúng, disclaimer nguyên văn",
+      "expect": "PASS",
+      "status": "PENDING"
+    }
+  ]
+}

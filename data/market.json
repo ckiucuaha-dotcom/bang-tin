@@ -1,0 +1,89 @@
+{
+  "updated_at": "2026-06-12T00:34:25Z",
+  "updated_at_vn": "07:34 12/06/2026",
+  "session_date": "2026-06-11",
+  "data_quality": "live",
+  "vnindex": {
+    "close": 1798.61,
+    "change": -5.1,
+    "change_pct": -0.28,
+    "note": "Phiên 11/6 giảm nhẹ do áp lực từ nhóm vốn hóa lớn; thanh khoản thấp nhất 4 năm (11.301 tỷ đồng), khối ngoại bán ròng hơn 512 tỷ."
+  },
+  "holdings": [
+    {
+      "ticker": "FPT",
+      "qty": 700,
+      "avg_cost": 91470,
+      "price": 73100,
+      "change_pct": -1.48,
+      "value": 51170000,
+      "pnl": -12859000,
+      "pnl_pct": -20.08,
+      "target": 116000,
+      "stoploss": 68000,
+      "action": "GIỮ",
+      "comment": "Đang lỗ 20%, giá đã giảm 26% trong 1 năm nhưng vẫn cách vùng cắt lỗ 68.000 khoảng 7%. Tuần qua hồi nhẹ +4,5% - giữ và theo dõi kỷ luật mốc 71.400 (stoploss +5%)."
+    },
+    {
+      "ticker": "SSB",
+      "qty": 2892,
+      "avg_cost": 13990,
+      "price": 14500,
+      "change_pct": 0.69,
+      "value": 41934000,
+      "pnl": 1474920,
+      "pnl_pct": 3.65,
+      "target": 18000,
+      "stoploss": 12500,
+      "action": "GIỮ",
+      "comment": "Lãi nhẹ 3,65%, đi ngược thị trường phiên 11/6 (+0,69%). Còn cách target 18.000 khá xa - tiếp tục nắm giữ."
+    }
+  ],
+  "totals": {
+    "cost": 104488080,
+    "value": 93104000,
+    "pnl": -11384080,
+    "pnl_pct": -10.9
+  },
+  "watchlist": [
+    {"ticker": "ACB", "price": 26500, "change_pct": 0.0, "comment": "Đi ngang, chưa có tín hiệu vào tiền rõ ràng khi thanh khoản toàn thị trường yếu."},
+    {"ticker": "HPG", "price": 23300, "change_pct": -1.27, "comment": "Giảm theo thị trường; chờ vùng giá hấp dẫn hơn hoặc tín hiệu thanh khoản cải thiện."},
+    {"ticker": "MBB", "price": 24750, "change_pct": 0.2, "comment": "Giữ giá tốt trong phiên đỏ - đáng theo dõi nếu thị trường cân bằng trở lại."}
+  ],
+  "gold": {
+    "sjc_buy": 133400000,
+    "sjc_sell": 138400000,
+    "note": "SJC sáng 12/6: 133,4-138,4 triệu/lượng, tăng 100.000đ so phiên trước dù vàng thế giới chịu áp lực vì lạm phát Mỹ nóng hơn dự báo."
+  },
+  "news_vn": [
+    {
+      "title": "Chứng khoán 11/6: Áp lực từ vốn hóa lớn kéo VN-Index lùi bước",
+      "summary": "VN-Index giảm 5,1 điểm (-0,28%) còn 1.798,61; HNX-Index -0,35%. Toàn thị trường 147 mã tăng, 207 mã giảm.",
+      "source": "Báo Nhân Dân",
+      "url": "https://nhandan.vn/infographic-chung-khoan-ngay-116-vn-index-giam-510-diem-khoi-luong-giao-dich-thap-post968672.html"
+    },
+    {
+      "title": "Thanh khoản ngày 11/6 thấp nhất 4 năm",
+      "summary": "Tổng giá trị giao dịch 3 sàn chỉ đạt hơn 11.301 tỷ đồng - mức thấp nhất 4 năm, cho thấy dòng tiền đứng ngoài quan sát.",
+      "source": "Báo Mới",
+      "url": "https://baomoi.com/thanh-khoan-chung-khoan-ngay-11-6-thap-nhat-4-nam-c55371950.epi"
+    },
+    {
+      "title": "VN-Index giảm nhẹ, rủi ro rung lắc tiếp diễn ngày 12/6",
+      "summary": "Các công ty chứng khoán nhận định rủi ro rung lắc còn tiếp diễn trong phiên 12/6; khối ngoại bán ròng hơn 512 tỷ tập trung NVL, VHM, VIC, TCB, VPB.",
+      "source": "VnEconomy",
+      "url": "https://vneconomy.vn/vn-index-giam-nhe-rui-ro-rung-lac-tiep-dien.htm"
+    }
+  ],
+  "advice": {
+    "summary": "Danh mục đang lỗ 10,9% (chủ yếu do FPT -20%). Thị trường đang ở trạng thái phòng thủ: thanh khoản thấp nhất 4 năm, khối ngoại bán ròng - không phải lúc bắt đáy hay giải ngân mạnh. Ưu tiên giữ kỷ luật ngưỡng cắt lỗ và quan sát.",
+    "actions": [
+      "FPT: GIỮ nhưng đặt cảnh báo nghiêm tại 71.400đ (stoploss +5%) - nếu thủng, chuyển sang THEO DÕI SÁT và chuẩn bị kịch bản cắt lỗ 68.000đ đã đặt ra.",
+      "SSB: GIỮ, đang lãi 3,65% và khỏe hơn thị trường - chưa cần hành động, target 18.000đ.",
+      "Tiền mới: ĐỨNG NGOÀI khi thanh khoản chưa cải thiện; không bình quân giá xuống FPT lúc này.",
+      "Watchlist: MBB giữ giá tốt nhất trong phiên đỏ - theo dõi thêm 1-2 phiên; ACB/HPG chưa có điểm vào.",
+      "Vàng: đang ở vùng đỉnh lịch sử (138,4 triệu/lượng), chênh lệch mua-bán 5 triệu rất rộng - không phải điểm mua tích lũy đẹp."
+    ],
+    "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
+  }
+}

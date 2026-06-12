@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0c0e11">
+  <title>Bảng Tin</title>
+  <meta name="description" content="Bảng tin cá nhân: AI, GitHub trending, công nghệ, chứng khoán Việt Nam và xu hướng TikTok. Tự cập nhật 2 lần mỗi ngày.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead container">
+  <h1>Bảng tin<span class="dot">.</span></h1>
+  <p class="masthead-date" id="today"></p>
+  <div class="update-badges" id="update-badges"></div>
+</header>
+
+<nav class="nav">
+  <div class="container nav-inner" id="nav">
+    <a href="#danh-muc">Danh mục</a>
+    <a href="#ai">Tin AI</a>
+    <a href="#github">GitHub</a>
+    <a href="#tiktok">TikTok</a>
+    <a href="#cong-nghe">Công nghệ</a>
+  </div>
+</nav>
+
+<main class="container">
+
+  <section id="danh-muc">
+    <div class="section-head">
+      <h2>Danh mục &amp; thị trường</h2>
+      <span class="side-note" id="session-note"></span>
+    </div>
+    <div id="market-body">
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+    </div>
+  </section>
+
+  <section id="ai">
+    <div class="section-head">
+      <h2>Tin AI</h2>
+    </div>
+    <div id="ai-body">
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+    </div>
+  </section>
+
+  <section id="github">
+    <div class="section-head">
+      <h2>GitHub trending</h2>
+    </div>
+    <div id="github-body">
+      <div class="skeleton"></div>
+    </div>
+  </section>
+
+  <section id="tiktok">
+    <div class="section-head">
+      <h2>Xu hướng TikTok</h2>
+      <span class="side-note">lọc theo kênh @tracuami</span>
+    </div>
+    <div id="tiktok-body">
+      <div class="skeleton"></div>
+    </div>
+  </section>
+
+  <section id="cong-nghe">
+    <div class="section-head">
+      <h2>Công nghệ</h2>
+    </div>
+    <div id="tech-body">
+      <div class="skeleton"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    Cập nhật tự động lúc 7h00 và 15h30 mỗi ngày · <a href="https://github.com/ckiucuaha-dotcom/bang-tin" rel="noopener">Nguồn dữ liệu</a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
