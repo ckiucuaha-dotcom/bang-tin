@@ -235,7 +235,7 @@ html.dark-theme .theme-toggle-btn .moon-icon { display: none; }
   font-weight: 500;
   color: var(--text-2);
   text-decoration: none;
-  transition: color 0.2s var(--ease), background 0.2s var(--ease), border-color 0.2s var(--ease);
+  transition: color 0.2s var(--ease), background 0.2s var(--ease), border-color 0.2s var(--ease), transform 0.1s var(--ease);
 }
 
 .nav-inner a:hover { color: var(--text); background: var(--surface-2); }
@@ -244,6 +244,10 @@ html.dark-theme .theme-toggle-btn .moon-icon { display: none; }
   color: var(--accent);
   background: var(--accent-soft);
   border-color: var(--accent-line);
+}
+
+.nav-inner a:active {
+  transform: scale(0.96);
 }
 
 /* ---------- Sections ---------- */

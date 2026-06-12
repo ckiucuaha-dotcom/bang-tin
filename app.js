@@ -342,6 +342,10 @@
     const byId = Object.fromEntries(links.map((a) => [a.getAttribute("href").slice(1), a]));
     const io = new IntersectionObserver(
       (entries) => {
+        // Nếu đã cuộn xuống sát đáy trang, bỏ qua cập nhật từ observer để scroll listener xử lý
+        const isAtBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 50;
+        if (isAtBottom) return;
+
         for (const e of entries) {
           if (e.isIntersecting) {
             links.forEach((a) => a.classList.remove("active"));
@@ -352,6 +356,15 @@
       { rootMargin: "-20% 0px -70% 0px" }
     );
     document.querySelectorAll("main section").forEach((s) => io.observe(s));
+
+    // Kích hoạt mục cuối cùng (Công nghệ) khi cuộn chạm đáy trang (tránh lỗi ngắt scroll-spy)
+    window.addEventListener("scroll", () => {
+      const isAtBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 50;
+      if (isAtBottom) {
+        links.forEach((a) => a.classList.remove("active"));
+        links[links.length - 1].classList.add("active");
+      }
+    }, { passive: true });
   }
 
   // ---------- theme switcher ----------
