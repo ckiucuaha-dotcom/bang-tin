@@ -3,7 +3,7 @@
    Một accent hổ phách, xanh/đỏ chỉ mang nghĩa tăng/giảm. */
 
 :root {
-  --bg: #f5f6f8;
+  --bg: #f9fafb; /* Sáng sủa và ấm nhẹ (warm paper) */
   --surface: #ffffff;
   --surface-2: #ebedf0;
   --surface-3: #dfe1e5;
@@ -231,10 +231,12 @@ html.dark-theme .theme-toggle-btn .moon-icon { display: none; }
   padding: 7px 15px;
   border-radius: 999px;
   border: 1px solid transparent;
-  font-size: 13.5px;
-  font-weight: 500;
+  font-size: 11px; /* Nhỏ gọn hơn kiểu tạp chí */
+  font-weight: 600;
   color: var(--text-2);
   text-decoration: none;
+  text-transform: uppercase; /* Viết hoa chuẩn tạp chí */
+  letter-spacing: 0.08em;    /* Khoảng cách chữ thưa nhẹ sang trọng */
   transition: color 0.2s var(--ease), background 0.2s var(--ease), border-color 0.2s var(--ease), transform 0.1s var(--ease);
 }
 
@@ -296,6 +298,18 @@ section { padding-top: 52px; }
   border: 1px solid var(--border-soft);
   border-radius: var(--radius);
   padding: 18px 20px;
+}
+
+/* Thêm đổ bóng mềm cao cấp cho Light Mode */
+.card, .ai-card, .gh-col {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02), 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+/* Loại bỏ đổ bóng trong Dark Mode để không bị đục màu nền */
+html.dark-theme .card,
+html.dark-theme .ai-card,
+html.dark-theme .gh-col {
+  box-shadow: none;
 }
 
 .card h3.card-title {
@@ -503,6 +517,29 @@ section { padding-top: 52px; }
   color: var(--muted);
 }
 
+/* Biểu đồ stop-loss cải tiến có nhãn giá động phía trên */
+.range-track-wrapper {
+  position: relative;
+  padding-top: 22px; /* Dành khoảng trống cho nhãn nổi */
+  margin-bottom: 4px;
+}
+
+.range-price-label {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  padding: 2px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: left 0.35s var(--ease);
+}
+
 .holding-comment { margin: 12px 0 0; font-size: 13.5px; color: var(--text-2); }
 
 /* Lời khuyên */
@@ -567,6 +604,37 @@ section { padding-top: 52px; }
 .gold-price small { font-size: 12px; color: var(--muted); font-weight: 500; }
 
 .gold-note { margin: 10px 0 0; font-size: 13px; color: var(--text-2); }
+
+/* Khung hiển thị vàng SJC kiểu widget chuyên nghiệp */
+.gold-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.gold-col-box {
+  background: var(--surface-2);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.gold-col-box .title {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.gold-col-box .val {
+  font-family: var(--mono);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent);
+}
 
 /* ---------- Hàng tin dạng editorial (tin VN + công nghệ) ---------- */
 
@@ -844,7 +912,17 @@ footer a { color: var(--text-2); }
 
   .gh-cols { grid-template-columns: 1fr 1fr; }
 
-  .tiktok-grid { grid-template-columns: 1fr 1fr; }
+  .tiktok-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Bento Grid: Thẻ đầu tiên chiếm 2 cột kèm nền màu nhấn nổi bật */
+  .tiktok-grid .trend-card:first-child {
+    grid-column: span 2;
+    background: var(--accent-soft);
+    border-color: var(--accent-line);
+  }
 
   .row-list.two-col {
     display: grid;

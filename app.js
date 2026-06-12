@@ -134,9 +134,12 @@
     const pos = (v) => Math.min(98, Math.max(2, ((v - lo) / (hi - lo)) * 100));
     return `
       <div class="range">
-        <div class="range-track">
-          <span class="range-cost" style="left:${pos(h.avg_cost)}%" title="Giá vốn ${vnd(h.avg_cost)}"></span>
-          <span class="range-marker" style="left:${pos(h.price)}%"></span>
+        <div class="range-track-wrapper">
+          <span class="range-price-label" style="left:${pos(h.price)}%">${vnd(h.price)}</span>
+          <div class="range-track">
+            <span class="range-cost" style="left:${pos(h.avg_cost)}%" title="Giá vốn ${vnd(h.avg_cost)}"></span>
+            <span class="range-marker" style="left:${pos(h.price)}%"></span>
+          </div>
         </div>
         <div class="range-labels">
           <span>Cắt lỗ <span class="num">${vnd(lo)}</span></span>
@@ -218,8 +221,16 @@
         </div>
         <div class="card">
           <h3 class="card-title">Vàng SJC</h3>
-          <span class="gold-price num">${num(toMillions((m.gold || {}).sjc_buy), { maximumFractionDigits: 1 })}
-            / ${num(toMillions((m.gold || {}).sjc_sell), { maximumFractionDigits: 1 })} <small>triệu/lượng</small></span>
+          <div class="gold-grid">
+            <div class="gold-col-box">
+              <div class="title">Mua vào</div>
+              <div class="val">${num(toMillions((m.gold || {}).sjc_buy), { maximumFractionDigits: 1 })} <span style="font-size:10px; font-weight:normal; color:var(--muted)">tr/lượng</span></div>
+            </div>
+            <div class="gold-col-box">
+              <div class="title">Bán ra</div>
+              <div class="val">${num(toMillions((m.gold || {}).sjc_sell), { maximumFractionDigits: 1 })} <span style="font-size:10px; font-weight:normal; color:var(--muted)">tr/lượng</span></div>
+            </div>
+          </div>
           <p class="gold-note">${esc((m.gold || {}).note || "")}</p>
         </div>
       </div>`;
