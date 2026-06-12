@@ -40,6 +40,30 @@
     }
   }
 
+  // ---------- reveal khi cuộn ----------
+
+  const revealIO = new IntersectionObserver(
+    (entries) => {
+      for (const e of entries) {
+        if (e.isIntersecting) {
+          e.target.classList.add("in");
+          revealIO.unobserve(e.target);
+        }
+      }
+    },
+    { rootMargin: "0px 0px -8% 0px" }
+  );
+
+  function reveal(rootSel) {
+    const root = $(rootSel);
+    if (!root) return;
+    [...root.children].forEach((el, i) => {
+      el.classList.add("reveal");
+      el.style.setProperty("--i", Math.min(i, 6));
+      revealIO.observe(el);
+    });
+  }
+
   // ---------- staleness ----------
 
   const HOUR = 3600 * 1000;
@@ -126,26 +150,27 @@
   function renderMarket(m) {
     const vni = m.vnindex || {};
     const t = m.totals || {};
+    const dir = t.pnl > 0 ? "is-up" : t.pnl < 0 ? "is-down" : "";
 
-    const strip = `
-      <div class="market-strip">
-        <div class="card stat">
-          <span class="label">VN-Index · phiên ${esc(m.session_date || "?")}</span>
-          <span class="value num">${num(vni.close, { maximumFractionDigits: 2 })}</span>
-          <span class="sub num ${trendCls(vni.change)}">${signed(vni.change)} (${pct(vni.change_pct)})</span>
+    const hero = `
+      <div class="pnl-hero ${dir}">
+        <div class="pnl-main">
+          <span class="label">Lãi/lỗ danh mục</span>
+          <span class="big num ${trendCls(t.pnl)}">${signed(t.pnl)}<span class="pct">${pct(t.pnl_pct)}</span></span>
         </div>
-        <div class="card stat">
-          <span class="label">Tổng danh mục</span>
-          <span class="value num">${vnd(t.value)}</span>
-          <span class="sub num">vốn ${vnd(t.cost)}</span>
+        <div class="pnl-side">
+          <span class="stat"><span class="label">Tổng giá trị</span>
+            <span class="value num">${vnd(t.value)}</span></span>
+          <span class="stat"><span class="label">Vốn</span>
+            <span class="value num">${vnd(t.cost)}</span></span>
+          <span class="stat"><span class="label">VN-Index</span>
+            <span class="value num">${num(vni.close, { maximumFractionDigits: 2 })}</span>
+            <span class="sub num ${trendCls(vni.change)}">${signed(vni.change)} (${pct(vni.change_pct)})</span></span>
         </div>
-        <div class="card stat">
-          <span class="label">Lãi/lỗ</span>
-          <span class="value num ${trendCls(t.pnl)}">${signed(t.pnl)}</span>
-          <span class="sub num ${trendCls(t.pnl)}">${pct(t.pnl_pct)}</span>
-        </div>
-        ${vni.note ? `<div class="card span-note"><p class="vnindex-note">${esc(vni.note)}</p></div>` : ""}
       </div>`;
+
+    const sessionLine = vni.note
+      ? `<p class="session-line">${esc(vni.note)}</p>` : "";
 
     const holdings = `
       <div class="holdings-grid">
@@ -173,26 +198,26 @@
             </div>`).join("")}
         </div>
         <div class="card">
-          <h3 class="card-title">Vàng SJC (triệu/lượng)</h3>
+          <h3 class="card-title">Vàng SJC</h3>
           <span class="gold-price num">${num((m.gold || {}).sjc_buy / 1e6, { maximumFractionDigits: 1 })}
-            / ${num((m.gold || {}).sjc_sell / 1e6, { maximumFractionDigits: 1 })}</span>
+            / ${num((m.gold || {}).sjc_sell / 1e6, { maximumFractionDigits: 1 })} <small>triệu/lượng</small></span>
           <p class="gold-note">${esc((m.gold || {}).note || "")}</p>
         </div>
       </div>`;
 
     const news = (m.news_vn || []).length ? `
-      <div class="news-list" style="margin-top:10px">
+      <div class="row-list" style="margin-top:14px">
         ${m.news_vn.map((n) => `
-          <a class="news-item" href="${esc(n.url)}" target="_blank" rel="noopener">
+          <a class="news-row" href="${esc(n.url)}" target="_blank" rel="noopener">
             <span class="title">${esc(n.title)}</span>
             <p class="summary">${esc(n.summary || "")}</p>
             <div class="meta"><span class="src">${esc(n.source || "")}</span></div>
           </a>`).join("")}
       </div>` : "";
 
-    $("#market-body").innerHTML = strip + holdings + advice + watch + news;
+    $("#market-body").innerHTML = hero + sessionLine + holdings + advice + watch + news;
+    reveal("#market-body");
 
-    // Badge cập nhật + cảnh báo
     const stale = m.session_date && m.session_date < lastTradingDate();
     addBadge(`Thị trường <strong>${esc(m.updated_at_vn || "?")}</strong>`, stale ? "stale" : "");
     if (stale) $("#session-note").textContent = `Phiên gần nhất: ${m.session_date}`;
@@ -201,45 +226,60 @@
 
   // ---------- news sections ----------
 
-  function newsItem(n, withWhy) {
+  function aiCard(n, featured) {
     return `
-      <a class="news-item" href="${esc(n.url)}" target="_blank" rel="noopener">
+      <a class="ai-card${featured ? " featured" : ""}" href="${esc(n.url)}" target="_blank" rel="noopener">
         <span class="title">${esc(n.title)}${n.hot ? '<span class="hot-chip">HOT</span>' : ""}</span>
         <p class="summary">${esc(n.summary || "")}</p>
-        ${withWhy && n.why_it_matters ? `<p class="why"><b>Vì sao quan trọng:</b> ${esc(n.why_it_matters)}</p>` : ""}
+        ${n.why_it_matters ? `<p class="why"><b>Vì sao quan trọng:</b> ${esc(n.why_it_matters)}</p>` : ""}
         <div class="meta"><span class="src">${esc(n.source || "")}</span>${n.published ? ` · ${esc(n.published)}` : ""}</div>
       </a>`;
   }
 
-  function repoItem(r) {
+  function newsRow(n) {
     return `
-      <a class="repo" href="${esc(r.url)}" target="_blank" rel="noopener">
-        <div class="repo-top">
+      <a class="news-row" href="${esc(n.url)}" target="_blank" rel="noopener">
+        <span class="title">${esc(n.title)}</span>
+        <p class="summary">${esc(n.summary || "")}</p>
+        <div class="meta"><span class="src">${esc(n.source || "")}</span>${n.published ? ` · ${esc(n.published)}` : ""}</div>
+      </a>`;
+  }
+
+  function repoRow(r, i) {
+    return `
+      <a class="repo-row" href="${esc(r.url)}" target="_blank" rel="noopener">
+        <span class="rank num">${i + 1}</span>
+        <span class="repo-body">
           <span class="repo-name">${esc(r.repo)}</span>
-          <span class="repo-gain num">+${vnd(r.stars_period)} ★</span>
-        </div>
-        <p class="repo-desc">${esc(r.desc || "")}</p>
-        <div class="repo-meta">${esc(r.lang || "")} · <span class="num">${vnd(r.stars)}</span> ★ tổng</div>
+          <p class="repo-desc">${esc(r.desc || "")}</p>
+          <span class="repo-meta">${esc(r.lang || "")} · <span class="num">${vnd(r.stars)}</span> ★</span>
+        </span>
+        <span class="repo-gain num">+${vnd(r.stars_period)} ★</span>
       </a>`;
   }
 
   function renderNews(d) {
-    $("#ai-body").innerHTML =
-      `<div class="news-list">${(d.ai || []).map((n) => newsItem(n, true)).join("")}</div>`;
+    const ai = d.ai || [];
+    $("#ai-body").innerHTML = `
+      <div class="ai-grid">
+        ${ai.map((n, i) => aiCard(n, i === 0)).join("")}
+      </div>`;
+    reveal("#ai-body .ai-grid");
 
     const gh = d.github || {};
     $("#github-body").innerHTML = `
       <div class="gh-cols">
         <div class="gh-col">
           <h3>Hôm nay</h3>
-          <div class="repo-list">${(gh.daily || []).map(repoItem).join("")}</div>
+          ${(gh.daily || []).map(repoRow).join("")}
         </div>
         <div class="gh-col">
           <h3>Tuần này</h3>
-          <div class="repo-list">${(gh.weekly || []).map(repoItem).join("")}</div>
+          ${(gh.weekly || []).map(repoRow).join("")}
         </div>
       </div>
       ${gh.trend_note ? `<div class="card trend-note"><p>${esc(gh.trend_note)}</p></div>` : ""}`;
+    reveal("#github-body");
 
     const tk = d.tiktok || {};
     $("#tiktok-body").innerHTML = `
@@ -262,9 +302,11 @@
             </div>`).join("")}
         </div>` : ""}
       ${tk.note ? `<div class="card tiktok-note"><p>${esc(tk.note)}</p></div>` : ""}`;
+    reveal("#tiktok-body");
 
     $("#tech-body").innerHTML =
-      `<div class="news-list two-col">${(d.tech || []).map((n) => newsItem(n, false)).join("")}</div>`;
+      `<div class="row-list two-col">${(d.tech || []).map(newsRow).join("")}</div>`;
+    reveal("#tech-body .row-list");
 
     const h = hoursSince(d.updated_at);
     const stale = h != null && h > 26;
