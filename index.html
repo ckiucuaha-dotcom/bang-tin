@@ -11,11 +11,30 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script>
+    (() => {
+      const theme = localStorage.getItem("theme");
+      if (theme === "dark" || (!theme && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        document.documentElement.classList.add("dark-theme");
+      }
+    })();
+  </script>
 </head>
 <body>
 
 <header class="masthead container">
-  <h1>Bảng tin<span class="dot">.</span></h1>
+  <div class="masthead-top">
+    <h1>Bảng tin<span class="dot">.</span></h1>
+    <button id="theme-toggle" class="theme-toggle-btn" aria-label="Đổi giao diện">
+      <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="4"></circle>
+        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+      </svg>
+      <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+      </svg>
+    </button>
+  </div>
   <p class="masthead-date" id="today"></p>
   <div class="update-badges" id="update-badges"></div>
 </header>
@@ -38,8 +57,12 @@
       <span class="side-note" id="session-note"></span>
     </div>
     <div id="market-body">
-      <div class="skeleton"></div>
-      <div class="skeleton"></div>
+      <!-- Premium structure-matching skeletons -->
+      <div class="skeleton-hero shimmer"></div>
+      <div class="holdings-grid">
+        <div class="skeleton-card shimmer"></div>
+        <div class="skeleton-card shimmer"></div>
+      </div>
     </div>
   </section>
 
@@ -48,8 +71,11 @@
       <h2>Tin AI</h2>
     </div>
     <div id="ai-body">
-      <div class="skeleton"></div>
-      <div class="skeleton"></div>
+      <div class="ai-grid">
+        <div class="skeleton-card shimmer" style="grid-column: 1 / -1; height: 160px;"></div>
+        <div class="skeleton-card shimmer"></div>
+        <div class="skeleton-card shimmer"></div>
+      </div>
     </div>
   </section>
 
@@ -58,7 +84,20 @@
       <h2>GitHub trending</h2>
     </div>
     <div id="github-body">
-      <div class="skeleton"></div>
+      <div class="gh-cols">
+        <div class="gh-col">
+          <div class="skeleton-title shimmer" style="width: 30%"></div>
+          <div class="skeleton-row shimmer"></div>
+          <div class="skeleton-row shimmer"></div>
+          <div class="skeleton-row shimmer"></div>
+        </div>
+        <div class="gh-col">
+          <div class="skeleton-title shimmer" style="width: 30%"></div>
+          <div class="skeleton-row shimmer"></div>
+          <div class="skeleton-row shimmer"></div>
+          <div class="skeleton-row shimmer"></div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -68,7 +107,10 @@
       <span class="side-note">lọc theo kênh @tracuami</span>
     </div>
     <div id="tiktok-body">
-      <div class="skeleton"></div>
+      <div class="tiktok-grid">
+        <div class="skeleton-card shimmer"></div>
+        <div class="skeleton-card shimmer"></div>
+      </div>
     </div>
   </section>
 
@@ -77,7 +119,11 @@
       <h2>Công nghệ</h2>
     </div>
     <div id="tech-body">
-      <div class="skeleton"></div>
+      <div class="row-list">
+        <div class="skeleton-row shimmer"></div>
+        <div class="skeleton-row shimmer"></div>
+        <div class="skeleton-row shimmer"></div>
+      </div>
     </div>
   </section>
 

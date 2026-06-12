@@ -62,13 +62,13 @@
     { rootMargin: "0px 0px -8% 0px" }
   );
 
-  function reveal(rootSel) {
-    const root = $(rootSel);
+  function reveal(selector, itemSelector) {
+    const root = $(selector);
     if (!root) return;
-    const els = [...root.children];
+    const els = itemSelector ? [...root.querySelectorAll(itemSelector)] : [...root.children];
     els.forEach((el, i) => {
       el.classList.add("reveal");
-      el.style.setProperty("--i", Math.min(i, 6));
+      el.style.setProperty("--i", Math.min(i, 8));
       revealIO.observe(el);
     });
     // Lưới an toàn: nếu observer không kích hoạt (vd nhảy thẳng anchor tới mục cuối,
@@ -148,7 +148,7 @@
   function holdingCard(h) {
     const cls = ACTION_CLS[h.action] || "hold";
     return `
-      <article class="card">
+      <article class="card holding-card">
         <div class="holding-head">
           <span class="ticker">${esc(h.ticker)}<small>${vnd(h.qty)} cp · vốn ${vnd(h.avg_cost)}</small></span>
           <span class="chip ${cls}">${esc(h.action || "")}</span>
@@ -235,7 +235,7 @@
       </div>` : "";
 
     $("#market-body").innerHTML = hero + sessionLine + holdings + advice + watch + news;
-    reveal("#market-body");
+    reveal("#market-body", ".pnl-hero, .session-line, .holding-card, .advice, .watch-grid > .card, .row-list > .news-row");
 
     const h = hoursSince(m.updated_at);
     const stale = (m.session_date && m.session_date < lastTradingDate())
@@ -300,7 +300,7 @@
         </div>
       </div>
       ${gh.trend_note ? `<div class="card trend-note"><p>${esc(gh.trend_note)}</p></div>` : ""}`;
-    reveal("#github-body");
+    reveal("#github-body", ".gh-col, .trend-note");
 
     const tk = d.tiktok || {};
     $("#tiktok-body").innerHTML = `
@@ -323,11 +323,11 @@
             </div>`).join("")}
         </div>` : ""}
       ${tk.note ? `<div class="card tiktok-note"><p>${esc(tk.note)}</p></div>` : ""}`;
-    reveal("#tiktok-body");
+    reveal("#tiktok-body", ".trend-card, .sounds, .tiktok-note");
 
     $("#tech-body").innerHTML =
       `<div class="row-list two-col">${(d.tech || []).map(newsRow).join("")}</div>`;
-    reveal("#tech-body .row-list");
+    reveal("#tech-body .row-list", ".news-row");
 
     const h = hoursSince(d.updated_at);
     const stale = h != null && h > 26;
@@ -354,10 +354,22 @@
     document.querySelectorAll("main section").forEach((s) => io.observe(s));
   }
 
+  // ---------- theme switcher ----------
+
+  function initThemeToggle() {
+    const btn = $("#theme-toggle");
+    if (!btn) return;
+    btn.addEventListener("click", () => {
+      const isDark = document.documentElement.classList.toggle("dark-theme");
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    });
+  }
+
   // ---------- boot ----------
 
   renderToday();
   watchNav();
+  initThemeToggle();
 
   loadJSON("data/market.json")
     .then(renderMarket)
