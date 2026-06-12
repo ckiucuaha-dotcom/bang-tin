@@ -13,4 +13,17 @@ Bug đã sửa trong vòng này:
 - `app.js` hàm `num()` ban đầu chứa ký tự em-dash thừa trong code, đã thay bằng trả về "?" trực tiếp.
 - Data seed ban đầu chứa em-dash/en-dash trong nội dung, đã làm sạch toàn bộ và thêm quy tắc cấm vào CLAUDE.md.
 
-T7-T9 chạy sau khi bật Pages + tạo routine.
+## 12/06/2026 — Vòng 2 (Pages + routine)
+
+- **T7 PASS** — `curl` https://ckiucuaha-dotcom.github.io/bang-tin/ trả 200, HTML chứa "Bảng tin".
+- **T8 PASS** — Routine `bang-tin-sang` (sau khi cài Claude GitHub App cho repo) commit `feed: tin sáng 12/06`: chỉ sửa data/news.json, validate.py OK, nội dung tươi (5 AI + 5 GitHub daily + 5 tech + 4 TikTok trends), tin ngày 12/06.
+- **T9 PENDING** — Routine `bang-tin-chieu`: lần chạy đầu (trước khi cài app) không push được; đã trigger lại sau khi cấp quyền, đang chờ commit `feed: thị trường`.
+
+Nguyên nhân gốc push fail ban đầu: repo tạo bằng personal token, routine cloud push qua Claude GitHub App chưa được cấp quyền trên repo. Fix: cài app `claude` cho repo `bang-tin` tại github.com/settings/installations.
+
+## Code review (agent code-reviewer) — đã áp fix
+
+- **XSS (Critical):** `esc()` không chặn `javascript:` trong href. Thêm `safeUrl()` chỉ cho http(s), dùng ở 4 link (news_vn, ai, tech, github). Test: url `javascript:` render thành `href="#"`.
+- **fetch_market.py (High):** `closes`/`dates` lệch khi có row close=None → `session_date` sai. Sửa thành lọc song song `(ngày, giá)`.
+- **validate.py (High):** bổ sung check `change_pct` holdings, công thức `pnl_pct`, subfield `vnindex`/`news_vn`/`gold`/`watchlist`, url protocol cho `tech`/`github`.
+- **app.js (Medium):** gold null hiện "?" thay vì 0 (`toMillions`); market staleness thêm điều kiện >30h (bắt cuối tuần); `rangeBar` dùng null-check thay falsy.

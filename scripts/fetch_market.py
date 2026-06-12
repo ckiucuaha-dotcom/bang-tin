@@ -72,14 +72,18 @@ def vnindex():
                 end=date.today().isoformat(), interval="1D")
         if df is None or df.empty:
             return None
-        closes = [_to_float(v) for v in df["close"].tolist() if _to_float(v)]
-        dates = [str(v)[:10] for v in df["time"].tolist()]
-        if not closes:
+        # Lọc song song (ngày, giá) để session_date luôn khớp giá, kể cả khi có row close=None.
+        rows = [(str(t)[:10], _to_float(c))
+                for t, c in zip(df["time"].tolist(), df["close"].tolist())
+                if _to_float(c)]
+        if not rows:
             return None
-        out = {"close": round(closes[-1], 2), "session_date": dates[-1] if dates else None}
-        if len(closes) >= 2 and closes[-2]:
-            out["change"] = round(closes[-1] - closes[-2], 2)
-            out["change_pct"] = round((closes[-1] - closes[-2]) / closes[-2] * 100, 2)
+        session_date, last_close = rows[-1]
+        out = {"close": round(last_close, 2), "session_date": session_date}
+        if len(rows) >= 2 and rows[-2][1]:
+            prev = rows[-2][1]
+            out["change"] = round(last_close - prev, 2)
+            out["change_pct"] = round((last_close - prev) / prev * 100, 2)
         return out
     except Exception:
         return None

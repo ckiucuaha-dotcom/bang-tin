@@ -25,6 +25,14 @@
 
   const signed = (n) => (n > 0 ? "+" : "") + vnd(n);
 
+  const toMillions = (n) => (n == null ? null : n / 1e6);
+
+  // Chỉ cho phép http(s) trong href — chặn javascript:/data: injection từ data JSON.
+  const safeUrl = (u) => {
+    const s = String(u ?? "").trim();
+    return /^https?:\/\//i.test(s) ? s : "#";
+  };
+
   // ---------- fetch ----------
 
   async function loadJSON(path) {
@@ -110,7 +118,7 @@
   };
 
   function rangeBar(h) {
-    if (!h.stoploss || !h.target || !h.price) return "";
+    if (h.stoploss == null || h.target == null || !h.price) return "";
     const lo = h.stoploss, hi = h.target;
     const pos = (v) => Math.min(98, Math.max(2, ((v - lo) / (hi - lo)) * 100));
     return `
@@ -199,8 +207,8 @@
         </div>
         <div class="card">
           <h3 class="card-title">Vàng SJC</h3>
-          <span class="gold-price num">${num((m.gold || {}).sjc_buy / 1e6, { maximumFractionDigits: 1 })}
-            / ${num((m.gold || {}).sjc_sell / 1e6, { maximumFractionDigits: 1 })} <small>triệu/lượng</small></span>
+          <span class="gold-price num">${num(toMillions((m.gold || {}).sjc_buy), { maximumFractionDigits: 1 })}
+            / ${num(toMillions((m.gold || {}).sjc_sell), { maximumFractionDigits: 1 })} <small>triệu/lượng</small></span>
           <p class="gold-note">${esc((m.gold || {}).note || "")}</p>
         </div>
       </div>`;
@@ -208,7 +216,7 @@
     const news = (m.news_vn || []).length ? `
       <div class="row-list" style="margin-top:14px">
         ${m.news_vn.map((n) => `
-          <a class="news-row" href="${esc(n.url)}" target="_blank" rel="noopener">
+          <a class="news-row" href="${safeUrl(n.url)}" target="_blank" rel="noopener">
             <span class="title">${esc(n.title)}</span>
             <p class="summary">${esc(n.summary || "")}</p>
             <div class="meta"><span class="src">${esc(n.source || "")}</span></div>
@@ -218,7 +226,9 @@
     $("#market-body").innerHTML = hero + sessionLine + holdings + advice + watch + news;
     reveal("#market-body");
 
-    const stale = m.session_date && m.session_date < lastTradingDate();
+    const h = hoursSince(m.updated_at);
+    const stale = (m.session_date && m.session_date < lastTradingDate())
+      || (h != null && h > 30);
     addBadge(`Thị trường <strong>${esc(m.updated_at_vn || "?")}</strong>`, stale ? "stale" : "");
     if (stale) $("#session-note").textContent = `Phiên gần nhất: ${m.session_date}`;
     if (m.data_quality && m.data_quality !== "live") addBadge("Giá từ nguồn dự phòng", "warn");
@@ -228,7 +238,7 @@
 
   function aiCard(n, featured) {
     return `
-      <a class="ai-card${featured ? " featured" : ""}" href="${esc(n.url)}" target="_blank" rel="noopener">
+      <a class="ai-card${featured ? " featured" : ""}" href="${safeUrl(n.url)}" target="_blank" rel="noopener">
         <span class="title">${esc(n.title)}${n.hot ? '<span class="hot-chip">HOT</span>' : ""}</span>
         <p class="summary">${esc(n.summary || "")}</p>
         ${n.why_it_matters ? `<p class="why"><b>Vì sao quan trọng:</b> ${esc(n.why_it_matters)}</p>` : ""}
@@ -238,7 +248,7 @@
 
   function newsRow(n) {
     return `
-      <a class="news-row" href="${esc(n.url)}" target="_blank" rel="noopener">
+      <a class="news-row" href="${safeUrl(n.url)}" target="_blank" rel="noopener">
         <span class="title">${esc(n.title)}</span>
         <p class="summary">${esc(n.summary || "")}</p>
         <div class="meta"><span class="src">${esc(n.source || "")}</span>${n.published ? ` · ${esc(n.published)}` : ""}</div>
@@ -247,7 +257,7 @@
 
   function repoRow(r, i) {
     return `
-      <a class="repo-row" href="${esc(r.url)}" target="_blank" rel="noopener">
+      <a class="repo-row" href="${safeUrl(r.url)}" target="_blank" rel="noopener">
         <span class="rank num">${i + 1}</span>
         <span class="repo-body">
           <span class="repo-name">${esc(r.repo)}</span>

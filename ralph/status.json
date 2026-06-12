@@ -56,7 +56,7 @@
       "name": "Routine sáng end-to-end",
       "cmd": "Run-now routine bang-tin-sang, chờ, git pull, kiểm commit mới + T1 trên news.json",
       "expect": "Commit mới, JSON hợp lệ, tin có ngày gần đây",
-      "status": "PENDING"
+      "status": "PASS"
     },
     {
       "id": "T9",

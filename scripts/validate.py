@@ -49,8 +49,15 @@ def check_news(d):
             err(f"news.json: github.{key} có {len(repos)} repo (cần ≥3)")
         for i, r in enumerate(repos):
             need(r, ["repo", "desc", "stars", "stars_period", "url"], f"github.{key}[{i}]")
-    if len(d.get("tech", [])) < 3:
+            if not str(r.get("url", "")).startswith("http"):
+                err(f"github.{key}[{i}]: url không hợp lệ")
+    tech = d.get("tech", [])
+    if len(tech) < 3:
         err("news.json: tech cần ≥3 tin")
+    for i, t in enumerate(tech):
+        need(t, ["title", "summary", "source", "url"], f"tech[{i}]")
+        if not str(t.get("url", "")).startswith("http"):
+            err(f"tech[{i}]: url không hợp lệ")
     tk = d.get("tiktok", {})
     if len(tk.get("trends", [])) < 3:
         err("news.json: tiktok.trends cần ≥3")
@@ -64,12 +71,13 @@ def check_market(d):
     if d.get("data_quality") not in ("live", "fallback_web"):
         err(f"market.json: data_quality '{d.get('data_quality')}' không hợp lệ")
     vni = d.get("vnindex", {})
+    need(vni, ["close", "change", "change_pct", "note"], "vnindex")
     if not (isinstance(vni.get("close"), (int, float)) and vni["close"] > 0):
         err("market.json: vnindex.close phải > 0")
     tot_cost = tot_val = 0
     for i, h in enumerate(d.get("holdings", [])):
-        need(h, ["ticker", "qty", "avg_cost", "price", "value", "pnl", "pnl_pct",
-                 "target", "stoploss", "action", "comment"], f"holdings[{i}]")
+        need(h, ["ticker", "qty", "avg_cost", "price", "change_pct", "value", "pnl",
+                 "pnl_pct", "target", "stoploss", "action", "comment"], f"holdings[{i}]")
         if h.get("action") not in ACTIONS:
             err(f"holdings[{i}]: action '{h.get('action')}' không thuộc {sorted(ACTIONS)}")
         p, q, a = h.get("price", 0), h.get("qty", 0), h.get("avg_cost", 0)
@@ -82,6 +90,8 @@ def check_market(d):
             err(f"holdings[{i}] {h.get('ticker')}: value != qty*price ({h.get('value')} vs {p*q})")
         if abs(h.get("pnl", 0) - (p * q - a * q)) > 1:
             err(f"holdings[{i}] {h.get('ticker')}: pnl sai ({h.get('pnl')} vs {p*q - a*q})")
+        if a and abs(h.get("pnl_pct", 0) - round((p - a) / a * 100, 2)) > 0.05:
+            err(f"holdings[{i}] {h.get('ticker')}: pnl_pct sai ({h.get('pnl_pct')} vs {round((p-a)/a*100,2)})")
         tot_cost += a * q
         tot_val += p * q
     t = d.get("totals", {})
@@ -89,6 +99,13 @@ def check_market(d):
         err(f"totals: cost/value không khớp tổng dòng ({t.get('cost')}/{t.get('value')} vs {tot_cost}/{tot_val})")
     if abs(t.get("pnl", 0) - (tot_val - tot_cost)) > 1:
         err("totals: pnl != value - cost")
+    for i, w in enumerate(d.get("watchlist", [])):
+        need(w, ["ticker", "price", "change_pct", "comment"], f"watchlist[{i}]")
+    need(d.get("gold", {}), ["sjc_buy", "sjc_sell", "note"], "gold")
+    for i, n in enumerate(d.get("news_vn", [])):
+        need(n, ["title", "summary", "source", "url"], f"news_vn[{i}]")
+        if not str(n.get("url", "")).startswith("http"):
+            err(f"news_vn[{i}]: url không hợp lệ")
     adv = d.get("advice", {})
     need(adv, ["summary", "actions", "disclaimer"], "advice")
     if adv.get("disclaimer") != DISCLAIMER:
