@@ -1,218 +1,218 @@
 {
-  "updated_at": "2026-06-13T02:00:00Z",
-  "updated_at_vn": "09:00 13/06/2026",
+  "updated_at": "2026-06-14T00:10:00Z",
+  "updated_at_vn": "07:10 14/06/2026",
   "ai": [
     {
-      "title": "Anthropic rót 150 triệu USD lập Claude Corps - 1.000 fellows dạy AI cho tổ chức phi lợi nhuận",
-      "summary": "Anthropic công bố chương trình Claude Corps ngày 12/6, đầu tư 150 triệu USD đặt 1.000 fellows có kiến thức AI tại các tổ chức phi lợi nhuận trên khắp Mỹ trong 1 năm. Mục tiêu giúp các tổ chức thiện nguyện tận dụng Claude hiệu quả hơn, đồng thời đào tạo thế hệ lao động trẻ biết dùng AI từ sớm.",
-      "why_it_matters": "Anthropic đang chuyển từ xây model sang tích hợp AI vào xã hội rộng hơn - chiến lược này củng cố vị thế công ty cung cấp Claude Code bạn dùng hằng ngày, khó bị thay thế hơn bởi đối thủ thuần kỹ thuật.",
-      "source": "Republic World",
-      "url": "https://www.republicworld.com/tech/anthropic-announces-claude-corps-to-teach-nonprofits-to-use-ai-more-effectively-2026-06-12-127946",
-      "published": "2026-06-12",
+      "title": "Anthropic tách billing từ 15/6: Agent SDK và Claude Code GitHub Actions vào credit pool riêng giá API đầy đủ",
+      "summary": "Từ 15/6/2026, Agent SDK, lệnh claude -p, Claude Code GitHub Actions và ứng dụng Agent bên thứ ba (OpenClaw, Conductor, Zed) không còn dùng chung pool rate-limit với subscription. Chuyển sang 'Agent SDK Credit pool' riêng: $20/tháng (Pro), $100/tháng (Max 5x), $200/tháng (Max 20x), tính theo giá API đầy đủ, không rollover. Chat tương tác trên Claude.ai và terminal Claude Code không bị ảnh hưởng.",
+      "why_it_matters": "Ngày mai (15/6) là deadline - cần claim credit trong account Anthropic trước khi bị chặn và quyết định bật 'overflow billing' nếu không muốn Claude Code GitHub Actions dừng giữa chừng khi hết credit.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/claude-subscriptions-get-separate-budgets-for-programmatic-use-billed-at-full-api-prices/",
+      "published": "2026-06-02",
       "hot": true
     },
     {
-      "title": "OpenAI mua Ona: Codex giờ chạy task nhiều giờ mà không cần thiết bị bật",
-      "summary": "OpenAI công bố mua startup Ona (Đức) ngày 11/6, chuyên cung cấp môi trường cloud an toàn cho AI agent. Công nghệ Ona cho phép Codex nhận task rồi tự chạy liên tục nhiều giờ hoặc vài ngày trong cloud, không phụ thuộc thiết bị người dùng. Hơn 5 triệu người dùng Codex mỗi tuần, tăng 400% từ đầu năm 2026.",
-      "why_it_matters": "Codex ngày càng tự chủ hơn trong lập trình - đây là cạnh tranh trực tiếp với Claude Code. Theo dõi cả hai để chọn workflow autonomous coding phù hợp nhất cho từng dự án.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/openai-to-acquire-ona/",
-      "published": "2026-06-11",
-      "hot": true
-    },
-    {
-      "title": "Claude Fable 5 ra mắt công khai: model mạnh nhất Anthropic từng có, miễn phí đến 22/6",
-      "summary": "Anthropic ra mắt Claude Fable 5 ngày 9/6 - model đầu tiên thuộc Mythos-class được public, state-of-the-art hầu hết benchmark về lập trình, khoa học và vision. Context window 1 triệu token, 128K output tokens. Dùng miễn phí trên Pro/Max/Team/Enterprise đến 22/6, sau đó cần usage credits. API giá $10/$50 per triệu token.",
-      "why_it_matters": "Đây là model bạn đang dùng trong Claude Code ngay lúc này - miễn phí thêm 9 ngày trước khi cần credits. Sau 22/6 nên cân nhắc dùng Opus 4.8 tiết kiệm hơn cho task thông thường.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/",
-      "published": "2026-06-09",
-      "hot": true
-    },
-    {
-      "title": "Google tắt Gemini CLI và Code Assist ngày 18/6, toàn bộ chuyển sang Antigravity 2.0",
-      "summary": "Google xác nhận Gemini CLI và Code Assist IDE extensions ngừng hoạt động ngày 18/6/2026 cho tất cả tiers. Developer được chuyển sang Antigravity 2.0 - platform agentic coding mới gồm desktop app, CLI viết bằng Go, SDK và Managed Agents API. Antigravity 2.0 tái định vị thành nền tảng kiểm soát agent thay vì IDE plugin.",
-      "why_it_matters": "Nếu dùng Gemini Code Assist, chỉ còn 5 ngày để chuyển công cụ. Google all-in với hướng agentic - tăng sức ép cạnh tranh lên Claude Code và Copilot trong nửa cuối 2026.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/",
-      "published": "2026-05-19",
+      "title": "Zuckerberg thừa nhận sai lầm khi tái cơ cấu Meta quanh AI, khẳng định không sa thải thêm diện rộng năm 2026",
+      "summary": "Ngày 13/6, CEO Mark Zuckerberg nói với nhân viên Meta rằng công ty đã 'mắc sai lầm' trong quá trình tái cơ cấu lực lượng lao động xung quanh AI và loại trừ đợt sa thải toàn công ty tiếp theo trong 2026. Trước đó Meta sa thải khoảng 8.000 nhân viên (10% workforce) và điều chuyển 7.000 người sang các nhóm AI mới, đây là đợt cắt giảm lớn nhất từ 'Year of Efficiency' 2022-2023.",
+      "why_it_matters": "Làn sóng AI thay thế lao động đang diễn ra thật ở big tech - đặt câu hỏi quan trọng khi đánh giá cổ phiếu công nghệ: tăng trưởng nhờ AI dài hạn hay rủi ro mất ổn định nội bộ?",
+      "source": "WION News",
+      "url": "https://www.wionews.com/technology/zuckerberg-admits-errors-in-meta-s-ai-transition-says-no-more-company-wide-layoffs-are-expected-this-year-1781346944037",
+      "published": "2026-06-13",
       "hot": false
     },
     {
-      "title": "Microsoft và Google ra model coding mới, cạnh tranh trực tiếp Anthropic và OpenAI",
-      "summary": "Microsoft và Google đồng loạt ra mắt mô hình AI chuyên lập trình mới trong tháng 6/2026, cạnh tranh trực tiếp với Claude Code (Anthropic) và Codex (OpenAI). Cả hai tập đoàn đẩy mạnh AI coding vào hạ tầng cloud riêng là Azure và Google Cloud, tạo hệ sinh thái khép kín cạnh tranh với Anthropic API.",
-      "why_it_matters": "Cạnh tranh 4 bên trong AI coding đang căng thẳng - lợi cho người dùng vì giá sẽ giảm và tính năng tăng. Đáng theo dõi để tận dụng tool tốt nhất cho từng loại task trong quy trình hằng ngày.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
-      "published": "2026-06-01",
+      "title": "OpenAI tắt GPT-5.2, tự động chuyển toàn bộ cuộc hội thoại sang GPT-5.5 từ 12/6",
+      "summary": "Từ 12/6/2026, OpenAI ngừng hoàn toàn các phiên bản GPT-5.2 trên ChatGPT; tất cả cuộc hội thoại hiện có tự động tiếp tục trên model GPT-5.5 tương ứng mà không cần thao tác từ người dùng. Đây là bước tiếp theo trong chuỗi cập nhật model liên tục của OpenAI từ đầu năm 2026.",
+      "why_it_matters": "Benchmark so sánh Claude Code và ChatGPT Codex đã thay đổi sang GPT-5.5, nên kiểm tra lại các workflow và prompt cũ trước khi kết luận model nào phù hợp hơn cho từng task.",
+      "source": "Releasebot (OpenAI ChatGPT)",
+      "url": "https://releasebot.io/updates/openai/chatgpt",
+      "published": "2026-06-12",
+      "hot": false
+    },
+    {
+      "title": "Claude Managed Agents ra mắt public beta sandbox tự quản: chạy tool execution trong môi trường riêng của doanh nghiệp",
+      "summary": "Anthropic ra mắt public beta cho self-hosted sandbox của Claude Managed Agents, cho phép doanh nghiệp chạy tool execution trong môi trường tự cấu hình thay vì hạ tầng Anthropic, đồng thời kết nối được MCP server nội bộ riêng. Agent loop vẫn chạy phía Anthropic nhưng dữ liệu và tool output không rời khỏi môi trường enterprise. Claude Code cũng bổ sung nested sub-agents, xử lý model và region thông minh hơn.",
+      "why_it_matters": "Bước tiến quan trọng cho autonomous coding: sắp có thể build Claude Code agents chạy trong private sandbox mà code và dữ liệu không rời khỏi hạ tầng của mình.",
+      "source": "Anthropic Release Notes (Releasebot)",
+      "url": "https://releasebot.io/updates/anthropic/claude",
+      "published": "2026-06-10",
+      "hot": false
+    },
+    {
+      "title": "Nhà Trắng ban hành lệnh thúc đẩy AI innovation và bảo mật, cắt giảm rào cản pháp lý",
+      "summary": "Chính quyền Mỹ ban hành 'Promoting Advanced Artificial Intelligence Innovation and Security', thúc đẩy tăng trưởng kinh tế và đầu tư AI bằng cách cắt giảm ràng buộc quan liêu và khai phóng công nghệ. Mỹ tiếp tục định vị dẫn đầu toàn cầu về AI với chính sách khai phóng thay vì siết chặt theo hướng châu Âu.",
+      "why_it_matters": "Môi trường pháp lý Mỹ thuận lợi hơn giúp Anthropic có điều kiện ra model mạnh hơn và tiến tới IPO cuối 2026, tốt cho hệ sinh thái Claude Code dài hạn mà bạn đang dùng hằng ngày.",
+      "source": "The White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "published": "2026-06-13",
       "hot": false
     }
   ],
   "github": {
     "daily": [
       {
-        "repo": "apple/container",
-        "desc": "Chạy Linux container bằng VM siêu nhẹ trên Mac, tối ưu Apple Silicon - dẫn đầu trending hôm nay",
-        "lang": "Swift",
-        "stars": 35049,
-        "stars_period": 3504,
-        "url": "https://github.com/apple/container"
-      },
-      {
-        "repo": "addyosmani/agent-skills",
-        "desc": "Bộ skill kỹ thuật production-grade cho AI coding agent, chuẩn hóa từ code review đến deploy",
-        "lang": "Shell",
-        "stars": 56747,
-        "stars_period": 2656,
-        "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "repo": "obra/superpowers",
-        "desc": "Framework agentic skill và phương pháp phát triển phần mềm thực chiến dùng được ngay",
-        "lang": "Shell",
-        "stars": 225979,
-        "stars_period": 1275,
-        "url": "https://github.com/obra/superpowers"
-      },
-      {
-        "repo": "maziyarpanahi/openmed",
-        "desc": "Nền tảng AI chăm sóc sức khỏe mã nguồn mở, tích hợp AI vào quy trình y tế và lâm sàng",
+        "repo": "NVIDIA/SkillSpector",
+        "desc": "Công cụ quét bảo mật cho AI agent skill: phát hiện lỗ hổng, mã độc và rủi ro bảo mật trước khi deploy lên production",
         "lang": "Python",
-        "stars": 3183,
-        "stars_period": 515,
-        "url": "https://github.com/maziyarpanahi/openmed"
+        "stars": 4416,
+        "stars_period": 804,
+        "url": "https://github.com/NVIDIA/SkillSpector"
       },
       {
-        "repo": "refactoringhq/tolaria",
-        "desc": "Desktop app quản lý knowledge base Markdown, tích hợp LLM để tìm kiếm và kết nối ghi chú thông minh",
+        "repo": "kenn-io/agentsview",
+        "desc": "Dashboard phân tích session và hiệu suất cho coding agent, chạy local-first không gửi dữ liệu ra ngoài",
+        "lang": "Go",
+        "stars": 2355,
+        "stars_period": 190,
+        "url": "https://github.com/kenn-io/agentsview"
+      },
+      {
+        "repo": "LMCache/LMCache",
+        "desc": "KV cache layer siêu tốc cho LLM: giảm latency và chi phí inference mà không cần thay đổi model hay codebase",
+        "lang": "Python",
+        "stars": 8883,
+        "stars_period": 238,
+        "url": "https://github.com/LMCache/LMCache"
+      },
+      {
+        "repo": "music-assistant/server",
+        "desc": "Trình quản lý thư viện nhạc mã nguồn mở, kết nối Spotify/YouTube/Tidal với loa thông minh, không cần subscription cloud",
+        "lang": "Python",
+        "stars": 1998,
+        "stars_period": 270,
+        "url": "https://github.com/music-assistant/server"
+      },
+      {
+        "repo": "iptv-org/iptv",
+        "desc": "Tổng hợp các kênh IPTV miễn phí công khai từ khắp thế giới, phân loại theo quốc gia và thể loại nội dung",
         "lang": "TypeScript",
-        "stars": 15753,
-        "stars_period": 369,
-        "url": "https://github.com/refactoringhq/tolaria"
+        "stars": 119067,
+        "stars_period": 530,
+        "url": "https://github.com/iptv-org/iptv"
       }
     ],
     "weekly": [
       {
-        "repo": "mvanhorn/last30days-skill",
-        "desc": "Skill nghiên cứu chủ đề bất kỳ trên Reddit, X, YouTube, HN, Polymarket rồi tổng hợp có nguồn",
-        "lang": "Python",
-        "stars": 40314,
-        "stars_period": 12257,
-        "url": "https://github.com/mvanhorn/last30days-skill"
-      },
-      {
-        "repo": "chopratejas/headroom",
-        "desc": "Nén tool output, log, RAG chunk trước khi vào LLM, giảm 60-95% token, giữ nguyên chất lượng",
-        "lang": "Python",
-        "stars": 24632,
-        "stars_period": 10184,
-        "url": "https://github.com/chopratejas/headroom"
-      },
-      {
-        "repo": "Leonxlnx/taste-skill",
-        "desc": "Skill giúp AI có gu, ngăn AI sinh content nhàm, sáo rỗng, thiếu cá tính",
+        "repo": "addyosmani/agent-skills",
+        "desc": "Bộ skill production-grade cho AI coding agent, chuẩn hóa quy trình từ code review đến deploy pipeline",
         "lang": "Shell",
-        "stars": 42365,
-        "stars_period": 8651,
-        "url": "https://github.com/Leonxlnx/taste-skill"
+        "stars": 58329,
+        "stars_period": 9348,
+        "url": "https://github.com/addyosmani/agent-skills"
       },
       {
-        "repo": "Panniantong/Agent-Reach",
-        "desc": "Cho AI agent thêm khả năng đọc và tìm kiếm Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu",
+        "repo": "apple/container",
+        "desc": "Chạy Linux container bằng VM siêu nhẹ trên Mac, được viết bằng Swift và tối ưu cho Apple Silicon",
+        "lang": "Swift",
+        "stars": 36272,
+        "stars_period": 9173,
+        "url": "https://github.com/apple/container"
+      },
+      {
+        "repo": "microsoft/markitdown",
+        "desc": "Công cụ Python chuyển đổi file và tài liệu Office (Word, Excel, PDF...) sang Markdown, hỗ trợ hàng chục định dạng",
         "lang": "Python",
-        "stars": 26766,
-        "stars_period": 5364,
-        "url": "https://github.com/Panniantong/Agent-Reach"
+        "stars": 152762,
+        "stars_period": 6635,
+        "url": "https://github.com/microsoft/markitdown"
       },
       {
-        "repo": "lfnovo/open-notebook",
-        "desc": "Bản mã nguồn mở của Notebook LM với nhiều tính năng hơn, hỗ trợ tổng hợp tài liệu và tạo podcast",
-        "lang": "TypeScript",
-        "stars": 29521,
-        "stars_period": 3848,
-        "url": "https://github.com/lfnovo/open-notebook"
+        "repo": "phuryn/pm-skills",
+        "desc": "Marketplace 100+ agentic skill, command và plugin dành cho Product Manager, dùng được với hầu hết AI coding agent",
+        "lang": "Markdown",
+        "stars": 17623,
+        "stars_period": 5408,
+        "url": "https://github.com/phuryn/pm-skills"
+      },
+      {
+        "repo": "NVIDIA/SkillSpector",
+        "desc": "Công cụ quét bảo mật AI agent skill: phát hiện lỗ hổng, mã độc và rủi ro trước khi deploy, do NVIDIA phát triển",
+        "lang": "Python",
+        "stars": 4416,
+        "stars_period": 2799,
+        "url": "https://github.com/NVIDIA/SkillSpector"
       }
     ],
-    "trend_note": "Tuần này GitHub trending tiếp tục quay quanh AI agent và tool giảm token, chi phí. Hai điểm mới đáng chú ý: Panniantong/Agent-Reach (cho agent đọc mạng xã hội đa nền tảng, +5K sao tuần) và lfnovo/open-notebook (clone NotebookLM mã nguồn mở, +3.8K sao) - tín hiệu developer đang xây workflow AI xử lý đa nguồn thông tin thay vì chỉ chat."
+    "trend_note": "Tuần này GitHub trending nổi bật hai tín hiệu mới: (1) bảo mật AI agent lên ngôi - NVIDIA/SkillSpector dẫn daily với 804 sao, cho thấy cộng đồng bắt đầu lo ngại rủi ro khi deploy skill/plugin cho agent; (2) hạ tầng LLM tiếp tục được tối ưu - LMCache và markitdown tăng đều, phản ánh xu hướng giảm chi phí inference và xử lý tài liệu sau giai đoạn tăng trưởng nóng model mới."
   },
   "tech": [
     {
-      "title": "VNG công bố định vị mới: kiến tạo hệ sinh thái số Việt Nam trong kỷ nguyên AI",
-      "summary": "Tại Đại hội cổ đông thường niên 6/6, VNG công bố tầm nhìn mới xây dựng hệ sinh thái số toàn diện cho Việt Nam trong kỷ nguyên AI, kết nối hàng chục nghìn đối tác. Năm 2025 VNG lần đầu có lợi nhuận hoạt động dương sau nhiều năm niêm yết. Mục tiêu 2026 tăng doanh thu 15-25% lên 12.500-13.500 tỷ VND.",
+      "title": "Việt Nam bước vào kỷ nguyên mới với Luật AI lấy con người làm trung tâm",
+      "summary": "Việt Nam ban hành luật AI mới với triết lý lấy con người làm trung tâm, đặt ra khung pháp lý toàn diện đầu tiên về phát triển và triển khai trí tuệ nhân tạo tại Việt Nam. Luật được kỳ vọng tạo nền tảng pháp lý vững chắc để thu hút đầu tư AI nước ngoài đồng thời bảo vệ quyền lợi người dùng trong nước.",
+      "source": "SGGP English Edition",
+      "url": "https://en.sggp.org.vn/vietnam-enters-new-era-with-human-centered-ai-law-post122957.html",
+      "published": "2026-06-10"
+    },
+    {
+      "title": "Việt Nam nổi lên là điểm đến mới cho đầu tư trung tâm dữ liệu AI khu vực Đông Nam Á",
+      "summary": "Việt Nam đang thu hút làn sóng đầu tư vào trung tâm dữ liệu AI nhờ chi phí điện cạnh tranh, vị trí địa lý chiến lược và chính sách mở cửa thu hút FDI. Nhiều tập đoàn công nghệ lớn đang đánh giá Việt Nam là địa điểm đặt data center phục vụ toàn khu vực Đông Nam Á.",
+      "source": "VietnamPlus",
+      "url": "https://en.vietnamplus.vn/vietnam-emerges-as-new-hotspot-for-ai-data-centre-investment-post332260.vnp",
+      "published": "2026-06-11"
+    },
+    {
+      "title": "Chính phủ Việt Nam phê duyệt chương trình phát triển kinh tế số và xã hội số toàn quốc",
+      "summary": "Chính phủ Việt Nam chính thức phê duyệt chương trình tổng thể phát triển kinh tế số và xã hội số, đặt mục tiêu số hóa toàn diện các lĩnh vực kinh tế đến 2030. Chương trình bao gồm ưu đãi cho doanh nghiệp công nghệ và đầu tư hạ tầng kết nối số tại các tỉnh thành.",
       "source": "Vietnam Investment Review",
-      "url": "https://vir.com.vn/vng-unveils-new-positioning-for-ai-era-154310.html",
-      "published": "2026-06-06"
-    },
-    {
-      "title": "Apple WWDC 2026: Việt Nam xuất hiện nhiều lần trong demo Apple Intelligence, có phở và Hà Nội",
-      "summary": "Tại WWDC 2026 ngày 9/6, Apple dùng phở gà để demo tính năng phân tích dinh dưỡng AI, ảnh Hà Nội cho tính năng viết của Journal app, và thêm tiếng Việt vào danh sách ngôn ngữ hỗ trợ Apple Intelligence. Đây là lần đầu Việt Nam xuất hiện nổi bật tại sự kiện chủ lực của Apple.",
-      "source": "VnExpress International",
-      "url": "https://e.vnexpress.net/news/tech/tech-news/vietnam-makes-appearance-multiple-times-at-apple-2026-event-5083707.html",
-      "published": "2026-06-09"
-    },
-    {
-      "title": "Samsung ký kết với 3 trường ĐH Việt Nam, rót 17 tỷ VND học bổng đào tạo AI 2026-2028",
-      "summary": "Samsung Việt Nam ký hợp tác với ĐH Bách khoa Hà Nội, Học viện Bưu chính Viễn thông và ĐH Khoa học Tự nhiên Hà Nội trong tháng 6, tập trung đào tạo thạc sĩ AI, bảo mật và truyền thông đa phương tiện. Tổng học bổng gần 17 tỷ VND, mỗi suất khoảng 150 triệu VND.",
-      "source": "Vietnam News",
-      "url": "https://vietnamnews.vn/economy/1783257/samsung-strengthens-university-partnerships-to-develop-viet-nam-s-future-tech-talent.html",
-      "published": "2026-06-10"
-    },
-    {
-      "title": "Google, VNG và ĐH Quốc gia TP.HCM ký kết hợp tác phát triển AI tại Việt Nam",
-      "summary": "Ba tổ chức ký kết hợp tác chiến lược thúc đẩy nghiên cứu và ứng dụng AI tại Việt Nam, kết hợp hạ tầng cloud Google, nền tảng dữ liệu VNG và năng lực nghiên cứu của ĐH Quốc gia TP.HCM. Đây là một trong loạt hợp tác công-tư về AI đang tăng mạnh tại Việt Nam nửa đầu 2026.",
-      "source": "Vietnam.vn",
-      "url": "https://www.vietnam.vn/en/google-vng-va-dhqg-tp-hcm-hop-tac-phat-trien-ai-tai-viet-nam",
-      "published": "2026-06-10"
-    },
-    {
-      "title": "Anthropic mở văn phòng đầu tiên tại Ấn Độ trong làn sóng mở rộng toàn cầu trước IPO",
-      "summary": "Anthropic xác nhận mở văn phòng đầu tiên tại Ấn Độ, đánh dấu bước tiến ra châu Á sau khi đã có mặt tại Mỹ và châu Âu. Động thái phản ánh cuộc đua giữa các AI lab lớn chiếm thị phần tại thị trường mới nổi, đặc biệt trong bối cảnh Anthropic chuẩn bị IPO vào cuối 2026.",
-      "source": "Reuters / Seeking Alpha",
-      "url": "https://seekingalpha.com/news/4502538-anthropic-to-open-first-india-office-in-2026-as-ai-battle-heats-up-reuters",
+      "url": "https://vir.com.vn/vietnam-government-approves-programme-on-development-of-digital-economy-and-society-154676.html",
       "published": "2026-06-12"
+    },
+    {
+      "title": "Meta sa thải 8.000 nhân viên trong đợt tái cơ cấu lớn nhất vì AI kể từ 2022",
+      "summary": "Meta bắt đầu thông báo sa thải khoảng 8.000 nhân viên (10% workforce) để dồn nguồn lực sang AI, đồng thời điều chuyển 7.000 nhân viên khác sang các nhóm AI mới - đây là đợt cắt giảm lớn nhất từ chiến dịch 'Year of Efficiency' 2022-2023. CEO Zuckerberg ngày 13/6 thừa nhận công ty đã mắc sai lầm trong quá trình tái cơ cấu.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/meta-layoffs-2026-8-000-114209703.html",
+      "published": "2026-05-20"
+    },
+    {
+      "title": "Doanh nghiệp Việt chi lớn để theo kịp cuộc đua AI: từ startup đến tập đoàn đều đầu tư mạnh",
+      "summary": "Làn sóng đầu tư vào AI đang lan rộng trong cộng đồng doanh nghiệp Việt Nam, từ startup đến tập đoàn lớn đều chi mạnh cho hạ tầng AI, tuyển dụng nhân tài và triển khai giải pháp AI vào vận hành. Khoảng cách công nghệ giữa doanh nghiệp biết dùng AI và chưa biết ngày càng được nới rộng.",
+      "source": "Tuoi Tre News",
+      "url": "https://news.tuoitre.vn/businesses-in-vietnam-spend-big-to-keep-pace-in-ai-race-103260420131931283.htm",
+      "published": "2026-06-09"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "Trend đổ sốt ASMR - cận cảnh sốt đỏ chảy xuống đồ ăn",
-        "desc": "Format video ASMR quay cận cảnh đổ sốt lên đồ ăn vặt, màu sắc và âm thanh sốt sôi kết hợp tạo hook mạnh, đang rất hot trên TikTok food Việt tháng 6/2026.",
-        "fit": "Chân gà sốt Thái của @tracuami sinh ra cho trend này, màu sốt đỏ bóng và texture đặc là hook hoàn hảo không cần lời thoại.",
-        "idea": "Quay A Nguyên đổ chảo sốt Thái lên mẹt chân gà, cận cảnh từng giọt sốt chảy, không nhạc, chỉ ASMR tiếng sốt sôi. Caption: 'Sốt Thái nhà tau không pha bột, rứa mới sánh ri.'"
+        "name": "Trend ẩm thực địa phương viral TikTok - food tour nội địa",
+        "desc": "Các clip ẩm thực đường phố từ các thành phố lớn (chợ Bến Thành, phố ăn vặt Chợ Lớn, khu vỉa hè đặc sản) đang được chia sẻ rộng rãi trên TikTok theo chủ đề food tour nội địa, kéo người xem tò mò khám phá đặc sản địa phương.",
+        "fit": "@tracuami ở Huế đúng luồng này vì ẩm thực Huế - tré trộn, chân gà sốt Thái - có nét riêng ít nơi có, tạo sức kéo tự nhiên với người muốn trải nghiệm food tour Huế hoặc thử món lạ chưa biết.",
+        "idea": "Clip A Nguyên cầm tô tré trộn nhìn vào camera nói giọng Huế: 'Về Huế mà chưa ăn ni là chưa tới Huế' - cảnh quán chiều đông khách, hashtag #amthuchue #anvatHue #foodtourVN"
       },
       {
-        "name": "Trend bánh tráng mashup - cuốn mọi thứ vào bánh tráng tạo combo mới",
-        "desc": "Giới trẻ VN đang thử cuốn đủ loại đồ ăn vặt vào bánh tráng để tạo combo độc lạ, từ chân gà, xúc xích đến tré trộn. Các biến tấu bánh tráng trộn, nướng, cuốn, phơi sương đang viral mạnh tháng 6.",
-        "fit": "Tré trộn Huế và bánh tráng cuốn là combo tự nhiên theo đúng trend này, @tracuami có thể tạo combo Huế độc quyền chưa ai làm.",
-        "idea": "Clip ngắn Nhớ thử cuốn tré trộn vào bánh tráng, nhìn ngờ vực, ăn thử rồi mắt sáng lên. Nói: 'Ủa răng lại ngon ri ta?' A Nguyên đi ngang: 'Đó, tau nói rồi mà.'"
+        "name": "Trend TikTok LIVE bán đồ ăn trực tiếp",
+        "desc": "TikTok Shop đang thu hẹp khoảng cách với Shopee tại Việt Nam nhờ LIVE commerce, các quán ăn vặt và nhà hàng dùng LIVE để bán trực tuyến, nhận đơn ngay trên livestream và tăng nhận diện thương hiệu.",
+        "fit": "@tracuami có thể LIVE buổi chiều khi chuẩn bị chân gà, vừa demo quy trình thật tại bếp, vừa nhận đơn giao nội thành Huế hoặc bán set quà ship đi.",
+        "idea": "LIVE 30 phút A Nguyên pha sốt Thái tại bếp, Nhớ đóng gói đơn, Thư chốt comment. Mở đầu: 'Chiều ni LIVE bán chân gà ngay tại bếp, ai muốn học lén công thức ngồi đây!'"
       },
       {
-        "name": "Trend behind the counter - quay từ góc nhìn sau quầy bán hàng",
-        "desc": "Format quay từ góc nhìn người bán, thấy khách bước vào gọi món và nhận hàng, tạo cảm giác gần gũi và authentic với quán ăn nhỏ. Rất phổ biến với niche quán vỉa hè, ăn vặt.",
-        "fit": "Không gian quầy nhỏ authentic của @tracuami rất hợp với góc quay này, tôn vinh nét bình dân và quen mặt khách hàng địa phương đặc trưng quán Huế.",
-        "idea": "Quay từ sau quầy chân gà, thấy khách vào gọi theo giọng Huế, A Nguyên trao túi với nụ cười, âm thanh tự nhiên của quán. Caption: 'Bán chân gà 5 năm, quen mặt cả xóm chừ.'"
+        "name": "Trend POV nhân viên - quay từ góc nhìn của người phục vụ",
+        "desc": "Format quay từ góc nhìn nhân viên (POV vai hoặc túi áo) khi phục vụ khách đang hot, tạo cảm giác chân thực và hài hước hơn so với góc quay thông thường của chủ quán.",
+        "fit": "Nhớ - nhân viên part-time hay 'học lén công thức' của @tracuami - là nhân vật hoàn hảo cho format POV hài hước, tạo nội dung authentic khác hẳn clip quảng cáo thông thường.",
+        "idea": "Clip POV Nhớ đang bí mật quan sát A Nguyên pha sốt Thái, giả vờ lau bàn. A Nguyên quay lại nhìn nghi ngờ. Caption: 'Học lén được 3/10 công thức rồi. Khó lắm rứa.'"
       },
       {
-        "name": "Trend so sánh hàng TQ đóng gói vs đồ làm tươi tại chỗ",
-        "desc": "Nhiều kênh food VN đang so sánh snack, chân gà nhập TQ giá rẻ với đồ làm tươi tại quán, tạo debate và engagement rất cao trong cộng đồng ăn vặt TikTok tháng 6.",
-        "fit": "Chân gà sốt Thái tươi làm tại @tracuami so với chân gà đóng gói nhập, quán có lợi thế tự nhiên và câu chuyện thuyết phục khi để người xem tự so sánh.",
-        "idea": "A Nguyên cầm túi chân gà nhập TQ mua thử, đặt cạnh mẹt chân gà tươi nhà làm, hỏi: 'Bạn chọn mô?' Không cần trả lời, để comment tự tranh luận."
+        "name": "Trend unboxing đồ ăn mang về - review tại nhà",
+        "desc": "Khách quay clip mở hộp, mở túi đồ ăn vừa được giao và review ngay tại chỗ, tạo UGC miễn phí cho quán với set combo có bao bì đẹp mắt và bắt mắt.",
+        "fit": "Nếu @tracuami làm set combo chân gà + tré trộn + trà trái cây để giao hoặc bán qua TikTok Shop, khách tự quay unboxing và tag quán - marketing không tốn chi phí.",
+        "idea": "Quay clip đóng gói 'Combo Huế': 10 chân gà sốt Thái + hộp tré trộn + chai trà trái cây, kèm note viết tay. Caption: 'Giao toàn Huế. Set ni bán chạy nhất tuần rứa.'"
       }
     ],
     "sounds": [
       {
-        "name": "Lo Nguoi Uot Ao remix EDM",
-        "desc": "Remix EDM tiếp tục hot tháng 6, dùng nhiều trong clip đổ sốt ASMR, cảnh ăn slow-motion và transition sản phẩm."
+        "name": "GOALS - LISA, Anitta & Rema",
+        "desc": "Trending mạnh TikTok tháng 6/2026, dùng cho clip transition sản phẩm, reveal combo đồ ăn, cảnh đông khách tại quán và content lifestyle food ngắn."
       },
       {
-        "name": "Co Minh Va Ta remix",
-        "desc": "Nhạc remix Việt giữ vị trí trên bảng trending, phù hợp clip kể chuyện nhân vật, series Nhớ học lén công thức và cảnh đông vui cuối tuần."
+        "name": "Questions - Maisie Peters",
+        "desc": "Trending cho content kể chuyện nhân vật và process làm đồ ăn từng bước, hợp với clip series Nhớ học lén công thức hoặc cảnh buổi tối tại quán theo phong cách storytelling."
       },
       {
-        "name": "Sao Thay Doi Mi Em Buon remix",
-        "desc": "Remix Việt đang trending, hợp cho clip process làm đồ ăn, cận cảnh nguyên liệu hoặc cảnh mở quán sáng sớm."
+        "name": "B's On The Table - Drake",
+        "desc": "Trending TikTok tháng 6/2026, đang dùng cho clip aesthetic cận cảnh đồ ăn trên bàn, reveal mẹt chân gà sốt Thái hoặc tổng hợp các món theo kiểu slow-motion."
       }
     ],
-    "note": "Tháng 6 food TikTok VN nổi bật hai sóng mới: (1) ASMR đổ sốt và cận cảnh đồ ăn chiếm format ngắn, rất phù hợp chân gà sốt Thái; (2) Debate hàng TQ vs đồ làm tại chỗ tạo engagement cao, @tracuami có lợi thế tự nhiên để tham gia. Trend bánh tráng mashup cũng mở ra combo mới cho tré trộn Huế. Ưu tiên tuần này: 1 clip ASMR đổ sốt và 1 clip so sánh chân gà tươi vs đóng gói."
+    "note": "Tuần này TikTok âm nhạc trending nghiêng về nhạc quốc tế (LISA/Anitta/Rema, Maisie Peters, Drake) thay vì remix nhạc Việt như các tuần trước. Với @tracuami, nên kết hợp nhạc trending quốc tế với caption và thuyết minh giọng Huế để tạo contrast vui, giúp thuật toán đẩy ra ngoài vùng follower cũ. Ưu tiên tuần này: 1 clip LIVE bán hàng tại bếp và 1 clip POV Nhớ học lén công thức - cả hai vừa authentic vừa tận dụng nhân vật sẵn có."
   }
 }
