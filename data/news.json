@@ -1,94 +1,94 @@
 {
-  "updated_at": "2026-06-15T00:10:00Z",
-  "updated_at_vn": "07:10 15/06/2026",
+  "updated_at": "2026-06-16T00:30:00Z",
+  "updated_at_vn": "07:30 16/06/2026",
   "ai": [
     {
-      "title": "3 CEO AI lớn nhất thế giới họp cùng G7 tại Pháp lần đầu lịch sử - bàn về quy định và cam kết an toàn AI",
-      "summary": "Sam Altman (OpenAI), Dario Amodei (Anthropic) và Demis Hassabis (Google DeepMind) cùng tham dự Hội nghị G7 tại Évian-les-Bains, Pháp từ 15-17/6/2026, lần đầu tiên cả ba lãnh đạo AI lớn nhất xuất hiện cùng lúc trước nguyên thủ G7. Tổng thống Pháp Macron đích thân mời Sam Altman. Chương trình bao gồm bữa trưa làm việc với lãnh đạo thế giới, dự kiến thông qua gói cam kết tự nguyện về an toàn AI và bảo vệ giới trẻ trực tuyến. Rủi ro AI trong lĩnh vực mạng và sinh học cũng là trọng tâm thảo luận.",
-      "why_it_matters": "Kết quả G7 tuần này định hình khung pháp lý AI toàn cầu, ảnh hưởng trực tiếp đến roadmap Anthropic, Claude Code và khả năng IPO cuối năm. Cổ phiếu công nghệ trong danh mục VN có thể biến động theo tín hiệu từ hội nghị này.",
-      "source": "Dataconomy",
-      "url": "https://dataconomy.com/2026/06/12/ai-leaders-openai-google-deepmind-anthropic-g7-summit/",
+      "title": "Anthropic ra mắt Claude Corps - chương trình $150 triệu đặt 1.000 fellow AI vào tổ chức phi lợi nhuận toàn nước Mỹ",
+      "summary": "Anthropic cam kết $150 triệu xây dựng chương trình Claude Corps, mục tiêu đào tạo và phân bổ 1.000 fellow AI vào các tổ chức phi lợi nhuận Mỹ trong 3 năm. Mỗi fellow nhận lương $85.000/năm, $10.000 grant và 12 tháng đào tạo thực chiến cùng Claude, tổ chức host được cấp tài khoản Claude và hỗ trợ triển khai AI miễn phí. Đối tác chính gồm CodePath và Social Finance. Cohort đầu 100 người bắt đầu tháng 10/2026, nhận đơn đến 17/7/2026.",
+      "why_it_matters": "Claude Corps báo hiệu Anthropic đang xây dựng tác động xã hội trước IPO, có thể tạo nguồn dữ liệu phi lợi nhuận mới để cải thiện Claude về sau. Nếu chương trình thành công, Claude sẽ mạnh thêm ở khả năng phân tích tài chính và chính sách, hữu ích cho workflow nghiên cứu cổ phiếu VN hằng ngày.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-launches-150m-claude-corps-170834614.html",
       "published": "2026-06-12",
       "hot": true
     },
     {
-      "title": "Claude Fable 5 sau 1 tuần ra mắt: SWE-Bench Pro 80.3%, Stripe migrate 50 triệu dòng code trong 1 ngày",
-      "summary": "Một tuần sau khi ra mắt (9/6), Claude Fable 5 xác nhận vị trí dẫn đầu coding AI: đạt 80.3% trên SWE-Bench Pro (so với Opus 4.8 la 69.2%, GPT-5.5 la 58.6%), là model đầu tiên vượt 90% benchmark phân tích của Hex. Stripe dùng Fable 5 để migrate codebase 50 triệu dòng, công việc từng mất 2 tháng nay hoàn thành trong 1 ngày. Giá $10/M input token và $50/M output. Subscriber nhận Fable 5 miễn phí đến 22/6.",
-      "why_it_matters": "Còn 7 ngày dùng Fable 5 miễn phí trong plan hiện tại, đây là lúc benchmark lại workflow Claude Code thực tế. Benchmark SWE-Bench vượt GPT-5.5 gần 22 điểm, đáng test thử trên các task refactor hoặc migrate code thật.",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "published": "2026-06-09",
+      "title": "Anthropic tách riêng billing Agent SDK khỏi gói subscription từ 15/6 - người dùng Claude Code cần chú ý ngay",
+      "summary": "Từ 15/6/2026, Anthropic tách riêng hóa đơn Agent SDK và claude-p (tự động hóa agentic) khỏi pool chung của các gói Pro, Max, Team, Enterprise. Thay vì 'unlimited' như trước, người dùng nhận một ngân sách dollar hằng tháng riêng cho tác vụ agent. Thay đổi này ảnh hưởng trực tiếp đến developer dùng Claude cho automated pipeline và API agentic, cần theo dõi credit tiêu thụ chặt hơn.",
+      "why_it_matters": "Đây là thay đổi có hiệu lực từ hôm qua - cần kiểm tra ngay xem script Claude Code đang chạy tự động có bị ảnh hưởng không. Nếu có pipeline chạy nhiều lần trong ngày, nên xem lại tần suất và theo dõi credit agent để tránh vượt ngân sách bất ngờ.",
+      "source": "Digital Applied",
+      "url": "https://www.digitalapplied.com/blog/anthropic-claude-credit-overhaul-june-15-2026",
+      "published": "2026-06-15",
       "hot": true
     },
     {
-      "title": "Google và Kaggle khai giảng khóa AI Agents Vibe Coding 5 ngày miễn phí - bắt đầu hôm nay 15/6",
-      "summary": "Google và Kaggle mở lại khóa '5-Day AI Agents Intensive Vibe Coding' miễn phí từ 15-19/6/2026, sau phiên đầu năm 2025 thu hút hơn 1.5 triệu học viên. Phiên mới tập trung vào xây AI agent production-ready bằng vibe coding (ngôn ngữ tự nhiên làm interface chính), kết nối tool và API, deploy lên môi trường thật. Capstone project nộp đến 30/6 để nhận chứng chỉ từ Google.",
-      "why_it_matters": "Miễn phí, khai giảng hôm nay - cơ hội học xây AI agent từ Google trong 5 ngày. Phù hợp nếu muốn hiểu sâu hơn cách agent hoạt động bên dưới Claude Code và tự build tool riêng.",
-      "source": "Google Blog",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
-      "published": "2026-06-08",
-      "hot": false
-    },
-    {
-      "title": "OpenAI chuẩn bị ra GPT-5.6 trong tháng 6, đồng thời tái thiết ChatGPT thành 'super app' quy mô lớn nhất lịch sử",
-      "summary": "GPT-5.6 đang được chuẩn bị với cải tiến về autonomous reasoning, giảm chi phí token và agentic workflow mạnh hơn. Song song đó, Financial Times tiết lộ OpenAI đang tái thiết ChatGPT theo quy mô lớn nhất từ trước đến nay, tích hợp Canva, AWS và nhiều dịch vụ bên thứ ba, nhắm đến mô hình 'super app' theo kiểu WeChat. OpenAI cũng đã đưa Codex và frontier models lên AWS từ ngày 1/6.",
-      "why_it_matters": "ChatGPT trở thành super app cạnh tranh trực tiếp với Claude.ai - theo dõi phản ứng Anthropic có thể lộ ra tính năng mới cho Claude Code. GPT-5.6 cũng sẽ làm mới benchmark so sánh coding tools tháng tới.",
-      "source": "Geeky Gadgets",
-      "url": "https://www.geeky-gadgets.com/gpt-5-6-june-2026-release/",
-      "published": "2026-06-13",
-      "hot": false
-    },
-    {
-      "title": "Anthropic mở văn phòng đầu tiên tại Ấn Độ năm 2026, theo chân OpenAI và Google trong cuộc tranh thị trường Nam Á",
-      "summary": "Anthropic xác nhận kế hoạch mở văn phòng tại Ấn Độ trong năm 2026, đánh dấu bước mở rộng toàn cầu quan trọng giữa cuộc cạnh tranh AI khốc liệt ở châu Á. OpenAI và Google DeepMind đã hiện diện tại Ấn Độ trước đó. Ấn Độ với 1.4 tỷ dân, hệ sinh thái IT lớn và chi phí nhân lực cạnh tranh là thị trường chiến lược cho AI doanh nghiệp cấp tiếp theo.",
-      "why_it_matters": "Anthropic mở rộng hạ tầng châu Á có thể cải thiện latency Claude Code ở Đông Nam Á và báo hiệu chiến lược dài hạn trước IPO, tín hiệu tốt cho hệ sinh thái Claude mà bạn đang dùng hằng ngày.",
-      "source": "Seeking Alpha / Reuters",
-      "url": "https://seekingalpha.com/news/4502538-anthropic-to-open-first-india-office-in-2026-as-ai-battle-heats-up-reuters",
+      "title": "SpaceX IPO kỷ lục $75 tỷ, đóng cửa $160,95 ngày đầu - OpenAI chuẩn bị nộp S-1 bí mật lên SEC nhắm niêm yết tháng 9",
+      "summary": "SpaceX chính thức lên sàn Nasdaq dưới mã SPCX ngày 12/6 với giá IPO $135/cổ phiếu, huy động $75 tỷ, là IPO lớn nhất lịch sử chứng khoán Mỹ. Phiên đầu kết thúc ở $160,95, tăng gần 20%. Song song đó, OpenAI đang chuẩn bị nộp hồ sơ S-1 bí mật lên SEC trong vài ngày tới, nhắm niêm yết tháng 9/2026 với định giá trên $1 nghìn tỷ USD, lần đầu tiên hai AI lab hàng đầu cùng nằm trong pipeline IPO cùng lúc.",
+      "why_it_matters": "SpaceX đóng cửa mạnh làm tăng kỳ vọng IPO cho cả OpenAI lẫn Anthropic. Nếu OpenAI IPO thành công tháng 9, khả năng cao Anthropic sẽ theo đó cuối 2026 hoặc đầu 2027, ảnh hưởng đến roadmap Claude Code và giá gói. Đáng nhìn sang cổ phiếu công nghệ VN như FPT để theo dõi phản ứng thị trường.",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/06/11/nx-s1-5853199/spacex-ipo-price-elon-musk",
       "published": "2026-06-12",
+      "hot": true
+    },
+    {
+      "title": "Gemini 3.5 Pro trong giai đoạn preview cuối - cửa sổ 2 triệu token và Deep Think, dự kiến ra mắt trước 30/6",
+      "summary": "Google xác nhận Gemini 3.5 Pro vẫn trong preview hạn chế trên Vertex AI, dự kiến ra mắt chung trước 30/6/2026. Model được công bố tại Google I/O ngày 19/5 với cửa sổ ngữ cảnh 2 triệu token, chế độ Deep Think để suy luận phức tạp và khả năng đa phương tiện frontier. Pro hướng đến các tác vụ trước đây chỉ dành cho Ultra tier, gồm suy luận nặng và xử lý ngữ cảnh cực dài.",
+      "why_it_matters": "Khi Gemini 3.5 Pro ra mắt trước cuối tháng 6, đây sẽ là đối thủ trực tiếp của Claude Fable 5 trên cửa sổ context dài (2M token). Nên benchmark thực tế cho coding task sau khi ra mắt, vì benchmark chính thức của Google thường khác xa thực tế với Claude Code workflow.",
+      "source": "TechTimes",
+      "url": "https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-2-million-token-context-deep-think-reasoning.htm",
+      "published": "2026-06-06",
+      "hot": false
+    },
+    {
+      "title": "OpenAI tung Lockdown Mode cho ChatGPT - tắt duyệt web và agent mode để bảo vệ dữ liệu nhạy cảm của doanh nghiệp",
+      "summary": "OpenAI ra mắt ChatGPT Lockdown Mode từ 4/6/2026, là cài đặt tùy chọn hạn chế toàn bộ kết nối mạng của ChatGPT khi kích hoạt: tắt duyệt web trực tiếp, chế độ agent, tải file và một số tính năng hình ảnh từ web. Tính năng này dành cho doanh nghiệp và cá nhân làm việc với dữ liệu nhạy cảm, nhằm giảm rủi ro prompt injection và data exfiltration.",
+      "why_it_matters": "Lockdown Mode là tín hiệu rõ OpenAI đang giải quyết bảo mật doanh nghiệp một cách trực tiếp, mặt trận mà Claude từng dẫn đầu với Constitutional AI. Đáng ghi nhận để so sánh chiến lược: Anthropic dùng cách cơ cấu model, OpenAI dùng cách điều khiển kết nối mạng.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
+      "published": "2026-06-04",
       "hot": false
     }
   ],
   "github": {
     "daily": [
       {
-        "repo": "NVIDIA/SkillSpector",
-        "desc": "Công cụ quét bảo mật AI agent skill của NVIDIA: phát hiện lỗ hổng, mã độc và rủi ro trong skill/plugin trước khi deploy, ngày thứ 2 liên tiếp dẫn đầu trending với tốc độ tăng cao hơn hôm qua",
+        "repo": "iptv-org/iptv",
+        "desc": "Bộ sưu tập kênh IPTV công khai từ khắp thế giới, hỗ trợ tất cả thể loại và quốc gia, cập nhật liên tục từ cộng đồng đóng góp",
+        "lang": "TypeScript",
+        "stars": 122828,
+        "stars_period": 2657,
+        "url": "https://github.com/iptv-org/iptv"
+      },
+      {
+        "repo": "Panniantong/Agent-Reach",
+        "desc": "Trang bị mắt cho AI agent để đọc và tìm kiếm đồng thời trên Twitter, Reddit, YouTube, GitHub, Bilibili và XiaoHongShu, leo từ weekly lên daily hôm nay",
         "lang": "Python",
-        "stars": 5257,
-        "stars_period": 964,
-        "url": "https://github.com/NVIDIA/SkillSpector"
+        "stars": 30087,
+        "stars_period": 1100,
+        "url": "https://github.com/Panniantong/Agent-Reach"
       },
       {
-        "repo": "chatwoot/chatwoot",
-        "desc": "Nền tảng hỗ trợ khách hàng mã nguồn mở thay thế Intercom và Zendesk: live chat, email, omni-channel hợp nhất trong một dashboard duy nhất",
-        "lang": "Ruby",
-        "stars": 31204,
-        "stars_period": 400,
-        "url": "https://github.com/chatwoot/chatwoot"
+        "repo": "krahets/hello-algo",
+        "desc": "Sách giáo khoa thuật toán và cấu trúc dữ liệu với giải thích bằng hoạt ảnh và code chạy được, hỗ trợ nhiều ngôn ngữ lập trình phổ biến",
+        "lang": "Java",
+        "stars": 126876,
+        "stars_period": 71,
+        "url": "https://github.com/krahets/hello-algo"
       },
       {
-        "repo": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
-        "desc": "Sách giáo khoa mã nguồn mở toàn diện về robot tự động, từ cảm biến và actuator đến thuật toán điều hướng, dành cho sinh viên và kỹ sư",
-        "lang": "TeX",
-        "stars": 2700,
-        "stars_period": 293,
-        "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots"
+        "repo": "freeCodeCamp/freeCodeCamp",
+        "desc": "Chương trình học lập trình, toán học và khoa học máy tính miễn phí mã nguồn mở của freeCodeCamp.org với hàng triệu học viên toàn cầu",
+        "lang": "TypeScript",
+        "stars": 447866,
+        "stars_period": 736,
+        "url": "https://github.com/freeCodeCamp/freeCodeCamp"
       },
       {
-        "repo": "GorvGoyl/Clone-Wars",
-        "desc": "Tổng hợp 100+ dự án mã nguồn mở clone các website phổ biến như Netflix, Airbnb, Spotify kèm source code và demo trực tiếp",
+        "repo": "jwasham/coding-interview-university",
+        "desc": "Lộ trình học toàn diện để trở thành kỹ sư phần mềm: từ cấu trúc dữ liệu, thuật toán đến thiết kế hệ thống và chuẩn bị phỏng vấn",
         "lang": "",
-        "stars": 35440,
-        "stars_period": 269,
-        "url": "https://github.com/GorvGoyl/Clone-Wars"
-      },
-      {
-        "repo": "swc-project/swc",
-        "desc": "Nền tảng biên dịch web cực nhanh viết bằng Rust, thay thế Babel với tốc độ cao hơn 70 lần khi transpile TypeScript và JavaScript",
-        "lang": "Rust",
-        "stars": 33771,
-        "stars_period": 163,
-        "url": "https://github.com/swc-project/swc"
+        "stars": 352286,
+        "stars_period": 364,
+        "url": "https://github.com/jwasham/coding-interview-university"
       }
     ],
     "weekly": [
@@ -96,123 +96,117 @@
         "repo": "mvanhorn/last30days-skill",
         "desc": "AI agent skill nghiên cứu bất kỳ chủ đề nào từ Reddit, X, YouTube, HackerNews, Polymarket và web trong vài giây, tổng hợp báo cáo tự động",
         "lang": "Python",
-        "stars": 41984,
-        "stars_period": 12053,
+        "stars": 42856,
+        "stars_period": 9676,
         "url": "https://github.com/mvanhorn/last30days-skill"
       },
       {
+        "repo": "apple/container",
+        "desc": "Công cụ Apple viết bằng Swift để tạo và chạy Linux container trên Mac bằng máy ảo nhẹ, mỗi container một micro-VM riêng biệt, tối ưu cho Apple Silicon",
+        "lang": "Swift",
+        "stars": 37438,
+        "stars_period": 10541,
+        "url": "https://github.com/apple/container"
+      },
+      {
+        "repo": "phuryn/pm-skills",
+        "desc": "Bộ 100+ agentic skill, lệnh và plugin dành cho Product Manager: từ khám phá cơ hội, chiến lược, triển khai sản phẩm đến tăng trưởng và ra mắt",
+        "lang": "",
+        "stars": 18588,
+        "stars_period": 6117,
+        "url": "https://github.com/phuryn/pm-skills"
+      },
+      {
         "repo": "chopratejas/headroom",
-        "desc": "Nén tool output, log, file và RAG chunk trước khi đưa vào LLM, giảm chi phí token và tăng tốc độ phản hồi của agent đáng kể",
+        "desc": "Nén tool output, log, file và RAG chunk trước khi đưa vào LLM: giảm 60-95% token, cùng câu trả lời, tăng tốc độ và giảm chi phí agent đáng kể",
         "lang": "Python",
-        "stars": 27541,
-        "stars_period": 10653,
+        "stars": 28815,
+        "stars_period": 10660,
         "url": "https://github.com/chopratejas/headroom"
       },
       {
         "repo": "addyosmani/agent-skills",
-        "desc": "Bộ skill kỹ thuật production-grade cho AI coding agent, chuẩn hóa quy trình từ code review đến deploy pipeline",
+        "desc": "Bộ skill kỹ thuật production-grade cho AI coding agent: chuẩn hóa quy trình từ code review, testing đến deploy pipeline",
         "lang": "Shell",
-        "stars": 59456,
-        "stars_period": 10445,
+        "stars": 60291,
+        "stars_period": 11088,
         "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "repo": "Panniantong/Agent-Reach",
-        "desc": "Trang bị mắt cho AI agent để đọc và tìm kiếm đồng thời trên Twitter, Reddit, YouTube, GitHub, Bilibili và XiaoHongShu",
-        "lang": "Python",
-        "stars": 28717,
-        "stars_period": 5468,
-        "url": "https://github.com/Panniantong/Agent-Reach"
-      },
-      {
-        "repo": "refactoringhq/tolaria",
-        "desc": "Ứng dụng desktop quản lý knowledge base bằng Markdown, offline-first: tổ chức ghi chú, tài liệu kỹ thuật và ý tưởng mà không cần cloud",
-        "lang": "TypeScript",
-        "stars": 16210,
-        "stars_period": 3592,
-        "url": "https://github.com/refactoringhq/tolaria"
       }
     ],
-    "trend_note": "Tuần này GitHub trending bị dominate bởi agentic infrastructure: mvanhorn/last30days-skill và chopratejas/headroom lần đầu xuất hiện đều phục vụ agent, một cái giúp agent nghiên cứu nhanh, một cái nén context tiết kiệm token. NVIDIA/SkillSpector ngày thứ 2 liên tiếp dẫn daily với 964 sao hôm nay (hôm qua 804), phản ánh lo ngại bảo mật khi deploy AI agent ra production đang tăng nhanh trong cộng đồng."
+    "trend_note": "Trending daily 16/6 có điều lạ: iptv-org/iptv bất ngờ dẫn đầu với 2.657 sao trong ngày, có thể do đợt cập nhật kênh lớn. Nổi bật nhất tuần này là apple/container (Swift, 10.541 sao tuần này) - Apple tung công cụ chạy Linux container trên Mac bằng micro-VM riêng cho mỗi container, không cần Docker, là tín hiệu Apple lấn sân developer infrastructure rõ ràng. Panniantong/Agent-Reach leo từ weekly lên daily hôm nay, sức hút vẫn tăng đều."
   },
   "tech": [
     {
-      "title": "Bản đồ AI giữa năm 2026 tại Việt Nam: ChatGPT đạt 900 triệu users mỗi tuần, người Việt chuyển dùng AI chuyên biệt",
-      "summary": "Dữ liệu tìm kiếm giữa năm 2026 cho thấy ChatGPT vẫn dẫn đầu với gần 900 triệu người dùng mỗi tuần, gấp đôi so với 400 triệu hồi tháng 2/2025. Tuy nhiên tại Việt Nam, xu hướng rõ là người dùng đang chuyển dần sang các AI chuyên biệt, thực dụng và phần lớn miễn phí thay vì dùng AI đa năng. Khoảng cách năng suất giữa người biết dùng AI và chưa biết ngày càng nới rộng.",
-      "source": "1thegioi.vn",
-      "url": "https://1thegioi.vn/ban-do-ai-giua-nam-2026-tu-cuoc-dua-ba-ong-lon-den-nhung-cong-cu-nguoi-viet-dang-do-xo-tim-kiem-252741.html",
-      "published": "2026-06-14"
+      "title": "Apple Intelligence hỗ trợ tiếng Việt từ WWDC 2026 - Việt Nam vào nhóm 16 ngôn ngữ ưu tiên đầu tiên toàn cầu",
+      "summary": "Tại WWDC 2026 ngày 9/6, Apple chính thức đưa tiếng Việt vào nhóm 16 ngôn ngữ được Apple Intelligence hỗ trợ đầu tiên, cùng với Anh, Pháp, Nhật, Hàn, Trung. Tính năng AI trong Photos, Mail và Messages sẽ chạy bằng tiếng Việt từ bản phát hành đầu. Apple còn dùng hình ảnh phở gà Hà Nội và ghi chú 'Hanoi Reflection' trong demo Visual Intelligence và Journal, đặt Việt Nam vào vị trí văn hóa nổi bật tại sự kiện.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/viet-nam-ghi-dau-an-tai-wwdc-2026-tieng-viet-la-ngon-ngu-uu-tien-tren-apple-intelligence",
+      "published": "2026-06-09"
     },
     {
-      "title": "Venture Forum 2026 tại TP HCM: 500 nhà đầu tư châu Á bàn về 'M&A Moment' của hệ sinh thái startup Việt",
-      "summary": "Ngày 12/6, hơn 500 đại diện từ quỹ đầu tư và công ty công nghệ khắp châu Á tập trung tại Vinpearl Landmark 81 cho Venture Forum 2026 với chủ đề 'Vietnam's M&A Moment'. Sự kiện do VinVentures và Sở KH&CN TP HCM đồng tổ chức, thảo luận cơ hội M&A trong giai đoạn hệ sinh thái startup Việt consolidation khi vốn đầu tư đầu năm giảm mạnh nhưng mở ra cơ hội thương vụ chiến lược.",
-      "source": "VnExpress International",
-      "url": "https://e.vnexpress.vn/news/business/venture-forum-2026-to-bring-together-technology-and-m-a-investors-in-ho-chi-minh-city-5075742.html",
-      "published": "2026-06-11"
+      "title": "Viettel và NVIDIA khởi động Vietnam AI Open Hackathon 2026 - mở quyền truy cập 96 GPU H200 cho cộng đồng dev Việt",
+      "summary": "Viettel phối hợp NVIDIA khởi động Vietnam AI Open Hackathon 2026 từ 9-12/6, tuyển 12 đội xuất sắc làm việc trên hạ tầng 96 GPU NVIDIA H200 và 120 TiB lưu trữ, lần đầu tiên hạ tầng AI cấp enterprise công khai cho cộng đồng công nghệ Việt Nam. Các đội tập trung vào Generative AI, Agentic AI và Physical AI. Việt Nam được NVIDIA chọn là quốc gia trong nhóm nhận nguồn lực riêng trong chiến lược sovereign AI Đông Nam Á.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/viettel-khoi-dong-vietnam-ai-open-hackathon-2026-cung-nvidia-mo-rong-quyen-tiep-can-ha-tang-sieu-may-tinh-ai-cho-cong-dong-cong-nghe-viet-nam",
+      "published": "2026-06-09"
     },
     {
-      "title": "Microsoft và Google trực tiếp tham chiến AI coding models, thách thức vị trí của Anthropic và OpenAI",
-      "summary": "CNBC đưa tin Microsoft và Google đang đẩy mạnh phát triển AI coding model riêng, nhắm trực tiếp vào thị phần Claude Code (Anthropic) và Codex (OpenAI). Microsoft tích hợp model coding vào GitHub Copilot với hệ thống billing mới theo AI Credits từ đầu tháng 6. Google cũng tăng tốc phát triển Jules và nâng cấp Gemini cho lập trình viên. Cuộc cạnh tranh tứ cường đang định hình lại thị trường developer tools.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
-      "published": "2026-06-01"
+      "title": "Robot VinRobotics VR-H3 'Make in Vietnam' tỏa sáng tại Computex 2026 và ICRA 2026 - từ linh kiện đến nền tảng",
+      "summary": "Robot nhân hình VR-H3 của VinRobotics gây ấn tượng tại hai sự kiện quốc tế: Computex 2026 (Đài Loan) và ICRA 2026 (Áo) đầu tháng 6. VR-H3 là nền tảng công nghệ toàn diện do kỹ sư Việt Nam phát triển độc lập, bao gồm robot toàn thân, hệ thống tay robot và động cơ hiệu suất cao. Đây là lần đầu một sản phẩm robot Việt Nam được triển lãm tại cả hai sân khấu công nghệ hàng đầu thế giới cùng lúc.",
+      "source": "Báo Pháp Luật Việt Nam",
+      "url": "https://baophapluat.vn/nguoi-may-make-in-vietnam-cua-vinrobotics-toa-sang-tai-hai-san-khau-cong-nghe-hang-dau-the-gioi.html",
+      "published": "2026-06-05"
     },
     {
-      "title": "OpenAI tái thiết ChatGPT ở quy mô lớn nhất lịch sử, tích hợp Canva và AWS thành 'super app'",
-      "summary": "Financial Times tiết lộ OpenAI đang cải tổ ChatGPT theo quy mô chưa từng có, tích hợp Canva, AWS và hàng chục dịch vụ bên thứ ba vào một nền tảng hợp nhất. Mục tiêu biến ChatGPT thành 'super app' theo mô hình WeChat, từ viết code, tạo thiết kế đến mua sắm đều thực hiện trong một ứng dụng. Codex cũng đã có mặt trên AWS từ ngày 1/6.",
-      "source": "Note.com / Financial Times",
-      "url": "https://note.com/tothinks/n/nbb4f563fe619",
-      "published": "2026-06-13"
+      "title": "TP Hồ Chí Minh cấp chứng nhận Doanh nghiệp Công nghệ Cao đầu tiên cho đơn vị cung cấp hạ tầng AI",
+      "summary": "Ngày 9/6, TP Hồ Chí Minh cấp Giấy chứng nhận Doanh nghiệp Công nghệ Cao đầu tiên trong lĩnh vực cung cấp hạ tầng AI, bước đi cụ thể trong chiến lược phát triển hệ sinh thái đổi mới sáng tạo của thành phố. Doanh nghiệp được công nhận DNCNC hưởng ưu đãi thuế, đất, tín dụng và được ưu tiên trong mua sắm công. Đây là tín hiệu chính sách rõ ràng TP HCM đang đặt cược vào AI infrastructure làm nền tảng kinh tế số.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/tp-ho-chi-minh-cap-giay-chung-nhan-dn-cong-nghe-cao-dau-tien-cho-don-vi-cung-cap-ha-tang-ai",
+      "published": "2026-06-09"
     },
     {
-      "title": "Anthropic mở rộng chương trình Mythos sang 5 lĩnh vực hạ tầng quan trọng, mở thị trường AI an ninh mới",
-      "summary": "Anthropic bổ sung đối tác trong chương trình Mythos (model mạnh hơn dành cho chuyên gia) sang các lĩnh vực điện, nước, y tế, viễn thông và phần cứng. Phần lớn là nhà cung cấp phần mềm phục vụ hơn 100 triệu người. Đây là bước Anthropic mở rộng kinh doanh AI ra ngoài tech thuần túy, định vị trong thị trường an ninh cơ sở hạ tầng quốc gia.",
-      "source": "Investing.com",
-      "url": "https://www.investing.com/analysis/anthropic-mythos-expansion-opens-a-new-ai-cybersecurity-market-200681377",
-      "published": "2026-06-02"
+      "title": "Apple Container 1.0 chính thức: chạy Linux container trên Mac bằng micro-VM riêng, không cần Docker",
+      "summary": "Apple phát hành apple/container phiên bản 1.0 ngày 9/6, công cụ dòng lệnh viết bằng Swift cho phép chạy Linux container trên Mac thông qua máy ảo nhẹ. Khác Docker Desktop dùng một VM lớn chung, mỗi container được cấp phát một micro-VM riêng biệt, tăng bảo mật và giảm overhead. Yêu cầu macOS 26 và Apple Silicon. Công cụ đạt 37.000 sao GitHub với hơn 10.500 sao chỉ trong 7 ngày đầu.",
+      "source": "GitHub",
+      "url": "https://github.com/apple/container",
+      "published": "2026-06-09"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "#StandBanhMi - ẩm thực đường phố Việt viral toàn cầu theo nhạc kinh dien",
-        "desc": "Trend nhái lời bài 'Stand By Me' thành 'Stand Banh Mi', hàng nghìn creator quốc tế quay clip ăn bánh mì trên vỉa hè Việt Nam. Bắt đầu từ tháng 5, vẫn hot tháng 6 và đang mở rộng sang các món Việt khác.",
-        "fit": "@tracuami có thể bắt sóng bằng cách dùng cùng âm thanh 'Stand By Me' nhưng đổi nhân vật thành chân gà sốt Thái hoặc tré trộn Huế, tạo bản địa hóa thú vị để thuật toán đẩy ra ngoài vùng follower cũ.",
-        "idea": "Clip A Nguyên cầm mẹt chân gà sốt Thái nhìn thẳng vào camera, nhạc nền Stand By Me nổi lên. Caption giọng Huế: 'Bánh mì chưa đủ - về Huế phải thử chân gà sốt Thái rứa mấy ơi!' Hashtag: #standchanga #amthuchue #foodvietnam"
+        "name": "Review ẩm thực Việt bằng ảnh + giá - format đơn giản của người nước ngoài đạt triệu view",
+        "desc": "Du khách nước ngoài đang viral mạnh trên TikTok bằng cách chụp ảnh món ăn Việt Nam kèm giá tiền, không cần dựng cảnh hay edit cầu kỳ, vẫn hút hàng triệu lượt xem. Format này đang lan rộng sang creator trong nước và thúc đẩy tình tây đến quán ăn địa phương.",
+        "fit": "@tracuami có ưu thế lớn: chân gà sốt Thái 25k hay tré trộn Huế 20k là mức giá bất ngờ với người nước ngoài và cả bạn bè trong nước. Format ảnh thật đơn giản có thể tạo nội dung hằng ngày không tốn sức sáng tạo.",
+        "idea": "Chụp ảnh chân gà sốt Thái mới làm xong đặt trên mẹt tre, caption thẳng không chỉnh sửa: 'Chân gà Huế 25k. Thật vậy đó. #changathai #amthuchue #hue' - không cần nhạc, không cần edit, upload thẳng lên."
       },
       {
-        "name": "Savory-maxxing và hương vị Tom Yum - xu hướng đậm vị, cay, chua chiếm TikTok 2026",
-        "desc": "TikTok food 2026 đang 'savory-maxxing': pickled everything, salty snack plates, anti-sweet treats lên ngôi. Hương vị Tom Yum (cay, chua, sả, ớt Thái) được dự báo là flavor nổi bật nhất năm, đang tràn vào snack, sốt và bowls.",
-        "fit": "Chân gà sốt Thái của @tracuami là điển hình hoàn hảo cho savory-maxxing và Tom Yum trend. Đây là thời điểm tốt để highlight sốt cay chua đặc trưng vì đúng hướng mà thuật toán đang đẩy mạnh.",
-        "idea": "Clip cận cảnh nồi sốt Thái đang sôi sánh mịn, A Nguyên nếm một muỗng, nhăn mặt vì cay rồi gật đầu hài lòng. Caption: 'Sốt ni pha mỗi ngày mà chưa chán lần nào. Tom Yum của Huế đây bà con!'"
+        "name": "Đồ ăn vặt truyền thống hồi sinh trên TikTok - món bị quên lãng leo lại top tìm kiếm",
+        "desc": "Xu hướng 2026 trên TikTok Việt Nam chứng kiến các món ăn vặt truyền thống bị quên lãng nay leo trở lại top tìm kiếm: da heo chiên nước mắm, chè ba màu, xôi mặn... Content về đồ ăn 'Việt thật' không fancy đang được thuật toán đẩy mạnh vì tỷ lệ xem kỹ cao.",
+        "fit": "Tré trộn Huế là điển hình hoài cổ ẩm thực truyền thống đang trong xu hướng này. @tracuami có thể khai thác bằng cách quay cách pha tré trộn, giới thiệu nguyên liệu hoặc lịch sử món để tạo chuỗi content 'cổ xưa mà hot'.",
+        "idea": "Clip 30 giây A Nguyên mở nguyên liệu làm tré trộn Huế, giữ nguyên âm thanh chuẩn bị không nhạc nền. Caption: 'Tré trộn Huế - món ăn cổ của người Huế. Rứa mà ít người biết.' Hashtag: #tretronhue #amthuchue #montruyenthong"
       },
       {
-        "name": "POV nhân viên bếp - nội dung từ góc nhìn người làm, authentic và được thuật toán ưu ái",
-        "desc": "Format quay từ góc nhìn nhân viên (POV view) trong quán ăn, gắn điện thoại vào túi áo hoặc đeo ngực, tạo cảm giác chân thực và hài hước. Format này hot trên TikTok food niche toàn cầu năm 2026.",
-        "fit": "Nhớ - nhân viên hay bị bắt gặp học len công thức của @tracuami - là nhân vật sinh ra cho format POV. Không cần dàn dựng, quay tự nhiên là ra nội dung giải trí ngay.",
-        "idea": "Clip POV góc Nhớ: lén đứng sau kệ quan sát A Nguyên pha sốt Thái, giả vờ lau bàn mỗi khi anh quay lại. Cuối clip Nhớ nhìn thẳng vào camera thì thầm: 'Học lén được bước 1 rồi. Khó lắm rứa mấy ơi!'"
-      },
-      {
-        "name": "TikTok LIVE bán đồ ăn trực tiếp - LIVE commerce food tăng mạnh tại Việt Nam",
-        "desc": "TikTok Shop LIVE commerce đang thu hẹp khoảng cách với Shopee tại VN, đặc biệt với quán ăn vặt. LIVE trong giờ chuẩn bị bếp tạo nội dung authentic đồng thời nhận đơn trực tiếp ngay trong stream.",
-        "fit": "Buổi chiều khi @tracuami chuẩn bị chân gà là khung giờ vàng cho LIVE: khách xem bếp thật, A Nguyên giải thích từng công đoạn, Thư chốt comment, Nhớ đóng gói ngay trên livestream.",
-        "idea": "LIVE 20 phút A Nguyên làm sốt Thái từ đầu tại bếp, Thư chốt comment đặt hàng. Câu mở: 'Chiều ni show hết công thức sốt Thái. Ai muốn học lén thì ngồi đây - nhưng không đảm bảo học được!'"
+        "name": "Nhạc VPop thế hệ mới làm nền food clip ngắn - HỌ NÓI và Đợi đang thống trị TikTok Việt tháng 6",
+        "desc": "Nhạc VPop đầu 2026 như 'HỌ NÓI' của Khoi Vu, 'Đợi' của 52hz và 'GREEN LIGHT' của Quỳnh Anh Shyn đang được hàng nghìn creator dùng làm nền nhạc cho clip food ngắn 7-15 giây, không cần storytelling phức tạp, chỉ cần hình ảnh đẹp hoặc moment thật là đủ.",
+        "fit": "Nhạc VPop tiếng Việt là bài hát quen thuộc với người xem Việt - nghe nhạc quen là dừng scroll, tăng thời gian xem clip. Clip chân gà hoặc trà sữa kèm nhạc 'Đợi' hay 'HỌ NÓI' có thể tăng engagement mà không tốn tiền quảng cáo.",
+        "idea": "Clip 10 giây: camera cố định cận cảnh ly trà sữa đang rót, bong bóng sôi, nhạc 'Đợi' - 52hz nổi lên nhẹ. Cuối clip hiện '25k'. Không cần người xuất hiện, không cần lời thoại. Upload lúc 3-5 chiều khi người mua nước đông nhất."
       }
     ],
     "sounds": [
       {
-        "name": "Stand By Me - Ben E. King (phiên bản gốc đang viral qua trend #StandBanhMi)",
-        "desc": "Bài nhạc gốc được hàng nghìn creator dùng cho trend #StandBanhMi, phù hợp clip ẩm thực đường phố, reveal món ăn ngoài trời hoặc bất kỳ nội dung food tour đặc sản địa phương nào."
+        "name": "HỌ NÓI - Khoi Vu",
+        "desc": "Trending mạnh trên TikTok Việt tháng 6/2026, dùng cho clip reveal món ăn, mở màn quà, cảnh đẹp - nhịp biến thể phù hợp với đoạn giới thiệu món ăn ngắn dưới 15 giây."
       },
       {
-        "name": "GOALS - LISA, Anitta & Rema",
-        "desc": "Vẫn trending mạnh tháng 6/2026, dùng cho clip transition sản phẩm, reveal combo đồ ăn, cảnh quán đông khách và content lifestyle food ngắn dưới 30 giây."
+        "name": "Đợi - 52hz",
+        "desc": "Sound nhạc buồn nhẹ, trend cho content bếp buổi tối, cảnh quán vắng, hoặc clip lãng mạn kiểu 'trà ở đây, em ở đó' - hợp với clip trà sữa hay trà trái cây của @tracuami buổi chiều."
       },
       {
-        "name": "Questions - Maisie Peters",
-        "desc": "Trending cho content kể chuyện nhân vật và quy trình làm đồ ăn từng bước, hợp với clip series Nhớ học len công thức hoặc cảnh buổi tối tại quán theo phong cách storytelling nhẹ nhàng."
+        "name": "GREEN LIGHT - Quỳnh Anh Shyn",
+        "desc": "Nhịp nhanh, trending cho clip transition sản phẩm và 'trước và sau' cách làm món ăn - hấp dẫn khi cần thể hiện năng lượng qua buổi bán hàng đông khách."
       }
     ],
-    "note": "Tuần này TikTok food bị chi phối bởi hai luồng lớn: (1) ẩm thực Việt Nam lên sóng quốc tế qua #StandBanhMi, cơ hội vàng cho quán địa phương bắt sóng mà không tốn sáng tạo thêm; (2) xu hướng savory-maxxing và Tom Yum flavor, chân gà sốt Thái của @tracuami vừa đúng trend mà không cần thay đổi sản phẩm. Ưu tiên tuần này: 1 clip bắt trend #StandBanhMi version chân gà và 1 LIVE bán hàng tại bếp buổi chiều, cả hai đơn giản, authentic và đúng hướng thuật toán."
+    "note": "Tuần này TikTok Việt chuyển dịch rõ sang 'đơn giản là viral': format ảnh + giá không cần edit gây triệu view, nhạc VPop quen thuộc giữ người dùng lại lâu hơn trên clip. Ưu tiên cho @tracuami tuần này: 1 clip format ảnh + giá chân gà (siêu nhanh, A Nguyên tự làm được), và 1 clip 10 giây trà sữa kèm nhạc Đợi hoặc HỌ NÓI upload buổi chiều cao điểm. Cả hai không cần điều phối nhiều người."
   }
 }
