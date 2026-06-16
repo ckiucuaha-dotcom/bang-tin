@@ -1,105 +1,105 @@
 {
-  "updated_at": "2026-06-15T08:52:00Z",
-  "updated_at_vn": "15:52 15/06/2026",
-  "session_date": "2026-06-15",
+  "updated_at": "2026-06-16T09:30:00Z",
+  "updated_at_vn": "16:30 16/06/2026",
+  "session_date": "2026-06-16",
   "data_quality": "fallback_web",
   "vnindex": {
-    "close": 1794.00,
-    "change": 2.35,
-    "change_pct": 0.13,
-    "note": "Phiên 15/6 đảo chiều ngoạn mục: mở cửa tăng vọt lên 1.806 điểm nhờ tin Mỹ và Iran đạt thỏa thuận, sau đó lao dốc hơn 15 điểm rồi phục hồi mạnh đóng cửa tại 1.794 điểm (+0,13%); nhóm ngân hàng bứt phá là lực đỡ chính, Vingroup (VHM, VIC) gây áp lực chính; khối ngoại bán ròng 400+ tỷ tập trung Vingroup nhưng giải ngân 100+ tỷ vào HPG."
+    "close": 1799.31,
+    "change": 7.66,
+    "change_pct": 0.43,
+    "note": "Phiên 16/6 hồi phục tích cực: VN-Index tăng 7,66 điểm (+0,43%) lên 1.799,31 điểm nhưng chưa lấy lại mốc tâm lý 1.800 điểm; thanh khoản HOSE tăng hơn 55% so với phiên trước, độ rộng nghiêng về bên mua (209 mã tăng, 95 mã giảm); dòng tiền quay lại mạnh nhóm chứng khoán (SSI, VIX, VND) và một phần ngân hàng, trong khi nhóm năng lượng (BSR, PLX, PVS) bị bán mạnh."
   },
   "holdings": [
     {
       "ticker": "FPT",
       "qty": 700,
       "avg_cost": 91470,
-      "price": 73500,
+      "price": 73800,
       "change_pct": 0.41,
-      "value": 51450000,
-      "pnl": -12579000,
-      "pnl_pct": -19.65,
+      "value": 51660000,
+      "pnl": -12369000,
+      "pnl_pct": -19.32,
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
-      "comment": "Lỗ 19,65%; giá tăng nhẹ từ 73.200 lên 73.500 phiên 15/6 theo đà phục hồi chung; cách stoploss 68.000 còn 7,9%, cách ngưỡng cảnh báo 71.400 còn 2,9%. Không tăng thêm vị thế, theo dõi sát ngưỡng 71.400."
+      "comment": "Lỗ 19,32%; giá tăng tiếp từ 73.500 lên 73.800 (+0,41%) theo đà hồi phục chung phiên 16/6; cách stoploss 68.000 còn 8,6%, cách ngưỡng cảnh báo 71.400 còn 3,3%. Không tăng thêm vị thế, theo dõi sát ngưỡng 71.400."
     },
     {
       "ticker": "SSB",
       "qty": 2892,
       "avg_cost": 13990,
       "price": 14550,
-      "change_pct": 0.34,
+      "change_pct": 0.0,
       "value": 42078600,
       "pnl": 1619520,
-      "pnl_pct": 4.00,
+      "pnl_pct": 4.0,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Lãi 4,00%; nhóm ngân hàng bứt phá phiên 15/6, SSB tăng nhẹ từ 14.500 lên 14.550; giữ tiếp, target 18.000 còn xa nhưng xu hướng ổn định."
+      "comment": "Không xác nhận được biến động giá phiên 16/6 từ nguồn web (Vietstock/CafeF chỉ có dữ liệu gần nhất 14.550); tạm giữ giá tham chiếu cũ, đang lãi 4,00%. Nhóm ngân hàng nói chung vẫn giữ sắc xanh tuần này, xác nhận lại giá chính xác phiên kế tiếp."
     }
   ],
   "totals": {
     "cost": 104488080,
-    "value": 93528600,
-    "pnl": -10959480,
-    "pnl_pct": -10.49
+    "value": 93738600,
+    "pnl": -10749480,
+    "pnl_pct": -10.29
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 0,
-      "change_pct": 0,
-      "comment": "Chưa xác nhận được giá phiên 15/6 từ nguồn web; phiên 12/6 đóng 26.950; nhóm ngân hàng bứt phá 15/6 cho thấy ACB có thể tăng tốt, xác nhận lại đầu phiên 16/6."
+      "price": 22750,
+      "change_pct": -15.58,
+      "comment": "Giá điều chỉnh mạnh từ 26.950 xuống 22.750 do ACB chốt quyền chia cổ tức năm 2025 bằng tiền và cổ phiếu phiên 16/6, đây là điều chỉnh kỹ thuật, không phải giảm giá trị thực; nhóm ngân hàng vẫn được hỗ trợ tích cực."
     },
     {
       "ticker": "HPG",
-      "price": 24350,
-      "change_pct": 4.51,
-      "comment": "Tăng mạnh +4,51% lên 24.350 phiên 15/6; khối ngoại giải ngân 100+ tỷ vào HPG nhờ tin Mỹ-Iran giảm căng thẳng Trung Đông, tốt cho ngành thép; theo dõi xem đà tăng có duy trì phiên 16/6 không."
+      "price": 24200,
+      "change_pct": -0.62,
+      "comment": "Giảm nhẹ về 24.200 (-0,62%) sau nhịp tăng mạnh gần 5% phiên 15/6; nhóm thép vẫn được nhà đầu tư chú ý, thanh khoản duy trì cao, theo dõi thêm trước khi vào."
     },
     {
       "ticker": "MBB",
-      "price": 0,
-      "change_pct": 0,
-      "comment": "Chưa xác nhận được giá phiên 15/6 từ nguồn web; phiên 12/6 đóng 25.150; nhóm ngân hàng bứt phá 15/6 hỗ trợ tích cực, xác nhận lại đầu phiên 16/6."
+      "price": 25100,
+      "change_pct": 0.0,
+      "comment": "Giá 25.100, nhóm ngân hàng giữ sắc xanh tương đối rộng phiên 16/6 (LPB, TCB, STB, MBB, MSB, VPB); có thể xem xét tích lũy nếu giữ vững vùng giá này."
     }
   ],
   "gold": {
-    "sjc_buy": 150000000,
-    "sjc_sell": 152500000,
-    "note": "SJC tăng mạnh trong ngày 15/6: sáng 148/150,5 triệu/lượng (tăng 4 triệu và 3,5 triệu so phiên trước), chiều mua vượt 150 triệu sau tin Mỹ-Iran; ước cuối phiên 150/152,5 triệu/lượng theo nhiều nguồn báo, mức cao nhất nhiều tuần."
+    "sjc_buy": 149500000,
+    "sjc_sell": 151500000,
+    "note": "Vàng SJC tiếp tục tăng phiên 16/6: sáng 148/150,5 triệu/lượng, chiều tăng thêm lên 149,5/151,5 triệu/lượng, sát mốc kỷ lục mới theo diễn biến giá vàng thế giới và tình hình eo biển Hormuz."
   },
   "news_vn": [
     {
-      "title": "Dòng tiền quay trở lại, VN-Index đảo chiều ngoạn mục sau cú rơi 15 điểm",
-      "summary": "VN-Index mở cửa tăng vọt lên 1.806 điểm rồi lao dốc hơn 15 điểm trước khi đảo chiều tăng gần 3 điểm đóng cửa tại 1.794 điểm (+0,13%); lực đỡ chính là nhóm ngân hàng trong khi Vingroup (VHM, VIC) khiến chỉ số biến động mạnh; khối ngoại bán ròng 400+ tỷ tập trung Vingroup nhưng mua ròng HPG 100+ tỷ.",
+      "title": "Vietstock Daily 16/06/2026: Lực cầu trở lại?",
+      "summary": "VN-Index đóng cửa phiên 16/6 ở 1.799,31 điểm, tăng 7,66 điểm (+0,43%); thanh khoản HOSE tăng hơn 55% so với phiên trước, độ rộng nghiêng về bên mua với 209 mã tăng so với 95 mã giảm; nhóm chứng khoán và một phần ngân hàng dẫn dắt đà phục hồi, nhóm năng lượng bị bán mạnh.",
+      "source": "Vietstock",
+      "url": "https://vietstock.vn/2026/06/vietstock-daily-16062026-luc-cau-tro-lai-1636-1454397.htm"
+    },
+    {
+      "title": "Cổ phiếu đáng chú ý ngày 16/6: CTD, HPG, TCB",
+      "summary": "Nhóm thép và xây dựng được giới phân tích chú ý trong phiên 16/6 với HPG, CTD nằm trong danh sách cổ phiếu đáng quan tâm; CTD tăng 2,1% lên 72.300 đồng phiên trước đó nhờ tín hiệu kỹ thuật tích cực từ RSI và MACD.",
       "source": "Người Quan Sát",
-      "url": "https://nguoiquansat.vn/dong-tien-quay-tro-lai-vn-index-dao-chieu-ngoan-muc-sau-cu-roi-15-diem-297868.html"
+      "url": "https://nguoiquansat.vn/co-phieu-dang-chu-y-ngay-16-6-ctd-hpg-tcb-298016.html"
     },
     {
-      "title": "Ngân hàng bứt phá phiên 15/6, VN-Index chịu áp lực từ nhóm cổ phiếu Vingroup",
-      "summary": "Nhóm ngân hàng tăng mạnh là lực đỡ chính kéo VN-Index phục hồi sau nhịp giảm sốc đầu phiên 15/6; áp lực từ VHM và VIC (họ Vingroup) là nguyên nhân khiến chỉ số có lúc mất hơn 15 điểm; 347 mã tăng so với 243 mã giảm, thanh khoản HOSE phục hồi trên 11.700 tỷ đồng.",
-      "source": "Mekong Asean",
-      "url": "https://mekongasean.vn/ngan-ha-ng-but-pha-vn-index-van-do-lu-a-vi-ho-vingroup-55633.html"
-    },
-    {
-      "title": "Giá vàng SJC đảo chiều tăng 4 triệu đồng mỗi lượng sau tin nóng Trung Đông",
-      "summary": "Vàng SJC đảo chiều tăng mạnh trong phiên 15/6: buổi sáng 148/150,5 triệu/lượng (tăng 4 triệu so phiên trước), tiếp tục tăng thêm sau tin Mỹ và Iran đạt thỏa thuận; chiều mua vượt 150 triệu, mức cao nhất nhiều tuần.",
-      "source": "Investing.com Tiếng Việt",
-      "url": "https://vn.investing.com/news/commodities-news/gia-vang-dao-chieu-ngoan-muc-sjc-tang-4-trieu-dongluong-sau-tin-nong-trung-dong-2642552"
+      "title": "ACB chốt quyền chia cổ tức năm 2025 bằng tiền và cổ phiếu",
+      "summary": "ACB thực hiện chốt quyền chia cổ tức năm 2025 bằng tiền mặt và cổ phiếu trong phiên 16/6, khiến giá tham chiếu điều chỉnh giảm mạnh từ vùng 26.950 xuống 22.750 đồng; đây là điều chỉnh kỹ thuật do cổ tức, không phản ánh giảm giá trị thực tế cổ phiếu.",
+      "source": "Vietstock",
+      "url": "https://vietstock.vn/2026/06/acb-chot-quyen-chia-co-tuc-nam-2025-bang-tien-va-co-phieu-738-1450488.htm"
     }
   ],
   "advice": {
-    "summary": "Danh mục lỗ 10,49%, cải thiện từ -10,83% phiên 12/6 nhờ FPT tăng nhẹ và SSB giữ vùng lãi. Phiên 15/6 VN-Index đảo chiều tăng nhẹ (+0,13%) sau cú rơi mạnh đầu phiên nhờ ngân hàng bứt phá và tin Mỹ-Iran tích cực; áp lực từ Vingroup và khối ngoại bán ròng cho thấy thị trường chưa thực sự ổn định. Giữ cả hai mã, theo dõi kết quả họp Fed và báo cáo MSCI về nâng hạng trong tuần.",
+    "summary": "Danh mục lỗ 10,29%, cải thiện nhẹ từ -10,49% phiên 15/6 nhờ FPT tăng tiếp lên 73.800 theo đà hồi phục chung của VN-Index (+0,43% lên 1.799,31 điểm). SSB chưa xác nhận được giá mới nên tạm giữ ở 14.550, vẫn lãi 4,00%. Thị trường phiên 16/6 có lực cầu quay lại nhưng vẫn chưa vượt mốc tâm lý 1.800 điểm, dòng tiền tập trung nhóm chứng khoán hơn ngân hàng/công nghệ. Chưa có lý do để thay đổi vị thế, tiếp tục giữ cả hai mã và theo dõi sát các ngưỡng cảnh báo.",
     "actions": [
-      "FPT: GIỮ, theo dõi sát ngưỡng 71.400 (stoploss+5%); giá 73.500 còn cách stoploss 7,9%, không tăng thêm vị thế khi khối ngoại chưa đảo chiều mua ròng FPT.",
-      "SSB: GIỮ, đang lãi 4,00%, nhóm ngân hàng bứt phá phiên 15/6 hỗ trợ; giữ tiếp, target 18.000 còn xa.",
-      "Tiền mới: Chưa giải ngân thêm; chờ xác nhận từ Fed (họp tuần này) và báo cáo MSCI về nâng hạng thị trường trước khi hành động.",
-      "ACB (watchlist): Chưa xác nhận được giá 15/6 nhưng nhóm ngân hàng bứt phá là tín hiệu tích cực; xác nhận lại phiên 16/6, xem xét vào thử nếu tiếp tục xanh và giữ trên 26.500.",
-      "HPG (watchlist): Tăng +4,51% lên 24.350 nhờ khối ngoại mua ròng và tin Trung Đông tích cực; theo dõi nhưng không vội vào vì chưa rõ đà tăng có bền vững sau 1 phiên.",
-      "MBB (watchlist): Chưa xác nhận được giá 15/6; nhóm ngân hàng hỗ trợ tích cực, xác nhận lại phiên 16/6.",
-      "Vàng SJC: Tăng mạnh lên ước 150/152,5 triệu/lượng sau tin Mỹ-Iran, không phải điểm mua tích lũy khi giá biến động cao và đã ở mức cao nhất nhiều tuần."
+      "FPT: GIỮ, giá 73.800 (+0,41%) theo đà hồi phục thị trường; cách stoploss 68.000 còn 8,6%; không tăng thêm vị thế, theo dõi sát ngưỡng cảnh báo 71.400.",
+      "SSB: GIỮ, chưa xác nhận được giá mới phiên 16/6 từ nguồn web, tạm giữ giá tham chiếu 14.550, đang lãi 4,00%; xác nhận lại giá chính xác phiên kế tiếp.",
+      "Tiền mới: Chưa giải ngân thêm; VN-Index chưa vượt mốc tâm lý 1.800 điểm, chờ tín hiệu xác nhận xu hướng rõ ràng hơn.",
+      "ACB (watchlist): Giá điều chỉnh về 22.750 do chốt quyền chia cổ tức 2025 (tiền và cổ phiếu), không phải giảm giá trị thực; nhóm ngân hàng vẫn được hỗ trợ tích cực, có thể xem xét tích lũy dần nếu giá ổn định sau điều chỉnh.",
+      "HPG (watchlist): Giá 24.200, giảm nhẹ -0,62% so với phiên trước sau nhịp tăng mạnh 15/6; nhóm thép vẫn được chú ý, theo dõi thêm trước khi vào.",
+      "MBB (watchlist): Giá 25.100, nhóm ngân hàng giữ sắc xanh; có thể xem xét tích lũy nếu giữ vững vùng giá này.",
+      "Vàng SJC: Tiếp tục tăng lên 149,5/151,5 triệu/lượng, sát mốc kỷ lục; không phải điểm mua tích lũy khi giá đã ở vùng cao và biến động mạnh theo tình hình quốc tế."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
