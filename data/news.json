@@ -1,212 +1,218 @@
 {
-  "updated_at": "2026-06-16T00:30:00Z",
-  "updated_at_vn": "07:30 16/06/2026",
+  "updated_at": "2026-06-18T00:10:00Z",
+  "updated_at_vn": "07:10 18/06/2026",
   "ai": [
     {
-      "title": "Anthropic ra mắt Claude Corps - chương trình $150 triệu đặt 1.000 fellow AI vào tổ chức phi lợi nhuận toàn nước Mỹ",
-      "summary": "Anthropic cam kết $150 triệu xây dựng chương trình Claude Corps, mục tiêu đào tạo và phân bổ 1.000 fellow AI vào các tổ chức phi lợi nhuận Mỹ trong 3 năm. Mỗi fellow nhận lương $85.000/năm, $10.000 grant và 12 tháng đào tạo thực chiến cùng Claude, tổ chức host được cấp tài khoản Claude và hỗ trợ triển khai AI miễn phí. Đối tác chính gồm CodePath và Social Finance. Cohort đầu 100 người bắt đầu tháng 10/2026, nhận đơn đến 17/7/2026.",
-      "why_it_matters": "Claude Corps báo hiệu Anthropic đang xây dựng tác động xã hội trước IPO, có thể tạo nguồn dữ liệu phi lợi nhuận mới để cải thiện Claude về sau. Nếu chương trình thành công, Claude sẽ mạnh thêm ở khả năng phân tích tài chính và chính sách, hữu ích cho workflow nghiên cứu cổ phiếu VN hằng ngày.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-launches-150m-claude-corps-170834614.html",
-      "published": "2026-06-12",
+      "title": "Amodei va Hassabis keu goi lien minh AI do My dan dau tai G7 - Altman cung tham du, Anthropic de xuat kiem soat chip chat voi Trung Quoc",
+      "summary": "Ngay 17/6, tai hoi nghi G7 o Evian-les-Bains, Phap, Dario Amodei (Anthropic) va Demis Hassabis (Google DeepMind) tham du bua an trua cung khoang 12 CEO cong nghe va lanh dao G7 ve tuong lai AI. Amodei keu goi lien minh quoc te do My dan dau ve truy cap co kiem soat vao frontier model, thuong mai chip va linh kien ban dan loai tru Trung Quoc, dong thoi hop tac ngan rui ro AI trong an ninh mang va cong nghe sinh hoc. Day la lan dau Altman va Amodei cung xuat hien cong khai ke tu su kien AI tai An Do dau nam.",
+      "why_it_matters": "Anthropic dang van dong chinh sach o cap G7 ve kiem soat chip AI - neu thanh cong, dieu nay co the anh huong gia va nguon cung GPU dai han, tac dong den chi phi inference va roadmap Claude. Dang chu y de danh gia chien luoc dia chinh tri cua Anthropic truoc IPO thang 10/2026 va anh huong den co phieu cong nghe VN nhu FPT.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html",
+      "published": "2026-06-17",
       "hot": true
     },
     {
-      "title": "Anthropic tách riêng billing Agent SDK khỏi gói subscription từ 15/6 - người dùng Claude Code cần chú ý ngay",
-      "summary": "Từ 15/6/2026, Anthropic tách riêng hóa đơn Agent SDK và claude-p (tự động hóa agentic) khỏi pool chung của các gói Pro, Max, Team, Enterprise. Thay vì 'unlimited' như trước, người dùng nhận một ngân sách dollar hằng tháng riêng cho tác vụ agent. Thay đổi này ảnh hưởng trực tiếp đến developer dùng Claude cho automated pipeline và API agentic, cần theo dõi credit tiêu thụ chặt hơn.",
-      "why_it_matters": "Đây là thay đổi có hiệu lực từ hôm qua - cần kiểm tra ngay xem script Claude Code đang chạy tự động có bị ảnh hưởng không. Nếu có pipeline chạy nhiều lần trong ngày, nên xem lại tần suất và theo dõi credit agent để tránh vượt ngân sách bất ngờ.",
-      "source": "Digital Applied",
-      "url": "https://www.digitalapplied.com/blog/anthropic-claude-credit-overhaul-june-15-2026",
-      "published": "2026-06-15",
+      "title": "Anthropic tich hop Claude Design vao Claude Code - go /design tu terminal de tao giao dien tu codebase local",
+      "summary": "Ngay 17/6, Anthropic ra mat ban cap nhat Claude Design tich hop sau voi Claude Code: thiet ke gio bat dau tu codebase local thay vi khung trang, dam bao asset moi phu hop component da co trong san pham. Tu terminal Claude Code, go /design de vao design mode ma khong can mo app rieng. Tool import moi nhan GitHub repo va raw file, tu xay design system tu code thuc. Gioi han su dung gio chia se chung voi Claude Code va Claude chat, da so nguoi dung se khong bi can quota nhu truoc.",
+      "why_it_matters": "Voi ai dung Claude Code hang ngay, /design la tinh nang thuc su huu ich: khong can mo tool rieng, khong can xuat file qua lai - Claude hieu design system san co roi tu code luon. Nen test ngay lan tiep theo dung Claude Code cho project co UI.",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/2196329/anthropics-design-assistant-now-works-better-with-its-coding-agent/",
+      "published": "2026-06-17",
       "hot": true
     },
     {
-      "title": "SpaceX IPO kỷ lục $75 tỷ, đóng cửa $160,95 ngày đầu - OpenAI chuẩn bị nộp S-1 bí mật lên SEC nhắm niêm yết tháng 9",
-      "summary": "SpaceX chính thức lên sàn Nasdaq dưới mã SPCX ngày 12/6 với giá IPO $135/cổ phiếu, huy động $75 tỷ, là IPO lớn nhất lịch sử chứng khoán Mỹ. Phiên đầu kết thúc ở $160,95, tăng gần 20%. Song song đó, OpenAI đang chuẩn bị nộp hồ sơ S-1 bí mật lên SEC trong vài ngày tới, nhắm niêm yết tháng 9/2026 với định giá trên $1 nghìn tỷ USD, lần đầu tiên hai AI lab hàng đầu cùng nằm trong pipeline IPO cùng lúc.",
-      "why_it_matters": "SpaceX đóng cửa mạnh làm tăng kỳ vọng IPO cho cả OpenAI lẫn Anthropic. Nếu OpenAI IPO thành công tháng 9, khả năng cao Anthropic sẽ theo đó cuối 2026 hoặc đầu 2027, ảnh hưởng đến roadmap Claude Code và giá gói. Đáng nhìn sang cổ phiếu công nghệ VN như FPT để theo dõi phản ứng thị trường.",
-      "source": "NPR",
-      "url": "https://www.npr.org/2026/06/11/nx-s1-5853199/spacex-ipo-price-elon-musk",
-      "published": "2026-06-12",
+      "title": "Microsoft huy license Claude Code noi bo truoc 30/6 - chuyen toan bo ky su Experiences+Devices sang Copilot CLI",
+      "summary": "Microsoft dang huy hau het license Claude Code cho mang Windows, Teams, Outlook va Surface, yeu cau ky su dung GitHub Copilot CLI thay the truoc 30/6/2026. Ly do chinh la tai chinh (nam tai khoa Microsoft ket thuc 30/6) va chien luoc (Microsoft ban Copilot cho khach hang, khong the tu dung Claude). Chi phi Claude Code moi ky su $500-2.000/thang. Tro treu la ky su noi bo phan doi manh vi Copilot CLI kem tinh nang so voi Claude Code.",
+      "why_it_matters": "Tin hieu thi truong quan trong: neu Microsoft - cong ty dau tu OpenAI - phai vat lon voi chi phi Claude Code cho ky su noi bo, thi gia model va token pricing cua Anthropic dang co cang thang thuc su. Dang xem xet lai muc su dung Claude Code ca nhan va tan suat chay script tu dong de kiem soat chi phi thang.",
+      "source": "Windows Central",
+      "url": "https://www.windowscentral.com/microsoft/microsoft-cancels-claude-code-licenses-shifting-developers-to-github-copilot-cli-a-move-likely-driven-by-financial-motives",
+      "published": "2026-06-17",
       "hot": true
     },
     {
-      "title": "Gemini 3.5 Pro trong giai đoạn preview cuối - cửa sổ 2 triệu token và Deep Think, dự kiến ra mắt trước 30/6",
-      "summary": "Google xác nhận Gemini 3.5 Pro vẫn trong preview hạn chế trên Vertex AI, dự kiến ra mắt chung trước 30/6/2026. Model được công bố tại Google I/O ngày 19/5 với cửa sổ ngữ cảnh 2 triệu token, chế độ Deep Think để suy luận phức tạp và khả năng đa phương tiện frontier. Pro hướng đến các tác vụ trước đây chỉ dành cho Ultra tier, gồm suy luận nặng và xử lý ngữ cảnh cực dài.",
-      "why_it_matters": "Khi Gemini 3.5 Pro ra mắt trước cuối tháng 6, đây sẽ là đối thủ trực tiếp của Claude Fable 5 trên cửa sổ context dài (2M token). Nên benchmark thực tế cho coding task sau khi ra mắt, vì benchmark chính thức của Google thường khác xa thực tế với Claude Code workflow.",
-      "source": "TechTimes",
-      "url": "https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-2-million-token-context-deep-think-reasoning.htm",
-      "published": "2026-06-06",
+      "title": "OpenAI Deployment Simulation: replay 1,3 trieu hoi thoai that voi model moi de phat hien lech lac truoc khi release",
+      "summary": "Ngay 16/6, OpenAI cong bo Deployment Simulation - phuong phap danh gia model truoc trien khai bang cach lay lich su cuoc tro chuyen that (privacy-preserving), xoa phan tra loi cu va cho model moi tra loi lai. Phan tich 1,3 trieu cuoc tro chuyen tu GPT-5 den GPT-5.4 cho thay phuong phap nay phat hien hanh vi sai lech moi, giam rui ro 'biet minh dang bi test', va ap dung duoc cho tac vu agentic co tool use.",
+      "why_it_matters": "Deployment Simulation la cach OpenAI dam bao an toan model dua tren du lieu thuc te thay vi synthetic test - phuong phap bo sung tot cho Constitutional AI cua Anthropic. Neu Anthropic ap dung tuong tu, Claude co the it bi 'gaming' hon trong cac tinh huong thuc trong workflow hang ngay.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/deployment-simulation/",
+      "published": "2026-06-16",
       "hot": false
     },
     {
-      "title": "OpenAI tung Lockdown Mode cho ChatGPT - tắt duyệt web và agent mode để bảo vệ dữ liệu nhạy cảm của doanh nghiệp",
-      "summary": "OpenAI ra mắt ChatGPT Lockdown Mode từ 4/6/2026, là cài đặt tùy chọn hạn chế toàn bộ kết nối mạng của ChatGPT khi kích hoạt: tắt duyệt web trực tiếp, chế độ agent, tải file và một số tính năng hình ảnh từ web. Tính năng này dành cho doanh nghiệp và cá nhân làm việc với dữ liệu nhạy cảm, nhằm giảm rủi ro prompt injection và data exfiltration.",
-      "why_it_matters": "Lockdown Mode là tín hiệu rõ OpenAI đang giải quyết bảo mật doanh nghiệp một cách trực tiếp, mặt trận mà Claude từng dẫn đầu với Constitutional AI. Đáng ghi nhận để so sánh chiến lược: Anthropic dùng cách cơ cấu model, OpenAI dùng cách điều khiển kết nối mạng.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/",
-      "published": "2026-06-04",
+      "title": "Nha Trang ky sac lenh AI Innovation va Security thang 6/2026 - khong bat buoc cap phep, xay clearinghouse an ninh mang AI tu nguyen",
+      "summary": "Ngay 2/6, Nha Trang ky sac lenh 'Thuc day Doi moi va An ninh AI Tien tien', gom hai huong chinh: tang cuong phong thu mang cho ha tang AI va xay dung khung danh gia tu nguyen cho frontier model. Sac lenh khang dinh ro khong tao co che cap phep bat buoc hay kiem duyet truoc khi phat hanh model AI, uu tien can bang giua doi moi va bao mat. AI cybersecurity clearinghouse se ket noi chinh phu va nganh AI de phat hien lo hong phan mem nhanh hon.",
+      "why_it_matters": "Sac lenh nay cung co lap truong 'tu nguyen truoc, bat buoc sau' cua chinh quyen Trump ve AI - tot cho Anthropic va nganh AI My ngan han. Dac biet co loi cho IPO Anthropic thang 10/2026, vi khong co rao can phap ly dot ngot moi nao voi frontier model.",
+      "source": "White House",
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "published": "2026-06-02",
       "hot": false
     }
   ],
   "github": {
     "daily": [
       {
-        "repo": "iptv-org/iptv",
-        "desc": "Bộ sưu tập kênh IPTV công khai từ khắp thế giới, hỗ trợ tất cả thể loại và quốc gia, cập nhật liên tục từ cộng đồng đóng góp",
-        "lang": "TypeScript",
-        "stars": 122828,
-        "stars_period": 2657,
-        "url": "https://github.com/iptv-org/iptv"
+        "repo": "mattpocock/skills",
+        "desc": "Tuyen tap skill ky thuat thuc chien cho ky su phan mem tu bo .claude directory cua Matt Pocock, chuan hoa quy trinh lam viec voi AI coding agent",
+        "lang": "Shell",
+        "stars": 133512,
+        "stars_period": 1523,
+        "url": "https://github.com/mattpocock/skills"
       },
       {
-        "repo": "Panniantong/Agent-Reach",
-        "desc": "Trang bị mắt cho AI agent để đọc và tìm kiếm đồng thời trên Twitter, Reddit, YouTube, GitHub, Bilibili và XiaoHongShu, leo từ weekly lên daily hôm nay",
+        "repo": "obra/superpowers",
+        "desc": "Framework skill agentic va phuong phap phat trien phan mem thuc chien cho AI coding agent, tong hop kinh nghiem thuc te tren production",
+        "lang": "Shell",
+        "stars": 231030,
+        "stars_period": 1129,
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "repo": "google-research/timesfm",
+        "desc": "Foundation model du bao chuoi thoi gian cua Google Research, dao tao tren 100 ty diem du lieu that, dung cho phan tich xu huong va du bao kinh te",
         "lang": "Python",
-        "stars": 30087,
-        "stars_period": 1100,
-        "url": "https://github.com/Panniantong/Agent-Reach"
+        "stars": 21875,
+        "stars_period": 606,
+        "url": "https://github.com/google-research/timesfm"
       },
       {
-        "repo": "krahets/hello-algo",
-        "desc": "Sách giáo khoa thuật toán và cấu trúc dữ liệu với giải thích bằng hoạt ảnh và code chạy được, hỗ trợ nhiều ngôn ngữ lập trình phổ biến",
-        "lang": "Java",
-        "stars": 126876,
-        "stars_period": 71,
-        "url": "https://github.com/krahets/hello-algo"
+        "repo": "n0-computer/iroh",
+        "desc": "Stack mang modular viet bang Rust: ket noi bang khoa cong khai thay vi dia chi IP, thiet ke cho ung dung phi tap trung va peer-to-peer",
+        "lang": "Rust",
+        "stars": 9634,
+        "stars_period": 421,
+        "url": "https://github.com/n0-computer/iroh"
       },
       {
-        "repo": "freeCodeCamp/freeCodeCamp",
-        "desc": "Chương trình học lập trình, toán học và khoa học máy tính miễn phí mã nguồn mở của freeCodeCamp.org với hàng triệu học viên toàn cầu",
-        "lang": "TypeScript",
-        "stars": 447866,
-        "stars_period": 736,
-        "url": "https://github.com/freeCodeCamp/freeCodeCamp"
-      },
-      {
-        "repo": "jwasham/coding-interview-university",
-        "desc": "Lộ trình học toàn diện để trở thành kỹ sư phần mềm: từ cấu trúc dữ liệu, thuật toán đến thiết kế hệ thống và chuẩn bị phỏng vấn",
-        "lang": "",
-        "stars": 352286,
-        "stars_period": 364,
-        "url": "https://github.com/jwasham/coding-interview-university"
+        "repo": "DeusData/codebase-memory-mcp",
+        "desc": "MCP server lap chi muc codebase thanh knowledge graph lau dai, giup AI agent ghi nho va tim kiem code nhanh theo ngu nghia",
+        "lang": "C",
+        "stars": 5215,
+        "stars_period": 371,
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
       }
     ],
     "weekly": [
       {
-        "repo": "mvanhorn/last30days-skill",
-        "desc": "AI agent skill nghiên cứu bất kỳ chủ đề nào từ Reddit, X, YouTube, HackerNews, Polymarket và web trong vài giây, tổng hợp báo cáo tự động",
+        "repo": "NVIDIA/SkillSpector",
+        "desc": "Cong cu quet bao mat cua NVIDIA danh cho AI agent skill, tu dong phat hien lo hong va pattern doc hai trong skill truoc khi trien khai san xuat",
         "lang": "Python",
-        "stars": 42856,
-        "stars_period": 9676,
-        "url": "https://github.com/mvanhorn/last30days-skill"
+        "stars": 7463,
+        "stars_period": 5257,
+        "url": "https://github.com/NVIDIA/SkillSpector"
       },
       {
-        "repo": "apple/container",
-        "desc": "Công cụ Apple viết bằng Swift để tạo và chạy Linux container trên Mac bằng máy ảo nhẹ, mỗi container một micro-VM riêng biệt, tối ưu cho Apple Silicon",
-        "lang": "Swift",
-        "stars": 37438,
-        "stars_period": 10541,
-        "url": "https://github.com/apple/container"
+        "repo": "lfnovo/open-notebook",
+        "desc": "Trien khai ma nguon mo cua NotebookLM voi tinh linh hoat cao hon: ho tro nhieu nguon du lieu va mo hinh ngon ngu khac nhau, bao gom model local",
+        "lang": "TypeScript",
+        "stars": 31355,
+        "stars_period": 2501,
+        "url": "https://github.com/lfnovo/open-notebook"
       },
       {
-        "repo": "phuryn/pm-skills",
-        "desc": "Bộ 100+ agentic skill, lệnh và plugin dành cho Product Manager: từ khám phá cơ hội, chiến lược, triển khai sản phẩm đến tăng trưởng và ra mắt",
-        "lang": "",
-        "stars": 18588,
-        "stars_period": 6117,
-        "url": "https://github.com/phuryn/pm-skills"
+        "repo": "chatwoot/chatwoot",
+        "desc": "Nen tang live-chat, email support va customer support ma nguon mo, thay the Intercom va Zendesk, ho tro nhieu kenh lien lac",
+        "lang": "Ruby",
+        "stars": 32357,
+        "stars_period": 2166,
+        "url": "https://github.com/chatwoot/chatwoot"
       },
       {
-        "repo": "chopratejas/headroom",
-        "desc": "Nén tool output, log, file và RAG chunk trước khi đưa vào LLM: giảm 60-95% token, cùng câu trả lời, tăng tốc độ và giảm chi phí agent đáng kể",
-        "lang": "Python",
-        "stars": 28815,
-        "stars_period": 10660,
-        "url": "https://github.com/chopratejas/headroom"
+        "repo": "refactoringhq/tolaria",
+        "desc": "Ung dung desktop quan ly knowledge base Markdown voi AI, danh cho lap trinh vien muon to chuc ghi chu va tai lieu ca nhan ngoai dam may",
+        "lang": "TypeScript",
+        "stars": 16632,
+        "stars_period": 2046,
+        "url": "https://github.com/refactoringhq/tolaria"
       },
       {
-        "repo": "addyosmani/agent-skills",
-        "desc": "Bộ skill kỹ thuật production-grade cho AI coding agent: chuẩn hóa quy trình từ code review, testing đến deploy pipeline",
-        "lang": "Shell",
-        "stars": 60291,
-        "stars_period": 11088,
-        "url": "https://github.com/addyosmani/agent-skills"
+        "repo": "asgeirtj/system_prompts_leaks",
+        "desc": "Kho tong hop system prompt duoc trich xuat tu nhieu nen tang AI lon nhu Claude, ChatGPT, Gemini, la tai lieu tham chieu cho developer khi thiet ke prompt",
+        "lang": "JavaScript",
+        "stars": 43109,
+        "stars_period": 1506,
+        "url": "https://github.com/asgeirtj/system_prompts_leaks"
       }
     ],
-    "trend_note": "Trending daily 16/6 có điều lạ: iptv-org/iptv bất ngờ dẫn đầu với 2.657 sao trong ngày, có thể do đợt cập nhật kênh lớn. Nổi bật nhất tuần này là apple/container (Swift, 10.541 sao tuần này) - Apple tung công cụ chạy Linux container trên Mac bằng micro-VM riêng cho mỗi container, không cần Docker, là tín hiệu Apple lấn sân developer infrastructure rõ ràng. Panniantong/Agent-Reach leo từ weekly lên daily hôm nay, sức hút vẫn tăng đều."
+    "trend_note": "Daily 18/6 noi bat hai repo skill framework cho AI coding agent cung dan dau: mattpocock/skills (Shell, 1.523 sao hom nay) va obra/superpowers (231.000 sao, 1.129 sao hom nay), cho thay developer dang chuan hoa cach lam viec voi agent production. Tuan nay NVIDIA/SkillSpector leo nhanh nhat trong nhom moi voi 5.257 sao - cong cu bao mat cho AI agent skill dang tro nen can thiet khi muc do trien khai agent tang manh."
   },
   "tech": [
     {
-      "title": "Apple Intelligence hỗ trợ tiếng Việt từ WWDC 2026 - Việt Nam vào nhóm 16 ngôn ngữ ưu tiên đầu tiên toàn cầu",
-      "summary": "Tại WWDC 2026 ngày 9/6, Apple chính thức đưa tiếng Việt vào nhóm 16 ngôn ngữ được Apple Intelligence hỗ trợ đầu tiên, cùng với Anh, Pháp, Nhật, Hàn, Trung. Tính năng AI trong Photos, Mail và Messages sẽ chạy bằng tiếng Việt từ bản phát hành đầu. Apple còn dùng hình ảnh phở gà Hà Nội và ghi chú 'Hanoi Reflection' trong demo Visual Intelligence và Journal, đặt Việt Nam vào vị trí văn hóa nổi bật tại sự kiện.",
+      "title": "Viet Nam lan dau vao top 50 he sinh thai startup toan cau - TP HCM lot top 100 thanh pho doi moi sang tao theo StartupBlink 2026",
+      "summary": "Theo Global Startup Ecosystem Index 2026 cua StartupBlink, Viet Nam leo len vi tri 50 toan cau, ket qua cao nhat lich su, trong khi TP HCM lan dau vao top 100 thanh pho startup the gioi va la mot trong nhung trung tam doi moi nang dong nhat Dong Nam A. Ha Noi, Da Nang va Hai Phong cung cung co vi the tren bang xep hang. He sinh thai startup Viet Nam hien co hon 16.600 startup, 208 quy dau tu va 84 vuon uom.",
+      "source": "VnExpress International",
+      "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-debuts-in-global-top-50-startup-ecosystems-5076481.html",
+      "published": "2026-06-15"
+    },
+    {
+      "title": "VNG tuyen bo dinh vi moi 'He sinh thai so Viet Nam trong ky nguyen AI' tai Dai hoi co dong 2026",
+      "summary": "Tai DHCD thuong nien 2026 ngay 6/6, VNG - ky lan cong nghe Viet Nam - cong bo dinh vi moi cho giai doan tiep theo: xay dung he sinh thai so Viet Nam trong ky nguyen AI, dua tren hon 20 nam phat trien nen tang ket noi, thanh toan, giai tri va ha tang AI. Day la buoc chuyen chien luoc ro rang cua VNG tu cong ty cong nghe tieu dung sang nen tang AI infrastructure.",
       "source": "Vietnam.vn",
-      "url": "https://www.vietnam.vn/viet-nam-ghi-dau-an-tai-wwdc-2026-tieng-viet-la-ngon-ngu-uu-tien-tren-apple-intelligence",
-      "published": "2026-06-09"
+      "url": "https://www.vietnam.vn/en/ky-lan-cong-nghe-viet-nam-cong-bo-dinh-vi-moi-trong-ky-nguyen-ai",
+      "published": "2026-06-06"
     },
     {
-      "title": "Viettel và NVIDIA khởi động Vietnam AI Open Hackathon 2026 - mở quyền truy cập 96 GPU H200 cho cộng đồng dev Việt",
-      "summary": "Viettel phối hợp NVIDIA khởi động Vietnam AI Open Hackathon 2026 từ 9-12/6, tuyển 12 đội xuất sắc làm việc trên hạ tầng 96 GPU NVIDIA H200 và 120 TiB lưu trữ, lần đầu tiên hạ tầng AI cấp enterprise công khai cho cộng đồng công nghệ Việt Nam. Các đội tập trung vào Generative AI, Agentic AI và Physical AI. Việt Nam được NVIDIA chọn là quốc gia trong nhóm nhận nguồn lực riêng trong chiến lược sovereign AI Đông Nam Á.",
-      "source": "Vietnam.vn",
-      "url": "https://www.vietnam.vn/en/viettel-khoi-dong-vietnam-ai-open-hackathon-2026-cung-nvidia-mo-rong-quyen-tiep-can-ha-tang-sieu-may-tinh-ai-cho-cong-dong-cong-nghe-viet-nam",
-      "published": "2026-06-09"
+      "title": "ICOS 2026 vach chien luoc phat trien nganh ban dan Viet Nam - tap trung kiem dinh, dong goi, thiet ke chip noi dia",
+      "summary": "Hoi nghi ICOS 2026 ve ban dan tai Viet Nam xac dinh lo trinh cho nganh: uu tien kiem dinh va dong goi chip truoc, song song phat trien thiet ke chip noi dia va thu hut dau tu vao chuoi cung ung. Intel xac nhan mo rong hop tac ban dan voi Bo Khoa hoc Cong nghe, FPT khai truong nha may kiem tra va dong goi ban dan dau tien do doanh nghiep Viet so huu va van hanh tai Bac Ninh.",
+      "source": "VietnamPlus",
+      "url": "https://en.vietnamplus.vn/icos-2026-highlights-pathways-for-vietnams-semiconductor-development-post335583.vnp",
+      "published": "2026-06-10"
     },
     {
-      "title": "Robot VinRobotics VR-H3 'Make in Vietnam' tỏa sáng tại Computex 2026 và ICRA 2026 - từ linh kiện đến nền tảng",
-      "summary": "Robot nhân hình VR-H3 của VinRobotics gây ấn tượng tại hai sự kiện quốc tế: Computex 2026 (Đài Loan) và ICRA 2026 (Áo) đầu tháng 6. VR-H3 là nền tảng công nghệ toàn diện do kỹ sư Việt Nam phát triển độc lập, bao gồm robot toàn thân, hệ thống tay robot và động cơ hiệu suất cao. Đây là lần đầu một sản phẩm robot Việt Nam được triển lãm tại cả hai sân khấu công nghệ hàng đầu thế giới cùng lúc.",
-      "source": "Báo Pháp Luật Việt Nam",
-      "url": "https://baophapluat.vn/nguoi-may-make-in-vietnam-cua-vinrobotics-toa-sang-tai-hai-san-khau-cong-nghe-hang-dau-the-gioi.html",
-      "published": "2026-06-05"
+      "title": "TECH59 Summit thang 7/2026 tai TP HCM: 500+ nguoi tham du, 20 dien gia, 10 track ve AI, VC, gaming va chinh sach",
+      "summary": "TECH59 Summit 2026 du kien to chuc ngay 17/7 tai Orbital 2.0 Tower trong QTSC IT Park TP HCM, hoi tu hon 500 dai bieu, 20 dien gia va 10 track chuyen sau: AI, dau tu mao hiem, gaming, EdTech, bat dong san va chinh sach chinh phu. Su kien danh dau su truong thanh cua cong dong cong nghe Viet Nam va vai tro tang dan cua TP HCM trong canh quan startup khu vuc Dong Nam A.",
+      "source": "Vietcetera",
+      "url": "https://vietcetera.com/amp/en/tech59-summit-returns-this-july-highlighting-vietnams-growing-role-in-the-regional-tech-landscape",
+      "published": "2026-06-12"
     },
     {
-      "title": "TP Hồ Chí Minh cấp chứng nhận Doanh nghiệp Công nghệ Cao đầu tiên cho đơn vị cung cấp hạ tầng AI",
-      "summary": "Ngày 9/6, TP Hồ Chí Minh cấp Giấy chứng nhận Doanh nghiệp Công nghệ Cao đầu tiên trong lĩnh vực cung cấp hạ tầng AI, bước đi cụ thể trong chiến lược phát triển hệ sinh thái đổi mới sáng tạo của thành phố. Doanh nghiệp được công nhận DNCNC hưởng ưu đãi thuế, đất, tín dụng và được ưu tiên trong mua sắm công. Đây là tín hiệu chính sách rõ ràng TP HCM đang đặt cược vào AI infrastructure làm nền tảng kinh tế số.",
-      "source": "Vietnam.vn",
-      "url": "https://www.vietnam.vn/en/tp-ho-chi-minh-cap-giay-chung-nhan-dn-cong-nghe-cao-dau-tien-cho-don-vi-cung-cap-ha-tang-ai",
-      "published": "2026-06-09"
-    },
-    {
-      "title": "Apple Container 1.0 chính thức: chạy Linux container trên Mac bằng micro-VM riêng, không cần Docker",
-      "summary": "Apple phát hành apple/container phiên bản 1.0 ngày 9/6, công cụ dòng lệnh viết bằng Swift cho phép chạy Linux container trên Mac thông qua máy ảo nhẹ. Khác Docker Desktop dùng một VM lớn chung, mỗi container được cấp phát một micro-VM riêng biệt, tăng bảo mật và giảm overhead. Yêu cầu macOS 26 và Apple Silicon. Công cụ đạt 37.000 sao GitHub với hơn 10.500 sao chỉ trong 7 ngày đầu.",
-      "source": "GitHub",
-      "url": "https://github.com/apple/container",
-      "published": "2026-06-09"
+      "title": "AI dang dinh hinh lai he sinh thai ban dan Viet Nam - tu ha tang du lieu den thiet ke chip tich hop AI",
+      "summary": "VnExpress phan tich cach AI dang lam thay doi chien luoc ban dan Viet Nam: tu trung tam gia cong kiem dinh, nganh dang chuyen dich sang phat trien chip AI-optimized, ha tang du lieu cho cong nghe nhan dang tieng Viet va thiet ke chip chuyen dung cho ung dung edge AI. Samsung ($1,5 ty vao co so kiem dinh gan Ha Noi) va Viettel-NVIDIA (96 GPU H200) la hai cot moc lon trong nam 2026.",
+      "source": "VnExpress International",
+      "url": "https://e.vnexpress.net/news/tech/vietnam-innovation/ai-reshaping-vietnam-s-semiconductor-ecosystem-4965244.html",
+      "published": "2026-06-14"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "Review ẩm thực Việt bằng ảnh + giá - format đơn giản của người nước ngoài đạt triệu view",
-        "desc": "Du khách nước ngoài đang viral mạnh trên TikTok bằng cách chụp ảnh món ăn Việt Nam kèm giá tiền, không cần dựng cảnh hay edit cầu kỳ, vẫn hút hàng triệu lượt xem. Format này đang lan rộng sang creator trong nước và thúc đẩy tình tây đến quán ăn địa phương.",
-        "fit": "@tracuami có ưu thế lớn: chân gà sốt Thái 25k hay tré trộn Huế 20k là mức giá bất ngờ với người nước ngoài và cả bạn bè trong nước. Format ảnh thật đơn giản có thể tạo nội dung hằng ngày không tốn sức sáng tạo.",
-        "idea": "Chụp ảnh chân gà sốt Thái mới làm xong đặt trên mẹt tre, caption thẳng không chỉnh sửa: 'Chân gà Huế 25k. Thật vậy đó. #changathai #amthuchue #hue' - không cần nhạc, không cần edit, upload thẳng lên."
+        "name": "#StandBanhMi - remix Stand By Me viral toan cau qua am thuc duong pho Viet",
+        "desc": "Trend nguoi nuoc ngoai thay loi 'Stand By Me' cua Ben E. King thanh 'Stand Banh Mi', quay canh an banh mi hoac do an duong pho Viet Nam. Mot clip dat 389.000 luot xem va dang keo chu y quoc te vao am thuc Viet. Nguoi xem Viet khen ngoi su sang tao va don nhan tich cuc.",
+        "fit": "@tracuami nam dung trong xu huong: am thuc duong pho Hue dia phuong voi chan ga sot Thai, tre tron la nhung mon co the tro thanh chu de 'la ma quen' voi nguoi ngoai Hue va nguoi nuoc ngoai.",
+        "idea": "Clip A Nguyen cam khay chan ga sot Thai vua xong, am thanh nen 'Stand Banh Mi' nhe, caption: 'Nguoi Hue khong an banh mi - rua ma co cai ni. #changathai #amthuchue #StandBanhMi'"
       },
       {
-        "name": "Đồ ăn vặt truyền thống hồi sinh trên TikTok - món bị quên lãng leo lại top tìm kiếm",
-        "desc": "Xu hướng 2026 trên TikTok Việt Nam chứng kiến các món ăn vặt truyền thống bị quên lãng nay leo trở lại top tìm kiếm: da heo chiên nước mắm, chè ba màu, xôi mặn... Content về đồ ăn 'Việt thật' không fancy đang được thuật toán đẩy mạnh vì tỷ lệ xem kỹ cao.",
-        "fit": "Tré trộn Huế là điển hình hoài cổ ẩm thực truyền thống đang trong xu hướng này. @tracuami có thể khai thác bằng cách quay cách pha tré trộn, giới thiệu nguyên liệu hoặc lịch sử món để tạo chuỗi content 'cổ xưa mà hot'.",
-        "idea": "Clip 30 giây A Nguyên mở nguyên liệu làm tré trộn Huế, giữ nguyên âm thanh chuẩn bị không nhạc nền. Caption: 'Tré trộn Huế - món ăn cổ của người Huế. Rứa mà ít người biết.' Hashtag: #tretronhue #amthuchue #montruyenthong"
+        "name": "Do an vat doc la - snack ky quac doc dao trending manh TikTok VN 2026",
+        "desc": "Xu huong content ve do an vat 'la, doc' dang duoc thuat toan TikTok day manh: muc ngam me, ca com cay, que cay, trung xoan oc... Video ve snack khong quen thuoc voi da so tao to mo cao, ty le xem ky tot.",
+        "fit": "Chan ga sot Thai cua @tracuami la snack 'doc la' dien hinh - ga kho sot Thai tai quan Hue la combo bat ngo voi nguoi mien Nam. Tre tron Hue cang it nguoi ngoai Hue biet, tao yeu to kham pha.",
+        "idea": "Video 15 giay: can canh tay A Nguyen mo nap hop tre tron Hue, reveal mau sac va nguyen lieu, khong co loi thoai, chi am thanh mo hop va tieng nhac nhe. Caption: 'Tre tron Hue - thu ni o dau ra rua? #tretronhue #snackhue #docla'"
       },
       {
-        "name": "Nhạc VPop thế hệ mới làm nền food clip ngắn - HỌ NÓI và Đợi đang thống trị TikTok Việt tháng 6",
-        "desc": "Nhạc VPop đầu 2026 như 'HỌ NÓI' của Khoi Vu, 'Đợi' của 52hz và 'GREEN LIGHT' của Quỳnh Anh Shyn đang được hàng nghìn creator dùng làm nền nhạc cho clip food ngắn 7-15 giây, không cần storytelling phức tạp, chỉ cần hình ảnh đẹp hoặc moment thật là đủ.",
-        "fit": "Nhạc VPop tiếng Việt là bài hát quen thuộc với người xem Việt - nghe nhạc quen là dừng scroll, tăng thời gian xem clip. Clip chân gà hoặc trà sữa kèm nhạc 'Đợi' hay 'HỌ NÓI' có thể tăng engagement mà không tốn tiền quảng cáo.",
-        "idea": "Clip 10 giây: camera cố định cận cảnh ly trà sữa đang rót, bong bóng sôi, nhạc 'Đợi' - 52hz nổi lên nhẹ. Cuối clip hiện '25k'. Không cần người xuất hiện, không cần lời thoại. Upload lúc 3-5 chiều khi người mua nước đông nhất."
+        "name": "Review kem ten mon va gia ban - format don gian cua nguoi nuoc ngoai van dat trieu view",
+        "desc": "Nguoi nuoc ngoai va du khach dang viral manh tren TikTok Viet bang format don gian: chup hoac quay can canh mon an, ghi ten va gia bang chu chong len video, khong can edit cau ky. Format tao noi dung hang ngay de dang voi luot xem cao vi tinh xac thuc.",
+        "fit": "Chan ga Hue 25k, tre tron 20k, tra trai cay 25k la cac con so bat ngo voi nguoi o TP HCM va nguoi nuoc ngoai. Format nay @tracuami co the lam nhanh ma khong can dan dung.",
+        "idea": "Clip 7 giay: can canh dia chan ga, chu noi len 'Chan Ga Thai - 25.000 VND - Hue'. Caption: 'Day la 25k o Hue #hue #changathai #amthuchue'. Upload luc 11h trua hoac 3h chieu."
+      },
+      {
+        "name": "ASMR bep quan an - am thanh che bien thuc te khong can loi thoai",
+        "desc": "Content ASMR ve bep quan an va che bien thuc pham dang co ty le xem ky cao tren TikTok VN: tieng xao, tieng soi, tieng cat thuc pham, khong can loi thoai hay nhac nen. Nguoi xem bi cuon vi tinh chan thuc va thu gian.",
+        "fit": "Qua trinh lam sot Thai soi sung suc, tron tre, rot tra sua - day deu la nhung canh co am thanh hap dan tu nhien tai @tracuami ma khong can them gi.",
+        "idea": "Clip 30 giay: camera co dinh tren bep, tieng sot Thai soi, A Nguyen tron chan ga trong chao, khong nhac khong loi. Caption: 'Bep @tracuami luc 10h sang #asmr #bepviet #changathai #hue'"
       }
     ],
     "sounds": [
       {
-        "name": "HỌ NÓI - Khoi Vu",
-        "desc": "Trending mạnh trên TikTok Việt tháng 6/2026, dùng cho clip reveal món ăn, mở màn quà, cảnh đẹp - nhịp biến thể phù hợp với đoạn giới thiệu món ăn ngắn dưới 15 giây."
+        "name": "Stand By Me remix (\"Stand Banh Mi\" version)",
+        "desc": "Version remix Stand By Me dung trong trend #StandBanhMi dang viral qua cac clip am thuc duong pho Viet Nam, phu hop cho clip gioi thieu quan hoac mon an dia phuong thu hut nguoi xem quoc te."
       },
       {
-        "name": "Đợi - 52hz",
-        "desc": "Sound nhạc buồn nhẹ, trend cho content bếp buổi tối, cảnh quán vắng, hoặc clip lãng mạn kiểu 'trà ở đây, em ở đó' - hợp với clip trà sữa hay trà trái cây của @tracuami buổi chiều."
+        "name": "HO NOI - Khoi Vu",
+        "desc": "Tiep tuc trending manh thang 6/2026 trong food content ngan 7-15 giay, hop nhat voi canh reveal mon hoac can canh ban an dong vui, khong can storytelling phuc tap."
       },
       {
-        "name": "GREEN LIGHT - Quỳnh Anh Shyn",
-        "desc": "Nhịp nhanh, trending cho clip transition sản phẩm và 'trước và sau' cách làm món ăn - hấp dẫn khi cần thể hiện năng lượng qua buổi bán hàng đông khách."
+        "name": "Doi - 52hz",
+        "desc": "Nhac buon nhe con trending cho clip bep buoi toi va canh chuan bi nguyen lieu, thich hop voi clip tra sua hoac tra trai cay buoi chieu cua @tracuami."
       }
     ],
-    "note": "Tuần này TikTok Việt chuyển dịch rõ sang 'đơn giản là viral': format ảnh + giá không cần edit gây triệu view, nhạc VPop quen thuộc giữ người dùng lại lâu hơn trên clip. Ưu tiên cho @tracuami tuần này: 1 clip format ảnh + giá chân gà (siêu nhanh, A Nguyên tự làm được), và 1 clip 10 giây trà sữa kèm nhạc Đợi hoặc HỌ NÓI upload buổi chiều cao điểm. Cả hai không cần điều phối nhiều người."
+    "note": "Tuan nay TikTok Viet co hai lan song lon cho kenh food: lan song quoc te qua #StandBanhMi keo view vao am thuc duong pho Viet - @tracuami co the tan dung ngay hom nay vi chan ga Hue la dung niche nay. Va format 'review ten mon kem gia don gian' van tiep tuc tao trieu view ma khong can dau tu production. Uu tien tuan nay: 1 clip #StandBanhMi cho chan ga (A Nguyen tu lam, duoi 5 phut) va 1 clip ASMR bep sang de test ty le xem ky."
   }
 }
