@@ -1,214 +1,208 @@
 {
-  "updated_at": "2026-06-19T00:10:00Z",
-  "updated_at_vn": "07:10 19/06/2026",
+  "updated_at": "2026-06-20T00:10:00Z",
+  "updated_at_vn": "07:10 20/06/2026",
   "ai": [
     {
-      "title": "Google khai tu Gemini CLI ngay 18/6, thay bang Antigravity CLI closed-source viet bang Go",
-      "summary": "Ngay 18/6/2026, Google chinh thuc tat toan bo dich vu Gemini CLI cho moi doi tuong: Google AI Pro, Ultra va ca goi mien phi. Moi CI/CD pipeline, shell script va tich hop IDE dang dung lenh gemini deu ngung nhan phan hoi. Phan thay the la Antigravity CLI (lenh agy), viet bang Go, ho tro multi-agent va luong nen bat dong bo. Diem dang chu y: Antigravity la closed-source, khac hoan toan voi Gemini CLI von la open-source. Ngoai le: doanh nghiep dung Gemini Code Assist Standard hoac Enterprise va user API tra phi van tiep tuc truy cap.",
-      "why_it_matters": "Neu ban dung bat ky automation nao goi lenh gemini - tu CI/CD den script local - thi da bi gay ngu tu hom qua. Day la bai hoc thuc te: ngay ca cong cu open-source chinh thuc cua Big Tech cung co the bi tat va thay bang closed-source bat ngu. Can kiem tra cac script automation ca nhan, dong thoi theo doi xem Anthropic co lan chiem thi phan developer vua mat Gemini CLI hay khong.",
-      "source": "TechTimes",
-      "url": "https://www.techtimes.com/articles/318660/20260618/gemini-cli-shutdown-takes-effect-ci-cd-pipelines-break-go-based-antigravity-cli-arrives.htm",
-      "published": "2026-06-18",
-      "hot": true
-    },
-    {
-      "title": "Anthropic ra mat Claude Corps: $150 trieu dao tao 1.000 fellow AI tai 400 to chuc phi loi nhuan My",
-      "summary": "Ngay 11/6/2026, Anthropic cong bo Claude Corps - dau tu $150 trieu tuyen va nhung 1.000 fellow som su nghiep vao lam viec tai cac to chuc phi loi nhuan suot 1 nam. Fellow nhan luong $85.000, quyen truy cap API Claude va cac cong cu Anthropic. To chuc tiep nhan nhan $10.000 grant trien khai. Bat dau voi 100 ung vien, mo rong len 1.000 tai 400 to chuc. Doi tac: CodePath va Social Finance. Han nop ho so: 17/7, du kien bat dau 19/10/2026.",
-      "why_it_matters": "Anthropic dang xay dung he sinh thai nguoi dung trung thanh truoc IPO - mot nuoc di chien luoc khon ngoan. Claude Corps tao ra 1.000 nguoi sau nay lam viec tai nhieu to chuc quan trong, deu quen dung Claude. Day la tin hieu Anthropic khong bo niche 'AI cho ngu canh thuc te' va khac voi chien luoc B2B thuan tuy cua OpenAI.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/ai-and-ml/2026/06/11/anthropic-hires-1000-fellows-to-push-claude-into-nonprofits/5254489",
-      "published": "2026-06-11",
-      "hot": false
-    },
-    {
-      "title": "OpenAI nop S-1 bi mat len SEC, IPO dinh gia $1 nghin ty - Anthropic cung nop S-1 truoc do 1 tuan",
-      "summary": "Ngay 8-9/6/2026, OpenAI chinh thuc nop ho so IPO bi mat (confidential S-1) len SEC va tu cong bo vi biet 'se bi ro ri nen thong bao luon'. Dinh gia muc tieu khoang $1 nghin ty (hien tai $852 ty sau vong goi von gan nhat). Goldman Sachs va Morgan Stanley dan dau viec phat hanh. Du kien niem yet muon nam 2026. Anthropic da nop S-1 truoc OpenAI khoang 1 tuan, tao nen cuoc dua IPO lich su cua 2 AI giant lon nhat the gioi trong cung mot giai doan.",
-      "why_it_matters": "2 IPO AI lon nhat lich su se niem yet nam 2026 - co the tac dong manh den nhu cau chip AI, gia co phieu Nvidia, va gian tiep den ma co cong nghe VN nhu FPT. Neu ca hai len san trong quy IV/2026, thi truong co the co giai doan dinh gia lai toan bo nganh AI. Can deo bam dien bien de co quyet dinh dung thoi diem.",
+      "title": "Chinh phu My ra lenh Anthropic ngung toan cau Claude Fable 5 va Mythos 5 vi lo ngai bao mat quoc gia",
+      "summary": "Ngay 12/6/2026, Anthropic nhan chi thi kiem soat xuat khau tu Bo Thuong mai My luc 17:21 ET, yeu cau ngung moi truy cap vao Claude Fable 5 va Mythos 5 cho 'moi cong dan nuoc ngoai'. Ly do: mot cong ty khac tuyen bo da jailbreak duoc Mythos, khien chinh quyen lo ngai rui ro an ninh quoc gia. Anthropic chi ra mat Fable 5 ngay 9/6 thi 3 ngay sau da phai tat toan bo tren moi nen tang cloud, ke ca cho chinh nhan vien khong co quoc tich My.",
+      "why_it_matters": "Day la tien le nguy hiem: model AI manh nhat cua Anthropic bi chinh phu don phuong keo xuong sau 3 ngay ra mat. Nguoi dung Claude Code nen luu y - quyen truy cap model co the bi thu hoi dot ngot vi ly do phap ly nam ngoai tam kiem soat, can co plan du phong voi model khac.",
       "source": "Fortune",
-      "url": "https://fortune.com/2026/06/09/openai-files-confidential-s-1-sec-ipo/",
-      "published": "2026-06-09",
+      "url": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/",
+      "published": "2026-06-13",
       "hot": true
     },
     {
-      "title": "Anthropic them self-hosted sandbox va MCP tunnels vao Claude Managed Agents cho doanh nghiep",
-      "summary": "Anthropic gioi thieu 2 tinh nang enterprise moi cho Claude Managed Agents: (1) Self-hosted sandboxes (public beta) - tool execution chay tren ha tang do khach hang kiem soat, ho tro Cloudflare, Daytona, Modal va Vercel. (2) MCP tunnels (research preview) - ket noi qua gateway nhe voi ma hoa dau cuoi, khong can chinh sach firewall inbound hay public endpoint. Anthropic van xu ly orchestration va context; chi workload thuc thi la chuyen vao perimeter khach hang.",
-      "why_it_matters": "Day la buoc ngoat Anthropic tro thanh enterprise-ready thuc su: doanh nghiep VN nhu ngan hang, bao hiem co the cai agent Claude xu ly du lieu nhay cam ma khong lo data ra ngoai. Voi nguoi dung Claude Code cho du an co yeu cau data sovereignty - day la tin hieu tot, khong con bi gioi han boi chinh sach no-data-outside-provider nua.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/orchestration/claude-agents-can-finally-connect-to-enterprise-apis-without-leaking-credentials",
-      "published": "2026-05-19",
+      "title": "Anthropic mo van phong Seoul, ky MOU hop tac an toan AI voi Bo Khoa hoc Han Quoc",
+      "summary": "Ngay 17/6/2026, Anthropic chinh thuc khai truong van phong tai Seoul va ky Bien ban Ghi nho hop tac voi Bo Khoa hoc va Cong nghe Thong tin Han Quoc. Hai ben cam ket hop tac an toan AI va an ninh mang, bao gom danh gia muc do an toan cua Claude theo tieu chuan tieng Han cung Vien An toan AI Han Quoc. Day la van phong quoc te thu hai cua Anthropic tai chau A sau van phong Tokyo.",
+      "why_it_matters": "Anthropic dang mo rong hien dien tai chau A - Thai Binh Duong, bao gom khu vuc Dong Nam A. Xu huong AI safety regulation ngay cang quan trong voi nguoi dung API Claude o VN khi Anthropic tang cuong kiem soat theo tung quoc gia.",
+      "source": "Anthropic Blog",
+      "url": "https://www.anthropic.com/news",
+      "published": "2026-06-17",
+      "hot": true
+    },
+    {
+      "title": "Claude Managed Agents them cron scheduling va CLI tools xac thuc voi vault environment variables",
+      "summary": "Anthropic ra mat tinh nang moi cho Claude Managed Agents: ho tro lap lich tu dong theo cron (chay agent theo gio/ngay/tuan), tich hop an toan voi CLI tools duoc xac thuc, va luu tru bien moi truong trong vault bao mat. Ngoai ra, Anthropic bo sung hon 20 MCP connector phap ly va 12 plugin theo linh vuc hanh nghe, cung tich hop Okta cho phep admin cap quyen MCP mot lan cho toan bo nhan vien.",
+      "why_it_matters": "Tinh nang cron agent mo ra kha nang tu dong hoa hoan toan cac tac vu lap lai - tu cap nhat dashboard hang ngay, thu thap du lieu, den bao cao tu dong. Day chinh xac la thu can thiet de xay dung cac routine nhu bang-tin-sang va bang-tin-chieu chay tu dong khong can nguoi dung thu cong.",
+      "source": "Releasebot Anthropic",
+      "url": "https://releasebot.io/updates/anthropic",
+      "published": "2026-06-01",
       "hot": false
     },
     {
-      "title": "Anthropic tam hoan thay doi he thong credit Claude thang 6/2026 sau phan hoi manh tu cong dong",
-      "summary": "Ngay 15/6/2026, Anthropic thong bao tam hoan ke hoach cap doi he thong credit cho cac goi Claude Pro, Teams va Enterprise. Ke hoach ban dau du kien phan bo credit rieng cho chat va Agent SDK, anh huong den nguoi dung het credit cuoi ky thang. Phan hoi tieu cuc tu cong dong - dac biet tu indie hacker va developer dung agent tu dong - khien Anthropic lui giang de danh gia lai. Khi co thay doi moi se thong bao ro rang hon.",
-      "why_it_matters": "Anh huong truc tiep den nguoi dung Claude Code nang va chay script agent tu dong. Hoan co nghia muc su dung hien tai van on nhung nen chuan bi cho thay doi credit dau ra cho agent/SDK trong tuong lai gan. Nen theo doi kenh release notes cua Anthropic de cap nhat kip thoi.",
-      "source": "DigitalApplied",
-      "url": "https://www.digitalapplied.com/blog/anthropic-claude-credit-overhaul-june-15-2026",
-      "published": "2026-06-15",
+      "title": "Windsurf doi ten thanh Devin Desktop, Agent Command Center thanh giao dien mac dinh",
+      "summary": "Ngay 2/6/2026, Cognition (cong ty sau Devin AI) day cap nhat OTA bien toan bo nguoi dung Windsurf thanh Devin Desktop tu dong khi khoi dong lai IDE. Thay doi lon nhat: thay vi editor co AI tich hop, Devin Desktop la bang dieu khien agent voi Kanban view hien thi tat ca session agent local va cloud. Tinh nang moi gom Spaces (chia se context giua cac agent), ho tro Agent Client Protocol (ACP) va Devin Local cho agent chay tren may ca nhan.",
+      "why_it_matters": "Windsurf tung la doi thu truc tiep cua Claude Code nhung gio chuyen huong thanh 'agent manager' - huong di khac biet. Thi truong IDE AI dang phan hoa ro rang thanh 2 nhanh: coding-first (Cursor, VS Code) va agent-first (Devin Desktop). Nguoi dung Claude Code co the thu tich hop ACP neu can quan ly nhieu agent dong thoi.",
+      "source": "Devin AI Blog",
+      "url": "https://devin.ai/blog/windsurf-is-now-devin-desktop",
+      "published": "2026-06-02",
+      "hot": false
+    },
+    {
+      "title": "ChatGPT cap nhat ho tro phat am 60+ ngon ngu va tinh nang World Cup, kiem soat app ket noi",
+      "summary": "Ngay 19/6/2026, OpenAI phat hanh ban cap nhat ChatGPT voi ba tinh nang moi: (1) huong dan phat am van ban va am thanh cho hon 60 ngon ngu, (2) cap nhat noi dung hoi thoai ve World Cup, (3) tang cuong quyen kiem soat ung dung ket noi. Ngoai ra, qua trinh to chuc chat, chia se ghi chu va tai anh tren iOS cung duoc cai thien.",
+      "why_it_matters": "Tinh nang phat am 60+ ngon ngu mo rong ChatGPT thanh cong cu ngon ngu toan dien, canh tranh truc tiep voi Google Translate va Duolingo. Nguoi dung VN co the thu hoc tieng Anh, Nhat, Han qua phat am truc tiep trong ChatGPT - ket hop voi kha nang giai thich ngu canh la loi the lon.",
+      "source": "OpenAI News",
+      "url": "https://openai.com/news/",
+      "published": "2026-06-19",
       "hot": false
     }
   ],
   "github": {
     "daily": [
       {
-        "repo": "obra/superpowers",
-        "desc": "Framework skill agentic va phuong phap phat trien phan mem thuc chien cho AI coding agent, tong hop kinh nghiem tu san xuat",
-        "lang": "Shell",
-        "stars": 232387,
-        "stars_period": 1429,
-        "url": "https://github.com/obra/superpowers"
+        "repo": "chopratejas/headroom",
+        "desc": "Nen output cua tool, log, file va RAG chunk truoc khi gui vao LLM - giam 60-95% token ma van giu nguyen chat luong cau tra loi",
+        "lang": "Python",
+        "stars": 38625,
+        "stars_period": 4005,
+        "url": "https://github.com/chopratejas/headroom"
       },
       {
         "repo": "google-research/timesfm",
         "desc": "Foundation model du bao chuoi thoi gian cua Google Research, dao tao tren 100 ty diem du lieu that, dung cho phan tich xu huong va du bao kinh te",
         "lang": "Python",
-        "stars": 23133,
-        "stars_period": 844,
+        "stars": 24074,
+        "stars_period": 1510,
         "url": "https://github.com/google-research/timesfm"
       },
       {
-        "repo": "freeCodeCamp/freeCodeCamp",
-        "desc": "Ma nguon mo va chuong trinh giang day cua freeCodeCamp.org - hoc toan, lap trinh va khoa hoc may tinh mien phi cho moi nguoi",
+        "repo": "DeusData/codebase-memory-mcp",
+        "desc": "MCP server lap chi muc codebase thanh knowledge graph ben vung - ho tro 158 ngon ngu, truy van duoi 1ms, giam 99% token so voi doc file thu cong",
+        "lang": "C",
+        "stars": 8201,
+        "stars_period": 1058,
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
+      },
+      {
+        "repo": "palmier-io/palmier-pro",
+        "desc": "Trinh chinh sua video tren macOS duoc xay dung cho AI, toi uu hoa quy trinh bien tap tu dong voi Apple Silicon",
+        "lang": "Swift",
+        "stars": 1880,
+        "stars_period": 756,
+        "url": "https://github.com/palmier-io/palmier-pro"
+      },
+      {
+        "repo": "koala73/worldmonitor",
+        "desc": "Dashboard tinh bao toan cau thoi gian thuc: tong hop tin tuc bang AI, theo doi dia chinh tri va giam sat ha tang",
         "lang": "TypeScript",
-        "stars": 449534,
-        "stars_period": 417,
-        "url": "https://github.com/freeCodeCamp/freeCodeCamp"
-      },
-      {
-        "repo": "n0-computer/iroh",
-        "desc": "Stack mang modular viet bang Rust: ket noi qua khoa cong khai thay vi dia chi IP, thiet ke cho ung dung phi tap trung va peer-to-peer",
-        "lang": "Rust",
-        "stars": 9998,
-        "stars_period": 369,
-        "url": "https://github.com/n0-computer/iroh"
-      },
-      {
-        "repo": "zai-org/GLM-5",
-        "desc": "Mo hinh ngon ngu lon GLM-5 tu vibe coding chuyen sang agentic engineering: tai lieu va vi du thuc hanh chuyen doi quy trinh lap trinh voi AI agent",
-        "lang": "Python",
-        "stars": 4115,
-        "stars_period": 202,
-        "url": "https://github.com/zai-org/GLM-5"
+        "stars": 57221,
+        "stars_period": 156,
+        "url": "https://github.com/koala73/worldmonitor"
       }
     ],
     "weekly": [
       {
-        "repo": "addyosmani/agent-skills",
-        "desc": "Tap hop skill ky thuat cap san xuat cho AI coding agent: tu kien truc he thong den bao mat, deployment va monitoring",
-        "lang": "Shell",
-        "stars": 62894,
-        "stars_period": 9285,
-        "url": "https://github.com/addyosmani/agent-skills"
+        "repo": "chopratejas/headroom",
+        "desc": "Nen output cua tool, log, file va RAG chunk truoc khi gui vao LLM - giam 60-95% token ma van giu nguyen chat luong cau tra loi",
+        "lang": "Python",
+        "stars": 38626,
+        "stars_period": 12793,
+        "url": "https://github.com/chopratejas/headroom"
       },
       {
-        "repo": "NVIDIA/SkillSpector",
-        "desc": "Cong cu bao mat cua NVIDIA quet lo hong va pattern doc hai trong AI agent skill truoc khi trien khai len san xuat",
+        "repo": "Panniantong/Agent-Reach",
+        "desc": "Cho AI agent doc va tim kiem toan bo internet (Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu) chi voi mot CLI, khong can API fee",
         "lang": "Python",
-        "stars": 7930,
-        "stars_period": 5505,
-        "url": "https://github.com/NVIDIA/SkillSpector"
+        "stars": 35083,
+        "stars_period": 8324,
+        "url": "https://github.com/Panniantong/Agent-Reach"
       },
       {
         "repo": "iptv-org/iptv",
         "desc": "Kho tong hop cac kenh IPTV cong khai tu khap the gioi, phan loai theo quoc gia, ngon ngu va the loai",
         "lang": "TypeScript",
-        "stars": 125485,
-        "stars_period": 7899,
+        "stars": 125791,
+        "stars_period": 8035,
         "url": "https://github.com/iptv-org/iptv"
       },
       {
-        "repo": "apple/container",
-        "desc": "Cong cu cua Apple tao va chay Linux container tren Mac bang may ao nhe, toi uu cho Apple silicon",
-        "lang": "Swift",
-        "stars": 38580,
-        "stars_period": 7671,
-        "url": "https://github.com/apple/container"
+        "repo": "NVIDIA/SkillSpector",
+        "desc": "Cong cu bao mat cua NVIDIA quet lo hong va pattern doc hai trong AI agent skill truoc khi trien khai len san xuat",
+        "lang": "Python",
+        "stars": 8288,
+        "stars_period": 5026,
+        "url": "https://github.com/NVIDIA/SkillSpector"
       },
       {
-        "repo": "phuryn/pm-skills",
-        "desc": "PM Skills Marketplace voi hon 100 skill agentic va plugin: tu phat hien san pham den chien luoc, thuc thi, ra mat va tang truong",
-        "lang": "Markdown",
-        "stars": 19584,
-        "stars_period": 3663,
-        "url": "https://github.com/phuryn/pm-skills"
+        "repo": "DeusData/codebase-memory-mcp",
+        "desc": "MCP server lap chi muc codebase thanh knowledge graph ben vung - ho tro 158 ngon ngu, truy van duoi 1ms, giam 99% token so voi doc file thu cong",
+        "lang": "C",
+        "stars": 8202,
+        "stars_period": 4212,
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
       }
     ],
-    "trend_note": "Daily 19/6: obra/superpowers tiep tuc dan dau voi 1.429 sao hom nay (232K tong) - framework skill AI agent da chay vao chieu dai chung, khong con la spike nhat thoi. google-research/timesfm tang manh 844 sao ngay sau khi Gemini CLI bi tat - co the developer dang tim kiem cong cu Google con co the tich hop tu do. Tuan nay addyosmani/agent-skills boc nhat voi 9.285 sao, phan anh xu huong moi: developer khong chi dung AI agent ma con muon chuyen gia hoa no theo nhu cau cu the cho tung vai tro (dev, PM, bao mat)."
+    "trend_note": "Ngay 20/6: chopratejas/headroom but pha ngoai muc voi 4.005 sao hom nay va 12.793 sao tuan nay - cong cu nen context truoc khi gui LLM dang tro thanh xu huong chinh khi chi phi token ngay cang tang. DeusData/codebase-memory-mcp xuat hien ca daily (1.058 sao) lan weekly (4.212 sao), cho thay MCP server codebase indexing duoc cong dong don nhan manh. Tuan nay noi bat them Panniantong/Agent-Reach - cong cu cho AI agent doc toan internet khong can API key - phan anh xu huong developer muon agent tu thu thap thong tin thay vi phu thuoc API co phi."
   },
   "tech": [
     {
-      "title": "Viet Nam ban hanh QCVN 11:2026/BCA bat buoc bao mat camera IP tu 1/7/2026",
-      "summary": "Tu 1/7/2026, camera IP giam sat ban tai Viet Nam phai tuan thu Quy chuan Ky thuat Quoc gia QCVN 11:2026/BCA do Bo Cong an ban hanh kem Thong tu 48/2026/TT-BCA - tieu chuan an ninh mang dau tien danh rieng cho camera IP, thay the QCVN 135 cu. Ap dung cho ca nha san xuat, nha nhap khau va nha phan phoi trong va ngoai nuoc. Yeu cau chinh: mat khau doc lap tung thiet bi hoac do nguoi dung dat theo co che chong brute-force, tieu chuan xu ly du lieu, cap nhat firmware va bao mat truyen thong mang.",
-      "source": "TUV SUD",
-      "url": "https://www.tuvsud.com/en/knowledge-hub/technical-updates/consumer-products-and-retail-essentials/vietnam-issues-new-cybersecurity-regulation-for-ip-surveillance-cameras",
-      "published": "2026-06-18"
+      "title": "GitHub Copilot chuyen sang flex billing, ra mat tier Max 100 USD/thang voi 20.000 credits cho workload nang",
+      "summary": "Tu 1/6/2026, GitHub Copilot chuyen tu tinh phi theo request sang AI Credits billing linh hoat. Cac muc gia giu nguyen (Pro 10 USD, Pro+ 39 USD, Business 19 USD/user, Enterprise 39 USD/user) nhung them tier moi GitHub Copilot Max 100 USD/thang/ca nhan, cung cap 20.000 credits tuong duong khoang 200 USD su dung, danh cho developer lam viec nhieu gio lien tuc voi AI agent.",
+      "source": "Developers Digest",
+      "url": "https://www.developersdigest.tech/blog/ai-coding-tools-pricing-2026",
+      "published": "2026-06-01"
     },
     {
-      "title": "FPT khai truong nha may kiem thu va dong goi ban dan tien tien dau tien 100% von Viet tai Bac Ninh",
-      "summary": "FPT chinh thuc ra mat FPT Advanced Semiconductor Testing and Packaging Plant tai Khu Cong nghiep Yen Phong II-C, Bac Ninh - nha may kiem thu dong goi chip dau tien do doanh nghiep Viet so huu va van hanh. Giai doan 1 (2026-2027): 6 day chuyen kiem thu chuc nang tren 1.600 m2. Day la buoc tien lon trong lo trinh xay dung he sinh thai ban dan hoan chinh cua Viet Nam. Nam 2025, FPT da xuat lo hang chip quan ly nguon dau tien sang Nhat Ban.",
-      "source": "VietnamNet",
-      "url": "https://vietnamnet.vn/en/fpt-launches-semiconductor-plant-to-join-vietnam-s-chipmaking-race-2485572.html",
-      "published": "2026-01-28"
+      "title": "OpenAI mua Astral - bo cong cu Python uv, ruff, ty viet bang Rust - de tich hop vao Codex",
+      "summary": "OpenAI thong bao mua lai Astral, cong ty tao ra ba cong cu Python pho bien: uv (quan ly dependency), ruff (linting va formatting), ty (type checking). Ca ba viet bang Rust, nhanh hon nhieu so voi cac tool Python truyen thong, voi hang tram trieu luot tai moi thang. Muc tieu: tich hop sau vao Codex de AI coding agent co the tu quan ly moi truong Python. Thuong vu cong bo thang 3/2026, dang cho chap thuan phap ly.",
+      "source": "Techzine Global",
+      "url": "https://www.techzine.eu/news/devops/139771/openai-acquires-astral-to-boost-codex-for-python-developers/",
+      "published": "2026-03-21"
     },
     {
-      "title": "Vietnam ICTComm 2026 tai SECC TPHCM ngay 24-26/6: 150+ cong ty tu 10 quoc gia, tap trung 5G, IoT, AI",
-      "summary": "Trien lam ICT quoc te lon nhat Viet Nam 2026 dien ra tai SECC quan 7 TPHCM tu 24 den 26/6, quy tu hon 150 cong ty tu 10 quoc gia va vung lanh tho. Chu de chinh: ha tang vien thong 5G, IoT, dich vu cloud, big data va giai phap AI cho doanh nghiep. Song hanh la Telefilm Vietnam 2026 tap trung cong nghe noi dung so va truyen hinh.",
-      "source": "Dan Tri",
-      "url": "https://dantri.com.vn/cong-nghe/trien-lam-vietnam-ictcomm-va-telefilm-vietnam-2026-dien-ra-tai-tphcm-vao-thang-6-20260602081337987.htm",
-      "published": "2026-06-02"
+      "title": "Qualcomm mua startup AI Ha Noi MovianAI - spinoff tu VinAI chuyen ve AI tao sinh",
+      "summary": "Trong thang 4/2026, Qualcomm hoan tat viec mua lai MovianAI - startup AI generative tai Ha Noi duoc tach ra tu VinAI (bo phan nghien cuu AI cua Vingroup). Day la thuong vu M&A AI lon nhat voi doanh nghiep AI thuan Viet tu truoc den nay, danh dau su cong nhan chat luong nghien cuu AI trong nuoc tu Big Tech My. Qualcomm du kien tan dung doi ngu MovianAI de phat trien AI chay on-device cho chip Snapdragon.",
+      "source": "B-Company Japan - Vietnam AI Market Q1/2026",
+      "url": "https://b-company.jp/update-on-vietnam-ai-and-semiconductor-market-q1-2026",
+      "published": "2026-04-01"
     },
     {
-      "title": "Bang xep hang AI coding tool thang 6/2026: Claude Opus 4.7 top 1, Windsurf tut 2 bac, 5 model moi ra mat",
-      "summary": "Theo LogRocket AI Dev Tool Rankings thang 6/2026, Claude Opus 4.7 giu vi tri dan dau trong cac IDE AI tool. Windsurf tut 2 bac khi OpenCode va Cursor sau cai to day vuot qua. Thang 6 la thang cap nhat lon nhat tu dau nam: 5 model moi gia nhap thi truong cung 1 thang. Xu huong noi bat: multi-model routing - tool tu dong dinh tuyen nhiem vu sang model chuyen biet cho plan, codegen, test, security de toi uu toc do va do chinh xac.",
-      "source": "LogRocket Blog",
-      "url": "https://blog.logrocket.com/ai-dev-tool-power-rankings/",
-      "published": "2026-06-18"
+      "title": "Viet Nam xac lap 10 nhom cong nghe chien luoc quoc gia: AI, ban dan, nang luong moi vao danh sach",
+      "summary": "Ngay 30/4/2026, Thu tuong ky Quyet dinh 21/2026/QD-TTg ban hanh danh muc 10 nhom cong nghe chien luoc quoc gia, lan dau tien dua AI, chip ban dan, cong nghe luong tu, robot, hydro xanh va ve tinh quy dao thap vao danh sach chien luoc. Quyet dinh nay tao nen tang phap ly de uu tien nguon luc, chinh sach uu dai va dau tu nha nuoc vao cac linh vuc cong nghe loi.",
+      "source": "Dan Viet",
+      "url": "https://danviet.vn/viet-nam-xac-lap-10-nhom-cong-nghe-chien-luoc-ai-chip-ban-dan-nang-luong-moi-vao-tam-diem-d1424331.html",
+      "published": "2026-04-30"
     },
     {
-      "title": "AI coding adoption 2026: hon 50% ky su dung AI tool hang ngay, tiet kiem trung binh 7,5 gio moi tuan",
-      "summary": "Tong hop tu 7 khao sat lon voi hon 25.000 developer ve muc do ap dung AI coding tool trong 2026: hon 50% ky su dung AI hang ngay (tang tu 18% nam 2024), tiet kiem trung binh 7,5 gio moi tuan, AI da tro thanh ky nang bat buoc trong job description thay vi la chuyen mon tu chon. Claude Code, Cursor va GitHub Copilot dan dau thi truong. Nhom su dung nhieu nhat: full-stack dev (67%) va backend dev (61%).",
-      "source": "DigitalApplied",
-      "url": "https://www.digitalapplied.com/blog/ai-coding-adoption-statistics-2026-50-data-points",
-      "published": "2026-06-15"
+      "title": "GITEX AI Vietnam lan dau to chuc tai Ha Noi ngay 1-2/10/2026, tap trung AI ung dung cho doanh nghiep",
+      "summary": "GITEX Global - trien lam cong nghe lon nhat Trung Dong - lan dau to chuc su kien GITEX AI Vietnam tai Ha Noi vao 1-2/10/2026, tap trung vao AI ung dung trong doanh nghiep, chuyen doi so va he sinh thai startup cong nghe Viet Nam. Su kien thu hut dai dien tu cac tap doan cong nghe quoc te, chinh phu va nha dau tu muon tim hieu thi truong VN.",
+      "source": "Wikipedia GITEX Vietnam",
+      "url": "https://en.wikipedia.org/wiki/GITEX_Vietnam",
+      "published": "2026-06-01"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "Food Jutsu - hieu ung trieu hoi mon an phong cach Jujutsu Kaisen bang CapCut",
-        "desc": "Trend dung ky hieu tay phong cach anime Jujutsu Kaisen roi chuyen canh (transition) sang mon an vua duoc trieu hoi ra. Dung CapCut template san va hieu ung transition frame. Dang pho bien manh tren TikTok food content toan cau thang 6/2026.",
-        "fit": "@tracuami co the ap dung cho canh reveal mon moi hoac combo moi: A Nguyen lam ky hieu JJK, transition sang dia chan ga sot Thai nong hoi vua ra lo. Phu hop xu huong anime dang rat hot tai VN, dong thoi tao hieu ung bat ngo vui ve cho mon an vat dia phuong.",
-        "idea": "Clip 15 giay: A Nguyen nhin camera lam hand sign kieu JJK, am thanh 'jutsu', cat sang can canh dia chan ga sot Thai nong hoi vua don ra. Caption: 'Trieu hoi thuat - chan ga sot Thai o day roi! #changathai #foodjutsu #amthuchue #tracuami'"
+        "name": "#StandBanhMi - parody Stand By Me cho food content viral tren TikTok VN",
+        "desc": "Trend choi chu hai huoc voi bai Stand By Me cua Ben E. King - thay ca tu bang 'stand banh mi' de ton vinh am thuc duong pho Viet. Video thuong quay canh khach thuong thuc va nguoi ban chuan bi mon an vat, kem caption hai huoc ve mon an. Viral manh tren TikTok VN va quoc te trong thang 6/2026.",
+        "fit": "@tracuami co the tan dung trend nay hoan hao: chan ga sot Thai va tre tron Hue deu la street food dia phuong dac sac - dung tinh than #StandBanhMi ton vinh am thuc Viet khong can fancy. Giong Hue cua A Nguyen se tao diem nhan khac biet so voi content Sai Gon hoac Ha Noi.",
+        "idea": "Clip 15 giay: nen nhac Stand By Me remix, quay can canh tay A Nguyen tron tre hoac chan sot Thai len chan ga, caption: 'Ni la tracuami - chan ga sot Thai o day roi ba con - stand tre mi, stand chan ga mi #tracuami #amthuchue #standbymi #streetfoodvietnam'"
       },
       {
-        "name": "Photo carousel am thuc - album anh dat 49x luot xem so voi video don le",
-        "desc": "Food creator tren TikTok phat hien carousel anh (5-10 anh) trong niche am thuc va suc khoe co ty le xem ky va engagement cao hon rat nhieu so voi video don. Khong can edit phuc tap, chi can anh dep va caption hap dan.",
-        "fit": "Ly tuong cho @tracuami vi khong can set up camera, den, va thuyet minh. Chi can chup anh dep cac mon an va thanh vien quan. Phu hop cho gio cao diem ban rut, co the lam nhanh ngay hom do.",
-        "idea": "Carousel 6-7 anh: anh 1 full frame bien hieu quan hoac khay mon ngay hom do, anh 2-4 cac mon hot (chan ga, tre tron, tra trai cay), anh 5 Nho hoac Thu dang phuc vu, anh cuoi gio mo cua va dia chi. Caption: 'Bua trua ni @tracuami co gi ne! Swipe het nha #amthuchue #hue #changathai #tracuami'"
+        "name": "Day-in-the-life quan an vat - vlog 1 ngay chay quan tu sang den toi",
+        "desc": "Format day-in-the-life cho chu quan va nhan vien food service dang hot tren TikTok toan cau thang 6/2026, dac biet voi quan nho. Video ke chuyen thuc te: nhap hang, so che, mo cua, rush gio cao diem, don hang. Engagement cao vi nguoi xem to mo hau truong.",
+        "fit": "Kenh @tracuami co san nhan vat thu vi: A Nguyen anh chu, Nho 'nhan vien hay am muu hoc lom cong thuc', Thu. Ba nhan vat nay tao ra narrative tu nhien ma khong can kich ban phuc tap. Giong Hue dac trung la diem cong lon.",
+        "idea": "Vlog ngan 30-60 giay: mo dau A Nguyen dat noi sot Thai len bep luc sang som, cut sang canh Nho den ca ngo vao noi nhin trom 'hoc lom', cut sang canh dong khach gio trua, ket bang cau giong Hue: 'Ra nghe Nho, hoc duoc cong thuc chua?' - Nho lac dau. Caption: 'Mot ngay o @tracuami - bi kip van con day #tracuami #dayinthelife #amthuchue'"
       },
       {
-        "name": "Before-After - tu nguyen lieu don gian den thanh pham bat ngo",
-        "desc": "Dinh dang truoc-sau: quay hoac chup nguyen lieu kha binh thuong roi reveal thanh pham hoan chinh voi cam giac bat ngo ve su bien doi. Dang dat bac voi food content vi tao to mo va kich thich mua hang.",
-        "fit": "Sot Thai tu vi la, ot, toi va nguyen lieu don gian bi bien thanh sot dam da phuc tap la chi tiet dac biet cua @tracuami - cong thuc A Nguyen khong lo lo vi nguoi xem thay nguyen lieu nhung khong biet ti le, quy trinh.",
-        "idea": "Clip 10 giay split hoac cat nhanh: ben trai la nguyen lieu sot Thai sap nguoi (vi la, toi, ot, gia vi); cat sang bien canh dia chan ga sau sot bong sang. Khong co loi, chi co nhac nen. Caption: 'Vay ma ra y ni ay #changathai #hue #bepviet #amthuchue'"
-      },
-      {
-        "name": "Selfie che mieng bang sticker hinh trai tim - viral TikTok VN thang 6/2026",
-        "desc": "Trend quay clip gioi thieu ban than hoac nhom voi sticker hinh trai tim che nua khuon mat, tao hieu ung bi an va de thuong. Viral manh tren TikTok VN thang 6/2026, dung de gioi thieu nhan vien hoac chia se ky niem noi bo.",
-        "fit": "Phu hop de @tracuami gioi thieu 'team' mot cach vui ve va than thien: A Nguyen anh chu, Nho nhan vien hay am muu hoc lom cong thuc, Thu. Mot clip team la co the tang follow va tuong tac tu nguoi xem muon biet mat nguoi dung sau moi mon an.",
-        "idea": "Clip gioi thieu team ngan: lan luot lo mat tung nguoi kem sticker tim. Text noi tung nguoi: 'A Nguyen: anh chu giu bi kip', 'Nho: nhan vien dang am muu hoc lom', 'Thu: hoa hau quan'. Nen nhac nhe. Caption: 'Team @tracuami - ai biet cong thuc sot Thai thiệt su? #tracuami #teamwork #hue #changathai'"
+        "name": "Reaction that cua khach - duet hoac stitch khi khach thu mon lan dau",
+        "desc": "Format duet hoac stitch voi video reaction that cua khach hang khi thu mon - khong dan dung, khong kich ban, chi reaction that. Day la proof-of-concept manh nhat cho thuc pham: ngon hay khong thi mat nguoi an tu noi len tat ca. Trend nay tang manh trong niche food vi tinh xac thuc cao.",
+        "fit": "Voi @tracuami, xin phep khach quen quay clip reaction khi thu chan ga sot Thai hoac tre tron Hue lan dau. Dac biet khach tu ngoai Hue hoac nguoi nuoc ngoai thu tre tron se tao contrast thu vi voi mon an la. Khong can production, quay bang dien thoai la du.",
+        "idea": "Quay clip 10-15 giay: A Nguyen dua dia tre tron cho khach lan dau thu (hoi truoc de xin phep quay). Khach nem thu, reaction that. A Nguyen giai thich nhanh giong Hue: 'Tre tron Hue - nguoi Hue an tu nho, lan dau hoi la nhung ghien lien'. Caption: 'Khach lan dau thu tre tron Hue #tretronhue #amthuchue #tracuami #reaction'"
       }
     ],
     "sounds": [
       {
-        "name": "PRESSURE! - Nyck Caution",
-        "desc": "Am thanh viral thang 6/2026 voi hon 120.000 video TikTok, ban dau trending cho content the thao nhung dang tran sang food reveal va moment manh. Nhip nhanh, manh me, phu hop cho canh ban dong khach hoac reveal mon an nhanh tai @tracuami."
+        "name": "Stand By Me (remix) - Ben E. King cover",
+        "desc": "Sound goc va ban remix duoc dung cho trend #StandBanhMi - ap dung cho moi food content Viet muon long ghep yeu to hai huoc va long tu hao am thuc dia phuong. Pho bien tren TikTok VN thang 6/2026."
       },
       {
-        "name": "Nhac nen anime Jujutsu Kaisen cho Food Jutsu transition",
-        "desc": "Category am thanh dung trong Food Jutsu trend: am thanh 'jutsu cast' va OST JJK tao hieu ung ma thuat khi transition sang mon an. Co san tren CapCut template san, dang duoc dung rong rai trong food reveal content thang 6/2026."
+        "name": "Vinahouse nonstop mix - nhac nen EDM Viet",
+        "desc": "Cac ban remix vinahouse va nonstop EDM pha am nhac dan gian Viet (cheo, xam) dang rat pho bien tren TikTok VN 2026, dung cho nhieu dang content tu food reveal nhanh den clip gioi thieu quan."
       }
     ],
-    "note": "Tuan nay TikTok food content co 2 huong ro rang: (1) Noi dung nhanh hieu qua cao - photo carousel outperform video don le 49x, uu tien lam album anh mon an bua trua hang ngay chi can 5 phut. (2) Xu huong sang tao co chon loc - Food Jutsu va Before-After tao clip an tuong chi voi 10-15 giay khong can production phuc tap. @tracuami nen thu 3 format tuan nay: 1 carousel bua trua, 1 clip Food Jutsu A Nguyen reveal chan ga, 1 Before-After nguyen lieu sot Thai. Luu y: du lieu trending sound bi han che tuan nay, chi xac nhan duoc 2 am thanh cu the o tren."
+    "note": "Tuan 3 thang 6/2026: TikTok food content VN dang chuyen manh sang storytelling thuc te thay vi production cao - day-in-the-life quan nho, reaction that cua khach, hau truong che bien. @tracuami co loi the lon voi nhan vat that (A Nguyen, Nho hay trom cong thuc, Thu) va giong Hue dac trung - nen khai thac toi da yeu to nay thay vi co gang theo trend nhay. Lu y: du lieu trending sound tuan nay bi han che, chi xac nhan duoc 2 sound cu the o tren."
   }
 }
