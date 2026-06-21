@@ -1,105 +1,88 @@
 {
-  "updated_at": "2026-06-18T08:43:00Z",
-  "updated_at_vn": "15:43 18/06/2026",
-  "session_date": "2026-06-18",
-  "data_quality": "fallback_web",
+  "updated_at": "2026-06-21T14:50:00Z",
+  "updated_at_vn": "21:50 21/06/2026",
+  "session_date": "2026-06-19",
+  "data_quality": "live",
   "vnindex": {
-    "close": 1806.20,
-    "change": -1.74,
-    "change_pct": -0.10,
-    "note": "Phiên 18/6 mở cửa bứt phá mạnh hơn 20 điểm nhờ VHM tăng trần sau kế hoạch chia cổ tức khủng, song lực bán dần xuất hiện kéo VN-Index đóng cửa giảm nhẹ 1,74 điểm (-0,10%) xuống 1.806,20 điểm; nhóm công nghệ (FPT, CMG) và dầu khí giảm hơn 1%, ngân hàng là trụ đỡ chính; thanh khoản đạt hơn 24.000 tỷ đồng, cải thiện rõ so với phiên trước."
+    "close": 1824.53,
+    "change": -5.94,
+    "change_pct": -0.32,
+    "note": "Phiên cuối tuần 19/6 giảm 5,94 điểm về 1.824,53 trong phiên cơ cấu ETF; độ rộng nghiêng hẳn về sắc đỏ với 423 mã giảm so 262 mã tăng, thanh khoản thấp và dòng tiền thận trọng."
   },
   "holdings": [
     {
       "ticker": "FPT",
       "qty": 700,
       "avg_cost": 91470,
-      "price": 71600,
-      "change_pct": -0.97,
-      "value": 50120000,
-      "pnl": -13909000,
-      "pnl_pct": -21.72,
+      "price": 71500,
+      "change_pct": -0.14,
+      "value": 50050000,
+      "pnl": -13979000,
+      "pnl_pct": -21.83,
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
-      "comment": "FPT giảm 0,97% xuống 71.600 đồng cùng đà giảm của nhóm công nghệ phiên 18/6; giá chỉ còn cách ngưỡng cảnh báo THEO DÕI SÁT (71.400 = stoploss 68.000 x 1,05) có 200 đồng - rất sát ranh giới, cần theo dõi sát trong các phiên tới; đang lỗ 21,72%."
+      "comment": "Đang lỗ 21,83%. Phiên 19/6 FPT bị khối ngoại xả mạnh (nằm trong nhóm bán ròng trăm tỷ do VNM ETF cơ cấu). Giá 71.500 chỉ còn nhỉnh trên ngưỡng theo dõi 71.400 (stoploss +5%), cách cắt lỗ 68.000 khoảng 5,1% - giữ chặt kỷ luật, không mua thêm khi khối ngoại còn bán."
     },
     {
       "ticker": "SSB",
       "qty": 2892,
       "avg_cost": 13990,
-      "price": 17650,
-      "change_pct": -0.28,
-      "value": 51043800,
-      "pnl": 10584720,
-      "pnl_pct": 26.16,
+      "price": 14900,
+      "change_pct": 0.34,
+      "value": 43090800,
+      "pnl": 2631720,
+      "pnl_pct": 6.5,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "SSB giảm nhẹ 0,28% về 17.650 đồng; đang lãi 26,16%, giá cách target 18.000 đồng chỉ còn 350 đồng (2%) - cân nhắc chốt lời một phần khi giá chạm hoặc vượt 18.000 đồng trong các phiên tới."
+      "comment": "Lãi 6,5%, tăng nhẹ 0,34% và đi ngược thị trường đỏ phiên 19/6. Xu hướng ổn định, tiếp tục nắm giữ, target 18.000 còn dư địa."
     }
   ],
   "totals": {
     "cost": 104488080,
-    "value": 101163800,
-    "pnl": -3324280,
-    "pnl_pct": -3.18
+    "value": 93140800,
+    "pnl": -11347280,
+    "pnl_pct": -10.86
   },
   "watchlist": [
-    {
-      "ticker": "ACB",
-      "price": 22000,
-      "change_pct": -0.45,
-      "comment": "Giá 22.000 đồng (-0,45%); nhóm ngân hàng chung hỗ trợ thị trường phiên 18/6 nhưng ACB vẫn giảm nhẹ; có thể xem xét tích lũy nếu giá ổn định vùng 21.500-22.000."
-    },
-    {
-      "ticker": "HPG",
-      "price": 24000,
-      "change_pct": -0.83,
-      "comment": "Giá 24.000 đồng, tiếp tục điều chỉnh từ vùng 24.200; nhóm thép chưa có catalyst rõ ràng, theo dõi thêm trước khi vào."
-    },
-    {
-      "ticker": "MBB",
-      "price": 25100,
-      "change_pct": 0.0,
-      "comment": "Giá 25.100 đồng tham chiếu phiên 16/6, chưa xác nhận giá phiên 18/6; nhóm ngân hàng hỗ trợ thị trường, xem xét lại phiên kế tiếp."
-    }
+    {"ticker": "ACB", "price": 22200, "change_pct": -0.89, "comment": "Giảm nhẹ theo thị trường; nhóm ngân hàng phân hóa. Chưa có điểm vào rõ ràng khi dòng tiền còn yếu."},
+    {"ticker": "HPG", "price": 23600, "change_pct": -0.21, "comment": "Gần như đứng giá; ngành thép chưa có catalyst mới, tiếp tục quan sát."},
+    {"ticker": "MBB", "price": 25000, "change_pct": -0.99, "comment": "Điều chỉnh nhẹ về mốc tròn 25.000; vẫn là mã ngân hàng đáng theo dõi nếu thị trường cân bằng trở lại."}
   ],
   "gold": {
-    "sjc_buy": 148800000,
-    "sjc_sell": 151300000,
-    "note": "Vàng SJC phiên 18/6 đứt chuỗi tăng, ổn định quanh mua 148,8 triệu - bán 151,3 triệu/lượng; vàng thế giới giảm gần 1% xuống 4.313 USD/ounce sau khi Fed giữ lãi suất, thị trường trong nước thận trọng hơn."
+    "sjc_buy": 144200000,
+    "sjc_sell": 147200000,
+    "note": "Vàng miếng SJC sáng 20/6 quanh 144,2 - 147,2 triệu/lượng, tăng 500.000 đồng cả hai chiều sau phiên giảm sâu; tính theo tuần vẫn là tuần giảm thứ ba liên tiếp, chênh lệch mua-bán 3 triệu/lượng."
   },
   "news_vn": [
     {
-      "title": "VHM tăng kịch trần sau kế hoạch chia cổ tức lớn nhất lịch sử thị trường",
-      "summary": "Vinhomes công bố phương án chia cổ tức năm 2025 tổng giá trị gần 65.718 tỷ đồng, gồm 41.074 tỷ đồng cổ phiếu (tỷ lệ 100%, cổ đông sở hữu 1 cổ phiếu nhận thêm 1 cổ phiếu) và 24.644 tỷ đồng tiền mặt; VHM tăng kịch trần 6,96% lên 144.400 đồng, là cổ phiếu đóng góp nhiều nhất cho VN-Index phiên 18/6.",
-      "source": "Investing.com",
-      "url": "https://vn.investing.com/news/stock-market-news/vhm-tang-tran-sau-ke-hoach-chia-co-tuc-lon-nhat-lich-su-thi-truong-2645831"
+      "title": "Chứng khoán 19/6: VN-Index giảm điểm nhẹ, dòng tiền vẫn thận trọng",
+      "summary": "VN-Index đóng cửa giảm 5,94 điểm về 1.824,53 điểm trong phiên cơ cấu ETF; thanh khoản thấp, độ rộng thị trường nghiêng về sắc đỏ với 423 mã giảm so 262 mã tăng.",
+      "source": "Thời báo Tài chính Việt Nam",
+      "url": "https://thoibaotaichinhvietnam.vn/chung-khoan-ngay-196-vn-index-giam-diem-nhe-dong-tien-van-than-trong-199394.html"
     },
     {
-      "title": "VN-Index giảm nhẹ 0,10%, thị trường chờ đợi xu hướng mới",
-      "summary": "Phiên 18/6 VN-Index đóng cửa tại 1.806,20 điểm (-1,74 điểm, -0,10%) sau khi mở cửa bứt phá mạnh trên 20 điểm; nhóm công nghệ (FPT, CMG) và dầu khí giảm hơn 1%, ngân hàng là trụ đỡ; thanh khoản đạt hơn 24.000 tỷ đồng, cải thiện rõ so với phiên trước.",
-      "source": "VnEconomy",
-      "url": "https://baomoi.com/vn-index-giam-nhe-thi-truong-cho-doi-xu-huong-moi-c55420526.epi"
+      "title": "Khối ngoại bán ròng hơn 1.625 tỷ đồng trên HOSE phiên cơ cấu ETF",
+      "summary": "Nhà đầu tư nước ngoài bán ròng hơn 1.625 tỷ đồng trên HOSE, tập trung xả VHM, FPT, STB, TCB; riêng VHM và FPT bị rút ròng khoảng 1.300 tỷ. Chiều mua nổi bật có VCK và VPL.",
+      "source": "Doanh nghiệp Hội nhập",
+      "url": "https://doanhnghiephoinhap.vn/vn-index-giam-gan-6-diem-khoi-ngoai-ban-rong-hon-1625-ty-dong-tren-hose-140663.html"
     },
     {
-      "title": "Fed giữ nguyên lãi suất 3,5-3,75%, phát tín hiệu có thể tăng trong 2026",
-      "summary": "Cục Dự trữ Liên bang Mỹ (Fed) quyết định giữ nguyên lãi suất trong vùng 3,5%-3,75%; theo báo cáo SEP, nhiều quan chức Fed nhận định lãi suất có thể cần điều chỉnh tăng trở lại trong năm 2026, tạo sức ép lên dòng vốn thị trường mới nổi và các tài sản rủi ro.",
-      "source": "Người Quan Sát",
-      "url": "https://nguoiquansat.vn/1-phut-truoc-gio-giao-dich-phien-18-6-fed-ra-quyet-dinh-lai-suat-chung-khoan-my-do-lua-vinhomes-chot-ngay-tra-co-tuc-khung-298485.html"
+      "title": "Thanh khoản thấp, VN-Index chốt tuần trong sắc đỏ",
+      "summary": "Tuần giao dịch khép lại với VN-Index giảm điểm, thanh khoản duy trì ở mức thấp cho thấy tâm lý thận trọng; nhà đầu tư chờ tín hiệu rõ hơn về dòng tiền trong tuần kế tiếp.",
+      "source": "Thời báo Ngân hàng",
+      "url": "https://baomoi.com/thanh-khoan-thap-vn-index-chot-tuan-trong-sac-do-c55433561.epi"
     }
   ],
   "advice": {
-    "summary": "Phiên 18/6 VN-Index giảm nhẹ 0,10% về 1.806,20 điểm sau khi mở cửa bứt phá mạnh. Dữ liệu mới xác nhận SSB thực chất đang lãi 26,16% tại 17.650 đồng (chỉ còn 2% cách target 18.000), kéo tổng danh mục từ mức lỗ cũ về -3,18%. FPT giảm xuống 71.600 đồng, chỉ còn 200 đồng cách ngưỡng cảnh báo THEO DÕI SÁT (71.400), cần theo dõi sát. Fed giữ lãi suất nhưng phát tín hiệu có thể tăng trong 2026, nhà đầu tư cần thận trọng.",
+    "summary": "Danh mục lỗ 10,86%, gần như đi ngang so phiên trước (FPT giảm nhẹ, SSB nhích lên). Thị trường vẫn yếu: VN-Index giảm, thanh khoản thấp và khối ngoại bán ròng hơn 1.600 tỷ trong phiên cơ cấu ETF, trong đó FPT bị xả mạnh. Ưu tiên phòng thủ, giữ kỷ luật ngưỡng cắt lỗ, chưa giải ngân tiền mới.",
     "actions": [
-      "FPT: GIỮ nhưng THEO DÕI SÁT - giá 71.600 đồng chỉ cách ngưỡng cảnh báo 71.400 (stoploss 68.000 x 1,05) có 200 đồng; nếu giảm về dưới 71.400 chuyển sang THEO DÕI SÁT; dưới 68.000 thì CẮT LỖ ngay.",
-      "SSB: GIỮ - giá 17.650 đồng, lãi 26,16%, cách target 18.000 chỉ còn 350 đồng; cân nhắc đặt lệnh chốt lời một phần khi giá chạm 18.000 hoặc theo diễn biến phiên tới.",
-      "Tiền mới: Chưa giải ngân thêm - thị trường giằng co quanh 1.800 điểm, Fed có thể tăng lãi suất trong 2026, chờ tín hiệu breakout rõ ràng hơn.",
-      "ACB (watchlist): Giá 22.000 đồng (-0,45%), nhóm ngân hàng nhìn chung hỗ trợ phiên 18/6; có thể xem xét tích lũy dần nếu giá ổn định vùng 21.500-22.000.",
-      "HPG (watchlist): Giá 24.000 đồng, tiếp tục điều chỉnh; nhóm thép chưa có catalyst rõ, chưa vào.",
-      "MBB (watchlist): Giá tham chiếu 25.100 đồng (phiên 16/6), chưa xác nhận phiên 18/6; nhóm ngân hàng hỗ trợ thị trường, xem xét lại phiên kế tiếp.",
-      "Vàng SJC: 148,8/151,3 triệu/lượng, đứt chuỗi tăng; không mua thêm vùng cao, giữ vàng hiện có nếu có."
+      "FPT: GIỮ nhưng đặt cảnh báo nghiêm tại 71.400 (stoploss +5%); giá hiện chỉ nhỉnh trên ngưỡng này và khối ngoại đang xả mạnh - nếu thủng 71.400 chuyển sang THEO DÕI SÁT, chuẩn bị kịch bản cắt lỗ 68.000. Tuyệt đối không mua thêm lúc này.",
+      "SSB: GIỮ, đang lãi 6,5% và khỏe hơn thị trường; chưa cần hành động, target 18.000.",
+      "Tiền mới: ĐỨNG NGOÀI khi thanh khoản còn thấp và khối ngoại bán ròng; chờ thị trường cân bằng và dòng tiền xác nhận.",
+      "Watchlist ACB/HPG/MBB: cả ba điều chỉnh nhẹ theo thị trường, chưa có điểm vào hấp dẫn - tiếp tục quan sát.",
+      "Vàng: SJC vừa hồi nhẹ nhưng vẫn trong xu hướng giảm tuần thứ ba liên tiếp, biến động mạnh và chênh lệch mua-bán 3 triệu - không phải điểm mua tích lũy."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
