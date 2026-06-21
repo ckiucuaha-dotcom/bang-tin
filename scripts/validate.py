@@ -4,6 +4,7 @@ Exit 0 nếu hợp lệ, exit 1 kèm danh sách lỗi. Routine PHẢI chạy scr
 import json
 import os
 import sys
+import unicodedata
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(os.path.dirname(HERE), "data")
@@ -11,11 +12,52 @@ DATA = os.path.join(os.path.dirname(HERE), "data")
 DISCLAIMER = "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
 ACTIONS = {"GIỮ", "MUA THÊM", "CHỐT LỜI MỘT PHẦN", "CẮT LỖ", "THEO DÕI SÁT"}
 
+# Các trường là văn xuôi tiếng Việt - phải có dấu (tránh routine viết không dấu).
+PROSE_KEYS = {"summary", "why_it_matters", "note", "trend_note", "desc", "fit",
+              "idea", "comment", "title", "name"}
+
 errors = []
 
 
 def err(msg):
     errors.append(msg)
+
+
+def _accent_ratio(text):
+    """Tỷ lệ ký tự tiếng Việt CÓ DẤU trên tổng chữ cái (đ/Đ tính là có dấu)."""
+    letters = accented = 0
+    for ch in text:
+        if ch.isalpha():
+            letters += 1
+            if ch in "đĐ" or any(unicodedata.combining(c) for c in unicodedata.normalize("NFD", ch)):
+                accented += 1
+    return (accented / letters) if letters else 1.0
+
+
+def check_diacritics(d, fname):
+    """Gom văn xuôi tiếng Việt, fail nếu mật độ dấu quá thấp (nghi viết không dấu)."""
+    chunks = []
+
+    def walk(o):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k in PROSE_KEYS and isinstance(v, str):
+                    chunks.append(v)
+                elif k == "actions" and isinstance(v, list):
+                    chunks.extend(x for x in v if isinstance(x, str))
+                else:
+                    walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+
+    walk(d)
+    blob = " ".join(chunks)
+    ratio = _accent_ratio(blob)
+    # Văn xuôi tiếng Việt thật luôn > 8% dấu kể cả khi xen thuật ngữ tiếng Anh.
+    if len(blob) > 200 and ratio < 0.04:
+        err(f"{fname}: nghi viết tiếng Việt KHÔNG DẤU (mật độ dấu {ratio:.1%}). "
+            f"Phải dùng tiếng Việt có dấu đầy đủ.")
 
 
 def load(name):
@@ -119,8 +161,10 @@ if __name__ == "__main__":
     market = load("market.json")
     if news:
         check_news(news)
+        check_diacritics(news, "news.json")
     if market:
         check_market(market)
+        check_diacritics(market, "market.json")
     if errors:
         print("FAIL:")
         for e in errors:

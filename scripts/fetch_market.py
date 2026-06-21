@@ -1,89 +1,70 @@
 #!/usr/bin/env python3
-"""fetch_market.py — Lấy giá hiện tại cho holdings + watchlist + VN-Index từ vnstock.
-Đọc data/portfolio.json của repo, in JSON sạch ra stdout (giá VND đầy đủ).
-Cần: pip install vnstock. Tự nuốt banner quảng cáo của vnstock."""
+"""fetch_market.py - Lấy giá holdings + watchlist + VN-Index cho dashboard Bảng Tin.
+
+Gọi THẲNG API công khai của VCI (Vietcap) bằng thư viện chuẩn urllib - KHÔNG cần
+pip install gì cả, nên chạy được trong mọi sandbox cloud. Đọc data/portfolio.json,
+in JSON sạch ra stdout. Giá cổ phiếu là VND đầy đủ (vd 71500), VN-Index là điểm số.
+"""
 import os
 import sys
 import json
-import contextlib
-import warnings
-from datetime import date, timedelta
-
-warnings.filterwarnings("ignore")
+import time
+import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PORTFOLIO = os.path.join(os.path.dirname(HERE), "data", "portfolio.json")
-SOURCE = "VCI"
+API = "https://trading.vietcap.com.vn/api/chart/OHLCChart/gap-chart"
+HEADERS = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36",
+    "Referer": "https://trading.vietcap.com.vn/",
+    "Origin": "https://trading.vietcap.com.vn",
+}
 
 
-@contextlib.contextmanager
-def silence():
-    """Nuốt stdout/stderr (vnstock in banner quảng cáo lúc import & gọi)."""
-    devnull = open(os.devnull, "w")
-    old_out, old_err = sys.stdout, sys.stderr
+def _bars(symbol):
+    """Trả (closes, times) cho symbol; closes là list float, times là list unix giây."""
+    payload = json.dumps({
+        "timeFrame": "ONE_DAY", "symbols": [symbol],
+        "to": int(time.time()), "countBack": 5,
+    }).encode()
+    req = urllib.request.Request(API, data=payload, headers=HEADERS, method="POST")
+    with urllib.request.urlopen(req, timeout=20) as r:
+        data = json.load(r)
+    rec = data[0] if isinstance(data, list) and data else (data.get("data") or [None])[0]
+    if not rec or "c" not in rec:
+        return [], []
+    closes = [float(c) for c in rec.get("c", []) if c is not None]
+    times = [int(t) for t in rec.get("t", [])]
+    return closes, times
+
+
+def quote(symbol):
+    """(price, change_pct) - price VND đầy đủ; None nếu lỗi."""
     try:
-        sys.stdout, sys.stderr = devnull, devnull
-        yield
-    finally:
-        sys.stdout, sys.stderr = old_out, old_err
-        devnull.close()
-
-
-def _to_float(x):
-    try:
-        if x is None:
-            return None
-        f = float(x)
-        return None if f != f else f
-    except (ValueError, TypeError):
-        return None
-
-
-def stock_quote(ticker):
-    """Giá hiện tại (VND đầy đủ) + % thay đổi so phiên trước, từ history 10 ngày."""
-    try:
-        with silence():
-            from vnstock.api.quote import Quote
-            q = Quote(symbol=ticker, source=SOURCE)
-            df = q.history(
-                start=(date.today() - timedelta(days=10)).isoformat(),
-                end=date.today().isoformat(), interval="1D")
-        if df is None or df.empty:
-            return None, None
-        closes = [_to_float(v) for v in df["close"].tolist() if _to_float(v)]
+        closes, _ = _bars(symbol)
         if not closes:
             return None, None
-        price = closes[-1] * 1000  # vnstock trả nghìn VND
-        chg = None
-        if len(closes) >= 2 and closes[-2]:
-            chg = round((closes[-1] - closes[-2]) / closes[-2] * 100, 2)
-        return round(price, 0), chg
+        price = round(closes[-1], 0)
+        chg = round((closes[-1] - closes[-2]) / closes[-2] * 100, 2) if len(closes) >= 2 and closes[-2] else None
+        return price, chg
     except Exception:
         return None, None
 
 
 def vnindex():
     try:
-        with silence():
-            from vnstock.api.quote import Quote
-            q = Quote(symbol="VNINDEX", source=SOURCE)
-            df = q.history(
-                start=(date.today() - timedelta(days=10)).isoformat(),
-                end=date.today().isoformat(), interval="1D")
-        if df is None or df.empty:
+        closes, times = _bars("VNINDEX")
+        if not closes:
             return None
-        # Lọc song song (ngày, giá) để session_date luôn khớp giá, kể cả khi có row close=None.
-        rows = [(str(t)[:10], _to_float(c))
-                for t, c in zip(df["time"].tolist(), df["close"].tolist())
-                if _to_float(c)]
-        if not rows:
-            return None
-        session_date, last_close = rows[-1]
-        out = {"close": round(last_close, 2), "session_date": session_date}
-        if len(rows) >= 2 and rows[-2][1]:
-            prev = rows[-2][1]
-            out["change"] = round(last_close - prev, 2)
-            out["change_pct"] = round((last_close - prev) / prev * 100, 2)
+        out = {"close": round(closes[-1], 2)}
+        if times:
+            out["session_date"] = time.strftime("%Y-%m-%d", time.gmtime(times[-1]))
+        if len(closes) >= 2 and closes[-2]:
+            out["change"] = round(closes[-1] - closes[-2], 2)
+            out["change_pct"] = round((closes[-1] - closes[-2]) / closes[-2] * 100, 2)
         return out
     except Exception:
         return None
@@ -98,7 +79,7 @@ def run():
     for h in pf.get("holdings", []):
         tk = h["ticker"].upper()
         qty, avg = h.get("qty", 0), h.get("avg_cost", 0)
-        price, chg = stock_quote(tk)
+        price, chg = quote(tk)
         row = {"ticker": tk, "qty": qty, "avg_cost": avg,
                "target": h.get("target"), "stoploss": h.get("stoploss"),
                "price": price, "change_pct": chg}
@@ -119,8 +100,10 @@ def run():
 
     watchlist = []
     for tk in pf.get("watchlist", []):
-        price, chg = stock_quote(tk)
+        price, chg = quote(tk)
         watchlist.append({"ticker": tk, "price": price, "change_pct": chg})
+        if price is None:
+            ok = False
 
     print(json.dumps({
         "ok": ok, "vnindex": vnindex(), "holdings": holdings,

@@ -12,7 +12,7 @@ Repo này là dashboard tĩnh (GitHub Pages) đọc `data/*.json`. Hai routine c
 2. **Giá chứng khoán:** nếu mọi nguồn fail → KHÔNG ghi đè `market.json`, giữ nguyên file cũ (dashboard tự cảnh báo dữ liệu cũ).
 3. **Validate trước khi commit:** `python3 -m json.tool data/<file>.json` phải pass.
 4. **Ghi đè toàn bộ file** (không merge từng phần). Schema phải đúng y như dưới.
-5. Toàn bộ text tiếng Việt. `updated_at` là ISO UTC, `updated_at_vn` dạng `HH:MM DD/MM/YYYY` giờ Việt Nam (UTC+7). KHÔNG dùng ký tự em-dash (—) hay en-dash (–) trong nội dung; dùng dấu gạch nối thường (-) hoặc dấu phẩy.
+5. Toàn bộ text tiếng Việt **CÓ DẤU đầy đủ** (vd "chân gà sốt Thái", KHÔNG viết "chan ga sot Thai"). Tuyệt đối không viết tiếng Việt không dấu - dữ liệu không dấu sẽ bị `validate.py` từ chối. `updated_at` là ISO UTC, `updated_at_vn` dạng `HH:MM DD/MM/YYYY` giờ Việt Nam (UTC+7). KHÔNG dùng ký tự em-dash (—) hay en-dash (–) trong nội dung; dùng dấu gạch nối thường (-) hoặc dấu phẩy.
 6. Commit: `git pull --rebase` trước, message `feed: tin sáng DD/MM` hoặc `feed: thị trường DD/MM`, push lên `main`. Push fail → pull --rebase rồi retry 1 lần.
 
 ## Schema `data/news.json` (routine SÁNG)
@@ -68,7 +68,8 @@ Bối cảnh cá nhân hóa cho `why_it_matters` và `tiktok.*.fit/idea`:
 ```
 
 Quy tắc market:
-- `data_quality`: `"live"` (giá từ `scripts/fetch_market.py` / vnstock) | `"fallback_web"` (giá WebFetch CafeF/Vietstock) | không ghi file nếu fail hết.
+- **Lấy giá:** `python3 scripts/fetch_market.py` (gọi thẳng API VCI bằng stdlib, KHÔNG cần pip install) → in JSON `holdings`/`watchlist`/`vnindex` với giá chính xác. Đây là nguồn chuẩn, data_quality = `"live"`. CHỈ khi script lỗi mạng thật mới fallback WebFetch CafeF/Vietstock (data_quality = `"fallback_web"`) - giá web hay sai nên hạn chế tối đa. Mọi nguồn fail thì KHÔNG ghi file.
+- `data_quality`: `"live"` (từ fetch_market.py) | `"fallback_web"` (WebFetch) | không ghi file nếu fail hết.
 - `action` ∈ {GIỮ, MUA THÊM, CHỐT LỜI MỘT PHẦN, CẮT LỖ, THEO DÕI SÁT}. Quy tắc: giá ≤ stoploss → CẮT LỖ; giá ≤ stoploss×1.05 → THEO DÕI SÁT; giá ≥ target → CHỐT LỜI MỘT PHẦN; còn lại GIỮ hoặc MUA THÊM kèm lý do từ tin phiên.
 - `disclaimer` giữ nguyên văn như schema. CẤM khuyên margin/phái sinh.
 - Số học phải khớp: `value = qty × price`, `pnl = value − qty × avg_cost`, totals = tổng các dòng. Giá VND đầy đủ (vd 95800, không phải 95.8).
@@ -78,5 +79,5 @@ Quy tắc market:
 
 ```
 python3 -m http.server 8765   # xem dashboard tại localhost:8765
-python3 scripts/fetch_market.py   # cần pip install vnstock (lấy giá holdings + watchlist, in JSON)
+python3 scripts/fetch_market.py   # lấy giá holdings + watchlist + VN-Index (API VCI qua stdlib, không cần cài gì)
 ```
