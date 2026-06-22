@@ -1,0 +1,49 @@
+name: Cập nhật giá danh mục
+
+# Chạy 3 lần/ngày giờ VN (UTC+7), chỉ ngày giao dịch T2-T6:
+#   08:45 VN = 01:45 UTC | 11:00 VN = 04:00 UTC | 15:00 VN = 08:00 UTC
+on:
+  schedule:
+    - cron: "45 1 * * 1-5"
+    - cron: "0 4 * * 1-5"
+    - cron: "0 8 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Lấy giá live + cập nhật market.json
+        run: |
+          python3 scripts/update_prices.py || { echo "Không lấy được giá, bỏ qua lần này"; exit 0; }
+          python3 scripts/validate.py
+
+      - name: Commit & push nếu có thay đổi
+        run: |
+          git config user.name "bang-tin-bot"
+          git config user.email "actions@github.com"
+          git add data/market.json
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi, không commit."
+            exit 0
+          fi
+          VN=$(TZ=Asia/Ho_Chi_Minh date '+%H:%M %d/%m')
+          git commit -m "price: cập nhật giá $VN [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin main && exit 0
+            echo "push lần $i lỗi, thử lại..."; sleep 5
+          done
+          exit 1
