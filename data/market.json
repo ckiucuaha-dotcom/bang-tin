@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-22T07:03:54Z",
-  "updated_at_vn": "14:03 22/06/2026",
+  "updated_at": "2026-06-22T09:52:16Z",
+  "updated_at_vn": "16:52 22/06/2026",
   "session_date": "2026-06-22",
   "data_quality": "live",
   "vnindex": {
-    "close": 1857.15,
-    "change": 32.62,
-    "change_pct": 1.79,
+    "close": 1857.91,
+    "change": 33.38,
+    "change_pct": 1.83,
     "note": "Phiên cuối tuần 19/6 giảm 5,94 điểm về 1.824,53 trong phiên cơ cấu ETF; độ rộng nghiêng hẳn về sắc đỏ với 423 mã giảm so 262 mã tăng, thanh khoản thấp và dòng tiền thận trọng."
   },
   "holdings": [
@@ -28,11 +28,11 @@
       "ticker": "SSB",
       "qty": 2892,
       "avg_cost": 13990,
-      "price": 14850.0,
-      "change_pct": -0.34,
-      "value": 42946200.0,
-      "pnl": 2487120.0,
-      "pnl_pct": 6.15,
+      "price": 14950.0,
+      "change_pct": 0.34,
+      "value": 43235400.0,
+      "pnl": 2776320.0,
+      "pnl_pct": 6.86,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
@@ -41,27 +41,27 @@
   ],
   "totals": {
     "cost": 104488080.0,
-    "value": 92366200.0,
-    "pnl": -12121880.0,
-    "pnl_pct": -11.6
+    "value": 92655400.0,
+    "pnl": -11832680.0,
+    "pnl_pct": -11.32
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 22050.0,
-      "change_pct": -0.68,
+      "price": 22000.0,
+      "change_pct": -0.9,
       "comment": "Giảm nhẹ theo thị trường; nhóm ngân hàng phân hóa. Chưa có điểm vào rõ ràng khi dòng tiền còn yếu."
     },
     {
       "ticker": "HPG",
-      "price": 23750.0,
-      "change_pct": 0.64,
+      "price": 23600.0,
+      "change_pct": 0.0,
       "comment": "Gần như đứng giá; ngành thép chưa có catalyst mới, tiếp tục quan sát."
     },
     {
       "ticker": "MBB",
-      "price": 24900.0,
-      "change_pct": -0.4,
+      "price": 24800.0,
+      "change_pct": -0.8,
       "comment": "Điều chỉnh nhẹ về mốc tròn 25.000; vẫn là mã ngân hàng đáng theo dõi nếu thị trường cân bằng trở lại."
     }
   ],
