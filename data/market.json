@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-21T14:50:00Z",
-  "updated_at_vn": "21:50 21/06/2026",
+  "updated_at": "2026-06-22T00:06:51Z",
+  "updated_at_vn": "07:06 22/06/2026",
   "session_date": "2026-06-19",
   "data_quality": "live",
   "vnindex": {
@@ -14,10 +14,10 @@
       "ticker": "FPT",
       "qty": 700,
       "avg_cost": 91470,
-      "price": 71500,
+      "price": 71500.0,
       "change_pct": -0.14,
-      "value": 50050000,
-      "pnl": -13979000,
+      "value": 50050000.0,
+      "pnl": -13979000.0,
       "pnl_pct": -21.83,
       "target": 116000,
       "stoploss": 68000,
@@ -28,10 +28,10 @@
       "ticker": "SSB",
       "qty": 2892,
       "avg_cost": 13990,
-      "price": 14900,
+      "price": 14900.0,
       "change_pct": 0.34,
-      "value": 43090800,
-      "pnl": 2631720,
+      "value": 43090800.0,
+      "pnl": 2631720.0,
       "pnl_pct": 6.5,
       "target": 18000,
       "stoploss": 12500,
@@ -40,15 +40,30 @@
     }
   ],
   "totals": {
-    "cost": 104488080,
-    "value": 93140800,
-    "pnl": -11347280,
+    "cost": 104488080.0,
+    "value": 93140800.0,
+    "pnl": -11347280.0,
     "pnl_pct": -10.86
   },
   "watchlist": [
-    {"ticker": "ACB", "price": 22200, "change_pct": -0.89, "comment": "Giảm nhẹ theo thị trường; nhóm ngân hàng phân hóa. Chưa có điểm vào rõ ràng khi dòng tiền còn yếu."},
-    {"ticker": "HPG", "price": 23600, "change_pct": -0.21, "comment": "Gần như đứng giá; ngành thép chưa có catalyst mới, tiếp tục quan sát."},
-    {"ticker": "MBB", "price": 25000, "change_pct": -0.99, "comment": "Điều chỉnh nhẹ về mốc tròn 25.000; vẫn là mã ngân hàng đáng theo dõi nếu thị trường cân bằng trở lại."}
+    {
+      "ticker": "ACB",
+      "price": 22200.0,
+      "change_pct": -0.89,
+      "comment": "Giảm nhẹ theo thị trường; nhóm ngân hàng phân hóa. Chưa có điểm vào rõ ràng khi dòng tiền còn yếu."
+    },
+    {
+      "ticker": "HPG",
+      "price": 23600.0,
+      "change_pct": -0.21,
+      "comment": "Gần như đứng giá; ngành thép chưa có catalyst mới, tiếp tục quan sát."
+    },
+    {
+      "ticker": "MBB",
+      "price": 25000.0,
+      "change_pct": -0.99,
+      "comment": "Điều chỉnh nhẹ về mốc tròn 25.000; vẫn là mã ngân hàng đáng theo dõi nếu thị trường cân bằng trở lại."
+    }
   ],
   "gold": {
     "sjc_buy": 144200000,
