@@ -1,10 +1,10 @@
 name: Cập nhật giá danh mục
 
 # Chạy 3 lần/ngày giờ VN (UTC+7), chỉ ngày giao dịch T2-T6:
-#   08:45 VN = 01:45 UTC | 11:00 VN = 04:00 UTC | 15:00 VN = 08:00 UTC
+#   09:30 VN = 02:30 UTC | 11:00 VN = 04:00 UTC | 15:00 VN = 08:00 UTC
 on:
   schedule:
-    - cron: "45 1 * * 1-5"
+    - cron: "30 2 * * 1-5"
     - cron: "0 4 * * 1-5"
     - cron: "0 8 * * 1-5"
   workflow_dispatch: {}
