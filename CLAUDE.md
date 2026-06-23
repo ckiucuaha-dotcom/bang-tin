@@ -68,8 +68,9 @@ Bối cảnh cá nhân hóa cho `why_it_matters` và `tiktok.*.fit/idea`:
 ```
 
 Quy tắc market:
-- **Lấy giá:** `python3 scripts/fetch_market.py` (gọi thẳng API VCI bằng stdlib, KHÔNG cần pip install) → in JSON `holdings`/`watchlist`/`vnindex` với giá chính xác. Đây là nguồn chuẩn, data_quality = `"live"`. CHỈ khi script lỗi mạng thật mới fallback WebFetch CafeF/Vietstock (data_quality = `"fallback_web"`) - giá web hay sai nên hạn chế tối đa. Mọi nguồn fail thì KHÔNG ghi file.
-- `data_quality`: `"live"` (từ fetch_market.py) | `"fallback_web"` (WebFetch) | không ghi file nếu fail hết.
+- **Lấy giá - CHỈ một nguồn duy nhất:** `python3 scripts/fetch_market.py` (gọi thẳng API VCI bằng stdlib, KHÔNG cần pip install) → in JSON `holdings`/`watchlist`/`vnindex` với giá chính xác. `data_quality` LUÔN là `"live"`.
+- **CẤM TUYỆT ĐỐI bóc giá từ web** (CafeF/Vietstock/WebFetch/WebSearch). Giá web sai liên tục (vd SSB từng bị bóc 17.250 trong khi giá thật 15.150). `data_quality = "fallback_web"` đã bị `validate.py` từ chối → commit sẽ fail.
+- **Nếu `fetch_market.py` lỗi:** KHÔNG bịa, KHÔNG bóc web. GIỮ NGUYÊN toàn bộ khối giá cũ trong `market.json` (`vnindex`/`holdings`/`watchlist`/`totals`/`session_date`/`data_quality`) - đó là giá live mà GitHub Actions đã quét trong ngày (8h45/11h/15h). Chỉ cập nhật phần phân tích: `vnindex.note`, `holdings[].comment`, `watchlist[].comment`, `gold`, `news_vn`, `advice`. Phân tích phải bám đúng con số giá đang có trong file, không nhắc giá nào khác.
 - `action` ∈ {GIỮ, MUA THÊM, CHỐT LỜI MỘT PHẦN, CẮT LỖ, THEO DÕI SÁT}. Quy tắc: giá ≤ stoploss → CẮT LỖ; giá ≤ stoploss×1.05 → THEO DÕI SÁT; giá ≥ target → CHỐT LỜI MỘT PHẦN; còn lại GIỮ hoặc MUA THÊM kèm lý do từ tin phiên.
 - `disclaimer` giữ nguyên văn như schema. CẤM khuyên margin/phái sinh.
 - Số học phải khớp: `value = qty × price`, `pnl = value − qty × avg_cost`, totals = tổng các dòng. Giá VND đầy đủ (vd 95800, không phải 95.8).

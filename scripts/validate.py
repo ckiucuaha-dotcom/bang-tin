@@ -110,8 +110,9 @@ def check_news(d):
 def check_market(d):
     need(d, ["updated_at", "updated_at_vn", "session_date", "data_quality",
              "vnindex", "holdings", "totals", "watchlist", "gold", "news_vn", "advice"], "market.json")
-    if d.get("data_quality") not in ("live", "fallback_web"):
-        err(f"market.json: data_quality '{d.get('data_quality')}' không hợp lệ")
+    if d.get("data_quality") != "live":
+        err(f"market.json: data_quality phải là 'live' (cấm 'fallback_web' - giá web hay sai). "
+            f"Nếu fetch_market.py lỗi thì GIỮ NGUYÊN khối giá cũ, không bóc giá từ web.")
     vni = d.get("vnindex", {})
     need(vni, ["close", "change", "change_pct", "note"], "vnindex")
     if not (isinstance(vni.get("close"), (int, float)) and vni["close"] > 0):
