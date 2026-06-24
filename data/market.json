@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-24T05:59:30Z",
-  "updated_at_vn": "12:59 24/06/2026",
+  "updated_at": "2026-06-24T06:30:00Z",
+  "updated_at_vn": "13:30 24/06/2026",
   "session_date": "2026-06-24",
   "data_quality": "live",
   "vnindex": {
-    "close": 1865.69,
-    "change": -3.35,
-    "change_pct": -0.18,
+    "close": 1871.77,
+    "change": 2.73,
+    "change_pct": 0.15,
     "note": "Phiên 23/6 VN-Index tăng 11,13 điểm lên 1.869,04 nhờ lực kéo từ nhóm cổ phiếu họ Vingroup; thanh khoản thấp hơn mức bình quân 20 phiên, khối ngoại tiếp tục bán ròng - thị trường cần dòng tiền xác nhận để vượt vùng kháng cự 1.900 điểm."
   },
   "holdings": [
@@ -14,11 +14,11 @@
       "ticker": "FPT",
       "qty": 700,
       "avg_cost": 91470,
-      "price": 70100.0,
-      "change_pct": -0.99,
-      "value": 49070000.0,
-      "pnl": -14959000.0,
-      "pnl_pct": -23.36,
+      "price": 70400.0,
+      "change_pct": -0.56,
+      "value": 49280000.0,
+      "pnl": -14749000.0,
+      "pnl_pct": -23.03,
       "target": 116000,
       "stoploss": 68000,
       "action": "THEO DÕI SÁT",
@@ -41,27 +41,27 @@
   ],
   "totals": {
     "cost": 104488080.0,
-    "value": 92450000.0,
-    "pnl": -12038080.0,
-    "pnl_pct": -11.52
+    "value": 92660000.0,
+    "pnl": -11828080.0,
+    "pnl_pct": -11.32
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 22500.0,
-      "change_pct": 0.67,
+      "price": 22350.0,
+      "change_pct": 0.0,
       "comment": "ACB điều chỉnh nhẹ về 22.000 từ vùng 22.400 đầu tuần; ngân hàng bán lẻ chưa có catalyst rõ ràng, tiếp tục theo dõi."
     },
     {
       "ticker": "HPG",
-      "price": 23300.0,
-      "change_pct": 0.0,
+      "price": 23400.0,
+      "change_pct": 0.43,
       "comment": "HPG điều chỉnh nhẹ quanh 23.600; ngành thép chưa có động lực phục hồi rõ, chờ tín hiệu từ giá thép thế giới trước khi xem xét vào."
     },
     {
       "ticker": "MBB",
-      "price": 24650.0,
-      "change_pct": -0.6,
+      "price": 24750.0,
+      "change_pct": -0.2,
       "comment": "MBB ổn định 24.800, đi ngang trong tuần; nền tảng cơ bản tốt nhưng cần thị trường xác nhận xu hướng tăng bền vững trước khi vào."
     }
   ],
