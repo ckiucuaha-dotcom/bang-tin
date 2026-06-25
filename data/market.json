@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-25T06:32:41Z",
-  "updated_at_vn": "13:32 25/06/2026",
+  "updated_at": "2026-06-25T07:51:25Z",
+  "updated_at_vn": "14:51 25/06/2026",
   "session_date": "2026-06-25",
   "data_quality": "live",
   "vnindex": {
-    "close": 1867.72,
-    "change": -10.3,
-    "change_pct": -0.55,
+    "close": 1863.07,
+    "change": -14.95,
+    "change_pct": -0.8,
     "note": "Phiên 24/6 VN-Index đóng cửa 1.878,02 điểm (+8,98 điểm, +0,48%), phục hồi sau khi thất bại trước ngưỡng 1.890 trong phiên sáng; khối ngoại đảo chiều mua ròng tập trung vào VIC nhưng tin MSCI không nâng hạng Việt Nam 2026 là áp lực tâm lý lớn cho thị trường."
   },
   "holdings": [
@@ -14,11 +14,11 @@
       "ticker": "FPT",
       "qty": 700,
       "avg_cost": 91470,
-      "price": 71200.0,
-      "change_pct": 0.56,
-      "value": 49840000.0,
-      "pnl": -14189000.0,
-      "pnl_pct": -22.16,
+      "price": 71000.0,
+      "change_pct": 0.28,
+      "value": 49700000.0,
+      "pnl": -14329000.0,
+      "pnl_pct": -22.38,
       "target": 116000,
       "stoploss": 68000,
       "action": "THEO DÕI SÁT",
@@ -28,11 +28,11 @@
       "ticker": "SSB",
       "qty": 2892,
       "avg_cost": 13990,
-      "price": 15100.0,
-      "change_pct": -0.33,
-      "value": 43669200.0,
-      "pnl": 3210120.0,
-      "pnl_pct": 7.93,
+      "price": 15200.0,
+      "change_pct": 0.33,
+      "value": 43958400.0,
+      "pnl": 3499320.0,
+      "pnl_pct": 8.65,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
@@ -41,27 +41,27 @@
   ],
   "totals": {
     "cost": 104488080.0,
-    "value": 93509200.0,
-    "pnl": -10978880.0,
-    "pnl_pct": -10.51
+    "value": 93658400.0,
+    "pnl": -10829680.0,
+    "pnl_pct": -10.36
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 22500.0,
-      "change_pct": 0.0,
+      "price": 22400.0,
+      "change_pct": -0.44,
       "comment": "ACB 22.500 (+0,67%); nhóm ngân hàng chịu áp lực tâm lý từ tin MSCI không nâng hạng Việt Nam, chưa có điểm vào hấp dẫn, theo dõi vùng hỗ trợ 22.000."
     },
     {
       "ticker": "HPG",
-      "price": 23500.0,
-      "change_pct": 0.0,
+      "price": 23400.0,
+      "change_pct": -0.43,
       "comment": "HPG 23.500 (+0,86%); Agriseco khuyến nghị tích cực trong 2026 nhưng ngành thép toàn cầu còn yếu, chờ thêm tín hiệu giá thép trước khi xem xét vào."
     },
     {
       "ticker": "MBB",
-      "price": 24850.0,
-      "change_pct": 0.2,
+      "price": 24700.0,
+      "change_pct": -0.4,
       "comment": "MBB 24.800 ổn định; MSCI không nâng hạng ảnh hưởng tâm lý lên nhóm ngân hàng, quan sát thêm 2-3 phiên trước khi đánh giá điểm vào."
     }
   ],
