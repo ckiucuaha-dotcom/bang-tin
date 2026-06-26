@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-06-26T07:59:06Z",
-  "updated_at_vn": "14:59 26/06/2026",
+  "updated_at": "2026-06-26T09:05:00Z",
+  "updated_at_vn": "16:05 26/06/2026",
   "session_date": "2026-06-26",
   "data_quality": "live",
   "vnindex": {
     "close": 1871.91,
     "change": 8.84,
     "change_pct": 0.47,
-    "note": "Phiên 25/6 VN-Index đóng cửa 1.863,07 điểm (-14,95 điểm, -0,80%); nhóm Vingroup tạo áp lực chính khiến chỉ số giảm hơn 16 điểm trước giờ nghỉ trưa, phiên chiều thu hẹp đà giảm nhưng không hồi phục được; khối ngoại tiếp tục bán ròng trong bối cảnh USD lên đỉnh 13 tháng."
+    "note": "Phiên 26/6 VN-Index đóng cửa 1.871,91 điểm (+8,84 điểm, +0,47%), hồi phục nhẹ sau nhịp giảm -0,80% của hôm qua; nhóm ngân hàng giữ vai trò đỡ chỉ số trong khi VIC và VHM tiếp tục chịu áp lực bán; khối ngoại bán ròng hơn 1.100 tỷ đồng toàn thị trường, tập trung vào FPT và ngân hàng; thanh khoản HOSE giảm khoảng 11% so với phiên trước."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 71.000, lỗ 22,38%; tiếp tục nằm trong vùng theo dõi sát (dưới ngưỡng stoploss x 1,05 = 71.400). Khối ngoại liên tục bán ròng FPT nhiều phiên gần đây, không mua thêm - đặt alert tại 70.000 và 68.000."
+      "comment": "Giá 70.800 (-0,28%), lỗ 22,6%; vẫn nằm dưới ngưỡng stoploss x 1,05 = 71.400. Khối ngoại tiếp tục bán ròng FPT phiên 26/6 khoảng 137 tỷ, áp lực nước ngoài vẫn chưa dứt; không mua thêm, đặt alert chặt tại 68.000."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.200, lãi 8,65%; SSB tăng nhẹ trong phiên thị trường giảm, diễn biến tốt hơn thị trường chung. Target 18.000 còn cách 18,4%, không cần hành động."
+      "comment": "Giá 16.100 (+5,92%), lãi 15,08%; SSB tăng vượt trội so với thị trường chung, diễn biến rất tích cực. Target 18.000 còn cách khoảng 11,8%, GIỮ nguyên và để thị trường vận hành."
     }
   ],
   "totals": {
@@ -50,56 +50,56 @@
       "ticker": "ACB",
       "price": 22600.0,
       "change_pct": 0.89,
-      "comment": "ACB 22.400 (-0,44%); nhóm ngân hàng chịu áp lực từ quyết định bỏ room tín dụng cho 18 dự án BĐS lớn, tiềm ẩn rủi ro nợ xấu; chưa có điểm vào hấp dẫn, theo dõi thêm."
+      "comment": "ACB 22.600 (+0,89%); nhóm ngân hàng phục hồi nhẹ trong phiên 26/6, đóng vai trò đỡ chỉ số tốt; tác động từ tin bỏ room tín dụng 18 dự án BĐS chưa rõ về rủi ro nợ xấu, tiếp tục quan sát thêm."
     },
     {
       "ticker": "HPG",
       "price": 23500.0,
       "change_pct": 0.43,
-      "comment": "HPG 23.400 (-0,43%); USD lên đỉnh 13 tháng tạo áp lực lên ngành thép, chưa có tín hiệu hồi phục rõ; tiếp tục theo dõi."
+      "comment": "HPG 23.500 (+0,43%); phục hồi nhẹ nhưng ngành thép vẫn chịu áp lực từ USD mạnh và chi phí đầu vào tăng; chưa đủ tín hiệu vào hàng, theo dõi thêm vài phiên."
     },
     {
       "ticker": "MBB",
       "price": 24750.0,
       "change_pct": 0.2,
-      "comment": "MBB 24.700 (-0,40%); giảm nhẹ trong phiên điều chỉnh, ổn định hơn thị trường chung; quan sát phản ứng đầu tuần tới sau tin bỏ room tín dụng BĐS."
+      "comment": "MBB 24.750 (+0,20%); hồi phục ổn định hơn thị trường chung; dài hạn có thể hưởng lợi từ chính sách bỏ room tín dụng BĐS, quan sát thêm trước khi quyết định."
     }
   ],
   "gold": {
-    "sjc_buy": 142200000,
-    "sjc_sell": 145200000,
-    "note": "Vàng SJC 25/6 giảm thêm khoảng 1 triệu đồng/lượng về 142,2 triệu mua vào và 145,2 triệu bán ra; vàng thế giới rơi mạnh gần thủng ngưỡng 4.000 USD/ounce do USD lên đỉnh 13 tháng, giao dịch trong nước đìu hiu."
+    "sjc_buy": 143800000,
+    "sjc_sell": 146800000,
+    "note": "Vàng SJC 26/6 tăng trở lại 600.000 đồng/lượng so với hôm qua, về mức 143,8 triệu mua vào và 146,8 triệu bán ra; vàng thế giới dao động quanh ngưỡng 4.000 USD/ounce, chênh lệch trong nước và quốc tế giãn lên gần 18 triệu đồng/lượng; thị trường vàng trong nước thanh khoản thấp."
   },
   "news_vn": [
     {
-      "title": "Nhóm Vingroup tạo áp lực, VN-Index giảm hơn 16 điểm phiên sáng 25/6",
-      "summary": "Phiên sáng 25/6, VN-Index giảm mạnh hơn 16 điểm trước giờ nghỉ trưa khi cổ phiếu họ Vingroup chịu áp lực chốt lời; dòng tiền dịch chuyển sang nhóm cổ phiếu vừa và nhỏ nhưng thanh khoản thấp hơn mức trung bình 20 phiên, thị trường không giữ được đà từ phiên trước.",
+      "title": "Vietstock Daily 26/06/2026: Thận trọng trở lại",
+      "summary": "VN-Index hồi phục nhẹ phiên 26/6 nhưng nhà đầu tư vẫn giữ thái độ thận trọng; thanh khoản HOSE giảm khoảng 11% so với phiên trước, thị trường tích lũy trong biên độ hẹp 1.850-1.900 điểm với nhóm ngân hàng và chứng khoán đỡ chỉ số.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/06/nhip-dap-thi-truong-2506-nhom-vingroup-tao-ap-luc-vn-index-giam-hon-16-diem-truoc-gio-nghi-trua-1636-1458305.htm"
+      "url": "https://vietstock.vn/2026/06/vietstock-daily-26062026-than-trong-tro-lai-1636-1458521.htm"
     },
     {
-      "title": "Bỏ room tín dụng cho 18 dự án Vingroup, Sun Group, Masterise: Cơ hội và rủi ro cho cổ phiếu ngân hàng",
-      "summary": "Nhà nước chính thức tháo gỡ room tín dụng cho 18 dự án bất động sản của Vingroup, Sun Group và Masterise; động thái hỗ trợ thanh khoản BĐS nhưng cũng làm dấy lên lo ngại rủi ro nợ xấu ngân hàng, nhà đầu tư đang đánh giá lại tác động đến nhóm cổ phiếu ngân hàng.",
-      "source": "Tuoi Tre",
-      "url": "https://tuoitre.vn/chung-khoan-25-6-bo-room-tin-dung-voi-18-du-an-cua-vingroup-sun-group-masterise-co-nen-chon-co-phieu-ngan-hang-10026062507292287.htm"
+      "title": "Thị trường chứng quyền ngày 26/06/2026: Nhóm chứng quyền VIC & VHM chịu áp lực bán",
+      "summary": "Nhóm chứng quyền liên quan VIC và VHM tiếp tục chịu áp lực bán trong phiên 26/6, phản ánh tâm lý thận trọng của nhà đầu tư với cổ phiếu họ Vingroup sau nhiều phiên biến động; các chứng quyền nhóm ngân hàng giao dịch ổn định hơn.",
+      "source": "Vietstock",
+      "url": "https://vietstock.vn/2026/06/thi-truong-chung-quyen-ngay-26062026-nhom-chung-quyen-vic-vhm-chiu-ap-luc-ban-1636-1458484.htm"
     },
     {
-      "title": "Phân tích kỹ thuật phiên chiều 25/6: VN-Index kiểm tra lại SMA 50 ngày",
-      "summary": "VN-Index đang kiểm tra lại đường SMA 50 ngày sau khi không giữ được vùng 1.875-1.880 điểm; về kỹ thuật, chỉ số cần bảo vệ vùng hỗ trợ này trong phiên đầu tuần tới để tránh điều chỉnh sâu hơn về vùng 1.840-1.850 điểm.",
-      "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/06/phan-tich-ky-thuat-phien-chieu-2506-vn-index-kiem-tra-lai-sma-50-ngay-585-1458367.htm"
+      "title": "Khối ngoại tiếp tục xả mạnh FPT và nhóm ngân hàng",
+      "summary": "Khối ngoại bán ròng hơn 1.100 tỷ đồng toàn thị trường phiên 26/6, tập trung vào FPT và nhóm ngân hàng lớn; xu hướng rút vốn của nhà đầu tư nước ngoài tiếp diễn nhiều phiên liên tiếp trong bối cảnh USD lên đỉnh nhiều tháng và áp lực tỷ giá gia tăng.",
+      "source": "Vietnambiz",
+      "url": "https://vietnambiz.vn/khoi-ngoai-tiep-tuc-xa-manh-fpt-va-nhom-ngan-hang-202662416015614.htm"
     }
   ],
   "advice": {
-    "summary": "Danh mục tổng lỗ 10,36% trong phiên VN-Index giảm 14,95 điểm (-0,80%) về 1.863,07 điểm; nhóm Vingroup tạo áp lực và khối ngoại tiếp tục bán ròng nhiều phiên liên tiếp. FPT tiếp tục trong vùng theo dõi sát, SSB duy trì tốt hơn thị trường. Cần quan sát phản ứng thị trường đầu tuần tới tại vùng SMA 50 trước khi có hành động mới.",
+    "summary": "Danh mục tổng lỗ 8,01%; VN-Index hồi phục nhẹ +0,47% phiên 26/6 nhờ nhóm ngân hàng đỡ chỉ số nhưng khối ngoại vẫn bán ròng hơn 1.100 tỷ và thanh khoản giảm - tín hiệu chưa đủ mạnh để giải ngân tiền mới. SSB tăng vượt trội +5,92%, là điểm sáng duy nhất trong danh mục; FPT tiếp tục bị áp lực nước ngoài và nằm trong vùng theo dõi sát. Chờ thêm tín hiệu xác nhận xu hướng trước khi hành động mới.",
     "actions": [
-      "FPT: THEO DÕI SÁT - giá 71.000, lỗ 22,38%, dưới ngưỡng stoploss x 1,05 = 71.400 (stoploss 68.000). Khối ngoại bán ròng FPT nhiều phiên liên tiếp là áp lực lớn; đặt alert tại 70.000 và 68.000, tuyệt đối không mua thêm.",
-      "SSB: GIỮ - giá 15.200, lãi 8,65%, tăng nhẹ trong phiên thị trường giảm; target 18.000 còn cách 18,4%, không cần hành động.",
-      "Tiền mới: ĐỨNG NGOÀI - VN-Index đang kiểm tra SMA 50, cần quan sát phản ứng đầu tuần tới (30/6) tại vùng 1.863-1.875 điểm trước khi xem xét giải ngân.",
-      "Watchlist ACB 22.400 (-0,44%): theo dõi tác động từ tin bỏ room tín dụng BĐS đến rủi ro nợ xấu ngân hàng; chưa vào hàng.",
-      "Watchlist HPG 23.400 (-0,43%): USD mạnh gây áp lực lên ngành thép; tiếp tục theo dõi thêm vài phiên.",
-      "Watchlist MBB 24.700 (-0,40%): ổn định hơn thị trường chung; quan sát đầu tuần sau tin bỏ room tín dụng BĐS để đánh giá cơ hội.",
-      "Vàng: SJC 142,2 triệu mua vào - 145,2 triệu bán ra; vàng thế giới gần thủng 4.000 USD/ounce do USD mạnh, giao dịch đìu hiu; không mua vào thời điểm này."
+      "FPT: THEO DÕI SÁT - giá 70.800, lỗ 22,6%, dưới ngưỡng stoploss x 1,05 = 71.400 (stoploss 68.000). Khối ngoại bán ròng FPT khoảng 137 tỷ phiên 26/6 - áp lực vẫn chưa dứt; tuyệt đối không mua thêm, đặt alert tại 68.000.",
+      "SSB: GIỮ - giá 16.100, lãi 15,08%, tăng +5,92% vượt trội thị trường; target 18.000 còn cách 11,8%, không cần hành động, để thị trường tự vận hành.",
+      "Tiền mới: ĐỨNG NGOÀI - VN-Index tích lũy biên độ hẹp 1.850-1.900 điểm, khối ngoại liên tục bán ròng và thanh khoản giảm; chờ tín hiệu xác nhận hồi phục bền vững trước khi xem xét giải ngân.",
+      "Watchlist ACB 22.600 (+0,89%): nhóm ngân hàng phục hồi tốt phiên này; theo dõi thêm tác động từ chính sách bỏ room tín dụng BĐS trước khi vào hàng.",
+      "Watchlist HPG 23.500 (+0,43%): phục hồi nhẹ nhưng chưa đủ động lực; USD mạnh vẫn tạo áp lực lên ngành thép, tiếp tục theo dõi.",
+      "Watchlist MBB 24.750 (+0,20%): ổn định và có thể hưởng lợi dài hạn từ chính sách tín dụng BĐS; quan sát thêm vài phiên trước khi quyết định.",
+      "Vàng: SJC 143,8 triệu mua vào - 146,8 triệu bán ra, tăng 600.000 đồng so với hôm qua; vàng thế giới dao động quanh 4.000 USD/ounce; chênh lệch trong-ngoài nước giãn gần 18 triệu - không mua vào lúc này."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
