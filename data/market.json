@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-26T06:36:27Z",
-  "updated_at_vn": "13:36 26/06/2026",
+  "updated_at": "2026-06-26T07:59:06Z",
+  "updated_at_vn": "14:59 26/06/2026",
   "session_date": "2026-06-26",
   "data_quality": "live",
   "vnindex": {
-    "close": 1860.91,
-    "change": -2.16,
-    "change_pct": -0.12,
+    "close": 1871.91,
+    "change": 8.84,
+    "change_pct": 0.47,
     "note": "Phiên 25/6 VN-Index đóng cửa 1.863,07 điểm (-14,95 điểm, -0,80%); nhóm Vingroup tạo áp lực chính khiến chỉ số giảm hơn 16 điểm trước giờ nghỉ trưa, phiên chiều thu hẹp đà giảm nhưng không hồi phục được; khối ngoại tiếp tục bán ròng trong bối cảnh USD lên đỉnh 13 tháng."
   },
   "holdings": [
@@ -14,11 +14,11 @@
       "ticker": "FPT",
       "qty": 700,
       "avg_cost": 91470,
-      "price": 70600.0,
-      "change_pct": -0.56,
-      "value": 49420000.0,
-      "pnl": -14609000.0,
-      "pnl_pct": -22.82,
+      "price": 70800.0,
+      "change_pct": -0.28,
+      "value": 49560000.0,
+      "pnl": -14469000.0,
+      "pnl_pct": -22.6,
       "target": 116000,
       "stoploss": 68000,
       "action": "THEO DÕI SÁT",
@@ -28,11 +28,11 @@
       "ticker": "SSB",
       "qty": 2892,
       "avg_cost": 13990,
-      "price": 16050.0,
-      "change_pct": 5.59,
-      "value": 46416600.0,
-      "pnl": 5957520.0,
-      "pnl_pct": 14.72,
+      "price": 16100.0,
+      "change_pct": 5.92,
+      "value": 46561200.0,
+      "pnl": 6102120.0,
+      "pnl_pct": 15.08,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
@@ -41,27 +41,27 @@
   ],
   "totals": {
     "cost": 104488080.0,
-    "value": 95836600.0,
-    "pnl": -8651480.0,
-    "pnl_pct": -8.28
+    "value": 96121200.0,
+    "pnl": -8366880.0,
+    "pnl_pct": -8.01
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 22450.0,
-      "change_pct": 0.22,
+      "price": 22600.0,
+      "change_pct": 0.89,
       "comment": "ACB 22.400 (-0,44%); nhóm ngân hàng chịu áp lực từ quyết định bỏ room tín dụng cho 18 dự án BĐS lớn, tiềm ẩn rủi ro nợ xấu; chưa có điểm vào hấp dẫn, theo dõi thêm."
     },
     {
       "ticker": "HPG",
-      "price": 23400.0,
-      "change_pct": 0.0,
+      "price": 23500.0,
+      "change_pct": 0.43,
       "comment": "HPG 23.400 (-0,43%); USD lên đỉnh 13 tháng tạo áp lực lên ngành thép, chưa có tín hiệu hồi phục rõ; tiếp tục theo dõi."
     },
     {
       "ticker": "MBB",
-      "price": 24700.0,
-      "change_pct": 0.0,
+      "price": 24750.0,
+      "change_pct": 0.2,
       "comment": "MBB 24.700 (-0,40%); giảm nhẹ trong phiên điều chỉnh, ổn định hơn thị trường chung; quan sát phản ứng đầu tuần tới sau tin bỏ room tín dụng BĐS."
     }
   ],
