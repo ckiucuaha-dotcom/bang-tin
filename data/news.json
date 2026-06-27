@@ -1,218 +1,218 @@
 {
-  "updated_at": "2026-06-26T00:10:00Z",
-  "updated_at_vn": "07:10 26/06/2026",
+  "updated_at": "2026-06-27T00:10:00Z",
+  "updated_at_vn": "07:10 27/06/2026",
   "ai": [
     {
-      "title": "OpenAI và Broadcom ra mắt Jalapeño - chip AI suy luận đầu tiên của OpenAI",
-      "summary": "OpenAI và Broadcom ngày 24/6/2026 công bố Jalapeño, chip suy luận AI đầu tiên của OpenAI, hoàn thành từ thiết kế đến tape-out chỉ trong 9 tháng - được cho là chu kỳ phát triển ASIC nhanh nhất trong lịch sử chip hiệu suất cao. Chip tối ưu hóa cho các kernel, di chuyển bộ nhớ và mô hình serving của frontier AI model, dự kiến triển khai quy mô lớn từ 2027-2028. Jalapeño là bước đầu trong nền tảng compute đa thế hệ, hứa hẹn hiệu suất trên mỗi watt vượt trội so với chip AI hiện tại và cạnh tranh trực tiếp với NVIDIA trong mảng hạ tầng AI.",
-      "why_it_matters": "Jalapeño đánh dấu OpenAI không còn phụ thuộc NVIDIA - khi chip triển khai 2027-2028, chi phí OpenAI API có thể giảm đáng kể, tạo áp lực buộc Anthropic cũng tối ưu chi phí Claude, cuối cùng có lợi cho người dùng hằng ngày.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
-      "published": "2026-06-24",
-      "hot": true
-    },
-    {
-      "title": "Agentjacking: báo lỗi Sentry giả chiếm quyền Claude Code tại 2.388 tổ chức với tỷ lệ 85%",
-      "summary": "Tenet Threat Labs công bố lỗ hổng Agentjacking nhắm vào Claude Code, Cursor và OpenAI Codex: kẻ tấn công POST báo lỗi giả chứa lệnh độc hại lên Sentry qua DSN công khai, khi developer hỏi AI agent xử lý lỗi Sentry thì agent thực thi lệnh đó với quyền developer. Tỷ lệ khai thác thành công đạt 85% trong kiểm tra có kiểm soát, ảnh hưởng 2.388 tổ chức từ doanh nghiệp 250 tỷ USD đến developer cá nhân. Tấn công đặc biệt nguy hiểm vì mọi bước đều là thao tác hợp lệ, EDR, WAF và IAM đều không phát hiện.",
-      "why_it_matters": "Nếu đang dùng Claude Code với Sentry MCP, cần kiểm tra ngay cấu hình - chỉ kết nối MCP server tin cậy, bật require approval cho lệnh shell, không để DSN Sentry lộ trong code public để tránh bị chiếm quyền agent.",
-      "source": "The New Stack",
-      "url": "https://thenewstack.io/agentjacking-sentry-mcp-attack/",
-      "published": "2026-06-12",
-      "hot": true
-    },
-    {
-      "title": "GPT-4.5 khai tử khỏi ChatGPT ngày 27/6, o3 tiếp theo ngày 26/8 - OpenAI tăng tốc chu kỳ model",
-      "summary": "OpenAI thông báo GPT-4.5 bị xóa khỏi ChatGPT vào ngày 27/6/2026 sau 30 ngày sunset, chính thức khép lại kỷ nguyên GPT-4. Đồng thời o3 sẽ khai tử ngày 26/8/2026 sau 90 ngày sunset. GPT-5.6 được dự báo xuất hiện trước 30/6/2026 với xác suất 83% trên Polymarket theo dữ liệu ngày 25/6.",
-      "why_it_matters": "Nếu đang dùng GPT-4.5 trong API hay workflow nào thì phải migrate sang GPT-5 hoặc GPT-5.5 trước ngày 27/6 để tránh gián đoạn, và chu kỳ khai tử ngày càng ngắn cho thấy OpenAI đang dồn lực cho GPT-5 series để cạnh tranh với Claude.",
-      "source": "OpenAI Help Center",
-      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-      "published": "2026-06-25",
-      "hot": false
-    },
-    {
-      "title": "Noam Shazeer - đồng tác giả Transformer 2017 và đồng lãnh đạo Gemini - rời Google sang OpenAI",
-      "summary": "Noam Shazeer, đồng tác giả bài báo 'Attention Is All You Need' (2017) nền tảng mọi LLM lớn và phó chủ tịch engineering phụ trách Gemini tại Google, thông báo ngày 18/6/2026 rời Google để gia nhập OpenAI. Google từng trả khoảng 2,7 tỷ USD năm 2024 để đưa ông về từ Character.AI. CEO Sam Altman gọi đây là 'điều chờ đợi 10 năm', và Shazeer gia nhập cùng thời điểm OpenAI tuyển thêm Dean Ball (cựu cố vấn AI của Trump) trong giai đoạn chuẩn bị IPO.",
-      "why_it_matters": "Người đặt nền móng lý thuyết cho toàn bộ ngành AI gia nhập OpenAI trước IPO - báo hiệu cuộc đua kiến trúc model giữa OpenAI và Anthropic sẽ ngày càng gay gắt, nên theo dõi sát các phát hành model mới để biết khi nào cần đánh giá lại stack AI hiện tại.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/18/google-gemini-co-lead-noam-shazeer-leaves-for-openai.html",
-      "published": "2026-06-18",
-      "hot": false
-    },
-    {
-      "title": "Anthropic ra mắt Claude Corps: học bổng 85.000 USD/năm cho 1.000 bạn trẻ làm AI tại phi lợi nhuận",
-      "summary": "Anthropic ngày 12/6/2026 ra mắt Claude Corps, chương trình học bổng quốc gia trả lương 85.000 USD/năm cho 1.000 người trẻ (dưới 2 năm kinh nghiệm, không yêu cầu bằng cấp) đi làm full-time tại tổ chức phi lợi nhuận Mỹ trong 1 năm để triển khai AI vì cộng đồng. Anthropic cam kết 150 triệu USD, phối hợp CodePath (tuyển dụng và đào tạo) và Social Finance (đo lường). Cohort đầu 100 fellows bắt đầu tháng 10/2026, hạn đăng ký 17/7/2026.",
-      "why_it_matters": "Claude Corps cho thấy Anthropic đầu tư dài hạn vào xây dựng hệ sinh thái người dùng Claude từ sớm trong nhóm mission-driven workers, không chỉ tập trung doanh nghiệp như OpenAI - đây là tín hiệu Anthropic đang củng cố thị phần dài hạn.",
+      "title": "Anthropic ra mắt Claude Tag: @Claude trở thành đồng nghiệp ảo trong Slack của doanh nghiệp",
+      "summary": "Anthropic ngày 23/6/2026 ra mắt Claude Tag ở bản beta cho khách hàng Enterprise và Team, cho phép gắn thẻ @Claude trong bất kỳ kênh Slack nào để giao việc, kết nối công cụ và dữ liệu nội bộ - hoạt động như một nhân viên ảo có nhớ ngữ cảnh xuyên suốt cuộc trò chuyện và xử lý task bất đồng bộ. Tính năng nổi bật gồm cộng tác nhiều người, truy cập dữ liệu doanh nghiệp và hỗ trợ nhiều phiên làm việc song song. Ngay tại Anthropic, 65% code của nhóm sản phẩm hiện được tạo bởi Claude Tag nội bộ.",
+      "why_it_matters": "Nếu team dùng Slack, Claude Tag mở ra khả năng dùng Claude không chỉ qua Claude Code mà còn giao task trực tiếp trong chat nhóm - giảm context switching và có thể dần thay thế các workflow thủ công, đặc biệt hữu ích khi quản lý dự án cá nhân hoặc làm việc nhóm nhỏ.",
       "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "published": "2026-06-12",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "published": "2026-06-23",
+      "hot": true
+    },
+    {
+      "title": "Nhà khoa học đoạt Nobel AlphaFold John Jumper rời Google DeepMind sang Anthropic",
+      "summary": "John Jumper, người đoạt Nobel Hóa học 2024 nhờ tạo ra AlphaFold - hệ thống AI dự đoán cấu trúc protein đột phá nhất thập kỷ - đã rời Google DeepMind sau gần 9 năm để gia nhập Anthropic (công bố ngày 19-20/6/2026). Jumper là một trong bốn nhà nghiên cứu AlphaFold lớp đầu (cùng Adler, Pritzel, Conmy) đã chuyển về Anthropic trong cùng tuần, đánh dấu làn sóng chảy máu chất xám đáng kể từ DeepMind. Vai trò cụ thể của Jumper tại Anthropic chưa được công bố.",
+      "why_it_matters": "Thâu tóm nhà khoa học AI đỉnh cao từ Google DeepMind củng cố vị thế nghiên cứu của Anthropic - đội ngũ mạnh hơn đồng nghĩa các model Claude tương lai sẽ mạnh hơn và ổn định hơn, tốt cho người dùng Claude Code hằng ngày về dài hạn.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "published": "2026-06-20",
+      "hot": true
+    },
+    {
+      "title": "OpenAI ra mắt GPT-5.6 với ba tầng Sol, Terra, Luna ngay trước deadline 30/6",
+      "summary": "OpenAI ngày 26/6/2026 ra mắt dòng GPT-5.6 trong preview giới hạn với ba tầng: Sol (nhanh, tiết kiệm), Terra (cân bằng) và Luna (thông minh nhất, dùng cho reasoning phức tạp). Việc ra mắt đúng trước ngày 30/6 xác nhận dự báo thị trường trên Polymarket với xác suất 83% được đề cập trước đó, đồng thời hoàn thiện hệ sinh thái GPT-5 series thay thế hoàn toàn dòng GPT-4 vừa bị khai tử. Các tầng mới nhắm cạnh tranh trực tiếp với Claude Sonnet/Haiku/Opus và Gemini Flash/Pro.",
+      "why_it_matters": "Với ba tầng mới, OpenAI cạnh tranh trực tiếp ở cả giá lẫn hiệu năng với Claude - là dịp tốt để đánh giá lại stack AI hiện tại, xem tầng Luna có vượt Claude trong tác vụ coding hay không để quyết định có bổ sung thêm model vào workflow không.",
+      "source": "AI Tools Recap",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-june-26-2026",
+      "published": "2026-06-26",
+      "hot": true
+    },
+    {
+      "title": "Anthropic cáo buộc Alibaba thực hiện 28,8 triệu trao đổi API gian lận để đánh cắp năng lực Claude",
+      "summary": "Anthropic chính thức cáo buộc Alibaba thực hiện 28,8 triệu trao đổi API gian lận với Claude nhằm trích xuất năng lực model để huấn luyện các mô hình AI của Alibaba - hành vi gọi là model distillation. Đây là lần đầu tiên Anthropic công khai quy mô vụ việc và đệ trình lên Thượng viện Mỹ yêu cầu hành động phối hợp chống các cuộc tấn công distillation từ đối thủ nước ngoài. Sự cố có thể thúc đẩy Anthropic siết chặt điều khoản sử dụng API và tăng cường phát hiện bất thường.",
+      "why_it_matters": "Vụ Alibaba-Anthropic cho thấy API key và usage của bạn có thể bị nhúng vào scheme lớn hơn mà không hay biết - đây là lúc xem lại ai đang dùng chung API key Claude của bạn và kích hoạt usage alerts để phát hiện sớm bất thường.",
+      "source": "AI Tools Recap",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-june-26-2026",
+      "published": "2026-06-26",
+      "hot": false
+    },
+    {
+      "title": "DeepSeek V4-Pro giảm giá 75% vĩnh viễn - áp lực định giá lên toàn ngành AI",
+      "summary": "DeepSeek tháng 6/2026 chính thức hóa mức giảm giá 75% cho V4-Pro thành vĩnh viễn, đẩy chi phí API xuống thấp nhất trong các frontier model hiện tại. Động thái này buộc các đối thủ như OpenAI, Anthropic và Google phải xem xét lại chiến lược định giá để giữ thị phần khách hàng nhạy cảm với chi phí. DeepSeek V4-Pro hiện được đánh giá cạnh tranh về chất lượng trên nhiều benchmark trong khi giá thấp hơn Claude Sonnet 5-7 lần.",
+      "why_it_matters": "DeepSeek rẻ hơn đáng kể nhưng Claude Code vẫn tối ưu hơn cho agentic workflow - với dự án không cần agentic features, DeepSeek V4-Pro là lựa chọn tiết kiệm để bổ sung vào workflow cho batch task đơn giản hoặc draft nội dung sơ bộ.",
+      "source": "AI Tools Recap",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-june-26-2026",
+      "published": "2026-06-26",
       "hot": false
     }
   ],
   "github": {
     "daily": [
       {
-        "repo": "calesthio/OpenMontage",
-        "desc": "Hệ thống sản xuất video agentic mã nguồn mở đầu tiên thế giới với 12 pipeline, 52 công cụ và hơn 500 kỹ năng agent - vẫn dẫn đầu daily với +3.434 sao hôm nay",
-        "lang": "Python",
-        "stars": 22019,
-        "stars_period": 3434,
-        "url": "https://github.com/calesthio/OpenMontage"
-      },
-      {
         "repo": "google-labs-code/design.md",
-        "desc": "Định dạng đặc tả bản sắc thị giác cho AI coding agent, giúp agent duy trì design system nhất quán xuyên suốt dự án - tương tự CLAUDE.md nhưng dành cho thiết kế",
+        "desc": "Đặc tả bản sắc thị giác cho AI coding agent giúp duy trì design system nhất quán xuyên suốt dự án - bứt phá mạnh lên +2.407 sao hôm nay, gần gấp đôi so với hôm qua",
         "lang": "TypeScript",
-        "stars": 19136,
-        "stars_period": 1475,
+        "stars": 21218,
+        "stars_period": 2407,
         "url": "https://github.com/google-labs-code/design.md"
       },
       {
-        "repo": "apple/container",
-        "desc": "Công cụ chính thức của Apple tạo và chạy Linux container qua máy ảo nhẹ trên Mac, viết bằng Swift và tối ưu cho Apple silicon",
-        "lang": "Swift",
-        "stars": 43191,
-        "stars_period": 1351,
-        "url": "https://github.com/apple/container"
+        "repo": "simplex-chat/simplex-chat",
+        "desc": "Mạng nhắn tin hoàn toàn ẩn danh không cần định danh người dùng, bảo mật theo thiết kế với ứng dụng iOS, Android và máy tính - bất ngờ xuất hiện top daily hôm nay",
+        "lang": "Haskell",
+        "stars": 12522,
+        "stars_period": 432,
+        "url": "https://github.com/simplex-chat/simplex-chat"
       },
       {
-        "repo": "xbtlin/ai-berkshire",
-        "desc": "Framework nghiên cứu đầu tư kết hợp phương pháp value investing kiểu Berkshire Hathaway với phân tích đa agent AI - đang tăng mạnh trong cộng đồng nhà đầu tư dùng AI",
+        "repo": "kunchenguid/no-mistakes",
+        "desc": "Tiện ích git nhỏ gọn với phương châm git push no-mistakes - tự động phát hiện và ngăn các lỗi phổ biến trước khi push code lên remote",
+        "lang": "Go",
+        "stars": 3411,
+        "stars_period": 398,
+        "url": "https://github.com/kunchenguid/no-mistakes"
+      },
+      {
+        "repo": "commaai/openpilot",
+        "desc": "Hệ điều hành robot cho hỗ trợ lái xe tự động trên hơn 300 mẫu xe, mã nguồn mở từ comma.ai - đang được cộng đồng ô tô điện quan tâm trở lại",
         "lang": "Python",
-        "stars": 1829,
-        "stars_period": 309,
-        "url": "https://github.com/xbtlin/ai-berkshire"
+        "stars": 61773,
+        "stars_period": 80,
+        "url": "https://github.com/commaai/openpilot"
       },
       {
-        "repo": "mauriceboe/TREK",
-        "desc": "Ứng dụng lập kế hoạch du lịch tự lưu trữ với cộng tác thời gian thực, bản đồ tương tác và hỗ trợ PWA - xu hướng self-hosted travel planner đang nổi",
+        "repo": "grafana/grafana",
+        "desc": "Nền tảng quan sát dữ liệu và tạo dashboard mã nguồn mở hỗ trợ hàng chục nguồn dữ liệu - xuất hiện trong daily trending sau đợt cập nhật tính năng AI mới",
         "lang": "TypeScript",
-        "stars": 6622,
-        "stars_period": 241,
-        "url": "https://github.com/mauriceboe/TREK"
+        "stars": 74887,
+        "stars_period": 32,
+        "url": "https://github.com/grafana/grafana"
       }
     ],
     "weekly": [
       {
         "repo": "calesthio/OpenMontage",
-        "desc": "Hệ thống video agentic mã nguồn mở tiếp tục dẫn đầu weekly với +15.793 sao trong tuần - sức viral chưa hạ nhiệt sau nhiều tuần liên tiếp",
+        "desc": "Hệ thống sản xuất video agentic mã nguồn mở đầu tiên với 12 pipeline và 500+ kỹ năng agent - dẫn đầu weekly tuần thứ ba liên tiếp với +17.249 sao",
         "lang": "Python",
-        "stars": 22019,
-        "stars_period": 15793,
+        "stars": 23587,
+        "stars_period": 17249,
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "repo": "DeusData/codebase-memory-mcp",
-        "desc": "Server MCP lập chỉ mục codebase thành knowledge graph bền vững hỗ trợ 158 ngôn ngữ, truy vấn tốc độ millisecond - tiếp tục top 2 weekly với +8.024 sao",
+        "desc": "MCP server lập chỉ mục codebase thành knowledge graph bền vững hỗ trợ 158 ngôn ngữ, truy vấn millisecond - giữ vững top 2 weekly với +7.592 sao",
         "lang": "C",
-        "stars": 14755,
-        "stars_period": 8024,
+        "stars": 15616,
+        "stars_period": 7592,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
-        "repo": "penpot/penpot",
-        "desc": "Công cụ thiết kế mã nguồn mở thay thế Figma cho cộng tác design và code - bứt phá vào top 3 weekly tuần này với +3.379 sao mới",
-        "lang": "Clojure",
-        "stars": 53680,
-        "stars_period": 3379,
-        "url": "https://github.com/penpot/penpot"
-      },
-      {
-        "repo": "koala73/worldmonitor",
-        "desc": "Dashboard thông minh toàn cầu thời gian thực: tổng hợp tin tức bằng AI, theo dõi địa chính trị và hạ tầng - đứng vững top 4 weekly với +3.059 sao",
-        "lang": "TypeScript",
-        "stars": 59807,
-        "stars_period": 3059,
-        "url": "https://github.com/koala73/worldmonitor"
-      },
-      {
-        "repo": "google-research/timesfm",
-        "desc": "Mô hình nền tảng chuỗi thời gian của Google Research cho dự báo - nổi lên tuần này với +3.040 sao, phù hợp ứng dụng phân tích tài chính và chứng khoán",
+        "repo": "Panniantong/Agent-Reach",
+        "desc": "Cung cấp cho AI agent khả năng đọc và tìm kiếm xuyên suốt Twitter, Reddit, YouTube, GitHub, Bilibili và XiaoHongShu - nổi lên top 3 weekly với +7.199 sao",
         "lang": "Python",
-        "stars": 25566,
-        "stars_period": 3040,
-        "url": "https://github.com/google-research/timesfm"
+        "stars": 42319,
+        "stars_period": 7199,
+        "url": "https://github.com/Panniantong/Agent-Reach"
+      },
+      {
+        "repo": "ZhuLinsen/daily_stock_analysis",
+        "desc": "Hệ thống phân tích cổ phiếu đa thị trường dùng LLM với tin tức thời gian thực và thông báo tự động - thu hút cộng đồng nhà đầu tư AI với +6.919 sao tuần này",
+        "lang": "Python",
+        "stars": 50104,
+        "stars_period": 6919,
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+      },
+      {
+        "repo": "penpot/penpot",
+        "desc": "Công cụ thiết kế và prototyping mã nguồn mở thay thế Figma với cộng tác nhóm - tiếp tục top 5 weekly với +3.560 sao",
+        "lang": "Clojure",
+        "stars": 53957,
+        "stars_period": 3560,
+        "url": "https://github.com/penpot/penpot"
       }
     ],
-    "trend_note": "Ngày 26/6: calesthio/OpenMontage vẫn dẫn đầu daily (+3.434) sau nhiều tuần liên tục - sức bền hiếm thấy. google-labs-code/design.md (+1.475) và apple/container (+1.351) tiếp tục top 3. Mới đáng chú ý: xbtlin/ai-berkshire (+309) - framework đầu tư value investing kết hợp AI agent thu hút cộng đồng nhà đầu tư; mauriceboe/TREK (+241) là self-hosted travel planner đang nổi. Weekly: OpenMontage (+15.793) cách xa DeusData/codebase-memory-mcp (+8.024); penpot/penpot bứt phá vào top 3 - tín hiệu design tool mã nguồn mở hồi phục mạnh; google-research/timesfm nổi lên phản ánh xu hướng AI cho phân tích chuỗi thời gian và tài chính."
+    "trend_note": "Ngày 27/6: google-labs-code/design.md (+2.407) bứt phá mạnh lên đầu bảng daily, gần gấp đôi hôm qua - sức hút tích lũy khi cộng đồng dev hiểu sâu hơn về ứng dụng cho AI agent. Mới đáng chú ý: simplex-chat/simplex-chat (+432) nổi lên sau các vụ tấn công API gần đây làm người dùng lo ngại quyền riêng tư; kunchenguid/no-mistakes (+398) - tool nhỏ giải quyết đau đầu to là push nhầm. Weekly: OpenMontage vẫn áp đảo (+17.249); Panniantong/Agent-Reach (+7.199) vào top 3 - xu hướng AI agent cần đọc dữ liệu đa nguồn mạng xã hội đang rất hot; ZhuLinsen/daily_stock_analysis (+6.919) phản ánh sự quan tâm tới AI cho phân tích đầu tư ngày càng tăng."
   },
   "tech": [
     {
-      "title": "Vietnam ICTCOMM 2026 khai mạc tại TP.HCM ngày 24/6: Vietnamobile ra mắt 3 giải pháp số cho doanh nghiệp vừa nhỏ",
-      "summary": "Triển lãm Viễn thông và Công nghệ Thông tin Vietnam ICTCOMM 2026 diễn ra 24-26/6 tại SECC TP.HCM, quy tụ doanh nghiệp viễn thông, AI, cloud, IoT và chuyển đổi số trong và ngoài nước. Vietnamobile giới thiệu ba giải pháp số mới gồm SME360 (quản lý tổng thể), InsightOS (phân tích dữ liệu) và CareLink (chăm sóc khách hàng) dành riêng cho doanh nghiệp vừa và nhỏ. Sự kiện phản ánh chiến lược Việt Nam tập trung vào AI, bán dẫn và công nghệ chiến lược để nâng vị thế trong chuỗi giá trị toàn cầu.",
-      "source": "Tech.MediaOnline",
-      "url": "https://mediaonlinevn.com/2026/06/25/vietnamobile-gioi-thieu-he-sinh-thai-giai-phap-so-danh-cho-doanh-nghiep/",
+      "title": "Apple WWDC 2026: Siri được cải tổ toàn diện với AI đa bước, hiểu ngữ cảnh xuyên ứng dụng",
+      "summary": "Tại WWDC 2026 ngày 9/6/2026, Apple công bố Siri thế hệ mới với khả năng hiểu ngữ cảnh đa bước và thực hiện tác vụ xuyên nhiều ứng dụng, tương tự ChatGPT nhưng tích hợp sâu vào hệ sinh thái Apple. Tính năng mới gồm quản lý tab Safari bằng giọng nói, cập nhật mật khẩu một chạm, gợi ý trả lời thông minh trong Messages và cross-app context awareness trên iOS 27. Apple Intelligence cũng được nâng cấp với tóm tắt và viết lại văn bản tốt hơn đáng kể so với phiên bản trước.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "published": "2026-06-09"
+    },
+    {
+      "title": "Oracle cắt giảm 21.000 nhân sự - làn sóng sa thải lớn nhất ngành tech 2026 do AI thay thế",
+      "summary": "Oracle công bố cắt giảm khoảng 21.000 nhân viên, tương đương 13% lực lượng lao động, trong đợt cơ cấu quy mô nhất từ trước đến nay và trực tiếp liên kết quyết định này với việc triển khai AI thay thế các vai trò quy trình và phân tích. Đây là vụ sa thải đơn lẻ lớn nhất ngành công nghệ toàn cầu tính đến tháng 6/2026, vượt qua các đợt cắt giảm trước đó của Meta và Salesforce. Oracle tái tập trung nguồn lực vào phát triển Oracle Cloud Infrastructure và hệ thống AI doanh nghiệp.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/06/25/top-tech-news-today-june-25-2026/",
       "published": "2026-06-25"
     },
     {
-      "title": "Viettel và NVIDIA khởi động Vietnam AI Open Hackathon 2026 với hạ tầng 96 GPU H200 tại Đà Nẵng",
-      "summary": "Viettel phối hợp NVIDIA khởi động Vietnam AI Open Hackathon 2026, cuộc thi phát triển ứng dụng AI thực tế tập trung vào Generative AI, Agentic AI và Physical AI cho cộng đồng công nghệ Việt Nam. Viettel triển khai hạ tầng 96 GPU NVIDIA H200 (cụm AI đầu tiên cấp doanh nghiệp tại Việt Nam) cùng 120 TiB lưu trữ, đáp ứng 12 đội thi đồng thời. Đây là bước giải quyết rào cản chi phí GPU cho startup và nhóm nghiên cứu AI Việt Nam.",
-      "source": "Vietnam.vn",
-      "url": "https://www.vietnam.vn/en/viettel-khoi-dong-vietnam-ai-open-hackathon-2026-cung-nvidia-mo-rong-quyen-tiep-can-ha-tang-sieu-may-tinh-ai-cho-cong-dong-cong-nghe-viet-nam",
+      "title": "SK Hynix huy động 29,4 tỷ USD để mở rộng sản xuất chip HBM4 phục vụ bùng nổ AI",
+      "summary": "SK Hynix thông báo kế hoạch huy động 29,4 tỷ USD vốn đầu tư nhằm mở rộng năng lực sản xuất chip nhớ HBM4 - loại chip thiết yếu cho GPU AI của NVIDIA và AMD. Động thái này phản ánh dự báo nhu cầu chip AI tiếp tục tăng trưởng mạnh đến 2028, và SK Hynix muốn củng cố vị thế dẫn đầu thị trường HBM trước Samsung. Việt Nam có thể hưởng lợi gián tiếp khi SK Hynix đang mở rộng cơ sở sản xuất tại Việt Nam trong giai đoạn này.",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/06/25/top-tech-news-today-june-25-2026/",
       "published": "2026-06-25"
     },
     {
-      "title": "Google ra mắt Gemini 2.5 Pro với chế độ Deep Think: đặt lại chuẩn benchmark khoa học và suy luận",
-      "summary": "Google ngày 22/6/2026 ra mắt Gemini 2.5 Pro với chế độ Deep Think mới, đạt điểm benchmark khoa học và suy luận phức tạp dẫn đầu bảng xếp hạng, có ngay trên Gemini API, Google AI Studio và Vertex AI. Trong cùng tuần, Google hé lộ Gemini 3.5 Pro (context window 2 triệu token, Deep Think cập nhật) dự kiến trước 30/6/2026. Gemini 2.5 Pro đặt ra thách thức trực tiếp với Claude Fable 5 và GPT-5 series trên bài toán STEM và suy luận nhiều bước.",
-      "source": "LLM Stats",
-      "url": "https://llm-stats.com/llm-updates",
-      "published": "2026-06-22"
+      "title": "Việt Nam công bố 10 nhóm công nghệ chiến lược: AI, bán dẫn, điện toán đám mây dẫn đầu ưu tiên",
+      "summary": "Bộ Khoa học và Công nghệ Việt Nam công bố danh sách 10 nhóm công nghệ chiến lược được ưu tiên phát triển, trong đó trí tuệ nhân tạo, bán dẫn và điện toán đám mây đứng đầu kèm lộ trình đầu tư và cơ chế ưu đãi thuế cho doanh nghiệp. Chiến lược này hướng tới mục tiêu nâng Việt Nam từ gia công lắp ráp lên tham gia thiết kế chip và phát triển AI trong chuỗi giá trị toàn cầu vào 2030. Chính phủ sẽ phân bổ ngân sách R&D đặc biệt cho các trường đại học và viện nghiên cứu trong 10 lĩnh vực ưu tiên.",
+      "source": "Vietnam Investment Review",
+      "url": "https://vir.com.vn/vietnam-announces-10-strategic-technology-groups-152062.html",
+      "published": "2026-06-20"
     },
     {
-      "title": "Mistral ra mắt OCR 4: chuyển từ trích xuất văn bản sang đầu ra tài liệu có cấu trúc hoàn chỉnh",
-      "summary": "Mistral AI ngày 23/6/2026 ra mắt OCR 4, nâng cấp từ trích xuất văn bản thuần túy sang tạo đầu ra tài liệu có cấu trúc (bảng, danh sách, định dạng Markdown), nhận diện tốt hơn ký tự đặc biệt và bảng biểu phức tạp. OCR 4 nhắm vào ứng dụng xử lý tài liệu doanh nghiệp, pháp lý và tài chính cần dữ liệu có cấu trúc để nạp vào pipeline AI tiếp theo. Tốc độ và độ chính xác tăng đáng kể so với OCR 3, đặc biệt với tài liệu đa ngôn ngữ.",
-      "source": "Developers Digest",
-      "url": "https://www.developersdigest.tech/blog/best-ai-coding-tools-june-2026-post-fable5",
-      "published": "2026-06-23"
-    },
-    {
-      "title": "Quốc hội Mỹ công bố dự thảo Great American AI Act: cấm bang lập luật AI 3 năm, tạo khung liên bang đầu tiên",
-      "summary": "Ngày 4/6/2026, hai nghị sĩ lưỡng đảng Jay Obernolte và Lori Trahan công bố dự thảo 269 trang Great American Artificial Intelligence Act of 2026 - lần đầu tiên Mỹ đề xuất khung pháp lý AI toàn diện cấp liên bang. Dự thảo tạm ngăn các bang lập luật AI riêng 3 năm, đặt nghĩa vụ an toàn và kiểm toán bắt buộc cho công ty AI doanh thu trên 500 triệu USD đã huấn luyện frontier model. Dự thảo đang trong giai đoạn lấy ý kiến, chưa có hiệu lực pháp lý.",
-      "source": "TechPolicy.Press",
-      "url": "https://www.techpolicy.press/unpacking-the-great-american-artificial-intelligence-act-of-2026/",
-      "published": "2026-06-04"
+      "title": "Việt Nam phê duyệt kế hoạch chuyển đổi số SME 2026-2030: hỗ trợ 100% doanh nghiệp vừa nhỏ có nền tảng số",
+      "summary": "Thủ tướng Việt Nam ký Quyết định 433/QD-TTg phê duyệt kế hoạch tổng thể chuyển đổi số cho doanh nghiệp vừa và nhỏ giai đoạn 2026-2030, mục tiêu 100% SME được tiếp cận nền tảng số vào 2030. Kế hoạch bao gồm hỗ trợ tài chính, đào tạo nhân lực số, và ưu tiên đặc biệt cho SME trong ngành chế biến thực phẩm, du lịch và thương mại điện tử. Các SME đăng ký tham gia được miễn phí 6 tháng đầu sử dụng nền tảng số được chứng nhận.",
+      "source": "Vietnam Briefing",
+      "url": "https://www.vietnam-briefing.com/news/vietnam-accelerates-sme-digital-transformation-with-new-national-plan-for-2026-2030.html",
+      "published": "2026-06-18"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "So sánh chân gà: chân gà nội địa Trung vs chân gà sốt Thái Huế",
-        "desc": "Xu hướng so sánh hai phong cách chế biến chân gà đang cực hot trên TikTok Việt Nam tháng 6/2026: chân gà nội địa Trung (cay ngọt kiểu Tứ Xuyên, doanh số tăng 150% trong 6 tháng) và chân gà sốt Thái. Creator food dùng format thử cùng lúc rồi chấm điểm thu hút triệu view vì khán giả muốn tự chọn phe.",
-        "fit": "@tracuami có thể tận dụng làn sóng này ngay - định vị chân gà sốt Thái như phiên bản Huế không thua kém và thách thức trực tiếp xu hướng chân gà Trung đang hot, kéo nhóm khán giả đang tìm kiếm chân gà ngon về với đặc sản Huế.",
-        "idea": "Clip 20 giây: A Nguyên cầm hai đĩa chân gà - một đĩa style Tứ Xuyên mua ngoài, một đĩa chân gà sốt Thái tracuami. Giọng Huế: 'Răng người ta cứ mê chân gà Trung chứ? Thử chân gà sốt Thái tracuami ni coi!' Cắt sang cảnh Nhớ ăn xong gật đầu: 'Hết ý kiến rồi anh ơi.' Text: 'Chân Gà Sốt Thái tracuami - 1 Trường Chinh Huế - 25k'. Caption: '#changsotThai #hue #tracuami #anvan #doibia'"
+        "name": "#StandBanhMi - xu hướng viral biến ẩm thực đường phố Việt thành điệu nhạc toàn cầu",
+        "desc": "Xu hướng #StandBanhMi lan rộng trên TikTok toàn cầu từ tháng 6/2026, creator nhiều nước biến classic Stand By Me của Ben E. King thành bài ca tôn vinh bánh mì Việt Nam. Video ghi cảnh ăn đồ ăn vặt vỉa hè kết hợp nhạc remix đang mở rộng sang tất cả đặc sản đường phố Việt - tré trộn, chân gà sốt Thái, bún bò Huế - và được chia sẻ mạnh bởi khán giả quốc tế đang tìm kiếm nội dung ẩm thực Việt.",
+        "fit": "@tracuami có thể bắt trend ngay với chân gà sốt Thái hoặc tré trộn Huế - clip đặc sản Huế từ 1 Trường Chinh rất ấn tượng trong làn sóng này khi khách du lịch đang tìm kiếm nội dung ẩm thực Huế, và hashtag kép #StandBanhMi cộng #HueFood giúp tiếp cận khán giả cả trong nước lẫn quốc tế.",
+        "idea": "Clip 20 giây: nền nhạc Stand By Me remix, A Nguyên giơ cao đĩa chân gà sốt Thái đỏ rực lên camera. Text xuất hiện: #StandChânGàSốtThái - tracuami - 1 Trường Chinh Huế. Cắt sang Nhớ ăn ngon lành rồi nhìn vào camera nói nhỏ giọng Huế: Biết ăn ni rứa mà hắn vẫn không chịu dạy công thức cho mi. Caption: #standbanhmi #changsotThai #streetfoodhue #tracuami #hue"
       },
       {
-        "name": "Price reveal sau khi ăn xong - WOW moment về giá rẻ bất ngờ",
-        "desc": "Trend price reveal lan rộng trên TikTok food Việt Nam: creator ăn trước, review thật, rồi mới tiết lộ giá - khán giả bị sốc vì rẻ hơn kỳ vọng nhiều lần. Format đặc biệt hiệu quả với đồ ăn vặt vì tạo wow moment tự nhiên và được chia sẻ nhiều.",
-        "fit": "@tracuami hoàn toàn phù hợp vì chân gà sốt Thái 25k và tré trộn 35k có chất lượng vượt xa giá tiền - price reveal sẽ tạo phản ứng ngạc nhiên thật với khán giả chưa biết, đặc biệt khách du lịch và người trẻ đang so sánh giá đồ ăn vặt.",
-        "idea": "Clip 25 giây: mở đầu cảnh Thư ăn hết đĩa tré trộn Huế, nhận xét 'Ngon thiệt sự, tré này mà mình biết sớm hơn!' Sau đó A Nguyên giơ bảng giá: 'Tré trộn Huế - 35k/đĩa.' Cắt sang biểu cảm ngạc nhiên của Thư. Text lớn: 'Chỉ 35k - tré trộn Huế chuẩn vị - tracuami - 1 Trường Chinh'. Caption: '#pricereveal #tretronhue #hue #tracuami #anvan'"
+        "name": "GRWM ẩm thực - cùng ta chuẩn bị mở quán buổi sáng sớm",
+        "desc": "Trend Get Ready With Me từ beauty content đang được creator ẩm thực Việt biến tấu thành cùng ta chuẩn bị mở quán buổi sáng - ghi lại toàn bộ quá trình dọn dẹp và sơ chế từ 5-6h sáng đến lúc mở cửa. Format thu hút vì vừa chân thật vừa cho thấy sự vất vả và tâm huyết của người làm nghề, tạo kết nối cảm xúc mạnh với khán giả theo dõi lâu dài.",
+        "fit": "@tracuami hoàn toàn phù hợp - buổi sáng chuẩn bị chân gà, tré trộn và nguyên liệu trà trái cây là hậu trường ít quán ăn vặt dám chia sẻ. A Nguyên và vợ chuẩn bị cùng nhau tạo hình ảnh ấm áp, gần gũi, xây dựng loyalty khán giả bền vững hơn clip viral ngắn hạn.",
+        "idea": "Clip 30 giây GRWM: nhạc chill, cảnh 6h sáng A Nguyên và vợ bắt đầu dọn quán ở 1 Trường Chinh. Voice over giọng Huế: Rứa là bắt đầu ngày mới rồi - sơ chế chân gà ni đủ cho hơn trăm đĩa hôm ni. Cảnh tay thoăn thoắt chặt chân gà, đong nguyên liệu sốt Thái, xếp tré vào hộp. Kết thúc: cổng quán mở, ánh nắng chiếu vào, Nhớ đến sớm cười: Sáng ni em học lỏm thêm bước mô rồi hí. Caption: #GRWM #morningroutine #changsotThai #hue #tracuami"
       },
       {
-        "name": "First bite reaction - phản ứng lần đầu ăn thử không cắt dựng",
-        "desc": "Format first bite reaction không cắt ghép đang được TikTok food creator Việt dùng thay cho clip dàn dựng: quay liên tục từ lúc đưa thức ăn vào miệng đến phản ứng thật sau 3-5 giây. Khán giả phân biệt được reaction giả và thật, nên video thật có tỷ lệ giữ chân cao hơn nhiều.",
-        "idea": "Clip 15 giây: Nhớ cầm miếng chân gà sốt Thái, bình luận 'Lần đầu ăn chân gà, hồi trước ngại lắm...' rồi cắn - phản ứng thật sau 3 giây: mắt tròn lên, gật đầu liên tục. Text: 'Lần đầu thử chân gà sốt Thái - tracuami.' Kết thúc cảnh Nhớ lấy thêm miếng nữa. Caption: '#firstbite #changathai #hue #tracuami #anvan #reaction'",
-        "fit": "@tracuami với chân gà sốt Thái và tré trộn là hai món có vị đặc trưng, gây phản ứng cảm xúc thật - đặc biệt với người lần đầu thử. Nhớ với tính cách vui vẻ tự nhiên rất phù hợp với format này."
+        "name": "POV nhân viên - ngày làm việc ở quán ăn vặt qua góc nhìn đệ nhất",
+        "desc": "Format POV từ góc nhìn nhân viên hoặc chủ quán đang hot trên TikTok food Việt - camera cầm tay ghi lại công việc từ góc nhìn người trong cuộc, tạo cảm giác xem phim tài liệu ngắn về nghề. Đặc biệt hiệu quả khi nhân vật có cá tính và tương tác vui vẻ tự nhiên với người xung quanh.",
+        "fit": "Nhớ - nhân vật học lỏm công thức của @tracuami - cực kỳ phù hợp cho format POV: ngày làm việc của Nhớ từ lúc đến quán đến lúc về, xen kẽ những khoảnh khắc âm mưu học lỏm công thức sốt Thái. Format này tạo series nội dung liên tục nhiều clip, mỗi tập Nhớ tiến gần hơn một bước.",
+        "idea": "Clip 30 giây POV góc nhìn Nhớ: voice-over thì thầm Ngày hôm ni mình quyết tâm học được ít nhất một bước làm sốt Thái của anh Nguyên. Camera theo góc nhìn Nhớ - cận cảnh A Nguyên đang đong gia vị, Nhớ cố nhìn nhưng A Nguyên che tay lại. Cuối clip Nhớ nhìn vào camera: Hắn che hết rồi. Kết: cảnh quán đông khách, Nhớ phục vụ tươi cười. Caption: #POV #nhanvien #hue #tracuami #secretrecipe #changsotThai"
       },
       {
-        "name": "Slow reveal đồ uống mùa hè - trà trái cây đẹp mắt từng lớp",
-        "desc": "Trend slow reveal ly trà trái cây tươi với đá, quay từ trên xuống hoặc cận cảnh nguyên liệu xếp từng lớp vào ly, tạo hiệu ứng build-up hấp dẫn trong mùa hè. Format dễ lan truyền vì màu sắc đẹp và kích thích cảm giác thèm uống khi trời nóng.",
-        "fit": "@tracuami bán trà trái cây là lợi thế lớn mùa hè - clip slow reveal ly trà vải hoặc trà dâu đá sẽ thu hút người xem đang nóng bức, không cần nhiều kỹ năng quay phim và dễ tạo nhiều version khác nhau cho từng loại trà.",
-        "idea": "Clip 20 giây slow reveal: quay cận cảnh từng nguyên liệu (trái vải tươi, đá viên, trà xanh, siro vải) rồi xếp từng lớp vào ly trong suốt - kết thúc bằng cảnh rót nước và ly trà hoàn chỉnh rất đẹp. Nhạc chill nhẹ. Text: 'Trà Vải Da - 25k - tracuami - 1 Trường Chinh Huế'. Caption: '#travai #tradonglanh #summer2026 #tracuami #doiuong #hue'"
+        "name": "Phỏng vấn khách đường phố - ăn xong nói thật đi streetfood interview",
+        "desc": "Format phỏng vấn nhanh khách ăn đường phố đang lan rộng: nhân viên quán hỏi khách câu hỏi ngẫu hứng về món ăn và ghi lại phản ứng thật, không kịch bản và không cắt dựng. Đặc biệt viral khi khách là người đến từ nơi khác hoặc lần đầu thử món, vì phản ứng ngạc nhiên thật sự không thể diễn xuất được.",
+        "fit": "@tracuami tại 1 Trường Chinh có lợi thế là điểm gặp nhau của khách du lịch và người địa phương - phỏng vấn khách từ Sài Gòn, Hà Nội hay khách Tây lần đầu ăn tré trộn sẽ tạo nội dung viral tự nhiên với phản ứng đa dạng mà không cần chuẩn bị.",
+        "idea": "Clip 25 giây: Thư cầm mic tự chế phỏng vấn một cặp khách du lịch đang ăn chân gà sốt Thái: Anh chị ơi, chân gà ni khác với chân gà ngoài Bắc mô không ạ? Khách trả lời bất ngờ khen ngon hơn nhiều. Nhớ từ trong bếp thò đầu ra: Thấy chưa, công thức ni học lỏm được mô nghe! Caption: #streetfoodinterview #changsotThai #hue #tracuami #realreaction #huefood"
       }
     ],
     "sounds": [
       {
-        "name": "Nhạc Vinahouse remix tháng 6 2026 - tiết tấu nhanh, bắt tai",
-        "desc": "Các bản remix Vinahouse dẫn đầu TikTok Việt Nam tháng 6/2026 với tiết tấu nhanh, dễ ghép với clip đồ ăn năng động - phù hợp cho clip so sánh món, price reveal hoặc cảnh quán đông khách vui nhộn, giúp người xem ở lại lâu hơn"
+        "name": "Stand By Me remix phiên bản Việt hóa - sound gốc của trend #StandBanhMi",
+        "desc": "Bản remix Stand By Me của Ben E. King được Việt hóa với lời mới về đồ ăn vặt đường phố là sound gốc của trend #StandBanhMi - phù hợp làm nền cho mọi clip giới thiệu đặc sản địa phương theo phong cách tự hào vùng miền và thu hút khán giả quốc tế đang quan tâm ẩm thực Việt"
       },
       {
-        "name": "ASMR tiếng bếp - tiếng sốt sôi, tiếng thái, không lời",
-        "desc": "Âm thanh tự nhiên từ quá trình nấu ăn (sốt sôi, thái chặt, tiếng đá đập) làm nền ASMR không lời đang rất phổ biến với creator ẩm thực Việt - giúp clip bếp thật @tracuami nổi bật mà không cần nhạc, tạo cảm giác người xem đang ngồi ngay tại quán"
+        "name": "Nhạc lo-fi buổi sáng kết hợp tiếng bếp - chill và chân thật",
+        "desc": "Nhạc lo-fi kết hợp âm thanh thiên nhiên và tiếng bếp nấu đang được creator ẩm thực Việt dùng rộng rãi cho clip GRWM buổi sáng và chuẩn bị nguyên liệu - tạo cảm giác yên bình và chân thật, phù hợp với content hậu trường quán nhỏ ở Huế và giúp giữ chân người xem lâu hơn"
       },
       {
-        "name": "Nhạc indie acoustic tiếng Việt - giai điệu chill mùa hè",
-        "desc": "Nhạc indie và acoustic tiếng Việt giai điệu nhẹ nhàng đang được creator food dùng rộng rãi cho clip slow reveal và giới thiệu quán - hoàn hảo cho clip trà trái cây hoặc hậu trường buổi sáng, tạo cảm xúc gắn bó vùng miền đặc biệt với khán giả Huế xa nhà"
+        "name": "Nhạc hip-hop Việt tiết tấu nhanh - năng lượng cho clip POV và phỏng vấn đường phố",
+        "desc": "Các bản hip-hop Việt tiết tấu nhanh đang thịnh hành làm nền cho clip streetfood interview và POV nhân viên quán - tạo năng lượng trẻ trung, phù hợp với nội dung quay nhanh theo phong cách vlog đường phố và nhấn mạnh nhịp điệu bận rộn của quán giờ cao điểm"
       }
     ],
-    "note": "Tuần 26/6/2026: trend so sánh chân gà (Trung vs sốt Thái) là cơ hội lớn nhất tuần này cho @tracuami - nhảy vào đúng lúc xu hướng chân gà nội địa Trung đang hot nhất là chiến thuật thông minh. Price reveal và first bite reaction là hai format tốn ít chi phí nhưng tỷ lệ viral cao nhất hiện tại. Slow reveal đồ uống mùa hè phù hợp thời tiết và có lợi thế màu sắc đẹp. Gợi ý lịch đăng: đầu tuần clip so sánh chân gà (A Nguyên và Nhớ), giữa tuần price reveal tré trộn (A Nguyên và Thư), cuối tuần slow reveal trà vải. Nhạc Vinahouse cho clip vui nhộn, ASMR bếp cho clip hậu trường, indie acoustic cho clip trà."
+    "note": "Tuần 27/6/2026: #StandBanhMi là cơ hội viral lớn nhất tuần này cho @tracuami - trend đang mở rộng từ bánh mì sang toàn bộ đặc sản đường phố Việt, và clip chân gà sốt Thái hoặc tré trộn Huế nền nhạc Stand By Me remix có thể thu hút cả khán giả quốc tế. GRWM buổi sáng sớm là format bền vững xây dựng loyalty tốt hơn clip viral ngắn hạn. POV của Nhớ là series tiềm năng - mỗi tập tiến gần hơn một bước học công thức tạo câu chuyện xuyên suốt nhiều clip giữ người xem quay lại. Gợi ý lịch tuần: đầu tuần clip #StandBanhMi (A Nguyên), giữa tuần GRWM sáng sớm (A Nguyên và vợ), cuối tuần POV Nhớ và phỏng vấn khách. Nhạc Stand By Me remix cho clip trend, lo-fi sáng cho GRWM, hip-hop nhanh cho phỏng vấn."
   }
 }
