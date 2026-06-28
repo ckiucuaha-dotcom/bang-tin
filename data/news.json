@@ -1,218 +1,212 @@
 {
-  "updated_at": "2026-06-27T00:10:00Z",
-  "updated_at_vn": "07:10 27/06/2026",
+  "updated_at": "2026-06-28T00:10:00Z",
+  "updated_at_vn": "07:10 28/06/2026",
   "ai": [
     {
-      "title": "Anthropic ra mắt Claude Tag: @Claude trở thành đồng nghiệp ảo trong Slack của doanh nghiệp",
-      "summary": "Anthropic ngày 23/6/2026 ra mắt Claude Tag ở bản beta cho khách hàng Enterprise và Team, cho phép gắn thẻ @Claude trong bất kỳ kênh Slack nào để giao việc, kết nối công cụ và dữ liệu nội bộ - hoạt động như một nhân viên ảo có nhớ ngữ cảnh xuyên suốt cuộc trò chuyện và xử lý task bất đồng bộ. Tính năng nổi bật gồm cộng tác nhiều người, truy cập dữ liệu doanh nghiệp và hỗ trợ nhiều phiên làm việc song song. Ngay tại Anthropic, 65% code của nhóm sản phẩm hiện được tạo bởi Claude Tag nội bộ.",
-      "why_it_matters": "Nếu team dùng Slack, Claude Tag mở ra khả năng dùng Claude không chỉ qua Claude Code mà còn giao task trực tiếp trong chat nhóm - giảm context switching và có thể dần thay thế các workflow thủ công, đặc biệt hữu ích khi quản lý dự án cá nhân hoặc làm việc nhóm nhỏ.",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/introducing-claude-tag",
-      "published": "2026-06-23",
+      "title": "Mỹ cho phép Anthropic phát hành Claude Mythos 5 cho hơn 100 tổ chức tin cậy",
+      "summary": "Sau lệnh cấm xuất khẩu đầu tháng 6/2026 vì lo ngại an ninh mạng, Bộ trưởng Thương mại Mỹ Howard Lutnick ngày 26/6 ký thư cho phép Anthropic phát hành Claude Mythos 5 - model AI mạnh nhất của họ - tới hơn 100 tổ chức Mỹ được tin cậy gồm các tập đoàn lớn và cơ quan chính phủ. Anthropic xác nhận Mythos 5 sẽ được triển khai lại cho nhóm nhỏ 'cyber defenders và infrastructure providers'. Lưu ý: Claude Fable 5 vẫn chưa được phép phát hành trong đợt này.",
+      "why_it_matters": "Mythos 5 là model mạnh hơn cả Fable 5 đang dùng trong Claude Code - khi Anthropic được phép triển khai rộng hơn, khả năng Mythos 5 xuất hiện trong các sản phẩm developer rất cao, mở ra tiềm năng nâng cấp đáng kể cho workflow lập trình hằng ngày.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/06/27/anthropic-mythos-5-ai-model-us-commerce-department-clearance-fable/",
+      "published": "2026-06-27",
       "hot": true
     },
     {
-      "title": "Nhà khoa học đoạt Nobel AlphaFold John Jumper rời Google DeepMind sang Anthropic",
-      "summary": "John Jumper, người đoạt Nobel Hóa học 2024 nhờ tạo ra AlphaFold - hệ thống AI dự đoán cấu trúc protein đột phá nhất thập kỷ - đã rời Google DeepMind sau gần 9 năm để gia nhập Anthropic (công bố ngày 19-20/6/2026). Jumper là một trong bốn nhà nghiên cứu AlphaFold lớp đầu (cùng Adler, Pritzel, Conmy) đã chuyển về Anthropic trong cùng tuần, đánh dấu làn sóng chảy máu chất xám đáng kể từ DeepMind. Vai trò cụ thể của Jumper tại Anthropic chưa được công bố.",
-      "why_it_matters": "Thâu tóm nhà khoa học AI đỉnh cao từ Google DeepMind củng cố vị thế nghiên cứu của Anthropic - đội ngũ mạnh hơn đồng nghĩa các model Claude tương lai sẽ mạnh hơn và ổn định hơn, tốt cho người dùng Claude Code hằng ngày về dài hạn.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
-      "published": "2026-06-20",
-      "hot": true
+      "title": "GPT-5.6 trễ hạn ra mắt ngày 28/6 - xác suất Polymarket sụp từ 83% xuống 18%",
+      "summary": "Tuần này, xác suất GPT-5.6 ra mắt đầy đủ trước 28/6 trên Polymarket sụp đổ từ 83% xuống còn khoảng 18% khi cả tuần trôi qua không có thông báo chính thức từ OpenAI. Hiện OpenAI chỉ phát hành Sol, Terra và Luna trong bản xem trước giới hạn cho developer và doanh nghiệp, không phải ra mắt đại trà. Dự kiến GPT-5.6 phát hành đầy đủ sẽ dời sang tháng 7/2026.",
+      "why_it_matters": "Claude Code vẫn là lựa chọn mạnh nhất cho agentic coding task - GPT-5.6 chưa ra mắt đầy đủ đồng nghĩa chưa có đối thủ thực sự thách thức Fable 5 trong niche này, người dùng Claude Code có thể yên tâm duy trì workflow hiện tại ít nhất thêm một tháng.",
+      "source": "Build Fast With AI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+      "published": "2026-06-27",
+      "hot": false
     },
     {
-      "title": "OpenAI ra mắt GPT-5.6 với ba tầng Sol, Terra, Luna ngay trước deadline 30/6",
-      "summary": "OpenAI ngày 26/6/2026 ra mắt dòng GPT-5.6 trong preview giới hạn với ba tầng: Sol (nhanh, tiết kiệm), Terra (cân bằng) và Luna (thông minh nhất, dùng cho reasoning phức tạp). Việc ra mắt đúng trước ngày 30/6 xác nhận dự báo thị trường trên Polymarket với xác suất 83% được đề cập trước đó, đồng thời hoàn thiện hệ sinh thái GPT-5 series thay thế hoàn toàn dòng GPT-4 vừa bị khai tử. Các tầng mới nhắm cạnh tranh trực tiếp với Claude Sonnet/Haiku/Opus và Gemini Flash/Pro.",
-      "why_it_matters": "Với ba tầng mới, OpenAI cạnh tranh trực tiếp ở cả giá lẫn hiệu năng với Claude - là dịp tốt để đánh giá lại stack AI hiện tại, xem tầng Luna có vượt Claude trong tác vụ coding hay không để quyết định có bổ sung thêm model vào workflow không.",
-      "source": "AI Tools Recap",
-      "url": "https://aitoolsrecap.com/Blog/ai-news-june-26-2026",
-      "published": "2026-06-26",
-      "hot": true
-    },
-    {
-      "title": "Anthropic cáo buộc Alibaba thực hiện 28,8 triệu trao đổi API gian lận để đánh cắp năng lực Claude",
-      "summary": "Anthropic chính thức cáo buộc Alibaba thực hiện 28,8 triệu trao đổi API gian lận với Claude nhằm trích xuất năng lực model để huấn luyện các mô hình AI của Alibaba - hành vi gọi là model distillation. Đây là lần đầu tiên Anthropic công khai quy mô vụ việc và đệ trình lên Thượng viện Mỹ yêu cầu hành động phối hợp chống các cuộc tấn công distillation từ đối thủ nước ngoài. Sự cố có thể thúc đẩy Anthropic siết chặt điều khoản sử dụng API và tăng cường phát hiện bất thường.",
-      "why_it_matters": "Vụ Alibaba-Anthropic cho thấy API key và usage của bạn có thể bị nhúng vào scheme lớn hơn mà không hay biết - đây là lúc xem lại ai đang dùng chung API key Claude của bạn và kích hoạt usage alerts để phát hiện sớm bất thường.",
-      "source": "AI Tools Recap",
-      "url": "https://aitoolsrecap.com/Blog/ai-news-june-26-2026",
+      "title": "Startup AI dịch chuyển 100% sang DeepSeek: người dùng rời Claude/OpenAI vì chi phí",
+      "summary": "CEO của startup AI Lindy đã chuyển toàn bộ 100% traffic khỏi Claude của Anthropic sang DeepSeek vì lý do chi phí - phản ánh xu hướng lớn hơn khi người dùng doanh nghiệp chuyển từ 'tokenmaxxing' (dùng model mạnh nhất cho mọi tác vụ) sang tối ưu chi phí. Trong khi đó Anthropic đang trên đà đạt lợi nhuận hoạt động đầu tiên khoảng 559 triệu USD trong Q2/2026 với doanh thu annualized 47 tỷ USD, và cả OpenAI lẫn Anthropic đang tiến gần mức định giá 1 nghìn tỷ USD.",
+      "why_it_matters": "Xu hướng tiết kiệm chi phí AI đang thực sự xảy ra trong ngành - đây là lúc đánh giá lại xem tác vụ nào cần Claude Code và tác vụ nào có thể dùng model rẻ hơn như DeepSeek V4-Pro để tối ưu ngân sách AI cá nhân.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
       "published": "2026-06-26",
       "hot": false
     },
     {
-      "title": "DeepSeek V4-Pro giảm giá 75% vĩnh viễn - áp lực định giá lên toàn ngành AI",
-      "summary": "DeepSeek tháng 6/2026 chính thức hóa mức giảm giá 75% cho V4-Pro thành vĩnh viễn, đẩy chi phí API xuống thấp nhất trong các frontier model hiện tại. Động thái này buộc các đối thủ như OpenAI, Anthropic và Google phải xem xét lại chiến lược định giá để giữ thị phần khách hàng nhạy cảm với chi phí. DeepSeek V4-Pro hiện được đánh giá cạnh tranh về chất lượng trên nhiều benchmark trong khi giá thấp hơn Claude Sonnet 5-7 lần.",
-      "why_it_matters": "DeepSeek rẻ hơn đáng kể nhưng Claude Code vẫn tối ưu hơn cho agentic workflow - với dự án không cần agentic features, DeepSeek V4-Pro là lựa chọn tiết kiệm để bổ sung vào workflow cho batch task đơn giản hoặc draft nội dung sơ bộ.",
-      "source": "AI Tools Recap",
-      "url": "https://aitoolsrecap.com/Blog/ai-news-june-26-2026",
+      "title": "OpenAI Codex Remote chính thức phát hành trên tất cả gói ChatGPT",
+      "summary": "OpenAI công bố Codex Remote chính thức phát hành (general availability) trên tất cả gói ChatGPT, cho phép người dùng bắt đầu hoặc tiếp tục công việc lập trình từ điện thoại trên máy tính Mac/Windows từ xa. Tính năng mới nổi bật: xác thực bằng QR pairing an toàn giữa thiết bị iOS/Android và máy tính, plugin mới DigitalOcean giúp Codex tự cấp phát Droplet làm remote workspace. Đây là cách OpenAI cạnh tranh trực tiếp với Claude Code trong phân khúc agentic coding.",
+      "why_it_matters": "Codex Remote GA là tín hiệu rõ ràng OpenAI đang cạnh tranh nghiêm túc với Claude Code trong mảng agentic dev tools - phù hợp theo dõi thêm để đánh giá khi nào nên dùng Codex Remote thay Claude Code cho các tác vụ không cần full agentic workflow.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/work-with-codex-from-anywhere/",
       "published": "2026-06-26",
+      "hot": false
+    },
+    {
+      "title": "Apple tăng giá MacBook và iPad vì AI làm khan hiếm chip DRAM toàn cầu - iPhone sắp đắt hơn",
+      "summary": "Apple tăng giá toàn dòng MacBook và iPad ngày 25/6/2026 sau khi CEO Tim Cook gọi tình huống này là 'lũ trăm năm'. Nguyên nhân: Samsung, SK Hynix và Micron đang chuyển nhà máy sang sản xuất HBM chip AI cho GPU NVIDIA và AMD, khiến DRAM thông thường tăng 130% theo năm (Gartner). Chi phí DRAM cho iPhone 18 Pro dự kiến tăng từ 39 USD lên tới 145 USD mỗi máy theo TechInsights - iPhone cũng sẽ đắt hơn đáng kể.",
+      "why_it_matters": "Giá iPhone sắp tăng mạnh vì khủng hoảng chip DRAM do AI - nếu có kế hoạch nâng cấp thiết bị Apple, tốt hơn nên mua sớm hoặc cân nhắc thiết bị cũ trước khi iPhone 18 ra mắt với mức giá mới cao hơn.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html",
+      "published": "2026-06-25",
       "hot": false
     }
   ],
   "github": {
     "daily": [
       {
-        "repo": "google-labs-code/design.md",
-        "desc": "Đặc tả bản sắc thị giác cho AI coding agent giúp duy trì design system nhất quán xuyên suốt dự án - bứt phá mạnh lên +2.407 sao hôm nay, gần gấp đôi so với hôm qua",
-        "lang": "TypeScript",
-        "stars": 21218,
-        "stars_period": 2407,
-        "url": "https://github.com/google-labs-code/design.md"
-      },
-      {
         "repo": "simplex-chat/simplex-chat",
-        "desc": "Mạng nhắn tin hoàn toàn ẩn danh không cần định danh người dùng, bảo mật theo thiết kế với ứng dụng iOS, Android và máy tính - bất ngờ xuất hiện top daily hôm nay",
+        "desc": "Mạng nhắn tin hoàn toàn ẩn danh không cần định danh người dùng, bảo mật theo thiết kế - bất ngờ dẫn đầu daily hôm nay với +1.469 sao sau các lo ngại bảo mật API tuần qua làm cộng đồng quan tâm đến quyền riêng tư",
         "lang": "Haskell",
-        "stars": 12522,
-        "stars_period": 432,
+        "stars": 13809,
+        "stars_period": 1469,
         "url": "https://github.com/simplex-chat/simplex-chat"
       },
       {
-        "repo": "kunchenguid/no-mistakes",
-        "desc": "Tiện ích git nhỏ gọn với phương châm git push no-mistakes - tự động phát hiện và ngăn các lỗi phổ biến trước khi push code lên remote",
+        "repo": "xbtlin/ai-berkshire",
+        "desc": "Framework nghiên cứu đầu tư giá trị kết hợp Claude Code với phương pháp của bốn nhà đầu tư huyền thoại và phân tích đa agent - mới nổi hôm nay với +685 sao, thu hút cộng đồng nhà đầu tư dùng AI",
+        "lang": "Python",
+        "stars": 4089,
+        "stars_period": 685,
+        "url": "https://github.com/xbtlin/ai-berkshire"
+      },
+      {
+        "repo": "IceWhaleTech/CasaOS",
+        "desc": "Hệ thống Personal Cloud đơn giản, dễ dùng và thanh lịch mã nguồn mở - tăng mạnh +502 sao hôm nay khi cộng đồng tự host tìm kiếm giải pháp thay thế dịch vụ đám mây tập trung",
         "lang": "Go",
-        "stars": 3411,
-        "stars_period": 398,
-        "url": "https://github.com/kunchenguid/no-mistakes"
+        "stars": 35776,
+        "stars_period": 502,
+        "url": "https://github.com/IceWhaleTech/CasaOS"
+      },
+      {
+        "repo": "ripienahr/free-for-dev",
+        "desc": "Danh sách tổng hợp toàn diện các dịch vụ SaaS, PaaS, IaaS có gói miễn phí cho developer - vào top daily với +459 sao, đặc biệt phổ biến với developer muốn tiết kiệm chi phí",
+        "lang": "HTML",
+        "stars": 124162,
+        "stars_period": 459,
+        "url": "https://github.com/ripienahr/free-for-dev"
       },
       {
         "repo": "commaai/openpilot",
-        "desc": "Hệ điều hành robot cho hỗ trợ lái xe tự động trên hơn 300 mẫu xe, mã nguồn mở từ comma.ai - đang được cộng đồng ô tô điện quan tâm trở lại",
+        "desc": "Hệ điều hành robot cho hỗ trợ lái xe tự động trên hơn 300 mẫu xe mã nguồn mở từ comma.ai - tiếp tục duy trì trong top daily với +322 sao",
         "lang": "Python",
-        "stars": 61773,
-        "stars_period": 80,
+        "stars": 62064,
+        "stars_period": 322,
         "url": "https://github.com/commaai/openpilot"
-      },
-      {
-        "repo": "grafana/grafana",
-        "desc": "Nền tảng quan sát dữ liệu và tạo dashboard mã nguồn mở hỗ trợ hàng chục nguồn dữ liệu - xuất hiện trong daily trending sau đợt cập nhật tính năng AI mới",
-        "lang": "TypeScript",
-        "stars": 74887,
-        "stars_period": 32,
-        "url": "https://github.com/grafana/grafana"
       }
     ],
     "weekly": [
       {
         "repo": "calesthio/OpenMontage",
-        "desc": "Hệ thống sản xuất video agentic mã nguồn mở đầu tiên với 12 pipeline và 500+ kỹ năng agent - dẫn đầu weekly tuần thứ ba liên tiếp với +17.249 sao",
+        "desc": "Hệ thống sản xuất video agentic mã nguồn mở đầu tiên với 12 pipeline và 500+ kỹ năng agent - tiếp tục dẫn đầu weekly với +18.000 sao tuần này",
         "lang": "Python",
-        "stars": 23587,
-        "stars_period": 17249,
+        "stars": 25231,
+        "stars_period": 18000,
         "url": "https://github.com/calesthio/OpenMontage"
       },
       {
         "repo": "DeusData/codebase-memory-mcp",
-        "desc": "MCP server lập chỉ mục codebase thành knowledge graph bền vững hỗ trợ 158 ngôn ngữ, truy vấn millisecond - giữ vững top 2 weekly với +7.592 sao",
+        "desc": "MCP server lập chỉ mục codebase thành knowledge graph bền vững hỗ trợ 158 ngôn ngữ, truy vấn millisecond - giữ vững top 2 weekly với +7.674 sao tuần này",
         "lang": "C",
-        "stars": 15616,
-        "stars_period": 7592,
+        "stars": 17626,
+        "stars_period": 7674,
         "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
-        "repo": "Panniantong/Agent-Reach",
-        "desc": "Cung cấp cho AI agent khả năng đọc và tìm kiếm xuyên suốt Twitter, Reddit, YouTube, GitHub, Bilibili và XiaoHongShu - nổi lên top 3 weekly với +7.199 sao",
-        "lang": "Python",
-        "stars": 42319,
-        "stars_period": 7199,
-        "url": "https://github.com/Panniantong/Agent-Reach"
-      },
-      {
         "repo": "ZhuLinsen/daily_stock_analysis",
-        "desc": "Hệ thống phân tích cổ phiếu đa thị trường dùng LLM với tin tức thời gian thực và thông báo tự động - thu hút cộng đồng nhà đầu tư AI với +6.919 sao tuần này",
+        "desc": "Hệ thống phân tích cổ phiếu đa thị trường dùng LLM với tin tức thời gian thực và thông báo tự động - top 3 weekly với +7.137 sao, phản ánh sức hút AI cho đầu tư cá nhân",
         "lang": "Python",
-        "stars": 50104,
-        "stars_period": 6919,
+        "stars": 50529,
+        "stars_period": 7137,
         "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
       },
       {
+        "repo": "google-labs-code/design.md",
+        "desc": "Đặc tả bản sắc thị giác cho AI coding agent giúp duy trì design system nhất quán xuyên suốt dự án - bứt phá vào top 4 weekly sau đợt trending mạnh với +6.014 sao tuần này",
+        "lang": "TypeScript",
+        "stars": 22317,
+        "stars_period": 6014,
+        "url": "https://github.com/google-labs-code/design.md"
+      },
+      {
         "repo": "penpot/penpot",
-        "desc": "Công cụ thiết kế và prototyping mã nguồn mở thay thế Figma với cộng tác nhóm - tiếp tục top 5 weekly với +3.560 sao",
+        "desc": "Công cụ thiết kế và prototyping mã nguồn mở thay thế Figma với cộng tác nhóm - duy trì top 5 weekly với +3.343 sao tuần này",
         "lang": "Clojure",
-        "stars": 53957,
-        "stars_period": 3560,
+        "stars": 54197,
+        "stars_period": 3343,
         "url": "https://github.com/penpot/penpot"
       }
     ],
-    "trend_note": "Ngày 27/6: google-labs-code/design.md (+2.407) bứt phá mạnh lên đầu bảng daily, gần gấp đôi hôm qua - sức hút tích lũy khi cộng đồng dev hiểu sâu hơn về ứng dụng cho AI agent. Mới đáng chú ý: simplex-chat/simplex-chat (+432) nổi lên sau các vụ tấn công API gần đây làm người dùng lo ngại quyền riêng tư; kunchenguid/no-mistakes (+398) - tool nhỏ giải quyết đau đầu to là push nhầm. Weekly: OpenMontage vẫn áp đảo (+17.249); Panniantong/Agent-Reach (+7.199) vào top 3 - xu hướng AI agent cần đọc dữ liệu đa nguồn mạng xã hội đang rất hot; ZhuLinsen/daily_stock_analysis (+6.919) phản ánh sự quan tâm tới AI cho phân tích đầu tư ngày càng tăng."
+    "trend_note": "Ngày 28/6: simplex-chat/simplex-chat (+1.469) bất ngờ nhảy lên đầu bảng daily sau các lo ngại bảo mật API tuần qua - người dùng tìm kiếm hạ tầng nhắn tin riêng tư hơn. Mới nổi đáng chú ý: xbtlin/ai-berkshire (+685) - AI kết hợp phân tích đầu tư kiểu Berkshire đang thu hút cộng đồng nhà đầu tư. IceWhaleTech/CasaOS (+502) phản ánh xu hướng self-hosting khi người dùng muốn kiểm soát dữ liệu. Weekly: OpenMontage vẫn áp đảo (+18.000 tuần này, tổng 25.231 sao); google-labs-code/design.md bứt vào top 4 weekly sau đợt viral daily - cộng đồng dev đang nghiêm túc tích hợp visual identity vào AI coding workflow. ZhuLinsen/daily_stock_analysis (+7.137 tuần này) tiếp tục thu hút nhà đầu tư dùng AI phân tích thị trường chứng khoán."
   },
   "tech": [
     {
-      "title": "Apple WWDC 2026: Siri được cải tổ toàn diện với AI đa bước, hiểu ngữ cảnh xuyên ứng dụng",
-      "summary": "Tại WWDC 2026 ngày 9/6/2026, Apple công bố Siri thế hệ mới với khả năng hiểu ngữ cảnh đa bước và thực hiện tác vụ xuyên nhiều ứng dụng, tương tự ChatGPT nhưng tích hợp sâu vào hệ sinh thái Apple. Tính năng mới gồm quản lý tab Safari bằng giọng nói, cập nhật mật khẩu một chạm, gợi ý trả lời thông minh trong Messages và cross-app context awareness trên iOS 27. Apple Intelligence cũng được nâng cấp với tóm tắt và viết lại văn bản tốt hơn đáng kể so với phiên bản trước.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
-      "published": "2026-06-09"
+      "title": "Google DeepMind mất 4 nhà khoa học hàng đầu chỉ trong 6 ngày: Noam Shazeer sang OpenAI, 3 người sang Anthropic",
+      "summary": "Làn sóng chảy máu chất xám chưa từng có tại Google DeepMind: Noam Shazeer - đồng tác giả bài báo Transformer 'Attention Is All You Need' và đồng lãnh đạo Gemini - sang OpenAI ngày 18/6; John Jumper (Nobel Hóa học 2024, AlphaFold) sang Anthropic ngày 20/6; Jonas Adler (trưởng AI coding của Gemini) và Alexander Pritzel (chuyên gia pretraining AlphaFold) cùng sang Anthropic ngày 24/6. Chỉ trong 6 ngày, DeepMind mất tứ trụ nghiên cứu hàng đầu về hai đối thủ chính.",
+      "source": "Build Fast With AI",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+      "published": "2026-06-27"
     },
     {
-      "title": "Oracle cắt giảm 21.000 nhân sự - làn sóng sa thải lớn nhất ngành tech 2026 do AI thay thế",
-      "summary": "Oracle công bố cắt giảm khoảng 21.000 nhân viên, tương đương 13% lực lượng lao động, trong đợt cơ cấu quy mô nhất từ trước đến nay và trực tiếp liên kết quyết định này với việc triển khai AI thay thế các vai trò quy trình và phân tích. Đây là vụ sa thải đơn lẻ lớn nhất ngành công nghệ toàn cầu tính đến tháng 6/2026, vượt qua các đợt cắt giảm trước đó của Meta và Salesforce. Oracle tái tập trung nguồn lực vào phát triển Oracle Cloud Infrastructure và hệ thống AI doanh nghiệp.",
-      "source": "Tech Startups",
-      "url": "https://techstartups.com/2026/06/25/top-tech-news-today-june-25-2026/",
+      "title": "Apple tăng giá MacBook và iPad: CEO Tim Cook gọi cuộc khủng hoảng chip nhớ là 'lũ trăm năm'",
+      "summary": "Apple tăng giá toàn dòng MacBook và iPad ngày 25/6/2026 vì chi phí DRAM tăng 130% theo năm do ngành AI đang vét hết chip nhớ để xây data center. Gartner dự báo giá DRAM tiếp tục tăng ít nhất đến hết 2026. Tim Cook cảnh báo công ty không thể tiếp tục che chắn khách hàng khỏi mức tăng giá này - iPhone cũng sẽ đắt hơn trong chu kỳ tiếp theo.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/25/apple-macbook-ipad-price-hike-memory.html",
       "published": "2026-06-25"
     },
     {
-      "title": "SK Hynix huy động 29,4 tỷ USD để mở rộng sản xuất chip HBM4 phục vụ bùng nổ AI",
-      "summary": "SK Hynix thông báo kế hoạch huy động 29,4 tỷ USD vốn đầu tư nhằm mở rộng năng lực sản xuất chip nhớ HBM4 - loại chip thiết yếu cho GPU AI của NVIDIA và AMD. Động thái này phản ánh dự báo nhu cầu chip AI tiếp tục tăng trưởng mạnh đến 2028, và SK Hynix muốn củng cố vị thế dẫn đầu thị trường HBM trước Samsung. Việt Nam có thể hưởng lợi gián tiếp khi SK Hynix đang mở rộng cơ sở sản xuất tại Việt Nam trong giai đoạn này.",
-      "source": "Tech Startups",
-      "url": "https://techstartups.com/2026/06/25/top-tech-news-today-june-25-2026/",
-      "published": "2026-06-25"
+      "title": "Việt Nam ban hành tiêu chuẩn an ninh mạng đầu tiên cho camera IP, có hiệu lực từ 1/7/2026",
+      "summary": "Việt Nam chính thức ban hành bộ tiêu chuẩn an ninh mạng đầu tiên dành riêng cho camera IP - thiết bị phổ biến trong hộ gia đình, quán ăn và doanh nghiệp nhỏ nhưng thường là điểm yếu bảo mật dễ bị xâm nhập. Tiêu chuẩn có hiệu lực từ 1/7/2026, yêu cầu nhà sản xuất và nhà phân phối phải đảm bảo thiết bị đạt mức bảo mật tối thiểu trước khi bán ra thị trường Việt Nam.",
+      "source": "VnExpress",
+      "url": "https://vnexpress.net/khoa-hoc-cong-nghe",
+      "published": "2026-06-27"
     },
     {
-      "title": "Việt Nam công bố 10 nhóm công nghệ chiến lược: AI, bán dẫn, điện toán đám mây dẫn đầu ưu tiên",
-      "summary": "Bộ Khoa học và Công nghệ Việt Nam công bố danh sách 10 nhóm công nghệ chiến lược được ưu tiên phát triển, trong đó trí tuệ nhân tạo, bán dẫn và điện toán đám mây đứng đầu kèm lộ trình đầu tư và cơ chế ưu đãi thuế cho doanh nghiệp. Chiến lược này hướng tới mục tiêu nâng Việt Nam từ gia công lắp ráp lên tham gia thiết kế chip và phát triển AI trong chuỗi giá trị toàn cầu vào 2030. Chính phủ sẽ phân bổ ngân sách R&D đặc biệt cho các trường đại học và viện nghiên cứu trong 10 lĩnh vực ưu tiên.",
-      "source": "Vietnam Investment Review",
-      "url": "https://vir.com.vn/vietnam-announces-10-strategic-technology-groups-152062.html",
-      "published": "2026-06-20"
+      "title": "Vietnam Tech Summit 2026 tại Silicon Valley: quy tụ lãnh đạo AI và nhân tài công nghệ Việt Nam",
+      "summary": "Vietnam Tech Summit 2026 sẽ diễn ra ngày 7-8/8/2026 tại Computer History Museum ở Mountain View, California với chủ đề 'Build Your Edge in the AI Era'. Sự kiện thu hút lãnh đạo các công ty AI hàng đầu, nhà đầu tư và cộng đồng công nghệ Việt Nam toàn cầu - quy mô tăng gần 9 lần từ khoảng 100 lên hơn 900 người tham dự trong vòng 3 năm gần đây.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/vietnam-tech-summit-2026-bring-012000802.html",
+      "published": "2026-06-26"
     },
     {
-      "title": "Việt Nam phê duyệt kế hoạch chuyển đổi số SME 2026-2030: hỗ trợ 100% doanh nghiệp vừa nhỏ có nền tảng số",
-      "summary": "Thủ tướng Việt Nam ký Quyết định 433/QD-TTg phê duyệt kế hoạch tổng thể chuyển đổi số cho doanh nghiệp vừa và nhỏ giai đoạn 2026-2030, mục tiêu 100% SME được tiếp cận nền tảng số vào 2030. Kế hoạch bao gồm hỗ trợ tài chính, đào tạo nhân lực số, và ưu tiên đặc biệt cho SME trong ngành chế biến thực phẩm, du lịch và thương mại điện tử. Các SME đăng ký tham gia được miễn phí 6 tháng đầu sử dụng nền tảng số được chứng nhận.",
-      "source": "Vietnam Briefing",
-      "url": "https://www.vietnam-briefing.com/news/vietnam-accelerates-sme-digital-transformation-with-new-national-plan-for-2026-2030.html",
-      "published": "2026-06-18"
+      "title": "OpenAI khai tử GPT-4.5, ra mắt ChatGPT Business với model picker đơn giản hơn",
+      "summary": "OpenAI ngày 26/6/2026 chính thức khai tử GPT-4.5 khỏi tất cả gói ChatGPT kể cả Custom GPTs, người dùng tự động chuyển sang GPT-5.5. Đồng thời ChatGPT Business ra mắt giao diện chọn model mới đơn giản hơn với hai trục chính là tốc độ và mức reasoning effort, loại bỏ tùy chọn 'Thinking Light' và thêm các tầng mới giúp người dùng không chuyên dễ chọn model phù hợp.",
+      "source": "OpenAI",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "published": "2026-06-26"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "#StandBanhMi - xu hướng viral biến ẩm thực đường phố Việt thành điệu nhạc toàn cầu",
-        "desc": "Xu hướng #StandBanhMi lan rộng trên TikTok toàn cầu từ tháng 6/2026, creator nhiều nước biến classic Stand By Me của Ben E. King thành bài ca tôn vinh bánh mì Việt Nam. Video ghi cảnh ăn đồ ăn vặt vỉa hè kết hợp nhạc remix đang mở rộng sang tất cả đặc sản đường phố Việt - tré trộn, chân gà sốt Thái, bún bò Huế - và được chia sẻ mạnh bởi khán giả quốc tế đang tìm kiếm nội dung ẩm thực Việt.",
-        "fit": "@tracuami có thể bắt trend ngay với chân gà sốt Thái hoặc tré trộn Huế - clip đặc sản Huế từ 1 Trường Chinh rất ấn tượng trong làn sóng này khi khách du lịch đang tìm kiếm nội dung ẩm thực Huế, và hashtag kép #StandBanhMi cộng #HueFood giúp tiếp cận khán giả cả trong nước lẫn quốc tế.",
-        "idea": "Clip 20 giây: nền nhạc Stand By Me remix, A Nguyên giơ cao đĩa chân gà sốt Thái đỏ rực lên camera. Text xuất hiện: #StandChânGàSốtThái - tracuami - 1 Trường Chinh Huế. Cắt sang Nhớ ăn ngon lành rồi nhìn vào camera nói nhỏ giọng Huế: Biết ăn ni rứa mà hắn vẫn không chịu dạy công thức cho mi. Caption: #standbanhmi #changsotThai #streetfoodhue #tracuami #hue"
+        "name": "Companion Content - 'Làm Cùng Mình Đi' - ở lại với creator khi họ làm việc",
+        "desc": "Xu hướng lớn nhất TikTok 2026: người dùng không muốn xem clip ngắn nữa mà muốn 'ở cùng' creator - xem họ nấu nướng, mở quán, chuẩn bị nguyên liệu một cách thật và thoải mái như đang ngồi bên cạnh. Format này giữ view time dài hơn gấp đôi clip thông thường vì người xem cảm thấy kết nối thật sự với creator, rất mạnh trong niche ẩm thực.",
+        "fit": "A Nguyên mở quán ăn vặt ở Huế với hàng chục đơn mỗi ngày là nhân vật hoàn hảo cho format này - clip 'ở lại với anh Nguyên trong một buổi chiều bận bịu ở 1 Trường Chinh' sẽ kéo người xem gắn bó lâu dài hơn và xây dựng loyal fanbase cho @tracuami.",
+        "idea": "Clip 45-60 giây góc quay cố định nhìn từ bên: A Nguyên cặm cụi làm việc, tiếng sốt Thái xèo xèo, Nhớ qua lại phục vụ khách. Voice-over thư thái giọng Huế: 'Chiều ni quán đông rứa - mình cứ làm cùng nhau hí.' Không nhìn camera, không diễn, chỉ làm thật. Kết: màn hình tối, chữ 'hẹn gặp chiều mai'. Caption: #lammcungminhddi #companionvlog #changsotthai #tracuami #hue"
       },
       {
-        "name": "GRWM ẩm thực - cùng ta chuẩn bị mở quán buổi sáng sớm",
-        "desc": "Trend Get Ready With Me từ beauty content đang được creator ẩm thực Việt biến tấu thành cùng ta chuẩn bị mở quán buổi sáng - ghi lại toàn bộ quá trình dọn dẹp và sơ chế từ 5-6h sáng đến lúc mở cửa. Format thu hút vì vừa chân thật vừa cho thấy sự vất vả và tâm huyết của người làm nghề, tạo kết nối cảm xúc mạnh với khán giả theo dõi lâu dài.",
-        "fit": "@tracuami hoàn toàn phù hợp - buổi sáng chuẩn bị chân gà, tré trộn và nguyên liệu trà trái cây là hậu trường ít quán ăn vặt dám chia sẻ. A Nguyên và vợ chuẩn bị cùng nhau tạo hình ảnh ấm áp, gần gũi, xây dựng loyalty khán giả bền vững hơn clip viral ngắn hạn.",
-        "idea": "Clip 30 giây GRWM: nhạc chill, cảnh 6h sáng A Nguyên và vợ bắt đầu dọn quán ở 1 Trường Chinh. Voice over giọng Huế: Rứa là bắt đầu ngày mới rồi - sơ chế chân gà ni đủ cho hơn trăm đĩa hôm ni. Cảnh tay thoăn thoắt chặt chân gà, đong nguyên liệu sốt Thái, xếp tré vào hộp. Kết thúc: cổng quán mở, ánh nắng chiếu vào, Nhớ đến sớm cười: Sáng ni em học lỏm thêm bước mô rồi hí. Caption: #GRWM #morningroutine #changsotThai #hue #tracuami"
+        "name": "Người nước ngoài lần đầu thử đặc sản Huế - phản ứng thật viral",
+        "desc": "Sau hiện tượng người Tây review 50 món ăn Việt Nam viral triệu view, trend để khách nước ngoài thử đặc sản địa phương đang lan rộng - đặc biệt mạnh với những món 'lạ' như tré trộn, chân gà sốt Thái, bún mắm. Phản ứng thật của người nước ngoài tạo ra nội dung không thể diễn xuất, viral tự nhiên và thu hút cả khán giả trong lẫn ngoài nước.",
+        "fit": "Tré trộn Huế là món rất 'lạ' với người Tây và cả người miền Nam - @tracuami tại 1 Trường Chinh nằm đúng trong khu du lịch Huế, hoàn toàn có thể bắt được khách nước ngoài ghé thử. Chân gà sốt Thái màu đỏ rực cũng thu hút vì lạ mắt và ấn tượng thị giác.",
+        "idea": "Clip 25 giây: Thư mời một cặp khách Tây ngồi xuống thử tré trộn Huế. Không cần giải thích trước, chỉ để họ ăn và quay phản ứng thật. Cắt nhanh sang Nhớ từ bếp thò đầu ra thì thầm giọng Huế: 'Hắn ăn ni mà không biết là gì - mà mặt vui lắm!' Caption: #huefood #foreignertries #tretronnhue #tracuami #streetfoodhue"
       },
       {
-        "name": "POV nhân viên - ngày làm việc ở quán ăn vặt qua góc nhìn đệ nhất",
-        "desc": "Format POV từ góc nhìn nhân viên hoặc chủ quán đang hot trên TikTok food Việt - camera cầm tay ghi lại công việc từ góc nhìn người trong cuộc, tạo cảm giác xem phim tài liệu ngắn về nghề. Đặc biệt hiệu quả khi nhân vật có cá tính và tương tác vui vẻ tự nhiên với người xung quanh.",
-        "fit": "Nhớ - nhân vật học lỏm công thức của @tracuami - cực kỳ phù hợp cho format POV: ngày làm việc của Nhớ từ lúc đến quán đến lúc về, xen kẽ những khoảnh khắc âm mưu học lỏm công thức sốt Thái. Format này tạo series nội dung liên tục nhiều clip, mỗi tập Nhớ tiến gần hơn một bước.",
-        "idea": "Clip 30 giây POV góc nhìn Nhớ: voice-over thì thầm Ngày hôm ni mình quyết tâm học được ít nhất một bước làm sốt Thái của anh Nguyên. Camera theo góc nhìn Nhớ - cận cảnh A Nguyên đang đong gia vị, Nhớ cố nhìn nhưng A Nguyên che tay lại. Cuối clip Nhớ nhìn vào camera: Hắn che hết rồi. Kết: cảnh quán đông khách, Nhớ phục vụ tươi cười. Caption: #POV #nhanvien #hue #tracuami #secretrecipe #changsotThai"
-      },
-      {
-        "name": "Phỏng vấn khách đường phố - ăn xong nói thật đi streetfood interview",
-        "desc": "Format phỏng vấn nhanh khách ăn đường phố đang lan rộng: nhân viên quán hỏi khách câu hỏi ngẫu hứng về món ăn và ghi lại phản ứng thật, không kịch bản và không cắt dựng. Đặc biệt viral khi khách là người đến từ nơi khác hoặc lần đầu thử món, vì phản ứng ngạc nhiên thật sự không thể diễn xuất được.",
-        "fit": "@tracuami tại 1 Trường Chinh có lợi thế là điểm gặp nhau của khách du lịch và người địa phương - phỏng vấn khách từ Sài Gòn, Hà Nội hay khách Tây lần đầu ăn tré trộn sẽ tạo nội dung viral tự nhiên với phản ứng đa dạng mà không cần chuẩn bị.",
-        "idea": "Clip 25 giây: Thư cầm mic tự chế phỏng vấn một cặp khách du lịch đang ăn chân gà sốt Thái: Anh chị ơi, chân gà ni khác với chân gà ngoài Bắc mô không ạ? Khách trả lời bất ngờ khen ngon hơn nhiều. Nhớ từ trong bếp thò đầu ra: Thấy chưa, công thức ni học lỏm được mô nghe! Caption: #streetfoodinterview #changsotThai #hue #tracuami #realreaction #huefood"
+        "name": "Bí quyết 'lỡ tay lộ' - tease công thức bí mật vô tình",
+        "desc": "Trend mới trên TikTok food Việt: creator 'vô tình' để lộ một bước nhỏ trong công thức bí mật nhưng ngay lập tức che lại hoặc bị người khác ngăn - tạo sự tò mò khiến người xem bình luận hỏi thêm và quay lại. Format này khác với POV nhân viên học lỏm ở chỗ: lần này là chủ quán chủ động 'lỡ tay' một bước nhỏ của công thức.",
+        "fit": "A Nguyên vô tình hướng camera vào một nguyên liệu bí mật của sốt Thái nhưng bị vợ hoặc Nhớ che lại - tạo kịch tính tự nhiên và khiến người xem tò mò về phần công thức còn lại. Tăng tương tác bình luận tự nhiên mà không cần gian lận.",
+        "idea": "Clip 20 giây: A Nguyên đang pha sốt Thái, vô tình hướng camera vào lọ gia vị đặc biệt rồi bị vợ kéo tay ra, giọng Huế nhẹ: 'Ơ, thôi thôi không quay tới đó.' A Nguyên cười: 'Thôi mình chỉ lộ được rứa thôi hí.' Vài giây cuối: đĩa chân gà sốt Thái đỏ rực hoàn chỉnh. Caption: #biquyetbep #changsotthai #tracuami #hue #secretrecipe"
       }
     ],
     "sounds": [
       {
-        "name": "Stand By Me remix phiên bản Việt hóa - sound gốc của trend #StandBanhMi",
-        "desc": "Bản remix Stand By Me của Ben E. King được Việt hóa với lời mới về đồ ăn vặt đường phố là sound gốc của trend #StandBanhMi - phù hợp làm nền cho mọi clip giới thiệu đặc sản địa phương theo phong cách tự hào vùng miền và thu hút khán giả quốc tế đang quan tâm ẩm thực Việt"
+        "name": "Nhạc bolero cổ điển remix hiện đại - xu hướng hồi cổ nhạc Việt trên TikTok 2026",
+        "desc": "Bolero Việt Nam phối lại với beat hiện đại đang trending mạnh trên TikTok food Việt 2026 - đặc biệt phù hợp với content ẩm thực truyền thống, quán ăn có hồn quê và đặc sản vùng miền. Giọng ca bolero nhẹ nhàng kết hợp beat chậm tạo cảm giác ấm áp hoài niệm, giữ người xem ở lại lâu hơn với clip Companion Content kiểu vlog quán nhỏ"
       },
       {
-        "name": "Nhạc lo-fi buổi sáng kết hợp tiếng bếp - chill và chân thật",
-        "desc": "Nhạc lo-fi kết hợp âm thanh thiên nhiên và tiếng bếp nấu đang được creator ẩm thực Việt dùng rộng rãi cho clip GRWM buổi sáng và chuẩn bị nguyên liệu - tạo cảm giác yên bình và chân thật, phù hợp với content hậu trường quán nhỏ ở Huế và giúp giữ chân người xem lâu hơn"
+        "name": "ASMR bếp Việt - tiếng xèo mỡ, tiếng chặt, tiếng sốt sôi tự nhiên",
+        "desc": "Sound ASMR ghi lại tiếng động tự nhiên trong bếp như tiếng dầu xèo, tiếng chặt chân gà, tiếng sốt Thái sôi đang được creator ẩm thực dùng làm nền cho Companion Content và clip chuẩn bị - không cần nhạc, tiếng bếp thật tạo cảm giác hiện diện rất mạnh và phù hợp với format vlog chân thật không diễn"
       },
       {
-        "name": "Nhạc hip-hop Việt tiết tấu nhanh - năng lượng cho clip POV và phỏng vấn đường phố",
-        "desc": "Các bản hip-hop Việt tiết tấu nhanh đang thịnh hành làm nền cho clip streetfood interview và POV nhân viên quán - tạo năng lượng trẻ trung, phù hợp với nội dung quay nhanh theo phong cách vlog đường phố và nhấn mạnh nhịp điệu bận rộn của quán giờ cao điểm"
+        "name": "Nhạc indie Việt nhẹ nhàng tiết tấu chậm - trending tuần cuối tháng 6",
+        "desc": "Các bản indie Việt Nam tiết tấu chậm-vừa đang trending trên TikTok tuần này, đặc biệt phù hợp với content cảm xúc như câu chuyện gia đình nhỏ, tình cảm vợ chồng trong quán hay khoảnh khắc A Nguyên và vợ làm việc cùng nhau - tạo điểm nhấn cảm xúc cho clip không cần nhiều lời thoại"
       }
     ],
-    "note": "Tuần 27/6/2026: #StandBanhMi là cơ hội viral lớn nhất tuần này cho @tracuami - trend đang mở rộng từ bánh mì sang toàn bộ đặc sản đường phố Việt, và clip chân gà sốt Thái hoặc tré trộn Huế nền nhạc Stand By Me remix có thể thu hút cả khán giả quốc tế. GRWM buổi sáng sớm là format bền vững xây dựng loyalty tốt hơn clip viral ngắn hạn. POV của Nhớ là series tiềm năng - mỗi tập tiến gần hơn một bước học công thức tạo câu chuyện xuyên suốt nhiều clip giữ người xem quay lại. Gợi ý lịch tuần: đầu tuần clip #StandBanhMi (A Nguyên), giữa tuần GRWM sáng sớm (A Nguyên và vợ), cuối tuần POV Nhớ và phỏng vấn khách. Nhạc Stand By Me remix cho clip trend, lo-fi sáng cho GRWM, hip-hop nhanh cho phỏng vấn."
+    "note": "Tuần 28/6/2026: Companion Content 'Làm cùng mình đi' là xu hướng lớn nhất trên TikTok food Việt hiện nay - người dùng muốn ở lại với creator, không chỉ xem clip ngắn. @tracuami có đủ yếu tố làm format này thành công: quán bận rộn thật, nhân vật có cá tính (A Nguyên, Nhớ, Thư), không gian có hồn ở Huế. Gợi ý lịch tuần: đầu tuần Companion vlog chiều bận bịu (A Nguyên nấu sốt Thái), giữa tuần cho khách Tây thử tré trộn Huế (Thư mời khách), cuối tuần A Nguyên 'lỡ tay' lộ bí quyết sốt Thái. Nhạc: bolero remix cho Companion vlog tạo cảm giác hoài niệm, ASMR bếp cho clip chuẩn bị sáng sớm, indie Việt cho clip cặp đôi A Nguyên và vợ."
   }
 }
