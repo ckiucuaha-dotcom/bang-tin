@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-29T08:37:00Z",
-  "updated_at_vn": "15:37 29/06/2026",
+  "updated_at": "2026-06-29T09:03:46Z",
+  "updated_at_vn": "16:03 29/06/2026",
   "session_date": "2026-06-29",
   "data_quality": "live",
   "vnindex": {
-    "close": 1856.75,
-    "change": -15.16,
-    "change_pct": -0.81,
+    "close": 1854.97,
+    "change": -16.94,
+    "change_pct": -0.9,
     "note": "Phiên 29/6 VN-Index giảm 15,16 điểm (-0,81%) đóng cửa tại 1.856,75 điểm; thị trường chịu áp lực từ làn sóng bán tháo cổ phiếu công nghệ toàn cầu và giá dầu lao dốc; thanh khoản vẫn ở mức thấp dưới mức trung bình 20 tuần; khối ngoại thu hẹp đà bán so với tuần trước nhưng chưa đảo chiều rõ ràng."
   },
   "holdings": [
@@ -28,11 +28,11 @@
       "ticker": "SSB",
       "qty": 2892,
       "avg_cost": 13990,
-      "price": 16100.0,
-      "change_pct": 0.0,
-      "value": 46561200.0,
-      "pnl": 6102120.0,
-      "pnl_pct": 15.08,
+      "price": 16150.0,
+      "change_pct": 0.31,
+      "value": 46705800.0,
+      "pnl": 6246720.0,
+      "pnl_pct": 15.44,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
@@ -41,27 +41,27 @@
   ],
   "totals": {
     "cost": 104488080.0,
-    "value": 95841200.0,
-    "pnl": -8646880.0,
-    "pnl_pct": -8.28
+    "value": 95985800.0,
+    "pnl": -8502280.0,
+    "pnl_pct": -8.14
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 22750.0,
-      "change_pct": 0.66,
+      "price": 22900.0,
+      "change_pct": 1.33,
       "comment": "ACB 22.750 (+0,66%); ngân hàng phục hồi nhẹ ngay cả khi thị trường chung giảm - tín hiệu tương đối tích cực; tiếp tục theo dõi thêm tác động từ chính sách tín dụng bất động sản trước khi quyết định vào hàng."
     },
     {
       "ticker": "HPG",
-      "price": 23550.0,
-      "change_pct": 0.21,
+      "price": 23650.0,
+      "change_pct": 0.64,
       "comment": "HPG 23.550 (+0,21%); phục hồi nhẹ, giá dầu lao dốc hôm nay có thể giảm chi phí đầu vào ngành thép về sau; chưa đủ tín hiệu xác nhận xu hướng tăng bền vững, tiếp tục theo dõi thêm vài phiên."
     },
     {
       "ticker": "MBB",
-      "price": 25150.0,
-      "change_pct": 1.62,
+      "price": 25100.0,
+      "change_pct": 1.41,
       "comment": "MBB 25.150 (+1,62%); tăng mạnh nhất trong danh sách theo dõi phiên này, ngành ngân hàng đang có diễn biến riêng tích cực; quan sát thêm để xác nhận đà tăng bền vững trước khi cân nhắc vào hàng."
     }
   ],
