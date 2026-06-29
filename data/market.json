@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-26T10:53:45Z",
-  "updated_at_vn": "17:53 26/06/2026",
-  "session_date": "2026-06-26",
+  "updated_at": "2026-06-29T07:13:20Z",
+  "updated_at_vn": "14:13 29/06/2026",
+  "session_date": "2026-06-29",
   "data_quality": "live",
   "vnindex": {
-    "close": 1871.91,
-    "change": 8.84,
-    "change_pct": 0.47,
+    "close": 1856.75,
+    "change": -15.16,
+    "change_pct": -0.81,
     "note": "Phiên 26/6 VN-Index đóng cửa 1.871,91 điểm (+8,84 điểm, +0,47%), hồi phục nhẹ sau nhịp giảm -0,80% của hôm qua; nhóm ngân hàng giữ vai trò đỡ chỉ số trong khi VIC và VHM tiếp tục chịu áp lực bán; khối ngoại bán ròng hơn 1.100 tỷ đồng toàn thị trường, tập trung vào FPT và ngân hàng; thanh khoản HOSE giảm khoảng 11% so với phiên trước."
   },
   "holdings": [
@@ -14,11 +14,11 @@
       "ticker": "FPT",
       "qty": 700,
       "avg_cost": 91470,
-      "price": 70800.0,
-      "change_pct": -0.28,
-      "value": 49560000.0,
-      "pnl": -14469000.0,
-      "pnl_pct": -22.6,
+      "price": 70400.0,
+      "change_pct": -0.56,
+      "value": 49280000.0,
+      "pnl": -14749000.0,
+      "pnl_pct": -23.03,
       "target": 116000,
       "stoploss": 68000,
       "action": "THEO DÕI SÁT",
@@ -29,7 +29,7 @@
       "qty": 2892,
       "avg_cost": 13990,
       "price": 16100.0,
-      "change_pct": 5.92,
+      "change_pct": 0.0,
       "value": 46561200.0,
       "pnl": 6102120.0,
       "pnl_pct": 15.08,
@@ -41,27 +41,27 @@
   ],
   "totals": {
     "cost": 104488080.0,
-    "value": 96121200.0,
-    "pnl": -8366880.0,
-    "pnl_pct": -8.01
+    "value": 95841200.0,
+    "pnl": -8646880.0,
+    "pnl_pct": -8.28
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 22600.0,
-      "change_pct": 0.89,
+      "price": 22750.0,
+      "change_pct": 0.66,
       "comment": "ACB 22.600 (+0,89%); nhóm ngân hàng phục hồi nhẹ trong phiên 26/6, đóng vai trò đỡ chỉ số tốt; tác động từ tin bỏ room tín dụng 18 dự án BĐS chưa rõ về rủi ro nợ xấu, tiếp tục quan sát thêm."
     },
     {
       "ticker": "HPG",
-      "price": 23500.0,
-      "change_pct": 0.43,
+      "price": 23550.0,
+      "change_pct": 0.21,
       "comment": "HPG 23.500 (+0,43%); phục hồi nhẹ nhưng ngành thép vẫn chịu áp lực từ USD mạnh và chi phí đầu vào tăng; chưa đủ tín hiệu vào hàng, theo dõi thêm vài phiên."
     },
     {
       "ticker": "MBB",
-      "price": 24750.0,
-      "change_pct": 0.2,
+      "price": 25150.0,
+      "change_pct": 1.62,
       "comment": "MBB 24.750 (+0,20%); hồi phục ổn định hơn thị trường chung; dài hạn có thể hưởng lợi từ chính sách bỏ room tín dụng BĐS, quan sát thêm trước khi quyết định."
     }
   ],
