@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-06-29T12:36:53Z",
-  "updated_at_vn": "19:36 29/06/2026",
-  "session_date": "2026-06-29",
+  "updated_at": "2026-06-30T06:39:00Z",
+  "updated_at_vn": "13:39 30/06/2026",
+  "session_date": "2026-06-30",
   "data_quality": "live",
   "vnindex": {
-    "close": 1854.97,
-    "change": -16.94,
-    "change_pct": -0.9,
+    "close": 1860.68,
+    "change": 5.71,
+    "change_pct": 0.31,
     "note": "Phiên 29/6 VN-Index giảm 15,16 điểm (-0,81%) đóng cửa tại 1.856,75 điểm; thị trường chịu áp lực từ làn sóng bán tháo cổ phiếu công nghệ toàn cầu và giá dầu lao dốc; thanh khoản vẫn ở mức thấp dưới mức trung bình 20 tuần; khối ngoại thu hẹp đà bán so với tuần trước nhưng chưa đảo chiều rõ ràng."
   },
   "holdings": [
@@ -14,11 +14,11 @@
       "ticker": "FPT",
       "qty": 700,
       "avg_cost": 91470,
-      "price": 70400.0,
-      "change_pct": -0.56,
-      "value": 49280000.0,
-      "pnl": -14749000.0,
-      "pnl_pct": -23.03,
+      "price": 70300.0,
+      "change_pct": -0.14,
+      "value": 49210000.0,
+      "pnl": -14819000.0,
+      "pnl_pct": -23.14,
       "target": 116000,
       "stoploss": 68000,
       "action": "THEO DÕI SÁT",
@@ -28,11 +28,11 @@
       "ticker": "SSB",
       "qty": 2892,
       "avg_cost": 13990,
-      "price": 16150.0,
-      "change_pct": 0.31,
-      "value": 46705800.0,
-      "pnl": 6246720.0,
-      "pnl_pct": 15.44,
+      "price": 16000.0,
+      "change_pct": -0.93,
+      "value": 46272000.0,
+      "pnl": 5812920.0,
+      "pnl_pct": 14.37,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
@@ -41,27 +41,27 @@
   ],
   "totals": {
     "cost": 104488080.0,
-    "value": 95985800.0,
-    "pnl": -8502280.0,
-    "pnl_pct": -8.14
+    "value": 95482000.0,
+    "pnl": -9006080.0,
+    "pnl_pct": -8.62
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 22900.0,
-      "change_pct": 1.33,
+      "price": 22700.0,
+      "change_pct": -0.87,
       "comment": "ACB 22.750 (+0,66%); ngân hàng phục hồi nhẹ ngay cả khi thị trường chung giảm - tín hiệu tương đối tích cực; tiếp tục theo dõi thêm tác động từ chính sách tín dụng bất động sản trước khi quyết định vào hàng."
     },
     {
       "ticker": "HPG",
-      "price": 23650.0,
-      "change_pct": 0.64,
+      "price": 23450.0,
+      "change_pct": -0.85,
       "comment": "HPG 23.550 (+0,21%); phục hồi nhẹ, giá dầu lao dốc hôm nay có thể giảm chi phí đầu vào ngành thép về sau; chưa đủ tín hiệu xác nhận xu hướng tăng bền vững, tiếp tục theo dõi thêm vài phiên."
     },
     {
       "ticker": "MBB",
-      "price": 25100.0,
-      "change_pct": 1.41,
+      "price": 25250.0,
+      "change_pct": 0.6,
       "comment": "MBB 25.150 (+1,62%); tăng mạnh nhất trong danh sách theo dõi phiên này, ngành ngân hàng đang có diễn biến riêng tích cực; quan sát thêm để xác nhận đà tăng bền vững trước khi cân nhắc vào hàng."
     }
   ],
