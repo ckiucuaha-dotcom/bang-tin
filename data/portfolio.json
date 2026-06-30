@@ -1,9 +1,11 @@
 {
   "_comment": "Danh mục thật — sửa tay khi mua/bán. avg_cost/target/stoploss theo VND/cổ phiếu. Routine KHÔNG được sửa file này.",
   "holdings": [
-    {"ticker": "FPT", "qty": 700, "avg_cost": 91470, "target": 116000, "stoploss": 68000, "note": "Công nghệ"},
-    {"ticker": "SSB", "qty": 2892, "avg_cost": 13990, "target": 18000, "stoploss": 12500, "note": "Ngân hàng SeABank"}
+    {"ticker": "FPT", "qty": 800, "avg_cost": 88850, "target": 116000, "stoploss": 68000, "note": "Công nghệ"},
+    {"ticker": "SSB", "qty": 100, "avg_cost": 14150, "target": 18000, "stoploss": 12500, "note": "Ngân hàng SeABank"},
+    {"ticker": "HPG", "qty": 100, "avg_cost": 23600, "target": 28000, "stoploss": 21000, "note": "Thép Hòa Phát"},
+    {"ticker": "MBB", "qty": 100, "avg_cost": 25150, "target": 30000, "stoploss": 22500, "note": "Ngân hàng MB"}
   ],
-  "watchlist": ["ACB", "HPG", "MBB"],
+  "watchlist": ["ACB"],
   "gold": true
 }
