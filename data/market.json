@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-01T08:18:22Z",
-  "updated_at_vn": "15:18 01/07/2026",
+  "updated_at": "2026-07-01T09:15:00Z",
+  "updated_at_vn": "16:15 01/07/2026",
   "session_date": "2026-07-01",
   "data_quality": "live",
   "vnindex": {
     "close": 1867.21,
     "change": 7.2,
     "change_pct": 0.39,
-    "note": "VN-Index tăng nhẹ 5 điểm (+0,27%) về vùng 1.860 điểm trong phiên giao dịch cuối tháng 6; nhóm ngân hàng lớn (BID, VCB, LPB, STB) giao dịch tích cực, trong khi nhóm Vingroup tạo áp lực. Khối ngoại duy trì xu hướng bán ròng, tập trung xả FPT và MBB, nhưng mua ròng HPG - thị trường phân hóa rõ ràng."
+    "note": "VN-Index phiên đầu quý III tăng 7,2 điểm (+0,39%) về 1.867 điểm nhờ nhóm ngân hàng dẫn dắt; MBB, VPB, CTG và HDB đều tăng trên 1% trong khi nhóm bất động sản (VHM, VIC, VRE) tiếp tục gây áp lực. Độ rộng thị trường nghiêng phe mua với hơn 309 mã tăng, thanh khoản trên 5.900 tỷ đồng, khối ngoại chuyển sang mua ròng nhẹ."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
-      "comment": "Giá 70.200 vẫn nằm dưới ngưỡng theo dõi sát 71.400 (stoploss x 1,05); khối ngoại tiếp tục bán ròng FPT phiên hôm nay. Không mua thêm, kỷ luật cắt lỗ nếu thủng 68.000."
+      "comment": "Giá 72.900 cao hơn ngưỡng theo dõi sát 71.400 (stoploss 68.000 x 1,05), nằm trong vùng GIỮ; FPT tăng theo nhịp chung phiên đầu quý III nhưng vẫn còn xa mục tiêu 116.000. Cắt lỗ kỷ luật nếu thủng 68.000."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 16.200 giữ đà tích cực, đang lãi 14,5%; ngân hàng SeABank giao dịch ổn định phiên cuối tháng. Giữ 100 cp còn lại, mục tiêu 18.000."
+      "comment": "Giá 16.500 đang lãi 16,6% so với giá vốn 14.150; nhóm ngân hàng hưởng lợi từ dòng tiền luân chuyển tích cực phiên hôm nay. Giữ toàn bộ 100 cổ phiếu, mục tiêu 18.000."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "GIỮ",
-      "comment": "Giá 23.300 điều chỉnh nhẹ so với giá vốn 23.600; khối ngoại mua ròng HPG trong phiên là tín hiệu tích cực. Quan sát vùng hỗ trợ 23.000, mục tiêu 28.000, cắt lỗ 21.000."
+      "comment": "Giá 23.450 gần sát giá vốn 23.600, gần như hòa vốn; nhóm thép chưa có động lực rõ trong phiên đầu quý III. Giữ theo mục tiêu trung hạn 28.000, cắt lỗ 21.000."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "GIỮ",
-      "comment": "Giá 25.200 tăng nhẹ, sát giá vốn 25.150; khối ngoại bán ròng MBB nhưng giá vẫn ổn định. Giữ, mục tiêu 30.000, cắt lỗ 22.500."
+      "comment": "Giá 25.750 tăng tốt theo nhóm ngân hàng dẫn dắt thị trường, đang lãi 2,4% so với giá vốn 25.150. Nhóm tài chính khởi sắc là tín hiệu tích cực; giữ, mục tiêu 30.000, cắt lỗ 22.500."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22650.0,
       "change_pct": 0.0,
-      "comment": "ACB điều chỉnh -1,09% về 22.650 trong phiên cuối tháng; mặc dù một số ngân hàng lớn tăng tốt, ACB chịu áp lực bán nhẹ - theo dõi xem có phục hồi trong tuần đầu tháng 7 không."
+      "comment": "ACB giá 22.650 trong phiên đầu quý III; nhóm ngân hàng đang là trụ đỡ tích cực của thị trường hôm nay, theo dõi xem ACB có phục hồi cùng nhóm trong các phiên tới để cân nhắc vào lệnh."
     }
   ],
   "gold": {
-    "sjc_buy": 143000000,
-    "sjc_sell": 146000000,
-    "note": "Vàng SJC phiên 30/6 giảm mạnh khoảng 2 triệu đồng/lượng so với phiên trước, còn 143 triệu mua vào và 146 triệu bán ra; vàng thế giới thủng ngưỡng 4.000 USD/ounce về vùng 3.963 USD."
+    "sjc_buy": 143400000,
+    "sjc_sell": 146400000,
+    "note": "Vàng SJC tiếp tục giảm phiên thứ 3 liên tiếp còn 143,4-146,4 triệu đồng/lượng (giảm hơn 12 triệu so với tháng trước); vàng thế giới về 3.972 USD/ounce, áp lực vẫn còn lớn."
   },
   "news_vn": [
     {
-      "title": "VN-Index rung lắc nhẹ phiên 30/6, nhóm chứng khoán nổi bật trong bối cảnh thị trường phân hóa",
-      "summary": "Phiên giao dịch cuối tháng 6, VN-Index dao động quanh vùng 1.860 điểm với áp lực từ nhóm Vin và lực đỡ từ nhóm ngân hàng; khối ngoại tiếp tục bán ròng ở FPT và MBB nhưng mua ròng HPG.",
-      "source": "Tin Nhanh Chứng Khoán",
-      "url": "https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-phien-sang-306-vn-index-rung-lac-nhe-dong-chung-khoan-noi-bat-post393157.html"
-    },
-    {
-      "title": "Chứng khoán phái sinh ngày 30/06/2026: Diễn biến giằng co",
-      "summary": "Thị trường phái sinh ghi nhận phiên giằng co khi VN-Index thiếu lực đột phá rõ ràng; nhà đầu tư thận trọng trong bối cảnh phiên cuối tháng và cuối quý II.",
+      "title": "Nhịp đập Thị trường 01/07: Nhóm tài chính tiếp tục dẫn dắt VN-Index",
+      "summary": "Phiên đầu quý III, nhóm ngân hàng và chứng khoán dẫn dắt VN-Index tăng nhẹ; MBB, VPB, CTG, HDB đều tăng trên 1% trong khi nhóm bất động sản họ Vingroup tiếp tục tạo áp lực. Độ rộng thị trường nghiêng phe mua với hơn 309 mã tăng, khối ngoại chuyển sang mua ròng nhẹ.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/06/chung-khoan-phai-sinh-ngay-30062026-dien-bien-giang-co-1636-1459829.htm"
+      "url": "https://vietstock.vn/2026/07/nhip-dap-thi-truong-0107-nhom-tai-chinh-tiep-tuc-dan-dat-vn-index-1636-1460819.htm"
     },
     {
-      "title": "Chứng khoán 30/6: Nhóm ngành nào là động lực dẫn dắt thị trường nửa cuối năm 2026?",
-      "summary": "Các chuyên gia nhận định nhóm ngân hàng, công nghệ và bán lẻ sẽ là trụ đỡ cho VN-Index trong nửa cuối năm 2026, khi kỳ vọng nâng hạng thị trường vào tháng 9 sẽ kéo dòng vốn ngoại quay lại.",
-      "source": "Tuổi Trẻ",
-      "url": "https://tuoitre.vn/chung-khoan-30-6-nhom-nganh-nao-la-dong-luc-dan-dat-thi-truong-nua-cuoi-nam-2026-10026063003064431.htm"
+      "title": "Vietstock Daily 01/07/2026: Phân hóa rõ nét",
+      "summary": "Báo cáo phân tích phiên 1/7 nhận định thị trường phân hóa rõ nét, nhóm tài chính - ngân hàng tích cực trong khi nhóm bất động sản và một số bluechip chịu áp lực; khuyến nghị theo dõi vùng 1.860-1.870 để xác định hướng đi tiếp theo.",
+      "source": "Vietstock",
+      "url": "https://vietstock.vn/2026/06/vietstock-daily-01072026-phan-hoa-ro-net-1636-1460520.htm"
+    },
+    {
+      "title": "Chứng khoán 1/7: Thị trường có thể điều chỉnh sau khi chạm 1.890 điểm, nên tận dụng rung lắc tăng tỷ trọng",
+      "summary": "Các chuyên gia nhận định VN-Index có thể rung lắc khi tiếp cận vùng kháng cự 1.880-1.890 điểm; đây là cơ hội để gia tăng tỷ trọng với các cổ phiếu cơ bản tốt trong giai đoạn thị trường phân hóa đầu quý III.",
+      "source": "Danviet",
+      "url": "https://etime.danviet.vn/chung-khoan-hom-nay-moi-nhat-1-7-se-dieu-chinh-sau-khi-cham-1890-diem-co-the-tan-dung-rung-lac-gia-tang-ty-trong-d1439473.html"
     }
   ],
   "advice": {
-    "summary": "Phiên cuối tháng 6, VN-Index tăng nhẹ về vùng 1.860 điểm với thị trường phân hóa rõ ràng - nhóm ngân hàng lớn tích cực, nhóm công nghệ chịu áp lực từ khối ngoại. Danh mục đang lỗ khoảng 19%, chủ yếu do FPT kẹt vùng theo dõi sát; HPG được khối ngoại mua ròng là điểm sáng nhỏ, SSB giữ lãi 14,5% ổn định. Ưu tiên quản lý rủi ro FPT và tránh giải ngân thêm khi thị trường chưa rõ hướng.",
+    "summary": "Phiên đầu quý III ngày 1/7, VN-Index tăng nhẹ 7 điểm về 1.867 điểm nhờ nhóm ngân hàng dẫn dắt; danh mục đang lỗ khoảng 16% chủ yếu do FPT kéo xuống, nhưng MBB tăng tốt và SSB giữ lãi 16,6% là hai điểm sáng. Vàng SJC giảm phiên thứ 3 liên tiếp về 143,4 triệu, chưa nên mua vào. Ưu tiên giữ kỷ luật cắt lỗ FPT và theo dõi thêm trước khi tăng tỷ trọng.",
     "actions": [
-      "FPT: THEO DÕI SÁT - giá 70.200 dưới ngưỡng 71.400 (stoploss x 1,05). Không mua thêm; sẵn sàng cắt lỗ nếu phá ngưỡng 68.000.",
-      "SSB: GIỮ - đang lãi 14,5%; giữ 100 cp còn lại, mục tiêu 18.000.",
-      "HPG: GIỮ - khối ngoại mua ròng là tín hiệu tích cực; theo dõi vùng hỗ trợ 23.000, mục tiêu 28.000, cắt lỗ 21.000.",
-      "MBB: GIỮ - giá 25.200 sát giá vốn 25.150, ổn định; mục tiêu 30.000, cắt lỗ 22.500.",
-      "Tiền mới: chưa giải ngân thêm; tập trung quản trị rủi ro và quan sát thêm 1-2 phiên đầu tháng 7.",
-      "ACB (watchlist): điều chỉnh -1,09% về 22.650, chưa có tín hiệu rõ để vào lệnh.",
-      "Vàng SJC: giảm mạnh 2 triệu về 143-146 triệu/lượng, vàng thế giới thủng 4.000 USD - theo dõi thêm trước khi cân nhắc."
+      "FPT: GIỮ - giá 72.900 trên ngưỡng theo dõi sát 71.400 (stoploss x 1,05); không mua thêm, sẵn sàng cắt lỗ dứt khoát nếu thủng 68.000.",
+      "SSB: GIỮ - đang lãi 16,6% so với giá vốn 14.150; giữ toàn bộ 100 cổ phiếu, mục tiêu 18.000.",
+      "HPG: GIỮ - gần hòa vốn (giá 23.450, vốn 23.600); nhóm thép chưa có catalyst mạnh; mục tiêu 28.000, cắt lỗ 21.000.",
+      "MBB: GIỮ - tăng tốt cùng nhóm ngân hàng, đang lãi 2,4%; mục tiêu 30.000, cắt lỗ 22.500.",
+      "Tiền mới: chưa giải ngân thêm; theo dõi 2-3 phiên xem VN-Index có giữ vững trên 1.860 không để cân nhắc tăng tỷ trọng.",
+      "ACB (watchlist): giá 22.650, nhóm ngân hàng khởi sắc - theo dõi sát để xem xét vào lệnh khi có tín hiệu rõ.",
+      "Vàng SJC: 143,4-146,4 triệu/lượng, giảm phiên thứ 3 liên tiếp; chưa phải thời điểm mua vào."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
