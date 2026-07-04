@@ -1,212 +1,212 @@
 {
-  "updated_at": "2026-07-03T00:10:00Z",
-  "updated_at_vn": "07:10 03/07/2026",
+  "updated_at": "2026-07-04T00:10:00Z",
+  "updated_at_vn": "07:10 04/07/2026",
   "ai": [
     {
-      "title": "Claude Sonnet 5 trở thành model mặc định cho Free và Pro - giá giới thiệu đến 31/8",
-      "summary": "Anthropic ra mắt Claude Sonnet 5 ngày 30/6/2026 và đặt làm model mặc định cho toàn bộ người dùng Free và Pro từ 1/7. Đây là model agentic mạnh nhất của Anthropic ở tầm giá mid-tier: context 1 triệu token, 128K output, adaptive thinking bật mặc định và tokenizer mới giúp xử lý hiệu quả hơn 30%. Giá API giới thiệu $2/triệu input và $10/triệu output đến hết 31/8/2026, sau đó tăng lên $3 và $15.",
-      "why_it_matters": "Sonnet 5 thay thế trực tiếp Sonnet 4.6 với cùng pattern model ID - chỉ cần đổi identifier là dùng được ngay mà không cần rebuild pipeline. Hiệu năng agentic gần bằng Opus 4.8 với chi phí thấp hơn nhiều - đây là thời điểm tốt để nâng cấp các workflow Claude Code cho phân tích code và research chứng khoán VN trước khi hết giá ưu đãi 31/8.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
-      "published": "2026-06-30",
-      "hot": true
-    },
-    {
-      "title": "OpenAI ra mắt GPT-5.6 gồm 3 model Sol, Terra, Luna - Sol đạt 750 token/giây trên Cerebras",
-      "summary": "OpenAI công bố họ model GPT-5.6 gồm 3 model: Sol (flagship hàng đầu), Terra (cân bằng giá/chất lượng) và Luna (nhanh và rẻ nhất). Sol đặt kỷ lục SOTA mới trên Terminal-Bench 2.1 - bài kiểm tra workflow command-line đòi hỏi lập kế hoạch và phối hợp công cụ. Khi chạy trên chip wafer-scale của Cerebras, Sol đạt tốc độ lên đến 750 token/giây - nhanh gấp 15 lần serving thông thường. Preview giới hạn cho đối tác tin cậy, GA dự kiến trong vài tuần tới.",
-      "why_it_matters": "OpenAI cạnh tranh trực tiếp với Claude Sonnet 5 ở cùng thời điểm ra mắt - hai hệ sinh thái AI coding giờ đều có model mid-tier mạnh. Tốc độ 750 token/giây của Sol trên Cerebras có thể thay đổi cách các pipeline agentic tốn nhiều lượt gọi hoạt động trong tương lai gần.",
-      "source": "OpenAI",
-      "url": "https://openai.com/news/product-releases/",
+      "title": "OpenAI đề xuất nhượng 5% cổ phần trị giá $42,6 tỷ cho chính phủ Mỹ",
+      "summary": "Sam Altman đề xuất nhượng 5% cổ phần OpenAI - tương đương $42,6 tỷ USD tại định giá $852 tỷ - cho chính phủ Mỹ theo mô hình quỹ Alaska Permanent Fund. Altman muốn OpenAI, Google, Anthropic và Meta đều đóng góp cổ phần tương đương vào một phương tiện quỹ quốc gia, chia sẻ lợi nhuận AI cho người dân. Đây là phản ứng trước áp lực chính trị sau khi OpenAI đệ trình IPO bí mật.",
+      "why_it_matters": "OpenAI và Anthropic đều đang IPO bí mật - nếu thỏa thuận cổ phần 5% thành công đây sẽ là tiền lệ mới cho quản trị AI ở cấp nhà nước. Nhà đầu tư chứng khoán VN nên theo dõi: IPO của hai công ty AI hàng đầu thế giới trong 2026-2027 có thể ảnh hưởng lớn đến dòng vốn tech toàn cầu và cổ phiếu công nghệ Việt Nam.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/openai-proposes-us-government-own-5percent-stake-to-address-political-blowback.html",
       "published": "2026-07-02",
       "hot": true
     },
     {
-      "title": "Claude Sonnet 5 GA trên Microsoft Azure Foundry - doanh nghiệp dùng Azure tiếp cận Claude dễ hơn",
-      "summary": "Từ ngày 2/7/2026, Claude Sonnet 5 chính thức ra mắt trên Microsoft Foundry (Azure) với tính sẵn sàng tổng quát (GA), cho phép doanh nghiệp Azure triển khai Claude trong hạ tầng quen thuộc với quản trị, hóa đơn và định danh tích hợp sẵn. Đây là lần đầu tiên Anthropic có sản phẩm GA trên Azure, xóa bỏ rào cản quy trình mua sắm mà nhiều tổ chức enterprise từng gặp khi muốn dùng Claude.",
-      "why_it_matters": "Claude trong Azure Foundry là cột mốc lớn cho adoption doanh nghiệp - nhiều công ty VN đang dùng Azure sẽ tiếp cận Claude dễ hơn thông qua hệ thống mua sắm IT sẵn có, thay vì phải tạo tài khoản riêng với Anthropic. Cạnh tranh giữa Azure (Claude) và GCP (Gemini) ngày càng gay gắt.",
-      "source": "TechTimes",
-      "url": "https://www.techtimes.com/articles/319533/20260702/claude-azure-hits-production-sonnet-5-ga-clears-procurement-barrier-enterprises.htm",
-      "published": "2026-07-02",
+      "title": "Mỹ đàm phán cuối với OpenAI, Google, Anthropic về tiêu chuẩn tự nguyện trước khi ra mắt AI",
+      "summary": "Theo Financial Times, Mỹ đang trong vòng đàm phán tiến tiến với các công ty AI lớn về tiêu chuẩn tự nguyện: ai muốn ra mắt model frontier sẽ nộp để chính phủ test trong tối đa 30 ngày trước khi công bố. Công bố chính thức có thể trong tuần tới. Framework này không bắt buộc cấp phép nhưng các công ty tham gia được phép chọn đối tác tin cậy có early access.",
+      "why_it_matters": "Nếu tiêu chuẩn tự nguyện này được áp dụng, các model Claude mới sẽ mất thêm 30 ngày trước khi đến tay người dùng. Người dùng Claude Code hằng ngày sẽ phải chờ lâu hơn khi có model mới - đây là lý do nên tận dụng Sonnet 5 ở giá ưu đãi hiện tại trước khi bị ảnh hưởng bởi quy trình mới.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/us-talks-ai-companies-voluntary-001646707.html",
+      "published": "2026-07-03",
       "hot": false
     },
     {
-      "title": "Google ra mắt 2 model tạo ảnh Gemini 3 - cạnh tranh trực tiếp Midjourney và Dall-E",
-      "summary": "Google phát hành Gemini 3.1 Flash Image và Gemini 3 Pro Image vào ngày 30/6/2026, trở thành đối thủ trực tiếp của Midjourney và Dall-E trong thị trường tạo ảnh AI. Gemini 3.1 Flash Image có giá $0.50/triệu input token phù hợp khối lượng lớn, trong khi Gemini 3 Pro Image giá $2/triệu cho chất lượng cao hơn. Cả hai model đều hỗ trợ tạo ảnh từ văn bản và chỉnh sửa ảnh hiện có trong cùng workflow.",
-      "why_it_matters": "Hai model Gemini Image mới có giá thấp hơn Midjourney và tích hợp sẵn trong hệ sinh thái Google AI - người làm TikTok food content có thể thử tạo thumbnail, sticker hoặc ảnh marketing chất lượng cao với chi phí gần bằng không.",
+      "title": "Google tích hợp Computer Use trực tiếp vào Gemini 3.5 Flash - dùng được qua API",
+      "summary": "Google tích hợp Computer Use thành built-in tool trong Gemini 3.5 Flash, cho phép AI agent thao tác trực tiếp trên trình duyệt, điện thoại và desktop thông qua Gemini API và Enterprise Agent Platform. Trước đây Computer Use chỉ có trong model standalone riêng biệt. Google bổ sung thêm hai hệ thống bảo vệ enterprise: xác nhận hành động nhạy cảm và tự dừng khi phát hiện prompt injection.",
+      "why_it_matters": "Gemini 3.5 Flash với Computer Use giá rẻ hơn Claude Computer Use - developer giờ có thêm lựa chọn để build agent tự động hóa workflow. Người làm content TikTok có thể thử build agent tự lên lịch đăng bài, phân tích analytics kênh @tracuami mà không cần can thiệp tay.",
       "source": "Google Blog",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
-      "published": "2026-06-30",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "published": "2026-07-02",
       "hot": false
     },
     {
-      "title": "California ký thỏa thuận statewide với Anthropic - 67 sở ban ngành dùng Claude giảm giá 50%",
-      "summary": "Thống đốc Gavin Newsom ký thỏa thuận đầu tiên thuộc loại này giữa một tiểu bang Mỹ và nhà cung cấp AI, cho phép toàn bộ cơ quan, thành phố và hạt của California truy cập Claude với giảm giá 50% qua cổng SITeS. Hệ thống AI nội bộ Poppy đã được thí điểm với hơn 2.800 nhân viên tại 67 sở ban ngành và chuẩn bị triển khai toàn tiểu bang tháng 7/2026.",
-      "why_it_matters": "Đây là lần đầu chính phủ cấp tiểu bang Mỹ triển khai AI ở quy mô toàn bộ bộ máy hành chính - tín hiệu rõ ràng AI sẽ trở thành công cụ hành chính phổ biến. Mô hình này có thể được Việt Nam tham khảo khi Ủy ban AI Quốc gia vừa thành lập ngày 1/7.",
-      "source": "BuildFastWithAI",
-      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026",
-      "published": "2026-07-01",
+      "title": "Anthropic tuyển 4 học giả hàng đầu trong 2 tuần - gồm Nobel Prize John Jumper của AlphaFold",
+      "summary": "Từ cuối tháng 6 đến đầu tháng 7, Anthropic liên tiếp tuyển 4 học giả top-tier: John Jumper (giải Nobel Hóa học 2024, tác giả AlphaFold từ Google DeepMind), Jonas Adler và Alexander Pritzel (nhà nghiên cứu core của Gemini), và Jelani Nelson (Trưởng khoa EECS đại học UC Berkeley). Google DeepMind mất hai học giả nổi tiếng nhất chỉ trong hai tuần.",
+      "why_it_matters": "Anthropic đang đặt cược vào nghiên cứu AI cấp độ Nobel - AlphaFold là đột phá lớn nhất trong sinh học tính toán thập kỷ qua. Điều này báo hiệu Claude sẽ có bước nhảy vọt trong khoa học dược phẩm trong 1-2 năm tới - cơ hội theo dõi cổ phiếu dược phẩm VN có thể hưởng lợi từ AI drug discovery.",
+      "source": "BigGo Finance",
+      "url": "https://finance.biggo.com/news/83e515a4-b131-49d7-afff-7cd1d9af9b2c",
+      "published": "2026-07-03",
+      "hot": true
+    },
+    {
+      "title": "LHQ và ITU ra mắt Ủy ban AI for Good với Jensen Huang, Andy Jassy, Brad Smith",
+      "summary": "Liên Hợp Quốc và ITU ra mắt AI for Good Global Commission ngày 1/7/2026, đồng chủ tịch bởi CEO Salesforce Marc Benioff và Tổng thống Rwanda Paul Kagame. Ủy ban gồm CEO NVIDIA Jensen Huang, CEO Amazon Andy Jassy, Chủ tịch Microsoft Brad Smith, và co-founder Anthropic Jack Clark. Cuộc họp đầu tiên diễn ra ngày 8/7 tại Geneva trong ITU AI for Good Global Summit.",
+      "why_it_matters": "Lần đầu tiên các CEO AI và cloud lớn nhất thế giới ngồi cùng ủy ban LHQ về quản trị AI - tín hiệu AI sắp được quản lý ở cấp quốc tế như hạt nhân hay hàng không. Anthropic có ghế trong ủy ban qua Jack Clark, tốt cho uy tín Claude Code toàn cầu. Kết quả Geneva 8/7 sẽ định hình khung pháp lý AI tại Việt Nam.",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/07/01/un-ai-commission-ceos-world-leaders",
+      "published": "2026-07-02",
       "hot": false
     }
   ],
   "github": {
     "daily": [
       {
-        "repo": "msitarzewski/agency-agents",
-        "desc": "Framework đa agent AI đầy đủ với các agent chuyên biệt cho từng lĩnh vực, từ lập trình đến quản lý cộng đồng",
-        "lang": "Shell",
-        "stars": 125459,
-        "stars_period": 3032,
-        "url": "https://github.com/msitarzewski/agency-agents"
+        "repo": "JuliusBrussee/caveman",
+        "desc": "Skill Claude Code cắt 65% token bằng cách giao tiếp bằng ngôn ngữ hang động - tiếp tục dẫn đầu trending với lượng star tăng gấp 3 lần so với hôm qua",
+        "lang": "JavaScript",
+        "stars": 82917,
+        "stars_period": 2863,
+        "url": "https://github.com/JuliusBrussee/caveman"
+      },
+      {
+        "repo": "safishamsi/graphify",
+        "desc": "Skill lập trình AI chuyển toàn bộ thư mục code thành knowledge graph có thể truy vấn, hỗ trợ nhiều ngôn ngữ lập trình",
+        "lang": "Python",
+        "stars": 77108,
+        "stars_period": 945,
+        "url": "https://github.com/safishamsi/graphify"
+      },
+      {
+        "repo": "facebook/astryx",
+        "desc": "Hệ thống design mã nguồn mở của Meta hoàn toàn tùy biến và sẵn sàng cho agent, giúp giao diện nhất quán khi AI sinh ra UI",
+        "lang": "TypeScript",
+        "stars": 4604,
+        "stars_period": 885,
+        "url": "https://github.com/facebook/astryx"
+      },
+      {
+        "repo": "openai/codex-plugin-cc",
+        "desc": "Plugin chính thức của OpenAI cho phép dùng Codex từ bên trong Claude Code để review code hoặc giao việc - hai hệ sinh thái AI lần đầu kết hợp",
+        "lang": "JavaScript",
+        "stars": 23195,
+        "stars_period": 634,
+        "url": "https://github.com/openai/codex-plugin-cc"
+      },
+      {
+        "repo": "ChromeDevTools/chrome-devtools-mcp",
+        "desc": "MCP server chính thức của Chrome DevTools cho coding agent - tích hợp trực tiếp Chrome DevTools vào AI development workflow",
+        "lang": "TypeScript",
+        "stars": 45481,
+        "stars_period": 405,
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      }
+    ],
+    "weekly": [
+      {
+        "repo": "DeusData/codebase-memory-mcp",
+        "desc": "Server tình báo code hiệu năng cao lập chỉ mục codebase vào đồ thị tri thức bền vững, hỗ trợ 158 ngôn ngữ lập trình",
+        "lang": "C",
+        "stars": 25532,
+        "stars_period": 10186,
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
         "repo": "usestrix/strix",
         "desc": "Công cụ kiểm thử xâm nhập AI mã nguồn mở tự động tìm và vá lỗ hổng ứng dụng theo chuẩn OWASP Top 10",
         "lang": "Python",
-        "stars": 32142,
-        "stars_period": 2137,
+        "stars": 34597,
+        "stars_period": 7567,
         "url": "https://github.com/usestrix/strix"
-      },
-      {
-        "repo": "hasaneyldrm/exercises-dataset",
-        "desc": "Bộ dữ liệu toàn diện 433 bài tập thể dục kèm hướng dẫn chi tiết, ảnh minh họa và hoạt ảnh động",
-        "lang": "HTML",
-        "stars": 9246,
-        "stars_period": 938,
-        "url": "https://github.com/hasaneyldrm/exercises-dataset"
-      },
-      {
-        "repo": "JuliusBrussee/caveman",
-        "desc": "Skill Claude Code giảm tiêu thụ token bằng cách giao tiếp bằng ngôn ngữ đơn giản hóa, giúp tiết kiệm chi phí khi dùng agentic pipeline dài",
-        "lang": "JavaScript",
-        "stars": 80855,
-        "stars_period": 926,
-        "url": "https://github.com/JuliusBrussee/caveman"
-      },
-      {
-        "repo": "obra/superpowers",
-        "desc": "Framework skill agentic thiết lập phương pháp phát triển phần mềm chuẩn hóa cho coding agent",
-        "lang": "Shell",
-        "stars": 244396,
-        "stars_period": 897,
-        "url": "https://github.com/obra/superpowers"
-      }
-    ],
-    "weekly": [
-      {
-        "repo": "calesthio/OpenMontage",
-        "desc": "Hệ thống sản xuất video agentic mã nguồn mở đầu tiên với 52 công cụ và hơn 500 kỹ năng agent",
-        "lang": "Python",
-        "stars": 31725,
-        "stars_period": 10199,
-        "url": "https://github.com/calesthio/OpenMontage"
-      },
-      {
-        "repo": "DeusData/codebase-memory-mcp",
-        "desc": "Server tình báo code hiệu năng cao lập chỉ mục codebase vào đồ thị tri thức bền vững, hỗ trợ 158 ngôn ngữ lập trình",
-        "lang": "C",
-        "stars": 24656,
-        "stars_period": 9873,
-        "url": "https://github.com/DeusData/codebase-memory-mcp"
       },
       {
         "repo": "xbtlin/ai-berkshire",
         "desc": "Framework nghiên cứu đầu tư giá trị kết hợp AI đa agent theo phương pháp nhà đầu tư huyền thoại",
         "lang": "Python",
-        "stars": 8643,
-        "stars_period": 6989,
+        "stars": 9140,
+        "stars_period": 6230,
         "url": "https://github.com/xbtlin/ai-berkshire"
       },
       {
         "repo": "simplex-chat/simplex-chat",
         "desc": "Mạng nhắn tin không lưu bất kỳ định danh người dùng nào - 100% riêng tư theo thiết kế, có app iOS, Android và desktop",
         "lang": "Haskell",
-        "stars": 17660,
-        "stars_period": 6376,
+        "stars": 17760,
+        "stars_period": 5971,
         "url": "https://github.com/simplex-chat/simplex-chat"
       },
       {
-        "repo": "google-labs-code/design.md",
-        "desc": "Định dạng đặc tả hệ thống nhận diện thương hiệu cho coding agent, giúp AI hiểu và áp dụng visual identity nhất quán",
-        "lang": "TypeScript",
-        "stars": 24372,
-        "stars_period": 6240,
-        "url": "https://github.com/google-labs-code/design.md"
+        "repo": "Robbyant/lingbot-map",
+        "desc": "Mô hình nền tảng 3D feed-forward cho tái tạo cảnh 3D từ luồng dữ liệu video thời gian thực",
+        "lang": "Python",
+        "stars": 9567,
+        "stars_period": 2171,
+        "url": "https://github.com/Robbyant/lingbot-map"
       }
     ],
-    "trend_note": "Ngày 3/7: msitarzewski/agency-agents vọt lên dẫn đầu daily (+3.032) - tăng gần 1.000 so với hôm qua, cho thấy framework đa agent đang thu hút developer mới liên tục. Tân binh đáng chú ý: JuliusBrussee/caveman (+926) - skill giảm token Claude Code ra mắt đúng lúc Sonnet 5 với tokenizer mới đang hot. Top weekly gần như giữ nguyên, calesthio/OpenMontage và DeusData/codebase-memory-mcp vẫn dẫn đầu với đà tăng mạnh."
+    "trend_note": "Ngày 4/7: JuliusBrussee/caveman vọt lên +2.863 (gấp 3 hôm qua), xác nhận xu hướng tối ưu chi phí Claude Code đang cực hot. Tân binh đáng chú ý: safishamsi/graphify (+945) - skill chuyển codebase thành knowledge graph, và facebook/astryx (+885) - design system agent-ready của Meta vừa mã nguồn mở. Đặc biệt nhất: openai/codex-plugin-cc - OpenAI lần đầu ra plugin tích hợp với Claude Code, tín hiệu hai đối thủ bắt đầu cộng tác ở tầng tool."
   },
   "tech": [
     {
-      "title": "GPT-5.6 Sol trên Cerebras đạt 750 token/giây - nhanh gấp 15 lần inference thông thường",
-      "summary": "OpenAI triển khai GPT-5.6 Sol trên chip wafer-scale Cerebras, đạt tốc độ inference lên đến 750 token/giây - kỷ lục mới cho model frontier. Kiến trúc wafer-scale xử lý toàn bộ lớp transformer trên một wafer duy nhất, loại bỏ nghẽn cổ chai truyền dữ liệu giữa các GPU. Tốc độ này mở ra ứng dụng real-time đòi hỏi phản hồi tức thì mà model frontier trước đây không đáp ứng được.",
-      "source": "OpenAI",
-      "url": "https://openai.com/news/product-releases/",
+      "title": "Sam Altman kêu gọi Mỹ lập diễn đàn AI quốc tế theo mô hình IAEA",
+      "summary": "Trong op-ed trên Financial Times ngày 2/7, Sam Altman đề xuất Mỹ thành lập diễn đàn AI quốc tế với chính phủ, chuyên gia độc lập và đại diện các quốc gia tham gia - chia sẻ công nghệ AI cho các nước tuân thủ quy tắc, giống mô hình IAEA (hạt nhân) hay ICAO (hàng không). Đây là bước đi chiến lược của OpenAI trong bối cảnh Anthropic vượt qua về định giá và doanh thu.",
+      "source": "Techmeme",
+      "url": "https://www.techmeme.com/260702/p21",
       "published": "2026-07-02"
     },
     {
-      "title": "Việt Nam ban hành danh mục 10 công nghệ chiến lược và 70 công nghệ cao ưu tiên từ 1/7",
-      "summary": "Thủ tướng Việt Nam ký quyết định có hiệu lực từ 1/7/2026 xác định danh mục 10 công nghệ chiến lược, 30 sản phẩm công nghệ chiến lược, 70 công nghệ cao ưu tiên đầu tư và 100 sản phẩm công nghệ cao. Đây là lần đầu Việt Nam có danh mục cụ thể và chính thức hóa để cấp ưu đãi đầu tư cho doanh nghiệp trong nước và nước ngoài trong lĩnh vực công nghệ cao.",
-      "source": "Baker McKenzie",
-      "url": "https://www.bakermckenzie.com/en/insight/publications/2026/06/vietnam-new-tech-lists-reshape-priority-sectors-july-2026",
-      "published": "2026-06-30"
+      "title": "Vietnam Tech Summit 2026 đổ bộ Silicon Valley tháng 8 - chủ đề Build Your Edge in the AI Era",
+      "summary": "Vietnam Tech Summit lần thứ 6 diễn ra ngày 7-8/8/2026 tại Computer History Museum, Mountain View, California. Hội nghị quy tụ AI leaders, founders, investors và talent Việt tại Mỹ. Chương trình gồm tham quan campus Google, Microsoft, Netflix, ByteDance/TikTok, Meta và Vietnam AI Stars Grand Final. Lượng người dự tăng 9 lần từ 2022 đến 2025, dự kiến vượt 900 người năm nay.",
+      "source": "GlobeNewsWire",
+      "url": "https://www.globenewswire.com/news-release/2026/06/27/3318523/0/en/Vietnam-Tech-Summit-2026-to-Bring-AI-Leaders-Founders-Investors-and-Vietnamese-Tech-Talent-to-Silicon-Valley.html",
+      "published": "2026-06-27"
     },
     {
-      "title": "Việt Nam thu hút hơn 7 tỷ USD đầu tư data center AI trong 6 tháng đầu 2026",
-      "summary": "Làn sóng đầu tư hạ tầng AI đã huy động hơn 7 tỷ USD trên toàn quốc trong 6 tháng đầu 2026, với Luật AI và chiến lược số quốc gia là động lực chính. Vietnam Data Gen đang xây 100 MW phân kỳ, bắt đầu từ 10-20 MW tại Đà Nẵng. CMC Hyperscale Data Center tại TP HCM cũng khởi công năm 2026 theo định hướng tiêu chuẩn quốc tế và xanh.",
-      "source": "ERP Today",
-      "url": "https://erp.today/vietnam-draws-more-than-7-billion-in-ai-data-center-investments-reshaping-enterprise-infrastructure",
-      "published": "2026-07-01"
+      "title": "Claude Enterprise nâng cấp: admin analytics, model entitlements và spend alerts",
+      "summary": "Anthropic cập nhật Claude Enterprise với bộ công cụ quản trị nâng cao: admin analytics chi tiết về usage và năng suất theo từng người dùng, kiểm soát quyền truy cập theo model (model-level entitlements), và cảnh báo chi phí tự động khi vượt ngưỡng. Đây là gói tính năng giúp IT admin doanh nghiệp kiểm soát ngân sách AI chặt hơn và tránh hóa đơn bất ngờ.",
+      "source": "Claude Release Notes",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "published": "2026-07-03"
     },
     {
-      "title": "Luật Chuyển đổi số 2025 có hiệu lực 1/7 - người dân chỉ khai báo thông tin một lần khi dùng dịch vụ công",
-      "summary": "Luật Chuyển đổi số 2025 chính thức có hiệu lực từ ngày 1/7/2026, quy định nguyên tắc khai báo một lần khi sử dụng dịch vụ công - người dân không phải điền lại thông tin đã khai trong các thủ tục khác. Luật cũng bắt buộc hệ thống số hóa thống nhất và chia sẻ dữ liệu giữa các cơ quan nhà nước, cùng hiệu lực với Luật Công nghệ cao 2025 khuyến khích nghiên cứu và thương mại hóa công nghệ cao.",
-      "source": "DataGuidance",
-      "url": "https://www.dataguidance.com/news/vietnam-law-digital-transformation-2025-and-law-high",
-      "published": "2026-07-01"
+      "title": "OpenAI Codex Plugin chính thức tích hợp vào Claude Code - hai hệ sinh thái AI lần đầu cộng tác",
+      "summary": "OpenAI ra mắt plugin openai/codex-plugin-cc cho Claude Code, cho phép developer gọi Codex trực tiếp từ Claude Code để review code hoặc giao task. Plugin trending nhanh trên GitHub (+634 hôm nay) cho thấy cộng đồng developer hào hứng. Đây là lần đầu OpenAI ra công cụ tích hợp chính thức với sản phẩm của đối thủ Anthropic.",
+      "source": "GitHub",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "published": "2026-07-04"
     },
     {
-      "title": "TECH59 Summit 17/7 tại TP HCM - hội tụ AI, gaming, EdTech và venture capital Việt Nam",
-      "summary": "Hội nghị TECH59 trở lại vào ngày 17/7/2026 tại tòa nhà Orbital 2.0 Tower trong khu QTSC IT Park TP HCM, quy tụ hơn 500 đại biểu và 20 diễn giả. Sự kiện có 10 phiên chuyên đề song song về AI, venture capital, gaming, EdTech, bất động sản và chính sách. Đây là tín hiệu cho thấy Việt Nam đang nổi lên như trung tâm công nghệ quan trọng trong khu vực Đông Nam Á.",
-      "source": "Vietcetera",
-      "url": "https://vietcetera.com/amp/en/tech59-summit-returns-this-july-highlighting-vietnams-growing-role-in-the-regional-tech-landscape",
-      "published": "2026-07-01"
+      "title": "VNIndex tăng nhẹ 0,47% tuần 29/6-3/7 - VHM và VIC chống đỡ, thanh khoản ở mức cực thấp",
+      "summary": "VNIndex đóng cửa tuần 29/6-3/7/2026 với mức tăng 0,47%, chủ yếu nhờ VHM và VIC nỗ lực giữ sắc xanh phiên cuối tuần. Thanh khoản tiếp tục ở mức cực thấp cho thấy dòng tiền đang kiên nhẫn chờ đợi tín hiệu rõ hơn. VNIndex hiện giao dịch quanh vùng 1.800 điểm trong bối cảnh thị trường phân hóa.",
+      "source": "VnEconomy",
+      "url": "https://vneconomy.vn/thi-truong-chung-khoan.htm",
+      "published": "2026-07-03"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "Đồ ăn độc lạ - combo bất ngờ chinh phục người xem tò mò",
-        "desc": "Trend kết hợp nguyên liệu không ngờ tới đang viral mạnh tháng 7/2026 - từ dâu tây muối tôm đến các combo hương vị bất ngờ. Vietcetera đưa tin xu hướng này đặt ra câu hỏi về ranh giới sáng tạo và an toàn thực phẩm, nhưng thu hút hàng triệu lượt xem nhờ yếu tố tò mò và thử thách.",
-        "fit": "Tré trộn Huế vốn có thành phần gia vị đặc biệt mà người ngoài Huế ít biết - A Nguyên có thể giải thích từng nguyên liệu bí ẩn trong tré như da heo, thính, riềng sả. Biến món quen thành khám phá ẩm thực bí ẩn cho người chưa thử.",
-        "idea": "Clip 25 giây: Thư cầm tô tré trộn hỏi giọng ngạc nhiên - Trong ni có gì vậy anh? A Nguyên bắt đầu kể từng thứ, mỗi thứ Thư lại phản ứng: Ủa cái đó cũng được hả? Kết: Thư vét sạch tô. Caption: #trehue #docla #tracuami #amthuchue #hue"
+        "name": "Chân gà Trung Quốc viral vs chân gà Việt - cuộc chiến hương vị tháng 7",
+        "desc": "Chân gà kiểu Trung Quốc (vị chua cay, sốt đặc) đang hot trên TikTok Việt Nam tháng 7/2026, kéo theo hàng loạt clip so sánh chân gà các vùng miền. Trend này thu hút nhiều triệu view với các quán ăn vặt cạnh tranh khoe hương vị riêng.",
+        "fit": "@tracuami có sẵn chân gà sốt Thái - phong cách hoàn toàn khác biệt với chân gà Trung Quốc. A Nguyên có thể bắt trend bằng clip so sánh trực tiếp để định vị hương vị sốt Thái đặc trưng của Huế - vừa độc lạ vừa bắt kịp trend đang viral.",
+        "idea": "Clip 30 giây: A Nguyên đặt đĩa chân gà sốt Thái cạnh một phần chân gà Trung Quốc mua về thử. Nhớ nếm cả hai, nghĩ một chút rồi vừa vét sạch đĩa chân gà sốt Thái vừa nói giọng Huế: Cái ni ngon hơn anh ơi, vị ni lạ hơn! Caption: #changasotthai #changahue #tracuami #amthuchue #hue"
       },
       {
-        "name": "Rong biển cháy tỏi - snack ngon bất ngờ viral tháng 7",
-        "desc": "Rong biển cháy tỏi là một trong những snack hot nhất TikTok Việt Nam tháng 7/2026, viral nhờ hương vị biển kết hợp tỏi đậm đà và màu sắc xanh bắt mắt khi quay cận cảnh. Nhiều quán ăn vặt đang thêm rong biển vào menu hoặc dùng làm topping để bắt trend.",
-        "fit": "Quán @tracuami có thể dùng rong biển làm topping cho trà trái cây hoặc thêm vào set ăn vặt. Một clip thử món mới với A Nguyên và Nhớ đủ để bắt được làn sóng trend này - Nhớ hay thử món lạ là nhân vật phù hợp nhất.",
-        "idea": "Clip 20 giây: Nhớ cầm túi rong biển cháy tỏi bước vào bếp nói với A Nguyên: Anh ơi, cho em thêm cái ni vào menu được không? A Nguyên nhướng mày thử một miếng rồi gật đầu chậm rãi. Text: Món mới đang test - đoán cái này là gì? Caption: #rongbienchangtoi #tracuami #monmoi #hue #snack"
+        "name": "Bánh tráng tỏi - snack thần thánh chinh phục giới trẻ",
+        "desc": "Bánh tráng tỏi đang là snack hot nhất TikTok Việt Nam tháng 7/2026, hơn 80% giới trẻ dưới 25 đã thử và yêu thích. Nhiều quán ăn vặt bổ sung vào menu hoặc dùng làm combo để bắt trend.",
+        "fit": "@tracuami có thể thêm bánh tráng tỏi vào set combo với chân gà sốt Thái hoặc tré trộn. Một clip Nhớ giới thiệu combo mới theo phong cách Huế vui tươi sẽ vừa bắt trend vừa quảng bá menu thật tự nhiên.",
+        "idea": "Clip 20 giây: Nhớ bày lên bàn một combo gồm bánh tráng tỏi, chân gà sốt Thái và trà trái cây, nói với A Nguyên giọng hào hứng: Anh ơi, combo mới đây! Ba cái ni ăn cùng nhau mới ngon! A Nguyên nếm thử gật đầu chậm. Caption: #banhtranguoi #comboanvat #tracuami #changathai #hue"
       },
       {
-        "name": "Food storytelling - kể chuyện cảm xúc gắn với món ăn",
-        "desc": "Format người xem hoặc khách hàng chia sẻ câu chuyện và kỷ niệm gắn liền với món ăn đang rất hot tháng 7/2026. Nội dung không cần dàn dựng phức tạp, chỉ cần khoảnh khắc thật và câu chuyện thật. Format này tạo kết nối cảm xúc mạnh và khuyến khích nội dung UGC tự nhiên.",
-        "fit": "Quán @tracuami có nhiều khách quen từ lâu năm với kỷ niệm riêng - A Nguyên biết rõ từng người. Tạo series Khách kể chuyện hoặc Ký ức chân gà theo phong cách Huế chân thật, không cần kịch bản phức tạp.",
-        "idea": "Clip 30 giây: Khách ngồi vừa ăn tré trộn vừa kể giọng tự nhiên - Hồi đó mới vô Huế học, bạn dẫn tới đây lần đầu, ăn tré không biết là gì mà ghiền từ đó tới chừ. A Nguyên ngồi gật đầu giọng Huế: Rứa là duyên rồi! Caption: #amthuchue #trehue #kyniemhue #tracuami #hue"
+        "name": "Da heo chiên nước mắm - snack truyền thống Việt tái sinh trên TikTok",
+        "desc": "Da heo chiên nước mắm đang viral mạnh trên TikTok Việt Nam tháng 7/2026, kết hợp vị giòn dai của da heo với nước mắm đậm đà. Trend kéo theo làn sóng quan tâm đến các món ăn vặt truyền thống Việt được làm lại theo cách mới.",
+        "fit": "Tré trộn Huế cũng dùng bì heo làm nguyên liệu chính - @tracuami có thể kết nối với trend này bằng cách giải thích sự khác nhau giữa bì heo trong tré trộn Huế và da heo chiên thông thường. A Nguyên kể chuyện nguyên liệu theo phong cách Huế chân thật.",
+        "idea": "Clip 25 giây: A Nguyên cầm phần bì heo trong tô tré trộn giải thích giọng Huế: Cái ni không phải chiên mà luộc và ngâm gia vị theo kiểu Huế - khác hẳn da heo chiên nước mắm nhưng cũng giòn và ngon theo cách riêng. Thư hỏi thêm, A Nguyên tiếp tục kể. Caption: #trehue #biheo #amthuchue #tracuami #hue"
       }
     ],
     "sounds": [
       {
-        "name": "Yêu Thật Khó Xóa Thật Đau - remix chill 2026",
-        "desc": "Bản remix chill đang trending TikTok Việt Nam tháng 7/2026, giai điệu nhẹ nhàng phù hợp cho kiểu content storytelling hoặc clip khoảnh khắc yên lặng cuối ngày ở quán @tracuami sau khi đóng cửa"
+        "name": "Có Mình Có Ta - nhạc chill trending tháng 7",
+        "desc": "Bài nhạc chill đang trending trên TikTok Việt Nam tháng 7/2026, giai điệu nhẹ nhàng ấm áp - phù hợp cho clip cảnh đẹp của quán @tracuami lúc sáng sớm mở hàng hoặc khoảnh khắc ấm cúng giữa A Nguyên và khách quen"
       },
       {
-        "name": "Em Còn Đau Hơn Cả Lúc Anh Rời Xa - Vinahouse 2026",
-        "desc": "Remix vinahouse nhịp vừa phải đang hot TikTok Việt Nam tháng 7, phù hợp cho clip chuẩn bị nguyên liệu buổi sáng hoặc cảnh bếp nhộn nhịp giờ cao điểm của @tracuami"
+        "name": "Lo Người Ướt Áo - Nguyễn Thạch Bảo Ngọc (Htrol EDM remix)",
+        "desc": "Remix EDM nhịp vừa phải đang hot TikTok Việt Nam tháng 7, phù hợp cho clip chuẩn bị nguyên liệu buổi sáng nhịp nhanh hoặc cảnh bếp nhộn nhịp giờ cao điểm của @tracuami"
       },
       {
-        "name": "THẦN KHÚC - nhạc Việt viral toàn cầu",
-        "desc": "Bài hát Việt đang viral toàn cầu tháng 7/2026 - phù hợp cho clip hài hước của Nhớ hay làm trò bất ngờ trong bếp hoặc những khoảnh khắc vui nhộn tại @tracuami"
+        "name": "Sai Không Thể Sửa - Oanh Tạ & Thiên Tú",
+        "desc": "Bài nhạc chill mới lên top trending TikTok tháng 7/2026, phong cách tâm trạng phù hợp cho clip storytelling kể chuyện khách quen hoặc khoảnh khắc yên lặng cuối ngày đóng cửa tại @tracuami"
       }
     ],
-    "note": "Tuần đầu tháng 7, TikTok food Việt Nam chuyển sang ba hướng song song: trend snack độc lạ mới, storytelling cảm xúc và format khám phá nguyên liệu bí ẩn. @tracuami có lợi thế tự nhiên ở cả ba - tré trộn Huế là món ăn vặt độc lạ chính hiệu với câu chuyện khách quen trải dài nhiều năm. Bối cảnh Luật Chuyển đổi số và danh mục công nghệ cao mới hiệu lực từ 1/7 tạo thêm không gian cho người làm nội dung số phát triển."
+    "note": "Đầu tháng 7/2026, TikTok food Việt xoay quanh các món ăn vặt truyền thống được làm mới và cuộc chiến hương vị vùng miền - chân gà, da heo, bánh tráng tỏi đều có điểm chung là texture giòn-cay-mặn đang chiếm lĩnh xu hướng. @tracuami có lợi thế tự nhiên với chân gà sốt Thái và tré trộn Huế (cả hai đều có bì heo giòn và hương vị vùng miền đặc sắc). Chỉ cần format clip đúng trend so sánh và kể chuyện nguyên liệu là có thể bắt sóng ngay."
   }
 }
