@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-07T07:48:47Z",
-  "updated_at_vn": "14:48 07/07/2026",
+  "updated_at": "2026-07-07T08:45:00Z",
+  "updated_at_vn": "15:45 07/07/2026",
   "session_date": "2026-07-07",
   "data_quality": "live",
   "vnindex": {
     "close": 1848.25,
     "change": 4.75,
     "change_pct": 0.26,
-    "note": "VN-Index phiên 6/7 giảm 18,58 điểm (-1,0%) về 1.843,5 điểm khi lực cầu hờ hững và áp lực điều chỉnh lan rộng sang nhóm ngân hàng, bất động sản; FPT là điểm sáng hiếm hoi khi ngược dòng tăng 0,97%. Thanh khoản tiếp tục ở vùng trũng thấp, khối ngoại bán ròng mạnh - thị trường đang tích lũy quanh 1.840-1.850 điểm và chờ kết quả kinh doanh quý 2/2026 để xác định xu hướng tiếp theo."
+    "note": "VN-Index phiên 7/7 nhích nhẹ 4,75 điểm (+0,26%) lên 1.848,25 điểm, hồi phục kỹ thuật nhẹ sau chuỗi giảm trước đó; tuy nhiên dòng tiền vẫn thận trọng, khối ngoại tiếp tục bán ròng mạnh, thị trường chờ kết quả kinh doanh quý 2/2026 là chất xúc tác để xác định xu hướng tiếp theo."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
-      "comment": "Giá 73.000 đồng lỗ 17,8% so với giá vốn 88.850, nhưng FPT ngược dòng tăng +0,97% trong phiên VN-Index giảm 1% - tín hiệu tích cực từ nhóm công nghệ. Vẫn trên ngưỡng theo dõi sát 71.400 (stoploss 68.000 x 1,05); không mua thêm khi đang lỗ sâu, sẵn sàng cắt lỗ ngay nếu thủng 68.000."
+      "comment": "Giá 73.200 đồng, lỗ 17,61% so với giá vốn 88.850; FPT tăng nhẹ +0,27% theo đà hồi phục chung, vẫn trên ngưỡng theo dõi sát 71.400 (stoploss 68.000 x 1,05) - giữ vị thế, không mua thêm khi đang lỗ sâu, sẵn sàng cắt lỗ ngay nếu thủng 68.000."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 16.400 đồng lãi 15,9% so với giá vốn 14.150; nhóm ngân hàng chịu áp lực điều chỉnh nhẹ -0,61% phiên 6/7 nhưng SSB vẫn vững trên vùng 16.000. Giữ 100 cổ phiếu, mục tiêu 18.000, cắt lỗ 12.500."
+      "comment": "Giá 16.400 đồng, lãi 15,9% so với giá vốn 14.150; SSB đứng giá ổn định trong bối cảnh nhóm ngân hàng hồi phục nhẹ phiên 7/7 - giữ 100 cổ phiếu, mục tiêu 18.000, cắt lỗ 12.500."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "GIỮ",
-      "comment": "Giá 23.100 đồng lỗ nhẹ 2,1% so với giá vốn 23.600; nhóm thép giảm -0,65% cùng xu hướng điều chỉnh chung phiên 6/7, chưa có catalyst mới. Giữ theo kế hoạch trung hạn, mục tiêu 28.000, cắt lỗ 21.000."
+      "comment": "Giá 23.100 đồng, lỗ nhẹ 2,12% so với giá vốn 23.600; HPG đứng giá, chưa có catalyst mới từ nhóm thép - giữ theo kế hoạch trung hạn, mục tiêu 28.000, cắt lỗ 21.000."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "GIỮ",
-      "comment": "Giá 25.300 đồng lãi nhẹ 0,6% so với giá vốn 25.150; nhóm ngân hàng chịu áp lực điều chỉnh -1,17% phiên 6/7 nhưng MBB vẫn trên mức hòa vốn. Giữ, mục tiêu 30.000, cắt lỗ 22.500."
+      "comment": "Giá 25.750 đồng, lãi 2,39% so với giá vốn 25.150; MBB tăng +1,78% dẫn dắt nhóm ngân hàng phiên hồi phục 7/7 - giữ, mục tiêu 30.000, cắt lỗ 22.500."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22600.0,
       "change_pct": 1.8,
-      "comment": "ACB giảm -1,99% phiên 6/7 cùng áp lực bán lan rộng toàn nhóm ngân hàng; thanh khoản thấp và khối ngoại bán ròng mạnh - tiếp tục theo dõi, chưa vào lệnh, chờ thị trường ổn định và VN-Index vượt vùng kháng cự 1.890 điểm bền vững."
+      "comment": "ACB tăng +1,8% phiên 7/7 cùng đà hồi phục nhóm ngân hàng - tích cực ngắn hạn nhưng chưa đủ xác nhận; tiếp tục theo dõi, chờ VN-Index hồi phục bền vững trên 1.870-1.890 điểm trước khi cân nhắc vào lệnh."
     }
   ],
   "gold": {
-    "sjc_buy": 148400000,
-    "sjc_sell": 151400000,
-    "note": "Vàng SJC ổn định 148,4-151,4 triệu đồng/lượng, không thay đổi so với hôm qua; vàng thế giới giao ngay quanh 4.174 USD/ounce, chênh lệch trong nước so với quốc tế vẫn cao. Không nên mua thêm khi giá vẫn neo ở vùng cao, chưa có tín hiệu đảo chiều rõ."
+    "sjc_buy": 147500000,
+    "sjc_sell": 150500000,
+    "note": "Vàng SJC hôm nay 7/7 giảm 500.000 đồng/lượng so với hôm qua, giao dịch ở mức 147,5-150,5 triệu đồng/lượng (mua-bán); vàng thế giới quanh 4.135 USD/ounce. Không mua thêm khi giá đang điều chỉnh và chưa có tín hiệu đảo chiều rõ ràng."
   },
   "news_vn": [
     {
-      "title": "Phân tích kỹ thuật phiên chiều 06/07: Áp lực điều chỉnh vẫn hiện hữu",
-      "summary": "Phiên chiều 6/7, VN-Index tiếp tục chịu áp lực điều chỉnh khi lực cầu hờ hững khiến chỉ số giảm về 1.843,5 điểm (-1,0%); FPT là điểm sáng hiếm hoi ngược dòng tăng trong khi nhóm ngân hàng và bất động sản tiếp tục điều chỉnh. Thanh khoản ở mức thấp, các chỉ báo kỹ thuật tiếp tục cho tín hiệu thận trọng ngắn hạn.",
+      "title": "Phân tích kỹ thuật phiên chiều 07/07: Tiến về đáy cũ tháng 06/2026",
+      "summary": "VN-Index đang tiến về đáy cũ tháng 6/2026 (vùng 1.770-1.810 điểm); chỉ số cắt xuống dưới đường SMA 50 ngày, chỉ báo Stochastic Oscillator tiếp tục giảm sau khi cắt dưới đường signal - tâm lý nhà đầu tư thận trọng, dòng tiền lớn đứng ngoài quan sát.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/07/phan-tich-ky-thuat-phien-chieu-0607-ap-luc-dieu-chinh-van-hien-huu-585-1462762.htm"
+      "url": "https://vietstock.vn/2026/07/phan-tich-ky-thuat-phien-chieu-0707-tien-ve-day-cu-thang-062026-585-1463245.htm"
+    },
+    {
+      "title": "Xu hướng chứng khoán 7/7: Nhà đầu tư có thể mua mới cổ phiếu với tỷ trọng thấp",
+      "summary": "Các công ty chứng khoán khuyến nghị nhà đầu tư có thể mua mới cổ phiếu với tỷ trọng thấp ở các nhịp điều chỉnh ngày 7/7; ưu tiên nhóm ngân hàng và chứng khoán có nền tảng cơ bản vững, kỳ vọng kết quả kinh doanh quý 2/2026 tích cực là chất xúc tác.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/xu-huong-chung-khoan-7-7-nha-dau-tu-co-the-mua-moi-co-phieu-voi-ty-trong-thap"
     },
     {
       "title": "Nhận định chứng khoán tuần 6-10/7: Dòng tiền phân hóa, chờ kết quả quý 2",
-      "summary": "Tuần 6-10/7/2026, chuyên gia nhận định dòng tiền phân hóa mạnh trong bối cảnh thanh khoản ở vùng trũng thấp; thị trường đang tích lũy quanh 1.840-1.850 điểm và chờ kết quả kinh doanh quý 2/2026 là chất xúc tác tạo xu hướng mới. Khối ngoại bán ròng hơn 3.000 tỷ đồng/tuần là rủi ro cần theo dõi sát.",
-      "source": "Xaluan",
+      "summary": "Tuần 6-10/7/2026, chuyên gia nhận định dòng tiền tiếp tục phân hóa mạnh khi thanh khoản ở vùng thấp; thị trường chờ kết quả kinh doanh quý 2/2026 là chất xúc tác tạo xu hướng mới, khối ngoại bán ròng hơn 3.000 tỷ đồng/tuần là rủi ro cần theo dõi sát.",
+      "source": "Xaluannews",
       "url": "https://www.xaluannews.com/modules.php?name=News&file=article&sid=3745568"
-    },
-    {
-      "title": "VN-INDEX hồi phục phân hóa - có thể thăm dò vị thế mới với kỳ vọng KQKD quý 2/2026",
-      "summary": "VFS nhận định VN-Index có thể hồi phục và thăm dò vị thế mới trong tuần 6-10/7 nhờ kỳ vọng kết quả kinh doanh quý 2/2026 tích cực; tuy nhiên thanh khoản thấp và áp lực bán ròng từ khối ngoại là yếu tố cản trở đà tăng ngắn hạn, nhà đầu tư nên thận trọng khi giải ngân mới.",
-      "source": "VFS",
-      "url": "https://www.vfs.com.vn/vn-index-hoi-phuc-phan-hoa-co-the-tham-do-vi-the-moi-voi-ky-vong-kqkd-q2-2026"
     }
   ],
   "advice": {
-    "summary": "Phiên 6/7, VN-Index giảm 18,58 điểm (-1,0%) về 1.843,5 điểm với thanh khoản tiếp tục ở vùng trũng và khối ngoại bán ròng mạnh; FPT ngược dòng tăng +0,97% là điểm sáng hiếm hoi trong danh mục. Danh mục đang lỗ 16,1% chủ yếu do FPT kéo giảm, SSB lãi 15,9% là điểm tựa tốt, MBB lãi nhẹ 0,6%. Vàng SJC ổn định 148,4-151,4 triệu/lượng, không biến động. Chiến lược: giữ nguyên danh mục, kỷ luật stoploss FPT tại 68.000, chờ kết quả kinh doanh quý 2 doanh nghiệp và VN-Index vượt vùng kháng cự 1.890 điểm bền vững mới cân nhắc tăng tỷ trọng.",
+    "summary": "Phiên 7/7, VN-Index nhích nhẹ 4,75 điểm (+0,26%) lên 1.848,25 điểm - hồi phục kỹ thuật nhẹ sau chuỗi giảm, nhưng áp lực bán từ khối ngoại vẫn lớn và dòng tiền nội chưa trở lại mạnh. Danh mục đang lỗ 15,88% chủ yếu do FPT kéo giảm; MBB lãi 2,39% và SSB lãi 15,9% là điểm tựa ổn định. Vàng SJC giảm 500.000 đồng/lượng xuống 147,5-150,5 triệu hôm nay, không nên mua thêm. Chiến lược: giữ nguyên danh mục, kỷ luật stoploss FPT tại 68.000, chờ kết quả kinh doanh quý 2 và VN-Index xác nhận hồi phục bền vững trên 1.870 điểm trước khi cân nhắc tăng tỷ trọng.",
     "actions": [
-      "FPT: GIỮ - giá 73.000, lỗ 17,8% so với giá vốn 88.850, nhưng ngược dòng +0,97% phiên 6/7; trên ngưỡng theo dõi sát 71.400 (stoploss 68.000 x 1,05) - không mua thêm khi đang lỗ sâu, sẵn sàng cắt lỗ ngay nếu thủng 68.000.",
-      "SSB: GIỮ - giá 16.400, lãi 15,9% so với giá vốn 14.150; nhóm ngân hàng điều chỉnh nhẹ nhưng SSB vững, giữ 100 cổ phiếu, mục tiêu 18.000, cắt lỗ 12.500.",
-      "HPG: GIỮ - giá 23.100, lỗ nhẹ 2,1% so với giá vốn 23.600; nhóm thép chưa có catalyst rõ, giữ theo kế hoạch trung hạn, mục tiêu 28.000, cắt lỗ 21.000.",
-      "MBB: GIỮ - giá 25.300, lãi nhẹ 0,6% so với giá vốn 25.150; nhóm ngân hàng điều chỉnh phiên 6/7 nhưng MBB vẫn trên hòa vốn, giữ, mục tiêu 30.000, cắt lỗ 22.500.",
-      "Tiền mới: chưa giải ngân; chờ VN-Index vượt kháng cự 1.890 điểm bền vững và thanh khoản phục hồi mới cân nhắc tăng tỷ trọng.",
-      "ACB (watchlist): giá 22.200, giảm -1,99% phiên 6/7 cùng áp lực bán toàn nhóm ngân hàng - tiếp tục theo dõi, chưa vào lệnh.",
-      "Vàng SJC: ổn định 148,4-151,4 triệu/lượng, không biến động so với hôm qua - không mua thêm khi giá vẫn neo ở vùng cao."
+      "FPT: GIỮ - giá 73.200, lỗ 17,61% so với giá vốn 88.850; tăng nhẹ +0,27% phiên hồi phục nhưng vẫn lỗ sâu - không mua thêm, sẵn sàng cắt lỗ ngay nếu thủng 68.000.",
+      "SSB: GIỮ - giá 16.400, lãi 15,9% so với giá vốn 14.150; đứng giá ổn định, giữ 100 cổ phiếu, mục tiêu 18.000, cắt lỗ 12.500.",
+      "HPG: GIỮ - giá 23.100, lỗ nhẹ 2,12% so với giá vốn 23.600; chưa có catalyst mới từ nhóm thép, giữ theo kế hoạch trung hạn, mục tiêu 28.000, cắt lỗ 21.000.",
+      "MBB: GIỮ - giá 25.750, lãi 2,39% so với giá vốn 25.150; tăng tốt +1,78% dẫn nhóm ngân hàng, giữ, mục tiêu 30.000, cắt lỗ 22.500.",
+      "Tiền mới: chưa giải ngân; chờ VN-Index xác nhận hồi phục bền vững trên 1.870-1.890 điểm và thanh khoản phục hồi trước khi cân nhắc tăng tỷ trọng.",
+      "ACB (watchlist): giá 22.600, tăng +1,8% phiên 7/7 - tích cực nhưng chưa đủ tín hiệu xác nhận, tiếp tục theo dõi, chưa vào lệnh.",
+      "Vàng SJC: giảm xuống 147,5-150,5 triệu/lượng hôm nay - không mua thêm khi giá đang điều chỉnh và chưa có đáy rõ."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
