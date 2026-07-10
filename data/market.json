@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-09T10:56:23Z",
-  "updated_at_vn": "17:56 09/07/2026",
-  "session_date": "2026-07-09",
+  "updated_at": "2026-07-10T06:26:26Z",
+  "updated_at_vn": "13:26 10/07/2026",
+  "session_date": "2026-07-10",
   "data_quality": "live",
   "vnindex": {
-    "close": 1840.7,
-    "change": -13.0,
-    "change_pct": -0.7,
+    "close": 1834.4,
+    "change": -6.3,
+    "change_pct": -0.34,
     "note": "VN-Index phiên 9/7 giảm 13,0 điểm (-0,70%) đóng cửa tại 1.840,7 điểm, thanh khoản ảm đạm với biên độ giằng co thu hẹp; nhóm cổ phiếu năng lượng ngược dòng tỏa sáng nhưng không đủ bù đắp áp lực từ khối ngoại tiếp tục bán ròng - thị trường cần xác nhận bền vững trên 1.850 điểm để duy trì nhịp phục hồi."
   },
   "holdings": [
@@ -14,14 +14,14 @@
       "ticker": "FPT",
       "qty": 800,
       "avg_cost": 88850,
-      "price": 72100.0,
-      "change_pct": 0.0,
-      "value": 57680000.0,
-      "pnl": -13400000.0,
-      "pnl_pct": -18.85,
+      "price": 71300.0,
+      "change_pct": -1.11,
+      "value": 57040000.0,
+      "pnl": -14040000.0,
+      "pnl_pct": -19.75,
       "target": 116000,
       "stoploss": 68000,
-      "action": "GIỮ",
+      "action": "THEO DÕI SÁT",
       "comment": "Giá 72.100 đồng, lỗ 18,85% so với giá vốn 88.850; FPT cách ngưỡng theo dõi sát (71.400) chỉ 700 đồng - tiếp tục GIỮ nhưng giám sát chặt, sẵn sàng cắt lỗ ngay khi thủng 68.000."
     },
     {
@@ -29,7 +29,7 @@
       "qty": 100,
       "avg_cost": 14150,
       "price": 15950.0,
-      "change_pct": -2.74,
+      "change_pct": 0.0,
       "value": 1595000.0,
       "pnl": 180000.0,
       "pnl_pct": 12.72,
@@ -56,11 +56,11 @@
       "ticker": "MBB",
       "qty": 100,
       "avg_cost": 25150,
-      "price": 24600.0,
-      "change_pct": -1.6,
-      "value": 2460000.0,
-      "pnl": -55000.0,
-      "pnl_pct": -2.19,
+      "price": 24750.0,
+      "change_pct": 0.61,
+      "value": 2475000.0,
+      "pnl": -40000.0,
+      "pnl_pct": -1.59,
       "target": 30000,
       "stoploss": 22500,
       "action": "GIỮ",
@@ -69,15 +69,15 @@
   ],
   "totals": {
     "cost": 77370000.0,
-    "value": 64055000.0,
-    "pnl": -13315000.0,
-    "pnl_pct": -17.21
+    "value": 63430000.0,
+    "pnl": -13940000.0,
+    "pnl_pct": -18.02
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 22800.0,
-      "change_pct": 0.44,
+      "price": 22700.0,
+      "change_pct": -0.44,
       "comment": "ACB giá 22.800 đồng, khối ngoại tiếp tục bán ròng phiên 9/7 gây áp lực nhóm ngân hàng - chưa đủ tín hiệu xác nhận phục hồi, tiếp tục theo dõi, chưa vào lệnh."
     }
   ],
