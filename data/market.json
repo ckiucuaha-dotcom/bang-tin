@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-10T07:43:39Z",
-  "updated_at_vn": "14:43 10/07/2026",
+  "updated_at": "2026-07-10T08:45:00Z",
+  "updated_at_vn": "15:45 10/07/2026",
   "session_date": "2026-07-10",
   "data_quality": "live",
   "vnindex": {
     "close": 1827.64,
     "change": -13.06,
     "change_pct": -0.71,
-    "note": "VN-Index phiên 9/7 giảm 13,0 điểm (-0,70%) đóng cửa tại 1.840,7 điểm, thanh khoản ảm đạm với biên độ giằng co thu hẹp; nhóm cổ phiếu năng lượng ngược dòng tỏa sáng nhưng không đủ bù đắp áp lực từ khối ngoại tiếp tục bán ròng - thị trường cần xác nhận bền vững trên 1.850 điểm để duy trì nhịp phục hồi."
+    "note": "VN-Index phiên 10/7 giảm 13,06 điểm (-0,71%) đóng cửa tại 1.827,64 điểm trong bối cảnh sắc đỏ bao phủ toàn thị trường, thanh khoản sụt giảm kéo dài và khối ngoại tiếp tục bán ròng mạnh vào FPT; thị trường cần xác nhận giữ vững ngưỡng hỗ trợ 1.820-1.830 điểm trước khi cân nhắc giải ngân."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 72.100 đồng, lỗ 18,85% so với giá vốn 88.850; FPT cách ngưỡng theo dõi sát (71.400) chỉ 700 đồng - tiếp tục GIỮ nhưng giám sát chặt, sẵn sàng cắt lỗ ngay khi thủng 68.000."
+      "comment": "Giá 70.900 đồng (-1,66%), lỗ 20,20% so với giá vốn 88.850; đã thủng ngưỡng theo dõi sát 71.400, khối ngoại xả mạnh hơn 141 tỷ phiên 10/7 - giám sát chặt từng phiên, sẵn sàng cắt lỗ ngay khi giá thủng 68.000."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.950 đồng, lãi 12,72% so với giá vốn 14.150; SSB vẫn duy trì vùng lãi ổn định, mục tiêu 18.000 còn xa - giữ nguyên 100 cổ phiếu, cắt lỗ 12.500."
+      "comment": "Giá 16.100 đồng (+0,94%), lãi 13,78% so với giá vốn 14.150; SSB là điểm sáng trong phiên đỏ 10/7 - giữ 100 cổ phiếu, mục tiêu 18.000, cắt lỗ 12.500."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "GIỮ",
-      "comment": "Giá 23.200 đồng, lỗ nhẹ 1,69% so với giá vốn 23.600; nhóm thép chưa có catalyst mới trong phiên 9/7, giữ theo kế hoạch trung hạn, mục tiêu 28.000, cắt lỗ 21.000."
+      "comment": "Giá 23.000 đồng (-0,86%), lỗ nhẹ 2,54% so với giá vốn 23.600; nhóm thép chưa có catalyst mới, thị trường 10/7 tiếp tục đỏ - giữ trung hạn, mục tiêu 28.000, cắt lỗ 21.000."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "GIỮ",
-      "comment": "Giá 24.600 đồng, lỗ nhẹ 2,19% so với giá vốn 25.150; MBB chịu áp lực bán phiên 9/7 khi nhóm ngân hàng điều chỉnh - giữ vị thế, mục tiêu 30.000, cắt lỗ 22.500."
+      "comment": "Giá 24.700 đồng (+0,41%), lỗ nhẹ 1,79% so với giá vốn 25.150; MBB nhích nhẹ phiên 10/7 dù thị trường đỏ - giữ vị thế, mục tiêu 30.000, cắt lỗ 22.500."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22550.0,
       "change_pct": -1.1,
-      "comment": "ACB giá 22.800 đồng, khối ngoại tiếp tục bán ròng phiên 9/7 gây áp lực nhóm ngân hàng - chưa đủ tín hiệu xác nhận phục hồi, tiếp tục theo dõi, chưa vào lệnh."
+      "comment": "ACB giá 22.550 đồng (-1,10%) phiên 10/7; nhóm ngân hàng tiếp tục điều chỉnh hai phiên liên tiếp, khối ngoại bán ròng gây áp lực - chưa đủ tín hiệu xác nhận phục hồi, chưa vào lệnh."
     }
   ],
   "gold": {
-    "sjc_buy": 145500000,
-    "sjc_sell": 148500000,
-    "note": "Vàng SJC ngày 9/7 tiếp tục giảm 1.000.000 đồng/lượng so với hôm qua, giao dịch ở mức 145,5-148,5 triệu đồng/lượng (mua-bán); vàng thế giới lùi về 4.030 USD/ounce do lo ngại lãi suất khi giá dầu tăng mạnh. Xu hướng điều chỉnh ngắn hạn, không mua thêm."
+    "sjc_buy": 146900000,
+    "sjc_sell": 149900000,
+    "note": "Vàng SJC ngày 10/7 tăng nhẹ 600.000-1.000.000 đồng/lượng so với hôm qua, giao dịch ở mức 146,9-149,9 triệu đồng/lượng (mua-bán); vàng thế giới ở mức 4.121 USD/ounce. Không vội mua thêm, theo dõi thêm diễn biến."
   },
   "news_vn": [
     {
-      "title": "Nhịp đập Thị trường 09/07: Biên độ giằng co thu hẹp, thanh khoản vẫn ảm đạm",
-      "summary": "VN-Index phiên 9/7 diễn biến giằng co trong biên độ hẹp với thanh khoản ảm đạm; nhóm năng lượng ngược dòng tỏa sáng nhưng không đủ kéo chỉ số, khối ngoại tiếp tục bán ròng là lực cản chính cho đà phục hồi ngắn hạn.",
+      "title": "Nhịp đập Thị trường 10/07: Sắc đỏ bao phủ",
+      "summary": "VN-Index phiên 10/7 tiếp tục điều chỉnh với sắc đỏ bao phủ toàn thị trường, thanh khoản sụt giảm kéo dài, độ rộng nghiêng hẳn về phía bán với 346 mã giảm - 227 mã tăng; khối ngoại bán ròng mạnh và áp lực điều chỉnh chưa có dấu hiệu dứt.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/07/nhip-dap-thi-truong-0907-bien-do-giang-co-thu-hep-thanh-khoan-van-am-dam-1636-1464229.htm"
+      "url": "https://vietstock.vn/2026/07/nhip-dap-thi-truong-1007-sac-do-bao-phu-1636-1464784.htm"
     },
     {
-      "title": "Vietstock Daily 09/07/2026: Giữ nhịp phục hồi",
-      "summary": "Phân tích phiên 9/7 cho thấy VN-Index duy trì nhịp phục hồi mong manh trong vùng 1.840-1.855 điểm; chuyên gia khuyến nghị theo dõi thanh khoản cải thiện và vùng hỗ trợ 1.840 điểm trước khi xác nhận xu hướng tăng bền vững.",
+      "title": "Phân tích kỹ thuật phiên chiều 10/07: Diễn biến trái chiều",
+      "summary": "VN-Index phiên chiều 10/7 xuất hiện nến thân nhỏ bóng trên dài, áp lực bán chiếm ưu thế và chỉ số nằm dưới đường Middle của Bollinger Bands; thị trường cần xác nhận giữ vững vùng hỗ trợ trước khi hồi phục.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/07/vietstock-daily-09072026-giu-nhip-phuc-hoi-1636-1464055.htm"
+      "url": "https://vietstock.vn/2026/07/phan-tich-ky-thuat-phien-chieu-1007-dien-bien-trai-chieu-585-1464847.htm"
     },
     {
-      "title": "Chứng khoán phái sinh ngày 09/07/2026: Thanh khoản toàn thị trường tăng trở lại",
-      "summary": "Thị trường phái sinh phiên 9/7 ghi nhận thanh khoản toàn thị trường tăng trở lại so với phiên trước; khối ngoại tiếp tục bán ròng trên thị trường chứng quyền trong bối cảnh VN-Index giằng co ở vùng hỗ trợ 1.840 điểm.",
-      "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/07/chung-khoan-phai-sinh-ngay-09072026-thanh-khoan-toan-thi-truong-tang-tro-lai-1636-1463943.htm"
+      "title": "Nhận định chứng khoán 10/7: Áp lực điều chỉnh chưa dứt, ưu tiên quản trị rủi ro",
+      "summary": "Chuyên gia nhận định phiên 10/7 áp lực điều chỉnh chưa dứt trên TTCK Việt Nam; khuyến nghị ưu tiên quản trị rủi ro, hạn chế giải ngân mới cho đến khi thị trường có xác nhận xu hướng phục hồi bền vững.",
+      "source": "VOV",
+      "url": "http://vov.vn/thi-truong/nhan-dinh-chung-khoan-107-ap-luc-dieu-chinh-chua-dut-uu-tien-quan-tri-rui-ro-post1313955.vov"
     }
   ],
   "advice": {
-    "summary": "Phiên 9/7, VN-Index giảm 13,0 điểm (-0,70%) về 1.840,7 điểm trong bối cảnh thanh khoản ảm đạm và khối ngoại tiếp tục bán ròng. Danh mục đang lỗ 17,21% chủ yếu do FPT kéo giảm (-18,85%); SSB lãi 12,72% là điểm sáng duy nhất. Vàng SJC giảm về 145,5-148,5 triệu/lượng, không nên mua thêm. Chiến lược: giữ nguyên toàn bộ danh mục, đặc biệt theo dõi FPT đang tiệm cận ngưỡng theo dõi sát 71.400 - sẵn sàng cắt lỗ ngay nếu thủng 68.000.",
+    "summary": "Phiên 10/7, VN-Index giảm 13,06 điểm (-0,71%) về 1.827,64 điểm, thị trường đỏ hai phiên liên tiếp. Danh mục lỗ 18,44% với điểm đáng lo ngại nhất là FPT (70.900 đồng, lỗ 20,20%) đã thủng ngưỡng theo dõi sát 71.400 - cần giám sát cực kỳ chặt. SSB tăng nhẹ (+0,94%) là điểm sáng duy nhất với lãi 13,78%. Vàng SJC tăng lên 146,9-149,9 triệu/lượng, chưa cần mua thêm.",
     "actions": [
-      "FPT: GIỮ - giá 72.100, lỗ 18,85% so với giá vốn 88.850; cách ngưỡng theo dõi sát 71.400 chỉ 700 đồng, giám sát chặt, cắt lỗ ngay khi thủng 68.000.",
-      "SSB: GIỮ - giá 15.950, lãi 12,72% so với giá vốn 14.150; mục tiêu 18.000 còn xa, giữ 100 cổ phiếu, cắt lỗ 12.500.",
-      "HPG: GIỮ - giá 23.200, lỗ nhẹ 1,69% so với giá vốn 23.600; nhóm thép chưa có catalyst mới, giữ trung hạn, mục tiêu 28.000, cắt lỗ 21.000.",
-      "MBB: GIỮ - giá 24.600, lỗ nhẹ 2,19% so với giá vốn 25.150; nhóm ngân hàng điều chỉnh phiên 9/7, giữ vị thế, mục tiêu 30.000, cắt lỗ 22.500.",
-      "Tiền mới: chưa giải ngân; chờ VN-Index xác nhận giữ vững và bứt qua 1.850-1.870 điểm với thanh khoản cải thiện trước khi cân nhắc tăng tỷ trọng.",
-      "ACB (watchlist): giá 22.800, khối ngoại bán ròng gây áp lực nhóm ngân hàng - chưa đủ tín hiệu xác nhận, tiếp tục theo dõi, chưa vào lệnh.",
-      "Vàng SJC: giảm về 145,5-148,5 triệu/lượng hôm nay 9/7, vàng thế giới lùi về 4.030 USD/ounce - không mua thêm trong xu hướng điều chỉnh."
+      "FPT: THEO DÕI SÁT - giá 70.900 (-1,66%), lỗ 20,20% so với giá vốn 88.850; đã dưới ngưỡng theo dõi sát 71.400, khối ngoại xả 141 tỷ - cắt lỗ ngay nếu giá thủng 68.000.",
+      "SSB: GIỮ - giá 16.100 (+0,94%), lãi 13,78% so với giá vốn 14.150; giữ 100 cổ phiếu, mục tiêu 18.000, cắt lỗ 12.500.",
+      "HPG: GIỮ - giá 23.000 (-0,86%), lỗ nhẹ 2,54% so với giá vốn 23.600; giữ trung hạn, mục tiêu 28.000, cắt lỗ 21.000.",
+      "MBB: GIỮ - giá 24.700 (+0,41%), lỗ nhẹ 1,79% so với giá vốn 25.150; giữ vị thế, mục tiêu 30.000, cắt lỗ 22.500.",
+      "Tiền mới: chưa giải ngân; chờ thị trường xác nhận giữ vững ngưỡng hỗ trợ 1.820-1.830 điểm và khối ngoại giảm bán ròng.",
+      "ACB (watchlist): giá 22.550 (-1,10%), nhóm ngân hàng điều chỉnh hai phiên liên tiếp - chưa đủ tín hiệu, chưa vào lệnh.",
+      "Vàng SJC: tăng nhẹ lên 146,9-149,9 triệu/lượng ngày 10/7, vàng thế giới 4.121 USD/ounce - không mua thêm."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
