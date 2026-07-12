@@ -1,218 +1,218 @@
 {
-  "updated_at": "2026-07-11T00:10:00Z",
-  "updated_at_vn": "07:10 11/07/2026",
+  "updated_at": "2026-07-12T00:10:00Z",
+  "updated_at_vn": "07:10 12/07/2026",
   "ai": [
     {
-      "title": "Anthropic ra mắt Reflect - dashboard theo dõi thói quen dùng Claude theo phong cách Spotify Wrapped",
-      "summary": "Ngày 10/7, Anthropic giới thiệu tính năng Reflect trong phần Settings, hiển thị tổng quan hàng tháng về cách người dùng tương tác với Claude: chủ đề đã bàn luận, ngày bận nhất, giờ cao điểm và tổng số cuộc hội thoại. Settings > Time and focus cho phép đặt nhắc nhở nghỉ giải lao và giờ yên tĩnh tùy chọn. Reflect hiện ở beta trên tất cả gói Free, Pro và Max trên web và Claude Desktop, yêu cầu bật tính năng bộ nhớ (Memory).",
-      "why_it_matters": "Reflect giúp chủ repo nhận ra mình đang dùng Claude Code vào việc gì nhiều nhất và giờ nào năng suất cao nhất, từ đó tối ưu workflow hằng ngày mà không cần tự ghi chép thủ công.",
-      "source": "Dataconomy",
-      "url": "https://dataconomy.com/2026/07/10/claude-gets-reflect-dashboard-to-track-ai-usage/",
-      "published": "2026-07-10",
-      "hot": false
-    },
-    {
-      "title": "Anthropic bổ nhiệm cựu Chủ tịch Fed Ben Bernanke vào Long-Term Benefit Trust - ban kiểm soát độc lập",
-      "summary": "Ngày 9/7, Anthropic công bố bổ nhiệm Ben Bernanke - cựu Chủ tịch Cục Dự trữ Liên bang Mỹ và người đoạt Giải Nobel Kinh tế 2022 - vào Long-Term Benefit Trust, cơ quan quản trị độc lập của công ty. Các thành viên Trust không nắm cổ phần Anthropic và nhiệm vụ chính là bổ nhiệm hội đồng quản trị, đảm bảo sứ mệnh phát triển AI an toàn vì lợi ích nhân loại. Bernanke là thành viên thứ tư cùng Neil Buddy Shah, Richard Fontaine và Mariano-Florentino Cuéllar.",
-      "why_it_matters": "Việc một cựu chủ tịch Fed tham gia ban quản trị Anthropic cho thấy công ty đang xây dựng uy tín thể chế nghiêm túc, là tín hiệu tích cực về tính bền vững lâu dài của nền tảng mà chủ repo đang dùng hằng ngày.",
-      "source": "Anthropic",
-      "url": "https://www.anthropic.com/news/ben-bernanke",
-      "published": "2026-07-09",
-      "hot": false
-    },
-    {
-      "title": "ByteDance ra mắt Seedream 5.0 Pro - model tạo ảnh AI đa ngôn ngữ với chỉnh sửa theo lớp và đầu ra 2K",
-      "summary": "Ngày 9/7, ByteDance giới thiệu Seedream 5.0 Pro trên nền tảng Dreamina và API công khai, cạnh tranh trực tiếp GPT-Image 2 của OpenAI. Model hỗ trợ chỉnh sửa ảnh theo từng vùng chính xác (layer separation, alpha PNG), render văn bản trong hơn 10 ngôn ngữ ngay trên ảnh, xuất native 2K, deep-thinking prompt reasoning và tích hợp tìm kiếm web thời gian thực khi tạo ảnh. Đây là model ảnh đa phương thức mạnh nhất của ByteDance từ trước đến nay.",
-      "why_it_matters": "Seedream 5.0 Pro với khả năng render tiếng Việt và tiếng Anh đồng thời trong ảnh rất hữu ích để tạo thumbnail TikTok có chữ đặc trưng cho @tracuami mà không cần Canva hay Photoshop, lại còn miễn phí thử qua Dreamina.",
-      "source": "TestingCatalog",
-      "url": "https://www.testingcatalog.com/bytedance-debuts-seedream-5-0-pro-with-advanced-reasoning/",
-      "published": "2026-07-09",
-      "hot": false
-    },
-    {
-      "title": "Fidji Simo - nhân vật số 2 OpenAI - từ chức vì bệnh mãn tính, bộ ba điều hành mới chia nhau vai trò",
-      "summary": "Ngày 9/7, Fidji Simo - CEO Applications kiêm nhân vật quyền lực thứ hai sau Sam Altman tại OpenAI - thông báo từ chức toàn thời gian do bệnh mãn tính (hội chứng rối loạn nhịp tim tư thế đứng POTS) tái phát nặng hơn dự kiến, chuyển sang vai trò cố vấn bán thời gian. Simo gia nhập OpenAI tháng 5/2025, phụ trách toàn bộ vận hành kinh doanh và sản phẩm; CFO Sarah Friar, CSO Jason Kwon và đồng sáng lập Greg Brockman chia nhau đảm nhiệm. Việc ra đi diễn ra đúng ngày OpenAI ra mắt GPT-5.6 và ChatGPT Work agent.",
-      "why_it_matters": "Khi nhân vật điều hành mảng sản phẩm quan trọng nhất OpenAI nghỉ giữa lúc cạnh tranh gay gắt với Anthropic, nguy cơ phân tán chiến lược tăng lên - người dùng Claude Code hưởng lợi nếu OpenAI mất đà trong cuộc đua developer tools.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
-      "published": "2026-07-09",
-      "hot": false
-    },
-    {
-      "title": "Google Gemini 3.5 Pro bị trì hoãn đến 17/7 - Alphabet mất 225 tỷ USD vốn hóa, 4 nhà khoa học chủ chốt rời bỏ",
-      "summary": "Google DeepMind quyết định xây lại kiến trúc Gemini 3.5 Pro từ đầu (bỏ nền tảng Gemini 2.5 Pro cũ) và dời phát hành đến ngày 17/7/2026, muộn hơn 5 tuần so với cam kết tại Google I/O. Trong cùng tuần, 4 nhà nghiên cứu cấp cao rời DeepMind: Noam Shazeer (đồng tác giả bài báo Transformer 2017, trưởng nhóm Gemini) sang OpenAI; Nobel laureate John Jumper, Jonas Adler và Alexander Pritzel cùng sang Anthropic. Alphabet mất khoảng 225 tỷ USD vốn hóa trong tuần này.",
-      "why_it_matters": "Bốn nhà khoa học hàng đầu DeepMind - trong đó có tác giả Transformer và Nobel laureate - gia nhập Anthropic, tăng đáng kể lợi thế nghiên cứu dài hạn cho Claude; chủ repo có thể tin tưởng đầu tư dài hơi vào hệ sinh thái Claude Code.",
-      "source": "The Agent Report",
-      "url": "https://the-agent-report.com/2026/07/google-gemini-3-5-pro-delayed-july-2026/",
-      "published": "2026-07-08",
+      "title": "Hôm nay là ngày cuối dùng Fable 5 miễn phí trong gói Pro/Max - hết hạn 6:59 sáng 13/7 giờ VN",
+      "summary": "Anthropic gia hạn lần hai quyền truy cập Claude Fable 5 không tính thêm chi phí cho người dùng Pro, Max, Team và Enterprise đến hết 11:59 PM PT ngày 12/7/2026 (tức 6:59 sáng 13/7 giờ VN), sau phản ứng mạnh từ cộng đồng với hạn chót ban đầu là 7/7. Fable 5 được khôi phục toàn cầu từ 1/7 sau khi Mỹ gỡ kiểm soát xuất khẩu liên quan đến lỗ hổng jailbreak mà nhóm nghiên cứu Amazon phát hiện hồi tháng 6. Sau thời điểm này, Fable 5 chuyển hoàn toàn sang dạng usage credits tính thêm phí.",
+      "why_it_matters": "Đây là ngày cuối dùng Fable 5 trong gói Pro/Max - chủ repo nên ưu tiên mọi tác vụ nặng nhất hôm nay trên Claude Code với Fable 5 trước 6:59 sáng 13/7 giờ VN để tận dụng tối đa trước khi phải trả thêm phí usage credits.",
+      "source": "Android Authority",
+      "url": "https://www.androidauthority.com/claude-fable-5-free-extension-3685103/",
+      "published": "2026-07-07",
       "hot": true
+    },
+    {
+      "title": "Claude Code CLI ra research preview Computer Use - Claude tự mở app, click giao diện từ terminal",
+      "summary": "Claude Code mở research preview tính năng Computer Use cho người dùng Pro và Max, cho phép Claude mở ứng dụng native, click giao diện đồ họa và tự xác minh kết quả thay đổi ngay từ terminal mà không cần cài đặt thêm bất kỳ thứ gì. Trong cùng đợt cập nhật, background agents tự nâng cấp ngay sau khi Claude Code cập nhật thay vì phải chờ restart phiên; kích thước binary giảm 7 MB và startup memory giảm 7 MB nhờ lazy-load dependency lớn.",
+      "why_it_matters": "Computer Use trong CLI thay đổi hoàn toàn workflow Claude Code hằng ngày - chủ repo có thể để Claude tự mở app, test giao diện, kiểm tra kết quả code mà không cần thao tác thủ công, đặc biệt hữu ích khi phát triển và kiểm tra dashboard Bảng Tin.",
+      "source": "Claude Code Docs",
+      "url": "https://code.claude.com/docs/en/whats-new",
+      "published": "2026-07-11",
+      "hot": true
+    },
+    {
+      "title": "Apple kiện OpenAI ăn cắp bí mật thương mại phần cứng AI - tích hợp ChatGPT trong Apple Intelligence lung lay",
+      "summary": "Apple đâm đơn kiện dân sự tại Tòa án Quận Bắc California ngày 10/7, cáo buộc Tang Tan (Giám đốc Phần cứng OpenAI, cựu nhân viên Apple) và Chang Liu đã tải về hàng chục file bí mật về phần cứng chưa phát hành, thông số kỹ thuật và dữ liệu dự án để hỗ trợ tham vọng phần cứng của OpenAI. Quan hệ Apple-OpenAI (tích hợp ChatGPT vào Apple Intelligence) bị đặt dấu hỏi lớn, nhất là sau khi OpenAI mua startup IO Products của Jony Ive với 6,4 tỷ USD.",
+      "why_it_matters": "Xung đột Apple-OpenAI leo thang làm tích hợp ChatGPT trong iPhone lung lay - nếu hợp tác đổ vỡ, Apple cần đối tác AI khác và Anthropic là ứng viên hàng đầu; tin tốt dài hạn cho người dùng Claude Code trên macOS và hệ sinh thái Apple.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "published": "2026-07-10",
+      "hot": true
+    },
+    {
+      "title": "GPT-5.6 Sol vượt Fable 5 trên Agents Last Exam + ChatGPT Work gộp Codex thành super app",
+      "summary": "OpenAI ra mắt GPT-5.6 Sol, Terra và Luna từ 9/7 cho tất cả người dùng; Sol đạt 53,6 điểm Agents Last Exam - vượt Fable 5 adaptive reasoning 13,1 điểm. Đồng thời OpenAI gộp Codex vào ChatGPT Work, super app tích hợp context từ toàn bộ công cụ nhóm để biến ghi chú và bản nháp rời rạc thành sản phẩm hoàn chỉnh. Sol sẽ chạy trên phần cứng Cerebras wafer-scale cho khách chọn lọc trong tháng 7 với tốc độ khoảng 750 token/giây - nhanh hơn 15 lần so với GPU thông thường.",
+      "why_it_matters": "GPT-5.6 Sol vượt Fable 5 trên benchmark nhưng benchmark không phản ánh trải nghiệm thực tế của Claude Code vốn dẫn đầu về độ tin cậy và tích hợp công cụ - chủ repo không cần thay đổi workflow, chỉ cần theo dõi phản hồi thực tế từ developer cộng đồng trước khi đánh giá lại.",
+      "source": "AI Tools Recap",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-july-11-2026",
+      "published": "2026-07-11",
+      "hot": false
+    },
+    {
+      "title": "Thị phần Claude Code tiếp cận 50% developer tools - Cursor mất đà sau thương vụ SpaceX mua lại",
+      "summary": "Dữ liệu chi tiêu từ Ramp tháng 7/2026 cho thấy thị phần Cursor giảm từ khoảng 41% xuống 26% sau khi SpaceX mua lại Anysphere với 60 tỷ USD, trong khi Anthropic leo lên gần 50% thị phần AI coding tools. GitHub Copilot cũng chuyển sang mô hình usage-based AI Credits từ tháng 7, chỉ còn code completion cơ bản miễn phí. LogRocket nhận định đây là thời điểm consolidation của thị trường AI coding tools với hai cực là Claude Code và GPT-5.6 Sol.",
+      "why_it_matters": "Thị phần Claude Code tiếp cận 50% xác nhận đây là công cụ chính thống cho developer chuyên nghiệp - chủ repo đang đi đúng xu hướng và đầu tư vào workflow Claude Code là quyết định dài hạn đúng đắn.",
+      "source": "LogRocket Blog",
+      "url": "https://blog.logrocket.com/ai-dev-tool-power-rankings/",
+      "published": "2026-07-01",
+      "hot": false
     }
   ],
   "github": {
     "daily": [
       {
-        "repo": "mattpocock/skills",
-        "desc": "Bộ kỹ năng AI agent thực chiến từ file .claude cá nhân của kỹ sư Matt Pocock, tập trung vào quy trình làm việc thực tế hằng ngày cho lập trình viên chuyên nghiệp",
-        "lang": "Shell",
-        "stars": 164590,
-        "stars_period": 1712,
-        "url": "https://github.com/mattpocock/skills"
-      },
-      {
-        "repo": "iOfficeAI/OfficeCLI",
-        "desc": "Bộ ứng dụng văn phòng Word, Excel, PowerPoint được xây dựng chuyên biệt cho AI agent - đọc, tạo và chỉnh sửa tài liệu Office qua lệnh CLI không cần giao diện đồ họa",
-        "lang": "C#",
-        "stars": 14420,
-        "stars_period": 1224,
-        "url": "https://github.com/iOfficeAI/OfficeCLI"
-      },
-      {
-        "repo": "addyosmani/agent-skills",
-        "desc": "Bộ thư viện kỹ năng agentic production-grade cho Claude Code, Cursor, Codex CLI và Gemini CLI, xây dựng bởi kỹ sư trưởng Google Chrome Addy Osmani với tiêu chuẩn kỹ thuật cao hơn hẳn skills cá nhân",
-        "lang": "JavaScript",
-        "stars": 76809,
-        "stars_period": 1116,
-        "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "repo": "obra/superpowers",
-        "desc": "Framework kỹ năng agentic và phương pháp phát triển phần mềm toàn diện, chuẩn hóa cách AI agent tiếp cận và giải quyết bài toán lập trình phức tạp",
-        "lang": "Shell",
-        "stars": 251768,
-        "stars_period": 1013,
-        "url": "https://github.com/obra/superpowers"
-      },
-      {
         "repo": "wonderwhy-er/DesktopCommanderMCP",
-        "desc": "MCP server cho Claude cung cấp quyền kiểm soát terminal, tìm kiếm file hệ thống và chỉnh sửa file theo diff, mở rộng đáng kể khả năng tự động hóa máy tính để bàn của Claude Code",
+        "desc": "MCP server cho Claude cung cấp quyền kiểm soát terminal đầy đủ, tìm kiếm file hệ thống và chỉnh sửa file theo diff - bùng nổ hôm nay đúng lúc Claude Code ra Computer Use preview",
         "lang": "TypeScript",
-        "stars": 7272,
-        "stars_period": 328,
+        "stars": 7768,
+        "stars_period": 909,
         "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+      },
+      {
+        "repo": "oven-sh/bun",
+        "desc": "JavaScript runtime, bundler, test runner và package manager cực nhanh viết bằng Zig - tiếp tục tăng bền vững nhờ cộng đồng developer chuyển từ Node.js sang Bun ngày càng lớn",
+        "lang": "Zig",
+        "stars": 94562,
+        "stars_period": 658,
+        "url": "https://github.com/oven-sh/bun"
+      },
+      {
+        "repo": "google-labs-code/stitch-skills",
+        "desc": "Thư viện kỹ năng agent của Google Labs dành cho Claude Code và Cursor - chuẩn hóa cách tích hợp skills agent với IDE coding assistant theo tiêu chuẩn Google",
+        "lang": "TypeScript",
+        "stars": 7051,
+        "stars_period": 340,
+        "url": "https://github.com/google-labs-code/stitch-skills"
+      },
+      {
+        "repo": "davila7/claude-code-templates",
+        "desc": "Công cụ CLI cấu hình và giám sát Claude Code với các template khởi động nhanh cho nhiều loại dự án khác nhau",
+        "lang": "Python",
+        "stars": 29011,
+        "stars_period": 232,
+        "url": "https://github.com/davila7/claude-code-templates"
+      },
+      {
+        "repo": "hashicorp/terraform",
+        "desc": "Nền tảng Infrastructure as Code cho phép tạo, quản lý và cải thiện hạ tầng cloud một cách an toàn và có thể dự đoán được",
+        "lang": "Go",
+        "stars": 49360,
+        "stars_period": 229,
+        "url": "https://github.com/hashicorp/terraform"
       }
     ],
     "weekly": [
       {
         "repo": "Zackriya-Solutions/meetily",
-        "desc": "Trợ lý họp AI mã nguồn mở ưu tiên bảo mật - phiên âm 4x nhanh hơn Whisper, nhận diện người nói, tóm tắt bằng Ollama, 100% xử lý local không lưu dữ liệu lên cloud",
+        "desc": "Trợ lý họp AI mã nguồn mở ưu tiên bảo mật - phiên âm 4 lần nhanh hơn Whisper, nhận diện người nói, tóm tắt bằng Ollama, 100% xử lý local không lưu dữ liệu lên cloud",
         "lang": "Rust",
-        "stars": 22666,
-        "stars_period": 8795,
+        "stars": 23169,
+        "stars_period": 8579,
         "url": "https://github.com/Zackriya-Solutions/meetily"
       },
       {
-        "repo": "addyosmani/agent-skills",
-        "desc": "Tiếp tục dẫn đầu weekly với gần 8.000 sao mới, bộ skills production-grade cho AI agent đang trở thành hạ tầng chuẩn khi developer khắp nơi chuẩn hóa workflow với Claude Code và Codex",
-        "lang": "JavaScript",
-        "stars": 76809,
-        "stars_period": 7944,
-        "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
-        "repo": "asgeirtj/system_prompts_leaks",
-        "desc": "Tập hợp system prompt bị rò rỉ từ Anthropic, OpenAI, Google và nhiều nền tảng AI lớn, tài nguyên tham khảo để hiểu cách các lab cấu hình và giới hạn model trong sản phẩm thực tế",
-        "lang": "JavaScript",
-        "stars": 55818,
-        "stars_period": 7765,
-        "url": "https://github.com/asgeirtj/system_prompts_leaks"
-      },
-      {
-        "repo": "usestrix/strix",
-        "desc": "Công cụ kiểm tra thâm nhập AI mã nguồn mở, tự động hóa quy trình pentest từ trinh sát đến khai thác lỗ hổng, tăng mạnh tuần này khi cộng đồng bảo mật chú ý nhiều hơn đến AI offensive tools",
+        "repo": "bradautomates/claude-video",
+        "desc": "Cho phép Claude phân tích nội dung video thông qua trích xuất frame và phiên âm - mở rộng khả năng hiểu và làm việc với video của Claude Code",
         "lang": "Python",
-        "stars": 40137,
-        "stars_period": 6443,
-        "url": "https://github.com/usestrix/strix"
+        "stars": 7552,
+        "stars_period": 4399,
+        "url": "https://github.com/bradautomates/claude-video"
       },
       {
-        "repo": "ogulcancelik/herdr",
-        "desc": "Bộ điều phối agent đa luồng chạy ngay trong terminal, quản lý và phối hợp nhiều AI agent song song trong một giao diện dòng lệnh duy nhất, đang nổi nhanh tuần này",
+        "repo": "diegosouzapw/OmniRoute",
+        "desc": "AI gateway hỗ trợ hơn 231 nhà cung cấp AI với tính năng nén và đa phương thức - cho phép chuyển đổi linh hoạt giữa nhiều model qua một API duy nhất",
+        "lang": "TypeScript",
+        "stars": 15697,
+        "stars_period": 4375,
+        "url": "https://github.com/diegosouzapw/OmniRoute"
+      },
+      {
+        "repo": "facebook/astryx",
+        "desc": "Hệ thống thiết kế mã nguồn mở hoàn toàn tùy chỉnh và sẵn sàng cho AI agent của Meta - nổi bật tuần này khi developer xây dựng giao diện cho ứng dụng AI-native",
+        "lang": "TypeScript",
+        "stars": 7919,
+        "stars_period": 2779,
+        "url": "https://github.com/facebook/astryx"
+      },
+      {
+        "repo": "TencentCloud/CubeSandbox",
+        "desc": "Sandbox tức thì, đồng thời, an toàn và nhẹ cho AI agent của Tencent Cloud - cách ly môi trường thực thi để kiểm soát rủi ro khi triển khai agent tự động quy mô lớn",
         "lang": "Rust",
-        "stars": 15216,
-        "stars_period": 4714,
-        "url": "https://github.com/ogulcancelik/herdr"
+        "stars": 9697,
+        "stars_period": 2416,
+        "url": "https://github.com/TencentCloud/CubeSandbox"
       }
     ],
-    "trend_note": "Ngày 11/7: mattpocock/skills (+1.712 hôm nay) bùng nổ nhờ Matt Pocock công khai bộ skills từ file .claude cá nhân, xu hướng 'skills sharing từ developer thực chiến' đang lan rộng song song với addyosmani/agent-skills. obra/superpowers (+1.013) bền vững. Tuần này: meetily (+8.795) tiếp tục dẫn đầu, AI meeting assistant local-first đang trở thành lựa chọn mặc định cho team không muốn dữ liệu họp lên cloud; ogulcancelik/herdr mới nổi (+4.714) cho thấy nhu cầu điều phối multi-agent trong terminal đang tăng mạnh."
+    "trend_note": "Ngày 12/7: wonderwhy-er/DesktopCommanderMCP bùng nổ (+909 hôm nay) đúng lúc Claude Code ra Computer Use preview - hai công cụ bổ sung cho nhau hoàn hảo và rất đáng thử ngay. Tuần này: meetily (+8.579) vẫn dẫn đầu, bradautomates/claude-video (+4.399) là điểm nhấn mới nhất - xu hướng Claude hiểu và làm việc trực tiếp với video đang mở đầu; diegosouzapw/OmniRoute (+4.375) cho thấy nhu cầu multi-provider AI gateway tăng khi GPT-5.6 ra cạnh tranh trực tiếp với Fable 5."
   },
   "tech": [
     {
-      "title": "EU cảnh báo Meta phải gỡ thiết kế gây nghiện trên Facebook và Instagram hoặc bị phạt nặng",
-      "summary": "Ngày 10/7, Ủy ban châu Âu công bố kết quả điều tra sơ bộ 2 năm, xác định Meta vi phạm Đạo luật Dịch vụ Kỹ thuật số (DSA) khi thiết kế Facebook và Instagram với cuộn vô hạn, tự động phát, thông báo liên tục và đề xuất cá nhân hóa có nguy cơ gây hại tâm lý và thể chất người dùng, đặc biệt trẻ vị thành niên. EU yêu cầu Meta tắt các tính năng này hoặc đối mặt mức phạt lên đến 6% doanh thu toàn cầu; Meta phủ nhận kết quả điều tra và cho biết sẽ phản bác. Đây là một trong những vụ DSA lớn nhất từ khi luật có hiệu lực.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/10/eu-threatens-meta-with-fines-over-addictive-features-on-facebook-and-instagram/",
-      "published": "2026-07-10"
+      "title": "Starlink chốt giá tại Việt Nam 1,71 triệu đồng/tháng - thiết bị 10,27 triệu, chưa thể kết nối",
+      "summary": "Website Starlink công khai gói cước hộ gia đình tại Việt Nam với giá 1,71 triệu đồng/tháng - rẻ hơn 22% so với kỳ vọng ban đầu - kèm tốc độ 135-305 Mbps tải xuống và 20-40 Mbps tải lên không giới hạn dữ liệu. Chi phí ban đầu gồm 10,27 triệu đồng thiết bị và gần 600.000 đồng phí vận chuyển, tổng tháng đầu hơn 12,5 triệu đồng. Tuy nhiên người dùng trong nước hiện vẫn chưa thể kết nối do Starlink chưa có giấy phép hoạt động tại Việt Nam.",
+      "source": "Genk",
+      "url": "https://genk.vn/thiet-bi-gan-11-trieu-cuoc-17-trieu-moi-thang-starlink-tai-viet-nam-xung-dang-voi-ai-va-lang-phi-voi-ai-165260709141225765.chn",
+      "published": "2026-07-09"
     },
     {
-      "title": "Circle được OCC cấp phép ngân hàng tín thác quốc gia - nhà phát hành stablecoin lớn nhất lần đầu vào hệ thống ngân hàng Mỹ",
-      "summary": "Ngày 10/7, Cơ quan Kiểm soát Tiền tệ Mỹ (OCC) phê duyệt Circle - nhà phát hành USDC với hơn 73 tỷ USD lưu hành - thành lập Circle National Trust, ngân hàng tín thác quốc gia đầu tiên của một công ty stablecoin lớn. Giấy phép cho phép Circle tự quản lý dự trữ USDC mà không cần ủy thác cho ngân hàng thứ ba, bắt đầu bằng dịch vụ lưu ký cho chính Circle trước khi mở rộng quản lý toàn bộ dự trữ. Cổ phiếu Circle tăng tới 16% ngay sau thông báo.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/10/circle-gets-an-occ-bank-charter-as-stablecoin-competition-heats-up-shares-surge-14percent.html",
-      "published": "2026-07-10"
+      "title": "Siri iOS 27 chạy Gemini 2.5 Pro - Apple trả Google 1 tỷ USD/năm, ra mắt đầy đủ tháng 9/2026",
+      "summary": "Tại WWDC 2026, Apple công bố Siri được xây dựng lại hoàn toàn trên Gemini 2.5 Pro khoảng 1,2 nghìn tỷ tham số thông qua kiến trúc Private Cloud Compute đảm bảo Google không truy cập được dữ liệu người dùng. Apple trả Google khoảng 1 tỷ USD/năm cho giấy phép. Giai đoạn 1 (iOS 26.4) đã có hội thoại ngữ cảnh và tóm tắt email; iOS 27 tháng 9/2026 sẽ ra mắt toàn bộ tính năng gồm hội thoại 20 lượt và tùy chọn dùng bất kỳ model AI nào từ App Store làm não của Siri.",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/04/22/google-gemini-powered-siri-2026/",
+      "published": "2026-04-22"
     },
     {
-      "title": "DeepSeek ngừng model cũ ngày 24/7 - developer phải đổi tên model trong code trước hạn chót hoặc bị lỗi",
-      "summary": "DeepSeek sẽ ngừng hoàn toàn hai alias API deepseek-chat và deepseek-reasoner vào 15:59 UTC ngày 24/7/2026, không có giai đoạn gia hạn - bất kỳ code nào còn gọi tên model cũ sẽ trả về lỗi ngay lập tức sau thời điểm này. Migration chỉ cần đổi tên model: deepseek-chat sang deepseek-v4-flash và deepseek-reasoner sang deepseek-v4-flash (chế độ thinking), cùng API key và URL gốc. DeepSeek V4 ra mắt tháng 4/2026 với cửa sổ ngữ cảnh 1 triệu token và hai chế độ Flash và Pro.",
-      "source": "Developers Digest",
-      "url": "https://www.developersdigest.tech/blog/deepseek-chat-to-v4-migration-guide",
+      "title": "SK Hynix chuyển mẫu HBM4E 12 lớp đến khách hàng lớn - tốc độ 16 Gbps/pin, tiết kiệm điện hơn 20%",
+      "summary": "SK Hynix thông báo đã chuyển mẫu HBM4E 12 lớp thế hệ tiếp theo đến các khách hàng lớn với tốc độ xử lý dữ liệu tối đa 16 Gbps/pin và hiệu suất điện năng cải thiện hơn 20% so với thế hệ trước. SK Hynix hiện chiếm 50-55% thị phần HBM4 và dự báo đạt khoảng 70% trên nền tảng Rubin của Nvidia; hai bên đã ký thỏa thuận đối tác đa năm vào tháng 6, khóa chặt nguồn cung HBM đến 2030 trong bối cảnh nhu cầu từ hạ tầng AI tiếp tục tăng mạnh.",
+      "source": "SK Hynix Newsroom",
+      "url": "https://news.skhynix.com/12-layer-hbm4e-sample/",
       "published": "2026-07-08"
     },
     {
-      "title": "OpenAI phát hành codex-plugin-cc mã nguồn mở: plugin chính thức cho phép Claude Code gọi Codex từ đối thủ",
-      "summary": "OpenAI công bố codex-plugin-cc - plugin đầu tiên giữa hai đối thủ AI coding lớn, cho phép người dùng Claude Code gọi Codex để review code bằng /codex:review hoặc ủy thác tác vụ qua /codex:rescue mà không cần rời workflow Claude Code. Plugin mã nguồn mở, cần tài khoản ChatGPT hoặc OpenAI API key riêng để cài thêm. Repo đạt hơn 27.000 sao và nằm trong top weekly GitHub trending tuần này.",
-      "source": "AIToolly",
-      "url": "https://aitoolly.com/ai-news/article/2026-07-05-openai-launches-codex-plugin-for-claude-code-to-streamline-code-review-and-task-delegation",
-      "published": "2026-07-05"
+      "title": "GitHub Copilot chuyển sang usage-based AI Credits từ tháng 7 - code completion cơ bản vẫn miễn phí",
+      "summary": "GitHub Copilot chuyển toàn bộ các gói sang mô hình usage-based AI Credits từ tháng 7/2026, nghĩa là các tác vụ AI nâng cao như code review, chỉnh sửa đa file và agentic workflows sẽ trừ credits - chỉ còn code completion cơ bản miễn phí không giới hạn. Đây là phản ứng của GitHub trước sức cạnh tranh từ Claude Code, Cursor và Codex CLI; developer cần kiểm tra lại chi phí thực tế tháng 7 vì có thể tốn hơn dự kiến nếu dùng nhiều tính năng AI nâng cao.",
+      "source": "LogRocket Blog",
+      "url": "https://blog.logrocket.com/ai-dev-tool-power-rankings/",
+      "published": "2026-07-01"
     },
     {
-      "title": "Hội nghị LHQ tại Geneva: nhà khoa học Yoshua Bengio cảnh báo AI có thể gây hại thảm khốc, khoa học hiện tại chưa thể đảm bảo an toàn",
-      "summary": "Hội nghị Đối thoại Quản trị AI toàn cầu diễn ra tại Geneva ngày 5-7/7/2026, lần đầu tiên 193 quốc gia thành viên LHQ cùng bàn về AI. Ban khoa học độc lập 40 chuyên gia do Yoshua Bengio và Maria Ressa đồng chủ trì cảnh báo AI đang tiến đến hoặc vượt năng lực con người ở nhiều lĩnh vực và vượt xa khả năng thích ứng của chính phủ; khoa học hiện tại chưa thể đảm bảo AI sẽ không gây hại thảm khốc khi năng lực tiếp tục tăng. Chủ tịch Đại hội đồng Annalena Baerbock nhấn mạnh 99% deepfake có nội dung tình dục và 96% nhắm vào phụ nữ và trẻ em gái.",
-      "source": "UN News",
-      "url": "https://news.un.org/en/story/2026/07/1167862",
-      "published": "2026-07-07"
+      "title": "Apple kiện OpenAI ăn cắp bí mật thương mại - hai nhân viên cũ lấy cắp thông số kỹ thuật phần cứng chưa phát hành",
+      "summary": "Apple kiện Tang Tan và Chang Liu - cả hai từng làm tại Apple trước khi sang OpenAI - vì đã tải về hàng chục file bí mật về sản phẩm phần cứng chưa phát hành nhằm hỗ trợ tham vọng hardware của OpenAI, bao gồm dự án thiết bị từ thương vụ mua IO Products của Jony Ive trị giá 6,4 tỷ USD. Apple không bình luận về ảnh hưởng đến hợp tác tích hợp ChatGPT vào Apple Intelligence hiện tại, trong khi quan hệ hai bên vốn đã nguội lạnh từ khi OpenAI bước vào mảng phần cứng.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+      "published": "2026-07-10"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "Countdown chung kết World Cup 19/7 - còn 8 ngày đến đêm bóng đá lớn nhất năm",
-        "desc": "Chung kết World Cup 2026 tại MetLife Stadium (New York/New Jersey) diễn ra ngày 19/7/2026 lúc 3h sáng giờ Việt Nam với halftime show của Madonna, Shakira và BTS. Tuần cuối trước chung kết là thời điểm content World Cup bùng nổ nhất trên TikTok Việt Nam: lên kế hoạch xem bóng, chuẩn bị đồ ăn xem đêm và đếm ngược countdown đang viral khắp nơi.",
-        "fit": "@tracuami có đúng 8 ngày content cực kỳ dễ lên trending - mỗi ngày đăng 1 clip 'combo chuẩn bị chung kết': chân gà sốt Thái giao trước 2 giờ sáng, tré trộn ăn vặt xem bóng, trà trái cây giữ tỉnh xem đêm. Đặt caption đếm ngược kiểu 'Còn X ngày nữa chung kết - quán tui sẵn sàng rồi nì'.",
-        "idea": "Clip 15 giây: A Nguyên bày hộp chân gà sốt Thái, tré trộn và trà trái cây ra bàn, nói giọng Huế: 'Chung kết 19/7 lúc 3 giờ sáng đó bà con - combo ni vừa đủ xem tới sáng'. Caption: Còn 8 ngày - đặt trước combo chung kết World Cup #worldcup2026 #tracuami #changasotthai #chungketWC2026"
+        "name": "Khách quen kể chuyện - customer testimonial format viral TikTok ẩm thực tháng 7/2026",
+        "desc": "Format ngắn phỏng vấn khách quen hoặc khách lần đầu trải nghiệm quán, để khách tự nói lý do thích - đang lan rộng trên TikTok ẩm thực Việt Nam tháng 7/2026 vì tạo độ tin cậy cao hơn quảng cáo thông thường, thuật toán TikTok ưu tiên nội dung kiểu user-generated này mạnh hơn nội dung thương hiệu tự làm.",
+        "fit": "@tracuami có ưu thế lớn vì khách từ xa (Hà Nội, Sài Gòn, thậm chí Việt kiều) lần đầu thử tré trộn Huế hay chân gà sốt Thái đều có phản ứng ngạc nhiên thật sự. Chị chủ hoặc Thư phỏng vấn nhanh 15 giây ngay tại bàn là đủ - không cần kịch bản, giọng Huế thật và cảm xúc tự nhiên là điểm cộng lớn.",
+        "idea": "Clip 20 giây: Chị chủ cầm điện thoại hỏi khách du lịch mặc áo có chữ Hà Nội: 'Lần đầu ăn tré trộn Huế, thấy rứa mà ngon không?'. Khách cười: 'Ngon lắm chị, vừa chua vừa giòn, khác hoàn toàn với hình dung ban đầu'. Caption: Khách từ Hà Nội vào Huế mà ghé đây - tré trộn Huế thật thì rứa đó nha #tretrộnHuế #ẩmthựcHuế #tracuami #dulichHue"
       },
       {
-        "name": "Running a restaurant during World Cup - content hài hước quán xá tất bật mùa bóng đá khuya",
-        "desc": "Định dạng 'Running a restaurant during World Cup 2026' đang viral trên TikTok toàn cầu lẫn Việt Nam với các quán ăn, cà phê quay cảnh hậu trường đông nghịt, nhân viên kiệt sức và tình huống hài hước khi đơn hàng tràn ngập vào khuya. Content này thu hút cao vì vừa relatable với chủ quán lẫn thực khách xem World Cup.",
-        "fit": "@tracuami có góc nhìn Huế đặc sắc: A Nguyên, Nhớ và Thư xử lý hàng chục đơn chân gà sốt Thái lúc 1-2 giờ sáng trong khi TV chiếu World Cup ở góc quán. Giọng Huế hài hước ('rứa mà còn hỏi giao được không') cộng cảnh tất bật thật sự là combo viral.",
-        "idea": "Clip 20 giây: Cảnh quán tối khuya đông nghịt, Nhớ tất tả gói hàng, điện thoại reo liên tục, A Nguyên nói giọng Huế vào camera: 'World Cup ni tui không xem được trận mô - bán chân gà không kịp thở đây'. Caption: POV: Mở quán ăn vặt mùa World Cup tại Huế #worldcup2026 #tracuami #POVquanan #changasotthai"
+        "name": "Before/After transition cảnh chuẩn bị lộn xộn đến thành phẩm đẹp lung linh",
+        "desc": "Trend Before/After với hiệu ứng chuyển cảnh nhạc nền đang viral mạnh trên TikTok food toàn cầu và Việt Nam tháng 7/2026 - cảnh nguyên liệu thô hoặc nồi đang nấu bộn bề chuyển transition bắt mắt sang thành phẩm đẹp hoàn chỉnh. Format này rất hiệu quả vì gây tò mò, thể hiện tay nghề và phù hợp với nhiều loại âm nhạc.",
+        "fit": "@tracuami có nguyên liệu photogenic cực tốt - từ sả ớt, gia vị Thái đến đĩa chân gà đỏ óng bóng và bát tré trộn đầy màu sắc. Transition có thể là: cảnh A Nguyên đang chặt chân gà tất bật với nồi sốt sôi chỗ này chỗ kia → đĩa chân gà sốt Thái đỏ óng trình bày đẹp đặt xuống bàn.",
+        "idea": "Clip 12 giây: Nửa đầu cảnh A Nguyên tất bật chặt chân gà, nồi sốt đang sôi, gia vị bày khắp bàn - nhạc nền xây dần. Transition bắt mắt. Nửa sau: cận cảnh đĩa chân gà sốt Thái đỏ óng bóng được đặt xuống bàn đẹp lung linh. Caption: Từ nguyên liệu đến đĩa chân gà sốt Thái @tracuami - mất 2 tiếng để ra được đĩa này #changasotthai #tracuami #beforeafter #anvatHue"
       },
       {
-        "name": "ASMR đóng gói đồ ăn take-away khuya - trend cực hot mùa xem bóng đêm",
-        "desc": "Trend ASMR gói đồ ăn take-away cho đơn hàng khuya đang bùng nổ TikTok Việt Nam mùa World Cup 2026, với cảnh đóng hộp, đổ sốt, buộc dây và tiếng sột soạt tự nhiên thu hút hàng triệu lượt xem. Format này kết hợp ASMR thực phẩm và cảnh hậu trường nhà hàng rất hợp thuật toán TikTok.",
-        "fit": "@tracuami phù hợp tuyệt đối: chân gà sốt Thái có màu đỏ nổi bật, tiếng gắp chân gà vào hộp, đổ sốt Thái óng đỏ và đóng nắp là combo ASMR cực mạnh. Đăng lúc 10-11 giờ đêm trước trận bán kết và chung kết để bắt sóng người đặt đồ ăn khuya.",
-        "idea": "Clip 12 giây: Slow-motion cận cảnh gắp chân gà vào hộp, rót sốt Thái óng đỏ xuống chậm, đậy hộp - âm thanh tiếng sốt chảy và tiếng hộp đóng. Caption: Đơn 2 giờ sáng mùa World Cup - sẵn sàng giao #ASMR #changasotthai #tracuami #worldcup2026"
+        "name": "Đếm ngược 7 ngày chung kết World Cup - kêu gọi đặt hàng trước combo xem bóng đêm",
+        "desc": "Hôm nay 12/7, chung kết World Cup 2026 còn đúng 7 ngày (19/7 lúc 3 giờ sáng giờ VN). Trend đếm ngược kết hợp call-to-action đặt hàng trước đang bùng nổ trên TikTok của các quán ăn vặt và tiệm giao đêm vì người xem bóng cần chuẩn bị đồ ăn trước để tránh mất đơn khi quán hết hàng đêm chung kết.",
+        "fit": "@tracuami đang ở đúng thời điểm vàng: 7 ngày trước chung kết là lúc hype cao nhất, đơn hàng dự kiến tăng mạnh tối 18-19/7. Clip kêu gọi đặt trước combo chân gà sốt Thái và trà trái cây đêm chung kết sẽ vừa viral vừa tạo doanh số thực ngay hôm nay.",
+        "idea": "Clip 15 giây: A Nguyên cầm tờ giấy viết tay to 'CÒN 7 NGÀY - CHUNG KẾT 19/7', giọng Huế nói thẳng vào camera: 'Đặt trước combo chung kết đi bà con ơi - đêm đó quán bán hết sớm lắm đó nha'. Caption: Còn 7 ngày - combo chân gà sốt Thái và trà trái cây đêm chung kết - đặt trước link bio #worldcup2026 #tracuami #chungketWC #changasotthai"
       },
       {
-        "name": "Ăn vặt Huế mùa hè - content địa điểm phải ghé cho khách du lịch phương xa",
-        "desc": "Nội dung 'ăn gì, đi đâu ở Huế mùa hè' tiếp tục bùng nổ trên TikTok tháng 7/2026 với hàng triệu lượt tìm kiếm từ du khách trong nước đang lên kế hoạch đi miền Trung. TikTok đang là công cụ khám phá ẩm thực địa phương số một của du khách Việt Nam trước khi đặt tour mùa hè.",
-        "fit": "@tracuami ở 1 Trường Chinh, TP Huế có đặc sản địa phương thật sự (chân gà sốt Thái, tré trộn Huế) là lợi thế cực lớn trong sóng tìm kiếm ăn vặt Huế. Clip quán đông buổi chiều tối với giọng Huế đặc trưng rất dễ được TikTok đề xuất cho người tìm 'ăn vặt Huế ngon'.",
-        "idea": "Clip 20 giây: Quay quán chiều tối đông khách từ xa đến gần, Nhớ nói giọng Huế vào camera: 'Khách du lịch ghé Huế nhớ ghé đây nha - chân gà sốt Thái đây mà không thấy ở mô giống hết'. Cận cảnh đĩa chân gà đỏ bóng. Caption: Địa chỉ ăn vặt Huế phải ghé hè 2026 - 1 Trường Chinh, TP Huế #AnVatHue #DuLichHue #tracuami #changasotthai"
+        "name": "Phỏng vấn nhân viên học lỏm công thức - storytelling hài hước nhân vật nội bộ quán",
+        "desc": "Trend phỏng vấn hài hước nhân viên về công việc hằng ngày và bí mật hậu bếp đang viral trên TikTok food Việt Nam tháng 7/2026, đặc biệt hiệu quả khi có nhân vật dễ thương và kịch bản tình huống có thật. Format này xây dựng nhân vật quen thuộc tạo sự gắn kết lâu dài với khán giả.",
+        "fit": "@tracuami có Nhớ với nhân vật độc đáo là nhân viên part-time hay âm mưu học lỏm công thức - khai thác đúng cái này là gold content. A Nguyên giả vờ nghiêm túc phỏng vấn Nhớ về tội danh học lỏm theo giọng Huế sẽ gây cười tự nhiên, xây dựng nhân vật Nhớ thành mascot kênh và rất dễ viral vì khán giả sẽ theo dõi để xem tập tiếp theo.",
+        "idea": "Clip 20 giây: A Nguyên ngồi nghiêm túc như đang phỏng vấn xin việc, hỏi giọng Huế: 'Tại sao mi cứ dòm vô nồi sốt Thái của tau?'. Nhớ ngập ngừng: 'Dạ... con chỉ kiểm tra chất lượng thôi ạ'. A Nguyên: 'Kiểm tra hay học lỏm?'. Caption: Mỗi ngày tại @tracuami - Nhớ vs Công Thức Bí Mật #tracuami #bihieucuaNho #anvatHue #giongHue"
       }
     ],
     "sounds": [
       {
-        "name": "Lo Người Ướt Áo - Nguyễn Thạch Bảo Ngọc x HTrol EDM Remix",
-        "desc": "Bản EDM remix đang viral mạnh TikTok Việt Nam tháng 7/2026 với phần drop kết hợp bolero và electronic - phù hợp cho clip hậu trường quán @tracuami cảnh tất bật mùa World Cup, video slow-motion gói hàng khuya hoặc clip chuyển cảnh nhanh giới thiệu menu mùa hè"
+        "name": "Thấm Thoát - Út Nhị cover bolero",
+        "desc": "Bản cover bolero đang trending mạnh trên TikTok Việt Nam 2026 với giai điệu chậm và ca từ cảm xúc - phù hợp cho clip A Nguyên kể chuyện hành trình mở quán @tracuami từ những ngày đầu, cảnh dọn hàng sáng sớm hoặc video 'điều tôi học được sau mấy năm bán ăn vặt ở Huế' theo phong cách kể chuyện chân thật giọng Huế"
       },
       {
-        "name": "Một Đời Đi Qua - bolero mới 2026 viral TikTok",
-        "desc": "Bài bolero mới đang hot trên TikTok Việt Nam tháng 7/2026 với giai điệu cảm xúc chậm - phù hợp cho clip A Nguyên kể chuyện hành trình mở quán @tracuami, cảnh dọn hàng sáng sớm hoặc video 'điều tôi học được khi kinh doanh ăn vặt tại Huế' với giọng Huế chân thật"
+        "name": "Ting Ting Tang Tang - nhạc dance challenge viral Việt Nam 2026",
+        "desc": "Bài nhạc gắn với dance challenge đang lan rộng trên TikTok Việt Nam 2026 với nhịp bắt tai và vui nhộn - phù hợp cho clip nhanh giới thiệu menu mới của @tracuami, cảnh tất bật chuẩn bị hàng sáng theo nhịp nhạc, hoặc video ngắn 'một ngày của Nhớ tại quán' theo format hài hước"
       },
       {
-        "name": "Nhạc World Cup 2026 halftime show - Shakira viral TikTok",
-        "desc": "Các bài hát của Shakira biểu diễn tại halftime show chung kết World Cup 2026 đang lan rộng trên TikTok toàn cầu và Việt Nam, phù hợp cho clip chân gà sốt Thái slow-motion, cảnh quán đông mùa bóng đá hoặc video countdown 8 ngày đến chung kết của @tracuami"
+        "name": "Nhạc nền EDM remix World Cup 2026 countdown",
+        "desc": "Các bản EDM remix anthem chính thức FIFA World Cup 2026 đang trending TikTok toàn cầu và Việt Nam trong 7 ngày cuối trước chung kết - phù hợp cho clip đếm ngược combo chân gà sốt Thái đêm chung kết, cảnh đông khách khuya tại @tracuami, hoặc video hậu trường chuẩn bị giao đơn trước 3 giờ sáng kiểu action-packed"
       }
     ],
-    "note": "Tuần 2 tháng 7/2026: chung kết World Cup 19/7 còn 8 ngày - đây là tuần content bóng đá + đồ ăn khuya nóng nhất của cả tháng, @tracuami nên đăng ít nhất 1 clip mỗi ngày từ nay đến 19/7 với chủ đề 'combo chung kết'. Format ASMR đóng hộp khuya và POV chạy quán mùa World Cup đang dễ viral nhất. Nhạc Lo Người Ướt Áo x HTrol là sound linh hoạt nhất tuần dùng được cho nhiều dạng clip khác nhau."
+    "note": "Tuần 2 tháng 7/2026 ngày 12/7: chung kết World Cup còn 7 ngày - hôm nay bắt đầu giai đoạn nóng nhất. @tracuami nên đăng 1-2 clip/ngày từ nay đến 19/7 xen kẽ giữa nội dung WC countdown đặt hàng trước và storytelling nhân vật (Nhớ học lỏm, khách quen kể chuyện) để vừa bắt trend ngắn hạn vừa xây kênh dài hạn. Hôm nay ưu tiên format đặt hàng trước 7 ngày để tạo doanh số thực song song với viral."
   }
 }
