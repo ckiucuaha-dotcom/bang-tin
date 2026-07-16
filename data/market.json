@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-16T06:25:50Z",
-  "updated_at_vn": "13:25 16/07/2026",
+  "updated_at": "2026-07-16T09:00:00Z",
+  "updated_at_vn": "16:00 16/07/2026",
   "session_date": "2026-07-16",
   "data_quality": "live",
   "vnindex": {
     "close": 1759.73,
     "change": -22.39,
     "change_pct": -1.26,
-    "note": "VN-Index phiên 15/7 (thứ Tư) tiếp tục điều chỉnh ngày thứ 5 liên tiếp (-1,11%), rung lắc trong vùng 1.784-1.790 điểm; áp lực tâm lý từ việc cơ quan chức năng khởi tố hàng loạt chủ tiệm vàng lớn (Kim Lý, Ngọc Tâm, Ngọc Châu Âu) khiến dòng tiền đầu cơ co cụm, sắc đỏ bao phủ hầu hết nhóm ngành - khối ngoại duy trì bán ròng phiên thứ 5 liên tiếp, thị trường phái sinh tăng thanh khoản cho thấy nhà đầu tư đang phòng ngừa rủi ro là chủ yếu."
+    "note": "VN-Index phiên 16/7 (thứ Năm) tiếp tục điều chỉnh về 1.759,73 điểm (-1,26%); áp lực bán bủa vây toàn thị trường trong bối cảnh phiên đáo hạn hợp đồng phái sinh tháng 7 tạo thêm biến động - vùng hỗ trợ MA200 ngày 1.760-1.770 điểm đang bị thử thách, khối ngoại duy trì xu hướng bán ròng ngày thứ 6 liên tiếp, thanh khoản thấp cho thấy dòng tiền bắt đáy còn dè dặt."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "CẮT LỖ",
-      "comment": "Giá 68.100 đồng, lỗ 23,35% so với giá vốn 88.850; chỉ còn cách mức cắt lỗ 68.000 đúng 100 đồng trong phiên thị trường tiếp tục giảm mạnh -3,13% - theo dõi cực sát, cắt lỗ ngay lập tức nếu giá chạm hoặc xuyên thủng 68.000."
+      "comment": "Giá 65.900 đồng, lỗ 25,83% so với giá vốn 88.850; đã xuyên thủng mức cắt lỗ 68.000 trong bối cảnh thị trường điều chỉnh liên tiếp - ưu tiên số 1: cắt lỗ ngay trong phiên tới, không để tình trạng này kéo dài thêm."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.850 đồng, lãi 12,01% so với giá vốn 14.150; phiên 15/7 giảm nhẹ -0,31%, trụ vững hơn thị trường chung - tiếp tục giữ, mục tiêu 18.000, cắt lỗ 12.500."
+      "comment": "Giá 15.750 đồng, lãi 11,31% so với giá vốn 14.150; duy trì vùng lãi tốt dù thị trường điều chỉnh liên tiếp - tiếp tục giữ, mục tiêu 18.000, cắt lỗ 12.500."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 22.300 đồng, lỗ 5,51% so với giá vốn 23.600; nhóm thép điều chỉnh -0,89% theo thị trường, còn cách stoploss 21.000 gần 6% - giữ trung hạn, mục tiêu 28.000, cắt lỗ 21.000."
+      "comment": "Giá 21.950 đồng, lỗ 6,99% so với giá vốn 23.600; cách mức cắt lỗ 21.000 chỉ khoảng 4,3% - theo dõi sát từng phiên, sẵn sàng cắt lỗ ngay nếu giá xuyên thủng 21.000."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "GIỮ",
-      "comment": "Giá 24.050 đồng, lỗ 4,37% so với giá vốn 25.150; nhóm ngân hàng giảm -2,04% phiên 15/7 theo đà bán chung, còn cách stoploss 22.500 gần 6,4% - giữ vị thế, mục tiêu 30.000, cắt lỗ 22.500."
+      "comment": "Giá 23.650 đồng, lỗ 5,96% so với giá vốn 25.150; vừa thoát khỏi ngưỡng theo dõi sát (stoploss*1,05=23.625) với biên an toàn rất mỏng - giữ vị thế, theo dõi chặt, mục tiêu 30.000, cắt lỗ 22.500."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 23450.0,
       "change_pct": 1.52,
-      "comment": "ACB giá 22.800 đồng (-0,22%); phòng thủ tốt hơn nhiều mã ngân hàng khác trong phiên 15/7 nhiều biến động, nhưng chưa có tín hiệu đảo chiều rõ ràng - chưa vào lệnh, chờ VN-Index xác nhận giữ vùng hỗ trợ 1.780 điểm."
+      "comment": "ACB giá 23.450 đồng (+1,52%); là điểm sáng hiếm hoi trong phiên điều chỉnh 16/7 khi tăng ngược chiều thị trường chung - tín hiệu phòng thủ tốt của cổ phiếu ACB, tiếp tục theo dõi, chưa vào lệnh khi VN-Index chưa xác lập đáy."
     }
   ],
   "gold": {
     "sjc_buy": 145500000,
     "sjc_sell": 148500000,
-    "note": "Vàng SJC ngày 15/7 tăng mạnh 1 triệu đồng/lượng so với 14/7, giao dịch 145,5-148,5 triệu đồng/lượng (mua-bán); vàng thế giới phục hồi về 4.078 USD/ounce sau phiên giảm trước đó - không vội mua thêm, biến động ngắn hạn còn cao."
+    "note": "Vàng SJC ngày 16/7 duy trì 145,5-148,5 triệu đồng/lượng (mua-bán), ổn định so với phiên 15/7; vàng thế giới 4.056,6 USD/ounce - không vội mua thêm, giá vàng trong nước còn biến động và chênh lệch mua-bán cao."
   },
   "news_vn": [
     {
-      "title": "Nhịp đập Thị trường 15/07: Rung lắc quanh ngưỡng 1.790 điểm",
-      "summary": "VN-Index phiên 15/7 tiếp tục điều chỉnh ngày thứ 5 liên tiếp, rung lắc trong vùng 1.784-1.790 điểm với sắc đỏ bao phủ hầu hết nhóm ngành; áp lực tâm lý từ việc khởi tố hàng loạt chủ tiệm vàng lớn khiến dòng tiền đầu cơ thu hẹp, khối ngoại duy trì bán ròng và thanh khoản thực chất vẫn thấp.",
+      "title": "Vietstock Daily 16/07/2026: Áp lực bủa vây",
+      "summary": "Vietstock nhận định phiên 16/7 VN-Index tiếp tục chịu áp lực điều chỉnh từ nhiều phía; đa số công ty chứng khoán khuyến cáo nhà đầu tư hạn chế mua đuổi, ưu tiên quản trị rủi ro và hạ tỷ trọng danh mục ở các nhịp hồi phục trong bối cảnh thị trường chưa xác lập đáy rõ ràng.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/07/nhip-dap-thi-truong-1507-rung-lac-quanh-nguong-1790-diem-1636-1466398.htm"
+      "url": "https://vietstock.vn/2026/07/vietstock-daily-16072026-ap-luc-bua-vay-1636-1466670.htm"
     },
     {
-      "title": "Phân tích kỹ thuật phiên chiều 15/07: Thị trường diễn biến giằng co",
-      "summary": "Phiên chiều 15/7, VN-Index duy trì diễn biến giằng co khi lực cầu bắt đáy xuất hiện cục bộ ở một số mã nhưng không đủ mạnh để tạo đột phá tăng; thanh khoản phái sinh tăng cho thấy nhà đầu tư đang phòng ngừa rủi ro là chủ đạo thay vì mạnh dạn giải ngân.",
+      "title": "Chứng khoán phái sinh ngày 16/07/2026: Áp lực bán mạnh xuất hiện trước phiên đáo hạn",
+      "summary": "Áp lực bán gia tăng đáng kể trước phiên đáo hạn hợp đồng tương lai VN30 tháng 7; thanh khoản phái sinh tăng cao cho thấy nhà đầu tư chủ yếu tăng cường phòng ngừa rủi ro thay vì tích cực giải ngân, tạo thêm áp lực kéo chỉ số xuống.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/07/phan-tich-ky-thuat-phien-chieu-1507-thi-truong-dien-bien-giang-co-585-1466467.htm"
+      "url": "https://vietstock.vn/2026/07/chung-khoan-phai-sinh-ngay-16072026-ap-luc-ban-manh-xuat-hien-truoc-phien-dao-han-1636-1466583.htm"
     },
     {
-      "title": "Vietstock Daily 15/07/2026: Nỗ lực giữ mốc 1.800 điểm",
-      "summary": "Phân tích phiên 15/7: VN-Index tiếp tục nỗ lực giữ vùng hỗ trợ kỹ thuật 1.780-1.800 điểm trong bối cảnh áp lực bán dai dẳng và khối ngoại chưa dừng xu hướng bán ròng; khuyến nghị ưu tiên quản trị rủi ro và hạ tỷ trọng danh mục ở các nhịp hồi phục.",
-      "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/07/vietstock-daily-15072026-no-luc-giu-moc-1800-diem-1636-1466229.htm"
+      "title": "Nhận định chứng khoán 16/7: Áp lực bán áp đảo, VN-Index có thể tiếp tục điều chỉnh",
+      "summary": "VOV đánh giá áp lực bán đang áp đảo thị trường trong phiên 16/7; khuyến nghị nhà đầu tư rà soát danh mục và loại bỏ các cổ phiếu yếu, tránh bắt đáy khi chưa có tín hiệu xác nhận, chỉ nắm giữ cổ phiếu có triển vọng tốt trong mùa báo cáo tài chính quý II/2026.",
+      "source": "VOV",
+      "url": "http://vov.vn/thi-truong/nhan-dinh-chung-khoan-167-ap-luc-ban-ap-dao-vn-index-co-the-tiep-tuc-dieu-chinh-post1315620.vov"
     }
   ],
   "advice": {
-    "summary": "Phiên 15/7, VN-Index giảm thêm 1,11% (lần thứ 5 liên tiếp) về 1.786 điểm trong bối cảnh tâm lý thị trường bi quan kép: khối ngoại bán ròng liên tục và tâm lý xáo trộn từ vụ khởi tố tiệm vàng. Danh mục đang lỗ 21,55%, trong đó FPT (68.100 đồng) là cực kỳ nguy hiểm khi chỉ còn 100 đồng trên mức cắt lỗ 68.000 - ưu tiên hàng đầu phiên tới là xử lý FPT. Vàng SJC tăng mạnh 1 triệu lên 145,5-148,5 triệu đồng/lượng ngày 15/7.",
+    "summary": "Phiên 16/7, VN-Index tiếp tục giảm về 1.759,73 điểm (-1,26%) với áp lực kép từ đáo hạn phái sinh và khối ngoại bán ròng ngày thứ 6 liên tiếp. Danh mục đang lỗ 23,93% - vấn đề cấp bách nhất là FPT (65.900 đồng) đã xuyên sâu dưới stoploss 68.000, cần cắt lỗ ngay phiên tới. HPG (21.950 đồng) cũng ở vùng nguy hiểm, cách stoploss 21.000 chỉ 4,3%. Vàng SJC giữ ổn 145,5-148,5 triệu đồng/lượng.",
     "actions": [
-      "FPT: THEO DÕI SÁT - giá 68.100 đồng (lỗ 23,35% so với giá vốn 88.850); cách stoploss 68.000 chỉ 100 đồng - CẮT LỖ NGAY nếu giá chạm hoặc xuyên thủng 68.000.",
-      "SSB: GIỮ - giá 15.850 đồng, lãi 12,01% so với giá vốn 14.150; ổn định tốt trong thị trường điều chỉnh - giữ vị thế, mục tiêu 18.000, cắt lỗ 12.500.",
-      "HPG: GIỮ - giá 22.300 đồng, lỗ 5,51% so với giá vốn 23.600; nhóm thép điều chỉnh nhẹ - giữ trung hạn, mục tiêu 28.000, cắt lỗ 21.000.",
-      "MBB: GIỮ - giá 24.050 đồng, lỗ 4,37% so với giá vốn 25.150; còn cách stoploss 22.500 gần 6,4% - giữ vị thế, mục tiêu 30.000, cắt lỗ 22.500.",
-      "Tiền mới: chưa giải ngân; chờ VN-Index xác nhận giữ vững vùng 1.780-1.800 điểm và khối ngoại dừng bán ròng trước khi xem xét vào lệnh.",
-      "ACB (watchlist): giá 22.800 đồng (-0,22%), phòng thủ tốt nhưng chưa có tín hiệu xác nhận phục hồi - chưa vào lệnh.",
-      "Vàng SJC: tăng 1 triệu lên 145,5-148,5 triệu đồng/lượng ngày 15/7, vàng thế giới về 4.078 USD/ounce - không mua thêm, theo dõi thêm."
+      "FPT: CẮT LỖ - giá 65.900 đồng (lỗ 25,83% so với giá vốn 88.850); đã xuyên stoploss 68.000 - ƯU TIÊN SỐ 1: bán ngay trong phiên tới, không trì hoãn.",
+      "SSB: GIỮ - giá 15.750 đồng, lãi 11,31% so với giá vốn 14.150; ổn định tốt trong thị trường điều chỉnh - giữ vị thế, mục tiêu 18.000, cắt lỗ 12.500.",
+      "HPG: THEO DÕI SÁT - giá 21.950 đồng, lỗ 6,99% so với giá vốn 23.600; cách stoploss 21.000 chỉ 4,3% - sẵn sàng cắt lỗ ngay nếu giá xuyên thủng 21.000.",
+      "MBB: GIỮ - giá 23.650 đồng, lỗ 5,96% so với giá vốn 25.150; vừa thoát ngưỡng THEO DÕI SÁT (23.625) - giữ, mục tiêu 30.000, cắt lỗ 22.500.",
+      "Tiền mới: chưa giải ngân; chờ VN-Index xác lập đáy vùng 1.760-1.770 và khối ngoại dừng bán ròng trước khi xem xét vào lệnh.",
+      "ACB (watchlist): giá 23.450 đồng (+1,52%), tăng ngược chiều thị trường - tín hiệu tích cực, theo dõi thêm trước khi vào lệnh.",
+      "Vàng SJC: 145,5-148,5 triệu đồng/lượng ngày 16/7, vàng thế giới 4.056,6 USD/ounce - không mua thêm, theo dõi thêm."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
