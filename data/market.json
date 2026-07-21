@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-21T06:35:43Z",
-  "updated_at_vn": "13:35 21/07/2026",
+  "updated_at": "2026-07-21T08:40:56Z",
+  "updated_at_vn": "15:40 21/07/2026",
   "session_date": "2026-07-21",
   "data_quality": "live",
   "vnindex": {
     "close": 1734.29,
     "change": -9.22,
     "change_pct": -0.53,
-    "note": "Phiên 20/7, thị trường chìm trong sắc đỏ diện rộng - áp lực bán gia tăng từ đầu phiên với nhóm VN30 ghi nhận 26/30 mã giảm; HPG dẫn đầu thanh khoản với hơn 25 triệu đơn vị khớp lệnh, nhóm ngân hàng và bất động sản đều điều chỉnh - đây là tuần giảm thứ 3 liên tiếp, chuyên gia khuyến cáo ưu tiên quản trị rủi ro và kiên nhẫn chờ tín hiệu hồi phục bền vững tại vùng hỗ trợ SMA 200 (1.760-1.780 điểm) trước khi xem xét mua vào."
+    "note": "Phiên 21/7, VN-Index giảm tuần thứ 3 liên tiếp với tâm lý bi quan bao trùm - thanh khoản yếu (302,9 triệu đơn vị, 6.827 tỷ đồng, giảm 12% so với hôm qua), khối ngoại tiếp tục bán ròng; chỉ số đã thủng vùng hỗ trợ 1.760 điểm (SMA 200) và mức này chuyển thành kháng cự - MACD tiếp tục mở rộng khoảng cách dưới đường tín hiệu, chuyên gia khuyến cáo không vội tin nhịp hồi, hạ tỷ trọng trong các nhịp hồi kỹ thuật và ưu tiên quản trị rủi ro."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "CẮT LỖ",
-      "comment": "Giá 67.600 đồng, lỗ 23,92% so với giá vốn 88.850; tiếp tục dưới mức stoploss 68.000 trong khi thị trường phiên 20/7 tiếp tục giảm diện rộng - áp lực chưa giải tỏa, ưu tiên cân nhắc cắt lỗ để bảo toàn vốn, chỉ giữ thêm nếu có tín hiệu hồi phục rõ ràng của thị trường."
+      "comment": "Giá 66.000 đồng, lỗ 25,72% so với giá vốn 88.850; tiếp tục dưới stoploss 68.000 trong phiên 21/7 với thị trường giảm tuần thứ 3 liên tiếp và chưa có tín hiệu hồi phục bền vững - cần sớm quyết định cắt lỗ để bảo toàn vốn, không tiếp tục gồng lỗ."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.750 đồng, lãi 11,31% so với giá vốn 14.150; SeABank duy trì vùng lãi ổn định dù nhóm ngân hàng chịu áp lực chung phiên 20/7 - tiếp tục giữ, mục tiêu 18.000, stoploss 12.500."
+      "comment": "Giá 15.600 đồng, lãi 10,25% so với giá vốn 14.150; duy trì vùng lãi ổn định dù thị trường tiếp tục điều chỉnh phiên 21/7 - tiếp tục giữ, còn cách mục tiêu 18.000 và stoploss 12.500 vẫn an toàn."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "CẮT LỖ",
-      "comment": "Giá 20.950 đồng, lỗ 11,23% so với giá vốn 23.600; dưới mức stoploss 21.000 và HPG là mã dẫn đầu áp lực bán phiên 20/7 với thanh khoản lớn - cần cân nhắc cắt lỗ để tránh thua lỗ sâu hơn."
+      "comment": "Giá 20.850 đồng, lỗ 11,65% so với giá vốn 23.600; tiếp tục dưới stoploss 21.000 và nhóm nguyên vật liệu chịu áp lực lớn trong đà giảm phiên 21/7 - ưu tiên cắt lỗ để hạn chế thiệt hại sâu hơn."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 23.200 đồng, lỗ 7,75% so với giá vốn 25.150; trong ngưỡng theo dõi sát (dưới 23.625 = stoploss x 1,05) và nhóm ngân hàng tiếp tục chịu áp lực phiên 20/7 - theo dõi chặt, sẵn sàng cắt lỗ ngay nếu giá xuyên thủng 22.500."
+      "comment": "Giá 22.850 đồng, lỗ 9,15% so với giá vốn 25.150; trong ngưỡng theo dõi sát (dưới 23.625 = stoploss 22.500 x 1,05) và vùng hỗ trợ 23.500-24.200 đã bị phá vỡ trong phiên trước - theo dõi chặt, sẵn sàng cắt lỗ ngay nếu giá xuyên thủng 22.500."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22900.0,
       "change_pct": 0.22,
-      "comment": "ACB giá 23.050 đồng; nhóm ngân hàng lớn tiếp tục điều chỉnh trong sắc đỏ diện rộng phiên 20/7 - chưa có tín hiệu vào lệnh, theo dõi tiếp, chờ thị trường xác nhận hồi phục bền vững tại vùng hỗ trợ SMA 200 trước khi xem xét."
+      "comment": "ACB giá 22.900 đồng; nhóm ngân hàng đóng vai trò trụ đỡ phiên 21/7 nhưng thị trường chung vẫn bi quan và thanh khoản yếu - chưa có tín hiệu vào lệnh, tiếp tục theo dõi và chờ xác nhận hồi phục bền vững."
     }
   ],
   "gold": {
-    "sjc_buy": 144200000,
-    "sjc_sell": 147200000,
-    "note": "Vàng SJC ngày 20/7 niêm yết 144,2-147,2 triệu đồng/lượng (mua-bán), giảm nhẹ so với đầu ngày; vàng thế giới giảm về dưới ngưỡng 4.000 USD/ounce - thị trường vàng trong nước đi ngang, chưa nên mua thêm, theo dõi diễn biến quốc tế thêm."
+    "sjc_buy": 143000000,
+    "sjc_sell": 146000000,
+    "note": "Vàng SJC ngày 21/7 niêm yết 143-146 triệu đồng/lượng (mua-bán), giảm khoảng 1,2 triệu đồng/lượng so với hôm qua; vàng thế giới tăng nhẹ lên 4.041 USD/ounce nhưng trong nước SJC điều chỉnh - chưa nên mua thêm, tiếp tục theo dõi."
   },
   "news_vn": [
     {
-      "title": "Giao dịch chứng khoán sáng 20/7: Thị trường vẫn chìm trong sắc đỏ",
-      "summary": "Phiên 20/7, thị trường chứng khoán tiếp tục giao dịch trong sắc đỏ diện rộng với áp lực bán gia tăng ngay từ đầu phiên; nhóm VN30 ghi nhận 26/30 mã giảm, HPG dẫn đầu thanh khoản - tâm lý nhà đầu tư thận trọng, dòng tiền chủ yếu đứng ngoài.",
+      "title": "Giao dịch chứng khoán phiên sáng 21/7: VN-Index bật tăng nhẹ, giao dịch vẫn ảm đạm",
+      "summary": "Phiên sáng 21/7, VN-Index có lúc bật tăng nhẹ nhưng nhanh chóng đảo chiều giảm 8,88 điểm (-0,51%) xuống 1.734,63 điểm; tổng khối lượng khớp lệnh đạt 302,9 triệu đơn vị, giá trị 6.827 tỷ đồng, giảm 12% so với phiên hôm qua - tâm lý nhà đầu tư thận trọng, dòng tiền vẫn đứng ngoài.",
       "source": "Tin nhanh Chứng khoán",
-      "url": "https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-sang-207-thi-truong-van-chim-trong-sac-do-post394327.html"
+      "url": "https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-phien-sang-217-vn-index-bat-tang-nhe-giao-dich-van-am-dam-post394386.html"
     },
     {
-      "title": "Nhận định thị trường phiên 20/7: Ưu tiên quản trị rủi ro, hạ tỷ trọng margin",
-      "summary": "Chuyên gia khuyến nghị nhà đầu tư duy trì quan điểm thận trọng, hạn chế bắt đáy và mở thêm vị thế mua mới; kiên nhẫn chờ VN-Index kiểm định vùng hỗ trợ SMA 200 (1.760-1.780 điểm) và xuất hiện tín hiệu tích cực mới trước khi quay lại mua ròng.",
-      "source": "Tin nhanh Chứng khoán",
-      "url": "https://www.tinnhanhchungkhoan.vn/nhan-dinh-thi-truong-phien-giao-dich-ngay-207-uu-tien-quan-tri-rui-ro-ha-ty-trong-margin-post394248.html"
-    },
-    {
-      "title": "Vietstock Weekly 20-24/07/2026: Còn nhiều thách thức",
-      "summary": "Bức tranh thị trường tuần 20-24/7 còn nhiều thách thức khi VN-Index bước vào tuần giảm thứ 3 liên tiếp; phân tích kỹ thuật cho thấy Stochastic Oscillator và MACD vẫn dưới đường tín hiệu - khuyến nghị ưu tiên quản trị rủi ro, hạn chế margin và chờ tín hiệu xác nhận hồi phục.",
+      "title": "Vietstock Daily 21/07/2026: Đà rơi chưa dừng",
+      "summary": "Vietstock nhận định đà rơi của VN-Index chưa dừng khi chỉ số bám sát Lower Band Bollinger Bands và đã cắt xuống dưới SMA 200 - MACD tiếp tục mở rộng khoảng cách dưới đường tín hiệu, tâm lý bi quan vẫn còn, khuyến nghị hạ tỷ trọng trong các nhịp hồi kỹ thuật và không vội bắt đáy.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/07/vietstock-weekly-20-24072026-con-nhieu-thach-thuc-1636-1467916.htm"
+      "url": "https://vietstock.vn/2026/07/vietstock-daily-21072026-da-roi-chua-dung-1636-1468418.htm"
+    },
+    {
+      "title": "Nhịp đập thị trường 21/07: Áp lực bán gia tăng, nhóm ngân hàng là trụ đỡ",
+      "summary": "Phiên 21/7 ghi nhận áp lực bán tiếp tục gia tăng trên diện rộng, tuy nhiên nhóm cổ phiếu ngân hàng đóng vai trò trụ đỡ giúp hạn chế đà giảm của VN-Index; khối ngoại tiếp tục bán ròng và đây là tuần giảm thứ 3 liên tiếp của thị trường.",
+      "source": "Vietstock",
+      "url": "https://vietstock.vn/2026/07/nhip-dap-thi-truong-2107-ap-luc-ban-gia-tang-nhom-ngan-hang-la-tru-do-1636-1468790.htm"
     }
   ],
   "advice": {
-    "summary": "Phiên 20/7, thị trường tiếp tục giảm diện rộng - đây là tuần thứ 3 liên tiếp VN-Index điều chỉnh, tâm lý thận trọng bao trùm; danh mục đang lỗ 22,36% với hai mã FPT (67.600 đồng) và HPG (20.950 đồng) đều dưới mức stoploss, MBB (23.200 đồng) trong vùng theo dõi sát - ưu tiên quản trị rủi ro, cân nhắc cắt lỗ FPT và HPG. Vàng SJC ngày 20/7 ở mức 144,2-147,2 triệu đồng/lượng, giảm nhẹ theo thế giới.",
+    "summary": "Phiên 21/7, thị trường tiếp tục giảm tuần thứ 3 liên tiếp - VN-Index đã thủng vùng hỗ trợ SMA 200 (1.760 điểm), tâm lý bi quan bao trùm và thanh khoản yếu. Danh mục đang lỗ 24,09% với FPT (66.000 đồng) và HPG (20.850 đồng) cả hai đều dưới stoploss, MBB (22.850 đồng) trong vùng theo dõi sát - ưu tiên quản trị rủi ro, không gia tăng vị thế khi thị trường chưa có tín hiệu hồi phục bền vững. Vàng SJC ngày 21/7 ở mức 143-146 triệu đồng/lượng.",
     "actions": [
-      "FPT: CẮT LỖ - giá 67.600 đồng (lỗ 23,92% so với giá vốn 88.850); tiếp tục dưới stoploss 68.000 trong bối cảnh thị trường giảm phiên 20/7 - ưu tiên cân nhắc cắt lỗ để bảo toàn vốn.",
-      "SSB: GIỮ - giá 15.750 đồng (lãi 11,31% so với giá vốn 14.150); duy trì ổn định trong vùng lãi - tiếp tục giữ, mục tiêu 18.000, stoploss 12.500.",
-      "HPG: CẮT LỖ - giá 20.950 đồng (lỗ 11,23% so với giá vốn 23.600); dưới stoploss 21.000 và chịu áp lực bán lớn phiên hôm nay - xem xét cắt lỗ để tránh thua lỗ sâu hơn.",
-      "MBB: THEO DÕI SÁT - giá 23.200 đồng (lỗ 7,75% so với giá vốn 25.150); trong ngưỡng theo dõi sát, nhóm ngân hàng tiếp tục yếu - theo dõi chặt, sẵn sàng cắt nếu giá xuyên 22.500.",
-      "Tiền mới: chưa giải ngân; thị trường chưa có tín hiệu hồi phục rõ ràng, ưu tiên đứng ngoài và chờ VN-Index xác nhận bền vững tại vùng hỗ trợ SMA 200.",
-      "ACB (watchlist): giá 23.050 đồng, nhóm ngân hàng tiếp tục điều chỉnh - theo dõi tiếp, chưa vào lệnh.",
-      "Vàng SJC: 144,2-147,2 triệu đồng/lượng ngày 20/7, giảm nhẹ theo thế giới - chưa mua thêm, tiếp tục theo dõi."
+      "FPT: CẮT LỖ - giá 66.000 đồng (lỗ 25,72% so với giá vốn 88.850); dưới stoploss 68.000, thị trường chưa hồi phục - ưu tiên quyết định cắt lỗ để bảo toàn vốn.",
+      "SSB: GIỮ - giá 15.600 đồng (lãi 10,25% so với giá vốn 14.150); vẫn trong vùng lãi ổn định - tiếp tục giữ, mục tiêu 18.000, stoploss 12.500.",
+      "HPG: CẮT LỖ - giá 20.850 đồng (lỗ 11,65% so với giá vốn 23.600); dưới stoploss 21.000, nhóm nguyên vật liệu chịu áp lực - ưu tiên cắt lỗ hạn chế thiệt hại.",
+      "MBB: THEO DÕI SÁT - giá 22.850 đồng (lỗ 9,15% so với giá vốn 25.150); trong ngưỡng theo dõi sát, vùng hỗ trợ 23.500-24.200 đã bị phá - sẵn sàng cắt lỗ nếu xuyên 22.500.",
+      "Tiền mới: chưa giải ngân; không vào lệnh khi thị trường chưa xác nhận hồi phục bền vững và VN-Index đang dưới SMA 200.",
+      "ACB (watchlist): giá 22.900 đồng, nhóm ngân hàng là trụ đỡ phiên 21/7 - theo dõi tiếp, chưa vào lệnh.",
+      "Vàng SJC: 143-146 triệu đồng/lượng ngày 21/7, giảm nhẹ so với hôm qua - chưa mua thêm, tiếp tục theo dõi."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
