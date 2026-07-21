@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-07-20T01:00:00Z",
-  "updated_at_vn": "08:00 20/07/2026",
+  "updated_at": "2026-07-21T01:10:00Z",
+  "updated_at_vn": "08:10 21/07/2026",
   "ai": [
     {
-      "title": "Fable 5 chính thức ngừng miễn phí từ hôm nay - Max và Team Premium vẫn được 50% giới hạn",
-      "summary": "Thời hạn miễn phí Fable 5 đã kết thúc lúc 23h59 tối qua giờ PT (19/7). Từ ngày 20/7, Anthropic cung cấp Fable 5 theo hai hướng: người dùng Max và Team Premium được tiếp tục dùng với 50% giới hạn so với trước; người dùng Pro và Team Standard truy cập qua credit với giá $10/triệu token đầu vào và $50/triệu token đầu ra. Đây là lần đầu tiên Fable 5 hoàn toàn chuyển sang chế độ tính phí sau ba lần gia hạn miễn phí liên tiếp kể từ ngày 7/7.",
-      "why_it_matters": "Hôm nay là ngày đánh dấu thay đổi thực sự trong chi phí dùng Claude Code: với gói Max vẫn được 50% giới hạn Fable 5, nên ưu tiên Fable 5 cho tác vụ nặng như phân tích code phức tạp hoặc tài liệu dài. Các tác vụ nhẹ hơn như viết nhanh hoặc giải thích code nên chuyển sang Sonnet 5 để tiết kiệm credit.",
-      "source": "Claude Platform Release Notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "title": "WAIC 2026 bế mạc tại Thượng Hải - 29 quốc gia ký thành lập Tổ chức Hợp tác AI Thế giới",
+      "summary": "Hội nghị AI Thế giới (WAIC) 2026 kết thúc ngày 20/7 tại Thượng Hải sau 4 ngày với quy mô kỷ lục: hơn 1.000 nhà trưng bày, hơn 3.000 công nghệ mới ra mắt và hơn 300 sản phẩm AI lần đầu tiên công bố toàn cầu. Điểm nhấn lịch sử: đại diện 29 quốc gia ký kết thành lập Tổ chức Hợp tác Trí tuệ nhân tạo Thế giới (WAICO), gồm 11 thành viên Tổ chức Hợp tác Thượng Hải. Đây là lần đầu tiên lãnh đạo cấp cao Trung Quốc có bài phát biểu khai mạc WAIC, và cũng là hội nghị AI quốc tế lớn nhất từ trước đến nay tính theo diện tích trưng bày - lần đầu vượt ngưỡng 100.000 m2 với 4 khu triển lãm.",
+      "why_it_matters": "WAICO với 29 thành viên sáng lập là đối trọng địa chính trị mới về quản trị AI toàn cầu - sẽ ảnh hưởng đến quy chuẩn AI áp dụng cho doanh nghiệp Việt Nam và chính sách đầu tư công nghệ trong khu vực. Từ góc độ đầu tư chứng khoán VN, đây là tín hiệu tích cực cho các cổ phiếu công nghệ như FPT có doanh thu từ thị trường châu Á đang mở rộng hợp tác AI.",
+      "source": "Xinhua",
+      "url": "https://english.news.cn/20260720/e2550c55ecfd413188eb965e304c8be2/c.html",
       "published": "2026-07-20",
       "hot": true
     },
     {
-      "title": "Claude Cowork mở rộng sang web và mobile - phê duyệt tác vụ agentic từ điện thoại",
-      "summary": "Anthropic cập nhật Claude Cowork cho phép sessions và files theo dõi qua mọi thiết bị, bao gồm web và mobile. Các tính năng mới gồm: background work (tác vụ chạy nền khi đóng tab), scheduled tasks (lịch tác vụ tự động), shared chat và projects (chia sẻ dự án trong nhóm), và mobile approvals (phê duyệt hành động agentic từ điện thoại). Bản cập nhật này giúp Claude Code có thể chạy tác vụ phức tạp trong nền mà người dùng theo dõi và phê duyệt từ xa thay vì phải ngồi trước máy tính.",
-      "why_it_matters": "Mobile approvals là thay đổi thiết thực nhất: có thể phê duyệt tác vụ Claude Code đang chạy ngay từ điện thoại khi đang ở quán chụp TikTok hoặc ngoài đường - không cần mở laptop. Đây là bước đi quan trọng để Claude Code thực sự trở thành 'nhân viên AI chạy tự động' thay vì chỉ là công cụ ngồi trước màn hình.",
-      "source": "Claude Cowork Web Mobile Expansion Guide",
-      "url": "https://www.digitalapplied.com/blog/claude-cowork-web-mobile-expansion-guide-2026",
+      "title": "EU buộc Google mở 11 điểm truy cập Android cho AI assistant cạnh tranh Gemini từ 2027",
+      "summary": "Ủy ban châu Âu ngày 20/7 ban hành quy định bắt buộc theo Đạo luật Thị trường Kỹ thuật số (DMA), yêu cầu Google mở 11 tính năng hệ thống Android - vốn chỉ dành riêng cho Gemini - cho tất cả AI assistant của bên thứ ba từ tháng 8/2027 (Android 18). Sau ngày đó, người dùng có thể kích hoạt Claude, ChatGPT hoặc bất kỳ AI nào bằng giọng nói tương đương 'Hey Google', dùng AI bên thứ ba để đặt taxi, xem lịch sử địa điểm và nhận gợi ý trong ứng dụng. Song song, Google phải chia sẻ dữ liệu tìm kiếm ẩn danh (click, ranking) với các công cụ tìm kiếm và AI chatbot đối thủ từ tháng 1/2027. Google phản đối và cảnh báo quy định này có thể gây rủi ro bảo mật.",
+      "why_it_matters": "Từ 2027, Claude (Anthropic) có thể được kích hoạt bằng giọng nói trực tiếp trên điện thoại Android - thị phần di động lớn nhất thế giới. Đây là bước mở rộng tự nhiên cho người dùng Claude Code muốn tiếp cận AI trợ lý trên mọi thiết bị, không chỉ máy tính. Đây cũng là tín hiệu quan trọng: EU đang tích cực phá vỡ thế độc quyền AI trên nền tảng di động.",
+      "source": "TechTimes",
+      "url": "https://www.techtimes.com/articles/321118/20260720/eu-orders-google-break-geminis-android-lock-search-data-sharing-starts-january.htm",
+      "published": "2026-07-20",
+      "hot": true
+    },
+    {
+      "title": "Anthropic chuẩn bị roadshow IPO tháng 10/2026 - định giá ~965 tỷ USD, Q3 dự kiến lãi hơn 1 tỷ USD",
+      "summary": "Anthropic đang lên kế hoạch tổ chức roadshow gặp nhà đầu tư trước thềm IPO dự kiến vào tháng 10/2026 trên sàn Nasdaq hoặc NYSE. Công ty đã nộp hồ sơ đăng ký S-1 bảo mật với SEC từ ngày 1/6/2026. Định giá hiện tại ước tính khoảng 965 tỷ USD - vượt qua OpenAI để trở thành công ty AI có định giá cao nhất thế giới. Doanh thu hóa (annualized revenue) đạt 47 tỷ USD tính đến tháng 5/2026, tăng hơn 5 lần so với cuối 2025. Q3/2026 dự kiến lợi nhuận vượt 1 tỷ USD, đây sẽ là quý lãi hơn 1 tỷ USD đầu tiên của Anthropic trước khi ra sàn.",
+      "why_it_matters": "Đây là IPO lớn nhất ngành AI từ trước đến nay - theo dõi S-1 khi công bố công khai để hiểu cơ cấu doanh thu Claude Code, rủi ro dài hạn và lộ trình của nền tảng mà bạn đang dùng hằng ngày. Từ góc độ đầu tư, khi Anthropic niêm yết sẽ mở ra cơ hội đầu tư trực tiếp vào hãng AI đang dẫn đầu doanh thu.",
+      "source": "Yellow.com",
+      "url": "https://yellow.com/news/anthropic-q3-2026-profit-1b-ipo-filing",
       "published": "2026-07-18",
       "hot": false
     },
     {
-      "title": "Kimi K3 2,8 nghìn tỷ tham số xác nhận mở nguồn ngày 27/7 - model MoE lớn nhất lịch sử open-source",
-      "summary": "Moonshot AI xác nhận sẽ mở toàn bộ trọng số của Kimi K3 vào ngày 27/7, chỉ còn 7 ngày nữa. K3 là model MoE (Mixture-of-Experts) 2,8 nghìn tỷ tham số, kích hoạt 16 trong 896 experts cho mỗi truy vấn, có cửa sổ ngữ cảnh 1 triệu token và hiểu hình ảnh tự nhiên. Với định dạng MXFP4, toàn bộ model chỉ cần khoảng 1,4 TB bộ nhớ - thấp hơn nhiều so với 5,6 TB nếu dùng FP16. Model đã đứng đầu Frontend Code Arena với 1.679 điểm, vượt Fable 5 và GPT-5.6 Sol trong kiểm tra blind.",
-      "why_it_matters": "Khi Kimi K3 mở nguồn ngày 27/7, sẽ xuất hiện hàng loạt phiên bản fine-tuned và tích hợp mới - đặc biệt là plugin Claude Code hoặc backend AI coding agent rẻ hơn đáng kể so với API Anthropic hiện tại. Đây là thời điểm để theo dõi xem cộng đồng có xây dựng công cụ coding thay thế tốt hay không, đặc biệt khi Fable 5 vừa chuyển sang tính phí.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-      "published": "2026-07-16",
-      "hot": true
-    },
-    {
-      "title": "OpenAI bỏ giới hạn 5 giờ cho GPT-5.6 sau khi đạt 6 triệu người dùng active",
-      "summary": "OpenAI thông báo mở rộng giới hạn GPT-5.6 sau khi các mô hình Sol, Terra và Luna đạt 6 triệu người dùng ChatGPT active - mức kỷ lục. Thay vì áp dụng cửa sổ hạn chế 5 giờ như Google đã làm với Gemini (gây phản ứng tiêu cực từ người dùng), OpenAI chọn hướng ngược lại: tăng tốc độ reset giới hạn và mở rộng quota cho người dùng trung thành. GPT-5.6 Sol hiện đạt kết quả tốt nhất trong các bài kiểm tra coding, khoa học và an ninh mạng với ít token hơn so với các model đối thủ.",
-      "why_it_matters": "Động thái này tạo áp lực cạnh tranh lên Anthropic - nếu OpenAI tiếp tục nới lỏng giới hạn trong khi Fable 5 vừa chuyển sang tính phí, người dùng Claude Code có thêm lý do để so sánh. Đáng theo dõi xem Anthropic có điều chỉnh chính sách giới hạn của Max plan trong vài tuần tới không.",
-      "source": "Android Authority",
-      "url": "https://www.androidauthority.com/openai-gemini-trouble-easing-gpt-5-6-usage-limits-3686805/",
-      "published": "2026-07-19",
+      "title": "FLI AI Safety Index Hè 2026: không hãng AI nào đạt A, Anthropic cao nhất chỉ C+ - 4 hãng lớn rút cam kết an toàn",
+      "summary": "Future of Life Institute công bố Chỉ số An toàn AI Hè 2026 đánh giá 9 công ty AI lớn trên 37 tiêu chí thuộc 6 lĩnh vực. Kết quả: không công ty nào đạt A; Anthropic dẫn đầu với C+ (2,66/4,0); OpenAI và Google DeepMind đồng hạng C (2,28 và 2,01); ba công ty bị xếp loại kém là xAI, DeepSeek và Mistral. Đáng lo ngại nhất: từ 2024 đến 2026, cả Anthropic, OpenAI, Google DeepMind và Meta - vốn đã cam kết hạn chế hoặc cấm ứng dụng quân sự AI - đều đảo ngược cam kết và đang tích cực tìm kiếm hợp đồng quốc phòng.",
+      "why_it_matters": "Dù Anthropic dẫn đầu bảng xếp hạng an toàn AI, kết quả chỉ C+ và việc rút bỏ cam kết quân sự là thông tin quan trọng khi đánh giá rủi ro dài hạn của việc phụ thuộc vào một nền tảng AI duy nhất cho công việc hằng ngày. Đây là góc nhìn hữu ích để theo dõi khi Anthropic tiến đến IPO.",
+      "source": "Future of Life Institute",
+      "url": "https://futureoflife.org/ai-safety-index-summer-2026/",
+      "published": "2026-07-07",
       "hot": false
     },
     {
-      "title": "CardiOmicScore: AI phân tích 3.088 protein và chất chuyển hóa, dự đoán 6 bệnh tim mạch trước 15 năm",
-      "summary": "Nhóm nghiên cứu HKUMed (Đại học Hồng Kông) công bố CardiOmicScore trên tạp chí Nature Communications - công cụ AI phân tích dữ liệu đa omics từ một mẫu máu duy nhất, bao gồm 2.920 protein và 168 chất chuyển hóa, để dự đoán nguy cơ mắc 6 bệnh tim mạch lớn (bệnh mạch vành, đột quỵ, suy tim, rung nhĩ, bệnh động mạch ngoại biên và huyết khối tĩnh mạch) sớm đến 15 năm trước khi có triệu chứng lâm sàng. Khác với chỉ số rủi ro di truyền cố định, CardiOmicScore cập nhật theo sức khỏe hiện tại, lối sống và môi trường của từng người.",
-      "why_it_matters": "Ví dụ điển hình về AI y tế giải quyết vấn đề thực tế - loại nghiên cứu hữu ích để theo dõi khi đầu tư vào cổ phiếu công nghệ y tế trên sàn VN. Các công ty như FPT Healthcare hoặc đối tác phân phối thiết bị y tế đang hưởng lợi từ làn sóng AI diagnostics toàn cầu.",
-      "source": "ScienceDaily - HKUMed",
-      "url": "https://www.sciencedaily.com/releases/2026/07/260716023603.htm",
+      "title": "TSMC Q2/2026 kết quả kỷ lục - doanh thu 40,2 tỷ USD, lãi tăng 77,4%, AI chip chiếm 66% doanh thu",
+      "summary": "TSMC công bố kết quả Q2/2026 ngày 16/7 với doanh thu 40,2 tỷ USD và lợi nhuận ròng 706,56 tỷ NT$ - đều phá kỷ lục và vượt dự báo phân tích viên. Tăng trưởng chính từ mảng HPC (chip AI và điện toán hiệu năng cao): chiếm 66% tổng doanh thu và tăng 20% so với quý trước. Biên lợi nhuận gộp đạt 67,7%. TSMC nâng dự báo tăng trưởng cả năm 2026 lên hơn 40% và mở rộng ngân sách đầu tư vốn lên 64 tỷ USD. CEO C.C. Wei công bố thêm 100 tỷ USD đầu tư vào nhà máy Arizona, nâng tổng cam kết tại Mỹ lên 265 tỷ USD.",
+      "why_it_matters": "TSMC là thước đo thực tế nhất cho làn sóng AI toàn cầu - lãi tăng 77,4% khi AI chip chiếm 2/3 doanh thu xác nhận cầu chip AI không hề giảm tốc. Từ góc đầu tư chứng khoán VN, cổ phiếu FPT và các doanh nghiệp công nghệ có hợp đồng AI sẽ hưởng lợi gián tiếp từ làn sóng đầu tư hạ tầng AI toàn cầu mà TSMC đang dẫn dắt.",
+      "source": "TechTimes",
+      "url": "https://www.techtimes.com/articles/320696/20260716/tsmc-posts-record-quarter-ai-chip-demand-pushes-full-year-growth-outlook-past-40.htm",
       "published": "2026-07-16",
       "hot": false
     }
@@ -51,168 +51,168 @@
   "github": {
     "daily": [
       {
-        "repo": "bojieli/ai-agent-book",
-        "desc": "Sách mã nguồn mở về thiết kế và kỹ thuật xây dựng AI Agent từ thực chiến, dẫn đầu trending ngày hôm nay với 1.734 sao mới (tổng 5.391) - nguồn tài liệu hiếm kết hợp cả nguyên lý thiết kế agent lẫn ví dụ code thực tế cho người muốn hiểu sâu kiến trúc agent thay vì chỉ dùng framework có sẵn",
-        "lang": "Python",
-        "stars": 5391,
-        "stars_period": 1734,
-        "url": "https://github.com/bojieli/ai-agent-book"
-      },
-      {
         "repo": "tirth8205/code-review-graph",
-        "desc": "Đồ thị code intelligence cục bộ giúp AI coding tool truy cập ngữ cảnh codebase chính xác hơn qua MCP và CLI, đứng top 2 ngày với 663 sao mới (tổng 21.148) - hướng giải quyết giới hạn context window trong AI code review đang được cộng đồng adoption sâu rộng",
+        "desc": "Đồ thị code intelligence cục bộ hỗ trợ AI coding tool truy cập ngữ cảnh codebase chính xác qua MCP và CLI - bứt phá lên số 1 hôm nay với 1.833 sao mới (tổng 23.111), tăng gần 3 lần so với 663 sao hôm qua, dấu hiệu viral adoption khi nhiều tutorial được chia sẻ rộng rãi trong cộng đồng AI coding",
         "lang": "Python",
-        "stars": 21148,
-        "stars_period": 663,
+        "stars": 23111,
+        "stars_period": 1833,
         "url": "https://github.com/tirth8205/code-review-graph"
       },
       {
-        "repo": "jamiepine/voicebox",
-        "desc": "Studio giọng nói AI mã nguồn mở cho phép nhân bản, đọc chính tả và sáng tạo giọng nói, lọt top 3 daily với 610 sao mới (tổng 43.318) - công cụ hữu ích cho creator muốn tạo nội dung giọng nói mà không cần thu âm hoặc mua license đắt tiền",
+        "repo": "diegosouzapw/OmniRoute",
+        "desc": "AI gateway MIT miễn phí hỗ trợ 268+ nhà cung cấp và 500+ model với tính năng auto-fallback tự chuyển sang provider khác khi lỗi - mới lọt top 2 với 1.107 sao mới (tổng 21.761), rất hữu ích cho developer muốn xây app AI không bị phụ thuộc vào một API duy nhất",
         "lang": "TypeScript",
-        "stars": 43318,
-        "stars_period": 610,
-        "url": "https://github.com/jamiepine/voicebox"
-      },
-      {
-        "repo": "KnockOutEZ/wigolo",
-        "desc": "Giao diện web cho AI coding agent với tìm kiếm và fetch cục bộ không cần API key hay phụ thuộc cloud, lọt top 4 daily với 595 sao mới (tổng 1.798) - giải pháp private-first cho developer không muốn dữ liệu codebase rời khỏi máy cục bộ",
-        "lang": "TypeScript",
-        "stars": 1798,
-        "stars_period": 595,
-        "url": "https://github.com/KnockOutEZ/wigolo"
+        "stars": 21761,
+        "stars_period": 1107,
+        "url": "https://github.com/diegosouzapw/OmniRoute"
       },
       {
         "repo": "rohitg00/ai-engineering-from-scratch",
-        "desc": "Kho học AI Engineering từ đầu với phương châm 'Learn it. Build it. Ship it', đứng top 5 daily với 501 sao mới (tổng 39.636) - tài nguyên tổng hợp từ ML cơ bản đến deploy thực tế, phù hợp cho engineer muốn nắm toàn stack AI thay vì học từng mảnh rời",
+        "desc": "Học AI Engineering từ nền tảng đến deploy theo phương châm Learn it - Build it - Ship it, leo lên top 3 với 823 sao mới (tổng 40.500) - tổng hợp toàn bộ stack AI từ ML cơ bản đến sản phẩm thực tế, tiếp tục thu hút developer muốn nắm vững toàn quy trình",
         "lang": "Python",
-        "stars": 39636,
-        "stars_period": 501,
+        "stars": 40500,
+        "stars_period": 823,
         "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+      },
+      {
+        "repo": "jamiepine/voicebox",
+        "desc": "Studio giọng nói AI mã nguồn mở cho phép nhân bản giọng nói, đọc chính tả và sáng tạo nội dung âm thanh - giữ top 4 với 821 sao mới (tổng 44.146), tiếp tục hút creator đang tìm giải pháp thay thế công cụ giọng nói thương mại đắt tiền",
+        "lang": "TypeScript",
+        "stars": 44146,
+        "stars_period": 821,
+        "url": "https://github.com/jamiepine/voicebox"
+      },
+      {
+        "repo": "1jehuang/jcode",
+        "desc": "AI agent harness dành cho code viết bằng Rust cho hiệu năng cao - mới lọt top 5 với 568 sao mới (tổng 9.612), đại diện cho xu hướng developer tự xây agent harness tùy chỉnh thay vì dùng framework AI coding có sẵn",
+        "lang": "Rust",
+        "stars": 9612,
+        "stars_period": 568,
+        "url": "https://github.com/1jehuang/jcode"
       }
     ],
     "weekly": [
       {
         "repo": "OpenCut-app/OpenCut",
-        "desc": "Ứng dụng chỉnh sửa video mã nguồn mở thay thế CapCut tiếp tục dẫn đầu trending tuần với 12.743 sao mới (tổng 75.851) - làn sóng di cư khỏi CapCut của creator Đông Nam Á vẫn chưa hạ nhiệt sang tuần thứ ba liên tiếp",
+        "desc": "Ứng dụng chỉnh sửa video mã nguồn mở thay thế CapCut tiếp tục dẫn đầu trending tuần thứ tư liên tiếp với 11.676 sao mới (tổng 76.379) - làn sóng creator Đông Nam Á rời bỏ CapCut vẫn chưa hạ nhiệt",
         "lang": "TypeScript",
-        "stars": 75851,
-        "stars_period": 12743,
+        "stars": 76379,
+        "stars_period": 11676,
         "url": "https://github.com/OpenCut-app/OpenCut"
       },
       {
-        "repo": "mattpocock/skills",
-        "desc": "Bộ kỹ năng thực chiến từ thư mục .agents của Matt Pocock giữ top 2 tuần với 10.983 sao mới (tổng 177.456) - nguồn tài nguyên chất lượng cao cho developer muốn nâng cấp workflow với AI coding tools thay vì học lý thuyết suông",
-        "lang": "Shell",
-        "stars": 177456,
-        "stars_period": 10983,
-        "url": "https://github.com/mattpocock/skills"
-      },
-      {
         "repo": "Nutlope/hallmark",
-        "desc": "Bộ kỹ năng thiết kế chống AI-slop cho Claude Code, Cursor và Codex giữ top 3 tuần với 9.193 sao mới (tổng 13.354) - 57 tiêu chí thiết kế chống giao diện đồng nhất tiếp tục được cộng đồng frontend AI áp dụng rộng rãi",
+        "desc": "Bộ tiêu chí thiết kế chống AI-slop cho Claude Code, Cursor và Codex leo lên top 2 tuần với 9.173 sao mới (tổng 14.172) - 57 tiêu chí giúp giao diện do AI tạo ra không bị đồng nhất và thiếu cá tính",
         "lang": "CSS",
-        "stars": 13354,
-        "stars_period": 9193,
+        "stars": 14172,
+        "stars_period": 9173,
         "url": "https://github.com/Nutlope/hallmark"
       },
       {
         "repo": "Shubhamsaboo/awesome-llm-apps",
-        "desc": "Bộ sưu tập 100+ ứng dụng AI Agent và RAG có thể chạy ngay, đứng top 4 tuần với 6.211 sao mới (tổng 124.528) - kho tham khảo thực tiễn nhất cho developer cần ví dụ cụ thể thay vì tài liệu trừu tượng",
+        "desc": "Bộ sưu tập 100+ ứng dụng AI Agent và RAG chạy ngay - giữ top 3 tuần với 5.857 sao mới (tổng 125.152), kho tham khảo thực tiễn nhất cho developer cần ví dụ cụ thể thay vì tài liệu trừu tượng",
         "lang": "Python",
-        "stars": 124528,
-        "stars_period": 6211,
+        "stars": 125152,
+        "stars_period": 5857,
         "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
       },
       {
-        "repo": "HKUDS/Vibe-Trading",
-        "desc": "Nền tảng AI agent giao dịch cá nhân từ Đại học Hồng Kông giữ top 5 tuần với 5.228 sao mới (tổng 25.274) - tiếp tục thu hút nhà đầu tư cá nhân muốn tích hợp AI vào phân tích chứng khoán mà không cần lập trình phức tạp",
+        "repo": "HKUDS/DeepTutor",
+        "desc": "Gia sư AI cá nhân học suốt đời (Lifelong Personalized Tutoring) từ Đại học Hồng Kông - mới lọt top 4 tuần với 2.754 sao mới (tổng 28.361), thay thế Vibe-Trading tuần trước khi xu hướng AI giáo dục cá nhân hóa đang bùng nổ",
         "lang": "Python",
-        "stars": 25274,
-        "stars_period": 5228,
-        "url": "https://github.com/HKUDS/Vibe-Trading"
+        "stars": 28361,
+        "stars_period": 2754,
+        "url": "https://github.com/HKUDS/DeepTutor"
+      },
+      {
+        "repo": "Dicklesworthstone/destructive_command_guard",
+        "desc": "Công cụ ngăn lệnh git và shell nguy hiểm từ AI agent thực thi - mới vào top 5 tuần với 1.410 sao mới (tổng 5.196), viết bằng Rust, phản ánh cộng đồng đang quan tâm nhiều hơn đến an toàn khi AI agent chạy lệnh hệ thống",
+        "lang": "Rust",
+        "stars": 5196,
+        "stars_period": 1410,
+        "url": "https://github.com/Dicklesworthstone/destructive_command_guard"
       }
     ],
-    "trend_note": "Ngày 20/7: bojieli/ai-agent-book bứt phá dẫn đầu daily với 1.734 sao - sách về AI Agent design pattern lần đầu lọt top 1, phản ánh cộng đồng đang chuyển từ 'dùng AI' sang 'hiểu kiến trúc AI'. Đáng chú ý: jamiepine/voicebox lọt top 3 với 610 sao - AI voice studio mã nguồn mở đang nổi khi creator tìm giải pháp thay thế công cụ giọng nói thương mại. Weekly vẫn do OpenCut và mattpocock/skills thống trị - sóng OpenCut và skills agent workflow tiếp tục mạnh sang tuần thứ ba liên tiếp."
+    "trend_note": "Ngày 21/7: tirth8205/code-review-graph bứt phá số 1 với 1.833 sao (gần 3 lần hôm qua 663 sao) - dấu hiệu viral adoption mạnh. Hai repo mới lọt top 5 hôm nay: diegosouzapw/OmniRoute (AI gateway 268+ providers) và 1jehuang/jcode (Rust agent harness). Weekly: OpenCut tiếp tục thống trị tuần thứ tư, Nutlope/hallmark leo top 2, HKUDS/DeepTutor thay Vibe-Trading. Đáng chú ý: Dicklesworthstone/destructive_command_guard xuất hiện tuần này là tín hiệu mới - cộng đồng bắt đầu lo ngại an toàn khi AI agent chạy lệnh shell, sau khi AI coding agent trở nên phổ biến."
   },
   "tech": [
     {
-      "title": "VAIC 2026 kết thúc vòng chung kết hackathon AI 48 giờ - gần 2.500 đăng ký, nhiều đội quốc tế",
-      "summary": "Vòng chung kết Vietnam AI Innovation Challenge 2026 (VAIC 2026) diễn ra từ ngày 17-19/7 với định dạng hackathon 48 giờ liên tiếp, tập trung vào phát triển ứng dụng AI-native (trí tuệ nhân tạo cốt lõi). Tính đến ngày 9/7, cuộc thi đã thu hút gần 2.500 đăng ký chính thức với hơn 300 đội hoàn thành nhân sự, bao gồm cả đội quốc tế. VAIC 2026 được đồng tổ chức bởi Trung tâm Đổi mới Sáng tạo Quốc gia (NIC), Meta, AI for Vietnam Foundation, FPT Group và Đại học Duy Tân.",
-      "source": "Vietnam.vn",
-      "url": "https://www.vietnam.vn/en/vietnam-ai-innovation-challenge-2026-thuc-day-ung-dung-tri-tue-nhan-tao-cot-loi",
-      "published": "2026-07-17"
+      "title": "Meta sa thải 8.000 nhân viên để tăng tốc AI, Zuckerberg thừa nhận AI 'chưa tăng tốc như kỳ vọng'",
+      "summary": "Meta bắt đầu sa thải khoảng 8.000 nhân viên (10% lực lượng lao động) từ tháng 5/2026 trong đợt tái cơ cấu lớn nhất kể từ năm 2022, đồng thời chuyển 7.000 người khác sang các nhóm AI mới gồm Applied AI Engineering và Agent Transformation Accelerator. Tuy nhiên, tại cuộc họp nội bộ ngày 2/7, CEO Mark Zuckerberg thừa nhận rằng phát triển AI agent trong 4 tháng qua 'chưa thực sự tăng tốc như kỳ vọng' - gây lo ngại về tiến độ của Meta trong cuộc đua AI so với Anthropic và OpenAI.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/meta-layoffs-2026-8-000-114209703.html",
+      "published": "2026-07-07"
     },
     {
-      "title": "OpenAI ra mắt GPT-Live: voice AI full-duplex đầu tiên, nghe và nói đồng thời, dịch thời gian thực",
-      "summary": "OpenAI công bố GPT-Live ngày 8/7 với hai phiên bản GPT-Live-1 và GPT-Live-1 mini - lần đầu tiên OpenAI triển khai kiến trúc full-duplex cho phép AI nghe và nói cùng lúc thay vì luân phiên theo lượt. Tính năng nổi bật gồm: dịch thời gian thực (nghe người nói xong câu nào dịch ngay câu đó), xử lý gián đoạn tự nhiên (người dùng có thể ngắt lời AI bất kỳ lúc nào), và phân công tác vụ cho các submodel chuyên biệt trong nền. GPT-Live-1 mini miễn phí cho tài khoản Free; GPT-Live-1 dành cho gói Go, Plus và Pro.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
-      "published": "2026-07-08"
+      "title": "Anthropic ra mắt Claude for Teachers - giáo viên K-12 Mỹ được dùng Claude cao cấp miễn phí",
+      "summary": "Anthropic ra mắt chương trình Claude for Teachers dành cho giáo viên K-12 đã xác minh tại Mỹ, cung cấp miễn phí quyền truy cập vào công cụ Claude cao cấp, kỹ năng dạy học chuyên biệt và kết nối chương trình giảng dạy theo tiêu chuẩn 50 bang. Chương trình còn bao gồm connector giáo dục mới và đào tạo AI fluency cho giáo viên. Đây là một phần trong cuộc đua giữa các công ty AI để ảnh hưởng đến hệ thống giáo dục Mỹ - OpenAI và Google cũng có các chương trình tương tự đang cạnh tranh trực tiếp.",
+      "source": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/",
+      "published": "2026-07-14"
     },
     {
-      "title": "Apple kiện OpenAI: cáo buộc đánh cắp bí mật thương mại phần cứng AI, cựu phó chủ tịch chỉ đạo nhân viên lấy tài liệu",
-      "summary": "Apple nộp đơn kiện OpenAI tại tòa án liên bang California ngày 10/7, cáo buộc đánh cắp bí mật thương mại ở mọi cấp - từ nhân viên kỹ thuật đến Giám đốc phần cứng. Cụ thể: Tang Tan, cựu Phó chủ tịch Apple hiện là Giám đốc phần cứng OpenAI, bị cáo buộc chỉ đạo ứng viên đang làm việc tại Apple mang 'linh kiện thực' đến phỏng vấn; nhân viên Chang Liu bị cáo buộc đánh cắp laptop Apple. Đây là đảo ngược bất ngờ sau thỏa thuận hợp tác năm 2024 khi ChatGPT được tích hợp vào hệ điều hành iPhone.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
-      "published": "2026-07-10"
+      "title": "AI4VN 2026 - Ngày hội Trí tuệ nhân tạo Việt Nam chọn chủ đề Agentic AI",
+      "summary": "Ngày hội Trí tuệ nhân tạo Việt Nam 2026 (AI4VN 2026) chọn chủ đề Agentic AI, kết nối cơ quan quản lý, doanh nghiệp và cộng đồng công nghệ trong nước. Theo thống kê của Microsoft, mức độ ứng dụng AI của Việt Nam trong những tháng đầu năm 2026 tăng 3% so với cùng kỳ. Song song đó, cuộc thi Robotics Quốc tế AIROC 2026 được phát động tại Hà Nội ngày 11/7 dành cho học sinh 6 đến 18 tuổi, và khoảng 120.000 việc làm công nghệ đã bị cắt giảm từ đầu năm 2026 khi doanh nghiệp Việt tăng tốc đầu tư AI và tái cơ cấu nhân sự.",
+      "source": "VnExpress",
+      "url": "https://vnexpress.net/khoi-dong-ngay-hoi-tri-tue-nhan-tao-viet-nam-2026-5098922.html",
+      "published": "2026-07-11"
     },
     {
-      "title": "Anthropic nâng cấp Claude Enterprise: admin analytics chi tiết, giới hạn theo từng model và cảnh báo chi phí",
-      "summary": "Anthropic bổ sung loạt tính năng quản trị cho Claude Enterprise: admin analytics chi tiết (theo dõi cách sử dụng Claude trong tổ chức theo từng team và model), model-level entitlements (đặt quyền truy cập riêng biệt theo từng model AI), và spend alerts (cảnh báo khi chi phí API tiến đến ngưỡng). Cùng đợt, Claude Code bổ sung EndConversation tool (agent tự kết thúc cuộc hội thoại khi hoàn thành), progress heartbeats cho tác vụ dài, và kiểm tra quyền chặt chẽ hơn cho Bash và PowerShell.",
-      "source": "Claude Platform Release Notes",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview",
-      "published": "2026-07-19"
+      "title": "Việt Nam lần đầu ban hành bộ tiêu chí đánh giá AI hỗ trợ công vụ - cấm bịa thông tin",
+      "summary": "Việt Nam ban hành bộ tiêu chí đánh giá AI dùng trong hành chính công, với yêu cầu bắt buộc các nền tảng AI không được 'bịa' thông tin và phải đảm bảo tính chính xác của kết quả đầu ra. Đây là lần đầu tiên Việt Nam có khung tiêu chí chính thức để đánh giá và lựa chọn nền tảng AI cho cơ quan nhà nước. Thủ tướng đã chủ trì nhiều cuộc họp thúc đẩy tiến độ triển khai công nghệ chiến lược gồm AI, robot tự hành và UAV, trong khi Phó Thủ tướng Hồ Quốc Dũng trực tiếp làm việc với 3 doanh nghiệp công nghệ lớn.",
+      "source": "Vietstock",
+      "url": "https://vietstock.vn/2026/07/ai-camera-robot-tu-hanh-uav-co-the-tao-dot-pha-trong-phat-trien-cong-nghe-chien-luoc-nam-2026-4264-1462630.htm",
+      "published": "2026-07-15"
     },
     {
-      "title": "OpenAI bỏ giới hạn cửa sổ 5 giờ cho GPT-5.6 sau khi đạt 6 triệu người dùng active",
-      "summary": "OpenAI thông báo mở rộng giới hạn GPT-5.6 sau khi ba phiên bản Sol, Terra và Luna đạt 6 triệu người dùng ChatGPT active - mức kỷ lục. Thay vì áp dụng cửa sổ hạn chế 5 giờ như cách Google đã làm với Gemini (gây phản ứng tiêu cực), OpenAI chọn hướng ngược lại: tăng tốc độ reset giới hạn và mở rộng quota. Cách tiếp cận này được giới quan sát đánh giá là bài học rõ ràng từ thất bại của Google khi áp dụng giới hạn cứng nhắc dẫn đến người dùng chuyển sang đối thủ.",
-      "source": "Android Authority",
-      "url": "https://www.androidauthority.com/openai-gemini-trouble-easing-gpt-5-6-usage-limits-3686805/",
-      "published": "2026-07-19"
+      "title": "TSMC Q2/2026 doanh thu 40,2 tỷ USD phá kỷ lục, lãi tăng 77,4%, nâng dự báo tăng trưởng cả năm lên hơn 40%",
+      "summary": "TSMC công bố kết quả Q2/2026 ngày 16/7 với doanh thu 40,2 tỷ USD và lợi nhuận ròng 706,56 tỷ NT$ - đều phá kỷ lục và vượt dự báo. Chip AI (HPC) chiếm 66% tổng doanh thu và tăng 20% so với quý trước. Biên lợi nhuận gộp đạt 67,7%. TSMC nâng dự báo tăng trưởng cả năm lên hơn 40% và mở rộng ngân sách đầu tư vốn lên 64 tỷ USD. CEO C.C. Wei công bố thêm 100 tỷ USD đầu tư vào nhà máy Arizona, nâng tổng cam kết tại Mỹ lên 265 tỷ USD.",
+      "source": "TechTimes",
+      "url": "https://www.techtimes.com/articles/320696/20260716/tsmc-posts-record-quarter-ai-chip-demand-pushes-full-year-growth-outlook-past-40.htm",
+      "published": "2026-07-16"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "Food Jutsu hậu World Cup - sáng 20/7 là cửa sổ vàng khi FYP lấp chỗ trống bóng đá",
-        "desc": "Food Jutsu vẫn là trend số 1 toàn cầu với hơn 36 triệu bài đăng theo Epidemic Sound. Sáng 20/7 sau chung kết World Cup là thời điểm vàng đặc biệt: FYP đang hạ nhiệt nhanh về bóng đá và thuật toán TikTok tự động ưu tiên content ẩm thực và lifestyle để lấp chỗ trống. Người xem thức khuya xem bóng thường lướt TikTok nhiều trong vài giờ sau trận.",
-        "fit": "@tracuami nên đăng Food Jutsu ngay trong khung 6-10 giờ sáng hôm nay - đây là cửa sổ tốt nhất tuần này. Chân gà sốt Thái đỏ bóng khi reveal đúng beat drop tạo hiệu ứng thị giác rất mạnh, không cần dàn dựng phức tạp.",
-        "idea": "Clip 15 giây sáng sớm: A Nguyên đứng sau quầy 1 Trường Chinh, làm dấu tay Food Jutsu nghiêm túc. Beat drop. Cắt sang đĩa chân gà sốt Thái đỏ bóng vừa ra lò. A Nguyên nhìn camera nói giọng Huế: Hôm qua mất ngủ vì bóng đá - sáng ni tau bù cho cái dạ dày bằng ni. Caption: Hậu World Cup cần cái ni liền - chân gà sốt Thái 1 Trường Chinh #FoodJutsu #tracuami #changasotthai #HueFood"
+        "name": "Food Jutsu - dấu tay anime JJK reveal món ăn tiếp tục là trend số 1 toàn cầu tháng 7",
+        "desc": "Food Jutsu tiếp tục dẫn đầu xu hướng toàn cầu với hơn 36 triệu bài đăng theo Epidemic Sound - được bình chọn là trend số 1 tháng 6 và kéo dài sang tháng 7. Creator làm dấu tay 'triệu hồi' phong cách Jujutsu Kaisen rồi cắt mạnh trên beat drop để reveal món ăn xuất hiện bất ngờ. Idris Elba và Keke Palmer đã dùng trend này; các thương hiệu F&B có chi phí sản xuất thấp nhất trong tất cả trend hiện tại vì chỉ cần 1 cảnh quay và 1 prop là món ăn.",
+        "fit": "@tracuami: chân gà sốt Thái đỏ bóng là prop lý tưởng cho Food Jutsu - màu đỏ cam bóng sánh tạo hiệu ứng thị giác mạnh khi xuất hiện đột ngột sau beat drop. Giọng Huế của A Nguyên hoặc phản ứng bất ngờ của Nhớ sau reveal sẽ tăng yếu tố hài hước tự nhiên. Trend chưa bão hòa, dùng sớm trong tuần này là tối ưu.",
+        "idea": "Clip 15 giây: A Nguyên nhìn camera nghiêm túc, làm dấu tay Food Jutsu đúng động tác. Beat drop. Cắt ngay sang cận cảnh đĩa chân gà sốt Thái đỏ bóng mới ra lò. A Nguyên nói nhẹ giọng Huế: Đây mới là ninjutsu thật sự tề. Caption: Chân gà sốt Thái triệu hồi thành công - 1 Trường Chinh Hue #FoodJutsu #tracuami #changasotthai #HueFood"
       },
       {
-        "name": "That's triggering me - lip sync text overlay về điều gây ức chế ở quán ăn",
-        "desc": "Trend TikTok đang hot dùng original audio by dusty - creator im lặng nhìn camera trong khi text overlay liệt kê những điều cụ thể 'trigger' mình theo kiểu leo thang hài hước. Format này phổ biến với F&B creator vì cho phép nói thật về trải nghiệm phục vụ khách theo cách hài hước an toàn, tạo đồng cảm từ người cùng nghề.",
-        "fit": "@tracuami rất hợp format này theo góc nhìn của Nhớ - giọng Huế bình thản và vẻ 'âm mưu' tự nhiên của Nhớ sẽ tạo hiệu ứng hài hước cao. Những điều trigger thật sự ở quán ăn vặt Huế là nội dung authentic mà người xem đồng cảm ngay.",
-        "idea": "Clip 20 giây: Nhớ ngồi sau quầy nhìn camera im lặng. Text overlay xuất hiện từng dòng theo nhịp: 'Trigger 1: khách hỏi công thức sốt Thái bí mật'; 'Trigger 2: chê đắt rồi kêu thêm đĩa'; 'Trigger 3: gọi chân gà rồi hỏi có tré không'. Nhớ gật đầu bình thản, nháy mắt camera: Mà tau vẫn đi làm đều. Caption: Things that trigger me daily - nhưng chân gà sốt Thái vẫn ra đều #triggering #tracuami #HueFood #changasotthai"
+        "name": "Hot Dog Summer - format quote 'you make me want X real bad' viral mùa hè 2026",
+        "desc": "Câu thoại 18 năm tuổi của Jennifer Coolidge trong Legally Blonde 2: 'You look like the Fourth of July, makes me want a hot dog real bad' đang trải qua đợt viral lớn nhất vào mùa hè 2026. Creator ẩm thực dùng format: nhìn vào món ăn với biểu cảm cảm thán và text overlay 'you look like X - you make me want you real bad' để thể hiện cảm xúc về món theo cách vừa hài hước vừa khen ngợi. Hashtag #hotdogsummer2026 đang trending trong tháng 7.",
+        "fit": "@tracuami hợp với format này theo góc nhìn của Nhớ hoặc khách quen nhìn vào đĩa tré trộn hoặc chân gà sốt Thái. Giọng Huế pha tiếng Anh kiểu 'you make me want tré trộn real bad' tạo hiệu ứng hài hước vì sự trái chiều văn hóa - đây là điểm độc đáo mà kênh food Huế khác kênh khác.",
+        "idea": "Clip 15 giây: Nhớ nhìn vào tô tré trộn Huế vừa bày ra, dừng lại vài giây. Text overlay xuất hiện: 'You look like everything I love...' Nhớ quay sang camera: 'You make me want tré trộn real bad.' Quay lại đĩa. Caption: Nhớ và mối quan hệ với tré trộn - @tracuami 1 Trường Chinh Hue #HotDogSummer #tracuami #tretronHue #HueFood"
       },
       {
-        "name": "Bangladesh - Ian McConnell, format tuyên bố leo thang về món ăn đang viral",
-        "desc": "Bài nhạc Bangladesh của Ian McConnell (49 giây) đang viral trên TikTok tháng 7 với format: nhân vật tuyên bố điều gì đó bình thường, câu sau leo thang lên yêu cầu ngày càng absurd. Creator ẩm thực dùng để liệt kê kế hoạch ăn theo kiểu hài hước leo thang - phù hợp cho quán ăn muốn show personality thay vì chỉ đăng ảnh món.",
-        "fit": "Format leo thang này rất phù hợp với narrative 'Nhớ hay âm mưu học lỏm công thức' đã có của kênh @tracuami. Chỉ cần 1 cảnh quay Nhớ nhìn camera và text overlay - không cần dàn dựng phức tạp.",
-        "idea": "Clip 20 giây theo beat Bangladesh: Nhớ nhìn camera bình thản. Text overlay leo thang: 'Hôm nay tau sẽ ăn thử chân gà sốt Thái'; 'Ăn chậm để ghi nhớ hương vị'; 'Phân tích thành phần của sốt'; 'Học lỏm công thức của anh Nguyên'. A Nguyên bước qua đằng sau nhìn Nhớ nghi ngờ. Caption: Nhớ và kế hoạch nghiên cứu khoa học tại @tracuami - 1 Trường Chinh Hue #tracuami #HueFood #changasotthai"
+        "name": "Savory-maxxing - phong trào anti-ngọt ăn mặn cay chua đang thống trị FYP tháng 7",
+        "desc": "TikTok tháng 7/2026 bùng nổ trend 'savory-maxxing': người dùng công khai tuyên bố ghét đồ ngọt và chuyển hoàn toàn sang mặn - cay - chua. Pickled everything (ngâm chua mọi thứ), salty snack plates và anti-sweet meals chiếm sóng FYP. Creator ẩm thực dùng xu hướng này để giới thiệu món mặn cay như một tuyên ngôn thẩm mỹ chứ không chỉ là quảng cáo món ăn đơn thuần.",
+        "fit": "@tracuami có lợi thế tự nhiên 100%: chân gà sốt Thái (mặn - cay - chua - umami, không ngọt) và tré trộn Huế (mặn - cay - chua đặc trưng) đều là đại diện hoàn hảo của savory-maxxing. Kênh có thể tuyên bố thẳng 'quán này không có món ngọt - chỉ savory thôi' như một USP khác biệt.",
+        "idea": "Clip 20 giây kiểu tuyên ngôn: text overlay phong trào trên nền quầy quán: 'Savory-maxxing menu only.' Lần lượt show 3 món: chân gà sốt Thái (cay), tré trộn Huế (mặn cay chua), trà trái cây lạnh (chua ngọt tự nhiên). Giọng A Nguyên cuối clip: Răng thích ngọt thì sang hàng khác - tui chỉ bán cái ni thôi. Caption: Savory-maxxing đích thực - 1 Trường Chinh Hue #savorymaxxing #tracuami #changasotthai #HueFood"
       },
       {
-        "name": "ASMR reveal hậu World Cup - sóng food content sáng 20/7, thuật toán ưu tiên lấp chỗ trống",
-        "desc": "Sau chung kết World Cup đêm 19-20/7, FYP TikTok hạ nhiệt bóng đá và tăng tốc ẩm thực, lifestyle. ASMR food reveal - cận tay lấy món ra đĩa, tiếng sốt chảy, ánh đèn vàng ấm - đang là format được thuật toán ưu tiên vì tỉ lệ xem hết cao. Creator nào đăng trong khung 6-12 giờ sáng 20/7 sẽ cạnh tranh ít hơn so với giờ vàng thông thường.",
-        "fit": "@tracuami có nguyên liệu ASMR tự nhiên: sốt Thái đỏ bóng sánh chảy, tiếng tré trộn, âm thanh đặt đĩa trong quán đèn vàng ấm. Không cần nhạc to - âm thanh tự nhiên của quán là điểm mạnh của format này.",
-        "idea": "Clip ASMR 15 giây ngay sáng sớm: cận tay lấy chân gà sốt Thái ra khay trắng, sốt đỏ bóng sánh chảy chậm dưới ánh đèn vàng của quán. Chỉ dùng âm thanh tự nhiên - tiếng đặt đĩa và tiếng sốt. Caption: Sáng 20/7 - sau đêm World Cup cần cái ni cho tỉnh người - 1 Trường Chinh Hue #ASMR #tracuami #changasotthai #HueFoodASMR"
+        "name": "#selfaware - creator thẳng thắn thừa nhận điểm yếu của quán theo cách hài hước và tự tin",
+        "desc": "Trend #selfaware đang viral tháng 7 với format creator thẳng thắn thừa nhận điều 'không hoàn hảo' trong sản phẩm hoặc dịch vụ của mình theo cách hài hước và tự tin. Người xem đặc biệt thích format này vì tính authentic - thay vì marketing hoa mỹ, creator dám nói thật. Hashtag #selfaware đang trong top trending hashtag toàn cầu tháng 7.",
+        "fit": "@tracuami rất phù hợp: quán ăn vặt Huế nhỏ có nhiều 'điểm yếu' hài hước có thể khai thác - menu ít, hay hết sớm, chỗ ngồi vừa vặn. A Nguyên hoặc Nhớ tự nhận thức theo kiểu thẳng thắn, giọng Huế bình thản sẽ tăng độ authentic và đồng cảm từ người xem.",
+        "idea": "Clip 15 giây: A Nguyên nhìn camera bình thản. Text overlay lần lượt: 'Tôi biết quán tôi: menu ngắn. Hay hết sớm. Chỗ ngồi vừa vặn.' Dừng. 'Nhưng chân gà sốt Thái thì không chê được.' Nháy mắt camera. Caption: Quán nhỏ nhưng lương tâm to - @tracuami 1 Trường Chinh Hue #selfaware #tracuami #changasotthai"
       }
     ],
     "sounds": [
       {
-        "name": "World Cup hype trap track (FIFA official, 120.000 video, brands báo cáo 20x performance)",
-        "desc": "Sound trap phát nhanh đang được 120.000 video dùng, bao gồm tài khoản chính thức của FIFA, F1, Real Madrid và Premier League. Brands dùng sound này báo cáo kết quả tốt hơn 20 lần so với trung bình. Sau chung kết tối qua, sound này sẽ tiếp tục viral thêm 3-5 ngày trước khi dịch chuyển - đây là cửa sổ cuối để dùng sound World Cup cho food content mà vẫn còn relevance."
+        "name": "Food Jutsu sound - Delirious (Jujutsu Kaisen OST)",
+        "desc": "Sound gốc của trend Food Jutsu với hàng chục triệu video dùng toàn cầu. Beat drop mạnh tại giây 10-12 là điểm cắt lý tưởng để reveal chân gà sốt Thái hoặc tré trộn. Sound còn tiếp tục đà tăng vì Food Jutsu là trend số 1 và chưa hạ nhiệt trong tháng 7 - dùng sớm trong tuần này vẫn còn cửa sổ organic reach tốt."
       },
       {
-        "name": "Bangladesh - Ian McConnell (49 giây, đang leo lên viral chart TikTok tháng 7)",
-        "desc": "Track singer-songwriter 49 giây của Ian McConnell đang viral với format tuyên bố leo thang absurd. Câu mở 'I would never take you to Bangladesh' leo thang sang xúc xích, dầu, tiểu thuyết và đồ uống trả thù - cấu trúc này rất dễ adapt cho content ẩm thực. Sound đang trên đà tăng nên dùng sớm trước khi bão hòa là tối ưu nhất."
+        "name": "Yeu La Yeu Thoi - Lam Phong (vinahouse remix đang viral Việt Nam tháng 7)",
+        "desc": "Bài vinahouse của Lâm Phong pha trộn EDM với giai điệu dân gian Việt Nam theo phong cách chèo và xẩm đang trending mạnh tại Việt Nam tháng 7. Sound có sức hút đặc biệt với người xem Việt vì kết hợp âm hưởng quen thuộc và nhịp điệu hiện đại - phù hợp cho clip giới thiệu món Huế truyền thống theo góc nhìn trẻ và hiện đại."
       },
       {
-        "name": "That's triggering me - original audio by dusty (trend lip sync text overlay hài hước)",
-        "desc": "Sound leo thang 'that's triggering me' của dusty đang được dùng rộng rãi cho format: creator im lặng nhìn camera trong khi text overlay liệt kê điều trigger cụ thể. Rất phù hợp cho F&B creator - không cần kịch bản phức tạp, chỉ cần 1 cảnh quay và text overlay theo nhịp. Sound này tạo đồng cảm từ người xem thuộc ngành dịch vụ - nhóm có tỉ lệ share cao."
+        "name": "Xin Lam Nguoi Xa La - Bolero remix Progressive House (trending Vietnam)",
+        "desc": "Remix Bolero theo phong cách Progressive House và Melodic Techno đang viral tại Việt Nam - giai điệu buồn da diết của Bolero kết hợp beat EDM tạo hiệu ứng vừa nostalgic vừa fresh. Creator food Việt dùng sound này cho clip reveal món ngon hoặc cảnh hậu trường quán - phù hợp cho kênh @tracuami muốn tạo cảm xúc nhẹ nhàng cho người xem cuối ngày."
       }
     ],
-    "note": "Sáng 20/7 hậu World Cup là thời điểm vàng cho @tracuami: (1) Thuật toán TikTok đang lấp chỗ trống sau sóng bóng đá - đăng Food Jutsu hoặc ASMR chân gà trong khung 6-10 giờ sáng nay sẽ được đẩy tốt hơn bình thường. (2) Ba trend mới hôm nay - That's triggering me, Bangladesh format và ASMR hậu World Cup - đều chưa bão hòa và phù hợp niche ẩm thực Huế. Sound ưu tiên hôm nay: World Cup hype trap track (vẫn ở đỉnh viral, 120K videos) kết hợp với Food Jutsu sound Delirious (JJK) cho clip Food Jutsu nếu muốn dùng hai sound viral cùng lúc."
+    "note": "Tuần 21/7: Food Jutsu vẫn là số 1 toàn cầu - @tracuami nên ưu tiên làm 1 clip Food Jutsu trong tuần vì trend chưa bão hòa và chỉ cần 1 cảnh quay. Ba trend mới đáng thử: Hot Dog Summer (format quote hài hước phù hợp giọng Huế pha tiếng Anh), Savory-maxxing (chân gà và tré trộn là đại diện hoàn hảo của phe anti-ngọt), và #selfaware (quán nhỏ dám nói thật về mình - tạo tin tưởng authentic với khách). Sounds ưu tiên tuần này: Food Jutsu sound cho clip reveal; Yêu Là Yêu Thôi cho clip truyền thống Huế muốn dùng nhạc local; Bolero remix cho clip hậu trường hoặc cảm xúc nhẹ nhàng."
   }
 }
