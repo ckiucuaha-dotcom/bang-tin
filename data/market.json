@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-23T06:35:56Z",
-  "updated_at_vn": "13:35 23/07/2026",
+  "updated_at": "2026-07-23T08:35:00Z",
+  "updated_at_vn": "15:35 23/07/2026",
   "session_date": "2026-07-23",
   "data_quality": "live",
   "vnindex": {
     "close": 1691.87,
     "change": 23.34,
     "change_pct": 1.4,
-    "note": "Phiên 22/7, VN-Index nối dài chuỗi giảm và thủng mốc tâm lý 1.700 điểm - cổ phiếu trụ (VCB, VHM, BID, TCB, HPG, MBB) đè thị trường, nhóm ngân hàng chìm sâu trong sắc đỏ; khối ngoại bán ròng gần 984 tỷ đồng; thanh khoản tăng đáng kể đạt 11.186 tỷ đồng (462 triệu cổ phiếu); Vietstock nhận định thị trường bước vào vùng quá bán nhưng chưa xác lập đáy - không vội giải ngân, chờ xác nhận hồi phục bền vững."
+    "note": "Giá VN-Index ghi nhận gần nhất 1.691,87 điểm (+1,40%); phiên 23/7 thị trường đảo chiều lao dốc không phanh theo Vietstock, đây là cú giảm mạnh nhất trong 4 tháng với nhóm Vingroup (VIC, VHM, VPL) dẫn đầu kéo chỉ số mất hơn 35 điểm - áp lực bán tiếp tục lớn, thị trường chưa xác lập đáy, khuyến nghị thận trọng và không mở vị thế mới."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "CẮT LỖ",
-      "comment": "Giá 65.600 đồng, lỗ 26,17% so với giá vốn 88.850; tiếp tục dưới stoploss 68.000 trong bối cảnh phiên 22/7 thị trường nối dài chuỗi giảm - cần sớm quyết định cắt lỗ để bảo toàn vốn, không nên gồng lỗ thêm."
+      "comment": "Giá 65.200 đồng, lỗ 26,62% so với giá vốn 88.850; tiếp tục nằm sâu dưới stoploss 68.000, thị trường 23/7 lao dốc không phanh với áp lực bán lan rộng nhóm công nghệ - ưu tiên cắt lỗ sớm để bảo toàn vốn, không gồng lỗ thêm."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.500 đồng, lãi 9,54% so với giá vốn 14.150; duy trì vùng lãi dù nhóm ngân hàng chịu áp lực bán mạnh phiên 22/7 - tiếp tục giữ, còn cách mục tiêu 18.000 và stoploss 12.500 vẫn an toàn."
+      "comment": "Giá 15.600 đồng, lãi 10,25% so với giá vốn 14.150; vẫn trên stoploss 12.500 và còn xa mục tiêu 18.000 - tiếp tục giữ, theo dõi sát diễn biến nhóm ngân hàng trong bối cảnh thị trường 23/7 suy yếu toàn diện."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "CẮT LỖ",
-      "comment": "Giá 20.750 đồng, lỗ 12,08% so với giá vốn 23.600; dưới stoploss 21.000 và nhóm thép tiếp tục chịu áp lực bán phiên 22/7 - ưu tiên cắt lỗ để hạn chế thiệt hại sâu hơn."
+      "comment": "Giá 20.900 đồng, lỗ 11,44% so với giá vốn 23.600; xuyên dưới stoploss 21.000, nhóm thép tiếp tục chịu áp lực giảm trong phiên 23/7 thị trường suy yếu toàn diện - cần thực hiện cắt lỗ sớm để hạn chế tổn thất."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "CẮT LỖ",
-      "comment": "Giá 22.600 đồng, lỗ 10,14% so với giá vốn 25.150; trong ngưỡng theo dõi sát (dưới stoploss x 1,05 = 23.625) và nhóm ngân hàng chìm sâu trong sắc đỏ phiên 22/7 - theo dõi chặt, sẵn sàng cắt lỗ ngay nếu giá xuyên thủng stoploss 22.500."
+      "comment": "Giá 22.250 đồng, lỗ 11,53% so với giá vốn 25.150; xuyên thủng stoploss 22.500, nhóm ngân hàng tiếp tục suy yếu trong phiên 23/7 - cần cắt lỗ ngay để bảo toàn vốn, tránh lỗ sâu hơn."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22550.0,
       "change_pct": 0.67,
-      "comment": "ACB giá 22.650 đồng; nhóm ngân hàng chịu áp lực bán mạnh phiên 22/7 với sắc đỏ lan rộng - chưa có tín hiệu vào lệnh, tiếp tục theo dõi và chờ thị trường ổn định trước khi cân nhắc giải ngân."
+      "comment": "ACB giá 22.550 đồng; nhóm ngân hàng tiếp tục chịu áp lực bán phiên 23/7 với sắc đỏ lan rộng - chưa có tín hiệu vào lệnh, tiếp tục quan sát và chờ thị trường ổn định trước khi cân nhắc giải ngân."
     }
   ],
   "gold": {
-    "sjc_buy": 144000000,
-    "sjc_sell": 147000000,
-    "note": "Vàng SJC ngày 22/7 niêm yết 144-147 triệu đồng/lượng (mua-bán), tăng 1 triệu đồng/lượng so với hôm qua; vàng thế giới tăng lên 4.063 USD/ounce - trong nước SJC theo đà tăng, chưa nên mua thêm khi thị trường tài chính còn biến động mạnh."
+    "sjc_buy": 135000000,
+    "sjc_sell": 140000000,
+    "note": "Vàng SJC ngày 23/7 giảm mạnh về mức 135-140 triệu đồng/lượng (mua-bán), giảm 7-9 triệu so với hôm qua; vàng thế giới ở 4.118 USD/ounce - SJC lao dốc cùng đợt điều chỉnh thị trường, chưa nên mua thêm trong giai đoạn biến động mạnh."
   },
   "news_vn": [
     {
-      "title": "VN-Index sáng 22/7 mất gần 38 điểm, cổ phiếu ngân hàng chìm trong sắc đỏ",
-      "summary": "Phiên sáng 22/7, VN-Index mất 37,66 điểm (-2,18%) xuống 1.692,90 điểm, thủng mốc tâm lý 1.700; cổ phiếu ngân hàng chìm sâu trong sắc đỏ; khối ngoại bán ròng gần 984 tỷ đồng; thanh khoản đạt 462 triệu cổ phiếu tương đương 11.186 tỷ đồng - tâm lý nhà đầu tư tiếp tục bi quan.",
-      "source": "Báo Tin Tức TTXVN",
-      "url": "https://baomoi.com/vn-index-sang-22-7-mat-gan-38-diem-co-phieu-ngan-hang-chim-trong-sac-do-c55669086.epi"
-    },
-    {
-      "title": "Vietstock Daily 22/07/2026: Nối dài chuỗi giảm",
-      "summary": "Vietstock nhận định VN-Index nối dài chuỗi giảm phiên 22/7, áp lực bán lan rộng từ cổ phiếu trụ; vùng hỗ trợ 1.700-1.710 điểm đang bị thử thách - thị trường bước vào vùng quá bán nhưng chưa xác lập đáy, chuyên gia khuyến nghị hạn chế mở vị thế mới và chờ xác nhận hồi phục bền vững.",
+      "title": "Vietstock Daily 23/07/2026: Lao dốc không phanh",
+      "summary": "Phiên 23/7, VN-Index lao dốc không phanh theo nhận định Vietstock; nhóm Vingroup (VIC, VHM, VPL) dẫn đầu đà giảm và kéo chỉ số mất hơn 35 điểm; áp lực bán tràn lan khắp thị trường, các nhóm chứng khoán và bất động sản đều trong sắc đỏ - chuyên gia khuyến nghị hạn chế mở vị thế mới và chờ xác nhận hồi phục bền vững.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/07/vietstock-daily-22072026-noi-dai-chuoi-giam-1636-1469099.htm"
+      "url": "https://vietstock.vn/2026/07/vietstock-daily-23072026-lao-doc-khong-phanh-1636-1469690.htm"
     },
     {
-      "title": "Cổ phiếu trụ đè thị trường, VN-Index thủng mốc 1.700 điểm",
-      "summary": "Các cổ phiếu đầu ngành (VCB, VHM, BID, TCB, HPG, CTG, MBB) đồng loạt giảm mạnh, đè nặng lên VN-Index khiến chỉ số thủng mốc 1.700 điểm trong phiên 22/7; nhóm chứng khoán giảm gần 5%, bất động sản và ngân hàng đều trong sắc đỏ - áp lực cung tiếp tục chiếm ưu thế.",
-      "source": "Dân Việt",
-      "url": "https://danviet.vn/co-phieu-tru-de-thi-truong-vn-index-thung-moc-1700-diem-d1445375.html"
+      "title": "Có nhịp bật hồi nhẹ nhưng áp lực bán chưa giảm, VN-Index lùi về mốc 1.660 điểm",
+      "summary": "Phiên 23/7 có nhịp bật hồi nhẹ nhưng áp lực bán vẫn duy trì ở mức cao, VN-Index lùi về vùng 1.660 điểm; thị trường chưa xác lập được đáy rõ ràng và thanh khoản còn yếu - nhà đầu tư cần thận trọng, tránh bắt đáy sớm khi xu hướng giảm chưa chấm dứt.",
+      "source": "Báo Tin Tức TTXVN",
+      "url": "https://baomoi.com/co-nhip-bat-hoi-nhe-nhung-ap-luc-ban-chua-giam-vn-index-lui-ve-moc-1-660-diem-c55677040.epi"
+    },
+    {
+      "title": "Nhận định chứng khoán 23/7: Sau cú giảm mạnh nhất 4 tháng, VN-Index sẽ về đâu?",
+      "summary": "VOV nhận định phiên 23/7 là cú giảm mạnh nhất trong 4 tháng của VN-Index; thị trường bước vào giai đoạn kiểm tra vùng hỗ trợ quan trọng, các chuyên gia phân tích chờ xác nhận hồi phục bền vững trước khi cân nhắc giải ngân mới - xu hướng chung vẫn là thận trọng và bảo vệ danh mục.",
+      "source": "VOV",
+      "url": "http://vov.vn/thi-truong/nhan-dinh-chung-khoan-237-sau-cu-giam-manh-nhat-4-thang-vn-index-se-ve-dau-post1317623.vov"
     }
   ],
   "advice": {
-    "summary": "Phiên 22/7, VN-Index nối dài chuỗi giảm và thủng mốc 1.700 điểm - danh mục đang lỗ 24,56% (giá trị 58.365.000 đồng so với vốn 77.370.000 đồng). FPT (65.600 đồng) và HPG (20.750 đồng) đều dưới stoploss cần xử lý sớm; MBB (22.600 đồng) sát ngưỡng stoploss 22.500 cần theo dõi chặt; thị trường bước vào vùng quá bán nhưng chưa xác lập đáy - tuyệt đối không gia tăng vị thế. Vàng SJC tăng lên 144-147 triệu đồng/lượng ngày 22/7.",
+    "summary": "Phiên 23/7/2026 thị trường lao dốc không phanh - cú giảm mạnh nhất trong 4 tháng; danh mục hiện lỗ 24,99% (giá trị 58.035.000 đồng so với vốn 77.370.000 đồng). Ba mã FPT (65.200 đồng), HPG (20.900 đồng), MBB (22.250 đồng) đều xuyên thủng stoploss cần xử lý khẩn cấp; SSB (15.600 đồng) vẫn lãi 10,25% - tiếp tục giữ. Vàng SJC giảm mạnh về 135-140 triệu đồng/lượng. Tuyệt đối không gia tăng vị thế khi thị trường chưa xác lập đáy.",
     "actions": [
-      "FPT: CẮT LỖ - giá 65.600 đồng (lỗ 26,17% so với vốn 88.850); dưới stoploss 68.000 và thị trường nối dài chuỗi giảm - ưu tiên cắt lỗ để bảo toàn vốn.",
-      "SSB: GIỮ - giá 15.500 đồng (lãi 9,54% so với vốn 14.150); duy trì vùng lãi ổn định - tiếp tục giữ, mục tiêu 18.000, stoploss 12.500.",
-      "HPG: CẮT LỖ - giá 20.750 đồng (lỗ 12,08% so với vốn 23.600); dưới stoploss 21.000, nhóm thép tiếp tục chịu áp lực - ưu tiên cắt lỗ hạn chế thiệt hại.",
-      "MBB: THEO DÕI SÁT - giá 22.600 đồng (lỗ 10,14% so với vốn 25.150); sát stoploss 22.500, nhóm ngân hàng chìm sâu trong sắc đỏ phiên 22/7 - sẵn sàng cắt lỗ ngay nếu giá xuyên thủng 22.500.",
-      "Tiền mới: chưa giải ngân; không vào lệnh khi VN-Index thủng 1.700 và chưa xác nhận đáy.",
-      "ACB (watchlist): giá 22.650 đồng, nhóm ngân hàng chịu áp lực mạnh phiên 22/7 - theo dõi tiếp, chưa vào lệnh.",
-      "Vàng SJC: 144-147 triệu đồng/lượng ngày 22/7, tăng 1 triệu so với hôm qua - chưa mua thêm, tiếp tục theo dõi."
+      "FPT: CẮT LỖ - giá 65.200 đồng (lỗ 26,62% so với vốn 88.850); nằm sâu dưới stoploss 68.000, ưu tiên cắt lỗ ngay để bảo toàn vốn.",
+      "SSB: GIỮ - giá 15.600 đồng (lãi 10,25% so với vốn 14.150); trên stoploss 12.500, mục tiêu 18.000 - tiếp tục giữ và theo dõi sát.",
+      "HPG: CẮT LỖ - giá 20.900 đồng (lỗ 11,44% so với vốn 23.600); dưới stoploss 21.000, thực hiện cắt lỗ để hạn chế tổn thất.",
+      "MBB: CẮT LỖ - giá 22.250 đồng (lỗ 11,53% so với vốn 25.150); xuyên thủng stoploss 22.500, cắt lỗ ngay để bảo toàn vốn.",
+      "Tiền mới: không giải ngân; thị trường 23/7 lao dốc không phanh, chưa xác nhận đáy - tuyệt đối không vào lệnh mới.",
+      "ACB (watchlist): giá 22.550 đồng, nhóm ngân hàng chịu áp lực mạnh phiên 23/7 - tiếp tục quan sát, chưa vào lệnh.",
+      "Vàng SJC: 135-140 triệu đồng/lượng ngày 23/7, giảm 7-9 triệu so với hôm qua - chưa mua thêm, tiếp tục theo dõi."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
