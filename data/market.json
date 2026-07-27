@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-07-27T07:39:54Z",
-  "updated_at_vn": "14:39 27/07/2026",
+  "updated_at": "2026-07-27T10:00:00Z",
+  "updated_at_vn": "17:00 27/07/2026",
   "session_date": "2026-07-27",
   "data_quality": "live",
   "vnindex": {
     "close": 1667.8,
     "change": -18.31,
     "change_pct": -1.09,
-    "note": "VN-Index đóng phiên 24/7 ở mức 1.685,6 điểm, giảm 13,78 điểm (-0,81%) so với phiên trước; lực cầu bắt đáy nhập cuộc giúp chỉ số hồi phục hơn 30 điểm từ vùng đáy phiên sáng, hình thành nến trắng lớn - tuy nhiên tuần 20-24/7 kết thúc với nhiều thách thức và áp lực bán vẫn lớn hơn cầu."
+    "note": "VN-Index đóng phiên 27/7 ở mức 1.667,8 điểm, giảm 18,31 điểm (-1,09%) so với phiên trước; thị trường diễn biến phân hóa trong bối cảnh tâm lý thận trọng tiếp diễn, áp lực bán lan rộng với thanh khoản HOSE đạt khoảng 13.969 tỷ đồng (giảm 31% so với phiên trước), nhóm cổ phiếu lớn tiếp tục chịu sức ép."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "CẮT LỖ",
-      "comment": "Giá 63.300 đồng, lỗ 28,76% so với giá vốn 88.850; tiếp tục nằm sâu dưới stoploss 68.000, phiên 24/7 lực cầu bắt đáy xuất hiện nhưng chưa đủ giúp FPT hồi phục qua ngưỡng stoploss - ưu tiên cắt lỗ sớm để bảo toàn vốn."
+      "comment": "Giá 62.600 đồng, lỗ 29,54% so với giá vốn 88.850; tiếp tục nằm sâu dưới stoploss 68.000, phiên 27/7 nhóm công nghệ chịu thêm áp lực giảm - cần cắt lỗ ngay để bảo toàn vốn trong bối cảnh thị trường chưa phục hồi."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.300 đồng, lãi 8,13% so với giá vốn 14.150; trên stoploss 12.500, còn cách mục tiêu 18.000 khoảng 17,6% - tiếp tục giữ, theo dõi nhóm ngân hàng trong bối cảnh tuần 20-24/7 thị trường còn nhiều thách thức."
+      "comment": "Giá 15.350 đồng, lãi 8,48% so với giá vốn 14.150; trên stoploss 12.500, còn cách mục tiêu 18.000 khoảng 17,3% - tiếp tục giữ, nhóm ngân hàng diễn biến ổn định hơn mặt bằng chung trong phiên phân hóa 27/7."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "CẮT LỖ",
-      "comment": "Giá 20.800 đồng, lỗ 11,86% so với giá vốn 23.600; xuyên dưới stoploss 21.000, phiên 24/7 HPG xuất hiện tín hiệu kỹ thuật nhưng chưa vượt stoploss - cần thực hiện cắt lỗ để hạn chế tổn thất tiếp theo."
+      "comment": "Giá 20.400 đồng, lỗ 13,56% so với giá vốn 23.600; xuyên dưới stoploss 21.000 với biên độ giảm -1,92% phiên 27/7, nhóm thép tiếp tục chịu áp lực - cần cắt lỗ để hạn chế tổn thất thêm."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "CẮT LỖ",
-      "comment": "Giá 21.900 đồng, lỗ 12,92% so với giá vốn 25.150; xuyên thủng stoploss 22.500, phiên 24/7 nhóm ngân hàng có nhịp phục hồi nhẹ nhưng MBB chưa đủ sức vượt stoploss - cắt lỗ ngay để bảo toàn vốn."
+      "comment": "Giá 21.800 đồng, lỗ 13,32% so với giá vốn 25.150; xuyên thủng stoploss 22.500, phiên 27/7 nhóm ngân hàng phân hóa nhưng MBB chưa hồi phục vượt ngưỡng - cắt lỗ ngay để bảo toàn vốn."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22400.0,
       "change_pct": -0.44,
-      "comment": "ACB giá 22.450 đồng; phiên 24/7 nhóm ngân hàng có nhịp phục hồi theo lực cầu bắt đáy toàn thị trường nhưng tuần 20-24/7 còn nhiều thách thức - tiếp tục quan sát, chưa vào lệnh."
+      "comment": "ACB giá 22.400 đồng (-0,44% phiên 27/7); nhóm ngân hàng diễn biến thận trọng theo thị trường chung, thị trường chưa xác nhận đảo chiều - tiếp tục quan sát, chưa vào lệnh."
     }
   ],
   "gold": {
-    "sjc_buy": 134500000,
-    "sjc_sell": 139500000,
-    "note": "Vàng SJC ngày 24/7 giảm tiếp về mức 134,5-139,5 triệu đồng/lượng (mua-bán), từng tuột khỏi mốc 140 triệu trước khi phục hồi nhẹ; giảm khoảng 500 nghìn đồng so với hôm qua - chưa nên mua thêm trong giai đoạn biến động."
+    "sjc_buy": 139000000,
+    "sjc_sell": 143000000,
+    "note": "Vàng SJC ngày 27/7/2026 tăng mạnh lên mức 139-143 triệu đồng/lượng (mua-bán), tăng đáng kể so với phiên trước; thế giới neo cao quanh 4.090 USD/ounce thúc đẩy vàng trong nước bật tăng - thận trọng, không mua thêm khi giá đang ở vùng cao."
   },
   "news_vn": [
     {
-      "title": "Dòng tiền bắt đáy nhập cuộc, VN-Index bật tăng gần 31 điểm sau nhịp rung lắc",
-      "summary": "Phiên 24/7, dòng tiền bắt đáy ồ ạt nhập cuộc sau cú giảm mạnh của phiên 23/7, giúp VN-Index hồi phục gần 31 điểm từ vùng đáy phiên sáng; tuy nhiên áp lực bán vào cuối phiên khiến chỉ số không giữ được toàn bộ đà phục hồi và đóng cửa vẫn thấp hơn phiên hôm qua.",
-      "source": "Người Đưa Tin",
-      "url": "https://baomoi.com/dong-tien-bat-day-nhap-cuoc-vn-index-bat-tang-gan-31-diem-sau-nhip-rung-lac-c55678216.epi"
-    },
-    {
-      "title": "Vietstock Daily 24/07/2026: Lực cầu bắt đáy nhập cuộc?",
-      "summary": "Vietstock nhận định phiên 24/7 hình thành nến trắng lớn trên đồ thị kỹ thuật, lực cầu bắt đáy xuất hiện sau đợt giảm mạnh tuần 20-24/7; chỉ số bám sát dải dưới Bollinger Bands, Stochastic Oscillator rơi vào vùng quá bán - cần xác nhận thêm tín hiệu hồi phục bền vững trước khi tự tin giải ngân.",
+      "title": "Phân tích kỹ thuật phiên chiều 27/07: Thị trường diễn biến phân hóa",
+      "summary": "Phiên 27/7/2026, VN-Index tiếp tục xu hướng giảm với đà phân hóa rõ rệt; nhóm cổ phiếu lớn như FPT (-2,78%), MWG (-4,9%) kéo chỉ số xuống, thanh khoản HOSE đạt khoảng 13.969 tỷ đồng (giảm 31% so với phiên trước) - tâm lý thận trọng tiếp tục chiếm ưu thế, khuyến nghị không vội giải ngân.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/07/vietstock-daily-24072026-luc-cau-bat-day-nhap-cuoc-1636-1470324.htm"
+      "url": "https://vietstock.vn/2026/07/phan-tich-ky-thuat-phien-chieu-2707-thi-truong-dien-bien-phan-hoa-585-1471361.htm"
     },
     {
-      "title": "HPG, FPT, MBB, TPB... đồng loạt phát tín hiệu kỹ thuật, cơ hội đang mở ra?",
-      "summary": "Nhóm cổ phiếu HPG, FPT, MBB, TPB đồng loạt xuất hiện tín hiệu kỹ thuật tích cực trong phiên 24/7, nhiều mã tiến vào vùng quá bán sau tuần giảm mạnh; chuyên gia đặt câu hỏi liệu đây có phải cơ hội mua đáy dài hạn, nhưng nhấn mạnh cần chờ xác nhận xu hướng đảo chiều rõ ràng trước khi hành động.",
-      "source": "24HMoney",
-      "url": "https://24hmoney.vn/news/hpg-fpt-mbb-tpb-dong-loat-phat-tin-hieu-ky-thuat-co-hoi-dang-mo-ra-c1a2801531.html"
+      "title": "Vietstock Weekly 27-31/07/2026: Đà giảm chưa dừng?",
+      "summary": "Nhận định tuần 27-31/07/2026, thị trường trải qua tuần giảm mạnh thứ 4 liên tiếp với VN-Index bốc hơi hơn 101 điểm do áp lực giải chấp khi dư nợ margin đạt kỷ lục 435.000 tỷ đồng; chuyên gia khuyến nghị không cố bắt đáy quá sớm, vùng hỗ trợ quanh 1.640 điểm cần theo dõi sát.",
+      "source": "Vietstock",
+      "url": "https://vietstock.vn/2026/07/vietstock-weekly-27-31072026-da-giam-chua-dung-1636-1471174.htm"
+    },
+    {
+      "title": "Nhận định thị trường phiên 27/7: Không cố gắng bắt đáy quá sớm",
+      "summary": "Các chuyên gia khuyến nghị nhà đầu tư không cố bắt đáy quá sớm trong phiên 27/7 khi thị trường chưa xác nhận tín hiệu hồi phục bền vững; áp lực từ cuộc họp Fed, căng thẳng địa chính trị và biến động giá dầu Brent dưới 90 USD/thùng tiếp tục tạo tâm lý thận trọng, 83% cổ phiếu thua lỗ từ đầu năm 2026.",
+      "source": "Tin Nhanh Chứng Khoán",
+      "url": "https://m.tinnhanhchungkhoan.vn/nhan-dinh-thi-truong-phien-giao-dich-ngay-277-khong-co-gang-bat-day-qua-som-post394676.amp"
     }
   ],
   "advice": {
-    "summary": "Phiên 24/7/2026 lực cầu bắt đáy nhập cuộc giúp VN-Index hồi phục hơn 30 điểm từ đáy phiên, tuy nhiên chỉ số vẫn đóng cửa giảm 13,78 điểm (-0,81%) ở mức 1.685,6 điểm - tuần 20-24/7 kết thúc với nhiều thách thức. Danh mục hiện lỗ 27,05% (giá trị 56.440.000 đồng so với vốn 77.370.000 đồng). Ba mã FPT (63.300 đồng), HPG (20.800 đồng), MBB (21.900 đồng) vẫn nằm dưới stoploss cần xử lý; SSB (15.300 đồng) lãi 8,13% - tiếp tục giữ. Dù xuất hiện tín hiệu kỹ thuật tích cực, chưa nên mở vị thế mới khi thị trường chưa xác nhận hồi phục bền vững.",
+    "summary": "Phiên 27/7/2026 VN-Index giảm 18,31 điểm (-1,09%) xuống 1.667,8 điểm, thị trường tiếp tục xu hướng điều chỉnh với thanh khoản suy giảm mạnh và tâm lý phân hóa. Danh mục hiện lỗ 27,83% (tổng giá trị 55.835.000 đồng so với vốn 77.370.000 đồng). Ba mã FPT (62.600 đồng), HPG (20.400 đồng), MBB (21.800 đồng) đều nằm dưới stoploss cần xử lý; chỉ SSB (15.350 đồng) giữ lãi 8,48% là điểm sáng duy nhất. Thị trường chưa xác nhận đảo chiều, không mở vị thế mới.",
     "actions": [
-      "FPT: CẮT LỖ - giá 63.300 đồng (lỗ 28,76% so với vốn 88.850); nằm sâu dưới stoploss 68.000, ưu tiên cắt lỗ ngay để bảo toàn vốn dù thị trường có dấu hiệu bắt đáy.",
-      "SSB: GIỮ - giá 15.300 đồng (lãi 8,13% so với vốn 14.150); trên stoploss 12.500, mục tiêu 18.000 - tiếp tục giữ và theo dõi sát.",
-      "HPG: CẮT LỖ - giá 20.800 đồng (lỗ 11,86% so với vốn 23.600); dưới stoploss 21.000, cần cắt lỗ để hạn chế tổn thất dù xuất hiện tín hiệu kỹ thuật tích cực.",
-      "MBB: CẮT LỖ - giá 21.900 đồng (lỗ 12,92% so với vốn 25.150); xuyên thủng stoploss 22.500, cắt lỗ ngay để bảo toàn vốn.",
-      "Tiền mới: chưa giải ngân; dù xuất hiện lực cầu bắt đáy phiên 24/7, thị trường chưa xác nhận đảo chiều bền vững - chờ thêm tín hiệu.",
-      "ACB (watchlist): giá 22.450 đồng, phiên 24/7 có nhịp phục hồi nhẹ - tiếp tục quan sát, chưa vào lệnh.",
-      "Vàng SJC: 134,5-139,5 triệu đồng/lượng ngày 24/7, giảm nhẹ so với hôm qua - chưa mua thêm, tiếp tục theo dõi."
+      "FPT: CẮT LỖ - giá 62.600 đồng (lỗ 29,54% so với vốn 88.850); nằm sâu dưới stoploss 68.000, ưu tiên cắt lỗ ngay để bảo toàn vốn.",
+      "SSB: GIỮ - giá 15.350 đồng (lãi 8,48% so với vốn 14.150); trên stoploss 12.500, mục tiêu 18.000 - tiếp tục giữ và theo dõi sát.",
+      "HPG: CẮT LỖ - giá 20.400 đồng (lỗ 13,56% so với vốn 23.600); dưới stoploss 21.000, cắt lỗ để hạn chế tổn thất thêm.",
+      "MBB: CẮT LỖ - giá 21.800 đồng (lỗ 13,32% so với vốn 25.150); dưới stoploss 22.500, cắt lỗ ngay để bảo toàn vốn.",
+      "Tiền mới: chưa giải ngân; thị trường 27/7 tiếp tục giảm với thanh khoản suy yếu, chưa có tín hiệu đảo chiều bền vững - chờ thêm xác nhận rõ ràng.",
+      "ACB (watchlist): giá 22.400 đồng (-0,44%); nhóm ngân hàng thận trọng theo thị trường chung - tiếp tục quan sát, chưa vào lệnh.",
+      "Vàng SJC: 139-143 triệu đồng/lượng ngày 27/7, tăng mạnh so với hôm qua do thế giới neo cao 4.090 USD/ounce - thận trọng, không mua thêm ở vùng giá cao."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
