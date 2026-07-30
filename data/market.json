@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-30T09:00:00Z",
-  "updated_at_vn": "16:00 30/07/2026",
+  "updated_at": "2026-07-30T10:26:01Z",
+  "updated_at_vn": "17:26 30/07/2026",
   "session_date": "2026-07-30",
   "data_quality": "live",
   "vnindex": {
-    "close": 1739.78,
-    "change": 35.1,
-    "change_pct": 2.06,
+    "close": 1744.66,
+    "change": 39.98,
+    "change_pct": 2.35,
     "note": "VN-Index đóng phiên 30/07 ở mức 1.739,78 điểm, tăng 35,10 điểm (+2,06%) nhờ nhóm bất động sản dẫn dắt (VRE chốt trần phiên 2 liên tiếp sau BCTC quý 2 tốt) và Fed giữ lãi suất 3,50-3,75%; thanh khoản sôi động, song khối ngoại vẫn bán ròng tập trung vào VHM và FPT."
   },
   "holdings": [
@@ -14,11 +14,11 @@
       "ticker": "FPT",
       "qty": 800,
       "avg_cost": 88850,
-      "price": 66700.0,
-      "change_pct": 2.46,
-      "value": 53360000.0,
-      "pnl": -17720000.0,
-      "pnl_pct": -24.93,
+      "price": 67000.0,
+      "change_pct": 2.92,
+      "value": 53600000.0,
+      "pnl": -17480000.0,
+      "pnl_pct": -24.59,
       "target": 116000,
       "stoploss": 68000,
       "action": "CẮT LỖ",
@@ -28,11 +28,11 @@
       "ticker": "SSB",
       "qty": 100,
       "avg_cost": 14150,
-      "price": 15400.0,
-      "change_pct": 0.0,
-      "value": 1540000.0,
-      "pnl": 125000.0,
-      "pnl_pct": 8.83,
+      "price": 15550.0,
+      "change_pct": 0.97,
+      "value": 1555000.0,
+      "pnl": 140000.0,
+      "pnl_pct": 9.89,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
@@ -69,15 +69,15 @@
   ],
   "totals": {
     "cost": 77370000.0,
-    "value": 59330000.0,
-    "pnl": -18040000.0,
-    "pnl_pct": -23.32
+    "value": 59585000.0,
+    "pnl": -17785000.0,
+    "pnl_pct": -22.99
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 22400.0,
-      "change_pct": 0.45,
+      "price": 22350.0,
+      "change_pct": 0.22,
       "comment": "ACB giá 22.400 đồng (+0,45% phiên 30/07); nhóm ngân hàng phân hóa, khối ngoại mua ròng SHB và HDB nhưng chưa chú ý ACB - tiếp tục quan sát, chưa vào lệnh."
     }
   ],
