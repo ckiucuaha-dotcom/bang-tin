@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-07-31T10:40:54Z",
-  "updated_at_vn": "17:40 31/07/2026",
-  "session_date": "2026-07-31",
+  "updated_at": "2026-08-03T05:57:41Z",
+  "updated_at_vn": "12:57 03/08/2026",
+  "session_date": "2026-08-03",
   "data_quality": "live",
   "vnindex": {
-    "close": 1735.78,
-    "change": -8.88,
-    "change_pct": -0.51,
+    "close": 1755.95,
+    "change": 20.17,
+    "change_pct": 1.16,
     "note": "VN-Index đóng phiên 30/07 ở mức 1.739,78 điểm, tăng 35,10 điểm (+2,06%) nhờ nhóm bất động sản dẫn dắt (VRE chốt trần phiên 2 liên tiếp sau BCTC quý 2 tốt) và Fed giữ lãi suất 3,50-3,75%; thanh khoản sôi động, song khối ngoại vẫn bán ròng tập trung vào VHM và FPT."
   },
   "holdings": [
@@ -14,14 +14,14 @@
       "ticker": "FPT",
       "qty": 800,
       "avg_cost": 88850,
-      "price": 67100.0,
-      "change_pct": 0.15,
-      "value": 53680000.0,
-      "pnl": -17400000.0,
-      "pnl_pct": -24.48,
+      "price": 70700.0,
+      "change_pct": 5.37,
+      "value": 56560000.0,
+      "pnl": -14520000.0,
+      "pnl_pct": -20.43,
       "target": 116000,
       "stoploss": 68000,
-      "action": "CẮT LỖ",
+      "action": "THEO DÕI SÁT",
       "comment": "Giá 66.700 đồng phiên 30/07, lỗ 24,93% so với giá vốn 88.850; khối ngoại bán ròng FPT trong phiên hôm nay trong khi giá vẫn nằm dưới stoploss 68.000 - tín hiệu tiêu cực kép, cần cắt lỗ ngay để bảo toàn vốn."
     },
     {
@@ -42,42 +42,42 @@
       "ticker": "HPG",
       "qty": 100,
       "avg_cost": 23600,
-      "price": 21700.0,
-      "change_pct": -0.46,
-      "value": 2170000.0,
-      "pnl": -190000.0,
-      "pnl_pct": -8.05,
+      "price": 22400.0,
+      "change_pct": 3.23,
+      "value": 2240000.0,
+      "pnl": -120000.0,
+      "pnl_pct": -5.08,
       "target": 28000,
       "stoploss": 21000,
-      "action": "THEO DÕI SÁT",
+      "action": "GIỮ",
       "comment": "Giá 21.800 đồng phiên 30/07, lỗ 7,63% so với giá vốn 23.600; ngưỡng THEO DÕI SÁT dưới 22.050 (stoploss x 1,05) - theo dõi sát, sẵn sàng cắt ngay nếu giá đóng cửa dưới 21.000."
     },
     {
       "ticker": "MBB",
       "qty": 100,
       "avg_cost": 25150,
-      "price": 22500.0,
-      "change_pct": 0.0,
-      "value": 2250000.0,
-      "pnl": -265000.0,
-      "pnl_pct": -10.54,
+      "price": 23400.0,
+      "change_pct": 4.0,
+      "value": 2340000.0,
+      "pnl": -175000.0,
+      "pnl_pct": -6.96,
       "target": 30000,
       "stoploss": 22500,
-      "action": "CẮT LỖ",
+      "action": "THEO DÕI SÁT",
       "comment": "Giá 22.500 đồng phiên 30/07 đúng bằng stoploss 22.500, lỗ 10,54% so với giá vốn 25.150; cần cắt lỗ ngay theo quy tắc, không tiếp tục giữ."
     }
   ],
   "totals": {
     "cost": 77370000.0,
-    "value": 59655000.0,
-    "pnl": -17715000.0,
-    "pnl_pct": -22.9
+    "value": 62695000.0,
+    "pnl": -14675000.0,
+    "pnl_pct": -18.97
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 21900.0,
-      "change_pct": -2.01,
+      "price": 22250.0,
+      "change_pct": 1.6,
       "comment": "ACB giá 22.400 đồng (+0,45% phiên 30/07); nhóm ngân hàng phân hóa, khối ngoại mua ròng SHB và HDB nhưng chưa chú ý ACB - tiếp tục quan sát, chưa vào lệnh."
     }
   ],
