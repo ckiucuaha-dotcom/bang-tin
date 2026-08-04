@@ -1,49 +1,49 @@
 {
-  "updated_at": "2026-08-03T00:10:00Z",
-  "updated_at_vn": "07:10 03/08/2026",
+  "updated_at": "2026-08-04T00:10:00Z",
+  "updated_at_vn": "07:10 04/08/2026",
   "ai": [
     {
-      "title": "Claude Opus 4.1 bị khai tử trên API ngày 5/8 - chỉ còn 2 ngày để chuyển sang Opus 4.8",
-      "summary": "Anthropic sẽ chính thức ngắt API cho model claude-opus-4-1-20250805 vào ngày 5/8/2026, đúng 60 ngày sau thông báo deprecation từ ngày 5/6. Sau thời điểm này mọi request gửi đến endpoint này sẽ trả về lỗi ngay lập tức thay vì phản hồi. Anthropic khuyến nghị chuyển toàn bộ workload sang claude-opus-4-8 - model hỗ trợ cửa sổ ngữ cảnh 1 triệu token, adaptive thinking, và giá không đổi so với Opus 4.1.",
-      "why_it_matters": "Nếu có workflow Claude Code nào đang hardcode claude-opus-4-1-20250805, cần kiểm tra và đổi model alias trước ngày 5/8 - còn đúng 2 ngày - hoặc pipeline sẽ bị lỗi từ thứ Tư tuần này.",
-      "source": "Anthropic Platform Docs",
-      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "title": "Claude Opus 5 vượt 96% trên SWE-bench Verified - mô hình agentic coding số 1 tháng 8/2026",
+      "summary": "Claude Opus 5 xác nhận vị trí dẫn đầu bảng xếp hạng SWE-bench Verified với 96,0% tính đến ngày 2/8/2026, theo sau là Claude Mythos 5 (95,5%) và Claude Fable 5 (95%). Mô hình ra mắt ngày 24/7 với giá $5/$25 triệu token, bằng một nửa giá Fable 5. Opus 5 cũng dẫn đầu Frontier-Bench agentic coding (43,3%), ARC-AGI-3 về suy luận mới (30,2%) và đứng thứ ba trên SWE-bench Pro (79,2%) sau Mythos 5 và Fable 5.",
+      "why_it_matters": "Nếu đang dùng Claude Code với Opus 4 cho các tác vụ lập trình phức tạp, đây là thời điểm thử Opus 5 - hiệu năng dẫn đầu hầu hết benchmark thực tế với mức giá bằng một nửa Fable 5.",
+      "source": "BenchLM.ai",
+      "url": "https://benchlm.ai/benchmarks/swe-bench-verified",
+      "published": "2026-08-02",
+      "hot": false
+    },
+    {
+      "title": "Anthropic khai tử Legacy Workbench và Experimental Prompt Tools API từ ngày 17/8",
+      "summary": "Anthropic thông báo đóng cửa toàn bộ Legacy Workbench và các API thử nghiệm về prompt tools trên Claude Developer Platform, với hạn chót ngày 17/8/2026. Sau thời điểm này mọi request đến các endpoint cũ sẽ trả về lỗi ngay lập tức. Anthropic khuyến nghị người dùng chuyển sang giao diện Console mới và sử dụng các API hiện đại đang tiếp tục được cải thiện.",
+      "why_it_matters": "Nếu có workflow hoặc script nào đang gọi API thử nghiệm của Workbench cũ, cần kiểm tra và di chuyển trước ngày 17/8 - còn khoảng 13 ngày để tránh bị gián đoạn.",
+      "source": "Releasebot - Anthropic Claude Developer Platform",
+      "url": "https://releasebot.io/updates/anthropic/claude-developer-platform",
+      "published": "2026-08-02",
+      "hot": true
+    },
+    {
+      "title": "Claude Sonnet 5 kết thúc giá khuyến mãi từ 1/9 - tokenizer mới có thể tăng chi phí thực tế thêm 35%",
+      "summary": "Anthropic xác nhận Claude Sonnet 5 kết thúc mức giá giới thiệu $2/$10 mỗi triệu token vào ngày 31/8/2026, chuyển sang $3/$15 từ ngày 1/9. Đáng chú ý là một tokenizer mới đi kèm có thể làm cùng một đoạn văn bản tốn thêm tới 35% token - có nghĩa chi phí thực tế có thể tăng đến 85% so với mức giá giới thiệu hiện tại. Đây là thay đổi giá lớn nhất của Anthropic trong năm 2026.",
+      "why_it_matters": "Nếu có pipeline tự động dùng Claude Sonnet 5 với lượng lớn text tiếng Việt, cần đo lại token count bằng tokenizer mới trước ngày 1/9 để ước tính đúng chi phí vận hành và không bị sốc hóa đơn.",
+      "source": "LLM Stats",
+      "url": "https://llm-stats.com/llm-updates",
       "published": "2026-08-03",
       "hot": true
     },
     {
-      "title": "Anthropic gia hạn tăng 50% usage Claude Code đến 19/8 - Max và Pro dùng nhiều hơn không thêm phí",
-      "summary": "Anthropic gia hạn chương trình tăng tạm thời 50% giới hạn sử dụng hằng tuần cho người dùng Claude Code đến ngày 19/8/2026 thay vì hết hạn trước đó. Điều này có nghĩa người dùng Max và Pro tiếp tục có thêm 50% lượt dùng Claude Opus 4.8 và các model khác mà không phát sinh chi phí thêm. Việc gia hạn diễn ra trong giai đoạn trước khi giá Claude Sonnet 5 tăng từ ngày 1/9.",
-      "why_it_matters": "Còn gần 3 tuần dùng quota cao hơn mức bình thường - đây là thời điểm tốt để đẩy mạnh các task tự động hóa nặng với Claude Code, đặc biệt những task đang chờ để không vượt quota.",
-      "source": "ExplainX AI",
-      "url": "https://www.explainx.ai/blog/claude-usage-limits-2026-timeline-explained",
-      "published": "2026-08-02",
+      "title": "OpenAI công bố tầm nhìn 'Building abundant intelligence' - AI phải rẻ như điện nước",
+      "summary": "Ngày 3/8/2026, OpenAI công bố bài kỹ thuật 'Building abundant intelligence' phác thảo lộ trình giảm chi phí AI xuống mức tương đương điện và nước, mở ra khả năng tiếp cận toàn cầu. Bài viết lập luận rằng AI giá siêu rẻ sẽ là nền tảng cho tăng trưởng kinh tế mới, tương tự cách điện lưới thay đổi nền kinh tế thế kỷ 20. Động thái này được xem là phản ứng với áp lực cạnh tranh từ DeepSeek và các model open-weight giá rẻ đang nổi lên mạnh.",
+      "why_it_matters": "Xu hướng giảm giá AI do cạnh tranh từ DeepSeek và model open-weight sẽ có lợi trực tiếp - chi phí dùng Claude Code và công cụ AI trong quy trình làm việc hằng ngày có thể giảm đáng kể trong 6 đến 12 tháng tới.",
+      "source": "OpenAI Newsroom",
+      "url": "https://openai.com/news/",
+      "published": "2026-08-03",
       "hot": false
     },
     {
-      "title": "OpenAI ra mắt \"Sign in with ChatGPT\" beta - Airtable, GitLab, Notion, Vercel, Supabase tích hợp đầu tiên",
-      "summary": "OpenAI bắt đầu triển khai tính năng cho phép người dùng đăng nhập vào các ứng dụng đối tác bằng tài khoản ChatGPT, tương tự Sign in with Google hay Sign in with Apple. Đợt beta đầu tiên bao gồm Airtable, GitLab, HubSpot, Notion, Supabase và Vercel - hầu hết là công cụ developer và productivity. Đây là bước tiến của OpenAI trong việc biến ChatGPT thành nền tảng identity và OAuth provider cạnh tranh trực tiếp với Google và GitHub.",
-      "why_it_matters": "Nếu OpenAI thành công với Sign in with ChatGPT, các ứng dụng thế hệ tiếp theo có thể tích hợp AI vào luồng xác thực người dùng sâu hơn - xu hướng cần theo dõi khi xây dựng công cụ nội bộ hay tích hợp AI vào quản lý quán.",
-      "source": "OpenAI / Releasebot",
-      "url": "https://releasebot.io/updates/openai/chatgpt",
-      "published": "2026-08-02",
-      "hot": false
-    },
-    {
-      "title": "Lỗ hổng DeepJack trong Cursor 3.9.8 cho phép RCE không cần xác nhận qua cursor:// deeplink",
-      "summary": "Adversa AI phát hiện lỗ hổng DeepJack trong Cursor IDE: kẻ tấn công có thể dùng nested cursor:// deeplinks kết hợp kỹ thuật đệm khoảng trắng để đẩy lệnh cài MCP độc hại ra ngoài màn hình dialog xác nhận, khiến người dùng nhấp đồng ý mà không nhìn thấy lệnh thật. Kết quả là lệnh thực thi trong môi trường không có sandbox - tức toàn quyền trên máy tính người dùng. Lỗ hổng vẫn có thể tái hiện trên Cursor build 3.9.8.",
-      "why_it_matters": "Người dùng Cursor cần cẩn thận với mọi link cursor:// nhận được qua email, chat hay PR comment cho đến khi có bản vá chính thức - đặc biệt các link yêu cầu cài MCP server lạ.",
-      "source": "Adversa AI",
-      "url": "https://adversa.ai/blog/top-agentic-ai-security-resources-august-2026/",
-      "published": "2026-08-02",
-      "hot": true
-    },
-    {
-      "title": "Nhà toán học vừa đoạt Fields Medal 2026 gia nhập OpenAI nghiên cứu AI safety",
-      "summary": "Jacob Tsimerman, nhà toán học người Canada vừa đoạt Huy chương Fields 2026 - giải thưởng danh giá nhất trong toán học - xin nghỉ phép tại University of Toronto để gia nhập OpenAI với vai trò nghiên cứu AI safety. Đây là ví dụ nổi bật nhất trong xu hướng OpenAI và Anthropic tuyển dụng các nhà toán học lý thuyết hàng đầu thay vì chỉ nhắm vào kỹ sư ML. Động thái này cho thấy các vấn đề cốt lõi của AI safety đòi hỏi công cụ toán học mới chứ không chỉ là kỹ thuật engineering.",
-      "why_it_matters": "Xu hướng tuyển nhà toán học lý thuyết vào AI safety cho thấy lĩnh vực này đang ngày càng nghiêm túc hơn - các giải pháp safety cho AI agent tương lai có thể sẽ có nền tảng lý thuyết chắc chắn hơn nhiều so với hiện tại.",
-      "source": "AI Weekly",
-      "url": "https://aiweekly.co/",
+      "title": "DeepSeek V4 Flash 0731 chính thức rời preview - giá $0,14/$0,28 triệu token, vượt DeepSeek Pro trên agent benchmark",
+      "summary": "DeepSeek V4 Flash 0731 chính thức thoát preview và phát hành ổn định với mức giá $0,14/$0,28 mỗi triệu token, rẻ hơn nhiều so với các model frontier cùng thế hệ. Model đạt 82,7% trên Terminal-Bench, vượt qua chính DeepSeek V4 Pro (1,6 nghìn tỷ tham số) trên các benchmark agent. Đây hiện là lựa chọn cân bằng tốt nhất giữa giá và hiệu năng cho các tác vụ agentic coding cần chạy với số lượng lớn.",
+      "why_it_matters": "Với Claude Code đang dùng Opus cho task nặng, có thể xem xét DeepSeek V4 Flash cho các sub-task đơn giản trong pipeline để tiết kiệm chi phí khi chạy nhiều routine tự động mỗi ngày.",
+      "source": "LLM Stats",
+      "url": "https://llm-stats.com/ai-news",
       "published": "2026-08-02",
       "hot": false
     }
@@ -51,162 +51,162 @@
   "github": {
     "daily": [
       {
-        "repo": "lyogavin/airllm",
-        "desc": "Chạy suy luận model 70 tỷ tham số trên GPU chỉ 4GB VRAM mà không cần quantization",
+        "repo": "zhaoxuya520/reverse-skill",
+        "desc": "Bộ skill bảo mật với router AI thông minh và cơ sở kiến thức tự cập nhật dành cho kiểm thử xâm nhập được ủy quyền",
+        "lang": "PowerShell",
+        "stars": 15708,
+        "stars_period": 2446,
+        "url": "https://github.com/zhaoxuya520/reverse-skill"
+      },
+      {
+        "repo": "microsoft/AI-For-Beginners",
+        "desc": "Khóa học AI của Microsoft gồm 12 tuần và 24 bài học dành cho người mới bắt đầu tiếp cận trí tuệ nhân tạo",
         "lang": "Jupyter Notebook",
-        "stars": 25629,
-        "stars_period": 819,
-        "url": "https://github.com/lyogavin/airllm"
+        "stars": 60703,
+        "stars_period": 1902,
+        "url": "https://github.com/microsoft/AI-For-Beginners"
       },
       {
-        "repo": "codecrafters-io/build-your-own-x",
-        "desc": "Tự xây dựng lại các công nghệ nổi tiếng từ đầu - cách học lập trình sâu nhất",
-        "lang": "Markdown",
-        "stars": 534820,
-        "stars_period": 674,
-        "url": "https://github.com/codecrafters-io/build-your-own-x"
+        "repo": "firecrawl/pdf-inspector",
+        "desc": "Thư viện Rust tốc độ cao cho kiểm tra, phân loại và trích xuất văn bản từ file PDF",
+        "lang": "Rust",
+        "stars": 8154,
+        "stars_period": 1699,
+        "url": "https://github.com/firecrawl/pdf-inspector"
       },
       {
-        "repo": "different-ai/openwork",
-        "desc": "Giải pháp thay thế mã nguồn mở cho nền tảng cộng tác Claude Cowork của Anthropic",
+        "repo": "esengine/DeepSeek-Reasonix",
+        "desc": "AI coding agent dựa trên DeepSeek V4 chạy thẳng trên terminal, không cần giao diện đồ họa",
+        "lang": "Go",
+        "stars": 29900,
+        "stars_period": 883,
+        "url": "https://github.com/esengine/DeepSeek-Reasonix"
+      },
+      {
+        "repo": "usekaneo/kaneo",
+        "desc": "Phần mềm quản lý dự án mã nguồn mở, giao diện đơn giản và không cản trở quy trình làm việc",
         "lang": "TypeScript",
-        "stars": 20300,
-        "stars_period": 280,
-        "url": "https://github.com/different-ai/openwork"
-      },
-      {
-        "repo": "Panniantong/Agent-Reach",
-        "desc": "AI agent đọc và tìm kiếm thông tin trên nhiều nền tảng internet cùng lúc",
-        "lang": "Python",
-        "stars": 64676,
-        "stars_period": 659,
-        "url": "https://github.com/Panniantong/Agent-Reach"
-      },
-      {
-        "repo": "TencentCloud/TencentDB-Agent-Memory",
-        "desc": "Bộ nhớ chia sẻ cấp nhóm cho AI agent - lưu trữ lịch sử hội thoại và kiến thức chung của team",
-        "lang": "TypeScript",
-        "stars": 10994,
-        "stars_period": 602,
-        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        "stars": 6853,
+        "stars_period": 665,
+        "url": "https://github.com/usekaneo/kaneo"
       }
     ],
     "weekly": [
       {
-        "repo": "bojieli/ai-agent-book",
-        "desc": "Sách mã nguồn mở về thiết kế và kỹ thuật AI Agent - toàn diện từ kiến trúc đến triển khai thực tế",
-        "lang": "Python",
-        "stars": 29888,
-        "stars_period": 9298,
-        "url": "https://github.com/bojieli/ai-agent-book"
-      },
-      {
-        "repo": "ayghri/i-have-adhd",
-        "desc": "Skill ngăn coding agent chôn vùi câu trả lời trong verbose output - định dạng đầu ra thân thiện với tư duy phi tuyến tính",
-        "lang": "Python",
-        "stars": 15678,
-        "stars_period": 5225,
-        "url": "https://github.com/ayghri/i-have-adhd"
-      },
-      {
-        "repo": "alibaba/open-code-review",
-        "desc": "Công cụ review code kết hợp pipeline xác định và LLM agent - kiến trúc hybrid của Alibaba cho CI/CD",
-        "lang": "Go",
-        "stars": 17872,
-        "stars_period": 4365,
-        "url": "https://github.com/alibaba/open-code-review"
-      },
-      {
-        "repo": "1jehuang/jcode",
-        "desc": "Harness thực thi lệnh tiết kiệm RAM nhất hiện có - viết bằng Rust",
+        "repo": "block/buzz",
+        "desc": "Nền tảng giao tiếp kiểu hive mind phi tập trung viết bằng Rust, đang nổi lên như giải pháp cộng tác thế hệ mới",
         "lang": "Rust",
-        "stars": 15267,
-        "stars_period": 3620,
-        "url": "https://github.com/1jehuang/jcode"
+        "stars": 21826,
+        "stars_period": 7372,
+        "url": "https://github.com/block/buzz"
       },
       {
-        "repo": "moeru-ai/airi",
-        "desc": "AI companion tự host hỗ trợ chat bằng giọng nói và chơi game trên nhiều nền tảng",
+        "repo": "virgiliojr94/book-to-skill",
+        "desc": "Chuyển đổi sách kỹ thuật định dạng PDF thành skill cho Claude Code để học và tra cứu nhanh",
+        "lang": "Python",
+        "stars": 15904,
+        "stars_period": 5405,
+        "url": "https://github.com/virgiliojr94/book-to-skill"
+      },
+      {
+        "repo": "citrolabs/ego-lite",
+        "desc": "Trình duyệt nhẹ cho AI agent với trạng thái đăng nhập sẵn có, giúp tự động hóa web mà không cần đăng nhập lại",
+        "lang": "JavaScript",
+        "stars": 8026,
+        "stars_period": 2625,
+        "url": "https://github.com/citrolabs/ego-lite"
+      },
+      {
+        "repo": "pascalorg/editor",
+        "desc": "Công cụ tạo và chia sẻ dự án kiến trúc 3D trực tuyến, phù hợp cho thiết kế không gian và trình bày ý tưởng",
         "lang": "TypeScript",
-        "stars": 46542,
-        "stars_period": 3431,
-        "url": "https://github.com/moeru-ai/airi"
+        "stars": 20935,
+        "stars_period": 2953,
+        "url": "https://github.com/pascalorg/editor"
+      },
+      {
+        "repo": "earthtojake/text-to-cad",
+        "desc": "Bộ skill AI cho các ứng dụng thiết kế CAD, phân tích kết cấu CAE và gia công CAM",
+        "lang": "JavaScript",
+        "stars": 12686,
+        "stars_period": 1908,
+        "url": "https://github.com/earthtojake/text-to-cad"
       }
     ],
-    "trend_note": "Tuần này GitHub tập trung vào hai hướng lớn: học AI agent nghiêm túc hơn (bojieli/ai-agent-book tăng 9.300 sao trong tuần với nội dung từ kiến trúc đến triển khai) và tối ưu hóa workflow coding agent hằng ngày (ayghri/i-have-adhd giúp agent không chôn câu trả lời trong verbose output, 1jehuang/jcode harness Rust tiết kiệm RAM). Alibaba tham gia sân chơi công cụ review code AI với open-code-review kết hợp pipeline xác định và LLM agent - xu hướng doanh nghiệp lớn mã nguồn mở hóa toolchain AI nội bộ."
+    "trend_note": "Tuần đầu tháng 8 nổi bật với làn sóng chuyển đổi kiến thức thành skill cho coding agent - virgiliojr94/book-to-skill (5.405 sao trong tuần) khai thác hướng biến sách kỹ thuật thành skill Claude Code ngay trong luồng làm việc. block/buzz nổi lên như nền tảng giao tiếp phi tập trung viết bằng Rust với 7.372 sao trong tuần, trong khi citrolabs/ego-lite giải quyết bài toán AI agent cần duyệt web với phiên đăng nhập sẵn có."
   },
   "tech": [
     {
-      "title": "Techfest HaiPhong 2026 khai mạc 4-5/8 tại Đại học Hàng Hải - 3.000 đại biểu từ 6 quốc gia",
-      "summary": "Techfest HaiPhong 2026 diễn ra ngày 4-5/8 tại Đại học Hàng Hải Việt Nam với chủ đề Tập hợp trí tuệ - Bứt phá sáng tạo, thu hút hơn 3.000 đại biểu trong nước và quốc tế từ Hàn Quốc, Trung Quốc, Israel và Nhật Bản cùng các quỹ đầu tư và tập đoàn công nghệ toàn cầu. Sự kiện thiết kế không gian triển lãm theo chủ đề 5 Cảng Công nghệ lấy cảm hứng từ bản sắc cảng biển Hải Phòng, gồm Global Techport, National Techport, Innovation Port, Heritage Techport và Connectivity Port. Đây là một trong những sự kiện khởi nghiệp sáng tạo lớn nhất khu vực miền Bắc Việt Nam năm 2026.",
-      "source": "VOV",
-      "url": "https://english.vov.vn/en/society/techfest-haiphong-2026-gathers-intellects-to-advance-innovation-post1318928.vov",
+      "title": "Vietnam Tech Summit 2026 khai mạc 7-8/8 tại Silicon Valley - chủ đề 'Build Your Edge in the AI Era'",
+      "summary": "Vietnam Tech Summit 2026 diễn ra ngày 7-8/8 tại Computer History Museum, Mountain View, California với chủ đề 'Build Your Edge in the AI Era'. Sự kiện quy tụ các nhà lãnh đạo AI, nhà sáng lập startup, nhà đầu tư và nhân tài công nghệ người Việt tại Silicon Valley, kết hợp keynote về AI, tham quan công ty công nghệ lớn, cuộc thi Vietnam AI Stars và kết nối tuyển dụng. Đây là cầu nối quan trọng giữa hệ sinh thái startup Việt Nam và thung lũng Silicon trong giai đoạn AI bùng nổ.",
+      "source": "EIN Presswire",
+      "url": "https://www.einpresswire.com/article/921929174/vietnam-tech-summit-2026-brings-build-your-edge-in-the-ai-era-to-silicon-valley-this-august",
+      "published": "2026-07-30"
+    },
+    {
+      "title": "HORECFEX Vietnam 2026 tại Đà Nẵng - robot AI phục vụ và thực tế ảo bước vào ngành khách sạn Việt",
+      "summary": "HORECFEX Vietnam 2026, triển lãm công nghệ khách sạn và du lịch, diễn ra ngày 20-21/8 tại Ariyana International Convention Centre Đà Nẵng với hơn 40 bài thuyết trình từ 55 diễn giả ở 20 quốc gia. Điểm nhấn gồm robot an ninh Unitree Robotics bốn chân tuần tra resort và robot AI Ms. Ariyana đang phục vụ thức uống chào đón khách tại sảnh Furama. Sự kiện phủ rộng các chủ đề về quản lý khách sạn bằng AI, tối ưu hóa doanh thu và phát triển bền vững.",
+      "source": "Street Insider",
+      "url": "https://www.streetinsider.com/Pinion+Newswire/From+virtual+reality+to+AI+robots:+HORECFEX+Vietnam+2026+Showcases+a+Pioneering+Technology+Ecosystem+for+Vietnamese+Hospitality+Industry/26818661.html",
       "published": "2026-08-01"
     },
     {
-      "title": "Việt Nam gia nhập liên minh 6G toàn cầu tại MWC Barcelona - FPT, Viettel, VNG sánh vai Google, Samsung, Microsoft",
-      "summary": "Tại MWC Barcelona 2026, Việt Nam có đại diện FPT, Viettel và VNG tham gia liên minh 6G toàn cầu cùng Google, Meta, Microsoft, Samsung, Siemens và SK Telecom nhằm xây dựng hệ sinh thái, đẩy nhanh tiêu chuẩn hóa và trình diễn công nghệ tiền thương mại 6G vào năm 2028. Việt Nam đặt mục tiêu làm chủ 5G và 6G trước năm 2030 với hướng đi phát triển thiết bị và trạm gốc 6G nội địa để giảm phụ thuộc vào công nghệ nhập khẩu. 6G được định hướng là nền tảng AI-native, tích hợp kết nối, cảm biến và tính toán hiệu năng cao thành một hạ tầng duy nhất.",
-      "source": "VietnamPlus",
-      "url": "https://en.vietnamplus.vn/vietnam-expected-to-fast-track-mastery-rollout-of-6g-technology-post349305.vnp",
-      "published": "2026-08-02"
+      "title": "Top 10 Công ty uy tín ngành Công nghệ Việt Nam 2026 - FPT, Viettel, VNG dẫn đầu, VinAI tăng trưởng nhanh",
+      "summary": "Vietnam Report công bố danh sách Top 10 Công ty uy tín ngành Công nghệ Việt Nam 2026 với lễ tôn vinh tại Hà Nội tháng 8, trong đó FPT và Viettel tiếp tục dẫn đầu nhờ quy mô và khả năng đầu tư AI quy mô lớn. VinAI, MoMo và Designveloper ghi nhận tăng trưởng nhanh trong mảng AI và fintech. Khảo sát cho thấy tái định hình sản phẩm và quy trình vận hành trên nền tảng AI là ưu tiên chiến lược số một của doanh nghiệp công nghệ Việt trong năm nay.",
+      "source": "VietnamNet",
+      "url": "https://vietnamnet.vn/cong-bo-top-10-cong-ty-uy-tin-nganh-cong-nghe-nam-2026-2530564.html",
+      "published": "2026-06-29"
     },
     {
-      "title": "Google for Startups Accelerator SEA khởi động tháng 8 - 25 startup Đông Nam Á học LLMOPS và multi-agent",
-      "summary": "Chương trình Google for Startups Accelerator: Southeast Asia kéo dài 3 tháng chính thức khởi động tháng 8/2026, không lấy cổ phần, với 25 startup được chọn từ Đông Nam Á. Nội dung đào tạo chuyên sâu tập trung vào lập trình agent, kỹ thuật ngữ cảnh AI, LLMOPS và phối hợp hệ thống multi-agent, được tổ chức tại Google, NIC và SIHUB. Đây là cơ hội tiếp cận cơ sở hạ tầng và chuyên gia của Google cho startup AI Việt Nam trong giai đoạn cạnh tranh khốc liệt trên thị trường toàn cầu.",
-      "source": "Vietnam.vn",
-      "url": "https://www.vietnam.vn/en/startup-ai-viet-nam-co-co-hoi-tang-toc-ra-thi-truong-toan-cau",
-      "published": "2026-08-01"
+      "title": "Chính sách mới về khoa học công nghệ hiệu lực tháng 8/2026 - sinh trắc học, AI phân tích hành vi được pháp lý hóa",
+      "summary": "Từ tháng 8/2026, nhiều chính sách mới về công nghệ chính thức có hiệu lực tại Việt Nam, bao gồm điều khiển tự động tín hiệu giao thông bằng AI, tự động thẩm định và chấm điểm hồ sơ hành chính, phát hiện vi phạm qua công nghệ sinh trắc học, và phân tích hành vi hành khách qua camera an ninh. Đây là lần đầu tiên các ứng dụng AI trong quản lý nhà nước được luật hóa rõ ràng, tạo hành lang pháp lý cho doanh nghiệp cung cấp giải pháp AI cho cơ quan công quyền.",
+      "source": "Luật Việt Nam",
+      "url": "https://luatvietnam.vn/linh-vuc-khac/chinh-sach-moi-ve-khoa-hoc-cong-nghe-hieu-luc-thang-8-2026-883-111006-article.html",
+      "published": "2026-07-28"
     },
     {
-      "title": "Cursor 2.0 ra mắt với model coding mới, Plan Mode cải tiến và AI review code ngay trong editor",
-      "summary": "Cursor phát hành phiên bản 2.0 với model coding mới được tinh chỉnh riêng cho tác vụ lập trình, Plan Mode cải tiến giúp lên kế hoạch trước khi thực thi code, tính năng AI review code ngay trong editor mà không cần chuyển tab, và khả năng grep tức thì trong toàn bộ codebase. Cursor 2.0 củng cố vị thế IDE AI-native sau khi thị phần đạt 18% trong khảo sát gần nhất trong khi thị phần GitHub Copilot giảm từ 67% xuống 51%. Stack phổ biến nhất hiện tại là Cursor cho editing hằng ngày kết hợp Claude Code cho task phức tạp.",
-      "source": "NxCode",
-      "url": "https://www.nxcode.io/resources/news/cursor-vs-claude-code-vs-github-copilot-2026-ultimate-comparison",
-      "published": "2026-08-02"
-    },
-    {
-      "title": "Kế hoạch quốc gia chuyển đổi số SME 2026-2030 được phê duyệt - nhắm đến 800.000 doanh nghiệp vừa và nhỏ",
-      "summary": "Việt Nam phê duyệt kế hoạch quốc gia mới về chuyển đổi số cho doanh nghiệp nhỏ và vừa giai đoạn 2026-2030, nhắm đến mục tiêu cải thiện năng suất, năng lực cạnh tranh và hội nhập chuỗi giá trị toàn cầu cho khoảng 800.000 doanh nghiệp. Kế hoạch bao gồm các công cụ AI cơ bản, đào tạo kỹ năng số và hỗ trợ tài chính cho doanh nghiệp ở vùng nông thôn và vùng sâu vùng xa. Đây là lộ trình rõ ràng nhất từ trước đến nay của Việt Nam trong việc đưa chuyển đổi số vào nhóm doanh nghiệp chiếm 97% tổng số doanh nghiệp cả nước.",
-      "source": "Vietnam Briefing",
-      "url": "https://www.vietnam-briefing.com/news/vietnam-accelerates-sme-digital-transformation-with-new-national-plan-for-2026-2030.html/",
-      "published": "2026-08-01"
+      "title": "Fortune: OpenAI có thể đang âm thầm dừng một số dự án AI - áp lực từ Hugging Face hack và vận động hành lang",
+      "summary": "Fortune đưa tin OpenAI đang xem xét dừng hoặc làm chậm một số dự án AI trong bối cảnh ngành gặp nhiều áp lực đồng thời: Hugging Face bị hack dữ liệu, các nhóm vận động hành lang PAC gia tăng chỉ trích về an toàn AI, và chi phí vận hành hạ tầng tính toán tiếp tục tăng vọt. Bài viết cho thấy giai đoạn tăng trưởng bằng mọi giá của OpenAI đang nhường chỗ cho chiến lược thận trọng hơn, dù công ty chưa xác nhận chính thức về bất kỳ dự án cụ thể nào bị tạm dừng.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/07/30/openai-ai-industry-slowdown-hugging-face-hack-pac-ai-development/",
+      "published": "2026-07-30"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "Sound Lệ Ngang Trời - đang xếp hạng nhất TikTok Việt, dùng cho clip aesthetic quán ăn",
-        "desc": "Lệ Ngang Trời là sound đang được dùng nhiều nhất trên TikTok Việt Nam đầu tháng 8/2026, được pair với cả clip drama đời thường lẫn video aesthetic slow-motion đồ ăn và thức uống màu sắc bắt mắt - đây là thời điểm vàng dùng sound này trước khi qua đỉnh.",
-        "fit": "@tracuami có thể dùng sound này cho clip slow-motion nghệ thuật: cảnh rót trà trái cây màu đỏ cam từ cao xuống ly đầy đá viên, hoặc tay gắp chân gà sốt Thái dưới ánh sáng chiều Huế - đúng format aesthetic mà sound buồn nhẹ này đang được pair với trên TikTok.",
-        "idea": "Clip 15-20 giây không thoại: slow-motion rót trà mãng cầu hoặc trà chanh dây từ cao xuống ly đá viên, sound Lệ Ngang Trời nhẹ phía sau. Caption ngắn 'Chiều Huế, trà Tracuami'. Hashtag TraTraiCay, HueAesthetic, LeNgangTroi, tracuami."
+        "name": "#StandBanhMi - biến tấu hài 'Stand By Me' với ẩm thực đường phố Việt Nam đang viral toàn cầu",
+        "desc": "Trend kết hợp bài hát kinh điển 'Stand By Me' của Ben E. King với những món ăn đường phố Việt Nam, người dùng thay lời thành tên món ăn yêu thích. Video thường quay cảnh thực khách thưởng thức món ăn trên vỉa hè hoặc người bán hàng thoăn thoắt chế biến, kết hợp âm thanh hài hước và caption sáng tạo. Tuoi Tre News ghi nhận trend đang đưa ẩm thực đường phố Việt ra quốc tế mạnh mẽ trong tuần này.",
+        "fit": "Kênh @tracuami có thể làm clip '#StandChanGaSotThai' hoặc '#StandTreHue' - quay A Nguyên gắp chân gà hoặc Nhớ múc tré trộn, thay lời bài hát thành tên món - vừa tham gia trend toàn cầu vừa quảng bá đặc sản Huế một cách tự nhiên.",
+        "idea": "Clip 20-25 giây: Nhớ cầm hộp tré trộn Huế, nền nhạc 'Stand By Me' nổi lên, caption '#StandTreHue - đặc sản Huế cũng cần được yêu thương'. Kết thúc là A Nguyên nhìn thẳng camera cười theo giọng Huế 'Rứa là đúng rồi đó'. Hashtag StandBanhMi, AnVatHue, TreHue, tracuami."
       },
       {
-        "name": "Xu hướng đồ ăn vặt lạ và độc - thử biến thể sốt mới, phản ứng thật gây tương tác cao",
-        "desc": "Trend thử các biến thể mới của đồ ăn vặt quen thuộc hoặc thử hương vị bất ngờ đang thu hút lượng view lớn trên TikTok Việt vì tạo ra phản ứng tự nhiên và dễ kéo khán giả bình luận tranh luận về hương vị - format này không cần setup công phu, chỉ cần phản ứng thật.",
-        "fit": "@tracuami có chân gà sốt Thái là sản phẩm trending sẵn trong danh mục này - clip thử nghiệm biến thể sốt mới như sốt me hoặc sốt chanh leo, có nhân vật A Nguyên và Nhớ phản ứng bằng giọng Huế sẽ rất tự nhiên và tạo được comment hỏi mua.",
-        "idea": "Clip 30 giây: A Nguyên và Nhớ thử biến thể sốt mới của chân gà, phản ứng thật bằng giọng Huế 'Rứa mà ngon hơn mình nghĩ' hoặc 'Ưa cái ni hơn không Nhớ?' - cuối clip có poll hỏi khán giả thích vị Thái truyền thống hay vị mới. Hashtag AnVatHue, ChanGaSotThai, BatTrendAnVat, tracuami."
+        "name": "Dance challenge 'Hồi sinh cái nèooo' - bùng nổ TikTok Việt tháng 8",
+        "desc": "Dance challenge 'Hồi sinh cái nèooo' đang lan rộng trên TikTok Việt Nam tháng 8/2026 với các bước nhảy đơn giản, năng lượng tích cực và âm thanh catchy dễ gây nghiện. Format nhóm đồng nghiệp cùng làm clip ngắn tại nơi làm việc đang nhận lượng reach tự nhiên cao từ thuật toán TikTok vì tính chân thật và vui nhộn.",
+        "fit": "Team @tracuami gồm A Nguyên, chị chủ, Nhớ và Thư có đủ nhân vật để làm clip nhảy tập thể vui nhộn ngay trong quán lúc chưa đông khách, tăng độ gần gũi với khán giả mà không cần dàn dựng phức tạp hay chi phí sản xuất.",
+        "idea": "Clip 15-20 giây: Nhớ và Thư khởi động vũ đạo trước, A Nguyên xuất hiện từ sau bếp nhảy theo nhưng sai nhịp - kết thúc chị chủ bước ra nhìn lắc đầu cười. Caption 'Hồi sinh cái quán nèooo' chơi chữ với trend, thêm một câu giọng Huế tạo khác biệt. Hashtag HoiSinhCaiNeoo, TeamTracuami, QuanAnVatHue."
       },
       {
-        "name": "Vlog hậu trường quán - nội dung chuẩn bị buổi sáng nhận lượng reach tự nhiên cao đầu tuần",
-        "desc": "Vlog ngắn 45-60 giây quay hậu trường quán ăn nhỏ đang nhận lượt tiếp cận tự nhiên tốt vì thuật toán TikTok đẩy content authen hơn video quảng cáo bóng bẩy - người xem thích theo dõi nhân vật quen thuộc làm việc thật hơn là sản phẩm được dàn dựng.",
-        "fit": "@tracuami có đủ nguyên liệu: A Nguyên, chị chủ, Nhớ, Thư đều là nhân vật có cá tính riêng - clip vlog ghi lại cảnh pha chế trà trái cây buổi sáng hoặc ướp chân gà sốt Thái vừa authen vừa hấp dẫn với khán giả yêu ẩm thực Huế.",
-        "idea": "Clip 45-60 giây bắt đầu từ 7h sáng: A Nguyên mở quán, Nhớ chuẩn bị ướp chân gà, chị chủ pha trà - không cần script, chỉ cần quay tự nhiên và thêm nhạc nhẹ nền. Caption 'Thứ Hai của Tracuami bắt đầu rứa đây' kèm hashtag QuanAnVatHue, HueFoodTikTok, tracuami."
+        "name": "Clip 'golden hour' quán ăn nhỏ với nhạc Bolero 2026 - content evergreen reach tự nhiên cao",
+        "desc": "Format quay cảnh quán ăn nhỏ vào giờ vàng chiều tà kết hợp nhạc Bolero mới 2026 như 'Một Đời Đi Qua' đang thu hút lượt xem tự nhiên cao trên TikTok Việt, tạo cảm giác hoài niệm và ấm cúng. Khán giả yêu thích vì sự chân thật và không bị cảm giác bán hàng lộ liễu - thuật toán TikTok cũng ưu tiên loại content này.",
+        "fit": "Quán @tracuami tại 1 Trường Chinh, Huế vào buổi chiều có ánh sáng đẹp tự nhiên - chỉ cần quay cảnh chị chủ hay A Nguyên ngồi nhìn ra đường, tay cầm ly trà trái cây, nền nhạc Bolero nhẹ là đủ để tạo video aesthetic cảm xúc mà không cần script hay dàn dựng.",
+        "idea": "Clip 30-40 giây: Slow-motion cảnh chiều tà tại quán - Thư rót trà chanh leo vào ly đá viên, A Nguyên xếp hộp chân gà, nền nhạc 'Một Đời Đi Qua' nhẹ phía sau. Caption 'Chiều nào cũng rứa, mà vẫn thương kiểu Huế'. Hashtag GoldenHour, HueFoodAesthetic, QuanAnVatHue, tracuami."
       }
     ],
     "sounds": [
       {
-        "name": "Lệ Ngang Trời",
-        "desc": "Sound đứng đầu bảng xếp hạng TikTok Việt đầu tháng 8 - dùng cho clip aesthetic quán ăn slow-motion, rót đồ uống màu sắc và cảnh chiều tà yên tĩnh - phù hợp với niche food không cần thoại."
+        "name": "Stand By Me (remix #StandBanhMi)",
+        "desc": "Bản remix hài hước của Ben E. King đang viral toàn cầu với trend đặt tên món ăn thay vào lời bài hát - dùng cho clip giới thiệu đặc sản quán theo cách sáng tạo và dễ lan truyền ra ngoài cộng đồng người Huế."
       },
       {
-        "name": "Cô ta tốt hơn em à - Vina House remix",
-        "desc": "Bản Vina House tiết tấu vui nhộn đang viral trên TikTok Việt - dùng cho clip team chuẩn bị đồ ăn với năng lượng tích cực hoặc thay thế YÊU NẮM cho clip nhóm nhảy trong tuần thứ hai tháng 8."
+        "name": "Sai Không Thể Sửa - Oanh Tạ & Thiên Tú",
+        "desc": "Track chill 2026 giai điệu nhẹ nhàng phù hợp cho clip slow-motion pha trà trái cây, bày đồ ăn và không khí quán vắng lặng cuối buổi sáng trước khi khách đến đông."
       },
       {
-        "name": "Bad Boy - bản EDM nhẹ",
-        "desc": "Bài EDM nhẹ trending cho clip giới thiệu menu mới hoặc cảnh bày đồ ăn bắt mắt - nhịp điệu vừa phải phù hợp với mọi loại nội dung food review ngắn không cần commentary."
+        "name": "Một Đời Đi Qua - Bolero 2026",
+        "desc": "Bolero mới 2026 giai điệu xúc cảm và chân thật, đang trending TikTok Việt cho các clip 'golden hour' quán ăn nhỏ và cảnh sinh hoạt đời thường mang tính hoài niệm - phù hợp kênh food có nhân vật quen thuộc."
       }
     ],
-    "note": "Đầu tuần thứ hai tháng 8: Lệ Ngang Trời đang ở đỉnh - ưu tiên làm 1 clip aesthetic slow-motion bằng sound này trong tuần này trước khi trend qua đỉnh (thường 5-7 ngày). Trend thử đồ ăn lạ phù hợp làm khi quán có biến thể sốt mới. Vlog hậu trường là content evergreen nên xen kẽ đều đặn hằng tuần vào sáng sớm trước khi quán đông."
+    "note": "Đầu tháng 8 có hai hướng nội dung hiệu quả cho @tracuami: tham gia trend #StandBanhMi (đang viral toàn cầu, nên làm trong tuần này để tận dụng đỉnh trend) và format golden hour Bolero (evergreen, làm bất kỳ chiều nào có ánh sáng đẹp). Dance challenge 'Hồi sinh cái nèooo' là clip đội nhóm vui nhộn, nên xen kẽ một lần trong tuần để giữ chân khán giả trung thành theo dõi nhân vật."
   }
 }
