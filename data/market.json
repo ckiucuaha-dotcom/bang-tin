@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-07T05:45:52Z",
-  "updated_at_vn": "12:45 07/08/2026",
+  "updated_at": "2026-08-07T08:43:00Z",
+  "updated_at_vn": "15:43 07/08/2026",
   "session_date": "2026-08-07",
   "data_quality": "live",
   "vnindex": {
     "close": 1767.71,
     "change": 2.93,
     "change_pct": 0.17,
-    "note": "VN-Index phiên 06/08 giảm 4,82 điểm (-0,27%) xuống 1.771,64 điểm, giằng co tại vùng kháng cự 1.775-1.790 điểm trong suốt phiên; áp lực chốt lời xuất hiện sau đà phục hồi của tuần trước, tín hiệu MACD duy trì xu hướng tăng nhẹ; khối ngoại mua ròng hơn 498 tỷ đồng trên HOSE là điểm sáng duy trì tâm lý thị trường."
+    "note": "VN-Index phiên 07/08 tăng nhẹ 2,93 điểm (+0,17%) lên 1.767,71 điểm, thị trường giằng co trong bối cảnh rung lắc ngắn hạn tiếp diễn quanh vùng 1.760-1.790 điểm; thanh khoản chưa cải thiện phản ánh tâm lý thận trọng của nhà đầu tư, khối ngoại quay lại mua ròng là điểm sáng tích cực duy trì tâm lý thị trường."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 71.000 đồng (+1,0% phiên 06/08), lỗ 20,09% so với giá vốn 88.850; giá vẫn dưới ngưỡng THEO DÕI SÁT 71.400 đồng (stoploss 68.000 x 1,05), chưa vượt được ngưỡng cảnh báo dù hồi nhẹ trong phiên - giám sát chặt chẽ, không cắt lỗ vội, theo dõi thêm."
+      "comment": "Giá 71.200 đồng (+0,71% phiên 07/08), lỗ 19,86% so với giá vốn 88.850 đồng; vẫn dưới ngưỡng THEO DÕI SÁT 71.400 đồng (stoploss 68.000 x 1,05), thị trường còn rung lắc - theo dõi sát, chưa cắt lỗ vội."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.150 đồng (-1,3% phiên 06/08), lãi 7,07% so với giá vốn 14.150; SSB điều chỉnh nhẹ cùng nhóm ngân hàng giằng co trong phiên, vẫn vững trên stoploss 12.500, còn cách mục tiêu 18.000 khoảng 18,8% - tiếp tục giữ."
+      "comment": "Giá 15.100 đồng (-0,66% phiên 07/08), lãi 6,71% so với giá vốn 14.150 đồng; vẫn vững trên stoploss 12.500, còn cách mục tiêu 18.000 khoảng 19,2% - tiếp tục giữ."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 22.050 đồng (+0,23% phiên 06/08), lỗ 6,57% so với giá vốn 23.600; HPG đang chính xác tại ngưỡng THEO DÕI SÁT 22.050 đồng (stoploss 21.000 x 1,05), nhóm thép giằng co theo thị trường chung - theo dõi sát, nếu giá phá xuống dưới 22.050 sẽ xem xét lại vị thế."
+      "comment": "Giá 22.050 đồng (+0,92% phiên 07/08), lỗ 6,57% so với giá vốn 23.600 đồng; HPG đúng ngưỡng THEO DÕI SÁT 22.050 đồng (stoploss 21.000 x 1,05) - theo dõi sát, nếu giá phá xuống dưới 22.050 sẽ xem xét cắt lỗ."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "GIỮ",
-      "comment": "Giá 24.000 đồng (-1,23% phiên 06/08), lỗ 4,57% so với giá vốn 25.150; MBB điều chỉnh nhẹ trong phiên nhưng vẫn vững trên stoploss 22.500 và ngưỡng THEO DÕI SÁT 23.625; chốt danh sách cổ đông nhận cổ tức 15% ngày 12/08 là yếu tố hỗ trợ tích cực - tiếp tục giữ."
+      "comment": "Giá 24.250 đồng (+1,46% phiên 07/08), lỗ 3,58% so với giá vốn 25.150 đồng; vững trên stoploss 22.500 và ngưỡng THEO DÕI SÁT 23.625 đồng - tiếp tục giữ."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22400.0,
       "change_pct": 1.13,
-      "comment": "ACB giá 22.200 đồng (-1,11% phiên 06/08); thị trường giằng co trong phiên, nhóm ngân hàng điều chỉnh chung, ACB chưa có tín hiệu kỹ thuật rõ ràng để vào lệnh - tiếp tục theo dõi và chờ thị trường ổn định."
+      "comment": "ACB giá 22.400 đồng (+1,13% phiên 07/08); nhóm ngân hàng phục hồi nhẹ trong phiên giằng co, chưa có tín hiệu kỹ thuật rõ ràng để vào lệnh - tiếp tục theo dõi."
     }
   ],
   "gold": {
-    "sjc_buy": 138800000,
-    "sjc_sell": 141800000,
-    "note": "Vàng SJC ngày 06/08/2026 tăng mạnh, niêm yết mua 138,8 triệu đồng/lượng và bán 141,8 triệu đồng/lượng (tăng 800.000 đồng mỗi chiều so với phiên 05/08); vàng thế giới tăng 42 USD lên khoảng 4.287 USD/oz - giá trong nước tiếp tục ở vùng cao, không nên mua thêm."
+    "sjc_buy": 139700000,
+    "sjc_sell": 142700000,
+    "note": "Vàng SJC ngày 07/08/2026 niêm yết mua 139,7 triệu đồng/lượng và bán 142,7 triệu đồng/lượng (tăng 900.000 đồng mỗi chiều so với phiên 06/08); vàng thế giới biến động mạnh quanh 4.300 USD/oz - giá trong nước tiếp tục vùng cao, không nên mua thêm."
   },
   "news_vn": [
     {
-      "title": "Vietstock Daily 06/08/2026: Giằng co trở lại",
-      "summary": "VN-Index phiên 06/08 giằng co quanh vùng kháng cự 1.775-1.810 điểm với tín hiệu MACD duy trì xu hướng tăng nhẹ; thị trường chịu áp lực chốt lời sau đà phục hồi nhưng cấu trúc kỹ thuật vẫn tích cực, khối ngoại mua ròng là điểm sáng duy trì tâm lý nhà đầu tư.",
+      "title": "Vietstock Daily 07/08/2026: Hiện tượng rung lắc sẽ còn tiếp diễn",
+      "summary": "VN-Index phiên 07/08 giằng co trong bối cảnh rung lắc ngắn hạn tiếp diễn, thị trường chưa thoát khỏi vùng kháng cự 1.760-1.790 điểm; thanh khoản chưa cải thiện phản ánh tâm lý thận trọng, cần chờ tín hiệu rõ ràng hơn để xác nhận xu hướng tăng.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/08/vietstock-daily-06082026-giang-co-tro-lai-1636-1477038.htm"
+      "url": "https://vietstock.vn/2026/08/vietstock-daily-07082026-hien-tuong-rung-lac-se-con-tiep-dien-1636-1477665.htm"
     },
     {
-      "title": "Sự kiện chứng khoán đáng chú ý ngày 6/8: Nhiều doanh nghiệp chốt quyền cổ tức",
-      "summary": "Ngày 06/08/2026 có nhiều doanh nghiệp chốt danh sách cổ đông hưởng quyền chia cổ tức bằng tiền mặt; nhà đầu tư cần theo dõi các mã trong danh sách để tránh bị ảnh hưởng giá sau ngày chốt quyền, đặc biệt MBB chốt quyền cổ tức 15% ngày 12/08.",
-      "source": "Tinnhanhchungkhoan",
-      "url": "https://www.tinnhanhchungkhoan.vn/su-kien-chung-khoan-dang-chu-y-ngay-68-post395370.html"
+      "title": "VN-Index chuyển màu đỏ cuối phiên, khối ngoại vẫn mua ròng",
+      "summary": "VN-Index có thời điểm chuyển sang vùng đỏ cuối phiên 07/08 nhưng lực cầu hồi phục nhẹ giúp duy trì sắc xanh; khối ngoại tiếp tục mua ròng là yếu tố hỗ trợ tích cực, song thanh khoản thấp khiến tâm lý nhà đầu tư vẫn còn thận trọng.",
+      "source": "Tạp chí Kinh tế Tài chính",
+      "url": "https://tapchikinhtetaichinh.vn/vn-index-chuyen-mau-do-cuoi-phien-khoi-ngoai-van-mua-rong-163707.html"
     },
     {
-      "title": "Chứng khoán phái sinh ngày 06/08/2026: Xuất hiện các tín hiệu trái chiều",
-      "summary": "Thị trường phái sinh phiên 06/08 ghi nhận các tín hiệu trái chiều khi VN-Index giằng co quanh 1.775-1.790 điểm; sự bi quan vẫn còn trong nhóm chứng quyền, phản ánh tâm lý thận trọng của nhà đầu tư trước vùng kháng cự ngắn hạn quan trọng.",
+      "title": "Thị trường chứng quyền ngày 07/08/2026: Khối ngoại quay lại mua ròng",
+      "summary": "Thị trường chứng quyền phiên 07/08 ghi nhận khối ngoại quay lại mua ròng, tín hiệu tích cực cho nhóm cổ phiếu cơ sở; tâm lý thận trọng vẫn hiện hữu nhưng dòng vốn ngoại ổn định là nền tảng hỗ trợ ngắn hạn cho thị trường.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/08/chung-khoan-phai-sinh-ngay-06082026-xuat-hien-cac-tin-hieu-trai-chieu-1636-1476935.htm"
+      "url": "https://vietstock.vn/2026/08/thi-truong-chung-quyen-ngay-07082026-khoi-ngoai-quay-lai-mua-rong-1636-1477552.htm"
     }
   ],
   "advice": {
-    "summary": "Phiên 06/08/2026, VN-Index giảm nhẹ 4,82 điểm (-0,27%) xuống 1.771,64 điểm, thị trường giằng co tại vùng kháng cự 1.775-1.790 điểm trong bối cảnh áp lực chốt lời gia tăng; khối ngoại mua ròng hơn 498 tỷ đồng trên HOSE là tín hiệu tích cực. Danh mục hiện lỗ 18,68% (giá trị 62.920.000 đồng so với vốn 77.370.000 đồng); FPT và HPG cần THEO DÕI SÁT do giá sát ngưỡng cảnh báo, SSB và MBB GIỮ ổn định. Chưa nên giải ngân tiền mới - chờ VN-Index xác nhận vượt vùng 1.790-1.800 điểm bền vững.",
+    "summary": "Phiên 07/08/2026, VN-Index tăng nhẹ 2,93 điểm (+0,17%) lên 1.767,71 điểm, thị trường tiếp tục giằng co trong vùng 1.760-1.790 điểm với hiện tượng rung lắc ngắn hạn; khối ngoại quay lại mua ròng là điểm tích cực nhưng thanh khoản chưa cải thiện cho thấy tâm lý thận trọng. Danh mục hiện lỗ 18,44% (giá trị 63.100.000 đồng so với vốn 77.370.000 đồng); FPT và HPG cần THEO DÕI SÁT do giá sát ngưỡng cảnh báo, SSB và MBB GIỮ ổn định. Chưa nên giải ngân tiền mới - chờ VN-Index xác nhận vượt bền vững vùng 1.790 điểm.",
     "actions": [
-      "FPT: THEO DÕI SÁT - giá 71.000 đồng (+1,0% phiên 06/08, lỗ 20,09% so với vốn 88.850); dưới ngưỡng cảnh báo 71.400 đồng (stoploss 68.000 x 1,05) - không cắt lỗ vội, theo dõi chặt thêm.",
-      "SSB: GIỮ - giá 15.150 đồng (-1,3% phiên 06/08, lãi 7,07% so với vốn 14.150); vững trên stoploss 12.500, còn cách mục tiêu 18.000 khoảng 18,8% - tiếp tục giữ.",
-      "HPG: THEO DÕI SÁT - giá 22.050 đồng (+0,23% phiên 06/08, lỗ 6,57% so với vốn 23.600); chính xác tại ngưỡng THEO DÕI SÁT 22.050 đồng - theo dõi sát, nếu giá phá xuống dưới 22.050 sẽ xem xét lại vị thế.",
-      "MBB: GIỮ - giá 24.000 đồng (-1,23% phiên 06/08, lỗ 4,57% so với vốn 25.150); vững trên stoploss 22.500 và ngưỡng THEO DÕI SÁT 23.625; chốt quyền cổ tức 15% ngày 12/08 - tiếp tục giữ.",
-      "Tiền mới: chưa giải ngân; VN-Index đang kiểm tra vùng kháng cự 1.775-1.790 điểm - chờ xác nhận vượt bền vững trước khi xem xét vào lệnh.",
-      "ACB (watchlist): giá 22.200 đồng (-1,11% phiên 06/08); thị trường giằng co, chưa có tín hiệu kỹ thuật rõ ràng - tiếp tục theo dõi.",
-      "Vàng SJC: 138,8 - 141,8 triệu đồng/lượng ngày 06/08, tăng 800.000 đồng so với hôm qua - giá tiếp tục ở vùng cao, không nên mua thêm."
+      "FPT: THEO DÕI SÁT - giá 71.200 đồng (+0,71% phiên 07/08, lỗ 19,86% so với vốn 88.850); dưới ngưỡng cảnh báo 71.400 đồng (stoploss 68.000 x 1,05) - chưa cắt lỗ vội, theo dõi chặt.",
+      "SSB: GIỮ - giá 15.100 đồng (-0,66% phiên 07/08, lãi 6,71% so với vốn 14.150); vững trên stoploss 12.500, còn cách mục tiêu 18.000 khoảng 19,2% - tiếp tục giữ.",
+      "HPG: THEO DÕI SÁT - giá 22.050 đồng (+0,92% phiên 07/08, lỗ 6,57% so với vốn 23.600); đúng ngưỡng cảnh báo 22.050 đồng - theo dõi sát, sẵn sàng xem xét cắt lỗ nếu giá phá xuống dưới 22.050.",
+      "MBB: GIỮ - giá 24.250 đồng (+1,46% phiên 07/08, lỗ 3,58% so với vốn 25.150); vững trên stoploss 22.500 và ngưỡng THEO DÕI SÁT 23.625 - tiếp tục giữ.",
+      "Tiền mới: chưa giải ngân; chờ VN-Index xác nhận vượt bền vững vùng 1.790 điểm trước khi xem xét vào lệnh.",
+      "ACB (watchlist): giá 22.400 đồng (+1,13% phiên 07/08); phục hồi nhẹ theo nhóm ngân hàng, chưa có tín hiệu kỹ thuật rõ ràng - tiếp tục theo dõi.",
+      "Vàng SJC: 139,7 - 142,7 triệu đồng/lượng ngày 07/08 - giá tiếp tục vùng cao, không nên mua thêm."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
