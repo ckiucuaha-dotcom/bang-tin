@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-11T04:01:54Z",
-  "updated_at_vn": "11:01 11/08/2026",
+  "updated_at": "2026-08-11T05:14:46Z",
+  "updated_at_vn": "12:14 11/08/2026",
   "session_date": "2026-08-11",
   "data_quality": "live",
   "vnindex": {
-    "close": 1779.21,
-    "change": 2.44,
-    "change_pct": 0.14,
+    "close": 1779.58,
+    "change": 2.81,
+    "change_pct": 0.16,
     "note": "VN-Index phiên 10/08 duy trì sắc xanh ở mức 1.780,4 điểm (+12,34 điểm, +0,70%), tiếp tục thử thách ngưỡng kháng cự 1.800 điểm nhưng chưa thể bứt phá; thanh khoản xuống mức thấp và xuất hiện tín hiệu kỹ thuật trái chiều trong phiên chiều, độ rộng thị trường vẫn nghiêng về bên mua với hơn 400 mã tăng - thị trường đang giằng co, chờ động lực mới."
   },
   "holdings": [
@@ -14,11 +14,11 @@
       "ticker": "FPT",
       "qty": 800,
       "avg_cost": 88850,
-      "price": 71900.0,
-      "change_pct": 0.14,
-      "value": 57520000.0,
-      "pnl": -13560000.0,
-      "pnl_pct": -19.08,
+      "price": 72100.0,
+      "change_pct": 0.42,
+      "value": 57680000.0,
+      "pnl": -13400000.0,
+      "pnl_pct": -18.85,
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
@@ -69,9 +69,9 @@
   ],
   "totals": {
     "cost": 77370000.0,
-    "value": 63320000.0,
-    "pnl": -14050000.0,
-    "pnl_pct": -18.16
+    "value": 63480000.0,
+    "pnl": -13890000.0,
+    "pnl_pct": -17.95
   },
   "watchlist": [
     {
