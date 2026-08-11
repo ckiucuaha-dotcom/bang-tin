@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-11T05:14:46Z",
-  "updated_at_vn": "12:14 11/08/2026",
+  "updated_at": "2026-08-11T08:44:00Z",
+  "updated_at_vn": "15:44 11/08/2026",
   "session_date": "2026-08-11",
   "data_quality": "live",
   "vnindex": {
     "close": 1779.58,
     "change": 2.81,
     "change_pct": 0.16,
-    "note": "VN-Index phiên 10/08 duy trì sắc xanh ở mức 1.780,4 điểm (+12,34 điểm, +0,70%), tiếp tục thử thách ngưỡng kháng cự 1.800 điểm nhưng chưa thể bứt phá; thanh khoản xuống mức thấp và xuất hiện tín hiệu kỹ thuật trái chiều trong phiên chiều, độ rộng thị trường vẫn nghiêng về bên mua với hơn 400 mã tăng - thị trường đang giằng co, chờ động lực mới."
+    "note": "VN-Index phiên 11/08/2026 tiếp tục giằng co ở mức 1.779,58 điểm (+2,81 điểm, +0,16%), nhóm tài chính - ngân hàng (MBB, LPB, BID, VCB) dẫn dắt; GAS, TCB, VPB đóng góp điểm dương nhưng VIC và VHM gây áp lực ngược chiều - thị trường vẫn thiếu động lực bứt phá kháng cự 1.800 điểm."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
-      "comment": "Giá 71.700 đồng, lỗ 19,3% so với giá vốn 88.850 đồng; giá vừa nhỉnh hơn ngưỡng THEO DÕI SÁT 71.400 đồng (stoploss 68.000 x 1,05) chỉ 300 đồng - theo dõi sát; FPT Online chốt quyền cổ tức 10.000 đồng/CP tuần 10-14/08 là điểm tích cực, tiếp tục giữ, chưa cắt lỗ vội."
+      "comment": "Giá 72.100 đồng, lỗ 18,85% so với giá vốn 88.850 đồng; chỉ cách ngưỡng THEO DÕI SÁT 71.400 đồng (stoploss 68.000 x 1,05) vỏn vẹn 700 đồng - theo dõi sát, sẵn sàng chuyển hành động nếu giá tiếp tục yếu."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.250 đồng, lãi 7,77% so với giá vốn 14.150 đồng; vững trên stoploss 12.500, còn cách mục tiêu 18.000 khoảng 18% - tiếp tục giữ, không có lý do điều chỉnh."
+      "comment": "Giá 15.400 đồng, lãi 8,83% so với giá vốn 14.150 đồng; nhóm ngân hàng dẫn dắt thị trường phiên hôm nay là tín hiệu hỗ trợ tốt; còn cách mục tiêu 18.000 đồng khoảng 16,9% - tiếp tục giữ."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "GIỮ",
-      "comment": "Giá 22.100 đồng, lỗ 6,36% so với giá vốn 23.600 đồng; chỉ nhỉnh hơn 50 đồng so với ngưỡng THEO DÕI SÁT 22.050 đồng (stoploss 21.000 x 1,05) - rủi ro vẫn hiện hữu, theo dõi chặt, sẵn sàng cắt lỗ nếu giá phá xuống dưới 22.050 đồng."
+      "comment": "Giá 22.100 đồng, lỗ 6,36% so với giá vốn 23.600 đồng; chỉ nhỉnh hơn 50 đồng so với ngưỡng THEO DÕI SÁT 22.050 đồng (stoploss 21.000 x 1,05) - rủi ro cao, theo dõi chặt, sẵn sàng cắt lỗ ngay nếu giá phá xuống dưới 22.050 đồng."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "CẮT LỖ",
-      "comment": "Giá 24.250 đồng, lỗ 3,58% so với giá vốn 25.150 đồng; vững trên ngưỡng THEO DÕI SÁT 23.625 đồng (stoploss 22.500 x 1,05); MBB chốt quyền cổ phiếu thưởng tỷ lệ 15% trong tuần 10-14/08 là sự kiện đáng chú ý - tiếp tục giữ."
+      "comment": "Giá 20.500 đồng đã phá sâu dưới ngưỡng stoploss 22.500 đồng, lỗ 18,49% so với giá vốn 25.150 đồng; dù nhóm ngân hàng hồi phục nhẹ phiên hôm nay, MBB vẫn vi phạm rule stoploss - thực hiện cắt lỗ theo kỷ luật, tránh để lỗ sâu thêm."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22650.0,
       "change_pct": 0.0,
-      "comment": "Giá 22.700 đồng; nhóm ngân hàng phục hồi nhẹ trong phiên 10/08 thị trường giữ sắc xanh, ngưỡng hỗ trợ 22.000 đồng vẫn vững - chưa có tín hiệu kỹ thuật rõ ràng để vào lệnh, tiếp tục quan sát."
+      "comment": "Giá 22.650 đồng; nhóm ngân hàng dẫn dắt phiên 11/08 là tín hiệu tích cực cho ACB, nhưng chưa có xác nhận kỹ thuật rõ ràng để vào lệnh - tiếp tục quan sát, chờ VN-Index vượt 1.800 điểm bền vững."
     }
   ],
   "gold": {
-    "sjc_buy": 141100000,
-    "sjc_sell": 144100000,
-    "note": "Vàng SJC ngày 10/08/2026 niêm yết mua 141,1 triệu đồng/lượng và bán 144,1 triệu đồng/lượng, tăng 100.000 đồng mỗi chiều so với phiên trước; vàng thế giới quanh 4.357 USD/oz - giá trong nước tiếp tục vùng cao, không nên mua thêm."
+    "sjc_buy": 142000000,
+    "sjc_sell": 145000000,
+    "note": "Vàng SJC ngày 11/08/2026 mở cửa tăng mạnh lên 142,5-145,5 triệu đồng/lượng (tăng 1,4 triệu so với hôm trước) nhưng sau đó điều chỉnh giảm 500.000 đồng còn 142-145 triệu đồng/lượng; vàng thế giới vượt 4.400 USD/oz - giá trong nước tiếp tục vùng cao, không nên mua thêm."
   },
   "news_vn": [
     {
-      "title": "Nhịp đập thị trường 10/08: Thị trường duy trì sắc xanh",
-      "summary": "VN-Index phiên 10/08 duy trì sắc xanh, độ rộng thị trường nghiêng về bên mua với hơn 400 mã tăng so với hơn 200 mã giảm; thanh khoản ở mức thấp trong bối cảnh VN-Index tiếp tục thử thách ngưỡng kháng cự 1.800 điểm và mẫu hình nến Hammer xuất hiện trên đồ thị kỹ thuật.",
+      "title": "Nhịp đập thị trường 11/08: Nhóm tài chính - ngân hàng đóng vai trò dẫn dắt",
+      "summary": "VN-Index phiên 11/08 tiếp tục giằng co nhưng có sự dẫn dắt tích cực từ nhóm tài chính - ngân hàng; GAS, TCB, VPB đóng góp điểm dương trong khi VIC và VHM tạo áp lực ngược chiều; thanh khoản thấp khiến thị trường khó bứt phá ngưỡng kháng cự 1.800 điểm.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/08/nhip-dap-thi-truong-1008-thi-truong-duy-tri-sac-xanh-1636-1478504.htm"
+      "url": "https://vietstock.vn/2026/08/nhip-dap-thi-truong-1108-nhom-tai-chinh-ngan-hang-dong-vai-tro-dan-dat-1636-1479057.htm"
     },
     {
-      "title": "Phân tích kỹ thuật phiên chiều 10/08: Tín hiệu trái chiều",
-      "summary": "Kỹ thuật phiên chiều 10/08 xuất hiện tín hiệu trái chiều - VN-Index duy trì sắc xanh nhưng áp lực bán ở vùng kháng cự 1.800 điểm chưa giảm; thanh khoản thấp khiến thị trường tiếp tục rung lắc trong biên độ hẹp, nhà đầu tư nên hạn chế mở vị thế mới đến khi có tín hiệu xác nhận rõ ràng.",
+      "title": "Phân tích kỹ thuật phiên chiều 11/08: Diễn biến giằng co",
+      "summary": "VN-Index phiên chiều 11/08 xuất hiện mẫu hình nến Doji, vận động trên ngưỡng Fibonacci Retracement 50% và tiếp tục kiểm tra vùng đáy cũ tháng 06/2026 (1.775-1.785 điểm); thị trường cần tín hiệu xác nhận rõ ràng hơn để vượt kháng cự 1.800 điểm.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/08/phan-tich-ky-thuat-phien-chieu-1008-tin-hieu-trai-chieu-585-1478594.htm"
+      "url": "https://vietstock.vn/2026/08/phan-tich-ky-thuat-phien-chieu-1108-dien-bien-giang-co-585-1479148.htm"
     },
     {
-      "title": "Tuần 10-14/08: Nổi bật khoản cổ tức 10.000 đồng/CP của FPT Online",
-      "summary": "Tuần 10-14/08/2026 nổi bật với sự kiện FPT Online (FOC) chốt quyền nhận cổ tức tiền mặt 10.000 đồng/CP và MBB chốt quyền nhận cổ phiếu thưởng tỷ lệ 15%; đây là tín hiệu tích cực cho cổ đông dài hạn của hai mã này trong bối cảnh thị trường đang giằng co.",
-      "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/08/tuan-10-1408-noi-bat-khoan-co-tuc-10000-dongcp-cua-fpt-online-738-1478359.htm"
+      "title": "Sự kiện chứng khoán đáng chú ý ngày 11/8",
+      "summary": "Điểm qua các sự kiện nổi bật trên thị trường chứng khoán ngày 11/08/2026 gồm diễn biến giao dịch của các nhóm cổ phiếu vốn hóa lớn và hoạt động khối ngoại; thị trường tiếp tục theo dõi kết quả kinh doanh bán niên của các doanh nghiệp niêm yết.",
+      "source": "Tinnhanhchungkhoan",
+      "url": "https://www.tinnhanhchungkhoan.vn/su-kien-chung-khoan-dang-chu-y-ngay-118-post395679.html"
     }
   ],
   "advice": {
-    "summary": "Phiên 10/08/2026, VN-Index duy trì sắc xanh ở 1.780,4 điểm (+12,34 điểm, +0,70%), tiếp tục thử thách kháng cự 1.800 điểm nhưng thanh khoản xuống đáy và tín hiệu trái chiều cho thấy thị trường chưa sẵn sàng bứt phá. Danh mục hiện lỗ 17,9% (giá trị 63.520.000 đồng so với vốn 77.370.000 đồng); FPT và HPG vẫn là hai mã cần theo dõi sát nhất do giá gần ngưỡng cảnh báo. Chưa nên giải ngân tiền mới - chờ VN-Index xác nhận vượt bền vững 1.800 điểm với thanh khoản cải thiện.",
+    "summary": "Phiên 11/08/2026, VN-Index tiếp tục giằng co ở 1.779,58 điểm (+0,16%), nhóm tài chính - ngân hàng dẫn dắt nhưng áp lực từ bất động sản (VIC, VHM) và thanh khoản thấp khiến thị trường vẫn thiếu động lực vượt 1.800 điểm. Danh mục lỗ 17,95% (giá trị 63.480.000 đồng so với vốn 77.370.000 đồng); MBB đã phá stoploss cần cắt lỗ ngay, FPT và HPG vẫn ở vùng nguy hiểm gần ngưỡng THEO DÕI SÁT. Chưa giải ngân tiền mới - chờ VN-Index xác nhận bứt phá 1.800 điểm với thanh khoản cải thiện.",
     "actions": [
-      "FPT: GIỮ - giá 71.700 đồng (lỗ 19,3% so với vốn 88.850), chỉ nhỉnh 300 đồng trên ngưỡng THEO DÕI SÁT 71.400 - theo dõi sát, chưa cắt lỗ vội; FPT Online chốt quyền cổ tức 10.000 đồng/CP tuần này là điểm sáng.",
-      "SSB: GIỮ - giá 15.250 đồng (lãi 7,77% so với vốn 14.150), vững và còn cách mục tiêu 18.000 khoảng 18% - tiếp tục giữ.",
-      "HPG: GIỮ - giá 22.100 đồng (lỗ 6,36% so với vốn 23.600), chỉ hơn 50 đồng trên ngưỡng THEO DÕI SÁT 22.050 - theo dõi chặt, sẵn sàng cắt lỗ nếu giá phá xuống dưới 22.050 đồng.",
-      "MBB: GIỮ - giá 24.250 đồng (lỗ 3,58% so với vốn 25.150), vững trên ngưỡng cảnh báo 23.625; MBB chốt quyền cổ phiếu thưởng 15% tuần này - tiếp tục giữ.",
+      "FPT: GIỮ - giá 72.100 đồng (lỗ 18,85% so với vốn 88.850), cách ngưỡng THEO DÕI SÁT 71.400 đồng chỉ 700 đồng - theo dõi sát, sẵn sàng chuyển THEO DÕI SÁT nếu giá giảm thêm.",
+      "SSB: GIỮ - giá 15.400 đồng (lãi 8,83% so với vốn 14.150), nhóm ngân hàng tích cực hôm nay; còn cách mục tiêu 18.000 đồng khoảng 16,9% - tiếp tục giữ.",
+      "HPG: GIỮ - giá 22.100 đồng (lỗ 6,36% so với vốn 23.600), chỉ 50 đồng trên ngưỡng THEO DÕI SÁT 22.050 - theo dõi chặt, sẵn sàng cắt lỗ ngay nếu giá phá xuống dưới 22.050 đồng.",
+      "MBB: CẮT LỖ - giá 20.500 đồng phá sâu dưới stoploss 22.500 đồng (lỗ 18,49% so với vốn 25.150); dù nhóm ngân hàng hồi phục nhẹ, MBB vi phạm rule stoploss - thực hiện cắt lỗ theo kỷ luật.",
       "Tiền mới: chưa giải ngân; chờ VN-Index xác nhận vượt bền vững 1.800 điểm với thanh khoản cải thiện trước khi xem xét vào lệnh mới.",
-      "ACB (watchlist): giá 22.700 đồng; nhóm ngân hàng phục hồi nhẹ nhưng chưa có tín hiệu kỹ thuật rõ ràng - tiếp tục quan sát.",
-      "Vàng SJC: 141,1 - 144,1 triệu đồng/lượng ngày 10/08, tăng nhẹ 100.000 đồng - giá tiếp tục vùng cao, không nên mua thêm."
+      "ACB (watchlist): giá 22.650 đồng; nhóm ngân hàng dẫn dắt hôm nay là tín hiệu tích cực - tiếp tục theo dõi để bắt điểm vào khi thị trường xác nhận xu hướng.",
+      "Vàng SJC: 142-145 triệu đồng/lượng ngày 11/08, tăng rồi hạ nhiệt - giá tiếp tục vùng cao, không nên mua thêm."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
