@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-14T05:41:46Z",
-  "updated_at_vn": "12:41 14/08/2026",
+  "updated_at": "2026-08-14T08:49:33Z",
+  "updated_at_vn": "15:49 14/08/2026",
   "session_date": "2026-08-14",
   "data_quality": "live",
   "vnindex": {
     "close": 1744.75,
     "change": -20.88,
     "change_pct": -1.18,
-    "note": "VN-Index phiên 13/08/2026 tăng nhẹ 2,36 điểm (+0,13%) lên 1.795,54 điểm; thị trường tiếp tục giằng co trong biên độ hẹp sát ngưỡng kháng cự 1.800 điểm với dòng tiền thận trọng và thanh khoản không cải thiện so với phiên trước; VanEck Vietnam ETF tiếp tục bán ròng trong giai đoạn vừa qua gây áp lực lên các cổ phiếu lớn, chưa có xung lực để bứt phá."
+    "note": "VN-Index phiên 14/08/2026 giảm mạnh 20,88 điểm (-1,18%) xuống 1.744,75 điểm; sắc đỏ bao phủ toàn thị trường với 66 mã tăng và 228 mã giảm, thanh khoản đạt 7.027 tỷ đồng; khối ngoại bán ròng mạnh 1.247 tỷ đồng, FPT - HPG - ACB bị xả mạnh, VN-Index thủng vùng hỗ trợ sau nhiều phiên giằng co sát 1.800 điểm."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 71.300 đồng, lỗ 19,75% so với giá vốn 88.850 đồng; giá đang ở ngay dưới ngưỡng THEO DÕI SÁT 71.400 đồng (stoploss 68.000 x 1,05) - rủi ro cực cao, sẵn sàng cắt lỗ ngay nếu giá không giữ được vùng này trong phiên tới."
+      "comment": "Giá 69.000 đồng, lỗ 22,34% so với giá vốn 88.850 đồng; chỉ cách stoploss 68.000 đồng khoảng 1.000 đồng - khối ngoại bán ròng mạnh FPT hôm nay, rủi ro cực cao, sẵn sàng cắt lỗ ngay nếu giá không giữ được 68.000 đồng."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.450 đồng, lãi 9,19% so với giá vốn 14.150 đồng; còn cách mục tiêu 18.000 đồng khoảng 16,5% - tiếp tục giữ, theo dõi diễn biến nhóm ngân hàng."
+      "comment": "Giá 15.000 đồng, lãi 6,01% so với giá vốn 14.150 đồng; còn cách mục tiêu 18.000 đồng khoảng 20% - tiếp tục giữ, theo dõi nhóm ngân hàng trong bối cảnh thị trường điều chỉnh."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 22.150 đồng, lỗ 6,14% so với giá vốn 23.600 đồng; giá cách ngưỡng THEO DÕI SÁT 22.050 đồng (stoploss 21.000 x 1,05) chỉ 100 đồng - theo dõi chặt, sẵn sàng chuyển sang THEO DÕI SÁT nếu giá tiếp tục yếu."
+      "comment": "Giá 21.600 đồng, lỗ 8,47% so với giá vốn 23.600 đồng; đã dưới ngưỡng THEO DÕI SÁT 22.050 đồng (stoploss 21.000 x 1,05) - khối ngoại bán ròng HPG, theo dõi sát và sẵn sàng cắt lỗ nếu giá tiếp tục giảm về 21.000 đồng."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "CẮT LỖ",
-      "comment": "Giá 20.500 đồng phá sâu dưới stoploss 22.500 đồng, lỗ 18,49% so với giá vốn 25.150 đồng; vi phạm rule stoploss nhiều phiên liên tiếp - thực hiện cắt lỗ theo kỷ luật để giải phóng vốn."
+      "comment": "Giá 20.100 đồng phá sâu dưới stoploss 22.500 đồng, lỗ 20,08% so với giá vốn 25.150 đồng; vi phạm rule stoploss nhiều phiên liên tiếp - thực hiện cắt lỗ theo kỷ luật ngay trong phiên tới để giải phóng vốn."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22200.0,
       "change_pct": 0.0,
-      "comment": "Giá 22.700 đồng (-0,22%); thị trường tiếp tục giằng co sát vùng 1.800 điểm, dòng tiền chưa ưu tiên nhóm ngân hàng - chưa vào lệnh, chờ VN-Index vượt bền vững 1.800 điểm mới xem xét."
+      "comment": "Giá 22.200 đồng (không đổi); BVSC định giá mục tiêu 26.400 đồng (khuyến nghị OUTPERFORM) nhưng khối ngoại đang bán ròng ACB trong phiên hôm nay - chưa vào lệnh, chờ thị trường ổn định sau đợt điều chỉnh."
     }
   ],
   "gold": {
-    "sjc_buy": 141300000,
-    "sjc_sell": 144300000,
-    "note": "Vàng SJC ngày 13/08/2026 dao động nhẹ: sáng tăng 300.000 đồng/lượng lên 141,6-144,6 triệu, sau đó quay về 141,3-144,3 triệu đồng/lượng vào buổi trưa - mức cuối ngày tương đương phiên trước, không nên mua thêm ở vùng giá cao."
+    "sjc_buy": 140300000,
+    "sjc_sell": 143300000,
+    "note": "Vàng SJC ngày 14/08/2026 giảm 1.000.000 đồng/lượng so với hôm qua, giao dịch ở mức 140,3-143,3 triệu đồng/lượng; vàng thế giới cũng điều chỉnh giảm theo - không nên mua thêm ở vùng giá cao."
   },
   "news_vn": [
     {
-      "title": "Vietstock Daily 13/08/2026: Áp sát mốc 1.800 điểm",
-      "summary": "VN-Index tiếp tục áp sát ngưỡng kháng cự 1.800 điểm nhưng chưa đủ lực bứt phá; thị trường giằng co với nến thân nhỏ, dòng tiền thận trọng và thanh khoản duy trì ở mức thấp - tín hiệu chưa đủ để xác nhận xu hướng tăng bền vững.",
+      "title": "Nhịp đập thị trường 14/08: Sắc đỏ bao phủ",
+      "summary": "VN-Index giảm mạnh 20,88 điểm (-1,18%) xuống 1.744,75 điểm với sắc đỏ bao phủ toàn thị trường; 66 mã tăng so với 228 mã giảm, khối ngoại bán ròng mạnh 1.247 tỷ đồng tập trung vào FPT, HPG và ACB; áp lực bán gia tăng sau nhiều phiên giằng co sát ngưỡng kháng cự 1.800 điểm.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/08/vietstock-daily-13082026-ap-sat-moc-1800-diem-1636-1479704.htm"
+      "url": "https://vietstock.vn/2026/08/nhip-dap-thi-truong-1408-sac-do-bao-phu-1636-1480599.htm"
     },
     {
-      "title": "Nhịp đập thị trường 13/08: Tích cực từ giữa phiên, VN-Index nghỉ trưa trong sắc xanh",
-      "summary": "VN-Index bật tăng tích cực từ giữa phiên sáng và duy trì sắc xanh khi vào giờ nghỉ trưa; tuy nhiên dòng tiền vẫn thận trọng và chưa tập trung vào nhóm ngành cụ thể, thị trường phân hóa nhẹ giữa các nhóm cổ phiếu.",
-      "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/08/nhip-dap-thi-truong-1308-tich-cuc-tu-giua-phien-vn-index-nghi-trua-trong-sac-xanh-1636-1479973.htm"
-    },
-    {
-      "title": "Giao dịch chứng khoán phiên sáng 13/8: Dòng tiền thận trọng, VN-Index giằng co nhẹ",
-      "summary": "Phiên sáng 13/08, VN-Index giằng co nhẹ quanh mức tham chiếu với dòng tiền thận trọng; khối lượng giao dịch không cải thiện đáng kể so với bình quân 20 phiên, nhà đầu tư ưu tiên quan sát và hạn chế mở vị thế mua mới trong bối cảnh thị trường chưa xác nhận được hướng đi rõ ràng.",
+      "title": "Giao dịch chứng khoán phiên sáng 14/8: VN-Index tiếp tục điều chỉnh",
+      "summary": "Phiên sáng 14/08, VN-Index tiếp tục điều chỉnh với mẫu hình nến Big Black Candle xuất hiện ngay đầu phiên; dòng tiền phân tán, nhà đầu tư thận trọng trong bối cảnh thị trường chịu áp lực bán từ khối ngoại và lãi suất neo cao ảnh hưởng dòng tiền.",
       "source": "Tin nhanh chứng khoán",
-      "url": "https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-phien-sang-138-dong-tien-than-trong-vn-index-giang-co-nhe-post395852.html"
+      "url": "https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-phien-sang-148-vn-index-tiep-tuc-dieu-chinh-post395916.html"
+    },
+    {
+      "title": "Vietstock Daily 14/08/2026: Áp lực trở lại",
+      "summary": "Sau nhiều phiên giằng co sát ngưỡng 1.800 điểm, VN-Index quay đầu điều chỉnh mạnh trong phiên 14/08; rủi ro ngắn hạn gia tăng với tín hiệu kỹ thuật tiêu cực, thị trường cần thêm thời gian tích lũy trước khi có thể tái chinh phục vùng kháng cự 1.800 điểm.",
+      "source": "Vietstock",
+      "url": "https://vietstock.vn/2026/08/vietstock-daily-14082026-ap-luc-tro-lai-1636-1480300.htm"
     }
   ],
   "advice": {
-    "summary": "Phiên 13/08/2026, VN-Index tăng nhẹ 2,36 điểm (+0,13%) lên 1.795,54 điểm, tiếp tục giằng co sát kháng cự 1.800 điểm với dòng tiền thận trọng; danh mục đang lỗ 18,77% (giá trị 62.850.000 đồng so với vốn 77.370.000 đồng). MBB tiếp tục vi phạm stoploss nghiêm trọng cần cắt lỗ ngay; FPT ở ngay dưới ngưỡng nguy hiểm 71.400 đồng, rủi ro rất cao; HPG cũng gần sát ngưỡng THEO DÕI SÁT. Chưa nên giải ngân tiền mới khi thị trường chưa vượt bền vững 1.800 điểm.",
+    "summary": "Phiên 14/08/2026, VN-Index điều chỉnh mạnh 20,88 điểm (-1,18%) xuống 1.744,75 điểm, sắc đỏ bao phủ với khối ngoại bán ròng 1.247 tỷ đồng; danh mục lỗ 21,33% (giá trị 60.870.000 đồng so với vốn 77.370.000 đồng). MBB và HPG tiếp tục vi phạm ngưỡng stoploss - ưu tiên xử lý các vị thế này, tuyệt đối không giải ngân tiền mới khi thị trường đang điều chỉnh chưa có đáy.",
     "actions": [
-      "FPT: THEO DÕI SÁT - giá 71.300 đồng ngay dưới ngưỡng stoploss x 1,05 = 71.400 đồng (lỗ 19,75% so với vốn 88.850 đồng); kiên quyết cắt lỗ nếu giá phá xuống dưới 71.400 đồng trong phiên tới.",
-      "SSB: GIỮ - giá 15.450 đồng (lãi 9,19% so với vốn 14.150 đồng); còn cách mục tiêu 18.000 đồng khoảng 16,5% - tiếp tục nắm giữ.",
-      "HPG: GIỮ nhưng cảnh giác - giá 22.150 đồng (lỗ 6,14% so với vốn 23.600 đồng), chỉ cách ngưỡng THEO DÕI SÁT 22.050 đồng khoảng 100 đồng - theo dõi sát từng phiên.",
-      "MBB: CẮT LỖ - giá 20.500 đồng phá sâu dưới stoploss 22.500 đồng (lỗ 18,49% so với vốn 25.150 đồng); vi phạm rule nhiều phiên, thực hiện cắt lỗ theo kỷ luật.",
-      "Tiền mới: chưa giải ngân; chờ VN-Index xác nhận bứt phá bền vững 1.800 điểm với thanh khoản cải thiện trước khi xem xét vào lệnh mới.",
-      "ACB (watchlist): giá 22.700 đồng (-0,22%); dòng tiền chưa tập trung vào nhóm ngân hàng - tiếp tục theo dõi, chưa vào lệnh.",
-      "Vàng SJC: 141,3-144,3 triệu đồng/lượng ngày 13/08, không thay đổi so với phiên trước - không nên mua thêm ở vùng giá cao."
+      "FPT: THEO DÕI SÁT - giá 69.000 đồng, lỗ 22,34% so với vốn 88.850 đồng; chỉ cách stoploss 68.000 đồng khoảng 1.000 đồng - đặt lệnh cắt lỗ sẵn, không chần chừ nếu giá phá 68.000 đồng.",
+      "SSB: GIỮ - giá 15.000 đồng, lãi 6,01% so với vốn 14.150 đồng; còn cách mục tiêu 18.000 đồng khoảng 20% - tiếp tục nắm giữ.",
+      "HPG: THEO DÕI SÁT - giá 21.600 đồng, lỗ 8,47% so với vốn 23.600 đồng; dưới ngưỡng THEO DÕI SÁT 22.050 đồng - sẵn sàng cắt lỗ nếu giá giảm về 21.000 đồng.",
+      "MBB: CẮT LỖ - giá 20.100 đồng phá sâu dưới stoploss 22.500 đồng (lỗ 20,08% so với vốn 25.150 đồng); thực hiện cắt lỗ theo kỷ luật ngay trong phiên tới.",
+      "Tiền mới: tuyệt đối không giải ngân khi thị trường đang điều chỉnh mạnh, chưa xác nhận đáy.",
+      "ACB (watchlist): giá 22.200 đồng, BVSC định giá mục tiêu 26.400 đồng (OUTPERFORM) song khối ngoại vẫn đang bán ròng - chưa vào lệnh, theo dõi tiếp.",
+      "Vàng SJC: 140,3-143,3 triệu đồng/lượng (giảm 1 triệu so với hôm qua) - không nên mua thêm ở vùng giá cao."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
