@@ -1,218 +1,212 @@
 {
-  "updated_at": "2026-08-13T01:10:00Z",
-  "updated_at_vn": "08:10 13/08/2026",
+  "updated_at": "2026-08-14T01:10:00Z",
+  "updated_at_vn": "08:10 14/08/2026",
   "ai": [
     {
-      "title": "Claude Code tháng 8 bổ sung iOS Simulator, plugin quét bảo mật và code review chạy nền",
-      "summary": "Kỳ cập nhật tháng 8 của Claude Code bổ sung ba tính năng lớn: khung iOS Simulator tích hợp trong Claude Code Desktop để kiểm thử ứng dụng iOS không cần rời giao diện, plugin Claude Security tự động quét lỗ hổng bảo mật trong code, và tính năng code review chạy nền không chặn luồng làm việc chính. Ngoài ra, cập nhật còn mang đến kiểm soát subagent chi tiết hơn với giới hạn chạy đồng thời, cải thiện dynamic workflow và tăng cường sandbox an toàn hơn trong Auto Mode.",
-      "why_it_matters": "Ba tính năng mới tác động trực tiếp đến quy trình làm việc hằng ngày với Claude Code - iOS Simulator giúp kiểm thử tại chỗ, plugin bảo mật bắt lỗi ngay terminal, và code review nền giúp tiết kiệm thời gian chờ đáng kể trong pipeline tự động hóa dài.",
-      "source": "Havoptic",
-      "url": "https://www.havoptic.com/tools/claude-code",
-      "published": "2026-08-12",
+      "title": "Claude Code chuyển Auto Mode thành mặc định từ 14/8 cho gói Pro, Max và Team",
+      "summary": "Từ ngày 14/8/2026, Anthropic kích hoạt Auto Mode làm chế độ mặc định cho mọi phiên Claude Code mới trên gói Pro, Max và Team. Thay vì hỏi xin phép từng lệnh, bộ phân loại AI tự đánh giá từng tool call và chỉ dừng lại khi hành động được xác định là không thể hoàn tác, gây phá hủy, hoặc tác động ra ngoài môi trường. Người dùng đã cấu hình chế độ mặc định khác sẽ nhận một lần hỏi duy nhất; Claude Enterprise, API và các nền tảng cloud (AWS, Bedrock, Azure) vẫn theo opt-in để admin có thời gian đánh giá.",
+      "why_it_matters": "Thay đổi trực tiếp nhất với workflow Claude Code hằng ngày kể từ khi ra mắt Auto Mode - pipeline tự động hóa dài chạy mượt hơn mà không cần ngồi chờ approval, nhưng cần rà soát deny rules trước hôm nay để tránh lệnh nhạy cảm được thực thi tự động ngoài ý muốn.",
+      "source": "Anthropic / TechCrunch",
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "published": "2026-08-14",
       "hot": true
     },
     {
-      "title": "Meta phát hành Muse Glimmer 30B - model đa phương tiện mã nguồn mở Apache 2.0 cho agentic tool use",
-      "summary": "Meta phát hành Muse Glimmer, model đa phương tiện 30 tỷ tham số dạng dense theo giấy phép Apache 2.0 cho phép dùng thương mại tự do. Model được tinh chỉnh chuyên cho agentic tool use, viết code và đánh giá chất lượng model (LLM-as-judge) với ngữ cảnh 131 nghìn token và hỗ trợ hơn 100 ngôn ngữ. Đây là model open source mạnh nhất của Meta tính đến tháng 8/2026, cạnh tranh trực tiếp với Qwen3.8 trong phân khúc 30B.",
-      "why_it_matters": "Muse Glimmer 30B Apache 2.0 là lựa chọn local mới để chạy agent không cần API trả phí - hữu ích khi Anthropic tăng giá từ tháng 9 và có thể thay Claude Haiku trong các bước phụ của pipeline tự động hóa nội dung hoặc phân tích dữ liệu.",
-      "source": "LLM Stats",
-      "url": "https://llm-stats.com/ai-news",
-      "published": "2026-08-12",
-      "hot": false
-    },
-    {
-      "title": "Google ra ba model Gemini mới nhắm vào agentic workflow: 3.6 Flash, 3.5 Flash-Lite và 3.5 Flash Cyber",
-      "summary": "Google phát hành ba model mới trong gia đình Gemini Flash: Gemini 3.6 Flash (hiệu năng và chi phí tối ưu cho tác nhân AI), 3.5 Flash-Lite (siêu nhẹ cho khối lượng yêu cầu lớn) và 3.5 Flash Cyber (chuyên dụng cho bảo mật). Cả ba model nhắm đến mở rộng agentic workflow quy mô lớn, cạnh tranh trực tiếp với Claude 3.5 Haiku và GPT-5.6 Luna trong phân khúc model nhỏ chi phí thấp.",
-      "why_it_matters": "Ba model Gemini mới tạo thêm lựa chọn API giá rẻ cho các workflow AI agent - có thể cân nhắc dùng thay Claude Haiku cho các bước phụ để giảm chi phí tổng thể khi mở rộng tự động hóa.",
-      "source": "LLM Stats",
-      "url": "https://llm-stats.com/llm-updates",
-      "published": "2026-08-12",
-      "hot": false
-    },
-    {
-      "title": "OpenAI mở rộng Daybreak với hai nhánh Blue/Red và model GPT-5.6-Cyber chuyên dụng bảo mật",
-      "summary": "OpenAI mở rộng chương trình Daybreak thành hai nhánh: Daybreak Blue dành cho nhóm phòng thủ (đánh giá lỗ hổng, kiểm tra code, phản hồi sự cố) và Daybreak Red cho kiểm thử xâm nhập được ủy quyền. Kèm theo là model GPT-5.6-Cyber được huấn luyện chuyên cho tác vụ an ninh mạng. Chương trình trao quyền truy cập model mạnh nhất cho các chuyên gia bảo mật được phê duyệt.",
-      "why_it_matters": "OpenAI đang định vị AI như công cụ phòng thủ hợp pháp trong an ninh mạng - xu hướng này bổ sung cho plugin Claude Security mới trong Claude Code, đánh dấu 2026 là năm AI được tích hợp sâu vào DevSecOps.",
+      "title": "OpenAI ra mắt Ultrafast mode: GPT-5.6 Sol nhanh hơn 14 lần nhờ chip Cerebras, đạt 750 token mỗi giây",
+      "summary": "OpenAI công bố Ultrafast, chế độ dịch vụ mới chạy GPT-5.6 Sol nhanh hơn 14 lần so với Standard nhờ hạ tầng chip Cerebras, đạt tốc độ tới 750 token đầu ra mỗi giây. Chế độ đang ở giai đoạn preview, triển khai đầu tiên trên OpenAI API. Đây là bước đột phá về độ trễ cho agentic workflow đòi hỏi phản hồi nhanh, cạnh tranh trực tiếp với Google Gemini Flash trong phân khúc tốc độ cao.",
+      "why_it_matters": "Ultrafast 750 token/giây mở ra khả năng pipeline agent nhiều bước hoàn thành trong vài giây thay vì hàng chục giây - kết hợp với GPT-5.6 Luna giảm giá 80%, OpenAI đang tạo áp lực định giá lên Claude Haiku trong các bước phụ của workflow tự động hóa.",
       "source": "OpenAI",
-      "url": "https://openai.com/news/company-announcements/",
+      "url": "https://openai.com/index/previewing-ultrafast/",
+      "published": "2026-08-13",
+      "hot": false
+    },
+    {
+      "title": "ChatGPT cán mốc 1 tỷ người dùng mỗi tuần - nền tảng AI tăng trưởng nhanh nhất lịch sử",
+      "summary": "OpenAI xác nhận ChatGPT đạt 1 tỷ người dùng hoạt động mỗi tuần, tương đương 1/8 dân số thế giới sử dụng ít nhất một lần mỗi tuần. Con số này tăng từ 700 triệu hồi đầu năm 2026 và đặt ChatGPT vào nhóm nền tảng công nghệ tăng trưởng nhanh nhất từ trước đến nay. Cùng lúc, OpenAI cập nhật GPT-5.6 Sol hướng đến câu trả lời ngắn gọn và độ tin cậy thực tế tốt hơn.",
+      "why_it_matters": "ChatGPT 1 tỷ người dùng đặt Anthropic dưới áp lực cạnh tranh về độ phủ người dùng cuối - xu hướng này ảnh hưởng đến lộ trình phát triển Claude Code theo hướng productivity rộng hơn, có thể mang lại tính năng mới hỗ trợ quản lý nội dung và phân tích thị trường chứng khoán.",
+      "source": "OpenAI / Yahoo Tech",
+      "url": "https://tech.yahoo.com/ai/chatgpt/articles/chatgpt-tops-1b-weekly-users-191537749.html",
+      "published": "2026-08-13",
+      "hot": true
+    },
+    {
+      "title": "Anthropic ra mắt Claude for Government beta - cơ quan liên bang Mỹ tiếp cận Claude không cần hợp đồng cloud riêng",
+      "summary": "Anthropic mở chương trình Claude for Government ở giai đoạn beta cho các cơ quan liên bang Mỹ, không yêu cầu hợp đồng cloud riêng - Anthropic trực tiếp là bên ký hợp đồng và thanh toán thay mặt cơ quan. Chương trình cho phép triển khai Claude với quyền truy cập không giới hạn chỗ ngồi trong khuôn khổ thời hạn beta. Cùng lúc, Anthropic bổ sung admin analytics chi tiết hơn, phân quyền theo model và cảnh báo chi tiêu cho Claude Enterprise.",
+      "why_it_matters": "Anthropic mở rộng sang thị trường chính phủ ngay trước IPO là tín hiệu đa dạng hóa doanh thu ổn định - thị trường B2G bền vững hơn B2B thương mại và giúp bảo vệ khả năng cung cấp Claude Code liên tục dù giá API tăng sau khi công ty cổ phiếu công khai.",
+      "source": "Anthropic",
+      "url": "https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government",
       "published": "2026-08-12",
       "hot": false
     },
     {
-      "title": "Anthropic đạt tốc độ doanh thu 30 tỷ USD/năm, IPO tháng 10 định giá 800 tỷ USD đang trong tầm ngắm",
-      "summary": "Theo các nguồn theo dõi AI industry, Anthropic đã đạt tốc độ doanh thu 30 tỷ USD hằng năm với mức tăng trưởng 1.400% so với cùng kỳ năm ngoái. Tăng trưởng này đặt ra khả năng IPO vào tháng 10/2026 ở mức định giá 800 tỷ USD, biến Anthropic thành một trong những IPO công nghệ lớn nhất lịch sử nếu thực hiện. Anthropic đang đẩy mạnh hướng đi agentic, chuyên môn hóa model theo tier và kiểm soát doanh nghiệp để chuẩn bị cho giai đoạn công ty đại chúng.",
-      "why_it_matters": "Anthropic IPO 800 tỷ USD nếu thành công sẽ định hình lại định giá toàn ngành AI - rủi ro thực tế với người dùng Claude Code là thay đổi mô hình định giá để đáp ứng kỳ vọng cổ đông sau IPO.",
-      "source": "AI Weekly",
-      "url": "https://aiweekly.co/ai-news-today/anthropic-news",
-      "published": "2026-08-12",
-      "hot": true
+      "title": "Giá API Claude Sonnet 5 tăng 50% từ 1/9: kết thúc khuyến mãi $2/$10, chuyển sang $3/$15 mỗi triệu token",
+      "summary": "Anthropic xác nhận giá khuyến mãi Claude Sonnet 5 tại $2 input và $10 output mỗi triệu token sẽ kết thúc vào 31/8/2026, chuyển sang mức giá chuẩn $3 input và $15 output từ ngày 1/9. Mức tăng 50% ảnh hưởng trực tiếp đến mọi người dùng API đang tích hợp Sonnet 5. Người dùng muốn kiểm soát chi phí cần cân nhắc chuyển các tác vụ nhẹ sang Claude Haiku 4.5 hoặc tối ưu prompt caching.",
+      "why_it_matters": "Tăng 50% giá API Sonnet 5 từ tháng 9 - cần rà soát và ước lượng lại chi phí pipeline tự động hóa ngay tháng này, xem xét tách tác vụ nặng nhẹ theo tier model và tăng tỷ lệ cache kết quả để kiểm soát ngân sách trước khi giá mới có hiệu lực.",
+      "source": "Anthropic / Explainx.ai",
+      "url": "https://explainx.ai/blog/claude-usage-limits-2026-timeline-explained",
+      "published": "2026-08-13",
+      "hot": false
     }
   ],
   "github": {
     "daily": [
       {
         "repo": "cathrynlavery/diagram-design",
-        "desc": "Bộ 29 kiểu sơ đồ biên tập cho Claude Code - self-contained HTML và SVG, bùng nổ gần 2.900 star ngày 13/8 trên tổng 10.288 star",
+        "desc": "Bộ 29 kiểu sơ đồ biên tập cho Claude Code - tiếp tục bùng nổ thêm 4.475 star ngày 14/8, tổng 14.460 star sau hai ngày dẫn đầu trending toàn GitHub",
         "lang": "HTML",
-        "stars": 10288,
-        "stars_period": 2855,
+        "stars": 14460,
+        "stars_period": 4475,
         "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
-        "repo": "stablyai/orca",
-        "desc": "Môi trường phát triển agentic (ADE) cho hàng chục agent song song trên desktop, mobile và VPS - 1.235 star ngày 13/8 trên tổng 43.845 star",
-        "lang": "TypeScript",
-        "stars": 43845,
-        "stars_period": 1235,
-        "url": "https://github.com/stablyai/orca"
-      },
-      {
-        "repo": "msitarzewski/agency-agents",
-        "desc": "Bộ AI agency đầy đủ với nhiều agent chuyên biệt - tiếp tục dẫn đầu trending với 1.873 star ngày 13/8 trên tổng 144.551 star",
-        "lang": "Shell",
-        "stars": 144551,
-        "stars_period": 1873,
-        "url": "https://github.com/msitarzewski/agency-agents"
-      },
-      {
-        "repo": "hugohe3/ppt-master",
-        "desc": "AI biến tài liệu hoặc chủ đề thành bản trình bày PowerPoint thực sự có animation và thuyết minh - 476 star ngày 13/8 trên tổng 45.544 star",
-        "lang": "Python",
-        "stars": 45544,
-        "stars_period": 476,
-        "url": "https://github.com/hugohe3/ppt-master"
+        "repo": "macro-inc/macro",
+        "desc": "Không gian làm việc hợp nhất cho nhóm bằng Rust: email, chat, docs, tasks, agent, cuộc gọi và CRM trong một giao diện - bùng nổ 1.239 star ngày 14/8 trên tổng 2.591 star",
+        "lang": "Rust",
+        "stars": 2591,
+        "stars_period": 1239,
+        "url": "https://github.com/macro-inc/macro"
       },
       {
         "repo": "cactus-compute/needle",
-        "desc": "Model nền AI chỉ 14MB chạy được trên điện thoại, wearable, nhà thông minh và robot không cần cloud - 315 star ngày 13/8 trên tổng 4.212 star",
+        "desc": "Foundation model 14MB chạy trên điện thoại, smartwatch, nhà thông minh và robot không cần cloud - tiếp tục trending ngày 14/8 với 769 star mới, tổng 4.944 star",
         "lang": "Python",
-        "stars": 4212,
-        "stars_period": 315,
+        "stars": 4944,
+        "stars_period": 769,
         "url": "https://github.com/cactus-compute/needle"
+      },
+      {
+        "repo": "semantica-agi/semantica",
+        "desc": "Hạ tầng graph-native cho context và hệ thống AI có khả năng giải trình - entry mới nổi bật với 713 star ngày 14/8 trên tổng 6.637 star",
+        "lang": "Python",
+        "stars": 6637,
+        "stars_period": 713,
+        "url": "https://github.com/semantica-agi/semantica"
+      },
+      {
+        "repo": "NVIDIA-NeMo/Switchyard",
+        "desc": "Công cụ định tuyến LLM traffic qua nhiều model và provider với API tương thích OpenAI và Anthropic - ra mắt với 408 star ngày 14/8 trên tổng 1.204 star",
+        "lang": "Rust",
+        "stars": 1204,
+        "stars_period": 408,
+        "url": "https://github.com/NVIDIA-NeMo/Switchyard"
       }
     ],
     "weekly": [
       {
-        "repo": "google/skills",
-        "desc": "Bộ agent skills do Google biên soạn cho các sản phẩm và công nghệ Google - entry mới nổi trong tuần với 2.288 star trên tổng 17.905 star",
-        "lang": "Python",
-        "stars": 17905,
-        "stars_period": 2288,
-        "url": "https://github.com/google/skills"
+        "repo": "PrimeIntellect-ai/prime-agent",
+        "desc": "Agent RLM tự cải tiến cho coding workflow và tác vụ tự động dài hạn, đạt 95,5% ARC-AGI 3 - dẫn đầu tuyệt đối với 12.476 star trong tuần trên tổng 15.456 star",
+        "lang": "TypeScript",
+        "stars": 15456,
+        "stars_period": 12476,
+        "url": "https://github.com/PrimeIntellect-ai/prime-agent"
       },
       {
-        "repo": "esengine/DeepSeek-Reasonix",
-        "desc": "AI coding agent xây dựng xung quanh DeepSeek với tối ưu prefix-cache, ổn định khi chạy dài hạn - 2.953 star tuần này trên tổng 34.193 star",
-        "lang": "Go",
-        "stars": 34193,
-        "stars_period": 2953,
-        "url": "https://github.com/esengine/DeepSeek-Reasonix"
+        "repo": "TencentCloud/TencentDB-Agent-Memory",
+        "desc": "Hub bộ nhớ cấp nhóm cho AI agent với tài sản memory có thể tái sử dụng - bùng nổ 5.388 star trong tuần trên tổng 21.207 star",
+        "lang": "TypeScript",
+        "stars": 21207,
+        "stars_period": 5388,
+        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
       },
       {
-        "repo": "vitali87/code-graph-rag",
-        "desc": "Công cụ RAG tối ưu cho monorepo lớn dùng knowledge graph thay vì vector search thông thường - 1.511 star tuần này trên tổng 4.087 star",
-        "lang": "Python",
-        "stars": 4087,
-        "stars_period": 1511,
-        "url": "https://github.com/vitali87/code-graph-rag"
-      },
-      {
-        "repo": "zhaoxuya520/reverse-skill",
-        "desc": "Bộ skills cho nghiên cứu bảo mật với AI routing tự động và knowledge base tự cập nhật - bùng nổ 5.573 star tuần này trên tổng 24.455 star",
-        "lang": "PowerShell",
-        "stars": 24455,
-        "stars_period": 5573,
-        "url": "https://github.com/zhaoxuya520/reverse-skill"
-      },
-      {
-        "repo": "drawdb-io/drawdb",
-        "desc": "Trình chỉnh sửa sơ đồ database và sinh SQL trực tuyến miễn phí, đơn giản và trực quan - 665 star tuần này trên tổng 38.943 star",
+        "repo": "addyosmani/agent-skills",
+        "desc": "Bộ engineering skills cấp production cho AI coding agent - 4.562 star tuần này trên tổng 86.968 star",
         "lang": "JavaScript",
-        "stars": 38943,
-        "stars_period": 665,
-        "url": "https://github.com/drawdb-io/drawdb"
+        "stars": 86968,
+        "stars_period": 4562,
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "repo": "semantica-agi/semantica",
+        "desc": "Hạ tầng graph-native cho context và hệ thống AI có khả năng giải trình - 4.073 star tuần này, lọt cả daily lẫn weekly trending ngày 14/8",
+        "lang": "Python",
+        "stars": 6637,
+        "stars_period": 4073,
+        "url": "https://github.com/semantica-agi/semantica"
+      },
+      {
+        "repo": "cloudflare/computer",
+        "desc": "SDK TypeScript cho phép AI agent điều khiển máy tính thật từ xa qua Cloudflare - 3.599 star tuần này trên tổng 7.978 star",
+        "lang": "TypeScript",
+        "stars": 7978,
+        "stars_period": 3599,
+        "url": "https://github.com/cloudflare/computer"
       }
     ],
-    "trend_note": "Ngày 13/8/2026, GitHub trending nổi bật hai điểm: (1) cathrynlavery/diagram-design - bộ 29 sơ đồ cho Claude Code - bùng nổ gần 2.900 star chỉ trong một ngày, phản ánh nhu cầu tài liệu hóa và trực quan hóa code tăng vọt cùng Claude Code Auto Mode; (2) stablyai/orca và msitarzewski/agency-agents cùng lọt top ngày cho thấy quản lý fleet nhiều agent song song là bài toán hot nhất của developer AI tháng 8."
+    "trend_note": "Ngày 14/8/2026, cathrynlavery/diagram-design tiếp tục bùng nổ thêm 4.475 star (tổng tăng hơn 7.300 trong hai ngày) - giai đoạn Auto Mode trở thành mặc định của Claude Code đang thúc đẩy nhu cầu trực quan hóa agent flow tăng vọt. Trên weekly, PrimeIntellect/prime-agent dẫn đầu tuyệt đối với 12.476 star trong tuần, xác nhận self-improving RLM là chủ đề nóng nhất GitHub tháng 8/2026."
   },
   "tech": [
     {
-      "title": "VinSpace (Vingroup) ký hợp đồng SpaceX, phóng vệ tinh Việt Nam đầu tiên vào Q2/2027",
-      "summary": "Ngày 11/8/2026, VinSpace - công ty vũ trụ của Vingroup do ông Phạm Nhật Vượng nắm 71% cổ phần - ký hợp đồng với SpaceX để phóng vệ tinh đầu tiên tự chế tạo của Việt Nam theo chương trình Transporter rideshare vào quý 2/2027. Vệ tinh được thiết kế để kiểm chứng công nghệ nội địa và đặt nền tảng cho ứng dụng thương mại. Đây là cột mốc lớn nhất của ngành vũ trụ Việt Nam kể từ khi VinSpace thành lập tháng 11/2025.",
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/economy/2026/8/11/vietnams-vinspace-announces-deal-with-spacex-to-launch-first-satellite",
+      "title": "Anthropic, Macquarie và GIC thành lập Theseus Infrastructure - nền tảng trung tâm dữ liệu AI quy mô lớn tại Mỹ",
+      "summary": "Ngày 10/8/2026, Anthropic cùng Macquarie Asset Management và GIC (quỹ đầu tư quốc gia Singapore) thành lập liên doanh Theseus Infrastructure để xây dựng và vận hành hạ tầng trung tâm dữ liệu chuyên dụng cho AI tại Mỹ. Anthropic là khách thuê neo đậu tại mỗi cơ sở trong khi Macquarie và GIC cùng tài trợ phần lớn vốn cổ phần. Dự án tạo hàng nghìn việc làm xây dựng và vận hành lâu dài, Anthropic cam kết bù đắp mọi chi phí điện tăng thêm cho người tiêu dùng xung quanh các cơ sở.",
+      "source": "HPCwire",
+      "url": "https://www.hpcwire.com/off-the-wire/anthropic-macquarie-and-gic-launch-theseus-infrastructure-for-ai-data-centers/",
+      "published": "2026-08-10"
+    },
+    {
+      "title": "PrimeIntellect phát hành Prime Agent MIT - agent RLM tự cải tiến đạt 95,5% ARC-AGI 3",
+      "summary": "PrimeIntellect phát hành Prime Agent ngày 5/8/2026 theo giấy phép MIT, giới thiệu kiến trúc Recursive Language Model kết hợp Continual Harness cho phép agent tự cải tiến prompt, skills và bộ nhớ qua lệnh /refine mà không cần huấn luyện lại model nền. Agent đạt 95,5% trên benchmark ARC-AGI 3, vượt ngưỡng chuyên gia người. Đây là kiến trúc agent mã nguồn mở mạnh nhất hiện tại cho coding workflow dài hạn, thu hút hơn 12.000 star GitHub chỉ trong một tuần.",
+      "source": "PrimeIntellect Blog",
+      "url": "https://www.primeintellect.ai/blog/prime-agent",
+      "published": "2026-08-05"
+    },
+    {
+      "title": "Vietnam Tech Summit 2026 tại Silicon Valley - chuyên gia Việt tụ hội với chủ đề \"Build Your Edge in the AI Era\"",
+      "summary": "Vietnam Tech Summit 2026 diễn ra ngày 7-8/8 tại Computer History Museum, Mountain View, California, do Viet Spark dẫn dắt cùng các đối tác Vietnam AI Stars, Viet Bay và AI for Vietnam Foundation. Hội nghị thu hút chuyên gia kỹ thuật Việt kiều và người Việt tại các công ty Silicon Valley với chủ đề xây dựng lợi thế cạnh tranh trong kỷ nguyên AI. Đây là sự kiện networking kỹ thuật lớn nhất cộng đồng Việt Nam tại Mỹ trong năm 2026.",
+      "source": "EIN Presswire",
+      "url": "https://tech.einnews.com/amp/pr_news/921929174/vietnam-tech-summit-2026-brings-build-your-edge-in-the-ai-era-to-silicon-valley-this-august",
+      "published": "2026-08-07"
+    },
+    {
+      "title": "Cloudflare ra mắt Computer - SDK TypeScript cho phép AI agent điều khiển máy tính thật từ xa",
+      "summary": "Cloudflare phát hành Computer, bộ công cụ TypeScript mã nguồn mở cho phép AI agent tương tác với môi trường desktop thực: nhấp chuột, gõ bàn phím, chụp màn hình và điều hướng giao diện như người dùng thật. Project thu hút gần 3.600 star trong tuần và lọt top GitHub weekly trending. Đây là bước mở rộng quan trọng của Cloudflare vào hạ tầng AI agent sau các sản phẩm Workers AI và AI Gateway.",
+      "source": "GitHub / Cloudflare",
+      "url": "https://github.com/cloudflare/computer",
       "published": "2026-08-11"
     },
     {
-      "title": "Samsung Galaxy Z Fold8 và Z Flip8 mở bán Việt Nam từ 8/8, đơn hàng tăng 50% so với cùng kỳ",
-      "summary": "Samsung Galaxy Z Fold8 và Z Flip8 chính thức lên kệ tại Việt Nam từ ngày 8/8/2026, với lượng đặt hàng tăng khoảng 50% so với thế hệ trước theo báo cáo từ Viettel Store. Galaxy Z Fold8 và Fold8 Ultra có giá khởi điểm lần lượt 1.800 và 2.000 USD cho cấu hình 12GB RAM và 256GB bộ nhớ. Dòng Z8 đã phủ sóng 106 thị trường toàn cầu ngay trong tuần đầu ra mắt.",
-      "source": "Vietnam Investment Review",
-      "url": "https://vir.com.vn/samsungs-newest-foldable-smartphones-hit-vietnam-158457.html",
-      "published": "2026-08-08"
-    },
-    {
-      "title": "ChatGPT thêm đặt bàn nhà hàng qua OpenTable, Resy và Yelp - tích hợp ngay trong giao diện chat",
-      "summary": "OpenAI triển khai tính năng tìm kiếm và đặt bàn nhà hàng trực tiếp trong ChatGPT, hỗ trợ OpenTable và Resy trên toàn cầu và Yelp tại Mỹ và Canada. Người dùng có thể tìm suất trống và đặt bàn ngay trong chat mà không cần mở ứng dụng khác, phủ rộng trên các gói ChatGPT cho mobile, web và desktop. Đây là bước tiếp theo trong chiến lược biến ChatGPT thành trợ lý thay thế ứng dụng chuyên dụng.",
-      "source": "OpenAI",
-      "url": "https://openai.com/news/company-announcements/",
-      "published": "2026-08-12"
-    },
-    {
-      "title": "OpenAI đóng cửa AI browser Atlas sau chưa đầy 1 năm, chuyển nguồn lực vào agentic ChatGPT",
-      "summary": "OpenAI thông báo ngừng hoạt động AI browser Atlas vào ngày 9/8/2026, chưa đầy một năm kể từ khi ra mắt. Quyết định này phản ánh chiến lược OpenAI ưu tiên tích hợp computer use và duyệt web sâu vào ChatGPT thay vì duy trì trình duyệt độc lập. Thay vào đó, OpenAI tập trung vào tính năng đặt bàn, tìm kiếm và agentic workflow trong ChatGPT.",
-      "source": "OpenAI",
-      "url": "https://openai.com/news/company-announcements/",
-      "published": "2026-08-09"
-    },
-    {
-      "title": "Cactus Compute ra mắt Needle: model AI nền 14MB chạy trên wearable và robot không cần cloud",
-      "summary": "Cactus Compute phát hành Needle, foundation model chỉ 14MB có thể chạy trực tiếp trên điện thoại, đồng hồ thông minh, thiết bị nhà thông minh và robot mà không cần kết nối internet hay cloud API. Project bùng nổ hơn 300 star trong một ngày khi xuất hiện trên GitHub trending ngày 13/8. Needle mở ra hướng AI on-device triệt để với bảo mật dữ liệu cao và không phụ thuộc hạ tầng, phù hợp cho thiết bị IoT và edge computing.",
-      "source": "GitHub",
-      "url": "https://github.com/cactus-compute/needle",
-      "published": "2026-08-13"
+      "title": "OpenAI Astra giải 10 bài toán toán học mở chưa có lời giải hàng thập kỷ với chi phí 2.000 USD",
+      "summary": "OpenAI công bố model Astra - chưa phát hành công khai - đã tạo ra lời giải cho 10 bài toán mở trong toán học thuần túy và khoa học máy tính lý thuyết, mỗi bài đã không có lời giải từ 10 năm trở lên. OpenAI công bố bản thảo 249 trang và chứng minh Lean 4 kiểm tra được trên GitHub theo giấy phép Apache 2.0, với zero sorry count - toàn bộ bước chứng minh đã được xác minh hoàn toàn. Kết quả nổi bật nhất là cấu trúc tường minh đầu tiên của nhóm non-sofic, giải quyết câu hỏi trung tâm trong lý thuyết nhóm từ năm 1999.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/08/02/openais-astra-solves-10-long-open-math-problems-publishes-proofs/",
+      "published": "2026-08-02"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "Chân gà sả tắc - phiên bản ngâm chanh dây chua ngọt hot TikTok tháng 8",
-        "desc": "Chân gà ngâm sả tắc (chanh dây) với màu sắc nổi bật và hương vị chua cay đang là snack review viral nhất TikTok ăn vặt Việt tháng 8/2026 - màu cam vàng của chanh dây cực photogenic và thu hút hàng triệu lượt xem trong niche food.",
-        "fit": "@tracuami bán chân gà sốt Thái - có thể quay clip so sánh trực tiếp chân gà sốt Thái nhà quán với chân gà sả tắc đang hot để kéo traffic từ trend về thương hiệu riêng và làm nổi bật sự khác biệt của công thức Huế.",
-        "idea": "Clip 20 giây: Nhớ cầm đĩa chân gà sả tắc mua ngoài hàng thử miếng đầu gật gù. A Nguyên bước ra từ bếp cầm đĩa chân gà sốt Thái đặt cạnh. Nhớ nhìn qua nhìn lại rồi đẩy đĩa sả tắc sang bên - giọng Huế: 'Sả tắc ngon thiệt, nhưng sốt Thái nhà tau nó khác cái!' Caption: 'Chân gà sả tắc vs chân gà sốt Thái - team mô? @tracuami 1 Trường Chinh #ChanGaSaTac #ChanGaSotThai #AnVatHue'"
+        "name": "Chân gà Trung Quốc nhập khẩu viral - doanh số tăng 150% trong 6 tháng",
+        "desc": "Chân gà nhập khẩu từ Trung Quốc đang tạo cơn sốt TikTok Việt Nam tháng 8/2026, từ chân gà đóng gói ăn liền đến chân gà muối tiêu và chân gà sốt cay, doanh số tăng 150% trong 6 tháng. Format review so sánh và unboxing đang thu hút hàng triệu lượt xem trên niche ăn vặt.",
+        "fit": "@tracuami bán chân gà sốt Thái - đây là cơ hội vàng để so sánh chân gà tươi tự làm tại quán với chân gà đóng gói nhập khẩu đang hot, định vị sản phẩm thủ công tươi sống đối lập hàng công nghiệp và kéo traffic từ trend về thương hiệu riêng.",
+        "idea": "Clip 30 giây: A Nguyên và Nhớ cùng ngồi mở gói chân gà Trung Quốc đang viral, thử ăn gật gù - 'Cũng ngon đó.' Rồi A Nguyên bước vào bếp bưng đĩa chân gà sốt Thái vừa làm xong đặt cạnh. Nhớ cầm lên ăn mắt sáng lên, giọng Huế: 'Chân gà TQ cũng được, nhưng cái ni tươi mà có sốt riêng - khác hẳn a!' Caption: 'Chân gà TQ vs chân gà sốt Thái @tracuami tươi mỗi ngày #ChanGaTQ #ChanGaSotThai #AnVatHue'"
       },
       {
-        "name": "Da heo chiên nước mắm - đặc sản truyền thống Việt hồi sinh mạnh trên TikTok",
-        "desc": "Da heo chiên phủ nước mắm tỏi ớt đang được creator ăn vặt Việt phục hồi thành xu hướng mới tháng 8/2026 - kết hợp giòn rụm của da heo với vị mặn ngọt mắm Việt, phù hợp cho clip ASMR và mukbang ngắn.",
-        "fit": "Tuy @tracuami không bán da heo nhưng có thể dùng format 'nhân viên ăn vặt lúc vắng khách' - Thư hoặc Nhớ ăn da heo chiên rồi nhìn sang đĩa tré trộn Huế bày sẵn để so sánh, kéo chú ý vào đặc sản tự làm.",
-        "idea": "Clip 15 giây: Thư đang ăn da heo chiên nước mắm lúc quán vắng, nhìn sang đĩa tré trộn Huế đang bày sẵn rồi nhẹ nhàng đặt da heo xuống bê đĩa tré lên - giọng Huế: 'Da heo cũng ngon... nhưng hôm ni tré trộn mới ướp xong rồi!' Caption: 'Giữa da heo và tré trộn Huế - Thư chọn cái mô? @tracuami #DaHeoChien #TreThon #AnVatHue'"
+        "name": "Rong biển tỏi Trung Quốc - snack TikTok mới đang gây bão tháng 8",
+        "desc": "Rong biển tẩm tỏi từ Trung Quốc đang gây bão TikTok Việt tháng 8 nhờ hương vị lạ và hình thức photogenic khi quay video - các creator review và so sánh với đặc sản Việt tự làm đang thu hút tương tác rất cao trên niche ăn vặt.",
+        "fit": "Cơ hội cho @tracuami dùng format nhân vật thử snack ngoại rồi quay về đặc sản Huế - Nhớ thử rong biển tỏi rồi nhìn sang đĩa tré trộn Huế bày sẵn để highlight sự khác biệt giữa snack đóng gói nhập khẩu và đặc sản địa phương tự ướp.",
+        "idea": "Clip 20 giây: Nhớ đang ăn gói rong biển tỏi Trung Quốc hot TikTok, mặt vừa ăn vừa nghĩ ngợi. Vợ/chị chủ bưng đĩa tré trộn Huế vừa ướp xong đặt trước mặt. Nhớ nhìn qua rồi đặt gói rong biển xuống, giọng Huế: 'Rong biển mặn ngon rứa nhưng tré trộn mình tự ướp thì no hơn nhiều!' Caption: '@tracuami - tré trộn Huế tự tay vs snack nhập khẩu #RongBienToi #TreThon #AnVatHue'"
       },
       {
-        "name": "Bánh tráng phơi sương mùa mưa - snack số 1 TikTok Shop tháng 8",
-        "desc": "Bánh tráng phơi sương tiếp tục giữ ngôi số 1 TikTok Shop ăn vặt Việt tháng 8/2026 - mùa mưa miền Trung tạo không khí ấm cúng lý tưởng để bán theo combo và livestream.",
-        "fit": "@tracuami ở Huế nên tận dụng mùa mưa Huế đặc trưng - clip 'ăn bánh tráng phơi sương ngày mưa Huế trong quán' gắn kết với bầu không khí địa phương và cross-sell sang trà trái cây nóng để giữ khách ngồi lâu.",
-        "idea": "Clip 20 giây: Cảnh quay cơn mưa ngoài cửa quán, A Nguyên bưng ra đĩa bánh tráng phơi sương và ly trà trái cây nóng đặt bên nhau - giọng Huế: 'Mưa Huế mà ngồi trong quán - bánh tráng với trà trái cây nóng là đúng bộ rồi!' Caption: 'Combo ngày mưa Huế tại @tracuami 1 Trường Chinh #BanhTrangMuaHue #TraTraiCay #AnVatHue'"
-      },
-      {
-        "name": "Miến ăn liền Trùng Khánh Trung Quốc viral - cơ hội định vị đặc sản Huế tự làm",
-        "desc": "Miến ăn liền Trùng Khánh từ Trung Quốc đang tạo cơn sốt TikTok Việt tháng 8/2026 - nhiều creator review và bán qua TikTok Shop, thu hút bởi hương vị lạ và tiện lợi. Xu hướng snack nhập khẩu viral này tạo cơ hội cho quán địa phương định vị đặc sản Việt tự làm.",
-        "fit": "Cơ hội cho @tracuami: clip 'thử miến Trùng Khánh rồi về với tré trộn Huế' - đặt hai món cạnh nhau để khán giả thấy đặc sản Huế tự chế đối lập snack công nghiệp nhập khẩu, xây dựng câu chuyện authentic handmade local.",
-        "idea": "Clip 25 giây: Nhớ đang ăn thử miến Trùng Khánh mặt tập trung, nhai chậm rồi gật đầu. A Nguyên bước vào bưng tô tré trộn Huế mới ướp. Nhớ nhìn qua rồi đặt miến xuống - giọng Huế: 'Miến Trùng Khánh ngon thật, nhưng tré trộn nhà tau là tự tay làm a!' Caption: 'Miến Trùng Khánh vs tré trộn Huế tự làm - cái mô win? @tracuami #MienTrungKhanh #TreThon #AnVatHue'"
+        "name": "Cá cơm cay Trung Quốc - snack nhỏ giá rẻ gây nghiện viral TikTok",
+        "desc": "Cá cơm cay nhập khẩu từ Trung Quốc đang được hàng loạt creator review trên TikTok Việt tháng 8, thu hút bởi vị cay đậm, kích thước nhỏ tiện lợi và giá rẻ - tạo cơn sốt mua theo nhóm và livestream bán hàng.",
+        "fit": "Nhớ - nhân vật hay âm mưu học lỏm công thức của @tracuami - là người phù hợp nhất để thử cá cơm cay rồi nghĩ đến cách kết hợp vào sốt Thái của quán, tạo tình huống hài hước quen thuộc và dẫn khán giả đến chân gà sốt Thái.",
+        "idea": "Clip 25 giây: Nhớ đang ăn túi cá cơm cay Trung Quốc, mặt vừa ăn vừa nghĩ, tự nhủ nhỏ: 'Vị cay ni mà kết hợp với sốt Thái của A Nguyên thì...' A Nguyên đi qua nhìn thấy, giọng Huế nghiêm mặt: 'Nhớ ơi! Đừng có mà học lỏm thêm chi nữa nghe!' Nhớ giả vờ ngây thơ cười hề hề. Caption: 'Nhớ lại đang âm mưu rồi... @tracuami #CaComCay #NhoHocLom #AnVatHue'"
       }
     ],
     "sounds": [
       {
-        "name": "Xin Làm Người Xa Lạ - Bolero remix Progressive House Vinahouse 2026",
-        "desc": "Bản Bolero 'Xin Làm Người Xa Lạ' remix phong cách Progressive House và Vinahouse đang viral mạnh TikTok Việt - tiết tấu vừa phải không quá nhanh, phù hợp cho cảnh chuẩn bị nguyên liệu, bày đặt món ăn hoặc slow reveal tại @tracuami."
+        "name": "Khúc Hát Buổi Chiều - Rock Ballad viral tháng 8",
+        "desc": "Bản rock ballad cảm xúc về buông bỏ và tiến về phía trước đang viral TikTok Việt tháng 8/2026 - nhịp vừa phải, phù hợp cho clip chuẩn bị nguyên liệu, bày đặt món ăn chậm rãi hoặc slow reveal đặc sản mới tại @tracuami."
       },
       {
-        "name": "Cô Ta Tốt Hơn Em À - Vina House viral tháng 8",
-        "desc": "Hit Vina House 'Cô Ta Tốt Hơn Em À' đang làm mưa làm gió TikTok Việt tháng 8 - nhịp nhanh bắt tai, phù hợp cho clip reveal món mới, cảnh quán đông khách hoặc format so sánh chân gà sốt Thái với snack đang trend."
+        "name": "Ván Cược Cuộc Đời - Rock Ballad 2026 leo chart nhanh",
+        "desc": "Rock ballad 2026 kể câu chuyện tình bi kịch đang leo nhanh trên TikTok Việt - tiết tấu chậm cảm xúc, phù hợp cho clip storytelling kể chuyện quán ngày mưa hoặc cảnh A Nguyên chuẩn bị hàng buổi sáng sớm tại @tracuami."
       },
       {
-        "name": "Yêu Là Yêu Thôi - Lâm Phong vinahouse EDM light trap",
-        "desc": "Ca khúc 'Yêu Là Yêu Thôi' của Lâm Phong pha vinahouse, EDM và light trap với âm hưởng dân ca chèo - đang được dùng nhiều cho clip storytelling và vlog quán ăn địa phương, phù hợp cho cảnh kể chuyện khách quen hoặc A Nguyên chuẩn bị hàng buổi sáng tại @tracuami."
+        "name": "50 Năm Về Sau - Vinahouse Remix 144 BPM",
+        "desc": "Bản Vinahouse remix nhịp 144 BPM với bass liên tục đang làm mưa làm gió TikTok - nhịp nhanh bắt tai phù hợp cho clip reveal món mới, cảnh quán đông khách hoặc format đếm ngược chân gà sốt Thái tươi làm xong mỗi ngày tại @tracuami."
       }
     ],
-    "note": "Ngày 13/8/2026, TikTok ăn vặt Việt có bốn hướng content rõ rệt cho @tracuami: (1) chân gà sả tắc là đối thủ trực tiếp của chân gà sốt Thái - cơ hội tốt nhất để so sánh và kéo traffic; (2) da heo chiên nước mắm và miến Trùng Khánh tạo cơ hội định vị đặc sản Huế tự làm đối lập snack công nghiệp nhập khẩu; (3) mùa mưa miền Trung đang đến là khung thời gian vàng để quay clip ăn vặt ấm cúng kết hợp trà trái cây nóng."
+    "note": "Tuần 14/8/2026, làn sóng snack Trung Quốc nhập khẩu (chân gà, rong biển tỏi, cá cơm cay) đang thống trị TikTok Shop ăn vặt Việt - đây là cơ hội vàng để @tracuami dùng format so sánh nội vs ngoại, định vị chân gà sốt Thái và tré trộn Huế tự làm đối lập hàng đóng gói nhập khẩu, tận dụng tương tác cao của trend để kéo khán giả quan tâm đặc sản địa phương."
   }
 }
