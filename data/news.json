@@ -1,50 +1,50 @@
 {
-  "updated_at": "2026-08-14T01:10:00Z",
-  "updated_at_vn": "08:10 14/08/2026",
+  "updated_at": "2026-08-15T01:20:00Z",
+  "updated_at_vn": "08:20 15/08/2026",
   "ai": [
     {
-      "title": "Claude Code chuyển Auto Mode thành mặc định từ 14/8 cho gói Pro, Max và Team",
-      "summary": "Từ ngày 14/8/2026, Anthropic kích hoạt Auto Mode làm chế độ mặc định cho mọi phiên Claude Code mới trên gói Pro, Max và Team. Thay vì hỏi xin phép từng lệnh, bộ phân loại AI tự đánh giá từng tool call và chỉ dừng lại khi hành động được xác định là không thể hoàn tác, gây phá hủy, hoặc tác động ra ngoài môi trường. Người dùng đã cấu hình chế độ mặc định khác sẽ nhận một lần hỏi duy nhất; Claude Enterprise, API và các nền tảng cloud (AWS, Bedrock, Azure) vẫn theo opt-in để admin có thời gian đánh giá.",
-      "why_it_matters": "Thay đổi trực tiếp nhất với workflow Claude Code hằng ngày kể từ khi ra mắt Auto Mode - pipeline tự động hóa dài chạy mượt hơn mà không cần ngồi chờ approval, nhưng cần rà soát deny rules trước hôm nay để tránh lệnh nhạy cảm được thực thi tự động ngoài ý muốn.",
-      "source": "Anthropic / TechCrunch",
-      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "title": "Google ra mắt Gemini 3.7 Flash: model coding mạnh nhất, cải thiện lớn so với 3.6 và rẻ hơn 50%",
+      "summary": "Ngày 13/8/2026, Google công bố Gemini 3.7 Flash - model workhorse thông minh nhất của họ cho coding và agent - chỉ ba tuần sau khi ra Gemini 3.6 Flash. Model đạt 43,6% trên FrontierCode 1.1 Main (tăng từ 34,4%) và 65,3% trên DeepSWE v1.1 (tăng từ 49%). Giá khởi điểm $0,75/triệu input và $3,75/triệu output đến hết 2026 - bằng một nửa giá Gemini 3.6 Flash. Có sẵn trên AI Studio, Android Studio và Gemini Enterprise Agent Platform.",
+      "why_it_matters": "Gemini 3.7 Flash ở mức giá $0,75/$3,75 tạo ra đối trọng giá rẻ mạnh cho Claude Haiku trong các bước phụ của pipeline - trong bối cảnh Claude Sonnet 5 tăng giá 50% từ tháng 9, đây là thời điểm cần benchmark thực tế để quyết định có chuyển một phần tác vụ sang Gemini Flash không.",
+      "source": "9to5Google / Axios",
+      "url": "https://9to5google.com/2026/08/13/gemini-3-7-flash-launch/",
+      "published": "2026-08-13",
+      "hot": true
+    },
+    {
+      "title": "Anthropic gắn watermark vô hình vào mọi đầu ra Claude - tuân thủ EU AI Act, áp dụng toàn cầu từ 2/8",
+      "summary": "Kể từ ngày 2/8/2026, tất cả model Claude mới tự động gắn watermark vô hình vào văn bản và siêu dữ liệu C2PA vào file ảnh (SVG, PNG, JPG). Watermark không hiển thị khi đọc bình thường nhưng tồn tại qua copy-paste và một số chỉnh sửa. Đây là phản hồi trực tiếp với Điều 50 EU AI Act, nhưng Anthropic áp dụng toàn cầu. Dấu mark chứng minh Claude đã xử lý nội dung, không chứng minh Claude là tác giả gốc - watermark vẫn có thể xuất hiện sau khi chỉnh sửa, dịch hoặc tóm tắt.",
+      "why_it_matters": "Mọi nội dung tạo bằng Claude Code kể từ đầu tháng 8 - từ draft blog, mô tả sản phẩm đến comment code - đã mang watermark vô hình. Cần lưu ý nếu workflow xuất bản nội dung AI mà không muốn để lộ nguồn gốc; đây cũng là tín hiệu Anthropic chuẩn bị cho môi trường pháp lý AI ngày càng chặt chẽ.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+      "published": "2026-08-11",
+      "hot": false
+    },
+    {
+      "title": "Manus trở lại độc lập sau khi Bắc Kinh buộc Meta hủy thương vụ 2 tỷ USD",
+      "summary": "Ngày 11/8/2026, Manus - startup AI agentic gốc Trung Quốc, tái đăng ký tại Singapore từ 2025 - thông báo hoạt động độc lập trở lại sau khi Bắc Kinh buộc Meta hủy thương vụ mua lại 2 tỷ USD. Trung Quốc viện dẫn lo ngại mất công nghệ chiến lược vào tay đối thủ địa chính trị. Người dùng cần sao lưu dữ liệu trước 8h sáng 23/8/2026 (giờ Singapore) - dữ liệu tạo từ 29/12/2025 sẽ bị xóa trong quá trình tách hệ thống.",
+      "why_it_matters": "Nếu đang dùng Manus để tự động hóa tác vụ web hoặc code, cần sao lưu ngay trước 23/8 và theo dõi xem Manus độc lập có điều chỉnh giá hay tính năng không. Sự kiện này cũng là minh chứng về rủi ro địa chính trị khi phụ thuộc vào AI tool gốc Trung Quốc trong môi trường căng thẳng công nghệ hiện tại.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/11/manus-china-meta-acquisition.html",
+      "published": "2026-08-11",
+      "hot": true
+    },
+    {
+      "title": "Claude for Open Source: Anthropic tặng 6 tháng Max 20x miễn phí cho maintainer mã nguồn mở",
+      "summary": "Anthropic mở chương trình Claude for Open Source, cấp 6 tháng Claude Max 20x (trị giá khoảng 1.200 USD) miễn phí cho maintainer và contributor mã nguồn mở đủ điều kiện, giới hạn 10.000 người nhận. Chương trình đang mở đơn đăng ký tính đến tháng 8/2026. Max 20x bao gồm quyền truy cập vào Claude Code, API và toàn bộ model tier - tương đương gói $200/tháng dùng liên tục trong nửa năm.",
+      "why_it_matters": "Cơ hội tiết kiệm chi phí Claude Code trực tiếp trong bối cảnh giá API Sonnet 5 tăng 50% từ tháng 9 - nếu có đóng góp cho bất kỳ repo mã nguồn mở nào trên GitHub, nên xem xét đăng ký ngay tháng 8 trước khi hết 10.000 suất.",
+      "source": "Explainx.ai / Anthropic",
+      "url": "https://www.explainx.ai/blog/claude-for-open-source-expanded-max-20x-july-2026",
+      "published": "2026-08-01",
+      "hot": false
+    },
+    {
+      "title": "Claude Code ra mắt beta môi trường self-hosted và bổ sung subagent forking mặc định",
+      "summary": "Trong tháng 8/2026, Anthropic phát hành beta môi trường self-hosted cho Claude Code, cho phép nhóm Team và Enterprise chạy phiên làm việc trên hạ tầng nội bộ với mạng riêng, công cụ tùy chỉnh và kiểm soát compliance. Claude Code cũng bổ sung subagent forking mặc định, nâng cấp cross-session mentions và SendMessage, hỗ trợ GitLab mạnh hơn. Compliance API mở rộng bao gồm Cowork và Claude Code qua desktop, web, mobile và CLI.",
+      "why_it_matters": "Self-hosted Claude Code mở ra khả năng truy cập repo nội bộ và dữ liệu nhạy cảm không thể đưa lên cloud - và subagent forking mặc định giúp pipeline agent song song nhanh hơn đáng kể trong các tác vụ coding tự động hóa hằng ngày.",
+      "source": "Anthropic / Releasebot",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
       "published": "2026-08-14",
-      "hot": true
-    },
-    {
-      "title": "OpenAI ra mắt Ultrafast mode: GPT-5.6 Sol nhanh hơn 14 lần nhờ chip Cerebras, đạt 750 token mỗi giây",
-      "summary": "OpenAI công bố Ultrafast, chế độ dịch vụ mới chạy GPT-5.6 Sol nhanh hơn 14 lần so với Standard nhờ hạ tầng chip Cerebras, đạt tốc độ tới 750 token đầu ra mỗi giây. Chế độ đang ở giai đoạn preview, triển khai đầu tiên trên OpenAI API. Đây là bước đột phá về độ trễ cho agentic workflow đòi hỏi phản hồi nhanh, cạnh tranh trực tiếp với Google Gemini Flash trong phân khúc tốc độ cao.",
-      "why_it_matters": "Ultrafast 750 token/giây mở ra khả năng pipeline agent nhiều bước hoàn thành trong vài giây thay vì hàng chục giây - kết hợp với GPT-5.6 Luna giảm giá 80%, OpenAI đang tạo áp lực định giá lên Claude Haiku trong các bước phụ của workflow tự động hóa.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/previewing-ultrafast/",
-      "published": "2026-08-13",
-      "hot": false
-    },
-    {
-      "title": "ChatGPT cán mốc 1 tỷ người dùng mỗi tuần - nền tảng AI tăng trưởng nhanh nhất lịch sử",
-      "summary": "OpenAI xác nhận ChatGPT đạt 1 tỷ người dùng hoạt động mỗi tuần, tương đương 1/8 dân số thế giới sử dụng ít nhất một lần mỗi tuần. Con số này tăng từ 700 triệu hồi đầu năm 2026 và đặt ChatGPT vào nhóm nền tảng công nghệ tăng trưởng nhanh nhất từ trước đến nay. Cùng lúc, OpenAI cập nhật GPT-5.6 Sol hướng đến câu trả lời ngắn gọn và độ tin cậy thực tế tốt hơn.",
-      "why_it_matters": "ChatGPT 1 tỷ người dùng đặt Anthropic dưới áp lực cạnh tranh về độ phủ người dùng cuối - xu hướng này ảnh hưởng đến lộ trình phát triển Claude Code theo hướng productivity rộng hơn, có thể mang lại tính năng mới hỗ trợ quản lý nội dung và phân tích thị trường chứng khoán.",
-      "source": "OpenAI / Yahoo Tech",
-      "url": "https://tech.yahoo.com/ai/chatgpt/articles/chatgpt-tops-1b-weekly-users-191537749.html",
-      "published": "2026-08-13",
-      "hot": true
-    },
-    {
-      "title": "Anthropic ra mắt Claude for Government beta - cơ quan liên bang Mỹ tiếp cận Claude không cần hợp đồng cloud riêng",
-      "summary": "Anthropic mở chương trình Claude for Government ở giai đoạn beta cho các cơ quan liên bang Mỹ, không yêu cầu hợp đồng cloud riêng - Anthropic trực tiếp là bên ký hợp đồng và thanh toán thay mặt cơ quan. Chương trình cho phép triển khai Claude với quyền truy cập không giới hạn chỗ ngồi trong khuôn khổ thời hạn beta. Cùng lúc, Anthropic bổ sung admin analytics chi tiết hơn, phân quyền theo model và cảnh báo chi tiêu cho Claude Enterprise.",
-      "why_it_matters": "Anthropic mở rộng sang thị trường chính phủ ngay trước IPO là tín hiệu đa dạng hóa doanh thu ổn định - thị trường B2G bền vững hơn B2B thương mại và giúp bảo vệ khả năng cung cấp Claude Code liên tục dù giá API tăng sau khi công ty cổ phiếu công khai.",
-      "source": "Anthropic",
-      "url": "https://support.claude.com/en/articles/14503590-get-started-with-claude-for-government",
-      "published": "2026-08-12",
-      "hot": false
-    },
-    {
-      "title": "Giá API Claude Sonnet 5 tăng 50% từ 1/9: kết thúc khuyến mãi $2/$10, chuyển sang $3/$15 mỗi triệu token",
-      "summary": "Anthropic xác nhận giá khuyến mãi Claude Sonnet 5 tại $2 input và $10 output mỗi triệu token sẽ kết thúc vào 31/8/2026, chuyển sang mức giá chuẩn $3 input và $15 output từ ngày 1/9. Mức tăng 50% ảnh hưởng trực tiếp đến mọi người dùng API đang tích hợp Sonnet 5. Người dùng muốn kiểm soát chi phí cần cân nhắc chuyển các tác vụ nhẹ sang Claude Haiku 4.5 hoặc tối ưu prompt caching.",
-      "why_it_matters": "Tăng 50% giá API Sonnet 5 từ tháng 9 - cần rà soát và ước lượng lại chi phí pipeline tự động hóa ngay tháng này, xem xét tách tác vụ nặng nhẹ theo tier model và tăng tỷ lệ cache kết quả để kiểm soát ngân sách trước khi giá mới có hiệu lực.",
-      "source": "Anthropic / Explainx.ai",
-      "url": "https://explainx.ai/blog/claude-usage-limits-2026-timeline-explained",
-      "published": "2026-08-13",
       "hot": false
     }
   ],
@@ -52,161 +52,167 @@
     "daily": [
       {
         "repo": "cathrynlavery/diagram-design",
-        "desc": "Bộ 29 kiểu sơ đồ biên tập cho Claude Code - tiếp tục bùng nổ thêm 4.475 star ngày 14/8, tổng 14.460 star sau hai ngày dẫn đầu trending toàn GitHub",
+        "desc": "Bộ 29 kiểu sơ đồ biên tập cho Claude Code, tự chứa HTML và SVG - tiếp tục dẫn đầu trending ngày 15/8 với 3.646 star mới, tổng 17.211 star sau ba ngày liên tiếp",
         "lang": "HTML",
-        "stars": 14460,
-        "stars_period": 4475,
+        "stars": 17211,
+        "stars_period": 3646,
         "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
-        "repo": "macro-inc/macro",
-        "desc": "Không gian làm việc hợp nhất cho nhóm bằng Rust: email, chat, docs, tasks, agent, cuộc gọi và CRM trong một giao diện - bùng nổ 1.239 star ngày 14/8 trên tổng 2.591 star",
-        "lang": "Rust",
-        "stars": 2591,
-        "stars_period": 1239,
-        "url": "https://github.com/macro-inc/macro"
-      },
-      {
         "repo": "cactus-compute/needle",
-        "desc": "Foundation model 14MB chạy trên điện thoại, smartwatch, nhà thông minh và robot không cần cloud - tiếp tục trending ngày 14/8 với 769 star mới, tổng 4.944 star",
+        "desc": "Foundation model 14MB chạy trên điện thoại, smartwatch và robot không cần cloud - tiếp tục trending ngày 15/8 với 662 star mới, tổng 5.593 star",
         "lang": "Python",
-        "stars": 4944,
-        "stars_period": 769,
+        "stars": 5593,
+        "stars_period": 662,
         "url": "https://github.com/cactus-compute/needle"
       },
       {
-        "repo": "semantica-agi/semantica",
-        "desc": "Hạ tầng graph-native cho context và hệ thống AI có khả năng giải trình - entry mới nổi bật với 713 star ngày 14/8 trên tổng 6.637 star",
-        "lang": "Python",
-        "stars": 6637,
-        "stars_period": 713,
-        "url": "https://github.com/semantica-agi/semantica"
+        "repo": "macro-inc/macro",
+        "desc": "Không gian làm việc hợp nhất cho nhóm: email, chat, docs, tasks, agent, cuộc gọi và CRM liên kết bằng bộ nhớ AI chung - tiếp tục trending với 436 star ngày 15/8, tổng 3.027 star",
+        "lang": "Rust",
+        "stars": 3027,
+        "stars_period": 436,
+        "url": "https://github.com/macro-inc/macro"
       },
       {
-        "repo": "NVIDIA-NeMo/Switchyard",
-        "desc": "Công cụ định tuyến LLM traffic qua nhiều model và provider với API tương thích OpenAI và Anthropic - ra mắt với 408 star ngày 14/8 trên tổng 1.204 star",
-        "lang": "Rust",
-        "stars": 1204,
-        "stars_period": 408,
-        "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+        "repo": "megadose/holehe",
+        "desc": "Công cụ OSINT kiểm tra email đã đăng ký trên 120+ nền tảng qua cơ chế password-reset mà không cảnh báo mục tiêu - bùng nổ 427 star ngày 15/8, tổng 12.836 star",
+        "lang": "Python",
+        "stars": 12836,
+        "stars_period": 427,
+        "url": "https://github.com/megadose/holehe"
+      },
+      {
+        "repo": "smicallef/spiderfoot",
+        "desc": "Nền tảng tự động hóa OSINT thu thập thông tin tình báo mối đe dọa và bề mặt tấn công từ hàng trăm nguồn - 293 star ngày 15/8, tổng 20.941 star",
+        "lang": "Python",
+        "stars": 20941,
+        "stars_period": 293,
+        "url": "https://github.com/smicallef/spiderfoot"
       }
     ],
     "weekly": [
       {
         "repo": "PrimeIntellect-ai/prime-agent",
-        "desc": "Agent RLM tự cải tiến cho coding workflow và tác vụ tự động dài hạn, đạt 95,5% ARC-AGI 3 - dẫn đầu tuyệt đối với 12.476 star trong tuần trên tổng 15.456 star",
+        "desc": "Agent RLM tự cải tiến cho coding workflow dài hạn, đạt 95,5% ARC-AGI 3 - dẫn đầu weekly ngày 15/8 với 10.739 star trong tuần, tổng 15.918 star",
         "lang": "TypeScript",
-        "stars": 15456,
-        "stars_period": 12476,
+        "stars": 15918,
+        "stars_period": 10739,
         "url": "https://github.com/PrimeIntellect-ai/prime-agent"
       },
       {
-        "repo": "TencentCloud/TencentDB-Agent-Memory",
-        "desc": "Hub bộ nhớ cấp nhóm cho AI agent với tài sản memory có thể tái sử dụng - bùng nổ 5.388 star trong tuần trên tổng 21.207 star",
-        "lang": "TypeScript",
-        "stars": 21207,
-        "stars_period": 5388,
-        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
-      },
-      {
-        "repo": "addyosmani/agent-skills",
-        "desc": "Bộ engineering skills cấp production cho AI coding agent - 4.562 star tuần này trên tổng 86.968 star",
-        "lang": "JavaScript",
-        "stars": 86968,
-        "stars_period": 4562,
-        "url": "https://github.com/addyosmani/agent-skills"
-      },
-      {
         "repo": "semantica-agi/semantica",
-        "desc": "Hạ tầng graph-native cho context và hệ thống AI có khả năng giải trình - 4.073 star tuần này, lọt cả daily lẫn weekly trending ngày 14/8",
+        "desc": "Hạ tầng graph-native cho context và hệ thống AI có khả năng giải trình - 5.135 star trong tuần, tổng 7.514 star",
         "lang": "Python",
-        "stars": 6637,
-        "stars_period": 4073,
+        "stars": 7514,
+        "stars_period": 5135,
         "url": "https://github.com/semantica-agi/semantica"
       },
       {
-        "repo": "cloudflare/computer",
-        "desc": "SDK TypeScript cho phép AI agent điều khiển máy tính thật từ xa qua Cloudflare - 3.599 star tuần này trên tổng 7.978 star",
-        "lang": "TypeScript",
-        "stars": 7978,
-        "stars_period": 3599,
-        "url": "https://github.com/cloudflare/computer"
+        "repo": "google/skills",
+        "desc": "Bộ agent skills chính thức cho sản phẩm và công nghệ Google, dùng cho Gemini Enterprise Agent Platform - bùng nổ 2.186 star trong tuần, tổng 18.196 star",
+        "lang": "Python",
+        "stars": 18196,
+        "stars_period": 2186,
+        "url": "https://github.com/google/skills"
+      },
+      {
+        "repo": "vitali87/code-graph-rag",
+        "desc": "RAG cho monorepo đa ngôn ngữ: truy vấn, hiểu và chỉnh sửa codebase lớn bằng AI kết hợp knowledge graph - 1.718 star trong tuần, tổng 4.292 star",
+        "lang": "Python",
+        "stars": 4292,
+        "stars_period": 1718,
+        "url": "https://github.com/vitali87/code-graph-rag"
+      },
+      {
+        "repo": "denoland/celld",
+        "desc": "Durable Objects phân tán tự host: chạy stateful edge compute trên hạ tầng riêng không cần Cloudflare - 1.549 star trong tuần, tổng 3.554 star",
+        "lang": "Rust",
+        "stars": 3554,
+        "stars_period": 1549,
+        "url": "https://github.com/denoland/celld"
       }
     ],
-    "trend_note": "Ngày 14/8/2026, cathrynlavery/diagram-design tiếp tục bùng nổ thêm 4.475 star (tổng tăng hơn 7.300 trong hai ngày) - giai đoạn Auto Mode trở thành mặc định của Claude Code đang thúc đẩy nhu cầu trực quan hóa agent flow tăng vọt. Trên weekly, PrimeIntellect/prime-agent dẫn đầu tuyệt đối với 12.476 star trong tuần, xác nhận self-improving RLM là chủ đề nóng nhất GitHub tháng 8/2026."
+    "trend_note": "Ngày 15/8/2026, cathrynlavery/diagram-design tiếp tục bùng nổ ngày thứ ba liên tiếp (tổng hơn 11.000 star trong ba ngày) xác nhận nhu cầu trực quan hóa agent flow cho Claude Code là xu hướng bền vững. Đáng chú ý: hai tool OSINT bảo mật (holehe và spiderfoot) cùng lọt top trending trong ngày - nhiều khả năng do làn sóng thảo luận về watermark AI và xác minh nguồn gốc nội dung sau thông báo của Anthropic và Google tuần qua."
   },
   "tech": [
     {
-      "title": "Anthropic, Macquarie và GIC thành lập Theseus Infrastructure - nền tảng trung tâm dữ liệu AI quy mô lớn tại Mỹ",
-      "summary": "Ngày 10/8/2026, Anthropic cùng Macquarie Asset Management và GIC (quỹ đầu tư quốc gia Singapore) thành lập liên doanh Theseus Infrastructure để xây dựng và vận hành hạ tầng trung tâm dữ liệu chuyên dụng cho AI tại Mỹ. Anthropic là khách thuê neo đậu tại mỗi cơ sở trong khi Macquarie và GIC cùng tài trợ phần lớn vốn cổ phần. Dự án tạo hàng nghìn việc làm xây dựng và vận hành lâu dài, Anthropic cam kết bù đắp mọi chi phí điện tăng thêm cho người tiêu dùng xung quanh các cơ sở.",
-      "source": "HPCwire",
-      "url": "https://www.hpcwire.com/off-the-wire/anthropic-macquarie-and-gic-launch-theseus-infrastructure-for-ai-data-centers/",
-      "published": "2026-08-10"
-    },
-    {
-      "title": "PrimeIntellect phát hành Prime Agent MIT - agent RLM tự cải tiến đạt 95,5% ARC-AGI 3",
-      "summary": "PrimeIntellect phát hành Prime Agent ngày 5/8/2026 theo giấy phép MIT, giới thiệu kiến trúc Recursive Language Model kết hợp Continual Harness cho phép agent tự cải tiến prompt, skills và bộ nhớ qua lệnh /refine mà không cần huấn luyện lại model nền. Agent đạt 95,5% trên benchmark ARC-AGI 3, vượt ngưỡng chuyên gia người. Đây là kiến trúc agent mã nguồn mở mạnh nhất hiện tại cho coding workflow dài hạn, thu hút hơn 12.000 star GitHub chỉ trong một tuần.",
-      "source": "PrimeIntellect Blog",
-      "url": "https://www.primeintellect.ai/blog/prime-agent",
-      "published": "2026-08-05"
-    },
-    {
-      "title": "Vietnam Tech Summit 2026 tại Silicon Valley - chuyên gia Việt tụ hội với chủ đề \"Build Your Edge in the AI Era\"",
-      "summary": "Vietnam Tech Summit 2026 diễn ra ngày 7-8/8 tại Computer History Museum, Mountain View, California, do Viet Spark dẫn dắt cùng các đối tác Vietnam AI Stars, Viet Bay và AI for Vietnam Foundation. Hội nghị thu hút chuyên gia kỹ thuật Việt kiều và người Việt tại các công ty Silicon Valley với chủ đề xây dựng lợi thế cạnh tranh trong kỷ nguyên AI. Đây là sự kiện networking kỹ thuật lớn nhất cộng đồng Việt Nam tại Mỹ trong năm 2026.",
-      "source": "EIN Presswire",
-      "url": "https://tech.einnews.com/amp/pr_news/921929174/vietnam-tech-summit-2026-brings-build-your-edge-in-the-ai-era-to-silicon-valley-this-august",
-      "published": "2026-08-07"
-    },
-    {
-      "title": "Cloudflare ra mắt Computer - SDK TypeScript cho phép AI agent điều khiển máy tính thật từ xa",
-      "summary": "Cloudflare phát hành Computer, bộ công cụ TypeScript mã nguồn mở cho phép AI agent tương tác với môi trường desktop thực: nhấp chuột, gõ bàn phím, chụp màn hình và điều hướng giao diện như người dùng thật. Project thu hút gần 3.600 star trong tuần và lọt top GitHub weekly trending. Đây là bước mở rộng quan trọng của Cloudflare vào hạ tầng AI agent sau các sản phẩm Workers AI và AI Gateway.",
-      "source": "GitHub / Cloudflare",
-      "url": "https://github.com/cloudflare/computer",
+      "title": "Google Gemini đạt 1 tỷ người dùng hàng tháng - sản phẩm tăng trưởng nhanh nhất lịch sử 28 năm của Google",
+      "summary": "Ngày 11/8/2026, CEO Sundar Pichai thông báo Gemini app đạt 1 tỷ người dùng hoạt động hàng tháng, trở thành sản phẩm tăng trưởng nhanh nhất trong lịch sử Google và sản phẩm thứ 14 đạt ngưỡng này bên cạnh Search, Gmail, Android và YouTube. 63% người dùng tương tác qua giọng nói, hơn 150 triệu ảnh được tạo mỗi ngày, hơn 100 triệu người dùng trên iOS. Tuy nhiên Google từ chối công bố số người dùng trả phí. ChatGPT vẫn dẫn đầu với 1 tỷ người dùng hàng tuần.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/11/googles-gemini-app-surges-to-one-billion-users/",
       "published": "2026-08-11"
     },
     {
-      "title": "OpenAI Astra giải 10 bài toán toán học mở chưa có lời giải hàng thập kỷ với chi phí 2.000 USD",
-      "summary": "OpenAI công bố model Astra - chưa phát hành công khai - đã tạo ra lời giải cho 10 bài toán mở trong toán học thuần túy và khoa học máy tính lý thuyết, mỗi bài đã không có lời giải từ 10 năm trở lên. OpenAI công bố bản thảo 249 trang và chứng minh Lean 4 kiểm tra được trên GitHub theo giấy phép Apache 2.0, với zero sorry count - toàn bộ bước chứng minh đã được xác minh hoàn toàn. Kết quả nổi bật nhất là cấu trúc tường minh đầu tiên của nhóm non-sofic, giải quyết câu hỏi trung tâm trong lý thuyết nhóm từ năm 1999.",
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/08/02/openais-astra-solves-10-long-open-math-problems-publishes-proofs/",
-      "published": "2026-08-02"
+      "title": "OpenAI mở rộng thử nghiệm quảng cáo ChatGPT sang Anh, Mexico, Brazil, Nhật Bản và Hàn Quốc",
+      "summary": "Ngày 13/8/2026, OpenAI mở rộng thử nghiệm quảng cáo ChatGPT sang 5 thị trường mới sau khi bắt đầu tại Mỹ từ tháng 2/2026. Quảng cáo chỉ hiển thị với người dùng Free và Go - gói Plus, Pro, Business, Enterprise và Education không có quảng cáo. OpenAI khẳng định quảng cáo không ảnh hưởng đến câu trả lời và hội thoại bảo mật với nhà quảng cáo. Người dùng có thể ẩn quảng cáo, xem lý do hiển thị và quản lý tùy chỉnh.",
+      "source": "gHacks Tech News / OpenAI",
+      "url": "https://www.ghacks.net/2026/08/13/openai-expands-chatgpt-ads-test-to-uk-mexico-brazil-japan-and-south-korea/",
+      "published": "2026-08-13"
+    },
+    {
+      "title": "Poolside ra mắt Laguna S 2.1: model coding mã nguồn mở 118 tỷ tham số đánh bại đối thủ lớn gấp 10 lần",
+      "summary": "Poolside phát hành Laguna S 2.1 theo giấy phép OpenMDW-1.1, kiến trúc MoE 118 tỷ tham số chỉ kích hoạt khoảng 8 tỷ tham số mỗi token, context window 1 triệu token. Trên benchmark coding dài hạn, Laguna vượt qua DeepSeek-V4-Pro-Max, Nemotron và Inkling dù nhỏ hơn nhiều lần. Phiên bản NVFP4 khoảng 59GB có thể chạy trên một GPU DGX Spark. Đây là model coding mã nguồn mở mạnh nhất hiện tại dành cho agentic workflow.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/infrastructure/poolside-drops-laguna-s-2-1-an-open-weight-coding-model-that-beats-rivals-10x-its-size",
+      "published": "2026-07-21"
+    },
+    {
+      "title": "Trend #StandBanhMi viral TikTok toàn cầu: bánh mì Việt Nam phủ sóng hàng triệu lượt xem quốc tế",
+      "summary": "Trend #StandBanhMi lan viral trên TikTok quốc tế với format sáng tạo: creator thay lời bài Stand By Me thành Stand Banh Mi trong khi ăn bánh mì trên vỉa hè Việt Nam. Hàng triệu lượt xem thu hút chủ yếu từ du khách Gen Z và millennial, góp phần tăng lượng khách quốc tế đến Việt Nam gần 15% trong 4 tháng đầu 2026 (đạt 8,8 triệu lượt). Xu hướng đang mở rộng sang nhiều đặc sản đường phố Việt Nam khác.",
+      "source": "Tuoi Tre News",
+      "url": "https://news.tuoitre.vn/standbanhmi-viral-tiktok-trend-puts-vietnamese-street-food-in-global-spotlight-103260511181822699.htm",
+      "published": "2026-08-10"
+    },
+    {
+      "title": "Techfest Hải Phòng 2026: kết nối công nghệ, đầu tư và đổi mới sáng tạo tại cổng biển phía Bắc",
+      "summary": "Techfest Hải Phòng 2026 diễn ra ngày 4-5/8 theo hình thức hybrid với 120-150 gian hàng trực tiếp và 120-150 gian hàng trực tuyến, thu hút hơn 3.000 người tham dự từ 6 quốc gia và 10.000 người xem trực tuyến. Sự kiện chia thành 5 khu vực chuyên biệt: Global Techport, National Techport, Innovation Port, Heritage Techport và Connectivity Port. Đây là sự kiện kết nối startup và đầu tư công nghệ lớn của miền Bắc Việt Nam năm 2026.",
+      "source": "Vietnam.vn",
+      "url": "https://www.vietnam.vn/en/techfest-haiphong-2026-khong-gian-ket-noi-cong-nghe-dau-tu-va-doi-moi-sang-tao",
+      "published": "2026-08-04"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "Chân gà Trung Quốc nhập khẩu viral - doanh số tăng 150% trong 6 tháng",
-        "desc": "Chân gà nhập khẩu từ Trung Quốc đang tạo cơn sốt TikTok Việt Nam tháng 8/2026, từ chân gà đóng gói ăn liền đến chân gà muối tiêu và chân gà sốt cay, doanh số tăng 150% trong 6 tháng. Format review so sánh và unboxing đang thu hút hàng triệu lượt xem trên niche ăn vặt.",
-        "fit": "@tracuami bán chân gà sốt Thái - đây là cơ hội vàng để so sánh chân gà tươi tự làm tại quán với chân gà đóng gói nhập khẩu đang hot, định vị sản phẩm thủ công tươi sống đối lập hàng công nghiệp và kéo traffic từ trend về thương hiệu riêng.",
-        "idea": "Clip 30 giây: A Nguyên và Nhớ cùng ngồi mở gói chân gà Trung Quốc đang viral, thử ăn gật gù - 'Cũng ngon đó.' Rồi A Nguyên bước vào bếp bưng đĩa chân gà sốt Thái vừa làm xong đặt cạnh. Nhớ cầm lên ăn mắt sáng lên, giọng Huế: 'Chân gà TQ cũng được, nhưng cái ni tươi mà có sốt riêng - khác hẳn a!' Caption: 'Chân gà TQ vs chân gà sốt Thái @tracuami tươi mỗi ngày #ChanGaTQ #ChanGaSotThai #AnVatHue'"
+        "name": "Mayak Eggs (trứng ngâm tương kiểu Hàn) - snack lành mạnh viral tháng 8",
+        "desc": "Trứng ngâm soy sauce, mè, hành lá và ớt theo công thức Hàn Quốc đang bùng nổ TikTok Việt tháng 8/2026 nhờ hương vị đậm đà, cách làm đơn giản và hình ảnh bắt mắt khi cắt đôi. Nhiều creator thêm biến tấu kết hợp gia vị địa phương, tạo làn sóng biến tấu Mayak Eggs đặc trưng từng vùng.",
+        "fit": "Format biến tấu Mayak Eggs hợp với @tracuami: thay vì ngâm tương Hàn, vợ/chị chủ thử ngâm trứng với nước sốt Thái của quán - tạo Mayak Eggs phiên bản Huế, vừa tận dụng trend hot vừa showcase công thức sốt độc quyền của quán.",
+        "idea": "Clip 30 giây: Vợ/chị chủ bày trứng Mayak Eggs Hàn Quốc cắt đôi cạnh đĩa chân gà sốt Thái. Nhớ nhìn sang hỏi nhỏ giọng Huế: 'Ngâm tương Hàn hay ngâm sốt Thái ngon hơn chị?' Chị chủ cười: 'Rứa thử đi rồi biết!' Nhớ ăn thử mắt sáng lên. Caption: 'Mayak Eggs vs sốt Thái @tracuami - phiên bản nào thắng? #MayakEggs #SotThai #AnVatHue'"
       },
       {
-        "name": "Rong biển tỏi Trung Quốc - snack TikTok mới đang gây bão tháng 8",
-        "desc": "Rong biển tẩm tỏi từ Trung Quốc đang gây bão TikTok Việt tháng 8 nhờ hương vị lạ và hình thức photogenic khi quay video - các creator review và so sánh với đặc sản Việt tự làm đang thu hút tương tác rất cao trên niche ăn vặt.",
-        "fit": "Cơ hội cho @tracuami dùng format nhân vật thử snack ngoại rồi quay về đặc sản Huế - Nhớ thử rong biển tỏi rồi nhìn sang đĩa tré trộn Huế bày sẵn để highlight sự khác biệt giữa snack đóng gói nhập khẩu và đặc sản địa phương tự ướp.",
-        "idea": "Clip 20 giây: Nhớ đang ăn gói rong biển tỏi Trung Quốc hot TikTok, mặt vừa ăn vừa nghĩ ngợi. Vợ/chị chủ bưng đĩa tré trộn Huế vừa ướp xong đặt trước mặt. Nhớ nhìn qua rồi đặt gói rong biển xuống, giọng Huế: 'Rong biển mặn ngon rứa nhưng tré trộn mình tự ướp thì no hơn nhiều!' Caption: '@tracuami - tré trộn Huế tự tay vs snack nhập khẩu #RongBienToi #TreThon #AnVatHue'"
+        "name": "#StandBanhMi format viral - dùng nhạc Stand By Me để showcase đặc sản địa phương",
+        "desc": "Format #StandBanhMi đang lan nhanh trên TikTok Việt và quốc tế: thay lời Stand By Me bằng tên món ăn địa phương, creator ăn trên vỉa hè và thu hàng triệu view. Các quán ăn đặc sản đang áp dụng format này để showcase món riêng, tạo làn sóng nội dung ẩm thực địa phương viral khắp TikTok.",
+        "fit": "Cơ hội vàng cho @tracuami: áp dụng format Stand Chân Gà Mi hoặc Stand Tré Mi - A Nguyên ngồi ăn chân gà sốt Thái trước cửa quán ở 1 Trường Chinh, nền nhạc Stand By Me nhẹ, giọng Huế kể ngắn về quán. Format đang viral và TikTok đang đẩy mạnh nội dung ẩm thực địa phương.",
+        "idea": "Clip 20 giây: Nền nhạc Stand By Me nhẹ nhàng, A Nguyên ngồi trước cửa quán, tay cầm đĩa chân gà sốt Thái, nhìn vào camera gật gù. Chữ overlay: 'Khi họ hỏi Huế có gì ngon... Stand chân gà mi.' Caption: '#StandChanGaMi - 1 Trường Chinh, TP Huế @tracuami #ChânGàSốtThái #HueStreetFood #AnVatHue'"
       },
       {
-        "name": "Cá cơm cay Trung Quốc - snack nhỏ giá rẻ gây nghiện viral TikTok",
-        "desc": "Cá cơm cay nhập khẩu từ Trung Quốc đang được hàng loạt creator review trên TikTok Việt tháng 8, thu hút bởi vị cay đậm, kích thước nhỏ tiện lợi và giá rẻ - tạo cơn sốt mua theo nhóm và livestream bán hàng.",
-        "fit": "Nhớ - nhân vật hay âm mưu học lỏm công thức của @tracuami - là người phù hợp nhất để thử cá cơm cay rồi nghĩ đến cách kết hợp vào sốt Thái của quán, tạo tình huống hài hước quen thuộc và dẫn khán giả đến chân gà sốt Thái.",
-        "idea": "Clip 25 giây: Nhớ đang ăn túi cá cơm cay Trung Quốc, mặt vừa ăn vừa nghĩ, tự nhủ nhỏ: 'Vị cay ni mà kết hợp với sốt Thái của A Nguyên thì...' A Nguyên đi qua nhìn thấy, giọng Huế nghiêm mặt: 'Nhớ ơi! Đừng có mà học lỏm thêm chi nữa nghe!' Nhớ giả vờ ngây thơ cười hề hề. Caption: 'Nhớ lại đang âm mưu rồi... @tracuami #CaComCay #NhoHocLom #AnVatHue'"
+        "name": "Cô ta tốt hơn em à - Vinahouse hài hước cho kịch bản nhân vật ganh đua",
+        "desc": "Bản Vinahouse Cô ta tốt hơn em à đang làm mưa làm gió TikTok Việt tháng 8 - tiết tấu vui nhộn, lời hài hước về so sánh và ganh đua, rất phù hợp làm nền cho kịch bản nhân vật đố kỵ hài hước trong clip ẩm thực và quán ăn.",
+        "fit": "Âm nhạc hài hước này rất hợp với kịch bản nhân vật Nhớ - hay âm mưu học lỏm công thức - khi nghe ai đó khen quán khác: Nhớ nghe rồi phản ứng cường điệu bảo vệ @tracuami, kết hợp với cảnh đặc sản quán.",
+        "idea": "Clip 25 giây với nhạc nền: Nhớ nghe khách nói tui nghe quán kia bán chân gà cũng ngon lắm. Nhớ giả vờ bình thản nhưng mắt trợn, lén nhìn A Nguyên đang làm bếp. Overlay chữ: Nhớ bắt đầu lo cho tương lai của mình rồi. Caption: 'Quán khác bán chân gà ngon hả?... @tracuami #NhoHocLom #CoTaTotHonEmA #AnVatHue'"
+      },
+      {
+        "name": "ASMR chuẩn bị nguyên liệu quán ăn sáng sớm - trend bếp thực tế cực viral",
+        "desc": "Clip ASMR bếp quán buổi sáng sớm: tiếng thái, tiếng xào, tiếng nước sốt sôi và cảnh sắp đặt nguyên liệu đang thu hàng triệu view trên TikTok ẩm thực Việt. Format không cần nhiều lời, chỉ cần âm thanh và hình ảnh thực tế từ bếp, xây dựng trust với khán giả quan tâm nguồn gốc thực phẩm.",
+        "fit": "Rất phù hợp với không khí quán ăn vặt @tracuami: cảnh A Nguyên pha sốt Thái từ sáng sớm, tiếng sôi của nồi sốt, tiếng chặt chân gà - tạo cảm giác thật và gần gũi, khẳng định nguyên liệu tươi mỗi ngày với khách hàng.",
+        "idea": "Clip 45 giây không lời (chỉ ASMR): Mở đầu cảnh tay A Nguyên bóc từng nguyên liệu sốt Thái lúc 6 giờ sáng. Tiếng xào sốt, tiếng nước sôi, tiếng chân gà đặt vào nồi. Kết thúc cảnh đĩa chân gà sốt Thái hoàn chỉnh bưng ra. Caption: 'Mỗi sáng đều rứa - sốt Thái tươi mỗi ngày @tracuami #ASMR #ChânGàSốtThái #BếpHuế'"
       }
     ],
     "sounds": [
       {
-        "name": "Khúc Hát Buổi Chiều - Rock Ballad viral tháng 8",
-        "desc": "Bản rock ballad cảm xúc về buông bỏ và tiến về phía trước đang viral TikTok Việt tháng 8/2026 - nhịp vừa phải, phù hợp cho clip chuẩn bị nguyên liệu, bày đặt món ăn chậm rãi hoặc slow reveal đặc sản mới tại @tracuami."
+        "name": "YÊU LÀ YÊU THÔI - Lâm Phong (Vinahouse EDM)",
+        "desc": "Bản pha vinahouse, EDM và trap nhẹ đang viral TikTok Việt tháng 8 - nhịp bắt tai, phù hợp cho clip reveal món mới, cảnh quán đông khách hoặc format nhanh 15-20 giây giới thiệu menu tại @tracuami."
       },
       {
-        "name": "Ván Cược Cuộc Đời - Rock Ballad 2026 leo chart nhanh",
-        "desc": "Rock ballad 2026 kể câu chuyện tình bi kịch đang leo nhanh trên TikTok Việt - tiết tấu chậm cảm xúc, phù hợp cho clip storytelling kể chuyện quán ngày mưa hoặc cảnh A Nguyên chuẩn bị hàng buổi sáng sớm tại @tracuami."
+        "name": "Cô ta tốt hơn em à - Vinahouse remix",
+        "desc": "Vinahouse hài hước đang làm mưa làm gió TikTok Việt - lời tự thán, nhịp vui nhộn, dùng tốt cho kịch bản nhân vật hài (Nhớ học lỏm, A Nguyên canh gác bí quyết) hoặc clip so sánh sản phẩm tại @tracuami."
       },
       {
-        "name": "50 Năm Về Sau - Vinahouse Remix 144 BPM",
-        "desc": "Bản Vinahouse remix nhịp 144 BPM với bass liên tục đang làm mưa làm gió TikTok - nhịp nhanh bắt tai phù hợp cho clip reveal món mới, cảnh quán đông khách hoặc format đếm ngược chân gà sốt Thái tươi làm xong mỗi ngày tại @tracuami."
+        "name": "Xin Làm Người Xa Lạ - Tú Nhi (Bolero Progressive House 2026)",
+        "desc": "Bản bolero remix Progressive House của Tú Nhi 2026 với giai điệu cảm xúc nhưng tiết tấu điện tử hiện đại - phù hợp cho clip storytelling kể chuyện quán, cảnh bày đặt món ăn chậm rãi hoặc slow reveal đặc sản tại @tracuami."
       }
     ],
-    "note": "Tuần 14/8/2026, làn sóng snack Trung Quốc nhập khẩu (chân gà, rong biển tỏi, cá cơm cay) đang thống trị TikTok Shop ăn vặt Việt - đây là cơ hội vàng để @tracuami dùng format so sánh nội vs ngoại, định vị chân gà sốt Thái và tré trộn Huế tự làm đối lập hàng đóng gói nhập khẩu, tận dụng tương tác cao của trend để kéo khán giả quan tâm đặc sản địa phương."
+    "note": "Tuần 15/8/2026, TikTok ẩm thực Việt đang chuyển hướng từ trend snack ngoại sang nội dung ẩm thực địa phương tự hào: #StandBanhMi đang kéo hàng triệu view về đường phố Việt Nam, mở cơ hội cho quán đặc sản như @tracuami áp dụng format tương tự để đưa chân gà sốt Thái và tré trộn Huế lên bản đồ TikTok. Kết hợp với ASMR bếp sáng sớm và nhạc Vinahouse hài hước, tuần này nên thử nghiệm nhiều format để tìm formula phù hợp kênh."
   }
 }
