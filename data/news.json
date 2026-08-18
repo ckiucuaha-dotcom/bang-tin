@@ -1,212 +1,212 @@
 {
-  "updated_at": "2026-08-17T01:30:00Z",
-  "updated_at_vn": "08:30 17/08/2026",
+  "updated_at": "2026-08-18T01:30:00Z",
+  "updated_at_vn": "08:30 18/08/2026",
   "ai": [
     {
-      "title": "Claude Code đặt Auto Mode làm mặc định từ 14/8: agent tự hành động không cần xác nhận từng bước, chặn 89% hành động có hại trong thử nghiệm",
-      "summary": "Từ ngày 14/8/2026, Anthropic đặt Auto Mode làm chế độ mặc định cho Claude Code trên các gói Pro, Max và Team - agent sẽ tự tiến hành từng bước mà không dừng lại hỏi xác nhận, trừ khi hành động đó được đánh giá là không thể hoàn tác, phá hủy hoặc nhắm ra ngoài môi trường. Trong nghiên cứu 1.053 hành động của Anthropic, Auto Mode chặn được 89% hành động có hại, trong khi con người phê duyệt thủ công chỉ chặn được 13,6%. Đồng thời Anthropic phát hành tính năng auto-continue cho phép session Claude Code tự động tiếp tục sau khi hết giới hạn sử dụng mà không cần người dùng nhắc lại.",
-      "why_it_matters": "Auto Mode mặc định thay đổi hoàn toàn trải nghiệm Claude Code hằng ngày - không còn phải bấm OK từng bước, agent chạy liền mạch và tự tiếp tục khi hết limit; cần chú ý thiết lập deny rules rõ ràng thay vì dùng prompt để giới hạn quyền.",
-      "source": "Anthropic / The AI Career Lab",
-      "url": "https://theaicareerlab.com/blog/claude-code-auto-mode-default-2026",
-      "published": "2026-08-14",
-      "hot": true
-    },
-    {
-      "title": "Google tắt toàn bộ API Imagen 4 ngày 17/8: developer phải chuyển sang Gemini Image, không còn dùng được generate_images()",
-      "summary": "Hôm nay 17/8/2026, Google thực hiện đóng cửa ba endpoint Imagen 4 (imagen-4.0-generate-001, imagen-4.0-fast-generate-001, imagen-4.0-ultra-generate-001) trên Gemini API - đúng theo thông báo deprecated từ ngày 24/3/2026. Developer sử dụng Imagen 4 qua Google AI Studio hoặc Vertex AI phải chuyển sang Gemini 3.1 Flash Image để tiếp tục tạo ảnh, nhưng đây không phải là thay thế hoàn toàn tương thích vì method generate_images() đã bị loại bỏ. Tất cả platform sử dụng Imagen 4 đều bị ảnh hưởng ngay từ hôm nay.",
-      "why_it_matters": "Bất kỳ pipeline nào đang dùng Imagen 4 sẽ bị gián đoạn ngay hôm nay nếu chưa migrate - nếu có tích hợp AI image generation trong dự án nào cần kiểm tra và cập nhật ngay sang Gemini Image API.",
-      "source": "Kingy.ai / byteiota.com",
-      "url": "https://kingy.ai/ai-launch-tracker/google-will-shut-down-three-imagen-4-api-models-august-17/",
+      "title": "Stripe mua lại OpenRouter hơn 7 tỷ USD: định tuyến AI model trở thành hạ tầng thanh toán",
+      "summary": "Ngày 16-17/8/2026, Stripe chốt thương vụ mua lại OpenRouter - nền tảng định tuyến AI model phục vụ khoảng 8 triệu developer - với giá hơn 7 tỷ USD, tăng hơn 5 lần so với định giá 1,3 tỷ USD tại vòng Series B chỉ 3 tháng trước vào tháng 5/2026. OpenRouter hiện định tuyến qua hơn 400 model AI từ OpenAI, Anthropic, Google, Meta và DeepSeek. Đây là thương vụ lớn nhất trong lĩnh vực AI middleware, đánh dấu việc Stripe mở rộng từ thanh toán sang hạ tầng AI.",
+      "why_it_matters": "OpenRouter là cầu nối phổ biến giữa developer và các model AI - việc Stripe sở hữu nó có thể thay đổi cách tính phí và phân phối API Claude trong tương lai, ảnh hưởng trực tiếp đến chi phí và lựa chọn model khi dùng Claude Code.",
+      "source": "TechCrunch / Bloomberg",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
       "published": "2026-08-17",
       "hot": true
     },
     {
-      "title": "Needle 2: model AI 45 triệu tham số nén vừa 14MB, chạy 500 token/giây trên Raspberry Pi - kỷ nguyên AI nhúng không cần đám mây",
-      "summary": "Ngày 13/8/2026, Cactus Compute phát hành Needle 2 - model tool-calling 45 triệu tham số nén xuống chỉ 14MB nhị phân, chạy đầy đủ một phiên làm việc chỉ với 28MB RAM. Model đạt 500 token/giây trên Raspberry Pi 5, 400-1.500 token/giây trên Meta Quest 3S và Apple Vision Pro, và 300-700 token/giây trên điện thoại dưới 200 USD. Needle 2 được thiết kế cho thiết bị nhỏ như điện thoại, thiết bị đeo, nhà thông minh và robot - toàn bộ model đóng gói trong engine C++ riêng, không cần cài đặt thêm gì.",
-      "why_it_matters": "Needle 2 mở ra khả năng nhúng AI agent vào thiết bị không có internet hoặc cực kỳ hạn chế tài nguyên - giải pháp thú vị cho dự án IoT và ứng dụng nhẹ cần AI cục bộ mà không gọi API tốn tiền.",
-      "source": "MarkTechPost / cactuscompute.com",
-      "url": "https://www.marktechpost.com/2026/08/13/cactus-compute-needle-2-45m-parameter-tool-calling-model/",
+      "title": "Anthropic Q2/2026: doanh thu 11,5 tỷ USD, lần đầu có lợi nhuận - chuẩn bị IPO mùa thu 2026",
+      "summary": "Ngày 14-17/8/2026, Anthropic thông báo doanh thu sơ bộ quý 2/2026 vượt 11,5 tỷ USD - tăng 14 lần so với cùng kỳ 2025 (787 triệu USD) và gấp đôi quý 1/2026 (4,73 tỷ USD). Đây là quý đầu tiên Anthropic ghi nhận lợi nhuận hoạt động điều chỉnh dương. Anthropic đã bí mật nộp hồ sơ IPO lên SEC vào tháng 6 và đang làm việc với Morgan Stanley, Goldman Sachs và JPMorgan Chase - IPO có thể diễn ra sớm nhất vào mùa thu 2026, với định giá gần 965 tỷ USD sau vòng Series H.",
+      "why_it_matters": "Anthropic lần đầu có lợi nhuận và đang chuẩn bị IPO là tín hiệu sức khỏe tài chính tốt - đồng nghĩa với đầu tư mạnh hơn vào Claude và Claude Code trong thời gian tới, và đây là cột mốc cạnh tranh trực tiếp với OpenAI đang chuẩn bị niêm yết.",
+      "source": "Bloomberg / Forbes",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/anthropic-revenue-ahead-of-ipo-surges-over-14-fold-in-second-quarter",
+      "published": "2026-08-17",
+      "hot": true
+    },
+    {
+      "title": "Claude Code gia hạn tăng 50% usage đến hết 19/8 và bổ sung hỗ trợ GitLab Merge Request",
+      "summary": "Anthropic gia hạn mức tăng 50% usage hàng tuần cho Claude Code đến hết ngày 19/8/2026, áp dụng tự động cho tài khoản Pro và Max. Bản cập nhật tháng 8 cũng bổ sung hỗ trợ GitLab Merge Request URL cho flag --worktree và giao diện agents view (MR hiển thị dạng !N), cùng validation gateway và plugin mạnh hơn, cải thiện accessibility và diagnostic, và sửa lỗi trên Linux, Windows, MCP và permissions.",
+      "why_it_matters": "Mức usage tăng 50% đang có hiệu lực và hết hạn ngay ngày mai 19/8 - cần tận dụng tối đa thời điểm này cho các tác vụ coding nặng; hỗ trợ GitLab MR là tín hiệu Anthropic đang mở rộng Claude Code ra ngoài hệ sinh thái GitHub.",
+      "source": "Releasebot / Anthropic",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "published": "2026-08-16",
+      "hot": true
+    },
+    {
+      "title": "Google phát hành Gemini 3.7 Flash chỉ 23 ngày sau Gemini 3.6: đứng đầu FrontierCode 1.1, đạt 65,3% DeepSWE",
+      "summary": "Ngày 13/8/2026, Google phát hành Gemini 3.7 Flash - model workhorse mạnh nhất cho coding và agents - chỉ 23 ngày sau khi Gemini 3.6 Flash ra mắt. Model đạt 65,3% trên DeepSWE v1.1 (so với 49% của phiên bản trước) và 43,6% trên FrontierCode 1.1, đứng đầu 9 benchmark so sánh với Anthropic và OpenAI. Giá ra mắt 0,75 USD/triệu token đầu vào và 3,75 USD/triệu token đầu ra - giá khuyến mãi có hiệu lực đến hết 31/12/2026.",
+      "why_it_matters": "Gemini 3.7 Flash cạnh tranh trực tiếp với Claude Sonnet 5 ở phân khúc coding agents - nếu cần model coding rẻ hơn để chạy trong pipeline phụ song song với Claude Code, đây là lựa chọn đáng thử với giá 0,75 USD/triệu token đầu vào.",
+      "source": "SiliconAngle / Google DeepMind",
+      "url": "https://siliconangle.com/2026/08/13/google-launches-gemini-3-7-flash-coding-ai-agent-projects/",
       "published": "2026-08-13",
       "hot": false
     },
     {
-      "title": "Meta phát hành Muse Glimmer 30B mã nguồn mở Apache 2.0: model agentic chạy local trên một GPU consumer, mạnh về coding và LLM-as-judge",
-      "summary": "Ngày 10/8/2026, Meta Superintelligence Labs phát hành Muse Glimmer - model causal language 30 tỷ tham số mã nguồn mở theo giấy phép Apache 2.0, chưng cất từ Muse Spark và tối ưu cho các tác vụ agentic tự động. Model hỗ trợ hơn 100 ngôn ngữ, context window 131.000 token, chạy được trên một GPU consumer thông thường. Điểm mạnh của Muse Glimmer là khả năng tool-calling, structured extraction và LLM-as-judge - dùng để đánh giá output của các model khác trong pipeline AI.",
-      "why_it_matters": "Muse Glimmer 30B là lựa chọn open-source mạnh để làm LLM-judge hoặc model phụ trong pipeline coding mà không tốn phí API - hữu ích để kiểm tra chất lượng output của Claude Code khi cần tự động hóa review.",
-      "source": "SiliconAngle / MarkTechPost",
-      "url": "https://siliconangle.com/2026/08/10/meta-releases-open-source-muse-glimmer-model-30b-parameters/",
-      "published": "2026-08-10",
-      "hot": false
-    },
-    {
-      "title": "Anthropic giữ nguyên giá Claude Sonnet 5 mãi mãi ở mức 2/10 USD - hủy kế hoạch tăng giá lên 3/15 USD từ tháng 9",
-      "summary": "Ngày 10/8/2026, Anthropic xác nhận giữ nguyên mức giá khuyến mãi Claude Sonnet 5 là 2 USD mỗi triệu token đầu vào và 10 USD mỗi triệu token đầu ra - không áp dụng kế hoạch tăng giá lên 3/15 USD từ ngày 1/9 như thông báo trước đó. Đây là tín hiệu cạnh tranh trực tiếp với GPT-5.6 Luna mới giảm xuống 0,20 USD đầu vào; Sonnet 5 vẫn cao hơn về giá nhưng được đánh giá vượt trội về chất lượng reasoning và coding.",
-      "why_it_matters": "Quyết định giữ giá Sonnet 5 ở 2/10 USD đồng nghĩa với việc chi phí dùng Claude Code hằng ngày không tăng từ tháng 9 - tin tốt cho ngân sách sử dụng AI, và Anthropic đang tích cực cạnh tranh về giá với OpenAI.",
-      "source": "explainx.ai / Enterprise DNA",
-      "url": "https://explainx.ai/blog/anthropic-sonnet-5-permanent-pricing-august-2026",
-      "published": "2026-08-10",
+      "title": "Anthropic mở văn phòng đầu tiên tại Ấn Độ khi cuộc đua AI toàn cầu ngày càng khốc liệt",
+      "summary": "Anthropic thông báo kế hoạch mở văn phòng đầu tiên tại Ấn Độ vào năm 2026, tiếp tục mở rộng sự hiện diện quốc tế trong cuộc cạnh tranh gay gắt với OpenAI và Google. Đây là một phần trong chiến lược toàn cầu hóa sau khi doanh thu Q2 bùng nổ và chuẩn bị IPO - Ấn Độ là thị trường AI tăng trưởng nhanh với lực lượng developer lớn và nhu cầu enterprise AI ngày càng cao.",
+      "why_it_matters": "Anthropic mở rộng ra châu Á đồng nghĩa với hỗ trợ tốt hơn cho các thị trường ngoài Mỹ trong đó có Đông Nam Á - về dài hạn có thể cải thiện khả năng tiếp cận và latency của Claude Code ở khu vực này.",
+      "source": "Seeking Alpha / Reuters",
+      "url": "https://seekingalpha.com/news/4502538-anthropic-to-open-first-india-office-in-2026-as-ai-battle-heats-up-reuters",
+      "published": "2026-08-15",
       "hot": false
     }
   ],
   "github": {
     "daily": [
       {
-        "repo": "public-apis/public-apis",
-        "desc": "Danh sách tổng hợp hơn 1.000 API miễn phí theo danh mục - tiếp tục dẫn đầu trending ngày 17/8 với 1.588 star mới, tổng 461.725 star",
+        "repo": "harry0703/MoneyPrinterTurbo",
+        "desc": "Tự động tạo video ngắn độ phân giải cao từ chủ đề hoặc từ khóa bằng quy trình AI - dẫn đầu trending ngày 18/8 với 1.189 star mới, tổng 105.974 star",
         "lang": "Python",
-        "stars": 461725,
-        "stars_period": 1588,
-        "url": "https://github.com/public-apis/public-apis"
+        "stars": 105974,
+        "stars_period": 1189,
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo"
       },
       {
-        "repo": "unslothai/unsloth",
-        "desc": "Giao diện local để chạy và huấn luyện LLM cùng model khuếch tán như Qwen3.8, Kimi K3, Gemma 4, DeepSeek-V4, FLUX - bùng nổ 572 star ngày 17/8, tổng 72.561 star",
+        "repo": "usestrix/strix",
+        "desc": "Công cụ AI kiểm thử xâm nhập mã nguồn mở để tìm và vá lỗ hổng bảo mật ứng dụng - 598 star ngày 18/8, tổng 54.142 star",
         "lang": "Python",
-        "stars": 72561,
-        "stars_period": 572,
-        "url": "https://github.com/unslothai/unsloth"
+        "stars": 54142,
+        "stars_period": 598,
+        "url": "https://github.com/usestrix/strix"
       },
       {
-        "repo": "cactus-compute/needle",
-        "desc": "Model AI nền tảng 14MB cho thiết bị nhỏ - điện thoại, thiết bị đeo, nhà thông minh và robot - 443 star ngày 17/8, tổng 6.558 star",
+        "repo": "akitaonrails/ai-memory",
+        "desc": "Giải pháp bộ nhớ dài hạn cho các công cụ coding AI agent và hỗ trợ chuyển giao giữa các nhà cung cấp agent khác nhau - 207 star ngày 18/8, tổng 2.034 star",
+        "lang": "Rust",
+        "stars": 2034,
+        "stars_period": 207,
+        "url": "https://github.com/akitaonrails/ai-memory"
+      },
+      {
+        "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+        "desc": "817 kỹ năng an ninh mạng có cấu trúc cho AI agent, được ánh xạ theo 6 framework bảo mật - 198 star ngày 18/8, tổng 28.406 star",
         "lang": "Python",
-        "stars": 6558,
-        "stars_period": 443,
-        "url": "https://github.com/cactus-compute/needle"
+        "stars": 28406,
+        "stars_period": 198,
+        "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
       },
       {
-        "repo": "basecamp/omarchy",
-        "desc": "Bản Linux đẹp, hiện đại và có chính kiến rõ ràng từ Basecamp - mang triết lý thiết kế Omakase vào môi trường desktop Linux - 270 star ngày 17/8, tổng 25.368 star",
-        "lang": "Shell",
-        "stars": 25368,
-        "stars_period": 270,
-        "url": "https://github.com/basecamp/omarchy"
-      },
-      {
-        "repo": "OpenCut-app/OpenCut",
-        "desc": "Ứng dụng chỉnh sửa video mã nguồn mở thay thế CapCut - chạy trên web và desktop, không cần tài khoản, không thu thập dữ liệu - 150 star ngày 17/8, tổng 83.872 star",
-        "lang": "TypeScript",
-        "stars": 83872,
-        "stars_period": 150,
-        "url": "https://github.com/OpenCut-app/OpenCut"
+        "repo": "nautechsystems/nautilus_trader",
+        "desc": "Công cụ giao dịch thuần Rust cấp production với kiến trúc event-driven xác định - phù hợp cho bot giao dịch cổ phiếu và crypto - 120 star ngày 18/8, tổng 25.905 star",
+        "lang": "Rust",
+        "stars": 25905,
+        "stars_period": 120,
+        "url": "https://github.com/nautechsystems/nautilus_trader"
       }
     ],
     "weekly": [
       {
         "repo": "cathrynlavery/diagram-design",
-        "desc": "29 loại biểu đồ biên tập dành riêng cho Claude Code - HTML và SVG tự chứa, không dùng Mermaid, không bóng đổ - bùng nổ 15.600 star tuần này, tổng 19.505 star",
+        "desc": "27 loại biểu đồ biên tập dành riêng cho Claude Code - HTML và SVG tự chứa, không dùng Mermaid - tiếp tục dẫn đầu trending tuần với 16.260 star mới, tổng 20.664 star",
         "lang": "HTML",
-        "stars": 19505,
-        "stars_period": 15600,
+        "stars": 20664,
+        "stars_period": 16260,
         "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
-        "repo": "PrimeIntellect-ai/prime-agent",
-        "desc": "Agent RLM tự cải thiện cho quy trình coding và các tác vụ tự động dài hơi - 6.435 star tuần này, tổng 16.566 star",
-        "lang": "TypeScript",
-        "stars": 16566,
-        "stars_period": 6435,
-        "url": "https://github.com/PrimeIntellect-ai/prime-agent"
-      },
-      {
         "repo": "semantica-agi/semantica",
-        "desc": "Hạ tầng AI dựa trên đồ thị để quản lý ngữ cảnh và xây dựng hệ thống AI có trách nhiệm giải trình - 5.284 star tuần này, tổng 8.178 star",
+        "desc": "Hạ tầng AI dựa trên đồ thị để quản lý ngữ cảnh và xây dựng hệ thống AI có trách nhiệm giải trình - 4.746 star tuần này, tổng 8.571 star",
         "lang": "Python",
-        "stars": 8178,
-        "stars_period": 5284,
+        "stars": 8571,
+        "stars_period": 4746,
         "url": "https://github.com/semantica-agi/semantica"
       },
       {
-        "repo": "macro-inc/macro",
-        "desc": "Không gian làm việc hợp nhất email, chat, tài liệu, tác vụ, agent, cuộc gọi và CRM trong một nền tảng viết bằng Rust - 2.588 star tuần này, tổng 3.406 star",
-        "lang": "Rust",
-        "stars": 3406,
-        "stars_period": 2588,
-        "url": "https://github.com/macro-inc/macro"
+        "repo": "PrimeIntellect-ai/prime-agent",
+        "desc": "AI agent tự cải thiện (RLM) cho quy trình coding và các tác vụ tự động dài hơi - 4.328 star tuần này, tổng 16.921 star",
+        "lang": "TypeScript",
+        "stars": 16921,
+        "stars_period": 4328,
+        "url": "https://github.com/PrimeIntellect-ai/prime-agent"
       },
       {
-        "repo": "NVIDIA-NeMo/Switchyard",
-        "desc": "Công cụ định tuyến lưu lượng LLM tương thích OpenAI và Anthropic API - tự động chọn model tối ưu dựa trên ngữ cảnh và chi phí - 1.435 star tuần này, tổng 1.684 star",
-        "lang": "Rust",
-        "stars": 1684,
-        "stars_period": 1435,
-        "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+        "repo": "cactus-compute/needle",
+        "desc": "Model AI 14MB cho thiết bị cực nhỏ: điện thoại, thiết bị đeo, nhà thông minh và robot - 3.627 star tuần này, tổng 7.123 star",
+        "lang": "Python",
+        "stars": 7123,
+        "stars_period": 3627,
+        "url": "https://github.com/cactus-compute/needle"
+      },
+      {
+        "repo": "megadose/holehe",
+        "desc": "Công cụ kiểm tra email có được dùng trên các trang web nào và lấy thông tin qua chức năng quên mật khẩu - mới vào top weekly với 1.416 star tuần này, tổng 13.442 star",
+        "lang": "Python",
+        "stars": 13442,
+        "stars_period": 1416,
+        "url": "https://github.com/megadose/holehe"
       }
     ],
-    "trend_note": "Tuần 17/8/2026 nổi bật nhất là cathrynlavery/diagram-design bùng nổ 15.600 star - cộng đồng Claude Code đang tìm công cụ trực quan hóa tốt hơn thay thế Mermaid. Xu hướng tuần gồm đồ thị ngữ cảnh AI (semantica), agent tự học (prime-agent), và hạ tầng nhỏ gọn (needle, Switchyard) - GitHub đang dịch chuyển sang tooling hỗ trợ quy trình AI thay vì chỉ chú trọng các model mới."
+    "trend_note": "Tuần 18/8/2026, điểm nổi bật mới là xu hướng an ninh AI bùng nổ: strix (AI pentesting) đứng top 2 trending ngày với 598 star, holehe (email check) vào top weekly, và Anthropic-Cybersecurity-Skills nằm trong top 5 daily - GitHub đang dịch chuyển song song giữa agent tools và security tools AI. cathrynlavery/diagram-design tiếp tục dẫn đầu weekly với 16.260 star tuần mới, giữ vị trí số 1 cộng đồng Claude Code."
   },
   "tech": [
     {
-      "title": "OpenAI doanh thu hằng năm vượt 40 tỷ USD trước thềm IPO: gấp đôi tốc độ tăng từ cuối 2025, bổ nhiệm CRO mới Dali Rajic",
-      "summary": "Ngày 13/8/2026, Bloomberg xác nhận OpenAI đang trên đà tạo ra doanh thu hằng năm hơn 40 tỷ USD - tương đương gấp đôi tốc độ tăng so với cuối năm 2025. Đồng thời OpenAI bổ nhiệm Dali Rajic làm Giám đốc Doanh thu (CRO) ngày 13/8, người sẽ dẫn dắt mảng doanh nghiệp trong giai đoạn chạy đà IPO. Dù doanh thu bùng nổ, OpenAI vẫn lỗ 1,22 USD trên mỗi đô la kiếm được do chi phí tính toán khổng lồ.",
+      "title": "Starlink chính thức nhận đơn đặt hàng dịch vụ internet vệ tinh tại Việt Nam, giá từ 1,13 triệu đồng/tháng",
+      "summary": "Ngày 13/8/2026, Starlink bắt đầu chấp nhận đơn đặt hàng dịch vụ internet vệ tinh tại Việt Nam - quốc gia Đông Nam Á thứ sáu có dịch vụ này sau Indonesia, Malaysia, Philippines, Singapore và Timor-Leste. Gói cá nhân giá từ 1,13 triệu đồng/tháng cộng chi phí thiết bị 8,66 triệu đồng; gói doanh nghiệp từ 1,48 triệu đồng/tháng. Dịch vụ vận hành bởi Starlink Services Vietnam (thành lập tháng 9/2025) trong giai đoạn thử nghiệm đến hết 2030 với giới hạn 600.000 thuê bao.",
+      "source": "BusinessWorld / LightReading",
+      "url": "https://bworldonline.com/technology/2026/08/13/769992/starlink-starts-taking-orders-for-satellite-internet-service-in-vietnam/",
+      "published": "2026-08-13"
+    },
+    {
+      "title": "Google bổ nhiệm Koray Kavukcuoglu làm giám đốc mới của DeepMind trong cuộc đua bắt kịp Anthropic và OpenAI",
+      "summary": "Google bổ nhiệm Koray Kavukcuoglu - nhà nghiên cứu AI kỳ cựu tại DeepMind - làm giám đốc mới của Google DeepMind khi công ty đang chạy đua khốc liệt với Anthropic và OpenAI về AI frontier. Thay đổi lãnh đạo cấp cao diễn ra ngay sau khi Google phát hành Gemini 3.7 Flash (13/8) nhưng vẫn bị đánh giá là đang theo sau hai đối thủ chính về AI agent và reasoning. Kavukcuoglu được kỳ vọng đẩy nhanh tốc độ nghiên cứu và triển khai sản phẩm AI của Google.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/12/google-deepmind-koray-kavukcuoglu.html",
+      "published": "2026-08-12"
+    },
+    {
+      "title": "OpenAI: doanh thu hằng năm vượt 40 tỷ USD chuẩn bị IPO nhưng vẫn lỗ 1,22 USD trên mỗi đô la thu được",
+      "summary": "Bloomberg xác nhận ngày 13/8/2026, OpenAI đang trên đà tạo ra doanh thu hằng năm hơn 40 tỷ USD trước thềm IPO - gấp đôi tốc độ tăng so với cuối 2025. Đồng thời bổ nhiệm Dali Rajic làm Giám đốc Doanh thu (CRO) để dẫn dắt mảng enterprise. Tuy nhiên, chi phí tính toán khổng lồ khiến OpenAI vẫn lỗ 1,22 USD trên mỗi đô la doanh thu - dấy lên câu hỏi về tính bền vững tài chính trước IPO trong khi Anthropic đã có lợi nhuận.",
       "source": "Bloomberg",
       "url": "https://www.bloomberg.com/news/articles/2026-08-13/openai-s-revenue-run-rate-tops-40-billion-ahead-of-ipo",
       "published": "2026-08-13"
     },
     {
-      "title": "N2TP/AILabs Việt Nam hoàn tất vòng seed từ Touchstone Partners: startup DeepTech AI ứng dụng trực tiếp vào nghiên cứu khoa học",
-      "summary": "Ngày 12/8/2026, N2TP Technology Solutions (thương hiệu AILabs, lĩnh vực AI4Science) thông báo hoàn tất vòng tài trợ seed từ quỹ đầu tư mạo hiểm Touchstone Partners. Vốn mới dùng để nâng cấp hạ tầng nghiên cứu và phát triển, mở rộng danh mục bằng sáng chế chiến lược và tự động hóa phòng thí nghiệm. AILabs tập trung ứng dụng AI trực tiếp vào nghiên cứu khoa học như vật lý, hóa học - một hướng DeepTech hiếm gặp trong hệ sinh thái startup Việt Nam.",
-      "source": "vietnam.vn",
-      "url": "https://www.vietnam.vn/en/startup-deeptech-viet-dua-ai-truc-tiep-lam-khoa-hoc",
-      "published": "2026-08-12"
+      "title": "strix: công cụ AI kiểm thử xâm nhập mã nguồn mở bùng nổ 598 star/ngày, lên top 2 GitHub Trending toàn cầu",
+      "summary": "strix của Usestrix là công cụ AI pentest (kiểm thử xâm nhập) mã nguồn mở vừa bùng nổ lên top 2 GitHub Trending toàn cầu ngày 18/8 với 598 star/ngày và 54.142 star tổng. Công cụ tự động tìm và đề xuất cách vá lỗ hổng bảo mật trong ứng dụng bằng AI, viết bằng Python, nhắm vào developer và security engineer cần quét lỗ hổng mà không cần công cụ thương mại đắt tiền.",
+      "source": "GitHub Trending",
+      "url": "https://github.com/usestrix/strix",
+      "published": "2026-08-18"
     },
     {
-      "title": "Google for Startups Accelerator Đông Nam Á 2026 khởi động với 25 startup, nhiều đại diện Việt Nam tiếp cận công nghệ AI Gemini mới nhất",
-      "summary": "Tháng 8/2026, Google for Startups Accelerator: Southeast Asia khởi động với 25 startup được chọn lọc tham gia chương trình 3 tháng không lấy cổ phần. Các startup được tiếp cận sớm công nghệ AI mới nhất của Google gồm Gemini thế hệ mới và công cụ AI agent, cùng khóa đào tạo chuyên sâu về lập trình agent, kỹ thuật ngữ cảnh, LLMOps và hệ thống đa agent. Hệ sinh thái startup AI Việt Nam đang được quốc tế chú ý khi TP.HCM xếp thứ 2 Đông Nam Á về đổi mới.",
-      "source": "vietnam.vn",
-      "url": "https://www.vietnam.vn/en/startup-ai-viet-nam-co-co-hoi-tang-toc-ra-thi-truong-toan-cau",
-      "published": "2026-08-12"
-    },
-    {
-      "title": "Lỗ hổng tl;dv để lộ 181.874 cuộc họp: bất kỳ tài khoản miễn phí nào cũng xem được - kể cả cuộc họp đang diễn ra trực tiếp",
-      "summary": "Nhà nghiên cứu bảo mật bobdahacker tiết lộ ngày 4/8/2026 rằng tl;dv - ứng dụng ghi chú AI phổ biến cho Zoom, Google Meet và Teams - có lỗ hổng thiếu tenant-isolation trong Firestore, khiến bất kỳ tài khoản đăng nhập nào cũng có thể truy vấn toàn bộ 181.874 bản ghi cuộc họp của 84.312 người dùng, gồm 35.003 email domain. Nghiêm trọng hơn, khoảng 1.000 cuộc họp tại bất kỳ thời điểm nào đang hiển thị trạng thái ghi chép và link conference ID bị lộ là đường vào trực tiếp cuộc họp đó. Lỗ hổng được báo cáo từ tháng 1/2026 nhưng vẫn còn tồn tại khi câu chuyện được công bố.",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/application-security/ai-notetaker-spy-government-corporate-video-calls",
-      "published": "2026-08-04"
-    },
-    {
-      "title": "Bánh Ram Ít Huế bùng phát toàn cầu trên TikTok: khách du lịch nước ngoài đổ về tìm ăn, quán 60 năm tăng 3-4 lần lượng khách",
-      "summary": "Tháng 7-8/2026, bánh Ram Ít - đặc sản vùng Trung Bộ Việt Nam, đặc biệt Huế - trở thành trend ẩm thực viral toàn cầu trên TikTok khi người nước ngoài bắt đầu tìm kiếm và thử món này. Bánh Ram Ít gồm hai loại bánh ghép thành một (bên trên là bánh ít nếp, bên dưới là bánh ram giòn) tạo trải nghiệm ẩm thực độc đáo. Tại Huế, một quán 60 năm tuổi chứng kiến lượng du khách tăng gấp 3-4 lần và mỗi cơ sở bán hơn 2.000 chiếc mỗi ngày nhờ sức lan tỏa mạng xã hội.",
-      "source": "VnExpress International",
-      "url": "https://e.vnexpress.net/news/life/trend/vietnam-s-banh-ram-it-goes-viral-sending-foreign-food-lovers-on-culinary-hunt-5101228.html",
-      "published": "2026-08-10"
+      "title": "7 công cụ AI thay đổi workflow developer tháng 8/2026: Claude Code Opus 5, Cursor 3, Kimi K3 và Cline dẫn đầu",
+      "summary": "Bài tổng hợp tháng 8/2026 liệt kê 7 công cụ AI đang tái định hình quy trình làm việc của developer: Claude Code trên Opus 5 (gần hiệu năng flagship với nửa giá), Codex, Cursor 3, Antigravity, BrowserStack Test Companion, Kimi K3 và Cline. Điểm nổi bật: Claude Code bổ sung security scanner vào terminal, OpenAI cắt giảm giá GPT-5.6 đến 80%, và model open weights đã đủ rẻ để chạy coding agent với chi phí cents/phiên.",
+      "source": "BuildFastWithAI",
+      "url": "https://www.buildfastwithai.com/blogs/7-ai-tools-changed-developer-workflow-augustt-2026",
+      "published": "2026-08-17"
     }
   ],
   "tiktok": {
     "trends": [
       {
-        "name": "Ẩm thực Huế viral toàn cầu - khai thác sóng bánh Ram Ít để giới thiệu đặc sản vặt Huế",
-        "desc": "Bánh Ram Ít từ Huế đang là trend ẩm thực viral nhất TikTok tháng 8/2026 khi người nước ngoài đổ về tìm ăn đặc sản vùng Trung Bộ. Người Huế trên TikTok đang phản ứng bằng cách tự hào giới thiệu thêm các đặc sản quê hương, tạo làn sóng 'Huế còn có gì nữa?' thu hút người xem khám phá.",
-        "fit": "@tracuami có lợi thế tuyệt đối khi quán ở ngay Huế với các món ăn vặt Huế thật sự. Đây là thời điểm vàng để gia nhập sóng viral ẩm thực Huế - không chỉ bánh Ram Ít mà tré trộn và chân gà sốt Thái đều có thể được giới thiệu như đặc sản Huế mà người nước ngoài chưa biết.",
-        "idea": "Clip 25 giây: A Nguyên ngồi trước quán, cầm điện thoại đọc bình luận TikTok về bánh Ram Ít Huế. Nhìn camera: 'Khách Tây tìm bánh Ram Ít Huế mà không biết ở Huế còn có tré trộn và chân gà sốt Thái ni...' Quay sang bàn có sẵn đĩa tré và chân gà: 'Đây, vô đây thử đi.' Caption: 'Huế còn nhiều món hơn bánh Ram Ít - ghé @tracuami khám phá ẩm thực vặt Huế thật sự #AnVatHue #HueFood #BanhRamIt'"
+        "name": "ASMR Mukbang chân gà - tiếng ăn thật rõ, không cần lời bình",
+        "desc": "Format ASMR mukbang đang thống trị TikTok ẩm thực Việt khi creator chỉ cần quay cảnh ăn thật với micro gần hoặc để tiếng tự nhiên của đồ ăn (tiếng nhai, tiếng sốt, tiếng giòn) mà không cần lời bình dài. Riêng với chân gà sốt Thái, ASMR mukbang là format viral nhất vì âm thanh sốt đặc và tiếng nhai rất đặc trưng.",
+        "fit": "@tracuami cực hợp với format này - chân gà sốt Thái của quán có âm thanh sốt đặc, giòn và dai rất 'ngon tai'. Không cần lời bình, chỉ cần quay close-up và để tiếng tự nhiên. Nhớ hoặc Thư ngồi ăn thử batch mới là đủ nội dung hấp dẫn mà không cần kịch bản.",
+        "idea": "Clip 20 giây: Màn hình tối, tiêu đề 'ASMR chân gà sốt Thái @tracuami'. Camera gần tay Thư cầm chân gà, âm thanh sốt lục sục, tiếng nhai giòn. Không nhạc nền, không lời thoại. Caption: 'Nghe thôi đã thấy ngon rứa... #ASMR #ChanGaSotThai #AnVatHue #tracuami'"
       },
       {
-        "name": "#StandBanhMi - nhét tên món ăn Việt vào lời bài hát đang hot",
-        "desc": "Trend #StandBanhMi bắt nguồn từ việc thay lời ca khúc thành tên các món ăn Việt Nam - ban đầu với bánh mì và đang lan sang mọi loại đặc sản địa phương. Quán ăn khắp Việt Nam đang dùng trend này để tạo nội dung hài hước và viral nhanh, đặc biệt hiệu quả với món có tên ngộ nghĩnh hoặc gây cười.",
-        "fit": "Cực kỳ hợp cho @tracuami - 'Stand Chân Gà Sốt Thái' hay 'Stand Tré Trộn Huế' nghe vui và độc đáo; giọng Huế khi hát lời đổi sẽ tạo thêm yếu tố hài hước riêng của kênh.",
-        "idea": "Clip 20 giây: Nhớ và Thư đứng sau quầy, nhạc trend vang lên. Cả hai hát phiên bản lời đổi: 'Stand Chân Gà Sốt Thái, người ơi - ăn một lần là ghiền, ghiền mãi...' A Nguyên bước ra từ bếp nhìn ngơ ngác: 'Hai đứa ni hát chi rứa?' Cả hai: 'Dạ đang quảng cáo cho quán anh ơi!' Caption: '#StandBanhMi phiên bản Huế - chân gà sốt Thái @tracuami #HueStreetFood #AnVatHue'"
+        "name": "Challenge 'Cô ta tốt hơn em à' Vinahouse - so sánh hài hước kiểu quán ăn",
+        "desc": "Audio 'Cô ta tốt hơn em à' theo phong cách Vinahouse đang viral cực mạnh TikTok Việt Nam tháng 8/2026, với hàng loạt creator dùng để kể chuyện so sánh hài hước theo định dạng 'A vs B'. Quán ăn đang dùng trend này để so sánh món của mình với phiên bản thông thường hoặc với đối thủ.",
+        "fit": "Phù hợp cho @tracuami với format 'chân gà chỗ khác vs chân gà sốt Thái @tracuami' hoặc 'tré trộn bình thường vs tré trộn Huế chuẩn vị'. Giọng Huế của A Nguyên hoặc Nhớ khi bình luận sẽ tạo thêm nét duyên riêng không ai bắt chước được.",
+        "idea": "Clip 25 giây: Split screen hai bên. Bên trái: hình chân gà đơn giản bình thường. Bên phải: chân gà sốt Thái @tracuami đầy màu sắc sốt đặc. Nhạc Vinahouse nổi lên. Text overlay: 'Chân gà chỗ khác: bình thường' vs 'Chân gà @tracuami: sốt Thái Huế chuẩn vị'. Caption: 'Cô ta có tốt hơn em không anh? #ChanGaSotThai #HueFood #tracuami'"
       },
       {
-        "name": "Companion content - ăn cùng nhau thật sự, không kịch bản",
-        "desc": "Format companion content đang lên mạnh TikTok Việt tháng 8/2026 - thay vì xem creator làm gì, người xem được cảm giác đang cùng làm với nhau. Dạng phổ biến nhất là 'Ăn Cùng Mình' hoặc 'Chuẩn Bị Cùng Mình' - camera quay thật, không hoàn hảo, tạo cảm giác gần gũi như ngồi bên cạnh.",
-        "fit": "Phù hợp với phong cách chân thật của @tracuami - không cần dàn dựng phức tạp, chỉ cần quay lại cảnh thật: Nhớ hoặc Thư ăn thử món mới trong lúc ca trống, A Nguyên chuẩn bị nguyên liệu. Giọng Huế tự nhiên là điểm đặc trưng không thể bắt chước.",
-        "idea": "Clip 30 giây, không nhạc hoặc nhạc lo-fi rất nhẹ: Thư cầm đĩa chân gà sốt Thái vừa ra, ngồi xuống ghế: 'Ăn cùng mình nha - chân gà hôm ni sốt thêm tỏi, thử coi ngon hơn không.' Cắn thử, gật đầu: 'Ừ, ngon hơn thật.' Liếc sang bếp gọi to: 'Anh Nguyên ơi, lần sau cho thêm tỏi nghe!' Caption: 'Ăn thử trước khi bán - chân gà sốt Thái @tracuami phiên bản thêm tỏi #AnCungMinh #CompanionContent #ChanGaHue'"
+        "name": "Series 'Một ngày ở quán' - theo chân nhân vật từ sáng đến tối",
+        "desc": "Format series ngắn 'Một ngày làm việc tại...' đang lên mạnh TikTok Việt tháng 8 khi người xem muốn thấy hậu trường thực tế của quán: cảnh dọn hàng buổi sáng, chuẩn bị nguyên liệu, đến lúc đông khách và dọn dẹp cuối ngày - tạo cảm giác chân thực và gần gũi hơn quảng cáo.",
+        "fit": "@tracuami có đủ nhân vật đa dạng (A Nguyên, vợ chủ, Nhớ, Thư) để làm series này với nhiều góc nhìn khác nhau. Giọng Huế tự nhiên và tính cách riêng của từng người tạo nội dung không cần dàn dựng cầu kỳ.",
+        "idea": "Series 3 clip ngắn: Clip 1 sáng sớm - Nhớ dọn bàn ghế, cảnh phố Huế buổi sáng, caption 'Nhớ mở hàng từ 6h sáng rứa đó'. Clip 2 trưa - A Nguyên và vợ sơ chế chân gà cho ca chiều. Clip 3 tối - Thư đếm đĩa còn lại cuối ngày, nhìn camera: 'Bán sạch rồi, mai lại nhe!' Caption chung: '#MotNgayOQuan @tracuami Huế #HueBehindTheScene'"
       }
     ],
     "sounds": [
       {
-        "name": "Yêu Là Yêu Thôi - Lâm Phong (Vinahouse EDM 2026)",
-        "desc": "Bản vinahouse kết hợp EDM và giai điệu dân gian Việt đang trending mạnh TikTok Việt tháng 8/2026 - tiết tấu sôi động, nhịp đều dễ ghép cảnh, dùng tốt cho clip chuẩn bị món nhanh tay hoặc cảnh không khí nhộn nhịp tại @tracuami."
+        "name": "Cô ta tốt hơn em à - Vinahouse remix 2026",
+        "desc": "Bản Vinahouse đang viral mạnh TikTok Việt tháng 8/2026 - phù hợp cho clip so sánh hài hước giữa hai lựa chọn hoặc 'trước vs sau', thích hợp để @tracuami so sánh món ăn quán mình với phiên bản thông thường hay cảnh 'khách trước khi ăn vs sau khi ăn'."
       },
       {
-        "name": "Sai Không Thể Sửa - Oanh Tạ và Thiên Tú (chill 2026)",
-        "desc": "Bài chill nhẹ nhàng đang được dùng rộng rãi TikTok Việt 2026 với tiết tấu chậm, cảm xúc sâu - phù hợp cho clip hậu trường thật của @tracuami, cảnh dọn hàng cuối ngày hoặc khoảnh khắc nhân vật nghỉ ngơi sau ca làm việc dài."
+        "name": "50 Cuộc Gọi Nhỡ - trending TikTok VN tháng 8/2026",
+        "desc": "Track đang trending TikTok Việt Nam tháng 8/2026 với tiết tấu vừa phải và cảm xúc nhẹ nhàng - dùng tốt cho clip hậu trường, khoảnh khắc nhân vật nhìn lại cuối ngày hoặc clip storytelling ngắn về hành trình @tracuami từ những ngày đầu mở quán."
       },
       {
-        "name": "Xin Làm Người Xa Lạ - Tú Nhi (Bolero Progressive House 2026)",
-        "desc": "Bản bolero Việt classic được remix theo phong cách Progressive House và Vinahouse giữ nguyên chiều sâu cảm xúc trong khi sản xuất rất hiện đại - dùng cho clip storytelling kể chuyện quán @tracuami, giới thiệu hành trình A Nguyên từ ngày đầu mở quán, hoặc slow reveal đặc sản tré trộn Huế theo phong cách cinematic."
+        "name": "Tự Hào Việt Nam 2026 - Nhạc Đỏ Remix",
+        "desc": "Bản remix nhạc đỏ theo phong cách vinahouse đang được dùng nhiều trên TikTok Việt - phù hợp cho clip giới thiệu đặc sản ẩm thực Huế theo phong cách tự hào địa phương: 'Huế tự hào có tré trộn và chân gà sốt Thái' hoặc clip slow reveal đặc sản theo phong cách cinematic."
       }
     ],
-    "note": "Tuần 17/8/2026, TikTok ẩm thực Việt đang có đợt sóng kép: ẩm thực Huế viral toàn cầu nhờ bánh Ram Ít, và trend nhét tên món ăn vào lời bài hát (#StandBanhMi) đang cho phép mọi quán ăn tạo nội dung hài hước nhận diện cao. Với @tracuami, đây là tuần vàng để tung đồng thời 3 format - companion content giữ lượng follow thường xuyên, bánh Ram Ít viral kéo traffic mới, và #StandBanhMi tạo nội dung gây cười lan nhanh."
+    "note": "Tuần 18/8/2026, TikTok ẩm thực Việt nổi bật với ba xu hướng song song: ASMR mukbang (không lời, thuần âm thanh thức ăn) ngày càng phổ biến với food content, challenge Vinahouse so sánh đang được mọi loại quán dùng cho nội dung hài hước, và series hậu trường 'Một ngày ở quán' tạo kết nối cảm xúc sâu hơn với khán giả. Với @tracuami, ưu tiên tuần này là ASMR chân gà sốt Thái - format dễ làm nhất, không cần kịch bản, và đang được thuật toán TikTok đẩy mạnh cho niche food ăn vặt."
   }
 }
