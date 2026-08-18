@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-18T04:42:00Z",
-  "updated_at_vn": "11:42 18/08/2026",
+  "updated_at": "2026-08-18T08:38:02Z",
+  "updated_at_vn": "15:38 18/08/2026",
   "session_date": "2026-08-18",
   "data_quality": "live",
   "vnindex": {
-    "close": 1734.72,
-    "change": 7.26,
-    "change_pct": 0.42,
+    "close": 1732.02,
+    "change": 4.56,
+    "change_pct": 0.26,
     "note": "VN-Index phiên 17/08/2026 giảm 9,81 điểm (-0,57%) xuống 1.719,27 điểm; sắc đỏ lan rộng trong cả phiên, thị trường tiếp tục điều chỉnh sau đợt bán mạnh cuối tuần trước; chỉ số đang kiểm định ngưỡng hỗ trợ vùng 1.700-1.720 điểm, tâm lý nhà đầu tư thận trọng, hạn chế giải ngân tiền mới."
   },
   "holdings": [
@@ -42,14 +42,14 @@
       "ticker": "HPG",
       "qty": 100,
       "avg_cost": 23600,
-      "price": 21200.0,
-      "change_pct": 0.0,
-      "value": 2120000.0,
-      "pnl": -240000.0,
-      "pnl_pct": -10.17,
+      "price": 21000.0,
+      "change_pct": -0.94,
+      "value": 2100000.0,
+      "pnl": -260000.0,
+      "pnl_pct": -11.02,
       "target": 28000,
       "stoploss": 21000,
-      "action": "THEO DÕI SÁT",
+      "action": "CẮT LỖ",
       "comment": "Giá 21.100 đồng, lỗ 10,59% so với giá vốn 23.600 đồng; đang dưới ngưỡng theo dõi sát 22.050 đồng (stoploss 21.000 x 1,05) - sẵn sàng cắt lỗ nếu giá tiếp tục giảm về 21.000 đồng."
     },
     {
@@ -69,15 +69,15 @@
   ],
   "totals": {
     "cost": 77370000.0,
-    "value": 60820000.0,
-    "pnl": -16550000.0,
-    "pnl_pct": -21.39
+    "value": 60800000.0,
+    "pnl": -16570000.0,
+    "pnl_pct": -21.42
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 21850.0,
-      "change_pct": 0.0,
+      "price": 21650.0,
+      "change_pct": -0.92,
       "comment": "Giá 21.950 đồng, giảm 0,9%; thị trường tiếp tục điều chỉnh, chưa có tín hiệu đảo chiều rõ ràng - chưa vào lệnh, chờ thị trường ổn định trước khi xem xét."
     }
   ],
