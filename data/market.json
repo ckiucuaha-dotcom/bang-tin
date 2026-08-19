@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-18T09:45:00Z",
-  "updated_at_vn": "16:45 18/08/2026",
-  "session_date": "2026-08-18",
+  "updated_at": "2026-08-19T03:25:45Z",
+  "updated_at_vn": "10:25 19/08/2026",
+  "session_date": "2026-08-19",
   "data_quality": "live",
   "vnindex": {
-    "close": 1732.02,
-    "change": 4.56,
-    "change_pct": 0.26,
+    "close": 1729.66,
+    "change": -2.36,
+    "change_pct": -0.14,
     "note": "VN-Index phiên 18/08/2026 giằng co trong thận trọng, biên độ dao động hẹp; thanh khoản sụt giảm hơn 30% so với bình quân 20 phiên, tâm lý nhà đầu tư rất cẩn trọng khi chỉ số đang tích lũy quanh vùng 1.720-1.750 điểm. Điểm nhấn quan trọng: FTSE Russell dự kiến công bố danh sách cổ phiếu Việt Nam đủ tiêu chí nâng hạng vào 21/8/2026, kỳ vọng dòng vốn khoảng 6 tỷ USD chảy vào từ 21/9/2026 - hạn chế bán mạnh, theo dõi sát thông tin chính thức."
   },
   "holdings": [
@@ -15,7 +15,7 @@
       "qty": 800,
       "avg_cost": 88850,
       "price": 69000.0,
-      "change_pct": 0.29,
+      "change_pct": 0.0,
       "value": 55200000.0,
       "pnl": -15880000.0,
       "pnl_pct": -22.34,
@@ -28,11 +28,11 @@
       "ticker": "SSB",
       "qty": 100,
       "avg_cost": 14150,
-      "price": 15050.0,
-      "change_pct": -0.99,
-      "value": 1505000.0,
-      "pnl": 90000.0,
-      "pnl_pct": 6.36,
+      "price": 15000.0,
+      "change_pct": -0.33,
+      "value": 1500000.0,
+      "pnl": 85000.0,
+      "pnl_pct": 6.01,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
@@ -42,14 +42,14 @@
       "ticker": "HPG",
       "qty": 100,
       "avg_cost": 23600,
-      "price": 21000.0,
-      "change_pct": -0.94,
-      "value": 2100000.0,
-      "pnl": -260000.0,
-      "pnl_pct": -11.02,
+      "price": 21100.0,
+      "change_pct": 0.48,
+      "value": 2110000.0,
+      "pnl": -250000.0,
+      "pnl_pct": -10.59,
       "target": 28000,
       "stoploss": 21000,
-      "action": "CẮT LỖ",
+      "action": "THEO DÕI SÁT",
       "comment": "Giá 21.000 đồng bằng đúng stoploss 21.000 đồng, lỗ 11,02% so với giá vốn 23.600 đồng; thực hiện cắt lỗ ngay trong phiên tới theo kỷ luật, không để tiếp tục giảm thêm."
     },
     {
@@ -57,7 +57,7 @@
       "qty": 100,
       "avg_cost": 25150,
       "price": 19950.0,
-      "change_pct": 0.25,
+      "change_pct": 0.0,
       "value": 1995000.0,
       "pnl": -520000.0,
       "pnl_pct": -20.68,
@@ -69,15 +69,15 @@
   ],
   "totals": {
     "cost": 77370000.0,
-    "value": 60800000.0,
-    "pnl": -16570000.0,
-    "pnl_pct": -21.42
+    "value": 60805000.0,
+    "pnl": -16565000.0,
+    "pnl_pct": -21.41
   },
   "watchlist": [
     {
       "ticker": "ACB",
-      "price": 21650.0,
-      "change_pct": -0.92,
+      "price": 21800.0,
+      "change_pct": 0.69,
       "comment": "Giá 21.650 đồng, giảm 0,92%; thị trường vẫn trong giai đoạn tích lũy thận trọng, thanh khoản thấp - chưa vào lệnh, theo dõi phản ứng của nhóm ngân hàng sau thông tin FTSE ngày 21/8."
     }
   ],
