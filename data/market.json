@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-20T08:39:47Z",
-  "updated_at_vn": "15:39 20/08/2026",
+  "updated_at": "2026-08-20T09:15:00Z",
+  "updated_at_vn": "16:15 20/08/2026",
   "session_date": "2026-08-20",
   "data_quality": "live",
   "vnindex": {
     "close": 1734.24,
     "change": 7.55,
     "change_pct": 0.44,
-    "note": "VN-Index phiên 19/08/2026 đóng cửa giảm 5,33 điểm (-0,31%) xuống 1.726,69 điểm, tiếp tục rung lắc thận trọng; khối ngoại bán ròng gần 736 tỷ đồng, thanh khoản thấp. Thị trường đang chờ sự kiện FTSE Russell công bố ngày 21/8 - nếu Việt Nam được nâng hạng, dòng vốn khoảng 6 tỷ USD dự kiến chảy vào từ 21/9/2026."
+    "note": "VN-Index phiên 20/08/2026 tăng 7,55 điểm (+0,44%) lên 1.734,24 điểm; dòng tiền phân hóa rõ nét, thanh khoản HoSE chỉ đạt khoảng 13.900 tỷ đồng - mức khá thấp; 280 mã tăng so với 260 mã giảm. Thị trường chờ đợi công bố danh mục cổ phiếu từ FTSE Russell vào ngày 21/8, sau khi Việt Nam chính thức được nâng hạng lên thị trường mới nổi thứ cấp từ 21/9/2026."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 68.900 đồng, lỗ 22,45% so với giá vốn 88.850 đồng; chỉ cách stoploss 68.000 đồng 900 đồng - nguy cơ chạm stoploss rất cao, đặt lệnh bán sẵn và thực hiện ngay nếu giá phá vỡ 68.000 đồng."
+      "comment": "Giá 69.800 đồng, tăng 1,31% nhưng vẫn lỗ 21,44% so với giá vốn 88.850 đồng; cách stoploss 68.000 đồng 1.800 đồng - rủi ro cao. FPT có tên trong danh sách dự kiến vào rổ FTSE công bố ngày 21/8, đây là yếu tố cần theo dõi sát trước khi quyết định cắt lỗ."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.050 đồng, lãi 6,36% so với giá vốn 14.150 đồng; còn cách mục tiêu 18.000 đồng khoảng 19,6% - tiếp tục nắm giữ, kỳ vọng sự kiện FTSE ngày 21/8 hỗ trợ nhóm ngân hàng từ tháng 9/2026."
+      "comment": "Giá 15.100 đồng, lãi 6,71% so với giá vốn 14.150 đồng; nhóm ngân hàng kỳ vọng hưởng lợi từ dòng vốn FTSE sau ngày 21/9/2026, tiếp tục nắm giữ hướng đến mục tiêu 18.000 đồng."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 21.200 đồng, phục hồi nhẹ 0,95% nhưng chỉ cách stoploss 21.000 đồng 200 đồng, lỗ 10,17% so với giá vốn 23.600 đồng; theo dõi sát, sẵn sàng cắt lỗ ngay nếu giá quay đầu về 21.000 đồng."
+      "comment": "Giá 21.150 đồng, giảm nhẹ 0,24% và lỗ 10,38% so với giá vốn 23.600 đồng; cách stoploss 21.000 đồng chỉ 150 đồng - rất sát ngưỡng. HPG nằm trong danh mục dự kiến FTSE, nhưng rủi ro kỹ thuật rất cao - sẵn sàng cắt lỗ ngay nếu giá về 21.000 đồng."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "CẮT LỖ",
-      "comment": "Giá 19.950 đồng phá sâu dưới stoploss 22.500 đồng, lỗ 20,68% so với giá vốn 25.150 đồng; ưu tiên cắt lỗ khẩn trong phiên tới để giải phóng vốn, tránh để lỗ tiếp tục mở rộng."
+      "comment": "Giá 20.300 đồng tuy hồi 1,75% nhưng vẫn phá sâu dưới stoploss 22.500 đồng, lỗ 19,28% so với giá vốn 25.150 đồng; tận dụng nhịp hồi để cắt lỗ khẩn trong phiên tới, giải phóng vốn."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 21950.0,
       "change_pct": 0.69,
-      "comment": "Giá 21.800 đồng, tăng 0,69%; nhóm ngân hàng hồi phục nhẹ hơn thị trường chung - chưa vào lệnh, chờ tín hiệu rõ hơn sau sự kiện FTSE ngày 21/8."
+      "comment": "Giá 21.950 đồng, tăng 0,69%; nhóm ngân hàng có thể hưởng lợi từ FTSE nâng hạng - chờ xem danh mục công bố ngày 21/8, nếu ACB có tên có thể xem xét vào lệnh từng phần."
     }
   ],
   "gold": {
-    "sjc_buy": 139700000,
-    "sjc_sell": 142700000,
-    "note": "Vàng SJC ngày 19/08/2026 giảm 1,6 triệu đồng/lượng so với phiên trước, giao dịch ở mức 139,7-142,7 triệu đồng/lượng; vàng thế giới tham chiếu 4.359,60 USD/oz - không nên mua thêm ở vùng giá cao này."
+    "sjc_buy": 143500000,
+    "sjc_sell": 146500000,
+    "note": "Vàng SJC ngày 20/08/2026 tăng mạnh 3,8 triệu đồng/lượng so với phiên trước, giao dịch ở mức 143,5-146,5 triệu đồng/lượng; vàng thế giới vẫn trụ trên ngưỡng 4.400 USD/oz - không nên mua thêm ở vùng giá quá cao này."
   },
   "news_vn": [
     {
-      "title": "Vietstock Daily 19/08/2026: Chưa hết rung lắc?",
-      "summary": "VN-Index phiên 19/08 tiếp tục rung lắc trong vùng thấp, thị trường chưa tìm được đà phục hồi bền vững; nhà đầu tư thận trọng chờ sự kiện FTSE Russell dự kiến công bố ngày 21/8 về khả năng nâng hạng Việt Nam - đây là yếu tố có thể tạo cú hích lớn từ tháng 9/2026.",
+      "title": "Nhịp đập Thị trường 20/08: Dòng tiền phân hóa, thanh khoản trầm lắng",
+      "summary": "VN-Index phiên 20/08 tăng 7,55 điểm lên 1.734,24 điểm nhưng thanh khoản HoSE chỉ đạt khoảng 13.900 tỷ đồng; dòng tiền phân hóa mạnh, số mã tăng và giảm gần ngang nhau (280 tăng vs 260 giảm). Thị trường tiếp tục tâm lý thận trọng trước thông tin từ FTSE Russell dự kiến công bố ngày 21/8.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/08/vietstock-daily-19082026-chua-het-rung-lac-1636-1482284.htm"
+      "url": "https://vietstock.vn/2026/08/nhip-dap-thi-truong-2008-dong-tien-phan-hoa-thanh-khoan-tram-lang-1636-1482998.htm"
     },
     {
-      "title": "Nhịp đập Thị trường 19/08: Rung lắc quanh ngưỡng 1.723 điểm",
-      "summary": "Thị trường tiếp tục rung lắc quanh ngưỡng 1.723 điểm trong phiên 19/08, khối ngoại bán ròng gần 736 tỷ đồng trên toàn thị trường; thanh khoản duy trì ở mức thấp, tâm lý nhà đầu tư thận trọng trước diễn biến ngắn hạn.",
+      "title": "Vietstock Daily 20/08/2026: Áp lực chưa hạ nhiệt",
+      "summary": "Phân tích kỹ thuật cho thấy áp lực điều chỉnh trên VN-Index chưa hạ nhiệt; thị trường duy trì xu hướng thận trọng và thanh khoản thấp. Kỳ vọng tích cực tập trung vào sự kiện FTSE Russell công bố danh mục cổ phiếu Việt Nam vào rổ chỉ số toàn cầu vào ngày 21/8.",
       "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/08/nhip-dap-thi-truong-1908-rung-lac-quanh-nguong-1723-diem-1636-1482473.htm"
+      "url": "https://vietstock.vn/2026/08/vietstock-daily-20082026-ap-luc-chua-ha-nhiet-1636-1482738.htm"
     },
     {
-      "title": "Phiên giao dịch sáng 19/8: Chịu nhiều sức ép, VN-Index quay đầu giảm điểm",
-      "summary": "Sau khi mở cửa phục hồi nhẹ, VN-Index nhanh chóng quay đầu giảm khi sắc đỏ chiếm ưu thế; 370 mã giảm so với 187 mã tăng, phản ánh tâm lý thận trọng rõ nét của nhà đầu tư trong phiên chờ thông tin FTSE.",
-      "source": "Tin nhanh chứng khoán",
-      "url": "https://www.tinnhanhchungkhoan.vn/phien-giao-dich-sang-198-chiu-nhieu-suc-ep-vn-index-quay-dau-giam-diem-post396149.html"
+      "title": "Việt Nam chính thức được FTSE Russell nâng hạng lên thị trường mới nổi",
+      "summary": "FTSE Russell xác nhận Việt Nam được nâng hạng từ thị trường cận biên lên thị trường mới nổi thứ cấp, có hiệu lực từ 21/9/2026; dự kiến thu hút khoảng 1,5 tỷ USD vốn ETF trong 12 tháng sau nâng hạng. Danh sách 32 cổ phiếu vào rổ chỉ số toàn cầu sẽ được công bố chính thức ngày 21/8/2026.",
+      "source": "Investing.com",
+      "url": "https://vn.investing.com/news/stock-market-news/nong-viet-nam-chinh-thuc-duoc-ftse-russell-nang-hang-len-thi-truong-moi-noi-2580526"
     }
   ],
   "advice": {
-    "summary": "Phiên 19/08/2026, VN-Index đóng cửa giảm 5,33 điểm (-0,31%) xuống 1.726,69 điểm; danh mục đang lỗ 21,49% (giá trị 60.740.000 đồng so với vốn 77.370.000 đồng). MBB phải cắt lỗ khẩn trong phiên tới; FPT và HPG đang rất sát stoploss cần theo dõi liên tục. Không giải ngân mới, chờ tín hiệu rõ từ sự kiện FTSE Russell ngày 21/8.",
+    "summary": "Phiên 20/08/2026, VN-Index tăng 7,55 điểm (+0,44%) lên 1.734,24 điểm nhưng thanh khoản yếu, dòng tiền phân hóa - tín hiệu chưa bền vững. Danh mục đang lỗ 20,52% (giá trị 61.495.000 đồng so với vốn 77.370.000 đồng). MBB vẫn phải cắt lỗ khẩn; HPG rất sát stoploss (cách 150 đồng); FPT cách stoploss 1.800 đồng. Sự kiện FTSE công bố danh mục ngày 21/8 là yếu tố then chốt quyết định hành động tiếp theo.",
     "actions": [
-      "FPT: THEO DÕI SÁT - giá 68.900 đồng, lỗ 22,45% so với vốn 88.850 đồng; chỉ cách stoploss 68.000 đồng 900 đồng, đặt lệnh bán sẵn, thực hiện ngay nếu giá phá vỡ 68.000 đồng.",
-      "SSB: GIỮ - giá 15.050 đồng, lãi 6,36% so với vốn 14.150 đồng; nắm giữ, kỳ vọng hưởng lợi từ FTSE nâng hạng từ tháng 9/2026.",
-      "HPG: THEO DÕI SÁT - giá 21.200 đồng, lỗ 10,17% so với vốn 23.600 đồng; chỉ cách stoploss 21.000 đồng 200 đồng, sẵn sàng cắt lỗ ngay nếu giá quay đầu.",
-      "MBB: CẮT LỖ KHẨN - giá 19.950 đồng phá sâu dưới stoploss 22.500 đồng, lỗ 20,68% so với vốn 25.150 đồng; ưu tiên số 1 trong phiên tới.",
-      "Tiền mới: không giải ngân; chờ xử lý xong MBB và xem kết quả FTSE ngày 21/8 trước khi xem xét cơ hội mới.",
-      "ACB (watchlist): giá 21.800 đồng, tăng 0,69%; chưa vào lệnh, chờ tín hiệu rõ hơn sau sự kiện FTSE ngày 21/8.",
-      "Vàng SJC: 139,7-142,7 triệu đồng/lượng (giảm 1,6 triệu so với hôm qua) - không mua thêm ở vùng giá cao."
+      "FPT: THEO DÕI SÁT - giá 69.800 đồng, lỗ 21,44% so với vốn 88.850 đồng; cách stoploss 68.000 đồng 1.800 đồng, đặt lệnh bán sẵn và thực hiện ngay nếu phá vỡ 68.000 đồng. Theo dõi danh mục FTSE công bố ngày 21/8 - nếu FPT được vào rổ có thể cân nhắc giữ thêm.",
+      "SSB: GIỮ - giá 15.100 đồng, lãi 6,71% so với vốn 14.150 đồng; tiếp tục nắm giữ, kỳ vọng hưởng lợi từ dòng vốn FTSE chảy vào nhóm ngân hàng từ 21/9/2026.",
+      "HPG: THEO DÕI SÁT - giá 21.150 đồng, lỗ 10,38% so với vốn 23.600 đồng; cách stoploss 21.000 đồng chỉ 150 đồng, sẵn sàng cắt lỗ ngay nếu giá về 21.000 đồng.",
+      "MBB: CẮT LỖ KHẨN - giá 20.300 đồng vẫn phá sâu dưới stoploss 22.500 đồng, lỗ 19,28% so với vốn 25.150 đồng; tận dụng nhịp hồi 1,75% để cắt lỗ trong phiên tới, không trì hoãn.",
+      "Tiền mới: chưa giải ngân; chờ xử lý xong MBB và xem kết quả danh mục FTSE ngày 21/8 trước khi xem xét cơ hội mới.",
+      "ACB (watchlist): giá 21.950 đồng, tăng 0,69%; chờ xem danh mục FTSE ngày 21/8 - nếu ACB có tên có thể xem xét vào lệnh từng phần.",
+      "Vàng SJC: 143,5-146,5 triệu đồng/lượng (tăng 3,8 triệu so với hôm qua) - không mua thêm ở vùng giá quá cao này."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
