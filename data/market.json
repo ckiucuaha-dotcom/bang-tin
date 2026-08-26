@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-26T08:45:12Z",
-  "updated_at_vn": "15:45 26/08/2026",
+  "updated_at": "2026-08-26T09:00:00Z",
+  "updated_at_vn": "16:00 26/08/2026",
   "session_date": "2026-08-26",
   "data_quality": "live",
   "vnindex": {
     "close": 1821.32,
     "change": 29.91,
     "change_pct": 1.67,
-    "note": "VN-Index phiên 25/08/2026 tăng nhẹ 2,63 điểm (+0,15%) lên 1.791,41 điểm; buổi sáng thị trường có lúc vượt mốc 1.800 điểm nhờ cổ phiếu trụ bất động sản và ngân hàng, nhưng chốt phiên điều chỉnh về 1.791,41 điểm; thanh khoản cải thiện so với tuần trước."
+    "note": "VN-Index phiên 26/08/2026 tăng mạnh 29,91 điểm (+1,67%) lên 1.821,32 điểm, vượt hẳn mốc 1.800 và xác lập đỉnh mới; nhóm ngân hàng và cao su dẫn dắt, FTSE Russell bổ sung MSN, MCH, VPB vào danh mục tạo xung mua mạnh từ khối ngoại; thanh khoản cải thiện rõ rệt."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
-      "comment": "Giá 70.700 đồng, giảm 0,98% và lỗ 20,43% so với giá vốn 88.850 đồng; nằm trong vùng cảnh báo dưới stoploss x 1,05 = 71.400 đồng; FPT chưa phục hồi dù thị trường tích cực - duy trì stoploss cứng 68.000 đồng và theo dõi sát từng phiên."
+      "comment": "Giá 72.600 đồng (+2,69%), lỗ 18,29% so với giá vốn 88.850 đồng; FPT dẫn dắt VN30 phiên 26/08, vượt ngưỡng cảnh báo stoploss x 1,05 = 71.400 đồng; tiếp tục GIỮ, kỳ vọng phục hồi cùng sóng FTSE tháng 9, stoploss cứng 68.000 đồng."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 15.850 đồng, tăng 2,26% và lãi 12,01% so với giá vốn 14.150 đồng; SSB là điểm sáng trong danh mục hôm nay, nhóm ngân hàng tích cực; tiếp tục nắm giữ, kỳ vọng hưởng lợi dòng vốn FTSE sau tháng 9/2026, hướng đến mục tiêu 18.000 đồng."
+      "comment": "Giá 16.000 đồng (+0,95%), lãi 13,07% so với giá vốn 14.150 đồng; nhóm ngân hàng dẫn dắt phiên 26/08, SSB hưởng lợi trực tiếp từ kỳ vọng FTSE tháng 9; tiếp tục GIỮ, hướng mục tiêu 18.000 đồng."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 21.800 đồng, giảm 2,02% và lỗ 7,63% so với giá vốn 23.600 đồng; nằm trong vùng cảnh báo dưới stoploss x 1,05 = 22.050 đồng; HPG đáng chú ý phiên 25/8 nhưng giá vẫn yếu - sẵn sàng cắt lỗ ngay nếu giá về 21.000 đồng."
+      "comment": "Giá 22.050 đồng (+1,15%), lỗ 6,57% so với giá vốn 23.600 đồng; đúng tại ngưỡng cảnh báo stoploss x 1,05 = 22.050 đồng - vẫn THEO DÕI SÁT; phiên tăng nhẹ nhờ thị trường chung mạnh, cần giá dứt khoát vượt 22.500 đồng mới an toàn hơn."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "CẮT LỖ",
-      "comment": "Giá 20.650 đồng, giảm 0,48% và phá sâu dưới stoploss 22.500 đồng, lỗ 17,89% so với giá vốn 25.150 đồng; thị trường hôm nay tích cực nhưng MBB vẫn đi ngược - thực hiện cắt lỗ ngay, không trì hoãn, giải phóng vốn tái cơ cấu danh mục."
+      "comment": "Giá 21.050 đồng (+1,94%) nhưng vẫn thấp hơn stoploss 22.500 đồng gần 1.450 đồng, lỗ 16,3% so với giá vốn 25.150 đồng; dù tăng theo thị trường chung nhưng MBB vẫn dưới stoploss - thực hiện CẮT LỖ ngay, không trì hoãn, giải phóng vốn tái cơ cấu."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22250.0,
       "change_pct": 0.23,
-      "comment": "Giá 22.200 đồng, giảm 1,33%; ACB điều chỉnh nhẹ trong phiên hôm nay dù nhóm ngân hàng nhìn chung tích cực - theo dõi thêm vài phiên để xác nhận động lực trước khi cân nhắc vào lệnh."
+      "comment": "Giá 22.250 đồng (+0,23%), nhóm ngân hàng khởi sắc phiên 26/08; ACB tăng nhẹ, đóng góp tích cực vào VN30 - theo dõi thêm 1-2 phiên để xác nhận đà tăng bền trước khi cân nhắc vào lệnh."
     }
   ],
   "gold": {
     "sjc_buy": 147600000,
     "sjc_sell": 150600000,
-    "note": "Vàng SJC ngày 25/08/2026 tăng 600.000 đồng/lượng so với hôm qua, giao dịch ở mức 147,6 - 150,6 triệu đồng/lượng; vàng đắt hơn thế giới khoảng 2,6 triệu đồng/lượng - không nên mua thêm ở vùng giá cao này."
+    "note": "Vàng SJC ngày 26/08/2026 giữ nguyên mức 147,6 - 150,6 triệu đồng/lượng, không thay đổi so với hôm qua; chênh lệch với thế giới khoảng 3,5 triệu đồng/lượng - không nên mua thêm ở vùng giá cao này."
   },
   "news_vn": [
     {
-      "title": "Nhịp đập Thị trường 25/08: Trở lại mốc 1.800",
-      "summary": "VN-Index có lúc vượt mốc 1.800 điểm trong phiên sáng 25/08/2026 với sự dẫn dắt của nhóm cổ phiếu trụ bất động sản và ngân hàng; chốt phiên chỉ số lên 1.791,41 điểm, tăng 2,63 điểm.",
+      "title": "Nhịp đập Thị trường 26/08: VN-Index giằng co đầu phiên, nhóm ngân hàng và cao su dẫn dắt dòng tiền",
+      "summary": "VN-Index phiên 26/08/2026 tăng mạnh 29,91 điểm (+1,67%) lên 1.821,32 điểm, vượt đỉnh 1.800; nhóm ngân hàng và cao su dẫn dắt dòng tiền; FTSE Russell bổ sung MSN, MCH, VPB vào danh mục kích hoạt lực mua mới từ khối ngoại.",
       "source": "Vietstock - Investing.com",
-      "url": "https://vn.investing.com/news/stock-market-news/nhip-dap-thi-truong-2508-tro-lai-moc-1800-2698846"
+      "url": "https://vn.investing.com/news/stock-market-news/nhip-dap-thi-truong-2608-vnindex-giang-co-dau-phien-nhom-ngan-hang-va-cao-su-dan-dat-dong-tien-2699776"
     },
     {
-      "title": "Nhịp đập Thị trường 25/08: Cổ phiếu trụ kéo chỉ số",
-      "summary": "Phiên 25/08/2026, cổ phiếu trụ nhóm bất động sản (VIC, VHM, VRE) và ngân hàng (SSB, TCB, VPB) là lực đẩy chính giúp VN-Index giữ sắc xanh; thanh khoản cải thiện rõ so với bình quân 20 phiên gần nhất.",
-      "source": "Vietstock",
-      "url": "https://vietstock.vn/2026/08/nhip-dap-thi-truong-2508-co-phieu-tru-keo-chi-so-1636-1484699.htm"
+      "title": "Chứng khoán tuần cuối tháng 8/2026: Dòng tiền trở lại, VN-Index sẽ tái thử sức mốc 1.800 điểm",
+      "summary": "Tuần cuối tháng 8/2026, dòng tiền quay lại thị trường chứng khoán Việt Nam; các chuyên gia kỳ vọng VN-Index sẽ tái thử mốc 1.800 điểm với động lực từ sự kiện nâng hạng FTSE Russell chính thức vào tháng 9.",
+      "source": "Thời báo Tài chính Việt Nam",
+      "url": "https://thoibaotaichinhvietnam.vn/chung-khoan-tuan-cuoi-thang-8-2026-dong-tien-tro-lai-vn-index-se-tai-thu-suc-moc-1-800-diem-202776.html"
     },
     {
-      "title": "Cổ phiếu đáng chú ý ngày 25/8: HPG, VPB, TCH",
-      "summary": "Các chuyên gia phân tích kỹ thuật điểm danh HPG, VPB và TCH là những cổ phiếu cần theo dõi sát trong phiên 25/08/2026 do có tín hiệu kỹ thuật đáng chú ý sau chuỗi tăng điểm của thị trường.",
-      "source": "Người Quan Sát",
-      "url": "https://nguoiquansat.vn/co-phieu-dang-chu-y-ngay-25-8-hpg-vpb-tch-312443.html"
+      "title": "Khối ngoại bán ròng 685 tỷ đồng, chờ động thái mới trước mốc FTSE Russell công bố danh mục",
+      "summary": "Khối ngoại bán ròng 685 tỷ đồng trong tuần qua, tuy nhiên dòng tiền nước ngoài được kỳ vọng quay đầu mạnh sau khi FTSE Russell chính thức đưa cổ phiếu Việt Nam vào chỉ số từ tháng 9/2026.",
+      "source": "Thời báo Tài chính Việt Nam",
+      "url": "https://thoibaotaichinhvietnam.vn/khoi-ngoai-ban-rong-685-ty-dong-cho-dong-thai-moi-truoc-moc-ftse-russell-cong-bo-danh-muc-202568.html"
     }
   ],
   "advice": {
-    "summary": "Phiên 25/08/2026, VN-Index tăng nhẹ 2,63 điểm (+0,15%) lên 1.791,41 điểm; buổi sáng có lúc vượt 1.800 điểm nhưng chốt phiên điều chỉnh. Danh mục đang lỗ 19,36% (giá trị 62.390.000 đồng so với vốn 77.370.000 đồng); ưu tiên cắt lỗ MBB ngay hôm nay; FPT và HPG ở vùng cảnh báo theo dõi sát; SSB là điểm sáng duy nhất.",
+    "summary": "Phiên 26/08/2026, VN-Index tăng mạnh 29,91 điểm (+1,67%) lên 1.821,32 điểm, vượt hẳn 1.800 điểm với lực đẩy từ FTSE Russell bổ sung thêm cổ phiếu; danh mục lỗ 17,29% (63.990.000 đồng so với vốn 77.370.000 đồng). Ưu tiên cắt lỗ MBB ngay dù thị trường tốt; HPG theo dõi sát tại ngưỡng cảnh báo; FPT và SSB tiếp tục GIỮ.",
     "actions": [
-      "FPT: THEO DÕI SÁT - giá 70.700 đồng, giảm 0,98%, lỗ 20,43% so với vốn 88.850 đồng; dưới ngưỡng cảnh báo stoploss x 1,05 = 71.400 đồng; duy trì stoploss cứng 68.000 đồng, theo dõi sát mỗi phiên.",
-      "SSB: GIỮ - giá 15.850 đồng, tăng 2,26%, lãi 12,01% so với vốn 14.150 đồng; điểm sáng hôm nay, tiếp tục nắm giữ, kỳ vọng FTSE sau tháng 9/2026, hướng mục tiêu 18.000 đồng.",
-      "HPG: THEO DÕI SÁT - giá 21.800 đồng, giảm 2,02%, lỗ 7,63% so với vốn 23.600 đồng; nằm trong vùng cảnh báo dưới stoploss x 1,05 = 22.050 đồng; sẵn sàng cắt lỗ ngay nếu giá về 21.000 đồng.",
-      "MBB: CẮT LỖ NGAY - giá 20.650 đồng thấp hơn stoploss 22.500 đồng gần 1.850 đồng, lỗ 17,89% so với vốn 25.150 đồng; thoát lệnh ngay trong phiên này, giải phóng vốn tái cơ cấu.",
-      "Tiền mới: chờ giải quyết xong MBB, sau đó quan sát thị trường vài phiên quanh mốc 1.800 điểm trước khi xem xét cơ hội mới.",
-      "ACB (watchlist): giá 22.200 đồng, giảm 1,33%; ACB điều chỉnh trong phiên này - theo dõi thêm, chưa vào lệnh.",
-      "Vàng SJC: 147,6 - 150,6 triệu đồng/lượng (tăng 600.000 đồng so với hôm qua); không mua thêm ở vùng giá cao này."
+      "FPT: GIỮ - giá 72.600 đồng (+2,69%), lỗ 18,29% so với vốn 88.850 đồng; FPT dẫn dắt VN30 phiên hôm nay, vượt ngưỡng cảnh báo 71.400 đồng; stoploss cứng 68.000 đồng, kỳ vọng tiếp tục hưởng lợi sóng FTSE.",
+      "SSB: GIỮ - giá 16.000 đồng (+0,95%), lãi 13,07% so với vốn 14.150 đồng; nhóm ngân hàng dẫn dắt phiên 26/08; tiếp tục nắm giữ, hướng mục tiêu 18.000 đồng vào tháng 9.",
+      "HPG: THEO DÕI SÁT - giá 22.050 đồng (+1,15%), lỗ 6,57% so với vốn 23.600 đồng; đúng tại ngưỡng cảnh báo stoploss x 1,05 = 22.050 đồng; cần vượt 22.500 đồng mới an toàn hơn, sẵn sàng cắt lỗ nếu giá về 21.000 đồng.",
+      "MBB: CẮT LỖ NGAY - giá 21.050 đồng, thấp hơn stoploss 22.500 đồng gần 1.450 đồng, lỗ 16,3% so với vốn 25.150 đồng; thị trường tốt nhưng MBB vẫn dưới stoploss - thoát lệnh ngay, giải phóng vốn tái cơ cấu.",
+      "Tiền mới: sau khi giải quyết MBB, thị trường vượt 1.800 điểm mạnh - quan sát 1-2 phiên xác nhận đà bền trước khi xem xét cơ hội mới, ưu tiên cổ phiếu hưởng lợi FTSE.",
+      "ACB (watchlist): giá 22.250 đồng (+0,23%); nhóm ngân hàng khởi sắc phiên 26/08; theo dõi thêm 1-2 phiên xác nhận đà tăng bền trước khi vào lệnh.",
+      "Vàng SJC: 147,6 - 150,6 triệu đồng/lượng, giữ nguyên so với hôm qua; chênh thế giới 3,5 triệu - không mua thêm ở vùng giá cao."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
