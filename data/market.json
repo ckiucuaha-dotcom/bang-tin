@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-02T08:41:20Z",
-  "updated_at_vn": "15:41 02/09/2026",
+  "updated_at": "2026-09-02T09:00:00Z",
+  "updated_at_vn": "16:00 02/09/2026",
   "session_date": "2026-08-28",
   "data_quality": "live",
   "vnindex": {
     "close": 1832.12,
     "change": 0.56,
     "change_pct": 0.03,
-    "note": "Thị trường nghỉ lễ Quốc khánh 2/9 từ 31/08 đến hết 02/09/2026; giao dịch trở lại từ thứ Năm 03/09. Giá giữ từ phiên cuối 28/08/2026: VN-Index đóng cửa 1.832,12 điểm, tăng 0,56 điểm (+0,03%); điểm nhấn tháng 9 là FTSE Russell chính thức hiệu lực 21/09/2026 với 27 mã Việt Nam được bổ sung, kỳ vọng hút dòng vốn ngoại lớn."
+    "note": "Thị trường nghỉ lễ Quốc khánh 2/9 đến hết hôm nay 02/09/2026, giao dịch trở lại từ thứ Năm 03/09. Giá giữ từ phiên cuối 28/08: VN-Index đóng cửa 1.832,12 điểm, tăng 0,56 điểm (+0,03%). Nhiều chuyên gia kỳ vọng VN-Index có thể thử sức vùng 1.850 điểm trong tuần đầu tháng 9, với FTSE Russell hiệu lực 21/09/2026 và dòng vốn ngoại ước tính 145 triệu USD đợt đầu là chất xúc tác chính."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
-      "comment": "Giá 73.200 đồng (phiên 28/08), lỗ 17,61% so với giá vốn 88.850 đồng; trên ngưỡng cảnh báo 71.400 đồng (stoploss x 1,05); MBS nhận định FPT có tiềm năng tăng trên 30% trong tháng 9/2026 - GIỮ, stoploss cứng 68.000 đồng."
+      "comment": "Giá 73.200 đồng (phiên 28/08), lỗ 17,61% so với giá vốn 88.850 đồng; trên ngưỡng cảnh báo 71.400 đồng (stoploss x 1,05); FTSE hiệu lực 21/09 có thể hỗ trợ nhóm công nghệ; theo dõi sát phiên mở cửa 03/09, stoploss cứng 68.000 đồng."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 17.100 đồng (phiên 28/08), lãi 20,85% so với giá vốn 14.150 đồng; SSB nằm trong danh sách 8 ngân hàng được FTSE Global All Cap mua vào từ 21/09/2026 - chất xúc tác lớn; GIỮ, cân nhắc chốt một phần nếu giá chạm mục tiêu 18.000 đồng ngay phiên đầu sau lễ."
+      "comment": "Giá 17.100 đồng (phiên 28/08), lãi 20,85% so với giá vốn 14.150 đồng; SSB trong danh sách 8 ngân hàng được FTSE mua vào từ 21/09/2026 - chất xúc tác lớn; cân nhắc chốt một phần nếu giá chạm mục tiêu 18.000 đồng ngay phiên đầu 03/09."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "GIỮ",
-      "comment": "Giá 22.100 đồng (phiên 28/08), lỗ 6,36% so với giá vốn 23.600 đồng; sát ngưỡng cảnh báo 22.050 đồng (stoploss x 1,05), chỉ cách 50 đồng; HPG nằm trong 27 mã FTSE hiệu lực 21/09 - điểm tựa quan trọng; cắt lỗ ngay nếu giá về dưới 21.000 đồng."
+      "comment": "Giá 22.100 đồng (phiên 28/08), lỗ 6,36% so với giá vốn 23.600 đồng; cách ngưỡng cảnh báo 22.050 đồng (stoploss x 1,05) chỉ 50 đồng; HPG trong 27 mã FTSE hiệu lực 21/09 là điểm tựa tích cực; cắt lỗ ngay nếu giá về dưới 21.000 đồng."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "CẮT LỖ",
-      "comment": "Giá 21.050 đồng (phiên 28/08), dưới stoploss 22.500 đồng 1.450 đồng, lỗ 16,30% so với giá vốn 25.150 đồng; dù SHS dự báo lợi nhuận MBB cả năm gần 40.000 tỷ đồng, giá đã vi phạm stoploss rõ ràng - CẮT LỖ phiên đầu tiên 03/09 để giải phóng vốn tái cơ cấu danh mục."
+      "comment": "Giá 21.050 đồng (phiên 28/08), dưới stoploss 22.500 đồng 1.450 đồng, lỗ 16,30% so với giá vốn 25.150 đồng; MBB không có trong danh sách FTSE - không có chất xúc tác ngắn hạn; thực hiện lệnh cắt lỗ ngay phiên mở cửa 03/09 để giải phóng vốn tái cơ cấu danh mục."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22650.0,
       "change_pct": 0.22,
-      "comment": "Giá 22.650 đồng (phiên 28/08); SHS đặt giá mục tiêu 26.000 đồng và đánh giá khả quan - ACB hưởng lợi gián tiếp từ FTSE và dòng tiền ngoại vào nhóm ngân hàng; theo dõi phiên đầu 03/09 trước khi cân nhắc vào lệnh."
+      "comment": "Giá 22.650 đồng (phiên 28/08); SHS đặt mục tiêu 26.000 đồng - ACB hưởng lợi gián tiếp từ FTSE và dòng tiền ngoại vào nhóm ngân hàng; theo dõi phiên 03/09, cân nhắc vào lệnh nếu thị trường mở cửa tích cực và ACB giữ được vùng hỗ trợ."
     }
   ],
   "gold": {
     "sjc_buy": 145700000,
     "sjc_sell": 148700000,
-    "note": "Vàng SJC ngày 01/09/2026 mua vào 145,7 triệu - bán ra 148,7 triệu đồng/lượng, ổn định so với hôm qua; vàng thế giới hồi nhẹ quanh 4.451 USD/ounce - không nên mua thêm ở vùng giá cao này."
+    "note": "Vàng SJC ngày 02/09/2026 mua vào 145,7 triệu - bán ra 148,7 triệu đồng/lượng, không đổi so với hôm qua; vàng thế giới lao dốc mạnh 122 USD xuống còn 4.329 USD/ounce do USD mạnh lên và kỳ vọng Fed tăng lãi suất tháng 9 vượt 66% - chênh lệch trong nước và quốc tế nới rộng, không nên mua thêm ở vùng giá cao."
   },
   "news_vn": [
     {
-      "title": "8 ngân hàng được FTSE mua vào từ tháng 9 được các công ty chứng khoán đánh giá ra sao?",
-      "summary": "Sau khi Việt Nam được FTSE Russell chính thức nâng hạng, 8 ngân hàng lọt vào danh sách mua từ tháng 9/2026 đang nhận được sự chú ý lớn từ các công ty chứng khoán; dòng vốn ngoại dự kiến giải ngân theo 4 đợt từ tháng 9/2026 đến tháng 9/2027, hỗ trợ mạnh cho nhóm cổ phiếu ngân hàng trong ngắn hạn.",
-      "source": "Tạp chí Doanh Nhân VN",
-      "url": "https://baomoi.com/8-ngan-hang-duoc-ftse-mua-vao-tu-thang-9-duoc-cac-cong-ty-chung-khoan-danh-gia-ra-sao-c55902771.epi"
+      "title": "Sau nghỉ lễ 2/9, chứng khoán có bứt phá với 'cú hích' nâng hạng?",
+      "summary": "Nhiều chuyên gia kỳ vọng thị trường chứng khoán sẽ có đà bứt phá sau kỳ nghỉ lễ Quốc khánh, với FTSE Russell chính thức hiệu lực ngày 21/09/2026; dòng vốn ngoại đợt đầu ước khoảng 145 triệu USD và tổng cộng có thể đạt 6 tỷ USD qua các giai đoạn là chất xúc tác lớn cho nhóm cổ phiếu vốn hóa lớn.",
+      "source": "Tiền Phong",
+      "url": "https://tienphong.vn/sau-nghi-le-29-chung-khoan-co-but-pha-voi-cu-hich-nang-hang-post1872833.tpo"
     },
     {
-      "title": "Sau dịp lễ Quốc khánh, khi nào thị trường chứng khoán giao dịch trở lại bình thường?",
-      "summary": "HoSE và HNX nghỉ giao dịch từ 31/08 đến hết 02/09/2026 nhân kỳ nghỉ Quốc khánh 2/9; thị trường hoạt động trở lại bình thường từ thứ Năm 03/09/2026 - nhà đầu tư cần chuẩn bị kế hoạch giao dịch cho phiên mở cửa sau nghỉ lễ kéo dài, đặc biệt với các mã trong danh sách FTSE.",
-      "source": "CafeF",
-      "url": "https://cafef.vn/sau-dip-le-quoc-khanh-khi-nao-thi-truong-chung-khoan-giao-dich-tro-lai-binh-thuong-188260829154209089.chn"
+      "title": "VN-Index có thể thử sức vùng 1.850 điểm sau kỳ nghỉ Quốc khánh",
+      "summary": "Các công ty chứng khoán nhận định VN-Index có khả năng hướng đến vùng 1.850 điểm trong tuần đầu tháng 9/2026; thanh khoản dự kiến tăng mạnh khi dòng tiền quay trở lại sau kỳ nghỉ lễ, đặc biệt từ nhóm nhà đầu tư nước ngoài chuẩn bị giải ngân theo lịch FTSE hiệu lực 21/09.",
+      "source": "Vietnam+",
+      "url": "https://www.vietnamplus.vn/vn-index-co-the-thu-suc-vung-1850-diem-sau-ky-nghi-quoc-khanh-post1133818.vnp"
     },
     {
       "title": "Lịch chốt quyền trả cổ tức trong tuần sau nghỉ lễ 2/9, tỷ lệ cao nhất 16%",
-      "summary": "Sau kỳ nghỉ Quốc khánh, trong hai ngày 03/09 và 04/09/2026 có khoảng 10 doanh nghiệp chốt quyền trả cổ tức với tỷ lệ cao nhất lên đến 16%; nhà đầu tư cần theo dõi sát lịch chốt quyền để tránh bị ảnh hưởng bởi điều chỉnh giá kỹ thuật sau ngày chốt quyền.",
+      "summary": "Trong hai ngày 03/09 và 04/09/2026 có khoảng 10 doanh nghiệp chốt quyền trả cổ tức với tỷ lệ cao nhất lên đến 16%; nhà đầu tư cần theo dõi sát lịch chốt quyền để tránh bị ảnh hưởng bởi điều chỉnh giá kỹ thuật sau ngày chốt quyền.",
       "source": "CafeF",
       "url": "https://cafef.vn/lich-chot-quyen-tra-co-tuc-trong-tuan-sau-nghi-le-2-9-ty-le-cao-nhat-16-188260831160554783.chn"
     }
   ],
   "advice": {
-    "summary": "Thị trường nghỉ lễ Quốc khánh 2/9 từ 31/08 đến 02/09/2026; giá giữ nguyên từ phiên cuối 28/08. Danh mục đang lỗ 16,52% (giá trị 64.585.000 đồng so với vốn 77.370.000 đồng). Ưu tiên số một khi thị trường mở cửa 03/09: cắt lỗ MBB ngay lập tức và theo dõi chặt HPG sát ngưỡng cảnh báo. Điểm sáng tháng 9 là FTSE Russell hiệu lực 21/09 - SSB và HPG hưởng lợi trực tiếp, kỳ vọng dòng tiền ngoại chảy vào.",
+    "summary": "Thị trường nghỉ lễ Quốc khánh 2/9 đến hết hôm nay, giao dịch trở lại thứ Năm 03/09/2026. Danh mục đang lỗ 16,52% (giá trị 64.585.000 đồng so với vốn 77.370.000 đồng). Ưu tiên số một phiên 03/09: cắt lỗ MBB ngay lập tức và theo dõi chặt HPG sát ngưỡng cảnh báo chỉ 50 đồng. Điểm sáng tháng 9 là FTSE Russell hiệu lực 21/09 với dòng vốn ngoại ước 145 triệu USD đợt đầu - SSB và HPG hưởng lợi trực tiếp.",
     "actions": [
-      "FPT: GIỮ - giá 73.200 đồng (28/08), lỗ 17,61% so với vốn 88.850 đồng; trên ngưỡng cảnh báo 71.400 đồng; MBS nhận định tiềm năng tăng trên 30% tháng 9/2026; stoploss cứng 68.000 đồng.",
-      "SSB: GIỮ - giá 17.100 đồng (28/08), lãi 20,85% so với vốn 14.150 đồng; FTSE mua vào từ 21/09 là chất xúc tác mạnh; cân nhắc chốt một phần nếu giá chạm mục tiêu 18.000 đồng.",
-      "HPG: GIỮ nhưng theo dõi chặt - giá 22.100 đồng (28/08), lỗ 6,36% so với vốn 23.600 đồng; cách ngưỡng cảnh báo 22.050 đồng (stoploss x 1,05) chỉ 50 đồng; FTSE hiệu lực 21/09 là điểm tựa; cắt lỗ ngay nếu giá về dưới 21.000 đồng.",
-      "MBB: CẮT LỖ phiên đầu 03/09 - giá 21.050 đồng (28/08), dưới stoploss 22.500 đồng; lỗ 16,30% so với vốn 25.150 đồng; giải phóng vốn để tái cơ cấu danh mục.",
-      "Tiền mới: sau khi giải quyết MBB, dành vốn quan sát 2-3 phiên đầu tháng 9; ưu tiên nhóm hưởng lợi FTSE (ngân hàng, công nghệ) khi có xác nhận đà tăng bền.",
-      "ACB (watchlist): giá 22.650 đồng (28/08); SHS mục tiêu 26.000 đồng - theo dõi phiên 03/09, cân nhắc vào lệnh nếu thị trường mở cửa tích cực.",
-      "Vàng SJC: mua vào 145,7 triệu - bán ra 148,7 triệu đồng/lượng (01/09); vàng thế giới quanh 4.451 USD/ounce - không mua thêm ở vùng giá cao."
+      "FPT: GIỮ - giá 73.200 đồng (28/08), lỗ 17,61% so với vốn 88.850 đồng; trên ngưỡng cảnh báo 71.400 đồng; FTSE 21/09 là yếu tố hỗ trợ; stoploss cứng 68.000 đồng.",
+      "SSB: GIỮ - giá 17.100 đồng (28/08), lãi 20,85% so với vốn 14.150 đồng; FTSE mua vào từ 21/09 là chất xúc tác lớn; cân nhắc chốt một phần nếu giá chạm mục tiêu 18.000 đồng ngay phiên 03/09.",
+      "HPG: GIỮ nhưng theo dõi sát - giá 22.100 đồng (28/08), lỗ 6,36% so với vốn 23.600 đồng; cách ngưỡng cảnh báo 22.050 đồng chỉ 50 đồng; FTSE hiệu lực 21/09 là điểm tựa; cắt lỗ ngay nếu giá về dưới 21.000 đồng.",
+      "MBB: CẮT LỖ ngay phiên 03/09 - giá 21.050 đồng (28/08), dưới stoploss 22.500 đồng; lỗ 16,30% so với vốn 25.150 đồng; giải phóng vốn để tái cơ cấu danh mục.",
+      "Tiền mới: sau khi cắt MBB, dành vốn quan sát 2-3 phiên đầu tháng 9; ưu tiên nhóm hưởng lợi FTSE (ngân hàng, thép) khi có xác nhận dòng tiền ngoại vào.",
+      "ACB (watchlist): giá 22.650 đồng (28/08); SHS mục tiêu 26.000 đồng; theo dõi phiên 03/09, cân nhắc vào lệnh nếu thị trường mở cửa tích cực.",
+      "Vàng SJC: mua vào 145,7 triệu - bán ra 148,7 triệu đồng/lượng (02/09); vàng thế giới giảm mạnh 122 USD xuống 4.329 USD/ounce do Fed áp lực - không mua thêm ở vùng giá cao."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
