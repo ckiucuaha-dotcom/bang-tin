@@ -7,7 +7,7 @@
     "close": 1853.08,
     "change": 25.36,
     "change_pct": 1.39,
-    "note": "Phiên 03/09/2026 - phiên đầu tiên sau kỳ nghỉ Quốc khánh - VN-Index giảm nhẹ 10,04 điểm (-0,55%) về 1.822,08 điểm; thị trường mở cửa thận trọng trong bối cảnh lợi suất trái phiếu Mỹ tăng vọt và phố Wall chịu sức ép; nhóm vốn hóa lớn được đỡ bởi kỳ vọng FTSE Russell hiệu lực 21/09/2026 với dòng vốn ngoại ước tính 145 triệu USD đợt đầu."
+    "note": "Phiên 04/09/2026 đóng cửa lúc 15h45, VN-Index tăng 25,36 điểm (+1,39%) lên 1.853,08 điểm; thị trường hồi phục tốt sau phiên giằng co, được hỗ trợ bởi kỳ vọng dòng vốn FTSE Russell hiệu lực 21/09/2026 - cần vượt bền vững 1.870 điểm để xác nhận xu hướng tăng trung hạn."
   },
   "holdings": [
     {
@@ -22,7 +22,7 @@
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
-      "comment": "Giá 72.200 đồng, lỗ 18,74% so với giá vốn 88.850 đồng; trên ngưỡng cảnh báo 71.400 đồng (stoploss x 1,05); FPT nằm trong nhóm cổ phiếu đáng chú ý ngày 03/09, FTSE 21/09 là chất xúc tác hỗ trợ nhóm công nghệ; giữ vị thế, stoploss cứng 68.000 đồng."
+      "comment": "Giá 72.800 đồng, lỗ 18,06% so với giá vốn 88.850 đồng; vẫn trên ngưỡng cảnh báo 71.400 đồng (stoploss x 1,05); FTSE 21/09 là chất xúc tác tích cực cho nhóm công nghệ - giữ vị thế, stoploss cứng 68.000 đồng."
     },
     {
       "ticker": "SSB",
@@ -36,7 +36,7 @@
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
-      "comment": "Giá 18.200 đồng vượt mục tiêu 18.000 đồng, lãi 28,62% so với giá vốn 14.150 đồng; SSB trong danh sách FTSE mua vào từ 21/09 là chất xúc tác tiếp tục; cân nhắc chốt 30-50% vị thế để bảo toàn lợi nhuận, giữ phần còn lại đón sóng FTSE."
+      "comment": "Giá 17.450 đồng, còn 550 đồng nữa đến mục tiêu 18.000 đồng, lãi 23,32% so với giá vốn 14.150 đồng; SSB trong danh sách FTSE mua vào từ 21/09 là chất xúc tác - giữ chờ giá tiếp cận mục tiêu rồi xem xét chốt lời."
     },
     {
       "ticker": "HPG",
@@ -50,7 +50,7 @@
       "target": 28000,
       "stoploss": 21000,
       "action": "THEO DÕI SÁT",
-      "comment": "Giá 21.650 đồng dưới ngưỡng cảnh báo 22.050 đồng (stoploss x 1,05), lỗ 8,26% so với giá vốn 23.600 đồng; HPG trong 27 mã FTSE hiệu lực 21/09 là điểm tựa tích cực; cắt lỗ ngay nếu giá phá vỡ 21.000 đồng."
+      "comment": "Giá 21.700 đồng vẫn dưới ngưỡng cảnh báo 22.050 đồng (stoploss x 1,05), lỗ 8,05% so với giá vốn 23.600 đồng; HPG trong 27 mã FTSE hiệu lực 21/09 là điểm tựa tích cực - cắt lỗ ngay nếu giá phá vỡ 21.000 đồng."
     },
     {
       "ticker": "MBB",
@@ -64,7 +64,7 @@
       "target": 30000,
       "stoploss": 22500,
       "action": "CẮT LỖ",
-      "comment": "Giá 20.700 đồng dưới stoploss 22.500 đồng 1.800 đồng, lỗ 17,69% so với giá vốn 25.150 đồng; MBB không có trong danh sách FTSE nên thiếu chất xúc tác ngắn hạn; cần thực hiện lệnh cắt lỗ để giải phóng vốn tái cơ cấu danh mục."
+      "comment": "Giá 20.550 đồng dưới stoploss 22.500 đồng, lỗ 18,29% so với giá vốn 25.150 đồng; MBB không có trong danh sách FTSE nên thiếu chất xúc tác ngắn hạn - thực hiện lệnh cắt lỗ để giải phóng vốn tái cơ cấu danh mục."
     }
   ],
   "totals": {
@@ -78,44 +78,44 @@
       "ticker": "ACB",
       "price": 22200.0,
       "change_pct": 0.0,
-      "comment": "Giá 22.300 đồng, giảm 1,55% trong phiên đầu sau kỳ nghỉ lễ; SHS đặt mục tiêu 26.000 đồng, ACB hưởng lợi gián tiếp từ FTSE và dòng tiền ngoại vào nhóm ngân hàng; theo dõi thêm 1-2 phiên, cân nhắc vào lệnh khi thị trường ổn định hơn."
+      "comment": "Giá 22.200 đồng; ACB hưởng lợi từ dòng vốn ngoại vào nhóm ngân hàng theo lộ trình FTSE 21/09 - theo dõi thêm 1-2 phiên, cân nhắc vào lệnh khi thị trường xác nhận xu hướng tăng bền vững."
     }
   ],
   "gold": {
-    "sjc_buy": 144400000,
-    "sjc_sell": 147400000,
-    "note": "Vàng SJC chiều 03/09/2026 giảm 1,3 triệu đồng so với sáng, mua vào 144,4 triệu - bán ra 147,4 triệu đồng/lượng; vàng thế giới tăng hơn 1% nhưng trong nước đảo chiều giảm mạnh sau kỳ nghỉ lễ; không nên mua mới ở vùng giá cao, chờ vùng hỗ trợ tốt hơn."
+    "sjc_buy": 146100000,
+    "sjc_sell": 149100000,
+    "note": "Vàng SJC ngày 04/09/2026 tăng 700.000 đồng so với ngày 3/9, mua vào 146,1 triệu - bán ra 149,1 triệu đồng/lượng; vàng thế giới tăng mạnh hơn 2% trong 24 giờ hỗ trợ giá trong nước; vùng giá cao - không nên mua mới, chờ vùng hỗ trợ tốt hơn."
   },
   "news_vn": [
     {
-      "title": "Sau nghỉ lễ 2/9, chứng khoán có bứt phá với 'cú hích' nâng hạng?",
-      "summary": "Thị trường chứng khoán mở cửa trở lại ngày 03/09 sau kỳ nghỉ Quốc khánh với kỳ vọng lớn vào FTSE Russell hiệu lực 21/09/2026; dòng vốn ngoại đợt đầu ước tính 145 triệu USD sẽ ưu tiên nhóm ngân hàng và vốn hóa lớn, nhưng thị trường cần vượt kháng cự 1.850 điểm để xác nhận xu hướng tăng bền vững.",
-      "source": "CafeF",
-      "url": "https://cafef.vn/sau-nghi-le-2-9-chung-khoan-co-but-pha-voi-cu-hich-nang-hang-188260902152420517.chn"
-    },
-    {
-      "title": "Cổ phiếu đáng chú ý ngày 3/9: FPT, MSB, DHC",
-      "summary": "Người Quan Sát điểm danh các cổ phiếu cần theo dõi trong phiên đầu tháng 9/2026 gồm FPT, MSB và DHC; FPT được chú ý trong bối cảnh nhóm công nghệ kỳ vọng hưởng lợi từ FTSE và xu hướng AI toàn cầu; lợi suất trái phiếu Mỹ tăng vọt và phố Wall giảm trước giờ giao dịch là áp lực cần lưu ý.",
-      "source": "Người Quan Sát",
-      "url": "https://nguoiquansat.vn/co-phieu-dang-chu-y-ngay-3-9-fpt-msb-dhc-313868.html"
-    },
-    {
-      "title": "Vietstock Weekly 03-04/09/2026: Giữ đà phục hồi",
-      "summary": "Vietstock nhận định thị trường tuần 03-04/09/2026 có khả năng giữ đà phục hồi với sự hỗ trợ từ kỳ vọng FTSE; các chỉ báo kỹ thuật ADX nằm dưới 20 cho thấy xu hướng còn yếu, VN-Index cần vượt vùng 1.850-1.870 điểm để xác nhận đà tăng trung hạn.",
+      "title": "Vietstock Daily 04/09/2026: Tiếp tục giằng co",
+      "summary": "Thị trường phiên 04/09/2026 diễn ra giằng co khi áp lực địa chính trị và lợi suất trái phiếu Mỹ tăng khiến VN-Index mở cửa gap down hơn 10 điểm, nhưng dòng tiền bắt đáy từ nhóm bluechip hỗ trợ thị trường hồi phục và đóng cửa tăng 1,39%; chỉ báo ADX tiếp tục dưới 20 cho thấy xu hướng còn yếu.",
       "source": "Vietstock",
-      "url": "https://vn.investing.com/news/stock-market-news/vietstock-weekly-0304092026-giu-da-phuc-hoi-2704669"
+      "url": "https://vn.investing.com/news/stock-market-news/vietstock-daily-04092026-tiep-tuc-giang-co-2705674"
+    },
+    {
+      "title": "FTSE Russell nâng hạng chứng khoán Việt Nam - Dòng vốn tỷ USD đang đến",
+      "summary": "FTSE Russell chính thức nâng hạng thị trường chứng khoán Việt Nam lên thị trường mới nổi thứ cấp hiệu lực từ 21/09/2026, dự kiến thu hút 6-8 tỷ USD vốn ngoại trong nhiều năm; đợt đầu tiên khoảng 145 triệu USD ưu tiên 27 cổ phiếu thuộc nhóm ngân hàng và vốn hóa lớn.",
+      "source": "VnEconomy",
+      "url": "https://vneconomy.vn/ftse-russell-xac-nhan-viet-nam-vuot-qua-ky-review-chinh-thuc-nang-hang-vao-thang-92026.htm"
+    },
+    {
+      "title": "Nhận định chứng khoán 4/9: VN-Index giữ SMA 100 ngày sau nến rút chân",
+      "summary": "Sau phiên 3/9 VN-Index để lại nến rút chân và giữ đường SMA 100 ngày; ADX dưới 20 cho thấy xu hướng còn yếu; khối ngoại bán ròng hơn 1.562 tỷ đồng phiên 3/9 là rủi ro ngắn hạn, nhưng kỳ vọng FTSE hiệu lực 21/09/2026 vẫn là điểm tựa tâm lý quan trọng.",
+      "source": "Dientuungdung",
+      "url": "https://dientuungdung.vn/nhan-dinh-chung-khoan-49-vn-index-giu-sma-100-ngay-sau-nen-rut-chan-17902.html"
     }
   ],
   "advice": {
-    "summary": "Phiên 03/09/2026 thị trường điều chỉnh nhẹ -0,55% về 1.822,08 điểm sau kỳ nghỉ lễ, thận trọng trong bối cảnh lợi suất Mỹ tăng vọt. Danh mục đang lỗ 17,52% (giá trị 63.815.000 đồng so với vốn 77.370.000 đồng). Ưu tiên số một: cắt lỗ MBB ngay lập tức; SSB vượt mục tiêu 18.000 đồng cần chốt lời một phần; HPG dưới ngưỡng cảnh báo cần theo dõi rất sát.",
+    "summary": "Phiên 04/09/2026 đóng cửa VN-Index tăng 25,36 điểm (+1,39%) lên 1.853,08 điểm; thị trường hồi phục tốt, kỳ vọng FTSE 21/09 là chất xúc tác chính. Danh mục đang lỗ 17,01% (giá trị 64.210.000 đồng so với vốn 77.370.000 đồng). Ưu tiên số một là cắt lỗ MBB ngay lập tức để giải phóng vốn; HPG dưới ngưỡng cảnh báo cần theo dõi rất sát; FPT và SSB giữ vị thế đón sóng FTSE 21/09.",
     "actions": [
-      "FPT: GIỮ - giá 72.200 đồng, lỗ 18,74% so với vốn 88.850 đồng; trên ngưỡng cảnh báo 71.400 đồng; FTSE 21/09 hỗ trợ nhóm công nghệ; stoploss cứng 68.000 đồng.",
-      "SSB: CHỐT LỜI MỘT PHẦN - giá 18.200 đồng vượt mục tiêu 18.000 đồng, lãi 28,62% so với vốn 14.150 đồng; bán 30-50% vị thế bảo toàn lợi nhuận, giữ phần còn lại đón sóng FTSE 21/09.",
-      "HPG: THEO DÕI SÁT - giá 21.650 đồng dưới ngưỡng cảnh báo 22.050 đồng, lỗ 8,26% so với vốn 23.600 đồng; FTSE 21/09 là điểm tựa; cắt lỗ ngay nếu giá phá 21.000 đồng.",
-      "MBB: CẮT LỖ - giá 20.700 đồng dưới stoploss 22.500 đồng, lỗ 17,69% so với vốn 25.150 đồng; không có chất xúc tác FTSE; thực hiện lệnh cắt lỗ để giải phóng vốn.",
-      "Tiền mới: sau khi cắt MBB, giữ tiền mặt 2-3 phiên quan sát; ưu tiên nhóm FTSE (ngân hàng, thép) khi có xác nhận dòng tiền ngoại và VN-Index vượt 1.850 điểm.",
-      "ACB (watchlist): giá 22.300 đồng (-1,55%); SHS mục tiêu 26.000 đồng; hưởng lợi từ FTSE - theo dõi 1-2 phiên nữa, cân nhắc vào lệnh khi thị trường ổn định hơn.",
-      "Vàng SJC: mua vào 144,4 triệu - bán ra 147,4 triệu đồng/lượng (chiều 03/09); giảm 1,3 triệu so với sáng; không mua mới ở vùng giá cao."
+      "FPT: GIỮ - giá 72.800 đồng, lỗ 18,06% so với vốn 88.850 đồng; trên ngưỡng cảnh báo 71.400 đồng; FTSE 21/09 hỗ trợ nhóm công nghệ; stoploss cứng 68.000 đồng.",
+      "SSB: GIỮ - giá 17.450 đồng (còn 550 đồng đến mục tiêu 18.000 đồng), lãi 23,32% so với vốn 14.150 đồng; FTSE 21/09 là chất xúc tác - giữ chờ mục tiêu rồi cân nhắc chốt lời.",
+      "HPG: THEO DÕI SÁT - giá 21.700 đồng dưới ngưỡng cảnh báo 22.050 đồng, lỗ 8,05% so với vốn 23.600 đồng; HPG trong 27 mã FTSE là điểm tựa; cắt lỗ ngay nếu giá phá 21.000 đồng.",
+      "MBB: CẮT LỖ - giá 20.550 đồng dưới stoploss 22.500 đồng, lỗ 18,29% so với vốn 25.150 đồng; không có chất xúc tác FTSE; thực hiện lệnh cắt lỗ để giải phóng vốn.",
+      "Tiền mới: sau khi cắt MBB, giữ tiền mặt 2-3 phiên quan sát; ưu tiên nhóm FTSE (ngân hàng, thép) khi có xác nhận dòng tiền ngoại và VN-Index vượt bền vững 1.870 điểm.",
+      "ACB (watchlist): giá 22.200 đồng; hưởng lợi dòng vốn FTSE vào nhóm ngân hàng - theo dõi 1-2 phiên nữa, cân nhắc vào lệnh khi thị trường xác nhận xu hướng.",
+      "Vàng SJC: mua vào 146,1 triệu - bán ra 149,1 triệu đồng/lượng (tăng 700.000 đồng so với 3/9); vàng thế giới tăng mạnh - không mua mới ở vùng giá cao."
     ],
     "disclaimer": "Thông tin tham khảo, không phải khuyến nghị đầu tư. Tự chịu trách nhiệm với quyết định của mình."
   }
