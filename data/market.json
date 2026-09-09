@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-09T07:31:55Z",
-  "updated_at_vn": "14:31 09/09/2026",
+  "updated_at": "2026-09-09T08:53:00Z",
+  "updated_at_vn": "15:53 09/09/2026",
   "session_date": "2026-09-09",
   "data_quality": "live",
   "vnindex": {
-    "close": 1823.59,
-    "change": -6.85,
-    "change_pct": -0.37,
+    "close": 1827.12,
+    "change": -3.32,
+    "change_pct": -0.18,
     "note": "Phiên 04/09/2026 đóng cửa lúc 15h45, VN-Index tăng 25,36 điểm (+1,39%) lên 1.853,08 điểm; thị trường hồi phục tốt sau phiên giằng co, được hỗ trợ bởi kỳ vọng dòng vốn FTSE Russell hiệu lực 21/09/2026 - cần vượt bền vững 1.870 điểm để xác nhận xu hướng tăng trung hạn."
   },
   "holdings": [
@@ -14,11 +14,11 @@
       "ticker": "FPT",
       "qty": 800,
       "avg_cost": 88850,
-      "price": 72500.0,
-      "change_pct": 0.42,
-      "value": 58000000.0,
-      "pnl": -13080000.0,
-      "pnl_pct": -18.4,
+      "price": 72400.0,
+      "change_pct": 0.28,
+      "value": 57920000.0,
+      "pnl": -13160000.0,
+      "pnl_pct": -18.51,
       "target": 116000,
       "stoploss": 68000,
       "action": "GIỮ",
@@ -28,11 +28,11 @@
       "ticker": "SSB",
       "qty": 100,
       "avg_cost": 14150,
-      "price": 17800.0,
-      "change_pct": -1.11,
-      "value": 1780000.0,
-      "pnl": 365000.0,
-      "pnl_pct": 25.8,
+      "price": 17700.0,
+      "change_pct": -1.67,
+      "value": 1770000.0,
+      "pnl": 355000.0,
+      "pnl_pct": 25.09,
       "target": 18000,
       "stoploss": 12500,
       "action": "GIỮ",
@@ -69,9 +69,9 @@
   ],
   "totals": {
     "cost": 77370000.0,
-    "value": 64005000.0,
-    "pnl": -13365000.0,
-    "pnl_pct": -17.27
+    "value": 63915000.0,
+    "pnl": -13455000.0,
+    "pnl_pct": -17.39
   },
   "watchlist": [
     {
