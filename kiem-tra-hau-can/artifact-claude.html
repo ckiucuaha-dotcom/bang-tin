@@ -4,25 +4,14 @@
 <style>
 /* Bố cục: app một cột (tối đa 760px), thanh tiêu đề dính trên, thanh điều hướng dưới đáy; phiếu nhập theo thể thức biên bản I-V */
 :root {
-  --bg: #eff1ec; --surface: #ffffff; --sunk: #f6f7f3; --fg: #172019; --muted: #5a6558; --faint: #8a9488; --line: #dde2d8;
-  --primary: #2b4a24; --primary-fg: #ffffff; --primary-soft: #e3ecdb; --primary-ink: #2b4a24;
-  --ok: #22743a; --ok-soft: #dff1e3; --warn: #985a00; --warn-soft: #fbedd5; --bad: #b3261e; --bad-soft: #fbe3df;
-  --shadow: 0 1px 2px rgba(23, 32, 25, .06), 0 4px 14px rgba(23, 32, 25, .05);
+  --bg: #f2faf6; --surface: #ffffff; --sunk: #f4f8f6; --fg: #0f172a; --muted: #475569; --faint: #94a3b8; --line: #dbe7e1;
+  --primary: #047857; --primary-fg: #ffffff; --primary-soft: #d1fae5; --primary-ink: #047857; --primary-line: #a7f3d0; --on-primary-muted: #d1fae5;
+  --ok: #059669; --ok-soft: #d1fae5; --warn: #b45309; --warn-soft: #fef3c7; --bad: #dc2626; --bad-soft: #fee2e2;
+  --shadow: 0 1px 2px rgba(15, 23, 42, .05), 0 4px 16px rgba(4, 120, 87, .07);
   --font: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
   --r: 14px; --r-sm: 10px; --nav-h: 64px;
-}
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #0e120e; --surface: #161b16; --sunk: #121712; --fg: #e4e9e1; --muted: #9aa597; --faint: #6d786b; --line: #263025;
-  --primary: #9cc783; --primary-fg: #0f1d0b; --primary-soft: #1f2d1a; --primary-ink: #a9d190;
-  --ok: #7fd193; --ok-soft: #173221; --warn: #e9b65a; --warn-soft: #33270f; --bad: #f2897b; --bad-soft: #3a1915;
-  --shadow: 0 1px 2px rgba(0, 0, 0, .4); color-scheme: dark;
-} }
-:root[data-theme="dark"] {
-  --bg: #0e120e; --surface: #161b16; --sunk: #121712; --fg: #e4e9e1; --muted: #9aa597; --faint: #6d786b; --line: #263025;
-  --primary: #9cc783; --primary-fg: #0f1d0b; --primary-soft: #1f2d1a; --primary-ink: #a9d190;
-  --ok: #7fd193; --ok-soft: #173221; --warn: #e9b65a; --warn-soft: #33270f; --bad: #f2897b; --bad-soft: #3a1915;
-  --shadow: 0 1px 2px rgba(0, 0, 0, .4); color-scheme: dark;
+  color-scheme: light;
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -51,7 +40,7 @@ section.view { display: grid; gap: 22px; min-width: 0; }
 .bnav .in { max-width: 760px; margin: 0 auto; height: var(--nav-h); display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding-inline: 16px; }
 .bnav button { background: none; border: 0; color: var(--faint); font: 600 12px var(--font); display: grid; justify-items: center; gap: 3px; cursor: pointer; padding: 6px; }
 .bnav button[aria-current="page"] { color: var(--primary-ink); }
-.bnav .fab { width: 54px; height: 54px; border-radius: 16px; background: var(--primary); color: var(--primary-fg); margin-top: -26px; box-shadow: 0 6px 18px rgba(43, 74, 36, .35); display: grid; place-items: center; }
+.bnav .fab { width: 54px; height: 54px; border-radius: 16px; background: var(--primary); color: var(--primary-fg); margin-top: -26px; box-shadow: 0 6px 18px rgba(4, 120, 87, .3); display: grid; place-items: center; }
 .bnav .fab svg { width: 26px; height: 26px; }
 
 /* ---------- Bottom action bar (form, detail) ---------- */
@@ -260,7 +249,7 @@ body { font-size: 16px; }
 .round .count b { color: var(--fg); }
 .urow { min-height: 64px; }
 .urow .st { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; flex: none; }
-.urow.done .st { background: var(--ok); color: var(--surface); }
+.urow.done .st { background: var(--ok); color: #fff; }
 .urow.missing .st { border: 2px dashed var(--line); color: var(--faint); }
 .urow .chev { color: var(--faint); }
 .urow small b { display: inline; font-size: inherit; color: var(--fg); }
@@ -274,6 +263,17 @@ body { font-size: 16px; }
 .bubble.full { max-height: none; }
 @media (hover: hover) { .urow:hover, .issue-row:hover, .rep:hover { background: var(--sunk); } }
 .urow:active, .issue-row:active { background: var(--sunk); }
+#rBody { display: grid; gap: 16px; min-width: 0; }
+.round .rdates { display: block; font-size: 14px; color: var(--muted); margin-top: 2px; }
+.round { background: linear-gradient(160deg, var(--primary-soft) 0%, var(--surface) 70%); border-color: var(--primary-line); }
+.appbar { background: var(--primary); border-bottom: 0; color: var(--primary-fg); }
+.appbar .ttl span { color: var(--on-primary-muted); }
+.appbar .mark { background: var(--surface); color: var(--primary); }
+.appbar .iconbtn { color: var(--primary-fg); }
+.appbar .iconbtn:hover { background: rgba(255, 255, 255, .14); }
+.bnav button[aria-current="page"] { color: var(--primary); }
+.bnav button[aria-current="page"]::before { content: ""; position: absolute; top: 0; left: 25%; right: 25%; height: 3px; border-radius: 0 0 3px 3px; background: var(--primary); }
+.urow.done .st { background: var(--ok); color: #ffffff; }
 </style>
 
 
@@ -301,6 +301,7 @@ body { font-size: 16px; }
   <symbol id="i-send" viewBox="0 0 24 24"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4z"/></symbol>
   <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></symbol>
   <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></symbol>
 </svg>
 
 <header class="appbar"><div class="in">
@@ -314,20 +315,49 @@ body { font-size: 16px; }
 
   <!-- ===== ĐỢT KIỂM TRA ===== -->
   <section class="view" id="v-round">
-    <div class="card round">
-      <div class="top">
-        <div><small>Đợt kiểm tra</small><b id="rTitle"></b></div>
-        <button class="btn sm outline" type="button" id="rDateBtn" aria-expanded="false" aria-controls="rDates" onclick="toggleDates()">Đổi ngày</button>
-      </div>
-      <div class="g2" id="rDates" hidden>
-        <label class="field"><span>Từ ngày</span><input id="bFrom" type="date" onchange="renderRound()"></label>
-        <label class="field"><span>Đến ngày</span><input id="bTo" type="date" onchange="renderRound()"></label>
-      </div>
-      <div class="steps-bar" id="rSteps" aria-hidden="true"></div>
-      <div class="count"><span><b id="rDone">0</b> / <span id="rTotal">0</span> đơn vị đã kiểm tra</span><span id="rIssues"></span></div>
+    <div class="card empty" id="rEmpty" hidden>
+      <div class="ic"><svg class="i" aria-hidden="true"><use href="#i-cal"/></svg></div>
+      <b>Chưa có đợt kiểm tra</b>
+      <span>Tạo đợt để bắt đầu ghi biên bản cho các đơn vị.</span>
+      <button class="btn primary" type="button" onclick="newRound()"><svg class="i sm" aria-hidden="true"><use href="#i-plus"/></svg>Tạo đợt kiểm tra</button>
     </div>
-    <div class="card ulist" id="rUnits"></div>
-    <button class="btn primary cta" type="button" id="sendBtn" onclick="openSend()"><svg class="i" aria-hidden="true"><use href="#i-send"/></svg><span>Gửi báo cáo Zalo</span></button>
+    <div id="rBody">
+      <div class="card round">
+        <div class="top">
+          <div style="min-width:0"><small>Đợt kiểm tra</small><b id="rTitle"></b><span class="rdates" id="rDates"></span></div>
+          <button class="iconbtn" type="button" id="rEdit" onclick="editRound()" aria-label="Sửa thông tin đợt"><svg class="i" aria-hidden="true"><use href="#i-edit"/></svg></button>
+        </div>
+        <div class="steps-bar" id="rSteps" aria-hidden="true"></div>
+        <div class="count"><span><b id="rDone">0</b> / <span id="rTotal">0</span> đơn vị đã kiểm tra</span><span id="rIssues"></span></div>
+        <div class="btnrow">
+          <button class="btn sm outline" type="button" onclick="go('rounds')"><svg class="i sm" aria-hidden="true"><use href="#i-cal"/></svg>Đổi đợt</button>
+          <button class="btn sm" type="button" id="rNew" onclick="newRound()"><svg class="i sm" aria-hidden="true"><use href="#i-plus"/></svg>Đợt mới</button>
+        </div>
+      </div>
+      <div class="card ulist" id="rUnits"></div>
+      <button class="btn primary cta" type="button" id="sendBtn" onclick="openSend()"><svg class="i" aria-hidden="true"><use href="#i-send"/></svg><span>Gửi báo cáo Zalo</span></button>
+    </div>
+  </section>
+
+  <!-- ===== CÁC ĐỢT ===== -->
+  <section class="view" id="v-rounds" hidden>
+    <button class="btn primary cta" type="button" id="roundsNew" onclick="newRound()"><svg class="i" aria-hidden="true"><use href="#i-plus"/></svg>Tạo đợt kiểm tra mới</button>
+    <div class="reps" id="roundList"></div>
+  </section>
+
+  <!-- ===== THÔNG TIN ĐỢT ===== -->
+  <section class="view" id="v-roundf" hidden>
+    <div class="card fsec">
+      <label class="field"><span>Tên đợt <em>*</em></span><input id="dTen" placeholder="VD: Kiểm tra tháng 10/2026"></label>
+      <div class="g2">
+        <label class="field"><span>Từ ngày <em>*</em></span><input id="dFrom" type="date"></label>
+        <label class="field"><span>Đến ngày</span><input id="dTo" type="date"></label>
+      </div>
+      <div class="field"><span>Nội dung kiểm tra</span><div class="chips" id="dTopics"></div></div>
+      <label class="field"><span>Thành phần đoàn</span><textarea id="dThanhPhan" rows="2" placeholder="Đ/c ... (Trưởng đoàn), Đ/c ..."></textarea></label>
+      <label class="field"><span>Hạn hoàn thành khắc phục</span><input id="dHan" type="date"></label>
+      <p class="hint">Các thông tin này tự điền sẵn khi ghi biên bản từng đơn vị.</p>
+    </div>
   </section>
 
   <!-- ===== KHẮC PHỤC ===== -->
@@ -337,16 +367,6 @@ body { font-size: 16px; }
       <div class="sec-h"><h2>Hạn chế chưa khắc phục</h2><span id="fixCount"></span></div>
       <div class="card ulist" id="fixList"></div>
     </div>
-  </section>
-
-  <!-- ===== LỊCH SỬ ===== -->
-  <section class="view" id="v-hist" hidden>
-    <div class="filters">
-      <label class="search"><svg class="i sm" aria-hidden="true"><use href="#i-search"/></svg><input id="fUnit" list="unitList" placeholder="Tìm đơn vị" aria-label="Tìm đơn vị" oninput="renderHist()"></label>
-      <input id="fMonth" type="month" aria-label="Lọc theo tháng" oninput="renderHist()">
-    </div>
-    <div class="reps" id="list"></div>
-    <button class="btn outline" type="button" id="addOther" onclick="backTo='hist'; startNew('')"><svg class="i sm" aria-hidden="true"><use href="#i-plus"/></svg>Thêm biên bản khác</button>
   </section>
 
   <!-- ===== CÀI ĐẶT ===== -->
@@ -423,7 +443,7 @@ body { font-size: 16px; }
 <nav class="bnav" id="bnav" aria-label="Điều hướng"><div class="in">
   <button type="button" id="n-round" onclick="go('round')"><svg class="i" aria-hidden="true"><use href="#i-doc"/></svg>Kiểm tra</button>
   <button type="button" id="n-fix" onclick="go('fix')"><svg class="i" aria-hidden="true"><use href="#i-clock"/></svg>Khắc phục<span class="badge" id="fixBadge" hidden></span></button>
-  <button type="button" id="n-hist" onclick="go('hist')"><svg class="i" aria-hidden="true"><use href="#i-search"/></svg>Lịch sử</button>
+  <button type="button" id="n-rounds" onclick="go('rounds')"><svg class="i" aria-hidden="true"><use href="#i-cal"/></svg>Các đợt</button>
   <button type="button" id="n-cfg" onclick="go('cfg')"><svg class="i" aria-hidden="true"><use href="#i-gear"/></svg>Cài đặt</button>
 </div></nav>
 
@@ -435,6 +455,10 @@ body { font-size: 16px; }
   <button class="btn danger" type="button" id="delBtn" onclick="askDelete()" aria-label="Xóa biên bản"><svg class="i sm" aria-hidden="true"><use href="#i-trash"/></svg></button>
   <button class="btn outline" type="button" id="editBtn" onclick="editCurrent()"><svg class="i sm" aria-hidden="true"><use href="#i-edit"/></svg>Sửa</button>
   <button class="btn primary grow" type="button" onclick="pdfCurrent()"><svg class="i sm" aria-hidden="true"><use href="#i-pdf"/></svg>Tải PDF đơn vị</button>
+</div></div>
+<div class="abar" id="bar-roundf" hidden><div class="in">
+  <button class="btn danger" type="button" id="dDel" onclick="askDeleteRound()" aria-label="Xóa đợt"><svg class="i sm" aria-hidden="true"><use href="#i-trash"/></svg></button>
+  <button class="btn primary grow" type="button" id="dSave" onclick="saveRound()"><svg class="i sm" aria-hidden="true"><use href="#i-check"/></svg>Lưu đợt kiểm tra</button>
 </div></div>
 <div class="abar" id="bar-send" hidden><div class="in">
   <button class="btn outline" type="button" onclick="pdfBatch()"><svg class="i sm" aria-hidden="true"><use href="#i-pdf"/></svg>Tải PDF</button>
@@ -465,6 +489,7 @@ var DEFAULT_CFG = {
 var db = null, assets = null, downloads = null, canWrite = false;
 var cfg = DEFAULT_CFG, reports = [], current = null, editingId = null, yeuCauTouched = false;
 var view = 'round', backTo = 'round', lb = { ids: [], i: 0 };
+var rounds = [], activeRoundId = null, editingRoundId = null;
 
 function $(id) { return document.getElementById(id); }
 function ic(name, cls) { return '<svg class="i' + (cls ? ' ' + cls : '') + '" aria-hidden="true"><use href="#i-' + name + '"/></svg>'; }
@@ -492,25 +517,26 @@ function sameUnit(a, b) { return String(a || '').trim().toLowerCase() === String
 function byTimeDesc(a, b) { return ((b.ngay || '') + (b.gio || '')).localeCompare((a.ngay || '') + (a.gio || '')) || String(b.id).localeCompare(String(a.id)); }
 
 /* ---------- Điều hướng ---------- */
-var TOP = ['round', 'fix', 'hist', 'cfg'];
+var TOP = ['round', 'fix', 'rounds', 'cfg'];
 function go(v) {
   if (TOP.indexOf(v) >= 0) backTo = v;
   view = v;
-  ['round', 'fix', 'hist', 'cfg', 'new', 'show', 'send'].forEach(function (k) { $('v-' + k).hidden = k !== v; });
+  ['round', 'fix', 'rounds', 'cfg', 'new', 'show', 'send', 'roundf'].forEach(function (k) { $('v-' + k).hidden = k !== v; });
   var sub = TOP.indexOf(v) < 0;
   $('bnav').hidden = sub; $('wrap').classList.toggle('noNav', sub);
-  $('bar-new').hidden = v !== 'new'; $('bar-show').hidden = v !== 'show'; $('bar-send').hidden = v !== 'send';
+  $('bar-new').hidden = v !== 'new'; $('bar-show').hidden = v !== 'show'; $('bar-send').hidden = v !== 'send'; $('bar-roundf').hidden = v !== 'roundf';
   $('delBtn').hidden = $('editBtn').hidden = !canWrite;
   $('backBtn').hidden = !sub; $('mark').hidden = sub;
   TOP.forEach(function (k) { if (k === v) $('n-' + k).setAttribute('aria-current', 'page'); else $('n-' + k).removeAttribute('aria-current'); });
   var titles = {
     round: ['Sổ Kiểm tra Hậu cần', 'Ghi biên bản từng đơn vị, gửi báo cáo một lần'],
     fix: ['Theo dõi khắc phục', 'Hạn chế của các đơn vị'],
-    hist: ['Lịch sử biên bản', 'Tất cả các đợt'],
+    rounds: ['Các đợt kiểm tra', rounds.length + ' đợt'],
+    roundf: [editingRoundId ? 'Sửa đợt kiểm tra' : 'Đợt kiểm tra mới', editingRoundId ? $('dTen').value : 'Thông tin chung cho các đơn vị'],
     cfg: ['Cài đặt', 'Danh mục dùng chung'],
     new: [editingId ? 'Sửa biên bản' : ($('donVi').value || 'Biên bản mới'), editingId ? editingId : 'Ngày ' + vnDate($('ngay').value)],
     show: [current ? current.donVi : 'Biên bản', current ? current.id : ''],
-    send: ['Gửi báo cáo Zalo', roundLabel()]
+    send: ['Gửi báo cáo Zalo', roundLabel() + ' · ' + roundDates()]
   };
   $('barTitle').textContent = titles[v][0]; $('barSub').textContent = titles[v][1];
   window.scrollTo(0, 0);
@@ -546,28 +572,46 @@ function reportState(r) {
 }
 
 /* ---------- Đợt kiểm tra ---------- */
-function roundRange() {
-  var from = $('bFrom').value || todayIso(), to = $('bTo').value || from;
-  return to < from ? { from: to, to: from } : { from: from, to: to };
+function activeRound() { return rounds.filter(function (d) { return d.id === activeRoundId; })[0] || null; }
+function sortedRounds() { return rounds.slice().sort(function (a, b) { return (b.tuNgay || '').localeCompare(a.tuNgay || '') || String(b.id).localeCompare(String(a.id)); }); }
+function pickRound() {
+  if (activeRound()) return;
+  var saved = null;
+  try { saved = localStorage.getItem('so-kt-dot'); } catch (e) {}
+  activeRoundId = rounds.some(function (d) { return d.id === saved; }) ? saved : ((sortedRounds()[0] || {}).id || null);
 }
-function roundLabel() { var r = roundRange(); return r.from === r.to ? 'Ngày ' + vnDate(r.from) : vnDate(r.from) + ' - ' + vnDate(r.to); }
+function setActiveRound(id) {
+  activeRoundId = id;
+  try { localStorage.setItem('so-kt-dot', id); } catch (e) {}
+  renderAll();
+}
+function rangeOf(d) { return d ? { from: d.tuNgay, to: d.denNgay && d.denNgay >= d.tuNgay ? d.denNgay : d.tuNgay } : { from: todayIso(), to: todayIso() }; }
+function roundRange() { return rangeOf(activeRound()); }
+function datesOf(d) { var r = rangeOf(d); return r.from === r.to ? 'Ngày ' + vnDate(r.from) : vnDate(r.from) + ' - ' + vnDate(r.to); }
+function roundLabel() { var d = activeRound(); return d ? d.ten : 'Chưa có đợt'; }
+function roundDates() { return datesOf(activeRound()); }
 function rangeText(r) { return r.from === r.to ? 'ngày ' + vnDate(r.from) : 'từ ' + vnDate(r.from) + ' đến ' + vnDate(r.to); }
-function toggleDates() {
-  var open = $('rDates').hidden;
-  $('rDates').hidden = !open; $('rDateBtn').setAttribute('aria-expanded', open);
-  $('rDateBtn').textContent = open ? 'Xong' : 'Đổi ngày';
+/* Biên bản thuộc đợt: có mã đợt, hoặc biên bản cũ (chưa có mã đợt) nằm trong khoảng ngày của đợt */
+function reportsOf(d) {
+  if (!d) return [];
+  var rg = rangeOf(d);
+  return reports.filter(function (r) { return r.dotId ? r.dotId === d.id : (r.ngay >= rg.from && r.ngay <= rg.to); }).sort(byTimeDesc);
 }
-function roundRows() {
-  var rg = roundRange();
-  var inRange = reports.filter(function (r) { return r.ngay >= rg.from && r.ngay <= rg.to; }).sort(byTimeDesc);
-  var latest = function (u) { return inRange.filter(function (r) { return sameUnit(r.donVi, u); })[0] || null; };
+function rowsOf(d) {
+  var list = reportsOf(d);
+  var latest = function (u) { return list.filter(function (r) { return sameUnit(r.donVi, u); })[0] || null; };
   var rows = cfg.units.map(function (u) { return { unit: u, r: latest(u) }; });
-  inRange.forEach(function (r) { if (!rows.some(function (x) { return sameUnit(x.unit, r.donVi); })) rows.push({ unit: r.donVi, r: latest(r.donVi) }); });
+  list.forEach(function (r) { if (!rows.some(function (x) { return sameUnit(x.unit, r.donVi); })) rows.push({ unit: r.donVi, r: latest(r.donVi) }); });
   return rows;
 }
+function roundRows() { return rowsOf(activeRound()); }
 function renderRound() {
+  var d = activeRound();
+  $('rEmpty').hidden = !!d; $('rBody').hidden = !d;
+  $('rNew').hidden = $('rEdit').hidden = $('roundsNew').hidden = !canWrite;
+  if (!d) return;
   var rows = roundRows(), done = rows.filter(function (x) { return x.r; }).length, issues = 0;
-  $('rTitle').textContent = roundLabel();
+  $('rTitle').textContent = d.ten; $('rDates').textContent = roundDates();
   $('rDone').textContent = done; $('rTotal').textContent = rows.length;
   $('rSteps').innerHTML = rows.map(function (x) { return '<i class="' + (x.r ? 'on' : '') + '"></i>'; }).join('');
   var box = $('rUnits'); box.innerHTML = '';
@@ -595,13 +639,14 @@ function renderRound() {
 
 /* ---------- Tin Zalo: đủ các đơn vị, ngắn gọn ---------- */
 function buildRoundMessage(rows) {
-  var rg = roundRange(), topics = [], han = '';
+  var d = activeRound() || {}, topics = (d.noiDung || []).slice(), han = d.han || '';
   rows.forEach(function (x) {
     if (!x.r) return;
     (x.r.noiDung || []).forEach(function (t) { if (topics.indexOf(t) < 0) topics.push(t); });
     if (x.r.hanBaoCao && x.r.hanBaoCao > han) han = x.r.hanBaoCao;
   });
-  var L = ['📋 KẾT QUẢ KIỂM TRA HẬU CẦN', (rg.from === rg.to ? 'Ngày ' + vnDate(rg.from) : 'Từ ' + vnDate(rg.from) + ' đến ' + vnDate(rg.to)) + (topics.length ? ' · ' + topics.join(', ') : '')];
+  var L = ['📋 KẾT QUẢ KIỂM TRA HẬU CẦN', (d.ten ? d.ten.toUpperCase() + ' · ' : '') + roundDates()];
+  if (topics.length) L.push('Nội dung: ' + topics.join(', '));
   rows.forEach(function (x, i) {
     var r = x.r;
     L.push('');
@@ -626,11 +671,11 @@ function openSend() {
 
 /* ---------- Form ---------- */
 function defaultYeuCau() { return 'Khắc phục dứt điểm các hạn chế, báo cáo kết quả (kèm ảnh) về ' + (cfg.coQuan || 'Ban Hậu cần') + '.'; }
-function renderTopics(selected) {
+function renderTopics(selected, boxId) {
   selected = selected || [];
   var all = cfg.topics.slice();
   selected.forEach(function (s) { if (all.indexOf(s) < 0) all.push(s); });
-  $('topics').innerHTML = all.map(function (t) {
+  $(boxId || 'topics').innerHTML = all.map(function (t) {
     return '<label class="chip"><input type="checkbox" value="' + esc(t) + '"' + (selected.indexOf(t) >= 0 ? ' checked' : '') + '>' + ic('check', 'sm') + esc(t) + '</label>';
   }).join('');
 }
@@ -638,20 +683,16 @@ function renderUnits() { $('unitList').innerHTML = cfg.units.map(function (u) { 
 function getXL() { var c = document.querySelector('input[name="xl"]:checked'); return c ? c.value : ''; }
 function setXL(v) { Array.prototype.forEach.call(document.querySelectorAll('input[name="xl"]'), function (i) { i.checked = i.value === (v || ''); }); }
 function askReset() { confirmBox('Làm mới biên bản?', 'Nội dung đang nhập sẽ bị xóa.', 'Làm mới', function () { var u = $('donVi').value; resetForm(); $('donVi').value = u; }); }
-function lastForRound() {
-  var rg = roundRange();
-  return reports.filter(function (r) { return r.ngay >= rg.from && r.ngay <= rg.to; }).sort(byTimeDesc)[0] || null;
-}
 function resetForm() {
   editingId = null; yeuCauTouched = false;
-  var rg = roundRange(), last = lastForRound();
+  // Điền sẵn từ thông tin đợt; nếu đợt bỏ trống thì lấy theo đơn vị vừa ghi trong đợt
+  var d = activeRound() || {}, rg = roundRange(), last = reportsOf(activeRound())[0] || {};
   $('donVi').value = ''; $('ngay').value = todayIso() >= rg.from && todayIso() <= rg.to ? todayIso() : rg.from;
   var n = new Date(); $('gio').value = pad(n.getHours()) + ':' + pad(n.getMinutes());
-  // Cùng đợt: giữ sẵn thành phần đoàn, nội dung và hạn của đơn vị vừa ghi
-  $('thanhPhan').value = last ? last.thanhPhan || '' : '';
-  setXL(''); $('hanBaoCao').value = last ? last.hanBaoCao || '' : '';
+  $('thanhPhan').value = d.thanhPhan || last.thanhPhan || '';
+  setXL(''); $('hanBaoCao').value = d.han || last.hanBaoCao || '';
   $('yeuCau').value = defaultYeuCau();
-  renderTopics(last ? last.noiDung : []);
+  renderTopics((d.noiDung && d.noiDung.length) ? d.noiDung : (last.noiDung || []));
   $('manhList').innerHTML = ''; $('yeuList').innerHTML = '';
   addManh(); addYeu();
 }
@@ -758,6 +799,7 @@ function save() {
   busy('Đang lưu...');
   uploadAll(lists).then(function (ids) {
     var r = {
+      dotId: old ? (old.dotId || activeRoundId || '') : (activeRoundId || ''),
       donVi: donVi, ngay: $('ngay').value, gio: $('gio').value,
       noiDung: Array.prototype.map.call($('topics').querySelectorAll('input:checked'), function (i) { return i.value; }),
       thanhPhan: $('thanhPhan').value.trim(), manh: manh,
@@ -958,7 +1000,7 @@ function PdfDoc() {
     var cw = [W - 2 * M - 520, 200, 320], rh = 50;
     var draw = function (cells, head) {
       me.ensure(rh);
-      ctx.fillStyle = head ? '#e3ecdb' : '#ffffff'; ctx.fillRect(M, y, W - 2 * M, rh);
+      ctx.fillStyle = head ? '#d1fae5' : '#ffffff'; ctx.fillRect(M, y, W - 2 * M, rh);
       ctx.strokeStyle = '#c9d0c2'; ctx.lineWidth = 2; ctx.strokeRect(M, y, W - 2 * M, rh);
       var x = M;
       cells.forEach(function (c, i) {
@@ -1075,11 +1117,11 @@ function pdfCurrent() {
   }).catch(fail);
 }
 function pdfBatch() {
-  var rg = roundRange();
+  var rg = roundRange(), name = roundLabel();
   makePdf(roundRows(), {
-    title: 'KẾT QUẢ KIỂM TRA CÔNG TÁC HẬU CẦN', sub: 'Đợt kiểm tra ' + rangeText(rg), table: true,
-    signs: ['TRƯỞNG ĐOÀN KIỂM TRA'], footer: 'Kiểm tra hậu cần ' + rangeText(rg),
-    filename: 'Ket-qua-kiem-tra-' + rg.from + (rg.to !== rg.from ? '-den-' + rg.to : '') + '.pdf'
+    title: 'KẾT QUẢ KIỂM TRA CÔNG TÁC HẬU CẦN', sub: name + ' · ' + rangeText(rg), table: true,
+    signs: ['TRƯỞNG ĐOÀN KIỂM TRA'], footer: name + ' · ' + rangeText(rg),
+    filename: 'Ket-qua-' + fileSafe(name) + '-' + rg.from + '.pdf'
   }).catch(fail);
 }
 
@@ -1112,28 +1154,78 @@ function renderFix() {
   });
 }
 
-/* ---------- Lịch sử ---------- */
-function renderHist() {
-  var fu = $('fUnit').value.trim().toLowerCase(), fm = $('fMonth').value;
-  var rows = reports.filter(function (r) { return (!fu || (r.donVi || '').toLowerCase().indexOf(fu) >= 0) && (!fm || (r.ngay || '').slice(0, 7) === fm); }).sort(byTimeDesc);
-  var box = $('list');
-  if (!rows.length) {
-    box.innerHTML = '<div class="card empty"><div class="ic">' + ic(reports.length ? 'search' : 'doc') + '</div><b>' + (reports.length ? 'Không có biên bản phù hợp' : 'Chưa có biên bản') + '</b></div>';
-    return;
-  }
+/* ---------- Các đợt ---------- */
+function renderRounds() {
+  var box = $('roundList'), list = sortedRounds();
+  if (!list.length) { box.innerHTML = '<div class="card empty"><div class="ic">' + ic('cal') + '</div><b>Chưa có đợt kiểm tra</b></div>'; return; }
   box.innerHTML = '';
-  rows.forEach(function (r) {
-    var yeu = r.yeu || [], done = yeu.filter(function (y) { return y.xong; }).length, od = yeu.filter(function (y) { return hanState(y) === 'bad'; }).length;
+  list.forEach(function (d) {
+    var rows = rowsOf(d), done = rows.filter(function (x) { return x.r; }).length, issues = 0, od = 0;
+    rows.forEach(function (x) { if (x.r) (x.r.yeu || []).forEach(function (y) { issues++; if (hanState(y) === 'bad') od++; }); });
+    var on = d.id === activeRoundId;
     var b = document.createElement('button');
-    b.type = 'button'; b.className = 'card rep s-' + reportState(r);
-    b.innerHTML = '<div class="avatar" aria-hidden="true">' + esc(initials(r.donVi)) + '</div><div style="min-width:0">' +
-      '<div class="top"><b>' + esc(r.donVi) + '</b>' + xlPill(r.xepLoai) + '</div>' +
-      '<div class="meta">' + vnDate(r.ngay) + '</div>' +
-      '<div class="foot">' +
-      (yeu.length ? '<span class="prog"><span class="bar"><i style="width:' + Math.round(done / yeu.length * 100) + '%"></i></span>' + done + '/' + yeu.length + ' đã khắc phục</span>' : '<span class="pill ok">' + ic('check', 'sm') + 'Không có hạn chế</span>') +
-      (od ? '<span class="pill bad">' + od + ' quá hạn</span>' : '') + '</div></div>';
-    b.onclick = function () { openReport(r); };
+    b.type = 'button'; b.className = 'card rep ' + (on ? 's-ok' : '');
+    b.innerHTML = '<div class="avatar" aria-hidden="true">' + ic('cal') + '</div><div style="min-width:0">' +
+      '<div class="top"><b>' + esc(d.ten) + '</b>' + (on ? '<span class="pill pri">Đang mở</span>' : '') + '</div>' +
+      '<div class="meta">' + esc(datesOf(d)) + '</div>' +
+      '<div class="foot"><span class="prog"><span class="bar"><i style="width:' + (rows.length ? Math.round(done / rows.length * 100) : 0) + '%"></i></span>' + done + '/' + rows.length + ' đơn vị</span>' +
+      '<span>' + issues + ' hạn chế</span>' + (od ? '<span class="pill bad">' + od + ' quá hạn</span>' : '') + '</div></div>';
+    b.onclick = function () { setActiveRound(d.id); go('round'); };
     box.appendChild(b);
+  });
+}
+function fillRoundForm(d) {
+  $('dTen').value = d.ten || ''; $('dFrom').value = d.tuNgay || todayIso(); $('dTo').value = d.denNgay || d.tuNgay || todayIso();
+  $('dThanhPhan').value = d.thanhPhan || ''; $('dHan').value = d.han || '';
+  renderTopics(d.noiDung || [], 'dTopics');
+}
+function newRound() {
+  if (!canWrite) { toast('Anh/chị chỉ có quyền xem.'); return; }
+  editingRoundId = null;
+  var prev = sortedRounds()[0] || {}, t = todayIso();
+  var ten = 'Kiểm tra tháng ' + Number(t.slice(5, 7)) + '/' + t.slice(0, 4), k = 2, base = ten;
+  while (rounds.some(function (d) { return d.ten === ten; })) ten = base + ' (lần ' + (k++) + ')';
+  fillRoundForm({ ten: ten, tuNgay: t, denNgay: t, thanhPhan: prev.thanhPhan || '', noiDung: prev.noiDung || cfg.topics });
+  $('dDel').hidden = true;
+  go('roundf'); $('dTen').focus(); $('dTen').select();
+}
+function editRound() {
+  var d = activeRound(); if (!d) return;
+  editingRoundId = d.id; fillRoundForm(d);
+  $('dDel').hidden = !canWrite;
+  go('roundf');
+}
+function saveRound() {
+  if (!db || !canWrite) { toast('Chưa kết nối được dữ liệu hoặc không có quyền ghi.'); return; }
+  var ten = $('dTen').value.trim(), from = $('dFrom').value, to = $('dTo').value || from;
+  if (!ten) { toast('Chưa nhập tên đợt.'); $('dTen').focus(); return; }
+  if (!from) { toast('Chưa chọn ngày bắt đầu.'); $('dFrom').focus(); return; }
+  if (to < from) { toast('"Đến ngày" phải sau "Từ ngày".'); $('dTo').focus(); return; }
+  var id = editingRoundId || ('D' + newId().slice(2));
+  var old = rounds.filter(function (d) { return d.id === id; })[0];
+  var d = {
+    ten: ten, tuNgay: from, denNgay: to,
+    noiDung: Array.prototype.map.call($('dTopics').querySelectorAll('input:checked'), function (i) { return i.value; }),
+    thanhPhan: $('dThanhPhan').value.trim(), han: $('dHan').value,
+    taoLuc: old && old.taoLuc ? old.taoLuc : new Date().toISOString()
+  };
+  busy('Đang lưu đợt...');
+  db.collection('rounds').doc(id).set(d).then(function () {
+    d.id = id; busy('');
+    rounds = rounds.filter(function (x) { return x.id !== id; }).concat([d]);
+    editingRoundId = null; setActiveRound(id); go('round');
+    toast(old ? 'Đã cập nhật đợt.' : 'Đã tạo ' + ten + '.');
+  }).catch(fail);
+}
+function askDeleteRound() {
+  var d = activeRound(); if (!d) return;
+  var n = reportsOf(d).filter(function (r) { return r.dotId === d.id; }).length;
+  if (n) { toast('Đợt còn ' + n + ' biên bản. Xóa các biên bản trước khi xóa đợt.'); return; }
+  confirmBox('Xóa ' + d.ten + '?', 'Đợt chưa có biên bản nào. Xóa sẽ không khôi phục được.', 'Xóa đợt', function () {
+    db.collection('rounds').doc(d.id).delete().then(function () {
+      rounds = rounds.filter(function (x) { return x.id !== d.id; });
+      activeRoundId = null; pickRound(); editingRoundId = null; renderAll(); go('rounds'); toast('Đã xóa đợt.');
+    }).catch(fail);
   });
 }
 
@@ -1152,13 +1244,13 @@ function applyCfg(c) {
   renderAll();
 }
 function renderAll() {
-  renderRound(); renderFix(); renderHist();
+  pickRound();
+  renderRound(); renderFix(); renderRounds();
   if (view === 'send') openSend();
 }
 
 /* ---------- Khởi động ---------- */
 $('yeuCau').addEventListener('input', function () { yeuCauTouched = true; });
-$('bFrom').value = todayIso(); $('bTo').value = todayIso();
 applyCfg(DEFAULT_CFG); resetForm(); go('round');
 
 (function boot() {
@@ -1172,9 +1264,13 @@ applyCfg(DEFAULT_CFG); resetForm(); go('round');
     $('offline').hidden = true;
     return Promise.resolve(user ? user.can('data.write') : null).then(function (ok) {
       canWrite = ok !== false;
-      if (!canWrite) { $('ro-new').hidden = false; $('saveBtn').disabled = true; $('cfgBtn').disabled = true; $('addOther').hidden = true; }
+      if (!canWrite) { $('ro-new').hidden = false; $('saveBtn').disabled = true; $('cfgBtn').disabled = true; }
       go(view);
       db.doc('config/main').onSnapshot(function (s) { if (s.exists) applyCfg(s.data()); }, function (e) { toast('Lỗi tải cài đặt: ' + errText(e)); });
+      db.collection('rounds').onSnapshot(function (snap) {
+        rounds = snap.docs.map(function (d) { return Object.assign({ id: d.id }, d.data()); });
+        renderAll();
+      }, function (e) { toast('Lỗi tải danh sách đợt: ' + errText(e)); });
       db.collection('reports').onSnapshot(function (snap) {
         reports = snap.docs.map(function (d) { return Object.assign({ id: d.id }, d.data()); });
         renderAll();
