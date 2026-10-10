@@ -1,129 +1,297 @@
 <title>Sổ Kiểm tra Hậu cần</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
-/* Bố cục: thanh tab dính trên cùng, một cột nội dung rộng tối đa 720px, phiếu ghi chia khối theo trình tự biên bản */
+/* Bố cục: app một cột (tối đa 760px), thanh tiêu đề dính trên, thanh điều hướng dưới đáy; phiếu nhập theo thể thức biên bản I-V */
 :root {
-  --bg: #f3f4ee; --surface: #ffffff; --sunk: #eef0e7; --fg: #1c2318; --muted: #5d6855; --line: #d6dacb;
-  --accent: #46642c; --accent-fg: #ffffff; --accent-soft: #e2ead6;
-  --ok: #2c7337; --ok-soft: #e1f0e2; --warn: #94560a; --warn-soft: #f8ecd6; --bad: #b02a1d; --bad-soft: #f9e4e0;
-  --font-body: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
-  --r: 10px;
+  --bg: #eff1ec; --surface: #ffffff; --sunk: #f6f7f3; --fg: #172019; --muted: #5a6558; --faint: #8a9488; --line: #dde2d8;
+  --primary: #2b4a24; --primary-fg: #ffffff; --primary-soft: #e3ecdb; --primary-ink: #2b4a24;
+  --ok: #22743a; --ok-soft: #dff1e3; --warn: #985a00; --warn-soft: #fbedd5; --bad: #b3261e; --bad-soft: #fbe3df;
+  --shadow: 0 1px 2px rgba(23, 32, 25, .06), 0 4px 14px rgba(23, 32, 25, .05);
+  --font: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --r: 14px; --r-sm: 10px; --nav-h: 64px;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #121610; --surface: #1a2016; --sunk: #151a12; --fg: #e4e9dc; --muted: #98a38c; --line: #2e3728;
-  --accent: #a3c47c; --accent-fg: #142010; --accent-soft: #263220;
-  --ok: #82c98f; --ok-soft: #1c2e1f; --warn: #e3b25a; --warn-soft: #33281434; --bad: #f08a76; --bad-soft: #3a1d18;
-  color-scheme: dark;
+  --bg: #0e120e; --surface: #161b16; --sunk: #121712; --fg: #e4e9e1; --muted: #9aa597; --faint: #6d786b; --line: #263025;
+  --primary: #9cc783; --primary-fg: #0f1d0b; --primary-soft: #1f2d1a; --primary-ink: #a9d190;
+  --ok: #7fd193; --ok-soft: #173221; --warn: #e9b65a; --warn-soft: #33270f; --bad: #f2897b; --bad-soft: #3a1915;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4); color-scheme: dark;
 } }
 :root[data-theme="dark"] {
-  --bg: #121610; --surface: #1a2016; --sunk: #151a12; --fg: #e4e9dc; --muted: #98a38c; --line: #2e3728;
-  --accent: #a3c47c; --accent-fg: #142010; --accent-soft: #263220;
-  --ok: #82c98f; --ok-soft: #1c2e1f; --warn: #e3b25a; --warn-soft: #33281434; --bad: #f08a76; --bad-soft: #3a1d18;
-  color-scheme: dark;
+  --bg: #0e120e; --surface: #161b16; --sunk: #121712; --fg: #e4e9e1; --muted: #9aa597; --faint: #6d786b; --line: #263025;
+  --primary: #9cc783; --primary-fg: #0f1d0b; --primary-soft: #1f2d1a; --primary-ink: #a9d190;
+  --ok: #7fd193; --ok-soft: #173221; --warn: #e9b65a; --warn-soft: #33270f; --bad: #f2897b; --bad-soft: #3a1915;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .4); color-scheme: dark;
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
-body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--font-body); }
-.wrap { max-width: 720px; margin: 0 auto; padding-inline: 16px; padding-block: 16px 40px; }
-header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); border-bottom: 1px solid var(--line); }
-header.top .in { max-width: 720px; margin: 0 auto; padding-inline: 16px; padding-block: 12px 0; }
-.brand { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
-.brand h1 { margin: 0; font-size: 17px; font-weight: 700; letter-spacing: -.01em; text-wrap: balance; }
-.brand small { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
-nav.tabs { display: flex; gap: 2px; margin-top: 8px; overflow-x: auto; }
-nav.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; color: var(--muted); padding: 8px 12px; font: 600 14px var(--font-body); cursor: pointer; white-space: nowrap; }
-nav.tabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
-h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 10px; font-weight: 600; }
-.block { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; display: grid; gap: 10px; }
-.stack { display: grid; gap: 14px; }
-.field { display: grid; gap: 4px; min-width: 0; }
-.field > span { font-size: 13px; color: var(--muted); font-weight: 500; }
-.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-@media (max-width: 420px) { .grid2.wrapnarrow { grid-template-columns: 1fr; } }
-input, select, textarea { width: 100%; font: 15px var(--font-body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; }
-textarea { resize: vertical; min-height: 42px; }
-input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-visible, .chip:focus-within, .addph:focus-within { outline: 2px solid var(--accent); outline-offset: 1px; }
-button { font: 600 14px var(--font-body); border: 1px solid transparent; border-radius: 8px; padding: 9px 14px; cursor: pointer; background: var(--accent-soft); color: var(--accent); }
-button.primary { background: var(--accent); color: var(--accent-fg); }
-button.ghost { background: none; border-color: var(--line); color: var(--fg); }
-button.danger { background: var(--bad-soft); color: var(--bad); }
-button.sm { padding: 5px 10px; font-size: 13px; }
+.wrap, section.view, .fsec, .entries, .reps, .doc-s, .zalo, .entry .body { grid-template-columns: minmax(0, 1fr); }
+input, select, textarea { min-width: 0; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--font); -webkit-font-smoothing: antialiased; }
+svg.i { width: 20px; height: 20px; flex: none; stroke: currentColor; fill: none; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+svg.i.sm { width: 16px; height: 16px; }
+
+/* ---------- App bar ---------- */
+.appbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--surface); border-bottom: 1px solid var(--line); }
+.appbar .in { max-width: 760px; margin: 0 auto; padding-inline: 16px; height: 60px; display: flex; align-items: center; gap: 12px; }
+.mark { width: 36px; height: 36px; border-radius: 10px; background: var(--primary); color: var(--primary-fg); display: grid; place-items: center; font: 800 13px var(--font); letter-spacing: .02em; flex: none; }
+.appbar .ttl { min-width: 0; flex: 1; }
+.appbar .ttl b { display: block; font-size: 16px; font-weight: 700; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.appbar .ttl span { display: block; font-size: 12px; color: var(--muted); }
+.iconbtn { width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; background: none; border: 0; color: var(--fg); cursor: pointer; padding: 0; flex: none; }
+.iconbtn:hover { background: var(--sunk); }
+
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 16px; padding-block: 18px calc(var(--nav-h) + 28px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 22px; }
+.wrap.noNav { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
+section.view { display: grid; gap: 22px; min-width: 0; }
+
+/* ---------- Bottom nav ---------- */
+.bnav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.bnav .in { max-width: 760px; margin: 0 auto; height: var(--nav-h); display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding-inline: 16px; }
+.bnav button { background: none; border: 0; color: var(--faint); font: 600 12px var(--font); display: grid; justify-items: center; gap: 3px; cursor: pointer; padding: 6px; }
+.bnav button[aria-current="page"] { color: var(--primary-ink); }
+.bnav .fab { width: 54px; height: 54px; border-radius: 16px; background: var(--primary); color: var(--primary-fg); margin-top: -26px; box-shadow: 0 6px 18px rgba(43, 74, 36, .35); display: grid; place-items: center; }
+.bnav .fab svg { width: 26px; height: 26px; }
+
+/* ---------- Bottom action bar (form, detail) ---------- */
+.abar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: var(--surface); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.abar .in { max-width: 760px; margin: 0 auto; padding: 12px 16px; display: flex; gap: 10px; }
+.abar .grow { flex: 1; }
+
+/* ---------- Common ---------- */
+.sec-h { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin: 0 0 10px; }
+.sec-h h2 { margin: 0; font-size: 17px; font-weight: 700; letter-spacing: -.01em; }
+.sec-h span { font-size: 13px; color: var(--muted); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow); }
+.pad { padding: 16px; }
+button.btn { font: 600 14px var(--font); border: 1px solid transparent; border-radius: var(--r-sm); padding: 0 16px; height: 44px; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: var(--primary-soft); color: var(--primary-ink); white-space: nowrap; }
+button.btn.primary { background: var(--primary); color: var(--primary-fg); }
+button.btn.outline { background: var(--surface); border-color: var(--line); color: var(--fg); }
+button.btn.danger { background: var(--bad-soft); color: var(--bad); }
+button.btn.sm { height: 34px; padding: 0 12px; font-size: 13px; }
+button.btn.link { background: none; padding: 0 4px; height: 34px; color: var(--primary-ink); }
 button:disabled { opacity: .5; cursor: default; }
-.chips { display: flex; flex-wrap: wrap; gap: 6px; }
-.chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; font-size: 14px; background: var(--surface); }
-.chip input { width: auto; margin: 0; accent-color: var(--accent); }
-.chip:has(input:checked) { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
-.entry { display: grid; gap: 8px; padding: 10px 0 10px 12px; border-left: 3px solid var(--line); }
-.entry.good { border-left-color: var(--ok); }
-.entry.bad { border-left-color: var(--bad); }
-.entry .head { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); font-weight: 600; }
-.photos { display: flex; flex-wrap: wrap; gap: 8px; }
-.ph { position: relative; width: 84px; height: 84px; border-radius: 8px; overflow: hidden; background: var(--sunk); border: 1px solid var(--line); flex: none; }
-.ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.ph .x { position: absolute; top: 3px; right: 3px; width: 24px; height: 24px; padding: 0; border-radius: 50%; background: #000a; color: #fff; font-size: 13px; line-height: 1; }
-.ph .no { position: absolute; left: 3px; bottom: 3px; background: #000a; color: #fff; font: 500 11px var(--font-mono); padding: 1px 6px; border-radius: 6px; }
-.addph { width: 84px; height: 84px; border: 1.5px dashed var(--line); border-radius: 8px; display: grid; place-items: center; text-align: center; font-size: 12px; color: var(--muted); cursor: pointer; flex: none; }
-.addph input { position: absolute; opacity: 0; width: 1px; height: 1px; }
-.bar { display: flex; gap: 8px; flex-wrap: wrap; }
-.bar.sticky { position: sticky; bottom: 0; background: var(--bg); padding-block: 10px; }
-.bar.sticky button { flex: 1; }
+:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.pill { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: var(--sunk); color: var(--muted); white-space: nowrap; border: 1px solid var(--line); }
+.pill.ok { background: var(--ok-soft); color: var(--ok); border-color: transparent; }
+.pill.warn { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.pill.bad { background: var(--bad-soft); color: var(--bad); border-color: transparent; }
+.pill.pri { background: var(--primary-soft); color: var(--primary-ink); border-color: transparent; }
+.mono { font-family: var(--mono); font-size: 12px; letter-spacing: .01em; }
 .hint { font-size: 13px; color: var(--muted); margin: 0; }
-.mono { font-family: var(--font-mono); font-size: 12px; }
-.msg { width: 100%; min-height: 320px; font: 14px/1.55 var(--font-body); background: var(--sunk); white-space: pre-wrap; }
-.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-.stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 10px 12px; }
-.stat b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; line-height: 1.2; }
-.stat span { font-size: 12px; color: var(--muted); }
-.stat.bad b { color: var(--bad); }
-.rep { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; display: grid; gap: 4px; cursor: pointer; text-align: left; color: var(--fg); font-weight: 400; width: 100%; }
-.rep .t { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
-.rep .t b { font-size: 16px; min-width: 0; }
-.rep .meta { font-size: 13px; color: var(--muted); }
-.pill { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
-.pill.ok { background: var(--ok-soft); color: var(--ok); }
-.pill.warn { background: var(--warn-soft); color: var(--warn); }
-.pill.bad { background: var(--bad-soft); color: var(--bad); }
-.pills { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; }
-.issue { display: grid; gap: 6px; padding: 10px 0; border-top: 1px solid var(--line); }
-.issue:first-child { border-top: 0; padding-top: 0; }
-.issue .row { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
-.issue p { margin: 0; min-width: 0; }
-.issue.done p { color: var(--muted); text-decoration: line-through; }
-.empty { text-align: center; color: var(--muted); padding: 36px 16px; border: 1.5px dashed var(--line); border-radius: var(--r); }
-.empty b { display: block; color: var(--fg); font-size: 16px; margin-bottom: 4px; }
-.notice { background: var(--warn-soft); color: var(--warn); border-radius: var(--r); padding: 10px 14px; font-size: 14px; }
-.modal { position: fixed; inset: 0; background: #0008; display: grid; place-items: center; z-index: 50; padding: 16px; }
-.modal .box { background: var(--surface); border-radius: 12px; padding: 18px; max-width: 380px; width: 100%; display: grid; gap: 14px; }
-.modal p { margin: 0; }
-#toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 14px; z-index: 60; max-width: calc(100% - 32px); text-align: center; }
-#busy { position: fixed; inset: 0; background: color-mix(in srgb, var(--bg) 80%, transparent); display: grid; place-items: center; z-index: 55; font-weight: 600; color: var(--accent); padding: 16px; text-align: center; }
-@media (prefers-reduced-motion: no-preference) { button { transition: filter .15s; } button:hover:not(:disabled) { filter: brightness(.96); } }
+.notice { display: flex; gap: 10px; align-items: flex-start; background: var(--warn-soft); color: var(--warn); border-radius: var(--r-sm); padding: 12px 14px; font-size: 14px; }
+
+/* ---------- Tổng quan ---------- */
+.hello h1 { margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -.02em; text-wrap: balance; }
+.hello p { margin: 4px 0 0; color: var(--muted); }
+.kpis { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.kpi { padding: 14px; display: grid; gap: 8px; }
+.kpi .ic { width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; background: var(--primary-soft); color: var(--primary-ink); }
+.kpi b { font-size: 26px; font-weight: 800; line-height: 1; font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+.kpi span { font-size: 12.5px; color: var(--muted); line-height: 1.3; }
+.kpi.warn .ic { background: var(--warn-soft); color: var(--warn); }
+.kpi.bad .ic { background: var(--bad-soft); color: var(--bad); }
+.kpi.bad b { color: var(--bad); }
+.attn { display: grid; }
+.attn button { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: center; text-align: left; background: none; border: 0; border-top: 1px solid var(--line); padding: 12px 16px; cursor: pointer; color: var(--fg); font: inherit; }
+.attn button:first-child { border-top: 0; }
+.attn .u { font-size: 12px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.attn .t { grid-column: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.attn .pill { grid-column: 2; grid-row: 1 / span 2; }
+.filters { display: grid; grid-template-columns: minmax(0, 1fr) 150px; gap: 10px; margin-bottom: 12px; }
+.search { position: relative; }
+.search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--faint); }
+.search input { padding-left: 38px; }
+.reps { display: grid; gap: 10px; }
+.rep { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; padding: 14px 16px 14px 14px; text-align: left; cursor: pointer; color: var(--fg); font: inherit; width: 100%; position: relative; overflow: hidden; }
+.rep::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--line); }
+.rep.s-ok::before { background: var(--ok); } .rep.s-warn::before { background: var(--warn); } .rep.s-bad::before { background: var(--bad); }
+.avatar { width: 42px; height: 42px; border-radius: 12px; background: var(--primary-soft); color: var(--primary-ink); display: grid; place-items: center; font: 700 13px var(--font); }
+.rep .top { display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.rep .top b { font-size: 16px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rep .meta { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.rep .foot { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; margin-top: 10px; font-size: 12.5px; color: var(--muted); }
+.prog { display: flex; align-items: center; gap: 8px; flex: 1 1 140px; min-width: 120px; }
+.prog .bar { flex: 1; height: 6px; border-radius: 99px; background: var(--sunk); border: 1px solid var(--line); overflow: hidden; }
+.prog .bar i { display: block; height: 100%; background: var(--ok); border-radius: 99px; }
+.empty { text-align: center; padding: 34px 20px; display: grid; justify-items: center; gap: 8px; color: var(--muted); }
+.empty .ic { width: 52px; height: 52px; border-radius: 16px; display: grid; place-items: center; background: var(--primary-soft); color: var(--primary-ink); }
+.empty b { color: var(--fg); font-size: 16px; }
+
+/* ---------- Form ---------- */
+.fsec { padding: 18px 16px; display: grid; gap: 14px; }
+.fsec > header { display: flex; gap: 12px; align-items: center; }
+.num { width: 30px; height: 30px; border-radius: 9px; background: var(--primary); color: var(--primary-fg); display: grid; place-items: center; font: 700 13px var(--font); flex: none; }
+.fsec > header h3 { margin: 0; font-size: 16px; font-weight: 700; }
+.fsec > header p { margin: 0; font-size: 12.5px; color: var(--muted); }
+.field { display: grid; gap: 6px; min-width: 0; }
+.field > span { font-size: 13px; font-weight: 600; color: var(--muted); }
+.field > span em { color: var(--bad); font-style: normal; }
+.g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 440px) { .g2.stack-sm { grid-template-columns: 1fr; } }
+input, select, textarea { width: 100%; font: 15px var(--font); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-sm); padding: 0 12px; height: 44px; }
+textarea { height: auto; min-height: 46px; padding: 10px 12px; resize: vertical; line-height: 1.45; }
+input:focus, select:focus, textarea:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { position: relative; display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 14px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; font-size: 14px; background: var(--surface); user-select: none; }
+.chip input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.chip svg { display: none; }
+.chip:has(input:checked) { background: var(--primary); border-color: var(--primary); color: var(--primary-fg); font-weight: 600; }
+.chip:has(input:checked) svg { display: block; }
+.chip:has(input:focus-visible) { outline: 2px solid var(--primary); outline-offset: 2px; }
+.seg { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); background: var(--sunk); border: 1px solid var(--line); border-radius: var(--r-sm); padding: 3px; gap: 3px; }
+.seg label { position: relative; text-align: center; white-space: nowrap; font-size: 12.5px; font-weight: 600; padding: 8px 2px; border-radius: 8px; cursor: pointer; color: var(--muted); }
+.seg input { position: absolute; opacity: 0; }
+.seg label:has(input:checked) { background: var(--surface); color: var(--fg); box-shadow: var(--shadow); }
+.seg label.v-bad:has(input:checked) { color: var(--bad); }
+.seg label.v-ok:has(input:checked) { color: var(--ok); }
+.seg label:has(input:focus-visible) { outline: 2px solid var(--primary); }
+.entries { display: grid; gap: 10px; }
+.entry { display: grid; grid-template-columns: 28px minmax(0, 1fr) 36px; gap: 8px 10px; align-items: start; padding: 12px; border-radius: var(--r-sm); background: var(--sunk); border: 1px solid var(--line); }
+.entry .n { width: 28px; height: 28px; border-radius: 8px; display: grid; place-items: center; font: 700 13px var(--font); margin-top: 8px; }
+.entry.good .n { background: var(--ok-soft); color: var(--ok); }
+.entry.bad .n { background: var(--bad-soft); color: var(--bad); }
+.entry .body { display: grid; gap: 10px; min-width: 0; }
+.entry .del { width: 36px; height: 36px; margin-top: 4px; border-radius: 9px; border: 0; background: none; color: var(--faint); cursor: pointer; display: grid; place-items: center; }
+.entry .del:hover { background: var(--bad-soft); color: var(--bad); }
+.entry .han-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+.entry .han-row span { font-size: 13px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+.entry .han-row input { flex: 1 1 150px; max-width: 200px; height: 38px; }
+.addrow { justify-self: start; }
+.photos { display: flex; flex-wrap: wrap; gap: 8px; }
+.ph { position: relative; width: 76px; height: 76px; border-radius: 10px; overflow: hidden; background: var(--sunk); border: 1px solid var(--line); flex: none; padding: 0; cursor: pointer; }
+.ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ph .x { position: absolute; top: 4px; right: 4px; width: 22px; height: 22px; padding: 0; border: 0; border-radius: 50%; background: rgba(0, 0, 0, .62); color: #fff; display: grid; place-items: center; cursor: pointer; }
+.ph .x svg { width: 12px; height: 12px; stroke-width: 2.6; }
+.ph .no { position: absolute; left: 4px; bottom: 4px; background: rgba(0, 0, 0, .62); color: #fff; font: 500 11px var(--mono); padding: 1px 6px; border-radius: 6px; }
+.addph { width: 76px; height: 76px; border: 1.5px dashed var(--line); border-radius: 10px; display: grid; place-items: center; align-content: center; gap: 2px; text-align: center; font-size: 11.5px; font-weight: 600; color: var(--muted); cursor: pointer; flex: none; background: var(--surface); }
+.addph:hover { border-color: var(--primary); color: var(--primary-ink); }
+.addph input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.addph:has(input:focus-visible) { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+/* ---------- Biên bản (chi tiết) ---------- */
+.doc { overflow: hidden; }
+.doc-h { padding: 18px 16px 16px; border-bottom: 1px solid var(--line); display: grid; gap: 8px; background: var(--sunk); }
+.eyebrow { font-size: 11.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.doc-h h1 { margin: 0; font-size: 22px; font-weight: 800; letter-spacing: -.02em; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 16px; margin: 6px 0 0; }
+.facts div { min-width: 0; }
+.facts dt { font-size: 12px; color: var(--muted); font-weight: 600; }
+.facts dd { margin: 2px 0 0; font-size: 14px; }
+.facts .wide { grid-column: 1 / -1; }
+.doc-s { padding: 16px; border-bottom: 1px solid var(--line); display: grid; gap: 12px; }
+.doc-s:last-child { border-bottom: 0; }
+.doc-s h3 { margin: 0; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; align-items: center; }
+.doc-s ol { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.doc-s li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; }
+.doc-s li > svg { margin-top: 2px; }
+.good-ic { color: var(--ok); }
+.issue { display: grid; gap: 10px; padding: 14px; border-radius: var(--r-sm); border: 1px solid var(--line); background: var(--surface); }
+.issue.done { background: var(--sunk); }
+.issue .row { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 10px; }
+.issue .n { width: 26px; height: 26px; border-radius: 8px; display: grid; place-items: center; font: 700 12px var(--font); background: var(--bad-soft); color: var(--bad); }
+.issue.done .n { background: var(--ok-soft); color: var(--ok); }
+.issue p { margin: 2px 0 0; }
+.issue.done p { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--faint); }
+.issue .ctl { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; padding-left: 36px; }
+.issue .photos { padding-left: 36px; }
+.zalo { display: grid; gap: 12px; }
+.bubble { background: var(--primary-soft); border-radius: 16px 16px 16px 4px; padding: 14px 16px; white-space: pre-wrap; word-break: break-word; font-size: 14px; line-height: 1.55; max-height: 300px; overflow: auto; }
+.bubble.open { max-height: none; }
+#msg { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.zalo .steps { margin: 0; padding-left: 18px; color: var(--muted); font-size: 13px; display: grid; gap: 2px; }
+
+/* ---------- Overlays ---------- */
+.modal { position: fixed; inset: 0; background: rgba(8, 12, 8, .55); display: grid; place-items: center; z-index: 50; padding: 16px; }
+.modal .box { background: var(--surface); border-radius: 16px; padding: 20px; max-width: 380px; width: 100%; display: grid; gap: 16px; box-shadow: 0 20px 50px rgba(0, 0, 0, .3); }
+.modal h4 { margin: 0; font-size: 17px; }
+.modal p { margin: 0; color: var(--muted); }
+.modal .acts { display: flex; gap: 10px; justify-content: flex-end; }
+.lightbox { position: fixed; inset: 0; z-index: 60; background: rgba(0, 0, 0, .92); display: grid; grid-template-rows: auto minmax(0, 1fr) auto; padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px); }
+.lightbox .lb-top { display: flex; justify-content: space-between; align-items: center; color: #fff; padding: 10px 12px; }
+.lightbox .lb-top .iconbtn { color: #fff; }
+.lightbox .lb-top .iconbtn:hover { background: rgba(255, 255, 255, .12); }
+.lightbox img { width: 100%; height: 100%; object-fit: contain; }
+.lightbox .lb-nav { display: flex; justify-content: center; gap: 12px; padding: 10px; }
+.lightbox .lb-nav button { background: rgba(255, 255, 255, .14); color: #fff; }
+#toast { position: fixed; left: 50%; bottom: calc(var(--nav-h) + 18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 11px 16px; border-radius: 12px; font-size: 14px; font-weight: 500; z-index: 70; max-width: calc(100% - 32px); text-align: center; box-shadow: 0 8px 24px rgba(0, 0, 0, .2); }
+#busy { position: fixed; inset: 0; background: color-mix(in srgb, var(--bg) 78%, transparent); display: grid; place-items: center; z-index: 65; }
+#busy .box { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; display: flex; gap: 12px; align-items: center; font-weight: 600; box-shadow: var(--shadow); }
+.spin { width: 20px; height: 20px; border-radius: 50%; border: 2.5px solid var(--primary-soft); border-top-color: var(--primary); }
+@media (prefers-reduced-motion: no-preference) {
+  .spin { animation: spin .8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  button, .rep, .chip { transition: background-color .15s, border-color .15s, color .15s, transform .1s; }
+  .rep:active, button.btn:active { transform: scale(.985); }
+}
+@media (min-width: 640px) {
+  .kpi b { font-size: 30px; }
+  .facts { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 380px) { .seg label { font-size: 11.5px; } .kpi { padding: 12px; } }
 </style>
 
-<header class="top"><div class="in">
-  <div class="brand"><h1>Sổ Kiểm tra Hậu cần</h1><small id="who"></small></div>
-  <nav class="tabs" role="tablist">
-    <button role="tab" id="t-new" aria-selected="false" onclick="go('new')">Tạo biên bản</button>
-    <button role="tab" id="t-list" aria-selected="true" onclick="go('list')">Danh sách</button>
-    <button role="tab" id="t-cfg" aria-selected="false" onclick="go('cfg')">Cài đặt</button>
-  </nav>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></symbol>
+  <symbol id="i-back" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></symbol>
+  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-checkc" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6M10 11v6M14 11v6"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></symbol>
+  <symbol id="i-cam" viewBox="0 0 24 24"><path d="M3 8a2 2 0 0 1 2-2h2l2-3h6l2 3h2a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><circle cx="12" cy="13" r="3.5"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.8 7L3 21l2-6.2A8 8 0 1 1 21 12z"/></symbol>
+  <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></symbol>
+  <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+</svg>
+
+<header class="appbar"><div class="in">
+  <button class="iconbtn" id="backBtn" type="button" aria-label="Quay lại" hidden><svg class="i"><use href="#i-back"/></svg></button>
+  <div class="mark" id="mark" aria-hidden="true">HC</div>
+  <div class="ttl"><b id="barTitle">Sổ Kiểm tra Hậu cần</b><span id="barSub"></span></div>
 </div></header>
 
-<div class="wrap">
-  <div id="offline" class="notice" hidden>Đang kết nối kho dữ liệu... Nếu thông báo này không mất, hãy mở trang trên claude.ai và đăng nhập.</div>
+<div class="wrap" id="wrap">
+  <div id="offline" class="notice" hidden><svg class="i"><use href="#i-alert"/></svg><span>Đang kết nối kho dữ liệu. Nếu thông báo này không mất, hãy mở trang trên claude.ai và đăng nhập.</span></div>
+
+  <!-- ===== TỔNG QUAN ===== -->
+  <section class="view" id="v-home">
+    <div class="hello"><h1>Tổng quan kiểm tra</h1><p id="helloSub">Theo dõi biên bản và tiến độ khắc phục của các đơn vị.</p></div>
+    <div class="kpis" id="kpis"></div>
+    <div id="attnWrap" hidden>
+      <div class="sec-h"><h2>Cần chú ý</h2><span>Quá hạn hoặc còn ≤ 3 ngày</span></div>
+      <div class="card attn" id="attn"></div>
+    </div>
+    <div>
+      <div class="sec-h"><h2>Biên bản</h2><span id="repCount"></span></div>
+      <div class="filters">
+        <label class="search"><svg class="i sm"><use href="#i-search"/></svg><input id="fUnit" list="unitList" placeholder="Tìm đơn vị" aria-label="Tìm đơn vị" oninput="renderHome()"></label>
+        <input id="fMonth" type="month" aria-label="Lọc theo tháng" oninput="renderHome()">
+      </div>
+      <div class="reps" id="list"></div>
+    </div>
+  </section>
 
   <!-- ===== TẠO / SỬA ===== -->
-  <section id="v-new" class="stack" hidden>
-    <div id="ro-new" class="notice" hidden>Anh/chị chỉ có quyền xem, không tạo biên bản được.</div>
-    <div class="block">
-      <h2 id="formTitle">Thông tin chung</h2>
-      <label class="field"><span>Đơn vị được kiểm tra *</span>
+  <section class="view" id="v-new" hidden>
+    <div id="ro-new" class="notice" hidden><svg class="i"><use href="#i-alert"/></svg><span>Anh/chị chỉ có quyền xem, không tạo được biên bản.</span></div>
+
+    <div class="card fsec">
+      <header><div class="num">I</div><div><h3>Thông tin chung</h3><p>Đơn vị, thời gian, nội dung và thành phần đoàn</p></div></header>
+      <label class="field"><span>Đơn vị được kiểm tra <em>*</em></span>
         <input id="donVi" list="unitList" placeholder="Chọn hoặc gõ tên đơn vị" autocomplete="off"></label>
       <datalist id="unitList"></datalist>
-      <div class="grid2">
-        <label class="field"><span>Ngày kiểm tra *</span><input id="ngay" type="date"></label>
+      <div class="g2">
+        <label class="field"><span>Ngày kiểm tra <em>*</em></span><input id="ngay" type="date"></label>
         <label class="field"><span>Giờ</span><input id="gio" type="time"></label>
       </div>
       <div class="field"><span>Nội dung kiểm tra</span><div class="chips" id="topics"></div></div>
@@ -131,90 +299,106 @@ button:disabled { opacity: .5; cursor: default; }
         <textarea id="thanhPhan" rows="2" placeholder="Đ/c ... (Trưởng đoàn), Đ/c ..."></textarea></label>
     </div>
 
-    <div class="block">
-      <h2>Mặt mạnh</h2>
-      <div id="manhList"></div>
-      <div><button class="sm" type="button" onclick="addManh()">+ Thêm mặt mạnh</button></div>
+    <div class="card fsec">
+      <header><div class="num">II</div><div><h3>Mặt mạnh</h3><p>Những việc đơn vị làm tốt</p></div></header>
+      <div class="entries" id="manhList"></div>
+      <button class="btn sm addrow" type="button" onclick="addManh()"><svg class="i sm"><use href="#i-plus"/></svg>Thêm mặt mạnh</button>
     </div>
 
-    <div class="block">
-      <h2>Mặt yếu, tồn tại</h2>
-      <div id="yeuList"></div>
-      <div><button class="sm" type="button" onclick="addYeu()">+ Thêm mặt yếu</button></div>
+    <div class="card fsec">
+      <header><div class="num">III</div><div><h3>Mặt yếu, tồn tại</h3><p>Mỗi tồn tại có ảnh minh chứng và hạn khắc phục riêng</p></div></header>
+      <div class="entries" id="yeuList"></div>
+      <button class="btn sm addrow" type="button" onclick="addYeu()"><svg class="i sm"><use href="#i-plus"/></svg>Thêm mặt yếu</button>
     </div>
 
-    <div class="block">
-      <h2>Hình ảnh chung</h2>
+    <div class="card fsec">
+      <header><div class="num">IV</div><div><h3>Hình ảnh chung</h3><p>Ảnh toàn cảnh, không gắn với tồn tại cụ thể</p></div></header>
       <div class="photos" id="genPhotos"></div>
-      <p class="hint">Ảnh được thu nhỏ còn khoảng 300 KB trước khi lưu. Mẹo: chụp bằng app Camera rồi chọn từ thư viện, để ảnh có sẵn trong máy khi gửi Zalo.</p>
+      <p class="hint">Ảnh được thu nhỏ còn khoảng 300 KB trước khi lưu. Nên chụp bằng app Camera rồi chọn từ thư viện, để ảnh có sẵn trong máy khi gửi Zalo.</p>
     </div>
 
-    <div class="block">
-      <h2>Kết luận</h2>
-      <div class="grid2 wrapnarrow">
-        <label class="field"><span>Đánh giá chung</span>
-          <select id="xepLoai"><option value="">Không xếp loại</option><option>Tốt</option><option>Khá</option><option>Đạt</option><option>Chưa đạt</option></select></label>
-        <label class="field"><span>Hạn báo cáo khắc phục</span><input id="hanBaoCao" type="date"></label>
-      </div>
+    <div class="card fsec">
+      <header><div class="num">V</div><div><h3>Kết luận</h3><p>Đánh giá chung và yêu cầu đối với đơn vị</p></div></header>
+      <div class="field"><span>Đánh giá chung</span>
+        <div class="seg" id="xepLoai" role="radiogroup" aria-label="Đánh giá chung">
+          <label><input type="radio" name="xl" value="" checked>Không</label>
+          <label class="v-ok"><input type="radio" name="xl" value="Tốt">Tốt</label>
+          <label><input type="radio" name="xl" value="Khá">Khá</label>
+          <label><input type="radio" name="xl" value="Đạt">Đạt</label>
+          <label class="v-bad"><input type="radio" name="xl" value="Chưa đạt">Chưa đạt</label>
+        </div></div>
+      <label class="field"><span>Hạn báo cáo khắc phục</span><input id="hanBaoCao" type="date"></label>
       <label class="field"><span>Yêu cầu đối với đơn vị</span><textarea id="yeuCau" rows="3"></textarea></label>
     </div>
-
-    <div class="bar sticky">
-      <button class="ghost" type="button" onclick="askReset()">Làm mới</button>
-      <button class="primary" type="button" id="saveBtn" onclick="save()">Lưu và soạn tin Zalo</button>
-    </div>
   </section>
 
-  <!-- ===== DANH SÁCH ===== -->
-  <section id="v-list" class="stack">
-    <div class="stats" id="stats"></div>
-    <div class="grid2">
-      <label class="field"><span>Lọc đơn vị</span><input id="fUnit" list="unitList" placeholder="Tất cả" oninput="renderList()"></label>
-      <label class="field"><span>Tháng</span><input id="fMonth" type="month" oninput="renderList()"></label>
-    </div>
-    <div class="stack" id="list"></div>
-  </section>
+  <!-- ===== CHI TIẾT ===== -->
+  <section class="view" id="v-show" hidden>
+    <article class="card doc">
+      <div class="doc-h" id="docHead"></div>
+      <div class="doc-s" id="docManh"></div>
+      <div class="doc-s" id="docYeu"></div>
+      <div class="doc-s" id="docYeuCau"></div>
+      <div class="doc-s" id="docPhotos"></div>
+    </article>
 
-  <!-- ===== XEM 1 BIÊN BẢN ===== -->
-  <section id="v-show" class="stack" hidden>
-    <div><button class="ghost sm" type="button" onclick="go('list')">← Danh sách</button></div>
-    <div class="block">
-      <h2>Tin nhắn gửi Zalo</h2>
-      <textarea id="msg" class="msg" readonly></textarea>
-      <div class="bar">
-        <button class="primary" type="button" onclick="copyMsg()">Sao chép nội dung</button>
-        <button type="button" id="dlBtn" onclick="savePhotos()">Lưu ảnh về máy</button>
+    <div class="card pad zalo">
+      <div class="sec-h" style="margin:0"><h2>Tin nhắn gửi Zalo</h2><button class="btn link" type="button" id="expandBtn" onclick="toggleBubble()">Xem đầy đủ</button></div>
+      <div class="bubble" id="bubble"></div>
+      <textarea id="msg" readonly tabindex="-1" aria-hidden="true"></textarea>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <button class="btn primary" type="button" onclick="copyMsg()"><svg class="i sm"><use href="#i-copy"/></svg>Sao chép tin nhắn</button>
+        <button class="btn outline" type="button" id="dlBtn" onclick="savePhotos()"><svg class="i sm"><use href="#i-down"/></svg>Lưu ảnh về máy</button>
       </div>
-      <p class="hint">Gửi Zalo: bấm Sao chép, mở nhóm Zalo của đơn vị, dán vào ô chat, rồi gửi kèm ảnh. Số trên ảnh khớp với "(ảnh 1, 2)" trong tin.</p>
-      <div class="photos" id="showPhotos"></div>
-    </div>
-    <div class="block">
-      <h2>Theo dõi khắc phục</h2>
-      <div id="issues"></div>
-    </div>
-    <div class="bar" id="showActions">
-      <button class="ghost" type="button" onclick="editCurrent()">Sửa biên bản</button>
-      <button class="danger" type="button" onclick="askDelete()">Xóa biên bản</button>
+      <ol class="steps"><li>Sao chép tin nhắn, mở nhóm Zalo của đơn vị, dán vào ô chat.</li><li>Gửi kèm ảnh theo đúng số thứ tự trong tin.</li></ol>
     </div>
   </section>
 
   <!-- ===== CÀI ĐẶT ===== -->
-  <section id="v-cfg" class="stack" hidden>
-    <div class="block">
-      <h2>Danh mục</h2>
+  <section class="view" id="v-cfg" hidden>
+    <div class="hello"><h1>Cài đặt</h1><p>Danh mục dùng chung khi tạo biên bản.</p></div>
+    <div class="card fsec">
       <label class="field"><span>Danh sách đơn vị (mỗi dòng một đơn vị)</span><textarea id="cUnits" rows="6"></textarea></label>
       <label class="field"><span>Nội dung kiểm tra (mỗi dòng một nội dung)</span><textarea id="cTopics" rows="6"></textarea></label>
       <label class="field"><span>Cơ quan nhận báo cáo khắc phục</span><input id="cCoQuan" placeholder="Ban Hậu cần"></label>
-      <div><button class="primary" type="button" id="cfgBtn" onclick="saveCfg()">Lưu cài đặt</button></div>
+      <div><button class="btn primary" type="button" id="cfgBtn" onclick="saveCfg()"><svg class="i sm"><use href="#i-check"/></svg>Lưu cài đặt</button></div>
     </div>
-    <p class="hint">Lưu ý bảo mật: chỉ ghi nội dung hậu cần thông thường. Không ghi quân số, phiên hiệu đầy đủ, vị trí, bố trí doanh trại; tránh chụp cổng, biển hiệu, khu vực hạn chế.</p>
+    <div class="notice"><svg class="i"><use href="#i-alert"/></svg><span>Chỉ ghi nội dung hậu cần thông thường. Không ghi quân số, phiên hiệu đầy đủ, vị trí, bố trí doanh trại; tránh chụp cổng, biển hiệu, khu vực hạn chế.</span></div>
   </section>
 </div>
 
-<div id="toast" hidden></div>
-<div id="busy" hidden><span id="busyText"></span></div>
-<div id="modal" class="modal" hidden><div class="box"><p id="modalText"></p>
-  <div class="bar"><button class="ghost" type="button" onclick="closeModal()">Hủy</button><button class="danger" type="button" id="modalOk">Đồng ý</button></div></div></div>
+<!-- Thanh điều hướng -->
+<nav class="bnav" id="bnav" aria-label="Điều hướng"><div class="in">
+  <button type="button" id="n-home" aria-current="page" onclick="go('home')"><svg class="i"><use href="#i-home"/></svg>Tổng quan</button>
+  <button type="button" class="fab" id="n-new" aria-label="Tạo biên bản" onclick="startNew()"><svg class="i"><use href="#i-plus"/></svg></button>
+  <button type="button" id="n-cfg" onclick="go('cfg')"><svg class="i"><use href="#i-gear"/></svg>Cài đặt</button>
+</div></nav>
+
+<div class="abar" id="bar-new" hidden><div class="in">
+  <button class="btn outline" type="button" onclick="askReset()">Làm mới</button>
+  <button class="btn primary grow" type="button" id="saveBtn" onclick="save()"><svg class="i sm"><use href="#i-check"/></svg>Lưu biên bản</button>
+</div></div>
+
+<div class="abar" id="bar-show" hidden><div class="in">
+  <button class="btn danger" type="button" id="delBtn" onclick="askDelete()" aria-label="Xóa biên bản"><svg class="i sm"><use href="#i-trash"/></svg></button>
+  <button class="btn outline" type="button" id="editBtn" onclick="editCurrent()"><svg class="i sm"><use href="#i-edit"/></svg>Sửa</button>
+  <button class="btn primary grow" type="button" onclick="copyMsg()"><svg class="i sm"><use href="#i-chat"/></svg>Sao chép tin Zalo</button>
+</div></div>
+
+<div id="toast" role="status" hidden></div>
+<div id="busy" hidden><div class="box"><div class="spin"></div><span id="busyText"></span></div></div>
+<div id="modal" class="modal" hidden><div class="box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <h4 id="modalTitle"></h4><p id="modalText"></p>
+  <div class="acts"><button class="btn outline" type="button" onclick="closeModal()">Hủy</button><button class="btn danger" type="button" id="modalOk">Đồng ý</button></div>
+</div></div>
+<div id="lightbox" class="lightbox" hidden>
+  <div class="lb-top"><span id="lbCap" class="mono" style="font-size:14px"></span>
+    <span style="display:flex;gap:4px"><button class="iconbtn" type="button" id="lbSave" aria-label="Lưu ảnh"><svg class="i"><use href="#i-down"/></svg></button>
+    <button class="iconbtn" type="button" onclick="closeLb()" aria-label="Đóng"><svg class="i"><use href="#i-x"/></svg></button></span></div>
+  <img id="lbImg" alt="">
+  <div class="lb-nav"><button class="btn" type="button" onclick="stepLb(-1)" aria-label="Ảnh trước"><svg class="i"><use href="#i-left"/></svg></button>
+    <button class="btn" type="button" onclick="stepLb(1)" aria-label="Ảnh sau"><svg class="i"><use href="#i-right"/></svg></button></div>
+</div>
 
 <script>
 var DEFAULT_CFG = {
@@ -223,43 +407,82 @@ var DEFAULT_CFG = {
   coQuan: 'Ban Hậu cần'
 };
 var db = null, assets = null, downloads = null, canWrite = false;
-var cfg = DEFAULT_CFG, reports = [], current = null, editingId = null, yeuCauTouched = false;
+var cfg = DEFAULT_CFG, reports = [], current = null, editingId = null, yeuCauTouched = false, view = 'home';
+var lb = { ids: [], i: 0 };
 
 function $(id) { return document.getElementById(id); }
+function ic(name, cls) { return '<svg class="i' + (cls ? ' ' + cls : '') + '"><use href="#i-' + name + '"/></svg>'; }
 function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
 function vnDate(iso) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ''); return m ? m[3] + '/' + m[2] + '/' + m[1] : ''; }
 function pad(n) { return ('0' + n).slice(-2); }
 function todayIso() { var d = new Date(); return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
 function blobUrl(id) { return '/_blob/' + id; }
-function toast(t) { var el = $('toast'); el.textContent = t; el.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(function () { el.hidden = true; }, 3500); }
+function toast(t) { var el = $('toast'); el.textContent = t; el.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(function () { el.hidden = true; }, 3200); }
 function busy(t) { $('busyText').textContent = t || ''; $('busy').hidden = !t; }
 function errText(e) { return (e && (e.message || e.code)) || String(e); }
 function fail(e) { busy(''); toast('Lỗi: ' + errText(e)); }
-function confirmBox(text, okLabel, fn) { $('modalText').textContent = text; $('modalOk').textContent = okLabel; $('modalOk').onclick = function () { closeModal(); fn(); }; $('modal').hidden = false; }
+function confirmBox(title, text, okLabel, fn) {
+  $('modalTitle').textContent = title; $('modalText').textContent = text; $('modalOk').textContent = okLabel;
+  $('modalOk').onclick = function () { closeModal(); fn(); }; $('modal').hidden = false;
+}
 function closeModal() { $('modal').hidden = true; }
+function initials(name) {
+  var w = String(name || '').trim().split(/\s+/).filter(Boolean);
+  var s = w.map(function (x) { return /^\d+$/.test(x) ? x : x.charAt(0); }).join('');
+  return (s || '?').slice(0, 3).toUpperCase();
+}
+var WEEKDAYS = ['Chủ nhật', 'Thứ Hai', 'Thứ Ba', 'Thứ Tư', 'Thứ Năm', 'Thứ Sáu', 'Thứ Bảy'];
 
+/* ---------- Điều hướng ---------- */
 function go(v) {
-  ['new', 'list', 'show', 'cfg'].forEach(function (k) { $('v-' + k).hidden = k !== v; });
-  $('t-new').setAttribute('aria-selected', v === 'new');
-  $('t-list').setAttribute('aria-selected', v === 'list' || v === 'show');
-  $('t-cfg').setAttribute('aria-selected', v === 'cfg');
+  view = v;
+  ['home', 'new', 'show', 'cfg'].forEach(function (k) { $('v-' + k).hidden = k !== v; });
+  var sub = v === 'new' || v === 'show';
+  $('bnav').hidden = sub; $('wrap').classList.toggle('noNav', sub);
+  $('bar-new').hidden = v !== 'new'; $('bar-show').hidden = !(v === 'show' && canWrite);
+  $('backBtn').hidden = !sub; $('mark').hidden = sub;
+  $('n-home').toggleAttribute('aria-current', v === 'home'); $('n-cfg').toggleAttribute('aria-current', v === 'cfg');
+  if (v === 'home') { $('n-home').setAttribute('aria-current', 'page'); }
+  if (v === 'cfg') { $('n-cfg').setAttribute('aria-current', 'page'); }
+  var d = new Date();
+  var titles = {
+    home: ['Sổ Kiểm tra Hậu cần', WEEKDAYS[d.getDay()] + ', ' + vnDate(todayIso())],
+    new: [editingId ? 'Sửa biên bản' : 'Biên bản mới', editingId || 'Điền theo thứ tự I đến V'],
+    show: ['Biên bản kiểm tra', current ? current.id : ''],
+    cfg: ['Sổ Kiểm tra Hậu cần', 'Cài đặt']
+  };
+  $('barTitle').textContent = titles[v][0]; $('barSub').textContent = titles[v][1];
   window.scrollTo(0, 0);
 }
+$('backBtn').onclick = function () {
+  if (view === 'new' && editingId && current) { editingId = null; go('show'); } else go('home');
+};
+function startNew() { if (editingId) resetForm(); go('new'); }
 
 /* ---------- Hạn khắc phục ---------- */
-function daysLeft(iso) {
-  var a = new Date(iso + 'T00:00:00'), b = new Date(todayIso() + 'T00:00:00');
-  return Math.round((a - b) / 86400000);
+function daysLeft(iso) { return Math.round((new Date(iso + 'T00:00:00') - new Date(todayIso() + 'T00:00:00')) / 86400000); }
+function hanState(y) {
+  if (y.xong) return 'ok';
+  if (!y.han) return 'none';
+  var d = daysLeft(y.han);
+  return d < 0 ? 'bad' : d <= 3 ? 'warn' : 'open';
 }
 function hanPill(y) {
-  if (y.xong) return '<span class="pill ok">Đã khắc phục</span>';
+  if (y.xong) return '<span class="pill ok">' + ic('check', 'sm') + 'Đã khắc phục</span>';
   if (!y.han) return '<span class="pill">Chưa đặt hạn</span>';
   var d = daysLeft(y.han);
-  if (d < 0) return '<span class="pill bad">Quá hạn ' + (-d) + ' ngày</span>';
-  if (d === 0) return '<span class="pill warn">Hạn hôm nay</span>';
-  return '<span class="pill' + (d <= 3 ? ' warn' : '') + '">Còn ' + d + ' ngày (' + vnDate(y.han) + ')</span>';
+  if (d < 0) return '<span class="pill bad">' + ic('alert', 'sm') + 'Quá hạn ' + (-d) + ' ngày</span>';
+  if (d === 0) return '<span class="pill warn">' + ic('clock', 'sm') + 'Hạn hôm nay</span>';
+  return '<span class="pill' + (d <= 3 ? ' warn' : '') + '">' + ic('clock', 'sm') + 'Còn ' + d + ' ngày · ' + vnDate(y.han) + '</span>';
 }
-function isOverdue(y) { return !y.xong && y.han && daysLeft(y.han) < 0; }
+function reportState(r) {
+  var yeu = r.yeu || [];
+  if (!yeu.length) return 'ok';
+  var st = yeu.map(hanState);
+  if (st.indexOf('bad') >= 0) return 'bad';
+  if (st.every(function (s) { return s === 'ok'; })) return 'ok';
+  return 'warn';
+}
 
 /* ---------- Form ---------- */
 function defaultYeuCau() {
@@ -272,66 +495,66 @@ function renderTopics(selected) {
   var all = cfg.topics.slice();
   selected.forEach(function (s) { if (all.indexOf(s) < 0) all.push(s); });
   $('topics').innerHTML = all.map(function (t) {
-    return '<label class="chip"><input type="checkbox" value="' + esc(t) + '"' + (selected.indexOf(t) >= 0 ? ' checked' : '') + '>' + esc(t) + '</label>';
+    return '<label class="chip"><input type="checkbox" value="' + esc(t) + '"' + (selected.indexOf(t) >= 0 ? ' checked' : '') + '>' + ic('check', 'sm') + esc(t) + '</label>';
   }).join('');
 }
-function renderUnits() {
-  $('unitList').innerHTML = cfg.units.map(function (u) { return '<option value="' + esc(u) + '">'; }).join('');
-}
-function askReset() { confirmBox('Xóa nội dung đang nhập để tạo biên bản mới?', 'Làm mới', resetForm); }
+function renderUnits() { $('unitList').innerHTML = cfg.units.map(function (u) { return '<option value="' + esc(u) + '">'; }).join(''); }
+function getXL() { var c = document.querySelector('input[name="xl"]:checked'); return c ? c.value : ''; }
+function setXL(v) { Array.prototype.forEach.call(document.querySelectorAll('input[name="xl"]'), function (i) { i.checked = i.value === (v || ''); }); }
+function askReset() { confirmBox('Làm mới biên bản?', 'Toàn bộ nội dung đang nhập sẽ bị xóa.', 'Làm mới', resetForm); }
 function resetForm() {
   editingId = null; yeuCauTouched = false;
-  $('formTitle').textContent = 'Thông tin chung';
   $('donVi').value = ''; $('ngay').value = todayIso();
   var n = new Date(); $('gio').value = pad(n.getHours()) + ':' + pad(n.getMinutes());
-  $('thanhPhan').value = ''; $('xepLoai').value = ''; $('hanBaoCao').value = '';
+  $('thanhPhan').value = ''; setXL(''); $('hanBaoCao').value = '';
   $('yeuCau').value = defaultYeuCau();
   renderTopics([]);
   $('manhList').innerHTML = ''; $('yeuList').innerHTML = '';
   addManh(); addYeu();
   $('genPhotos').innerHTML = ''; $('genPhotos').appendChild(photoAdder());
+  if (view === 'new') go('new');
+}
+function entryShell(kind) {
+  var d = document.createElement('div');
+  d.className = 'entry ' + kind;
+  d.innerHTML = '<div class="n"></div><div class="body"></div><button class="del" type="button" aria-label="Xóa dòng này">' + ic('trash', 'sm') + '</button>';
+  d.querySelector('.del').onclick = function () { d.remove(); renumber(); };
+  return d;
 }
 function addManh(text) {
-  var d = document.createElement('div');
-  d.className = 'entry good';
-  d.innerHTML = '<div class="head"><span></span><button class="sm danger" type="button">Xóa</button></div><textarea rows="2" placeholder="VD: Doanh trại ngăn nắp, nội vụ vệ sinh đúng quy định"></textarea>';
+  var d = entryShell('good');
+  d.querySelector('.body').innerHTML = '<textarea rows="2" aria-label="Nội dung mặt mạnh" placeholder="VD: Doanh trại ngăn nắp, nội vụ vệ sinh đúng quy định"></textarea>';
   d.querySelector('textarea').value = text || '';
-  d.querySelector('button').onclick = function () { d.remove(); renumber(); };
   $('manhList').appendChild(d); renumber();
 }
 function addYeu(y) {
   y = y || {};
-  var d = document.createElement('div');
-  d.className = 'entry bad';
+  var d = entryShell('bad');
   d._xong = !!y.xong;
-  d.innerHTML = '<div class="head"><span></span><button class="sm danger" type="button">Xóa</button></div>' +
-    '<textarea rows="2" placeholder="VD: Khu vệ sinh tập thể chưa sạch, rãnh thoát nước bị tắc"></textarea>' +
-    '<label class="field"><span>Hạn khắc phục</span><input type="date" class="han"></label><div class="photos"></div>';
+  d.querySelector('.body').innerHTML = '<textarea rows="2" aria-label="Nội dung mặt yếu" placeholder="VD: Khu vệ sinh tập thể chưa sạch, rãnh thoát nước bị tắc"></textarea>' +
+    '<label class="han-row"><span>Hạn khắc phục</span><input type="date" class="han"></label><div class="photos"></div>';
   d.querySelector('textarea').value = y.text || '';
   d.querySelector('.han').value = y.han || '';
   var ph = d.querySelector('.photos');
   (y.photos || []).forEach(function (id) { ph.appendChild(photoThumb({ id: id })); });
   ph.appendChild(photoAdder());
-  d.querySelector('.head button').onclick = function () { d.remove(); renumber(); };
   $('yeuList').appendChild(d); renumber();
 }
 function renumber() {
-  [['manhList', 'Mặt mạnh'], ['yeuList', 'Mặt yếu']].forEach(function (p) {
-    Array.prototype.forEach.call($(p[0]).children, function (el, i) { el.querySelector('.head span').textContent = p[1] + ' ' + (i + 1); });
+  ['manhList', 'yeuList'].forEach(function (id) {
+    Array.prototype.forEach.call($(id).children, function (el, i) { el.querySelector('.n').textContent = i + 1; });
   });
 }
 function photoAdder() {
   var l = document.createElement('label');
   l.className = 'addph';
-  l.innerHTML = '<span>+ Thêm ảnh</span><input type="file" accept="image/*" multiple>';
+  l.innerHTML = ic('cam') + '<span>Thêm ảnh</span><input type="file" accept="image/*" multiple>';
   l.querySelector('input').onchange = function (ev) {
     var files = Array.prototype.slice.call(ev.target.files);
     ev.target.value = '';
     busy('Đang xử lý ảnh...');
     files.reduce(function (p, f) {
-      return p.then(function () { return compress(f); }).then(function (blob) {
-        l.parentNode.insertBefore(photoThumb({ blob: blob }), l);
-      });
+      return p.then(function () { return compress(f); }).then(function (blob) { l.parentNode.insertBefore(photoThumb({ blob: blob }), l); });
     }, Promise.resolve()).then(function () { busy(''); }).catch(fail);
   };
   return l;
@@ -339,7 +562,7 @@ function photoAdder() {
 function photoThumb(p) {
   var d = document.createElement('div');
   d.className = 'ph'; d._photo = p;
-  d.innerHTML = '<img alt="Ảnh minh chứng"><button class="x" type="button" aria-label="Bỏ ảnh">✕</button>';
+  d.innerHTML = '<img alt="Ảnh minh chứng"><button class="x" type="button" aria-label="Bỏ ảnh">' + ic('x') + '</button>';
   d.querySelector('img').src = p.blob ? URL.createObjectURL(p.blob) : blobUrl(p.id);
   d.querySelector('.x').onclick = function () { d.remove(); };
   return d;
@@ -360,31 +583,26 @@ function compress(file) {
   });
 }
 function photosIn(el) { return Array.prototype.map.call(el.querySelectorAll('.ph'), function (x) { return x._photo; }); }
-
 function uploadAll(lists) {
   var pending = [].concat.apply([], lists).filter(function (p) { return !p.id; });
-  if (pending.length && !assets) return Promise.reject(new Error('Không có quyền lưu ảnh trên trang này.'));
+  if (pending.length && !assets) return Promise.reject(new Error('Trang này chưa được cấp quyền lưu ảnh.'));
   var n = 0;
   return pending.reduce(function (pr, p) {
     return pr.then(function () {
-      busy('Đang tải ảnh lên ' + (++n) + '/' + pending.length + '...');
+      busy('Đang tải ảnh ' + (++n) + '/' + pending.length + '...');
       return assets.upload(p.blob, { type: 'image/jpeg' }).then(function (r) { p.id = r.id; });
     });
-  }, Promise.resolve()).then(function () {
-    return lists.map(function (l) { return l.map(function (p) { return p.id; }); });
-  });
+  }, Promise.resolve()).then(function () { return lists.map(function (l) { return l.map(function (p) { return p.id; }); }); });
 }
-
 function newId() {
   var d = new Date();
   return 'KT' + String(d.getFullYear()).slice(2) + pad(d.getMonth() + 1) + pad(d.getDate()) + pad(d.getHours()) + pad(d.getMinutes()) + pad(d.getSeconds());
 }
-
 function save() {
   if (!db || !canWrite) { toast('Chưa kết nối được kho dữ liệu hoặc không có quyền ghi.'); return; }
   var donVi = $('donVi').value.trim();
   if (!donVi) { toast('Chưa nhập đơn vị được kiểm tra.'); $('donVi').focus(); return; }
-  if (!$('ngay').value) { toast('Chưa chọn ngày kiểm tra.'); return; }
+  if (!$('ngay').value) { toast('Chưa chọn ngày kiểm tra.'); $('ngay').focus(); return; }
   var manh = Array.prototype.map.call($('manhList').children, function (el) { return { text: el.querySelector('textarea').value.trim() }; }).filter(function (m) { return m.text; });
   var yeuEls = Array.prototype.filter.call($('yeuList').children, function (el) { return el.querySelector('textarea').value.trim() || el.querySelectorAll('.ph').length; });
   var lists = yeuEls.map(function (el) { return photosIn(el); });
@@ -398,7 +616,7 @@ function save() {
       noiDung: Array.prototype.map.call($('topics').querySelectorAll('input:checked'), function (i) { return i.value; }),
       thanhPhan: $('thanhPhan').value.trim(), manh: manh,
       yeu: yeuEls.map(function (el, i) { return { text: el.querySelector('textarea').value.trim(), han: el.querySelector('.han').value, photos: ids[i], xong: el._xong }; }),
-      photos: ids[ids.length - 1], xepLoai: $('xepLoai').value, hanBaoCao: $('hanBaoCao').value, yeuCau: $('yeuCau').value.trim(),
+      photos: ids[ids.length - 1], xepLoai: getXL(), hanBaoCao: $('hanBaoCao').value, yeuCau: $('yeuCau').value.trim(),
       taoLuc: old && old.taoLuc ? old.taoLuc : new Date().toISOString(), capNhat: new Date().toISOString()
     };
     busy('Đang lưu biên bản...');
@@ -414,8 +632,7 @@ function save() {
     busy('');
     toast('Đã lưu biên bản ' + r.id);
     reports = reports.filter(function (x) { return x.id !== r.id; }).concat([r]);
-    resetForm();
-    openReport(r);
+    resetForm(); renderHome(); openReport(r);
   }).catch(fail);
 }
 
@@ -423,14 +640,15 @@ function save() {
 function allPhotoIds(r) { var ids = []; (r.yeu || []).forEach(function (y) { ids = ids.concat(y.photos || []); }); return ids.concat(r.photos || []); }
 function photoNumbers(r) {
   var n = 0, yeu = (r.yeu || []).map(function (y) { return (y.photos || []).map(function () { return ++n; }); });
-  (r.photos || []).forEach(function () { ++n; });
-  return { yeu: yeu, total: n };
+  var gen = (r.photos || []).map(function () { return ++n; });
+  return { yeu: yeu, gen: gen, total: n };
 }
+function timeText(r) { return (r.gio ? r.gio.replace(':', 'h') + ' ' : '') + 'ngày ' + vnDate(r.ngay); }
 function buildMessage(r) {
   var nums = photoNumbers(r), L = ['📋 THÔNG BÁO KẾT QUẢ KIỂM TRA CÔNG TÁC HẬU CẦN', ''];
   L.push('🏢 Đơn vị: ' + r.donVi);
   if (r.noiDung && r.noiDung.length) L.push('📌 Nội dung: ' + r.noiDung.join('; '));
-  L.push('📅 Thời gian: ' + (r.gio ? r.gio.replace(':', 'h') + ' ' : '') + 'ngày ' + vnDate(r.ngay));
+  L.push('📅 Thời gian: ' + timeText(r));
   if (r.thanhPhan) L.push('👥 Thành phần: ' + r.thanhPhan);
   if (r.manh && r.manh.length) { L.push('', '✅ MẶT MẠNH'); r.manh.forEach(function (m, i) { L.push((i + 1) + '. ' + m.text); }); }
   if (r.yeu && r.yeu.length) {
@@ -446,67 +664,123 @@ function buildMessage(r) {
   return L.join('\n');
 }
 
+/* ---------- Chi tiết ---------- */
+function xlPill(x) { return x ? '<span class="pill ' + (x === 'Chưa đạt' ? 'bad' : x === 'Tốt' ? 'ok' : 'pri') + '">' + esc(x) + '</span>' : ''; }
+function thumbHtml(id, no) { return '<button class="ph" type="button" data-id="' + esc(id) + '" aria-label="Xem ảnh ' + no + '"><img alt="" src="' + esc(blobUrl(id)) + '"><span class="no">' + no + '</span></button>'; }
 function openReport(r) {
-  current = r;
-  $('msg').value = buildMessage(r);
-  var box = $('showPhotos'); box.innerHTML = '';
-  allPhotoIds(r).forEach(function (id, i) {
-    var d = document.createElement('div'); d.className = 'ph';
-    d.innerHTML = '<img alt="Ảnh ' + (i + 1) + '" src="' + esc(blobUrl(id)) + '"><span class="no">' + (i + 1) + '</span>';
-    box.appendChild(d);
-  });
-  $('dlBtn').hidden = !downloads || !allPhotoIds(r).length;
-  $('showActions').hidden = !canWrite;
-  renderIssues();
+  current = r; editingId = null;
+  renderDoc();
   go('show');
 }
-function renderIssues() {
-  var r = current, box = $('issues');
-  if (!r.yeu || !r.yeu.length) { box.innerHTML = '<p class="hint">Biên bản không có tồn tại cần khắc phục.</p>'; return; }
-  box.innerHTML = '';
-  r.yeu.forEach(function (y, i) {
+function renderDoc() {
+  var r = current, nums = photoNumbers(r), yeu = r.yeu || [];
+  var done = yeu.filter(function (y) { return y.xong; }).length;
+  $('docHead').innerHTML =
+    '<div class="eyebrow">' + ic('doc', 'sm') + 'Biên bản kiểm tra · <span class="mono">' + esc(r.id) + '</span></div>' +
+    '<h1>' + esc(r.donVi) + xlPill(r.xepLoai) + '</h1>' +
+    '<dl class="facts">' +
+    '<div><dt>Thời gian</dt><dd>' + esc(timeText(r)) + '</dd></div>' +
+    '<div><dt>Khắc phục</dt><dd>' + (yeu.length ? done + '/' + yeu.length + ' tồn tại' : 'Không có tồn tại') + '</dd></div>' +
+    (r.hanBaoCao ? '<div><dt>Hạn báo cáo</dt><dd>' + vnDate(r.hanBaoCao) + '</dd></div>' : '') +
+    (r.noiDung && r.noiDung.length ? '<div class="wide"><dt>Nội dung kiểm tra</dt><dd>' + esc(r.noiDung.join(', ')) + '</dd></div>' : '') +
+    (r.thanhPhan ? '<div class="wide"><dt>Thành phần đoàn</dt><dd>' + esc(r.thanhPhan) + '</dd></div>' : '') +
+    '</dl>';
+
+  var m = r.manh || [];
+  $('docManh').hidden = !m.length;
+  $('docManh').innerHTML = '<h3>II. Mặt mạnh<span class="pill ok">' + m.length + '</span></h3><ol>' +
+    m.map(function (x) { return '<li>' + ic('checkc', 'good-ic') + '<span>' + esc(x.text) + '</span></li>'; }).join('') + '</ol>';
+
+  var box = $('docYeu');
+  box.hidden = !yeu.length;
+  box.innerHTML = '<h3>III. Mặt yếu, tồn tại<span class="pill ' + (done === yeu.length ? 'ok' : 'warn') + '">Khắc phục ' + done + '/' + yeu.length + '</span></h3>';
+  yeu.forEach(function (y, i) {
     var d = document.createElement('div');
     d.className = 'issue' + (y.xong ? ' done' : '');
-    d.innerHTML = '<div class="row"><p>' + (i + 1) + '. ' + esc(y.text || 'Xem ảnh') + '</p>' +
-      (canWrite ? '<button class="sm ' + (y.xong ? 'ghost' : '') + '" type="button">' + (y.xong ? 'Bỏ đánh dấu' : 'Đã khắc phục') + '</button>' : '') + '</div><div>' + hanPill(y) + '</div>';
-    var b = d.querySelector('button');
+    d.innerHTML = '<div class="row"><div class="n">' + (i + 1) + '</div><p>' + esc(y.text || 'Xem ảnh') + '</p></div>' +
+      ((y.photos || []).length ? '<div class="photos">' + y.photos.map(function (id, k) { return thumbHtml(id, nums.yeu[i][k]); }).join('') + '</div>' : '') +
+      '<div class="ctl">' + hanPill(y) +
+      (canWrite ? '<button class="btn sm ' + (y.xong ? 'outline' : '') + '" type="button">' + (y.xong ? 'Bỏ đánh dấu' : ic('check', 'sm') + 'Đã khắc phục') + '</button>' : '') + '</div>';
+    var b = d.querySelector('.ctl button');
     if (b) b.onclick = function () { toggleXong(i); };
     box.appendChild(d);
   });
+
+  $('docYeuCau').hidden = !r.yeuCau;
+  $('docYeuCau').innerHTML = '<h3>' + (r.xepLoai ? 'Kết luận: ' + esc(r.xepLoai) : 'Yêu cầu') + '</h3><div>' + esc(r.yeuCau) + '</div>';
+
+  var g = r.photos || [];
+  $('docPhotos').hidden = !g.length;
+  $('docPhotos').innerHTML = '<h3>Hình ảnh chung<span class="pill">' + g.length + ' ảnh</span></h3><div class="photos">' +
+    g.map(function (id, k) { return thumbHtml(id, nums.gen[k]); }).join('') + '</div>';
+
+  Array.prototype.forEach.call(document.querySelectorAll('#v-show .ph[data-id]'), function (el) {
+    el.onclick = function () { openLb(el.getAttribute('data-id')); };
+  });
+
+  var text = buildMessage(r);
+  $('msg').value = text; $('bubble').textContent = text;
+  $('dlBtn').hidden = !downloads || !allPhotoIds(r).length;
+}
+function toggleBubble() {
+  var open = $('bubble').classList.toggle('open');
+  $('expandBtn').textContent = open ? 'Thu gọn' : 'Xem đầy đủ';
 }
 function toggleXong(i) {
   var yeu = current.yeu.map(function (y, k) { var c = Object.assign({}, y); if (k === i) c.xong = !c.xong; return c; });
   db.collection('reports').doc(current.id).update({ yeu: yeu, capNhat: new Date().toISOString() }).then(function () {
     current = Object.assign({}, current, { yeu: yeu });
-    renderIssues();
+    renderDoc(); renderHome();
     toast(yeu[i].xong ? 'Đã ghi nhận khắc phục.' : 'Đã bỏ đánh dấu.');
   }).catch(fail);
 }
-
 function copyMsg() {
-  var text = $('msg').value;
-  var fallback = function () { var t = $('msg'); t.focus(); t.select(); toast('Đã chọn sẵn nội dung, bấm Sao chép trên bàn phím.'); };
+  var text = buildMessage(current);
+  var fallback = function () {
+    var range = document.createRange(); range.selectNodeContents($('bubble'));
+    var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(range);
+    $('bubble').classList.add('open'); $('bubble').scrollIntoView({ block: 'center' });
+    toast('Đã bôi đen tin nhắn, bấm Sao chép trên điện thoại.');
+  };
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(text).then(function () { toast('Đã sao chép. Mở Zalo và dán vào nhóm.'); }, fallback);
   } else fallback();
 }
+function savePhoto(id, no) {
+  return fetch(blobUrl(id)).then(function (res) { if (!res.ok) throw new Error('Không tải được ảnh ' + no); return res.blob(); })
+    .then(function (b) { return downloads.save({ filename: current.id + '-anh-' + no + '.jpg', data: b }); });
+}
 function savePhotos() {
   var ids = allPhotoIds(current), i = 0;
   function next() {
-    if (i >= ids.length) { toast('Xong ' + ids.length + ' ảnh.'); return; }
+    if (i >= ids.length) { toast('Đã lưu ' + ids.length + ' ảnh.'); return; }
     var k = i++;
-    fetch(blobUrl(ids[k])).then(function (res) { if (!res.ok) throw new Error('Không tải được ảnh ' + (k + 1)); return res.blob(); })
-      .then(function (b) { return downloads.save({ filename: current.id + '-anh-' + (k + 1) + '.jpg', data: b }); })
-      .then(next, function (e) { if (e && e.code === 'declined') toast('Đã dừng lưu ảnh.'); else fail(e); });
+    savePhoto(ids[k], k + 1).then(next, function (e) { if (e && e.code === 'declined') toast('Đã dừng lưu ảnh.'); else fail(e); });
   }
   next();
 }
+function openLb(id) {
+  lb.ids = allPhotoIds(current); lb.i = Math.max(0, lb.ids.indexOf(id));
+  showLb(); $('lightbox').hidden = false;
+}
+function showLb() {
+  $('lbImg').src = blobUrl(lb.ids[lb.i]); $('lbImg').alt = 'Ảnh ' + (lb.i + 1);
+  $('lbCap').textContent = 'Ảnh ' + (lb.i + 1) + ' / ' + lb.ids.length;
+  $('lbSave').hidden = !downloads;
+}
+function stepLb(d) { lb.i = (lb.i + d + lb.ids.length) % lb.ids.length; showLb(); }
+function closeLb() { $('lightbox').hidden = true; }
+$('lbSave').onclick = function () { savePhoto(lb.ids[lb.i], lb.i + 1).then(function () { toast('Đã lưu ảnh ' + (lb.i + 1) + '.'); }, function (e) { if (!e || e.code !== 'declined') fail(e); }); };
+document.addEventListener('keydown', function (e) {
+  if ($('lightbox').hidden) return;
+  if (e.key === 'Escape') closeLb(); else if (e.key === 'ArrowLeft') stepLb(-1); else if (e.key === 'ArrowRight') stepLb(1);
+});
+
 function editCurrent() {
   var r = current;
   editingId = r.id; yeuCauTouched = true;
-  $('formTitle').textContent = 'Sửa biên bản ' + r.id;
   $('donVi').value = r.donVi; $('ngay').value = r.ngay; $('gio').value = r.gio || '';
-  $('thanhPhan').value = r.thanhPhan || ''; $('xepLoai').value = r.xepLoai || '';
+  $('thanhPhan').value = r.thanhPhan || ''; setXL(r.xepLoai);
   $('hanBaoCao').value = r.hanBaoCao || ''; $('yeuCau').value = r.yeuCau || '';
   renderTopics(r.noiDung);
   $('manhList').innerHTML = ''; $('yeuList').innerHTML = '';
@@ -518,59 +792,75 @@ function editCurrent() {
   go('new');
 }
 function askDelete() {
-  confirmBox('Xóa hẳn biên bản ' + current.id + ' (' + current.donVi + ') và toàn bộ ảnh? Không khôi phục được.', 'Xóa', function () {
+  confirmBox('Xóa biên bản ' + current.id + '?', 'Biên bản của ' + current.donVi + ' và toàn bộ ảnh sẽ bị xóa hẳn, không khôi phục được.', 'Xóa biên bản', function () {
     var r = current;
     busy('Đang xóa...');
     db.collection('reports').doc(r.id).delete().then(function () {
       if (assets) allPhotoIds(r).forEach(function (x) { assets.delete(x).catch(function () {}); });
       reports = reports.filter(function (x) { return x.id !== r.id; });
-      busy(''); toast('Đã xóa biên bản.'); renderList(); go('list');
+      current = null; busy(''); toast('Đã xóa biên bản.'); renderHome(); go('home');
     }).catch(fail);
   });
 }
 
-/* ---------- Danh sách ---------- */
-function renderList() {
+/* ---------- Tổng quan ---------- */
+function renderHome() {
   var month = todayIso().slice(0, 7);
   var thisMonth = reports.filter(function (r) { return (r.ngay || '').slice(0, 7) === month; }).length;
-  var open = 0, overdue = 0;
-  reports.forEach(function (r) { (r.yeu || []).forEach(function (y) { if (!y.xong) open++; if (isOverdue(y)) overdue++; }); });
-  $('stats').innerHTML =
-    '<div class="stat"><b>' + thisMonth + '</b><span>Biên bản tháng này</span></div>' +
-    '<div class="stat"><b>' + open + '</b><span>Tồn tại chưa khắc phục</span></div>' +
-    '<div class="stat' + (overdue ? ' bad' : '') + '"><b>' + overdue + '</b><span>Tồn tại quá hạn</span></div>';
+  var open = 0, overdue = 0, attn = [];
+  reports.forEach(function (r) {
+    (r.yeu || []).forEach(function (y) {
+      var s = hanState(y);
+      if (s !== 'ok') open++;
+      if (s === 'bad') overdue++;
+      if (s === 'bad' || s === 'warn') attn.push({ r: r, y: y, d: daysLeft(y.han) });
+    });
+  });
+  $('kpis').innerHTML =
+    '<div class="card kpi"><div class="ic">' + ic('doc') + '</div><b>' + thisMonth + '</b><span>Biên bản tháng ' + Number(month.slice(5)) + '</span></div>' +
+    '<div class="card kpi' + (open ? ' warn' : '') + '"><div class="ic">' + ic('clock') + '</div><b>' + open + '</b><span>Tồn tại đang khắc phục</span></div>' +
+    '<div class="card kpi' + (overdue ? ' bad' : '') + '"><div class="ic">' + ic('alert') + '</div><b>' + overdue + '</b><span>Tồn tại quá hạn</span></div>';
+
+  attn.sort(function (a, b) { return a.d - b.d; });
+  $('attnWrap').hidden = !attn.length;
+  $('attn').innerHTML = '';
+  attn.slice(0, 5).forEach(function (a) {
+    var b = document.createElement('button'); b.type = 'button';
+    b.innerHTML = '<span class="u">' + esc(a.r.donVi) + '</span>' + hanPill(a.y) + '<span class="t">' + esc(a.y.text || 'Xem ảnh') + '</span>';
+    b.onclick = function () { openReport(a.r); };
+    $('attn').appendChild(b);
+  });
 
   var fu = $('fUnit').value.trim().toLowerCase(), fm = $('fMonth').value;
   var rows = reports.filter(function (r) { return (!fu || (r.donVi || '').toLowerCase().indexOf(fu) >= 0) && (!fm || (r.ngay || '').slice(0, 7) === fm); })
     .sort(function (a, b) { return ((b.ngay || '') + (b.gio || '')).localeCompare((a.ngay || '') + (a.gio || '')) || b.id.localeCompare(a.id); });
+  $('repCount').textContent = rows.length ? rows.length + ' biên bản' : '';
   var box = $('list');
   if (!rows.length) {
     box.innerHTML = reports.length
-      ? '<div class="empty"><b>Không có biên bản phù hợp</b>Thử bỏ bộ lọc đơn vị hoặc tháng.</div>'
-      : '<div class="empty"><b>Chưa có biên bản nào</b>Bấm "Tạo biên bản" để ghi lần kiểm tra đầu tiên. Biên bản đã lưu sẽ hiện ở đây kèm tình trạng khắc phục.</div>';
+      ? '<div class="card empty"><div class="ic">' + ic('search') + '</div><b>Không có biên bản phù hợp</b>Thử bỏ bộ lọc đơn vị hoặc tháng.</div>'
+      : '<div class="card empty"><div class="ic">' + ic('doc') + '</div><b>Chưa có biên bản nào</b>Bấm nút + ở dưới để ghi lần kiểm tra đầu tiên. Biên bản sẽ hiện ở đây kèm tiến độ khắc phục.</div>';
     return;
   }
   box.innerHTML = '';
   rows.forEach(function (r) {
-    var yeu = r.yeu || [], done = yeu.filter(function (y) { return y.xong; }).length, od = yeu.filter(isOverdue).length;
+    var yeu = r.yeu || [], done = yeu.filter(function (y) { return y.xong; }).length, od = yeu.filter(function (y) { return hanState(y) === 'bad'; }).length;
     var b = document.createElement('button');
-    b.type = 'button'; b.className = 'rep';
-    var xl = r.xepLoai ? '<span class="pill' + (r.xepLoai === 'Chưa đạt' ? ' bad' : r.xepLoai === 'Tốt' ? ' ok' : '') + '">' + esc(r.xepLoai) + '</span>' : '';
-    b.innerHTML = '<div class="t"><b>' + esc(r.donVi) + '</b>' + xl + '</div>' +
-      '<div class="meta">' + vnDate(r.ngay) + (r.noiDung && r.noiDung.length ? ' · ' + esc(r.noiDung.join(', ')) : '') + ' · <span class="mono">' + esc(r.id) + '</span></div>' +
-      '<div class="pills"><span class="pill ok">' + (r.manh || []).length + ' mặt mạnh</span>' +
-      (yeu.length ? '<span class="pill' + (done === yeu.length ? ' ok' : ' warn') + '">Khắc phục ' + done + '/' + yeu.length + '</span>' : '') +
+    b.type = 'button'; b.className = 'card rep s-' + reportState(r);
+    b.innerHTML = '<div class="avatar">' + esc(initials(r.donVi)) + '</div><div style="min-width:0">' +
+      '<div class="top"><b>' + esc(r.donVi) + '</b>' + xlPill(r.xepLoai) + '</div>' +
+      '<div class="meta">' + vnDate(r.ngay) + (r.noiDung && r.noiDung.length ? ' · ' + esc(r.noiDung.join(', ')) : '') + '</div>' +
+      '<div class="foot">' +
+      (yeu.length ? '<span class="prog"><span class="bar"><i style="width:' + Math.round(done / yeu.length * 100) + '%"></i></span>' + done + '/' + yeu.length + ' khắc phục</span>' : '<span class="pill ok">' + ic('check', 'sm') + 'Không có tồn tại</span>') +
       (od ? '<span class="pill bad">' + od + ' quá hạn</span>' : '') +
-      '<span class="pill">' + allPhotoIds(r).length + ' ảnh</span></div>';
+      '<span>' + allPhotoIds(r).length + ' ảnh</span></div></div>';
     b.onclick = function () { openReport(r); };
     box.appendChild(b);
   });
 }
 
 /* ---------- Cài đặt ---------- */
-function fillCfgForm() {
-  $('cUnits').value = cfg.units.join('\n'); $('cTopics').value = cfg.topics.join('\n'); $('cCoQuan').value = cfg.coQuan || '';
-}
+function fillCfgForm() { $('cUnits').value = cfg.units.join('\n'); $('cTopics').value = cfg.topics.join('\n'); $('cCoQuan').value = cfg.coQuan || ''; }
 function lines(s) { return s.split('\n').map(function (x) { return x.trim(); }).filter(Boolean); }
 function saveCfg() {
   if (!db || !canWrite) { toast('Không có quyền sửa cài đặt.'); return; }
@@ -579,16 +869,14 @@ function saveCfg() {
 }
 function applyCfg(c) {
   cfg = { units: c.units || DEFAULT_CFG.units, topics: c.topics || DEFAULT_CFG.topics, coQuan: c.coQuan || DEFAULT_CFG.coQuan };
-  renderUnits(); fillCfgForm();
-  if (!editingId && $('v-new').hidden) { renderTopics([]); if (!yeuCauTouched) $('yeuCau').value = defaultYeuCau(); }
+  renderUnits(); if (view !== 'cfg') fillCfgForm();
+  if (view !== 'new') { renderTopics([]); if (!yeuCauTouched) $('yeuCau').value = defaultYeuCau(); }
 }
 
 /* ---------- Khởi động ---------- */
 $('yeuCau').addEventListener('input', function () { yeuCauTouched = true; });
 $('hanBaoCao').addEventListener('change', function () { if (!yeuCauTouched) $('yeuCau').value = defaultYeuCau(); });
-applyCfg(DEFAULT_CFG);
-resetForm();
-renderList();
+applyCfg(DEFAULT_CFG); resetForm(); renderHome(); go('home');
 
 (function boot() {
   var use = window.claude && window.claude.use ? function (n) { return window.claude.use(n).catch(function () { return null; }); } : function () { return Promise.resolve(null); };
@@ -599,18 +887,16 @@ renderList();
     var user = c[3];
     if (!db) { $('offline').hidden = false; $('ro-new').hidden = false; $('saveBtn').disabled = true; $('cfgBtn').disabled = true; return; }
     $('offline').hidden = true;
-    var w = user ? user.can('data.write') : null;
-    return Promise.resolve(w).then(function (ok) {
+    return Promise.resolve(user ? user.can('data.write') : null).then(function (ok) {
       canWrite = ok !== false;
-      if (!canWrite) { $('ro-new').hidden = false; $('saveBtn').disabled = true; $('cfgBtn').disabled = true; $('t-new').hidden = true; }
-      if (canWrite && !assets) toast('Trang này chưa được cấp quyền lưu ảnh.');
+      if (!canWrite) { $('ro-new').hidden = false; $('saveBtn').disabled = true; $('cfgBtn').disabled = true; $('n-new').hidden = true; }
       db.doc('config/main').onSnapshot(function (s) { if (s.exists) applyCfg(s.data()); }, function (e) { toast('Lỗi tải cài đặt: ' + errText(e)); });
       db.collection('reports').onSnapshot(function (snap) {
         reports = snap.docs.map(function (d) { return Object.assign({ id: d.id }, d.data()); });
-        renderList();
-        if (current) {
+        renderHome();
+        if (current && view === 'show') {
           var fresh = reports.filter(function (r) { return r.id === current.id; })[0];
-          if (fresh && !$('v-show').hidden) { current = fresh; renderIssues(); }
+          if (fresh) { current = fresh; renderDoc(); }
         }
       }, function (e) { toast('Lỗi tải danh sách: ' + errText(e)); });
     });
