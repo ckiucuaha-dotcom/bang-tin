@@ -1,0 +1,619 @@
+<title>Sổ Kiểm tra Hậu cần</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Bố cục: thanh tab dính trên cùng, một cột nội dung rộng tối đa 720px, phiếu ghi chia khối theo trình tự biên bản */
+:root {
+  --bg: #f3f4ee; --surface: #ffffff; --sunk: #eef0e7; --fg: #1c2318; --muted: #5d6855; --line: #d6dacb;
+  --accent: #46642c; --accent-fg: #ffffff; --accent-soft: #e2ead6;
+  --ok: #2c7337; --ok-soft: #e1f0e2; --warn: #94560a; --warn-soft: #f8ecd6; --bad: #b02a1d; --bad-soft: #f9e4e0;
+  --font-body: "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --r: 10px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121610; --surface: #1a2016; --sunk: #151a12; --fg: #e4e9dc; --muted: #98a38c; --line: #2e3728;
+  --accent: #a3c47c; --accent-fg: #142010; --accent-soft: #263220;
+  --ok: #82c98f; --ok-soft: #1c2e1f; --warn: #e3b25a; --warn-soft: #33281434; --bad: #f08a76; --bad-soft: #3a1d18;
+  color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #121610; --surface: #1a2016; --sunk: #151a12; --fg: #e4e9dc; --muted: #98a38c; --line: #2e3728;
+  --accent: #a3c47c; --accent-fg: #142010; --accent-soft: #263220;
+  --ok: #82c98f; --ok-soft: #1c2e1f; --warn: #e3b25a; --warn-soft: #33281434; --bad: #f08a76; --bad-soft: #3a1d18;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--font-body); }
+.wrap { max-width: 720px; margin: 0 auto; padding-inline: 16px; padding-block: 16px 40px; }
+header.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); border-bottom: 1px solid var(--line); }
+header.top .in { max-width: 720px; margin: 0 auto; padding-inline: 16px; padding-block: 12px 0; }
+.brand { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.brand h1 { margin: 0; font-size: 17px; font-weight: 700; letter-spacing: -.01em; text-wrap: balance; }
+.brand small { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+nav.tabs { display: flex; gap: 2px; margin-top: 8px; overflow-x: auto; }
+nav.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; color: var(--muted); padding: 8px 12px; font: 600 14px var(--font-body); cursor: pointer; white-space: nowrap; }
+nav.tabs button[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--accent); }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); margin: 0 0 10px; font-weight: 600; }
+.block { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; display: grid; gap: 10px; }
+.stack { display: grid; gap: 14px; }
+.field { display: grid; gap: 4px; min-width: 0; }
+.field > span { font-size: 13px; color: var(--muted); font-weight: 500; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 420px) { .grid2.wrapnarrow { grid-template-columns: 1fr; } }
+input, select, textarea { width: 100%; font: 15px var(--font-body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; }
+textarea { resize: vertical; min-height: 42px; }
+input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-visible, .chip:focus-within, .addph:focus-within { outline: 2px solid var(--accent); outline-offset: 1px; }
+button { font: 600 14px var(--font-body); border: 1px solid transparent; border-radius: 8px; padding: 9px 14px; cursor: pointer; background: var(--accent-soft); color: var(--accent); }
+button.primary { background: var(--accent); color: var(--accent-fg); }
+button.ghost { background: none; border-color: var(--line); color: var(--fg); }
+button.danger { background: var(--bad-soft); color: var(--bad); }
+button.sm { padding: 5px 10px; font-size: 13px; }
+button:disabled { opacity: .5; cursor: default; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; font-size: 14px; background: var(--surface); }
+.chip input { width: auto; margin: 0; accent-color: var(--accent); }
+.chip:has(input:checked) { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.entry { display: grid; gap: 8px; padding: 10px 0 10px 12px; border-left: 3px solid var(--line); }
+.entry.good { border-left-color: var(--ok); }
+.entry.bad { border-left-color: var(--bad); }
+.entry .head { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); font-weight: 600; }
+.photos { display: flex; flex-wrap: wrap; gap: 8px; }
+.ph { position: relative; width: 84px; height: 84px; border-radius: 8px; overflow: hidden; background: var(--sunk); border: 1px solid var(--line); flex: none; }
+.ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ph .x { position: absolute; top: 3px; right: 3px; width: 24px; height: 24px; padding: 0; border-radius: 50%; background: #000a; color: #fff; font-size: 13px; line-height: 1; }
+.ph .no { position: absolute; left: 3px; bottom: 3px; background: #000a; color: #fff; font: 500 11px var(--font-mono); padding: 1px 6px; border-radius: 6px; }
+.addph { width: 84px; height: 84px; border: 1.5px dashed var(--line); border-radius: 8px; display: grid; place-items: center; text-align: center; font-size: 12px; color: var(--muted); cursor: pointer; flex: none; }
+.addph input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.bar { display: flex; gap: 8px; flex-wrap: wrap; }
+.bar.sticky { position: sticky; bottom: 0; background: var(--bg); padding-block: 10px; }
+.bar.sticky button { flex: 1; }
+.hint { font-size: 13px; color: var(--muted); margin: 0; }
+.mono { font-family: var(--font-mono); font-size: 12px; }
+.msg { width: 100%; min-height: 320px; font: 14px/1.55 var(--font-body); background: var(--sunk); white-space: pre-wrap; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 10px 12px; }
+.stat b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.stat span { font-size: 12px; color: var(--muted); }
+.stat.bad b { color: var(--bad); }
+.rep { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px 14px; display: grid; gap: 4px; cursor: pointer; text-align: left; color: var(--fg); font-weight: 400; width: 100%; }
+.rep .t { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.rep .t b { font-size: 16px; min-width: 0; }
+.rep .meta { font-size: 13px; color: var(--muted); }
+.pill { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+.pill.ok { background: var(--ok-soft); color: var(--ok); }
+.pill.warn { background: var(--warn-soft); color: var(--warn); }
+.pill.bad { background: var(--bad-soft); color: var(--bad); }
+.pills { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; }
+.issue { display: grid; gap: 6px; padding: 10px 0; border-top: 1px solid var(--line); }
+.issue:first-child { border-top: 0; padding-top: 0; }
+.issue .row { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }
+.issue p { margin: 0; min-width: 0; }
+.issue.done p { color: var(--muted); text-decoration: line-through; }
+.empty { text-align: center; color: var(--muted); padding: 36px 16px; border: 1.5px dashed var(--line); border-radius: var(--r); }
+.empty b { display: block; color: var(--fg); font-size: 16px; margin-bottom: 4px; }
+.notice { background: var(--warn-soft); color: var(--warn); border-radius: var(--r); padding: 10px 14px; font-size: 14px; }
+.modal { position: fixed; inset: 0; background: #0008; display: grid; place-items: center; z-index: 50; padding: 16px; }
+.modal .box { background: var(--surface); border-radius: 12px; padding: 18px; max-width: 380px; width: 100%; display: grid; gap: 14px; }
+.modal p { margin: 0; }
+#toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--fg); color: var(--bg); padding: 10px 16px; border-radius: 8px; font-size: 14px; z-index: 60; max-width: calc(100% - 32px); text-align: center; }
+#busy { position: fixed; inset: 0; background: color-mix(in srgb, var(--bg) 80%, transparent); display: grid; place-items: center; z-index: 55; font-weight: 600; color: var(--accent); padding: 16px; text-align: center; }
+@media (prefers-reduced-motion: no-preference) { button { transition: filter .15s; } button:hover:not(:disabled) { filter: brightness(.96); } }
+</style>
+
+<header class="top"><div class="in">
+  <div class="brand"><h1>Sổ Kiểm tra Hậu cần</h1><small id="who"></small></div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="t-new" aria-selected="false" onclick="go('new')">Tạo biên bản</button>
+    <button role="tab" id="t-list" aria-selected="true" onclick="go('list')">Danh sách</button>
+    <button role="tab" id="t-cfg" aria-selected="false" onclick="go('cfg')">Cài đặt</button>
+  </nav>
+</div></header>
+
+<div class="wrap">
+  <div id="offline" class="notice" hidden>Đang kết nối kho dữ liệu... Nếu thông báo này không mất, hãy mở trang trên claude.ai và đăng nhập.</div>
+
+  <!-- ===== TẠO / SỬA ===== -->
+  <section id="v-new" class="stack" hidden>
+    <div id="ro-new" class="notice" hidden>Anh/chị chỉ có quyền xem, không tạo biên bản được.</div>
+    <div class="block">
+      <h2 id="formTitle">Thông tin chung</h2>
+      <label class="field"><span>Đơn vị được kiểm tra *</span>
+        <input id="donVi" list="unitList" placeholder="Chọn hoặc gõ tên đơn vị" autocomplete="off"></label>
+      <datalist id="unitList"></datalist>
+      <div class="grid2">
+        <label class="field"><span>Ngày kiểm tra *</span><input id="ngay" type="date"></label>
+        <label class="field"><span>Giờ</span><input id="gio" type="time"></label>
+      </div>
+      <div class="field"><span>Nội dung kiểm tra</span><div class="chips" id="topics"></div></div>
+      <label class="field"><span>Thành phần đoàn kiểm tra</span>
+        <textarea id="thanhPhan" rows="2" placeholder="Đ/c ... (Trưởng đoàn), Đ/c ..."></textarea></label>
+    </div>
+
+    <div class="block">
+      <h2>Mặt mạnh</h2>
+      <div id="manhList"></div>
+      <div><button class="sm" type="button" onclick="addManh()">+ Thêm mặt mạnh</button></div>
+    </div>
+
+    <div class="block">
+      <h2>Mặt yếu, tồn tại</h2>
+      <div id="yeuList"></div>
+      <div><button class="sm" type="button" onclick="addYeu()">+ Thêm mặt yếu</button></div>
+    </div>
+
+    <div class="block">
+      <h2>Hình ảnh chung</h2>
+      <div class="photos" id="genPhotos"></div>
+      <p class="hint">Ảnh được thu nhỏ còn khoảng 300 KB trước khi lưu. Mẹo: chụp bằng app Camera rồi chọn từ thư viện, để ảnh có sẵn trong máy khi gửi Zalo.</p>
+    </div>
+
+    <div class="block">
+      <h2>Kết luận</h2>
+      <div class="grid2 wrapnarrow">
+        <label class="field"><span>Đánh giá chung</span>
+          <select id="xepLoai"><option value="">Không xếp loại</option><option>Tốt</option><option>Khá</option><option>Đạt</option><option>Chưa đạt</option></select></label>
+        <label class="field"><span>Hạn báo cáo khắc phục</span><input id="hanBaoCao" type="date"></label>
+      </div>
+      <label class="field"><span>Yêu cầu đối với đơn vị</span><textarea id="yeuCau" rows="3"></textarea></label>
+    </div>
+
+    <div class="bar sticky">
+      <button class="ghost" type="button" onclick="askReset()">Làm mới</button>
+      <button class="primary" type="button" id="saveBtn" onclick="save()">Lưu và soạn tin Zalo</button>
+    </div>
+  </section>
+
+  <!-- ===== DANH SÁCH ===== -->
+  <section id="v-list" class="stack">
+    <div class="stats" id="stats"></div>
+    <div class="grid2">
+      <label class="field"><span>Lọc đơn vị</span><input id="fUnit" list="unitList" placeholder="Tất cả" oninput="renderList()"></label>
+      <label class="field"><span>Tháng</span><input id="fMonth" type="month" oninput="renderList()"></label>
+    </div>
+    <div class="stack" id="list"></div>
+  </section>
+
+  <!-- ===== XEM 1 BIÊN BẢN ===== -->
+  <section id="v-show" class="stack" hidden>
+    <div><button class="ghost sm" type="button" onclick="go('list')">← Danh sách</button></div>
+    <div class="block">
+      <h2>Tin nhắn gửi Zalo</h2>
+      <textarea id="msg" class="msg" readonly></textarea>
+      <div class="bar">
+        <button class="primary" type="button" onclick="copyMsg()">Sao chép nội dung</button>
+        <button type="button" id="dlBtn" onclick="savePhotos()">Lưu ảnh về máy</button>
+      </div>
+      <p class="hint">Gửi Zalo: bấm Sao chép, mở nhóm Zalo của đơn vị, dán vào ô chat, rồi gửi kèm ảnh. Số trên ảnh khớp với "(ảnh 1, 2)" trong tin.</p>
+      <div class="photos" id="showPhotos"></div>
+    </div>
+    <div class="block">
+      <h2>Theo dõi khắc phục</h2>
+      <div id="issues"></div>
+    </div>
+    <div class="bar" id="showActions">
+      <button class="ghost" type="button" onclick="editCurrent()">Sửa biên bản</button>
+      <button class="danger" type="button" onclick="askDelete()">Xóa biên bản</button>
+    </div>
+  </section>
+
+  <!-- ===== CÀI ĐẶT ===== -->
+  <section id="v-cfg" class="stack" hidden>
+    <div class="block">
+      <h2>Danh mục</h2>
+      <label class="field"><span>Danh sách đơn vị (mỗi dòng một đơn vị)</span><textarea id="cUnits" rows="6"></textarea></label>
+      <label class="field"><span>Nội dung kiểm tra (mỗi dòng một nội dung)</span><textarea id="cTopics" rows="6"></textarea></label>
+      <label class="field"><span>Cơ quan nhận báo cáo khắc phục</span><input id="cCoQuan" placeholder="Ban Hậu cần"></label>
+      <div><button class="primary" type="button" id="cfgBtn" onclick="saveCfg()">Lưu cài đặt</button></div>
+    </div>
+    <p class="hint">Lưu ý bảo mật: chỉ ghi nội dung hậu cần thông thường. Không ghi quân số, phiên hiệu đầy đủ, vị trí, bố trí doanh trại; tránh chụp cổng, biển hiệu, khu vực hạn chế.</p>
+  </section>
+</div>
+
+<div id="toast" hidden></div>
+<div id="busy" hidden><span id="busyText"></span></div>
+<div id="modal" class="modal" hidden><div class="box"><p id="modalText"></p>
+  <div class="bar"><button class="ghost" type="button" onclick="closeModal()">Hủy</button><button class="danger" type="button" id="modalOk">Đồng ý</button></div></div></div>
+
+<script>
+var DEFAULT_CFG = {
+  units: ['Đại đội 1', 'Đại đội 2', 'Đại đội 3'],
+  topics: ['Doanh trại', 'Tăng gia sản xuất', 'Quân trang', 'Nhà ăn, quân nhu', 'Quân y, vệ sinh', 'Xăng dầu, xe máy'],
+  coQuan: 'Ban Hậu cần'
+};
+var db = null, assets = null, downloads = null, canWrite = false;
+var cfg = DEFAULT_CFG, reports = [], current = null, editingId = null, yeuCauTouched = false;
+
+function $(id) { return document.getElementById(id); }
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+function vnDate(iso) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ''); return m ? m[3] + '/' + m[2] + '/' + m[1] : ''; }
+function pad(n) { return ('0' + n).slice(-2); }
+function todayIso() { var d = new Date(); return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+function blobUrl(id) { return '/_blob/' + id; }
+function toast(t) { var el = $('toast'); el.textContent = t; el.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(function () { el.hidden = true; }, 3500); }
+function busy(t) { $('busyText').textContent = t || ''; $('busy').hidden = !t; }
+function errText(e) { return (e && (e.message || e.code)) || String(e); }
+function fail(e) { busy(''); toast('Lỗi: ' + errText(e)); }
+function confirmBox(text, okLabel, fn) { $('modalText').textContent = text; $('modalOk').textContent = okLabel; $('modalOk').onclick = function () { closeModal(); fn(); }; $('modal').hidden = false; }
+function closeModal() { $('modal').hidden = true; }
+
+function go(v) {
+  ['new', 'list', 'show', 'cfg'].forEach(function (k) { $('v-' + k).hidden = k !== v; });
+  $('t-new').setAttribute('aria-selected', v === 'new');
+  $('t-list').setAttribute('aria-selected', v === 'list' || v === 'show');
+  $('t-cfg').setAttribute('aria-selected', v === 'cfg');
+  window.scrollTo(0, 0);
+}
+
+/* ---------- Hạn khắc phục ---------- */
+function daysLeft(iso) {
+  var a = new Date(iso + 'T00:00:00'), b = new Date(todayIso() + 'T00:00:00');
+  return Math.round((a - b) / 86400000);
+}
+function hanPill(y) {
+  if (y.xong) return '<span class="pill ok">Đã khắc phục</span>';
+  if (!y.han) return '<span class="pill">Chưa đặt hạn</span>';
+  var d = daysLeft(y.han);
+  if (d < 0) return '<span class="pill bad">Quá hạn ' + (-d) + ' ngày</span>';
+  if (d === 0) return '<span class="pill warn">Hạn hôm nay</span>';
+  return '<span class="pill' + (d <= 3 ? ' warn' : '') + '">Còn ' + d + ' ngày (' + vnDate(y.han) + ')</span>';
+}
+function isOverdue(y) { return !y.xong && y.han && daysLeft(y.han) < 0; }
+
+/* ---------- Form ---------- */
+function defaultYeuCau() {
+  var han = $('hanBaoCao').value;
+  return 'Đơn vị khẩn trương khắc phục các tồn tại nêu trên, báo cáo kết quả (kèm hình ảnh) về ' + (cfg.coQuan || 'Ban Hậu cần') +
+    (han ? ' trước ngày ' + vnDate(han) : '') + '.';
+}
+function renderTopics(selected) {
+  selected = selected || [];
+  var all = cfg.topics.slice();
+  selected.forEach(function (s) { if (all.indexOf(s) < 0) all.push(s); });
+  $('topics').innerHTML = all.map(function (t) {
+    return '<label class="chip"><input type="checkbox" value="' + esc(t) + '"' + (selected.indexOf(t) >= 0 ? ' checked' : '') + '>' + esc(t) + '</label>';
+  }).join('');
+}
+function renderUnits() {
+  $('unitList').innerHTML = cfg.units.map(function (u) { return '<option value="' + esc(u) + '">'; }).join('');
+}
+function askReset() { confirmBox('Xóa nội dung đang nhập để tạo biên bản mới?', 'Làm mới', resetForm); }
+function resetForm() {
+  editingId = null; yeuCauTouched = false;
+  $('formTitle').textContent = 'Thông tin chung';
+  $('donVi').value = ''; $('ngay').value = todayIso();
+  var n = new Date(); $('gio').value = pad(n.getHours()) + ':' + pad(n.getMinutes());
+  $('thanhPhan').value = ''; $('xepLoai').value = ''; $('hanBaoCao').value = '';
+  $('yeuCau').value = defaultYeuCau();
+  renderTopics([]);
+  $('manhList').innerHTML = ''; $('yeuList').innerHTML = '';
+  addManh(); addYeu();
+  $('genPhotos').innerHTML = ''; $('genPhotos').appendChild(photoAdder());
+}
+function addManh(text) {
+  var d = document.createElement('div');
+  d.className = 'entry good';
+  d.innerHTML = '<div class="head"><span></span><button class="sm danger" type="button">Xóa</button></div><textarea rows="2" placeholder="VD: Doanh trại ngăn nắp, nội vụ vệ sinh đúng quy định"></textarea>';
+  d.querySelector('textarea').value = text || '';
+  d.querySelector('button').onclick = function () { d.remove(); renumber(); };
+  $('manhList').appendChild(d); renumber();
+}
+function addYeu(y) {
+  y = y || {};
+  var d = document.createElement('div');
+  d.className = 'entry bad';
+  d._xong = !!y.xong;
+  d.innerHTML = '<div class="head"><span></span><button class="sm danger" type="button">Xóa</button></div>' +
+    '<textarea rows="2" placeholder="VD: Khu vệ sinh tập thể chưa sạch, rãnh thoát nước bị tắc"></textarea>' +
+    '<label class="field"><span>Hạn khắc phục</span><input type="date" class="han"></label><div class="photos"></div>';
+  d.querySelector('textarea').value = y.text || '';
+  d.querySelector('.han').value = y.han || '';
+  var ph = d.querySelector('.photos');
+  (y.photos || []).forEach(function (id) { ph.appendChild(photoThumb({ id: id })); });
+  ph.appendChild(photoAdder());
+  d.querySelector('.head button').onclick = function () { d.remove(); renumber(); };
+  $('yeuList').appendChild(d); renumber();
+}
+function renumber() {
+  [['manhList', 'Mặt mạnh'], ['yeuList', 'Mặt yếu']].forEach(function (p) {
+    Array.prototype.forEach.call($(p[0]).children, function (el, i) { el.querySelector('.head span').textContent = p[1] + ' ' + (i + 1); });
+  });
+}
+function photoAdder() {
+  var l = document.createElement('label');
+  l.className = 'addph';
+  l.innerHTML = '<span>+ Thêm ảnh</span><input type="file" accept="image/*" multiple>';
+  l.querySelector('input').onchange = function (ev) {
+    var files = Array.prototype.slice.call(ev.target.files);
+    ev.target.value = '';
+    busy('Đang xử lý ảnh...');
+    files.reduce(function (p, f) {
+      return p.then(function () { return compress(f); }).then(function (blob) {
+        l.parentNode.insertBefore(photoThumb({ blob: blob }), l);
+      });
+    }, Promise.resolve()).then(function () { busy(''); }).catch(fail);
+  };
+  return l;
+}
+function photoThumb(p) {
+  var d = document.createElement('div');
+  d.className = 'ph'; d._photo = p;
+  d.innerHTML = '<img alt="Ảnh minh chứng"><button class="x" type="button" aria-label="Bỏ ảnh">✕</button>';
+  d.querySelector('img').src = p.blob ? URL.createObjectURL(p.blob) : blobUrl(p.id);
+  d.querySelector('.x').onclick = function () { d.remove(); };
+  return d;
+}
+function compress(file) {
+  return new Promise(function (resolve, reject) {
+    var url = URL.createObjectURL(file), img = new Image();
+    img.onload = function () {
+      var max = 1600, s = Math.min(1, max / Math.max(img.naturalWidth, img.naturalHeight));
+      var c = document.createElement('canvas');
+      c.width = Math.round(img.naturalWidth * s); c.height = Math.round(img.naturalHeight * s);
+      c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+      URL.revokeObjectURL(url);
+      c.toBlob(function (b) { b ? resolve(b) : reject(new Error('Không nén được ảnh')); }, 'image/jpeg', 0.8);
+    };
+    img.onerror = function () { reject(new Error('Không đọc được ảnh ' + file.name)); };
+    img.src = url;
+  });
+}
+function photosIn(el) { return Array.prototype.map.call(el.querySelectorAll('.ph'), function (x) { return x._photo; }); }
+
+function uploadAll(lists) {
+  var pending = [].concat.apply([], lists).filter(function (p) { return !p.id; });
+  if (pending.length && !assets) return Promise.reject(new Error('Không có quyền lưu ảnh trên trang này.'));
+  var n = 0;
+  return pending.reduce(function (pr, p) {
+    return pr.then(function () {
+      busy('Đang tải ảnh lên ' + (++n) + '/' + pending.length + '...');
+      return assets.upload(p.blob, { type: 'image/jpeg' }).then(function (r) { p.id = r.id; });
+    });
+  }, Promise.resolve()).then(function () {
+    return lists.map(function (l) { return l.map(function (p) { return p.id; }); });
+  });
+}
+
+function newId() {
+  var d = new Date();
+  return 'KT' + String(d.getFullYear()).slice(2) + pad(d.getMonth() + 1) + pad(d.getDate()) + pad(d.getHours()) + pad(d.getMinutes()) + pad(d.getSeconds());
+}
+
+function save() {
+  if (!db || !canWrite) { toast('Chưa kết nối được kho dữ liệu hoặc không có quyền ghi.'); return; }
+  var donVi = $('donVi').value.trim();
+  if (!donVi) { toast('Chưa nhập đơn vị được kiểm tra.'); $('donVi').focus(); return; }
+  if (!$('ngay').value) { toast('Chưa chọn ngày kiểm tra.'); return; }
+  var manh = Array.prototype.map.call($('manhList').children, function (el) { return { text: el.querySelector('textarea').value.trim() }; }).filter(function (m) { return m.text; });
+  var yeuEls = Array.prototype.filter.call($('yeuList').children, function (el) { return el.querySelector('textarea').value.trim() || el.querySelectorAll('.ph').length; });
+  var lists = yeuEls.map(function (el) { return photosIn(el); });
+  lists.push(photosIn($('genPhotos')));
+  var id = editingId || newId();
+  var old = editingId ? reports.filter(function (r) { return r.id === editingId; })[0] : null;
+  busy('Đang lưu...');
+  uploadAll(lists).then(function (ids) {
+    var r = {
+      donVi: donVi, ngay: $('ngay').value, gio: $('gio').value,
+      noiDung: Array.prototype.map.call($('topics').querySelectorAll('input:checked'), function (i) { return i.value; }),
+      thanhPhan: $('thanhPhan').value.trim(), manh: manh,
+      yeu: yeuEls.map(function (el, i) { return { text: el.querySelector('textarea').value.trim(), han: el.querySelector('.han').value, photos: ids[i], xong: el._xong }; }),
+      photos: ids[ids.length - 1], xepLoai: $('xepLoai').value, hanBaoCao: $('hanBaoCao').value, yeuCau: $('yeuCau').value.trim(),
+      taoLuc: old && old.taoLuc ? old.taoLuc : new Date().toISOString(), capNhat: new Date().toISOString()
+    };
+    busy('Đang lưu biên bản...');
+    return db.collection('reports').doc(id).set(r).then(function () {
+      r.id = id;
+      if (old && assets) {
+        var keep = allPhotoIds(r);
+        allPhotoIds(old).filter(function (x) { return keep.indexOf(x) < 0; }).forEach(function (x) { assets.delete(x).catch(function () {}); });
+      }
+      return r;
+    });
+  }).then(function (r) {
+    busy('');
+    toast('Đã lưu biên bản ' + r.id);
+    reports = reports.filter(function (x) { return x.id !== r.id; }).concat([r]);
+    resetForm();
+    openReport(r);
+  }).catch(fail);
+}
+
+/* ---------- Tin Zalo ---------- */
+function allPhotoIds(r) { var ids = []; (r.yeu || []).forEach(function (y) { ids = ids.concat(y.photos || []); }); return ids.concat(r.photos || []); }
+function photoNumbers(r) {
+  var n = 0, yeu = (r.yeu || []).map(function (y) { return (y.photos || []).map(function () { return ++n; }); });
+  (r.photos || []).forEach(function () { ++n; });
+  return { yeu: yeu, total: n };
+}
+function buildMessage(r) {
+  var nums = photoNumbers(r), L = ['📋 THÔNG BÁO KẾT QUẢ KIỂM TRA CÔNG TÁC HẬU CẦN', ''];
+  L.push('🏢 Đơn vị: ' + r.donVi);
+  if (r.noiDung && r.noiDung.length) L.push('📌 Nội dung: ' + r.noiDung.join('; '));
+  L.push('📅 Thời gian: ' + (r.gio ? r.gio.replace(':', 'h') + ' ' : '') + 'ngày ' + vnDate(r.ngay));
+  if (r.thanhPhan) L.push('👥 Thành phần: ' + r.thanhPhan);
+  if (r.manh && r.manh.length) { L.push('', '✅ MẶT MẠNH'); r.manh.forEach(function (m, i) { L.push((i + 1) + '. ' + m.text); }); }
+  if (r.yeu && r.yeu.length) {
+    L.push('', '⚠️ MẶT YẾU, TỒN TẠI');
+    r.yeu.forEach(function (y, i) {
+      L.push((i + 1) + '. ' + (y.text || 'Xem ảnh') + (nums.yeu[i].length ? ' (ảnh ' + nums.yeu[i].join(', ') + ')' : ''));
+      if (y.han) L.push('   ➜ Hạn khắc phục: ' + vnDate(y.han));
+    });
+  }
+  if (r.xepLoai) L.push('', '📊 Đánh giá chung: ' + r.xepLoai.toUpperCase());
+  if (r.yeuCau) L.push('', '📝 Yêu cầu: ' + r.yeuCau);
+  if (nums.total) L.push('', '📎 Hình ảnh kèm theo: ' + nums.total + ' ảnh');
+  return L.join('\n');
+}
+
+function openReport(r) {
+  current = r;
+  $('msg').value = buildMessage(r);
+  var box = $('showPhotos'); box.innerHTML = '';
+  allPhotoIds(r).forEach(function (id, i) {
+    var d = document.createElement('div'); d.className = 'ph';
+    d.innerHTML = '<img alt="Ảnh ' + (i + 1) + '" src="' + esc(blobUrl(id)) + '"><span class="no">' + (i + 1) + '</span>';
+    box.appendChild(d);
+  });
+  $('dlBtn').hidden = !downloads || !allPhotoIds(r).length;
+  $('showActions').hidden = !canWrite;
+  renderIssues();
+  go('show');
+}
+function renderIssues() {
+  var r = current, box = $('issues');
+  if (!r.yeu || !r.yeu.length) { box.innerHTML = '<p class="hint">Biên bản không có tồn tại cần khắc phục.</p>'; return; }
+  box.innerHTML = '';
+  r.yeu.forEach(function (y, i) {
+    var d = document.createElement('div');
+    d.className = 'issue' + (y.xong ? ' done' : '');
+    d.innerHTML = '<div class="row"><p>' + (i + 1) + '. ' + esc(y.text || 'Xem ảnh') + '</p>' +
+      (canWrite ? '<button class="sm ' + (y.xong ? 'ghost' : '') + '" type="button">' + (y.xong ? 'Bỏ đánh dấu' : 'Đã khắc phục') + '</button>' : '') + '</div><div>' + hanPill(y) + '</div>';
+    var b = d.querySelector('button');
+    if (b) b.onclick = function () { toggleXong(i); };
+    box.appendChild(d);
+  });
+}
+function toggleXong(i) {
+  var yeu = current.yeu.map(function (y, k) { var c = Object.assign({}, y); if (k === i) c.xong = !c.xong; return c; });
+  db.collection('reports').doc(current.id).update({ yeu: yeu, capNhat: new Date().toISOString() }).then(function () {
+    current = Object.assign({}, current, { yeu: yeu });
+    renderIssues();
+    toast(yeu[i].xong ? 'Đã ghi nhận khắc phục.' : 'Đã bỏ đánh dấu.');
+  }).catch(fail);
+}
+
+function copyMsg() {
+  var text = $('msg').value;
+  var fallback = function () { var t = $('msg'); t.focus(); t.select(); toast('Đã chọn sẵn nội dung, bấm Sao chép trên bàn phím.'); };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(function () { toast('Đã sao chép. Mở Zalo và dán vào nhóm.'); }, fallback);
+  } else fallback();
+}
+function savePhotos() {
+  var ids = allPhotoIds(current), i = 0;
+  function next() {
+    if (i >= ids.length) { toast('Xong ' + ids.length + ' ảnh.'); return; }
+    var k = i++;
+    fetch(blobUrl(ids[k])).then(function (res) { if (!res.ok) throw new Error('Không tải được ảnh ' + (k + 1)); return res.blob(); })
+      .then(function (b) { return downloads.save({ filename: current.id + '-anh-' + (k + 1) + '.jpg', data: b }); })
+      .then(next, function (e) { if (e && e.code === 'declined') toast('Đã dừng lưu ảnh.'); else fail(e); });
+  }
+  next();
+}
+function editCurrent() {
+  var r = current;
+  editingId = r.id; yeuCauTouched = true;
+  $('formTitle').textContent = 'Sửa biên bản ' + r.id;
+  $('donVi').value = r.donVi; $('ngay').value = r.ngay; $('gio').value = r.gio || '';
+  $('thanhPhan').value = r.thanhPhan || ''; $('xepLoai').value = r.xepLoai || '';
+  $('hanBaoCao').value = r.hanBaoCao || ''; $('yeuCau').value = r.yeuCau || '';
+  renderTopics(r.noiDung);
+  $('manhList').innerHTML = ''; $('yeuList').innerHTML = '';
+  ((r.manh && r.manh.length) ? r.manh : [{}]).forEach(function (m) { addManh(m.text); });
+  ((r.yeu && r.yeu.length) ? r.yeu : [{}]).forEach(function (y) { addYeu(y); });
+  var g = $('genPhotos'); g.innerHTML = '';
+  (r.photos || []).forEach(function (id) { g.appendChild(photoThumb({ id: id })); });
+  g.appendChild(photoAdder());
+  go('new');
+}
+function askDelete() {
+  confirmBox('Xóa hẳn biên bản ' + current.id + ' (' + current.donVi + ') và toàn bộ ảnh? Không khôi phục được.', 'Xóa', function () {
+    var r = current;
+    busy('Đang xóa...');
+    db.collection('reports').doc(r.id).delete().then(function () {
+      if (assets) allPhotoIds(r).forEach(function (x) { assets.delete(x).catch(function () {}); });
+      reports = reports.filter(function (x) { return x.id !== r.id; });
+      busy(''); toast('Đã xóa biên bản.'); renderList(); go('list');
+    }).catch(fail);
+  });
+}
+
+/* ---------- Danh sách ---------- */
+function renderList() {
+  var month = todayIso().slice(0, 7);
+  var thisMonth = reports.filter(function (r) { return (r.ngay || '').slice(0, 7) === month; }).length;
+  var open = 0, overdue = 0;
+  reports.forEach(function (r) { (r.yeu || []).forEach(function (y) { if (!y.xong) open++; if (isOverdue(y)) overdue++; }); });
+  $('stats').innerHTML =
+    '<div class="stat"><b>' + thisMonth + '</b><span>Biên bản tháng này</span></div>' +
+    '<div class="stat"><b>' + open + '</b><span>Tồn tại chưa khắc phục</span></div>' +
+    '<div class="stat' + (overdue ? ' bad' : '') + '"><b>' + overdue + '</b><span>Tồn tại quá hạn</span></div>';
+
+  var fu = $('fUnit').value.trim().toLowerCase(), fm = $('fMonth').value;
+  var rows = reports.filter(function (r) { return (!fu || (r.donVi || '').toLowerCase().indexOf(fu) >= 0) && (!fm || (r.ngay || '').slice(0, 7) === fm); })
+    .sort(function (a, b) { return ((b.ngay || '') + (b.gio || '')).localeCompare((a.ngay || '') + (a.gio || '')) || b.id.localeCompare(a.id); });
+  var box = $('list');
+  if (!rows.length) {
+    box.innerHTML = reports.length
+      ? '<div class="empty"><b>Không có biên bản phù hợp</b>Thử bỏ bộ lọc đơn vị hoặc tháng.</div>'
+      : '<div class="empty"><b>Chưa có biên bản nào</b>Bấm "Tạo biên bản" để ghi lần kiểm tra đầu tiên. Biên bản đã lưu sẽ hiện ở đây kèm tình trạng khắc phục.</div>';
+    return;
+  }
+  box.innerHTML = '';
+  rows.forEach(function (r) {
+    var yeu = r.yeu || [], done = yeu.filter(function (y) { return y.xong; }).length, od = yeu.filter(isOverdue).length;
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'rep';
+    var xl = r.xepLoai ? '<span class="pill' + (r.xepLoai === 'Chưa đạt' ? ' bad' : r.xepLoai === 'Tốt' ? ' ok' : '') + '">' + esc(r.xepLoai) + '</span>' : '';
+    b.innerHTML = '<div class="t"><b>' + esc(r.donVi) + '</b>' + xl + '</div>' +
+      '<div class="meta">' + vnDate(r.ngay) + (r.noiDung && r.noiDung.length ? ' · ' + esc(r.noiDung.join(', ')) : '') + ' · <span class="mono">' + esc(r.id) + '</span></div>' +
+      '<div class="pills"><span class="pill ok">' + (r.manh || []).length + ' mặt mạnh</span>' +
+      (yeu.length ? '<span class="pill' + (done === yeu.length ? ' ok' : ' warn') + '">Khắc phục ' + done + '/' + yeu.length + '</span>' : '') +
+      (od ? '<span class="pill bad">' + od + ' quá hạn</span>' : '') +
+      '<span class="pill">' + allPhotoIds(r).length + ' ảnh</span></div>';
+    b.onclick = function () { openReport(r); };
+    box.appendChild(b);
+  });
+}
+
+/* ---------- Cài đặt ---------- */
+function fillCfgForm() {
+  $('cUnits').value = cfg.units.join('\n'); $('cTopics').value = cfg.topics.join('\n'); $('cCoQuan').value = cfg.coQuan || '';
+}
+function lines(s) { return s.split('\n').map(function (x) { return x.trim(); }).filter(Boolean); }
+function saveCfg() {
+  if (!db || !canWrite) { toast('Không có quyền sửa cài đặt.'); return; }
+  var c = { units: lines($('cUnits').value), topics: lines($('cTopics').value), coQuan: $('cCoQuan').value.trim() || 'Ban Hậu cần' };
+  db.doc('config/main').set(c).then(function () { toast('Đã lưu cài đặt.'); }).catch(fail);
+}
+function applyCfg(c) {
+  cfg = { units: c.units || DEFAULT_CFG.units, topics: c.topics || DEFAULT_CFG.topics, coQuan: c.coQuan || DEFAULT_CFG.coQuan };
+  renderUnits(); fillCfgForm();
+  if (!editingId && $('v-new').hidden) { renderTopics([]); if (!yeuCauTouched) $('yeuCau').value = defaultYeuCau(); }
+}
+
+/* ---------- Khởi động ---------- */
+$('yeuCau').addEventListener('input', function () { yeuCauTouched = true; });
+$('hanBaoCao').addEventListener('change', function () { if (!yeuCauTouched) $('yeuCau').value = defaultYeuCau(); });
+applyCfg(DEFAULT_CFG);
+resetForm();
+renderList();
+
+(function boot() {
+  var use = window.claude && window.claude.use ? function (n) { return window.claude.use(n).catch(function () { return null; }); } : function () { return Promise.resolve(null); };
+  var slow = setTimeout(function () { if (!db) $('offline').hidden = false; }, 2500);
+  Promise.all([use('db'), use('assets'), use('downloads'), use('user')]).then(function (c) {
+    clearTimeout(slow);
+    db = c[0]; assets = c[1]; downloads = c[2];
+    var user = c[3];
+    if (!db) { $('offline').hidden = false; $('ro-new').hidden = false; $('saveBtn').disabled = true; $('cfgBtn').disabled = true; return; }
+    $('offline').hidden = true;
+    var w = user ? user.can('data.write') : null;
+    return Promise.resolve(w).then(function (ok) {
+      canWrite = ok !== false;
+      if (!canWrite) { $('ro-new').hidden = false; $('saveBtn').disabled = true; $('cfgBtn').disabled = true; $('t-new').hidden = true; }
+      if (canWrite && !assets) toast('Trang này chưa được cấp quyền lưu ảnh.');
+      db.doc('config/main').onSnapshot(function (s) { if (s.exists) applyCfg(s.data()); }, function (e) { toast('Lỗi tải cài đặt: ' + errText(e)); });
+      db.collection('reports').onSnapshot(function (snap) {
+        reports = snap.docs.map(function (d) { return Object.assign({ id: d.id }, d.data()); });
+        renderList();
+        if (current) {
+          var fresh = reports.filter(function (r) { return r.id === current.id; })[0];
+          if (fresh && !$('v-show').hidden) { current = fresh; renderIssues(); }
+        }
+      }, function (e) { toast('Lỗi tải danh sách: ' + errText(e)); });
+    });
+  }).catch(fail);
+})();
+</script>
