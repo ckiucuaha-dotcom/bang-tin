@@ -645,8 +645,7 @@ function buildRoundMessage(rows) {
     (x.r.noiDung || []).forEach(function (t) { if (topics.indexOf(t) < 0) topics.push(t); });
     if (x.r.hanBaoCao && x.r.hanBaoCao > han) han = x.r.hanBaoCao;
   });
-  var L = ['📋 KẾT QUẢ KIỂM TRA HẬU CẦN', (d.ten ? d.ten.toUpperCase() + ' · ' : '') + roundDates()];
-  if (topics.length) L.push('Nội dung: ' + topics.join(', '));
+  var L = ['📋 KIỂM TRA ' + (topics.length ? topics.join(', ') : 'công tác hậu cần').toUpperCase(), roundDates()];
   rows.forEach(function (x, i) {
     var r = x.r;
     L.push('');
