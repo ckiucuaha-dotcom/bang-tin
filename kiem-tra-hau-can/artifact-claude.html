@@ -332,6 +332,7 @@ body { font-size: 16px; }
         <div class="btnrow">
           <button class="btn sm outline" type="button" onclick="go('rounds')"><svg class="i sm" aria-hidden="true"><use href="#i-cal"/></svg>Đổi đợt</button>
           <button class="btn sm" type="button" id="rNew" onclick="newRound()"><svg class="i sm" aria-hidden="true"><use href="#i-plus"/></svg>Đợt mới</button>
+          <button class="btn sm danger" type="button" id="rDel" onclick="askDeleteRound()"><svg class="i sm" aria-hidden="true"><use href="#i-trash"/></svg>Xóa đợt</button>
         </div>
       </div>
       <div class="card ulist" id="rUnits"></div>
@@ -457,7 +458,7 @@ body { font-size: 16px; }
   <button class="btn primary grow" type="button" onclick="pdfCurrent()"><svg class="i sm" aria-hidden="true"><use href="#i-pdf"/></svg>Tải PDF đơn vị</button>
 </div></div>
 <div class="abar" id="bar-roundf" hidden><div class="in">
-  <button class="btn danger" type="button" id="dDel" onclick="askDeleteRound()" aria-label="Xóa đợt"><svg class="i sm" aria-hidden="true"><use href="#i-trash"/></svg></button>
+  <button class="btn danger" type="button" id="dDel" onclick="askDeleteRound()"><svg class="i sm" aria-hidden="true"><use href="#i-trash"/></svg>Xóa đợt</button>
   <button class="btn primary grow" type="button" id="dSave" onclick="saveRound()"><svg class="i sm" aria-hidden="true"><use href="#i-check"/></svg>Lưu đợt kiểm tra</button>
 </div></div>
 <div class="abar" id="bar-send" hidden><div class="in">
@@ -608,7 +609,7 @@ function roundRows() { return rowsOf(activeRound()); }
 function renderRound() {
   var d = activeRound();
   $('rEmpty').hidden = !!d; $('rBody').hidden = !d;
-  $('rNew').hidden = $('rEdit').hidden = $('roundsNew').hidden = !canWrite;
+  $('rNew').hidden = $('rDel').hidden = $('rEdit').hidden = $('roundsNew').hidden = !canWrite;
   if (!d) return;
   var rows = roundRows(), done = rows.filter(function (x) { return x.r; }).length, issues = 0;
   $('rTitle').textContent = d.ten; $('rDates').textContent = roundDates();
@@ -1218,12 +1219,19 @@ function saveRound() {
 }
 function askDeleteRound() {
   var d = activeRound(); if (!d) return;
-  var n = reportsOf(d).filter(function (r) { return r.dotId === d.id; }).length;
-  if (n) { toast('Đợt còn ' + n + ' biên bản. Xóa các biên bản trước khi xóa đợt.'); return; }
-  confirmBox('Xóa ' + d.ten + '?', 'Đợt chưa có biên bản nào. Xóa sẽ không khôi phục được.', 'Xóa đợt', function () {
-    db.collection('rounds').doc(d.id).delete().then(function () {
+  var list = reports.filter(function (r) { return r.dotId === d.id; });
+  confirmBox('Xóa ' + d.ten + '?', list.length ? 'Đợt có ' + list.length + ' biên bản. Xóa đợt sẽ xóa luôn các biên bản và ảnh, không khôi phục được.' : 'Đợt chưa có biên bản. Xóa sẽ không khôi phục được.', 'Xóa đợt', function () {
+    busy('Đang xóa...');
+    list.reduce(function (p, r) {
+      return p.then(function () { return db.collection('reports').doc(r.id).delete(); }).then(function () {
+        if (assets) allPhotoIds(r).forEach(function (x) { assets.delete(x).catch(function () {}); });
+      });
+    }, Promise.resolve()).then(function () { return db.collection('rounds').doc(d.id).delete(); }).then(function () {
+      var ids = list.map(function (r) { return r.id; });
+      reports = reports.filter(function (r) { return ids.indexOf(r.id) < 0; });
       rounds = rounds.filter(function (x) { return x.id !== d.id; });
-      activeRoundId = null; pickRound(); editingRoundId = null; renderAll(); go('rounds'); toast('Đã xóa đợt.');
+      try { localStorage.removeItem('so-kt-dot'); } catch (e) {}
+      activeRoundId = null; editingRoundId = null; busy(''); renderAll(); go('rounds'); toast('Đã xóa đợt.');
     }).catch(fail);
   });
 }
