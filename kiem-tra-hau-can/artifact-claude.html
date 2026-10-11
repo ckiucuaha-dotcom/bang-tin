@@ -374,7 +374,7 @@ body { font-size: 16px; }
     <div class="card fsec">
       <label class="field"><span>Đơn vị (mỗi dòng một đơn vị, theo thứ tự báo cáo)</span><textarea id="cUnits" rows="6"></textarea></label>
       <label class="field"><span>Nội dung kiểm tra (mỗi dòng một mục)</span><textarea id="cTopics" rows="5"></textarea></label>
-      <label class="field"><span>Cơ quan nhận báo cáo</span><input id="cCoQuan" placeholder="Ban Hậu cần"></label>
+      <label class="field"><span>Cơ quan nhận báo cáo</span><input id="cCoQuan" placeholder="Chỉ huy Tiểu đoàn"></label>
       <div><button class="btn primary" type="button" id="cfgBtn" onclick="saveCfg()"><svg class="i sm" aria-hidden="true"><use href="#i-check"/></svg>Lưu cài đặt</button></div>
     </div>
     <div class="notice"><svg class="i" aria-hidden="true"><use href="#i-alert"/></svg><span>Không ghi quân số, phiên hiệu, vị trí doanh trại. Tránh chụp cổng, biển hiệu, khu vực hạn chế.</span></div>
@@ -395,9 +395,9 @@ body { font-size: 16px; }
       <label class="field"><span>Thành phần đoàn</span><textarea id="thanhPhan" rows="2" placeholder="Đ/c ... (Trưởng đoàn), Đ/c ..."></textarea></label>
     </div>
     <div class="card fsec">
-      <header><div class="num">II</div><h3>Mặt mạnh</h3></header>
+      <header><div class="num">II</div><h3>Điểm mạnh</h3></header>
       <div class="entries" id="manhList"></div>
-      <button class="btn sm addrow" type="button" onclick="addManh()"><svg class="i sm" aria-hidden="true"><use href="#i-plus"/></svg>Thêm mặt mạnh</button>
+      <button class="btn sm addrow" type="button" onclick="addManh()"><svg class="i sm" aria-hidden="true"><use href="#i-plus"/></svg>Thêm điểm mạnh</button>
     </div>
     <div class="card fsec">
       <header><div class="num">III</div><h3>Hạn chế</h3></header>
@@ -484,7 +484,7 @@ body { font-size: 16px; }
 var DEFAULT_CFG = {
   units: ['Đại đội 5', 'Đại đội 6', 'Đại đội 7', 'Đại đội 8', 'Khối trực thuộc'],
   topics: ['Doanh trại', 'Tăng gia sản xuất', 'Quân trang', 'Quân y, vệ sinh'],
-  coQuan: 'Ban Hậu cần'
+  coQuan: 'Chỉ huy Tiểu đoàn'
 };
 var db = null, assets = null, downloads = null, canWrite = false;
 var cfg = DEFAULT_CFG, reports = [], current = null, editingId = null, yeuCauTouched = false;
@@ -656,7 +656,7 @@ function buildRoundMessage(rows) {
     if ((r.yeu || []).length) r.yeu.forEach(function (y) { L.push('- ' + (y.text || 'Xem ảnh') + (y.han ? ' (hạn ' + shortDate(y.han) + ')' : '')); });
     else L.push('- Không có hạn chế');
   });
-  L.push('', '➜ Các đơn vị khắc phục hạn chế, báo cáo về ' + (cfg.coQuan || 'Ban Hậu cần') + (han ? ' trước ' + vnDate(han) : '') + '.');
+  L.push('', '➜ Các đơn vị khắc phục hạn chế, báo cáo về ' + (cfg.coQuan || 'Chỉ huy Tiểu đoàn') + (han ? ' trước ' + vnDate(han) : '') + '.');
   if (rows.some(function (x) { return x.r && (x.r.yeu || []).length; })) L.push('📎 Chi tiết, hình ảnh: xem file PDF.');
   return L.join('\n');
 }
@@ -670,7 +670,7 @@ function openSend() {
 }
 
 /* ---------- Form ---------- */
-function defaultYeuCau() { return 'Khắc phục dứt điểm các hạn chế, báo cáo kết quả (kèm ảnh) về ' + (cfg.coQuan || 'Ban Hậu cần') + '.'; }
+function defaultYeuCau() { return 'Khắc phục dứt điểm các hạn chế, báo cáo kết quả (kèm ảnh) về ' + (cfg.coQuan || 'Chỉ huy Tiểu đoàn') + '.'; }
 function renderTopics(selected, boxId) {
   selected = selected || [];
   var all = cfg.topics.slice();
@@ -711,7 +711,7 @@ function entryShell(kind) {
 }
 function addManh(text) {
   var d = entryShell('good');
-  d.querySelector('.body').innerHTML = '<textarea rows="2" aria-label="Mặt mạnh" placeholder="VD: Doanh trại ngăn nắp, nội vụ đúng quy định"></textarea>';
+  d.querySelector('.body').innerHTML = '<textarea rows="2" aria-label="Điểm mạnh" placeholder="VD: Doanh trại ngăn nắp, nội vụ đúng quy định"></textarea>';
   d.querySelector('textarea').value = text || '';
   $('manhList').appendChild(d); renumber();
 }
@@ -846,7 +846,7 @@ function renderDoc() {
     '</dl>';
   var m = r.manh || [];
   $('docManh').hidden = !m.length;
-  $('docManh').innerHTML = '<h3>Mặt mạnh<span class="pill ok">' + m.length + '</span></h3><ol>' +
+  $('docManh').innerHTML = '<h3>Điểm mạnh<span class="pill ok">' + m.length + '</span></h3><ol>' +
     m.map(function (x) { return '<li>' + ic('checkc', 'good-ic') + '<span>' + esc(x.text) + '</span></li>'; }).join('') + '</ol>';
   var box = $('docYeu');
   box.hidden = !yeu.length;
@@ -1044,7 +1044,7 @@ function drawUnit(doc, r, imgs, no) {
   if (r.thanhPhan) doc.text('Thành phần đoàn: ' + r.thanhPhan, { size: 24, color: '#333333', after: 2 });
   doc.space(8); doc.rule();
   if (r.manh && r.manh.length) {
-    doc.text('MẶT MẠNH', { size: 27, weight: 700, after: 8 });
+    doc.text('ĐIỂM MẠNH', { size: 27, weight: 700, after: 8 });
     r.manh.forEach(function (m, i) { doc.text((i + 1) + '. ' + m.text, { indent: 10, after: 4 }); });
     doc.space(16);
   }
@@ -1093,7 +1093,7 @@ function makePdf(rows, opts) {
       if (no > 0) doc.newPage();
       drawUnit(doc, x.r, imgs, opts.table ? i + 1 : 0); no++;
     });
-    doc.signature(opts.signs);
+
     var pages = doc.finish(opts.footer);
     busy('Đang đóng gói PDF (' + pages.length + ' trang)...');
     var pdf = new J({ unit: 'pt', format: 'a4', compress: true });
@@ -1112,7 +1112,7 @@ function pdfCurrent() {
   var r = current;
   makePdf([{ unit: r.donVi, r: r }], {
     title: 'BIÊN BẢN KIỂM TRA CÔNG TÁC HẬU CẦN', sub: r.donVi + ' · ' + timeText(r),
-    signs: ['ĐẠI DIỆN ĐƠN VỊ', 'TRƯỞNG ĐOÀN KIỂM TRA'], footer: 'Biên bản ' + r.id,
+footer: 'Biên bản ' + r.id,
     filename: 'Bien-ban-' + fileSafe(r.donVi) + '-' + r.ngay + '.pdf'
   }).catch(fail);
 }
@@ -1120,7 +1120,7 @@ function pdfBatch() {
   var rg = roundRange(), name = roundLabel();
   makePdf(roundRows(), {
     title: 'KẾT QUẢ KIỂM TRA CÔNG TÁC HẬU CẦN', sub: name + ' · ' + rangeText(rg), table: true,
-    signs: ['TRƯỞNG ĐOÀN KIỂM TRA'], footer: name + ' · ' + rangeText(rg),
+footer: name + ' · ' + rangeText(rg),
     filename: 'Ket-qua-' + fileSafe(name) + '-' + rg.from + '.pdf'
   }).catch(fail);
 }
@@ -1234,7 +1234,7 @@ function fillCfgForm() { $('cUnits').value = cfg.units.join('\n'); $('cTopics').
 function lines(s) { return s.split('\n').map(function (x) { return x.trim(); }).filter(Boolean); }
 function saveCfg() {
   if (!db || !canWrite) { toast('Không có quyền sửa cài đặt.'); return; }
-  var c = { units: lines($('cUnits').value), topics: lines($('cTopics').value), coQuan: $('cCoQuan').value.trim() || 'Ban Hậu cần' };
+  var c = { units: lines($('cUnits').value), topics: lines($('cTopics').value), coQuan: $('cCoQuan').value.trim() || 'Chỉ huy Tiểu đoàn' };
   db.doc('config/main').set(c).then(function () { toast('Đã lưu cài đặt.'); }).catch(fail);
 }
 function applyCfg(c) {
